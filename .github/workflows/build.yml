@@ -45,13 +45,28 @@ jobs:
           cp -R platform/windows/. windows/
           sed -i 's/set(BINARY_NAME "mentor_policial")/set(BINARY_NAME "MentorPolicial")/' windows/CMakeLists.txt
       - run: flutter build windows --release
-      - name: Compactar
+      - name: Incluir bibliotecas do Visual C++ (para PCs que não as têm)
         shell: pwsh
-        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath MentorPolicial-windows-x64.zip
+        run: |
+          foreach ($dll in 'msvcp140.dll', 'vcruntime140.dll', 'vcruntime140_1.dll') {
+            Copy-Item "C:\Windows\System32\$dll" build/windows/x64/runner/Release/ -ErrorAction Stop
+          }
+      - name: Gerar o instalador (Inno Setup)
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+          $version = (Select-String -Path pubspec.yaml -Pattern '^version:\s*([0-9.]+)').Matches[0].Groups[1].Value
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" "/DAppVersion=$version" windows\installer.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Compactar a versão portátil
+        shell: pwsh
+        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath MentorPolicial-windows-portatil.zip
       - uses: actions/upload-artifact@v4
         with:
-          name: MentorPolicial-windows-x64
-          path: MentorPolicial-windows-x64.zip
+          name: MentorPolicial-windows
+          path: |
+            dist/MentorPolicial-Setup.exe
+            MentorPolicial-windows-portatil.zip
 
   macos:
     name: macOS (Apple Silicon e Intel)
@@ -69,14 +84,15 @@ jobs:
           rm -f test/widget_test.dart
           cp -R platform/macos/. macos/
       - run: flutter build macos --release
-      - name: Compactar
+      - name: Gerar o .dmg
         run: |
           APP=$(find build/macos/Build/Products/Release -maxdepth 1 -name "*.app" | head -1)
-          ditto -c -k --sequesterRsrc --keepParent "$APP" MentorPolicial-macos.zip
+          mkdir dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
+          hdiutil create -volname "Mentor Policial" -srcfolder dmg -ov -format UDZO MentorPolicial-macOS.dmg
       - uses: actions/upload-artifact@v4
         with:
           name: MentorPolicial-macos
-          path: MentorPolicial-macos.zip
+          path: MentorPolicial-macOS.dmg
 
   release:
     name: Publicar versão (tags v*)
@@ -92,9 +108,17 @@ jobs:
           merge-multiple: true
       - uses: softprops/action-gh-release@v2
         with:
-          files: dist/*.zip
-          prerelease: true
+          files: |
+            dist/**/MentorPolicial-Setup.exe
+            dist/**/MentorPolicial-windows-portatil.zip
+            dist/**/MentorPolicial-macOS.dmg
+          prerelease: false
+          make_latest: true
           body: |
-            Versão de testes do Mentor Policial.
-            Windows: descompacte e abra MentorPolicial.exe.
-            macOS: descompacte, clique com o botão direito em "Mentor Policial" › Abrir (app ainda sem assinatura da Apple).
+            ## Como instalar
+
+            **Windows:** baixe `MentorPolicial-Setup.exe`, abra e clique em Avançar › Instalar. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** › **Executar assim mesmo**.
+
+            **Mac:** baixe `MentorPolicial-macOS.dmg`, abra e arraste o Mentor Policial para Aplicativos. Na primeira vez, se o Mac bloquear: Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**.
+
+            Seus dados ficam salvos no computador e são mantidos nas atualizações.
