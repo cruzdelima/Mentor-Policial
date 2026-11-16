@@ -1,0 +1,444 @@
+{
+ "id": "cont-conceitos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "CONT",
+ "topicIds": [
+  "CONT-01"
+ ],
+ "kind": "resumo",
+ "title": "Contabilidade: conceito, objeto e finalidade",
+ "subtitle": "Contabilidade Geral · Fundamentos",
+ "minutes": 40,
+ "pdf": "contabilidade_conceitos.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Trocas de conceito: **objeto × objetivo**; contabilidade como **ciência exata**; campo restrito a **empresas**; função **administrativa × econômica**; e, do CPC 00, **usuários primários** e características **fundamentais × de melhoria**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conceito, objeto e finalidade"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Resposta"
+     ],
+     "widths": [
+      0.28,
+      0.72
+     ],
+     "rows": [
+      [
+       "O que é?",
+       "**Ciência social aplicada** que estuda, registra, controla e interpreta os fatos que afetam o patrimônio. Não é ciência exata."
+      ],
+      [
+       "O que estuda? (objeto)",
+       "O **patrimônio**: conjunto de **bens, direitos e obrigações** de uma entidade."
+      ],
+      [
+       "Para que serve? (finalidade)",
+       "**Fornecer informações úteis** para a tomada de decisão, servindo ao **controle** e ao **planejamento**."
+      ],
+      [
+       "Onde se aplica? (campo)",
+       "Nas **aziendas**: qualquer entidade com patrimônio — física ou jurídica, pública ou privada, **com ou sem fins lucrativos**."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Definição clássica (1º Congresso Brasileiro de Contabilidade, 1924): ciência que estuda e pratica as funções de orientação, de controle e de registro relativas à administração econômica."
+    },
+    {
+     "t": "h2",
+     "text": "2. Patrimônio em uma linha"
+    },
+    {
+     "t": "p",
+     "text": "**Bens + direitos = ativo**. **Obrigações = passivo exigível**. A diferença é o **patrimônio líquido**. Aspecto **qualitativo** = natureza dos elementos; aspecto **quantitativo** = valor em moeda."
+    },
+    {
+     "t": "h2",
+     "text": "3. Funções"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Administrativa**: controlar o patrimônio.",
+      "**Econômica**: apurar o resultado (lucro ou prejuízo), também chamado de rédito."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Usuários"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grupo",
+      "Quem são"
+     ],
+     "widths": [
+      0.3,
+      0.7
+     ],
+     "rows": [
+      [
+       "Internos",
+       "Administradores, gerentes, sócios que gerem o negócio, empregados."
+      ],
+      [
+       "Externos",
+       "Investidores, bancos, fornecedores, clientes, governo, sindicatos."
+      ],
+      [
+       "Primários (CPC 00)",
+       "**Investidores, credores por empréstimos e outros credores, existentes e potenciais.** A administração e os órgãos reguladores **não** são usuários primários."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Técnicas contábeis"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Técnica",
+      "Verbo",
+      "Produto"
+     ],
+     "widths": [
+      0.36,
+      0.24,
+      0.4
+     ],
+     "rows": [
+      [
+       "Escrituração",
+       "Registrar",
+       "Livros Diário e Razão"
+      ],
+      [
+       "Demonstrações contábeis",
+       "Resumir",
+       "Balanço, DRE e demais demonstrações"
+      ],
+      [
+       "Auditoria",
+       "Conferir",
+       "Relatório do auditor"
+      ],
+      [
+       "Análise das demonstrações",
+       "Interpretar",
+       "Índices"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Lei nº 6.404/1976, art. 176: BP, DRE, DLPA e DFC; a DVA só é obrigatória para companhias abertas. Exercício social: um ano."
+    },
+    {
+     "t": "h2",
+     "text": "6. Três ideias de base"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Entidade**: o patrimônio da empresa não se mistura com o dos sócios.",
+      "**Continuidade**: presume-se que a entidade seguirá operando (premissa subjacente no CPC 00).",
+      "**Competência**: receitas e despesas no período do **fato gerador**, independentemente de recebimento ou pagamento. O contrário é o **regime de caixa**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "7. Características qualitativas (CPC 00 R2)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grupo",
+      "Características"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "Fundamentais",
+       "**Relevância** (faz diferença na decisão; valor preditivo e confirmatório; materialidade) e **representação fidedigna** (completa, neutra e isenta de erros)."
+      ],
+      [
+       "De melhoria",
+       "**Comparabilidade, capacidade de verificação, tempestividade e compreensibilidade.**"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha",
+     "text": "Só **duas** são fundamentais. Tempestividade e comparabilidade são **de melhoria**. E **comparabilidade não é uniformidade**."
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: o quê × para quê"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Conceito",
+      "Resposta curta",
+      "Erro clássico da banca"
+     ],
+     "widths": [
+      0.24,
+      0.36,
+      0.4
+     ],
+     "rows": [
+      [
+       "Natureza",
+       "Ciência social aplicada",
+       "“Ciência exata”"
+      ],
+      [
+       "Objeto",
+       "Patrimônio",
+       "“Fornecer informações”"
+      ],
+      [
+       "Finalidade",
+       "Informação útil para decidir",
+       "“Apurar tributos” ou “o patrimônio”"
+      ],
+      [
+       "Campo de aplicação",
+       "Qualquer entidade com patrimônio",
+       "“Apenas entidades com fins lucrativos”"
+      ],
+      [
+       "Função administrativa",
+       "Controlar o patrimônio",
+       "Trocar com a econômica"
+      ],
+      [
+       "Função econômica",
+       "Apurar o resultado",
+       "Trocar com a administrativa"
+      ],
+      [
+       "Usuários primários",
+       "Investidores e credores",
+       "Incluir a administração ou o governo"
+      ],
+      [
+       "Regime adotado",
+       "Competência",
+       "“Receita só quando recebe”"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Objeto = patrimônio. Objetivo = informação.**",
+      "Ciência **social**, nunca exata.",
+      "Vale para entidades **sem fins lucrativos** e para o **setor público**.",
+      "Administrativa = **controle**; econômica = **resultado**.",
+      "Técnicas: **registrar, resumir, conferir, interpretar**.",
+      "Fundamentais: **relevância** e **representação fidedigna**. O resto é de melhoria.",
+      "Fidedigna = **completa, neutra e isenta de erros**.",
+      "**Entidade**: despesa do sócio não é despesa da empresa.",
+      "**Competência**: fato gerador, não dinheiro.",
+      "**DVA**: só companhia aberta."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CONTABILIDADE",
+  "rootSub": "ciência social aplicada",
+  "left": [
+   {
+    "label": "Objeto",
+    "items": [
+     "Patrimônio da entidade",
+     "Bens + direitos − obrigações",
+     "Qualitativo e quantitativo"
+    ]
+   },
+   {
+    "label": "Finalidade",
+    "items": [
+     "Informação útil para decidir",
+     "Controle e planejamento",
+     "Não é apurar imposto"
+    ]
+   },
+   {
+    "label": "Funções",
+    "items": [
+     "Administrativa: controle",
+     "Econômica: resultado (rédito)"
+    ]
+   },
+   {
+    "label": "Campo de aplicação",
+    "items": [
+     "Aziendas: quem tem patrimônio",
+     "Com ou sem fins lucrativos",
+     "Pública ou privada"
+    ]
+   },
+   {
+    "label": "Técnicas",
+    "items": [
+     "Escrituração: registrar",
+     "Demonstrações: resumir",
+     "Auditoria e análise"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Usuários",
+    "items": [
+     "Internos e externos",
+     "Primários: investidores e credores",
+     "Administração não é primária"
+    ]
+   },
+   {
+    "label": "Ideias de base",
+    "items": [
+     "Entidade: sócio ≠ empresa",
+     "Continuidade: seguirá operando",
+     "Competência: fato gerador"
+    ]
+   },
+   {
+    "label": "Fundamentais (CPC 00)",
+    "items": [
+     "Relevância",
+     "Representação fidedigna",
+     "Completa, neutra, sem erros"
+    ]
+   },
+   {
+    "label": "De melhoria (CPC 00)",
+    "items": [
+     "Comparabilidade",
+     "Capacidade de verificação",
+     "Tempestividade e compreensibilidade"
+    ]
+   },
+   {
+    "label": "Lei 6.404/1976",
+    "items": [
+     "BP, DRE, DLPA e DFC",
+     "DVA: só companhia aberta",
+     "Exercício social: 1 ano"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "E",
+    "text": "A finalidade da contabilidade é o patrimônio, entendido como o conjunto de bens, direitos e obrigações.",
+    "comment": "**Errado.** O patrimônio é o objeto. A finalidade é fornecer informações úteis para a tomada de decisão."
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "A contabilidade aplica-se tanto a entidades com fins lucrativos quanto a entidades sem fins lucrativos, bem como a pessoas físicas.",
+    "comment": "**Certo.** O campo de aplicação alcança qualquer entidade que possua patrimônio."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Apurar o lucro ou o prejuízo de determinado período corresponde à função econômica da contabilidade.",
+    "comment": "**Certo.** A função administrativa é controlar o patrimônio; a econômica, apurar o resultado."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Os bens e os direitos de uma entidade compõem o seu passivo exigível.",
+    "comment": "**Errado.** Bens e direitos compõem o ativo. O passivo exigível é formado pelas obrigações."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A análise das demonstrações contábeis é a técnica que permite interpretar a situação da entidade por meio da decomposição e da comparação dos dados das demonstrações.",
+    "comment": "**Certo.** É a técnica da interpretação, também chamada de análise de balanços."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Conforme a Estrutura Conceitual, os órgãos reguladores e o governo são os usuários primários dos relatórios financeiros para fins gerais.",
+    "comment": "**Errado.** Os usuários primários são investidores, credores por empréstimos e outros credores, existentes e potenciais."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A compreensibilidade e a capacidade de verificação são características qualitativas de melhoria da informação contábil.",
+    "comment": "**Certo.** As de melhoria são comparabilidade, capacidade de verificação, tempestividade e compreensibilidade."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A informação contábil é considerada neutra quando é capaz de fazer diferença nas decisões dos usuários.",
+    "comment": "**Errado.** Fazer diferença nas decisões é relevância. Neutralidade é ausência de viés, um dos atributos da representação fidedigna."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "Uma venda a prazo efetuada em dezembro, com recebimento em janeiro, deve ser reconhecida como receita de janeiro, conforme o regime de competência.",
+    "comment": "**Errado.** Pela competência, a receita pertence ao período do fato gerador: dezembro. O reconhecimento em janeiro seguiria o regime de caixa."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "De acordo com a ideia de entidade, o patrimônio da pessoa jurídica não se confunde com o patrimônio de seus sócios.",
+    "comment": "**Certo.** É a autonomia patrimonial."
+   }
+  ]
+ },
+ "sources": [
+  "CPC 00 (R2) — Estrutura Conceitual para Relatório Financeiro; Lei nº 6.404/1976, arts. 175 a 177.",
+  "Texto e questões elaborados para o Mentor Policial (itens inéditos no estilo Cebraspe)."
+ ]
+}

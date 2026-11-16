@@ -1,0 +1,462 @@
+import 'dart:async';
+import 'dart:convert';
+import 'dart:io';
+import 'dart:math' as math;
+
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
+
+import '../core/catalog.dart';
+import '../core/dates.dart';
+import '../core/models.dart';
+import '../core/planner.dart';
+import '../core/stats.dart';
+import '../data/content.dart';
+import '../data/storage.dart';
+
+const kAppVersion = '0.2.0';
+const kAppChannel = 'Beta de testes';
+
+/// Endereço de um JSON com {"version": "x.y.z", "url": "..."} para avisar sobre novas versões.
+/// Vazio = verificação desativada (as versões de teste são distribuídas manualmente).
+const kUpdateManifestUrl = '';
+
+enum AppPage { qg, missions, edital, diary, materials, method, settings }
+
+/// Biblioteca de conteúdos: embutidos + pacotes locais.
+class ContentLibrary {
+  ContentLibrary(this.items);
+
+  final List<MaterialInfo> items;
+  final Map<String, StudyMaterial> _cache = {};
+
+  static Future<ContentLibrary> load(AssetBundle bundle, Storage storage) async {
+    final items = <MaterialInfo>[];
+    try {
+      final j = jsonDecode(await bundle.loadString('assets/content/index.json')) as Map<String, dynamic>;
+      for (final m in j['materials'] as List) {
+        items.add(MaterialInfo.fromJson(m as Map<String, dynamic>, 'asset'));
+      }
+    } catch (e) {
+      debugPrint('Conteúdo embutido indisponível: $e');
+    }
+    // Pacotes locais: <dados>/conteudos/<pacote>/index.json (atualização de conteúdo sem nova versão do app).
+    try {
+      if (await storage.packsDir.exists()) {
+        for (final d in storage.packsDir.listSync().whereType<Directory>()) {
+          final f = File(Storage.join(d.path, 'index.json'));
+          if (!await f.exists()) continue;
+          final j = jsonDecode(await f.readAsString()) as Map<String, dynamic>;
+          for (final m in j['materials'] as List) {
+            final info = MaterialInfo.fromJson(m as Map<String, dynamic>, d.path);
+            items.removeWhere((x) => x.id == info.id);
+            items.add(info);
+          }
+        }
+      }
+    } catch (e) {
+      debugPrint('Pacote de conteúdo inválido: $e');
+    }
+    return ContentLibrary(items);
+  }
+
+  /// Materiais do assunto, com o aprofundado (estudo inicial) na frente.
+  List<MaterialInfo> forTopic(String topicId) {
+    final list = items.where((m) => m.topicIds.contains(topicId)).toList();
+    return [...list.where((m) => m.isDeep), ...list.where((m) => !m.isDeep)];
+  }
+
+  /// Resumo (material de revisão) do primeiro assunto da lista que tiver um.
+  MaterialInfo? reviewFor(List<String> topicIds) {
+    for (final id in topicIds) {
+      for (final m in items) {
+        if (!m.isDeep && m.topicIds.contains(id)) return m;
+      }
+    }
+    return null;
+  }
+
+  Future<StudyMaterial> open(MaterialInfo info, AssetBundle bundle) async {
+    final cached = _cache[info.id];
+    if (cached != null) return cached;
+    String text;
+    if (info.source == 'asset') {
+      text = await bundle.loadString('assets/content/${info.folder}/material.json');
+    } else {
+      text = await File(Storage.join(Storage.join(info.source, info.folder), 'material.json')).readAsString();
+    }
+    final m = StudyMaterial.fromJson(info, jsonDecode(text) as Map<String, dynamic>);
+    _cache[info.id] = m;
+    return m;
+  }
+
+  /// Caminho do PDF no disco (copia do app para a pasta de dados quando necessário).
+  Future<String?> pdfPath(StudyMaterial m, AssetBundle bundle, Storage storage) async {
+    final pdf = m.pdf;
+    if (pdf == null) return null;
+    if (m.info.source != 'asset') return Storage.join(Storage.join(m.info.source, m.info.folder), pdf);
+    final data = await bundle.load('assets/content/${m.info.folder}/$pdf');
+    await storage.materialsDir.create(recursive: true);
+    final name = 'MentorPolicial_${m.info.folder}_v${m.info.version}.pdf';
+    final f = File(Storage.join(storage.materialsDir.path, name));
+    if (!await f.exists() || await f.length() != data.lengthInBytes) {
+      await f.writeAsBytes(data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), flush: true);
+    }
+    return f.path;
+  }
+}
+
+class AppController extends ChangeNotifier {
+  AppController({
+    required this.catalog,
+    required this.storage,
+    required this.data,
+    required this.content,
+    required this.bundle,
+    DateTime Function()? clock,
+  }) : clock = clock ?? DateTime.now {
+    _day = today;
+    _recompute();
+  }
+
+  static Future<AppController> load() async {
+    final bundle = rootBundle;
+    final catalog = Catalog.fromJson(jsonDecode(await bundle.loadString('assets/catalog/catalog.json')) as Map<String, dynamic>);
+    final storage = Storage(Storage.defaultDir());
+    final data = await storage.load();
+    final content = await ContentLibrary.load(bundle, storage);
+    final c = AppController(catalog: catalog, storage: storage, data: data, content: content, bundle: bundle);
+    c._startClock();
+    return c;
+  }
+
+  final Catalog catalog;
+  final Storage storage;
+  final ContentLibrary content;
+  final AssetBundle bundle;
+  final DateTime Function() clock;
+  UserData data;
+
+  /// Persistência desligada nos testes automatizados.
+  bool persist = true;
+
+  Trail? trail;
+  Schedule? schedule;
+  Stats? stats;
+  late DateTime _day;
+  Timer? _timer;
+
+  AppPage page = AppPage.qg;
+  String? pendingMaterialId;
+  DateTime? missionsFocus;
+
+  DateTime get today => dateOnly(clock());
+  bool get onboarded => data.profile != null;
+  Profile get profile => data.profile!;
+  Career get career => catalog.career(profile.careerCode);
+  Cargo get cargo => catalog.cargo(profile.optionId);
+
+  void _startClock() {
+    _timer = Timer.periodic(const Duration(minutes: 1), (_) {
+      if (!sameDay(_day, today)) {
+        _day = today;
+        _recompute();
+        notifyListeners();
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  void _recompute() {
+    final p = data.profile;
+    if (p == null) {
+      trail = null;
+      schedule = null;
+      stats = null;
+      return;
+    }
+    final t = Planner.buildTrail(catalog, p, data.overrides);
+    trail = t;
+    schedule = Schedule(catalog: catalog, trail: t, profile: p, data: data, today: today);
+    stats = Stats(catalog, data, t, today);
+  }
+
+  void _changed() {
+    _recompute();
+    notifyListeners();
+    if (persist) storage.save(data);
+  }
+
+  void goTo(AppPage p, {String? materialId, DateTime? day}) {
+    page = p;
+    pendingMaterialId = materialId;
+    missionsFocus = day;
+    notifyListeners();
+  }
+
+  // ---------------------------------------------------------------- perfil e plano
+
+  DateTime _anchorFor(Profile p) {
+    final t = today;
+    if (t.isBefore(p.startDate)) return p.startDate;
+    final didToday = data.unitDone.values.any((d) => sameDay(d.date, t));
+    return didToday ? addDays(t, 1) : t;
+  }
+
+  void completeOnboarding(Profile p) {
+    data.profile = p;
+    data.anchorDate = today.isBefore(p.startDate) ? p.startDate : today;
+    data.doneAtAnchor = data.unitDone.keys.toSet();
+    data.planSignature = p.planSignature;
+    page = AppPage.qg;
+    _changed();
+  }
+
+  /// Atualiza o perfil. Se algo que muda a trilha foi alterado, replaneja a partir de hoje.
+  void updateProfile(Profile p) {
+    final changed = p.planSignature != data.planSignature;
+    data.profile = p;
+    if (changed) {
+      data.anchorDate = _anchorFor(p);
+      data.doneAtAnchor = data.unitDone.keys.toSet();
+      data.planSignature = p.planSignature;
+    }
+    _changed();
+  }
+
+  /// Recomeça o cronograma a partir de hoje, com as missões pendentes na ordem do ciclo.
+  void replan() {
+    data.anchorDate = _anchorFor(profile);
+    data.doneAtAnchor = data.unitDone.keys.toSet();
+    data.planSignature = profile.planSignature;
+    _changed();
+  }
+
+  void _replanQuiet() {
+    data.anchorDate = _anchorFor(profile);
+    data.doneAtAnchor = data.unitDone.keys.toSet();
+  }
+
+  // ---------------------------------------------------------------- missões e tarefas
+
+  bool isUnitDone(Unit u) => data.unitDone.containsKey(u.id);
+  bool isTaskDone(String key) => data.taskDone.containsKey(key);
+
+  void completeUnit(Unit u, {int questions = 0, int correct = 0, required int minutes, String source = '', String notes = ''}) {
+    if (isUnitDone(u)) return;
+    final e = DiaryEntry(
+      id: data.nextId('d'),
+      date: today,
+      type: u.isTheory ? 'Teoria' : 'Questões',
+      subjectId: u.subject.id,
+      topicIds: [u.topic.id],
+      questions: questions,
+      correct: math.min(correct, questions),
+      minutes: minutes,
+      source: source,
+      notes: notes,
+      origin: 'unit:${u.id}',
+    );
+    data.diary.add(e);
+    data.unitDone[u.id] = Done(today, e.id);
+    _changed();
+  }
+
+  void undoUnit(Unit u) {
+    final d = data.unitDone.remove(u.id);
+    if (d?.entryId != null) data.diary.removeWhere((e) => e.id == d!.entryId);
+    _changed();
+  }
+
+  void completeTask(DayTask t, {int questions = 0, int correct = 0, int? minutes, String notes = ''}) {
+    if (isTaskDone(t.key)) return;
+    String? entryId;
+    if (t.diaryType != null) {
+      final subjects = {for (final id in t.topicIds) catalog.topic(id)?.subjectId};
+      final e = DiaryEntry(
+        id: data.nextId('d'),
+        date: today,
+        type: t.diaryType!,
+        subjectId: subjects.length == 1 ? subjects.first : null,
+        topicIds: t.topicIds,
+        questions: questions,
+        correct: math.min(correct, questions),
+        minutes: minutes ?? t.minutes,
+        source: t.code == 'LEI' ? 'Lei seca' : (t.code == 'SIM' ? 'Simulado' : ''),
+        notes: notes.isNotEmpty ? notes : (t.code == 'LEI' ? t.detail : t.title),
+        origin: 'task:${t.key}',
+      );
+      data.diary.add(e);
+      entryId = e.id;
+    }
+    data.taskDone[t.key] = Done(today, entryId);
+    _changed();
+  }
+
+  void undoTask(String key) {
+    final d = data.taskDone.remove(key);
+    if (d?.entryId != null) data.diary.removeWhere((e) => e.id == d!.entryId);
+    _changed();
+  }
+
+  // ---------------------------------------------------------------- diário
+
+  void addEntry(DiaryEntry e) {
+    data.diary.add(e);
+    _changed();
+  }
+
+  void updateEntry(DiaryEntry e) {
+    final i = data.diary.indexWhere((x) => x.id == e.id);
+    if (i >= 0) data.diary[i] = e;
+    _changed();
+  }
+
+  void deleteEntry(DiaryEntry e) {
+    data.diary.removeWhere((x) => x.id == e.id);
+    data.unitDone.removeWhere((k, v) => v.entryId == e.id);
+    data.taskDone.removeWhere((k, v) => v.entryId == e.id);
+    _changed();
+  }
+
+  String newId(String prefix) => data.nextId(prefix);
+
+  // ---------------------------------------------------------------- edital
+
+  TopicOverride _ov(String id) => data.overrides[id] ??= TopicOverride();
+
+  void setSkip(String topicId, bool skip) {
+    _ov(topicId).skip = skip;
+    _replanQuiet();
+    _changed();
+  }
+
+  void setSize(String topicId, String? size) {
+    final t = catalog.topic(topicId);
+    _ov(topicId).size = (size == null || size == t?.size) ? null : size;
+    _replanQuiet();
+    _changed();
+  }
+
+  void setTopicNotes(String topicId, String notes) {
+    _ov(topicId).notes = notes;
+    _changed();
+  }
+
+  // ---------------------------------------------------------------- materiais e questões
+
+  QuizAttempt submitQuiz(StudyMaterial m, Map<String, String?> answers, {int minutes = 0}) {
+    final quiz = m.quiz!;
+    var c = 0, w = 0, b = 0;
+    for (final q in quiz.questions) {
+      final a = answers[q.id];
+      if (a == null) {
+        b++;
+      } else if (a == q.answer) {
+        c++;
+      } else {
+        w++;
+      }
+    }
+    final attempt = QuizAttempt(date: today, answers: Map.of(answers), correct: c, wrong: w, blank: b);
+    (data.quizzes[m.info.id] ??= []).add(attempt);
+    if (c + w > 0) {
+      data.diary.add(DiaryEntry(
+        id: data.nextId('d'),
+        date: today,
+        type: 'Questões',
+        subjectId: m.info.subjectId,
+        topicIds: m.info.topicIds,
+        questions: c + w,
+        correct: c,
+        minutes: minutes > 0 ? minutes : ((c + w) * 3),
+        source: 'Material do app',
+        notes: '${m.info.title} · líquida ${c - w}${b > 0 ? ' · $b em branco' : ''}',
+        origin: 'quiz:${m.info.id}',
+      ));
+    }
+    _changed();
+    return attempt;
+  }
+
+  List<QuizAttempt> attemptsOf(String materialId) => data.quizzes[materialId] ?? const [];
+
+  void setReadProgress(String materialId, int section) {
+    final cur = data.readProgress[materialId] ?? -1;
+    if (section > cur) {
+      data.readProgress[materialId] = section;
+      if (persist) storage.save(data);
+    }
+  }
+
+  void addUserMaterial(UserMaterial m) {
+    data.materials.add(m);
+    _changed();
+  }
+
+  void removeUserMaterial(UserMaterial m) {
+    data.materials.removeWhere((x) => x.id == m.id);
+    _changed();
+  }
+
+  Future<String?> pdfPathOf(StudyMaterial m) => content.pdfPath(m, bundle, storage);
+
+  // ---------------------------------------------------------------- dados
+
+  Future<String> exportBackup() => storage.exportBackup(data);
+
+  Future<void> importBackup(String path) async {
+    final d = await storage.readBackup(path);
+    data = d;
+    _changed();
+  }
+
+  void resetAll() {
+    data = UserData();
+    page = AppPage.qg;
+    _changed();
+  }
+
+  /// Verifica se há versão nova (desativado enquanto [kUpdateManifestUrl] estiver vazio).
+  Future<({String version, String url})?> checkUpdate() async {
+    if (kUpdateManifestUrl.isEmpty) return null;
+    final client = HttpClient()..connectionTimeout = const Duration(seconds: 6);
+    try {
+      final req = await client.getUrl(Uri.parse(kUpdateManifestUrl));
+      final res = await req.close();
+      if (res.statusCode != 200) return null;
+      final j = jsonDecode(await res.transform(utf8.decoder).join()) as Map<String, dynamic>;
+      final v = j['version'] as String? ?? '';
+      if (_newer(v, kAppVersion)) return (version: v, url: j['url'] as String? ?? '');
+      return null;
+    } catch (_) {
+      return null;
+    } finally {
+      client.close();
+    }
+  }
+
+  static bool _newer(String a, String b) {
+    List<int> p(String s) => [for (final x in s.split('.')) int.tryParse(x) ?? 0];
+    final x = p(a), y = p(b);
+    for (var i = 0; i < 3; i++) {
+      final xi = i < x.length ? x[i] : 0, yi = i < y.length ? y[i] : 0;
+      if (xi != yi) return xi > yi;
+    }
+    return false;
+  }
+}
+
+/// Disponibiliza o controlador para a árvore de widgets.
+class AppScope extends InheritedNotifier<AppController> {
+  const AppScope({super.key, required AppController controller, required super.child}) : super(notifier: controller);
+
+  static AppController of(BuildContext context) => context.dependOnInheritedWidgetOfExactType<AppScope>()!.notifier!;
+
+  static AppController read(BuildContext context) => context.getInheritedWidgetOfExactType<AppScope>()!.notifier!;
+}

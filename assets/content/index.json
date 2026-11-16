@@ -1,0 +1,125 @@
+{
+ "version": "2026.11.2",
+ "materials": [
+  {
+   "id": "lp-ortografia-02",
+   "folder": "portugues_ortografia_aprofundado",
+   "title": "Ortografia oficial",
+   "subtitle": "Língua Portuguesa · Ortografia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-01"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-ortografia-01",
+   "folder": "portugues_ortografia",
+   "title": "Ortografia oficial",
+   "subtitle": "Língua Portuguesa · Ortografia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-01"
+   ],
+   "kind": "resumo",
+   "minutes": 45,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "info-malware-02",
+   "folder": "informatica_virus_aprofundado",
+   "title": "Vírus e outros códigos maliciosos",
+   "subtitle": "Informática · Segurança da informação",
+   "subjectId": "INFO",
+   "topicIds": [
+    "INFO-12"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "info-malware-01",
+   "folder": "informatica_virus",
+   "title": "Vírus e outros códigos maliciosos",
+   "subtitle": "Informática · Segurança da informação",
+   "subjectId": "INFO",
+   "topicIds": [
+    "INFO-12"
+   ],
+   "kind": "resumo",
+   "minutes": 50,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Aprovado pelo autor"
+  },
+  {
+   "id": "cont-conceitos-02",
+   "folder": "contabilidade_conceitos_aprofundado",
+   "title": "Contabilidade: conceito, objeto e finalidade",
+   "subtitle": "Contabilidade Geral · Fundamentos",
+   "subjectId": "CONT",
+   "topicIds": [
+    "CONT-01"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "cont-conceitos-01",
+   "folder": "contabilidade_conceitos",
+   "title": "Contabilidade: conceito, objeto e finalidade",
+   "subtitle": "Contabilidade Geral · Fundamentos",
+   "subjectId": "CONT",
+   "topicIds": [
+    "CONT-01"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-principios-02",
+   "folder": "constitucional_principios_aprofundado",
+   "title": "Princípios fundamentais (arts. 1º a 4º)",
+   "subtitle": "Direito Constitucional · Título I da Constituição",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-01"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-principios-01",
+   "folder": "constitucional_principios",
+   "title": "Princípios fundamentais (arts. 1º a 4º)",
+   "subtitle": "Direito Constitucional · Título I da Constituição",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-01"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  }
+ ]
+}

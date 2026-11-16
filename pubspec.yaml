@@ -1,0 +1,50 @@
+name: mentor_policial
+description: "Mentor Policial — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
+publish_to: 'none'
+version: 0.2.0+2
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/catalog/
+    - assets/content/
+    - assets/content/informatica_virus/
+    - assets/content/informatica_virus_aprofundado/
+    - assets/content/portugues_ortografia/
+    - assets/content/portugues_ortografia_aprofundado/
+    - assets/content/contabilidade_conceitos/
+    - assets/content/contabilidade_conceitos_aprofundado/
+    - assets/content/constitucional_principios/
+    - assets/content/constitucional_principios_aprofundado/
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Barlow-Bold.ttf
+          weight: 700
+    - family: BarlowCondensed
+      fonts:
+        - asset: assets/fonts/BarlowCondensed-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/BarlowCondensed-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BarlowCondensed-Bold.ttf
+          weight: 700

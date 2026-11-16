@@ -1,0 +1,100 @@
+# Gera as versões de teste para Windows e macOS a cada envio para o GitHub.
+# Os instaladores ficam em: Actions › (execução) › Artifacts. Ao criar uma tag "v0.1.0", vira um Release.
+name: Build Windows e macOS
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+env:
+  FLUTTER_VERSION: '3.50.0'
+
+jobs:
+  verificar:
+    name: Análise e testes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos
+      - run: flutter test
+
+  windows:
+    name: Windows (x64)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - name: Gerar a pasta windows/ e aplicar as personalizações
+        shell: bash
+        run: |
+          flutter create --platforms=windows --org br.com.mentorpolicial --project-name mentor_policial .
+          rm -f test/widget_test.dart
+          cp -R platform/windows/. windows/
+          sed -i 's/set(BINARY_NAME "mentor_policial")/set(BINARY_NAME "MentorPolicial")/' windows/CMakeLists.txt
+      - run: flutter build windows --release
+      - name: Compactar
+        shell: pwsh
+        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath MentorPolicial-windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MentorPolicial-windows-x64
+          path: MentorPolicial-windows-x64.zip
+
+  macos:
+    name: macOS (Apple Silicon e Intel)
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - name: Gerar a pasta macos/ e aplicar as personalizações
+        run: |
+          flutter create --platforms=macos --org br.com.mentorpolicial --project-name mentor_policial .
+          rm -f test/widget_test.dart
+          cp -R platform/macos/. macos/
+      - run: flutter build macos --release
+      - name: Compactar
+        run: |
+          APP=$(find build/macos/Build/Products/Release -maxdepth 1 -name "*.app" | head -1)
+          ditto -c -k --sequesterRsrc --keepParent "$APP" MentorPolicial-macos.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MentorPolicial-macos
+          path: MentorPolicial-macos.zip
+
+  release:
+    name: Publicar versão (tags v*)
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [windows, macos]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          prerelease: true
+          body: |
+            Versão de testes do Mentor Policial.
+            Windows: descompacte e abra MentorPolicial.exe.
+            macOS: descompacte, clique com o botão direito em "Mentor Policial" › Abrir (app ainda sem assinatura da Apple).

@@ -1,0 +1,2582 @@
+{
+ "version": "2026.11.1",
+ "careers": [
+  {
+   "code": "PF",
+   "name": "Polícia Federal",
+   "esfera": "Federal",
+   "escolaridade": "Superior",
+   "banca": "Cebraspe (2021 e 2025)",
+   "discursiva": true,
+   "observacao": "Agente: Contabilidade no Bloco III; Estatística e RLM no Bloco I. Escrivão soma Arquivologia (fora do ciclo básico).",
+   "marca": "Contabilidade · Estatística · Informática",
+   "cargos": [
+    {
+     "id": "PF_AG",
+     "name": "Agente de Polícia Federal"
+    },
+    {
+     "id": "PF_ES",
+     "name": "Escrivão de Polícia Federal"
+    },
+    {
+     "id": "PF_PAP",
+     "name": "Papiloscopista Policial Federal"
+    }
+   ]
+  },
+  {
+   "code": "PRF",
+   "name": "Polícia Rodoviária Federal",
+   "esfera": "Federal",
+   "escolaridade": "Superior",
+   "banca": "Cebraspe (2021)",
+   "discursiva": true,
+   "observacao": "Legislação de Trânsito ocupou um bloco inteiro (30 itens) no último edital.",
+   "marca": "Trânsito · Física · Ética",
+   "cargos": [
+    {
+     "id": "PRF",
+     "name": "Policial Rodoviário Federal"
+    }
+   ]
+  },
+  {
+   "code": "PPF",
+   "name": "Polícia Penal Federal",
+   "esfera": "Federal",
+   "escolaridade": "Superior (Lei 14.875/24)",
+   "banca": "Cebraspe (2020)",
+   "discursiva": true,
+   "observacao": "Último edital em 2020; novo concurso solicitado. Execução Penal é a matéria-marca.",
+   "marca": "Execução Penal · Direitos Humanos",
+   "cargos": [
+    {
+     "id": "PPF",
+     "name": "Policial Penal Federal"
+    }
+   ]
+  },
+  {
+   "code": "PC",
+   "name": "Polícia Civil",
+   "esfera": "Estadual",
+   "escolaridade": "Superior (maioria dos estados)",
+   "banca": "Varia por estado",
+   "discursiva": true,
+   "observacao": "Penal, Processual Penal e Leis Especiais pesam; Criminologia e Medicina Legal em parte dos estados.",
+   "marca": "Penal · Processo Penal · Leis especiais",
+   "cargos": [
+    {
+     "id": "PC_AG",
+     "name": "Agente / Investigador / Inspetor"
+    },
+    {
+     "id": "PC_ES",
+     "name": "Escrivão de Polícia Civil"
+    }
+   ]
+  },
+  {
+   "code": "PM",
+   "name": "Polícia Militar",
+   "esfera": "Estadual",
+   "escolaridade": "Médio ou superior (varia)",
+   "banca": "Varia por estado",
+   "discursiva": true,
+   "observacao": "Matemática e conhecimentos gerais pesam; História/Geografia do estado vêm com o edital.",
+   "marca": "Matemática · Conhecimentos gerais",
+   "cargos": [
+    {
+     "id": "PM_SD",
+     "name": "Soldado"
+    }
+   ]
+  },
+  {
+   "code": "BM",
+   "name": "Corpo de Bombeiros Militar",
+   "esfera": "Estadual",
+   "escolaridade": "Médio ou superior (varia)",
+   "banca": "Varia por estado",
+   "discursiva": true,
+   "observacao": "Física e ciências da natureza pesam; Direito em noções.",
+   "marca": "Física · Matemática",
+   "cargos": [
+    {
+     "id": "BM_SD",
+     "name": "Soldado Bombeiro"
+    }
+   ]
+  },
+  {
+   "code": "PP",
+   "name": "Polícia Penal Estadual",
+   "esfera": "Estadual",
+   "escolaridade": "Médio ou superior (varia)",
+   "banca": "Varia por estado",
+   "discursiva": true,
+   "observacao": "Execução Penal (LEP) é a matéria-marca.",
+   "marca": "Execução Penal (LEP)",
+   "cargos": [
+    {
+     "id": "PP",
+     "name": "Policial Penal"
+    }
+   ]
+  },
+  {
+   "code": "GCM",
+   "name": "Guarda Civil Municipal",
+   "esfera": "Municipal",
+   "escolaridade": "Médio (maioria)",
+   "banca": "Varia por município",
+   "discursiva": false,
+   "observacao": "Lei 13.022/14 (Estatuto Geral das Guardas) + legislação municipal.",
+   "marca": "Lei 13.022/14 · legislação municipal",
+   "cargos": [
+    {
+     "id": "GCM",
+     "name": "Guarda Civil Municipal"
+    }
+   ]
+  }
+ ],
+ "subjects": [
+  {
+   "id": "LP",
+   "name": "Língua Portuguesa",
+   "color": "7FB2FF",
+   "weights": {
+    "PF_AG": 3,
+    "PF_ES": 3,
+    "PF_PAP": 3,
+    "PRF": 3,
+    "PPF": 3,
+    "PC_AG": 3,
+    "PC_ES": 3,
+    "PM_SD": 3,
+    "BM_SD": 3,
+    "PP": 3,
+    "GCM": 3
+   }
+  },
+  {
+   "id": "RLM",
+   "name": "Raciocínio Lógico e Matemática",
+   "color": "6EE7A8",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 2,
+    "PC_ES": 2,
+    "PM_SD": 3,
+    "BM_SD": 3,
+    "PP": 2,
+    "GCM": 3
+   }
+  },
+  {
+   "id": "INFO",
+   "name": "Informática",
+   "color": "5EEAD4",
+   "weights": {
+    "PF_AG": 3,
+    "PF_ES": 3,
+    "PF_PAP": 3,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 2,
+    "PC_ES": 2,
+    "PM_SD": 2,
+    "BM_SD": 2,
+    "PP": 2,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "DC",
+   "name": "Direito Constitucional",
+   "color": "FBBF77",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 2,
+    "PC_ES": 2,
+    "PM_SD": 2,
+    "BM_SD": 1,
+    "PP": 2,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "DA",
+   "name": "Direito Administrativo",
+   "color": "F9A58A",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 2,
+    "PC_ES": 2,
+    "PM_SD": 1,
+    "BM_SD": 1,
+    "PP": 2,
+    "GCM": 1
+   }
+  },
+  {
+   "id": "DP",
+   "name": "Direito Penal",
+   "color": "FB8C8C",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 3,
+    "PC_ES": 3,
+    "PM_SD": 2,
+    "BM_SD": 1,
+    "PP": 2,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "DPP",
+   "name": "Direito Processual Penal",
+   "color": "C4B5FD",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 3,
+    "PC_ES": 3,
+    "PM_SD": 1,
+    "BM_SD": 0,
+    "PP": 2,
+    "GCM": 1
+   }
+  },
+  {
+   "id": "LPE",
+   "name": "Legislação Penal Especial",
+   "color": "F9A8D4",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 2,
+    "PC_AG": 3,
+    "PC_ES": 3,
+    "PM_SD": 2,
+    "BM_SD": 1,
+    "PP": 2,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "DH",
+   "name": "Direitos Humanos",
+   "color": "67D8C8",
+   "weights": {
+    "PF_AG": 1,
+    "PF_ES": 1,
+    "PF_PAP": 1,
+    "PRF": 1,
+    "PPF": 2,
+    "PC_AG": 1,
+    "PC_ES": 1,
+    "PM_SD": 2,
+    "BM_SD": 1,
+    "PP": 2,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "EST",
+   "name": "Estatística",
+   "color": "A5B4FC",
+   "weights": {
+    "PF_AG": 2,
+    "PF_ES": 2,
+    "PF_PAP": 2,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "CONT",
+   "name": "Contabilidade",
+   "color": "BEF264",
+   "weights": {
+    "PF_AG": 3,
+    "PF_ES": 2,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "TRAN",
+   "name": "Legislação de Trânsito",
+   "color": "FDE047",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 3,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 1
+   }
+  },
+  {
+   "id": "FIS",
+   "name": "Física",
+   "color": "93C5FD",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 2,
+    "PRF": 2,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 2,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "LEP",
+   "name": "Execução Penal",
+   "color": "E0BE94",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 3,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 3,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "INST",
+   "name": "Legislação Institucional",
+   "color": "CBD5E1",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 1,
+    "PC_AG": 1,
+    "PC_ES": 1,
+    "PM_SD": 2,
+    "BM_SD": 2,
+    "PP": 1,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "GER",
+   "name": "Conhecimentos Gerais e Ética",
+   "color": "E5E7A0",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 1,
+    "PPF": 1,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 2,
+    "BM_SD": 2,
+    "PP": 1,
+    "GCM": 2
+   }
+  },
+  {
+   "id": "CRIM",
+   "name": "Criminologia e Medicina Legal",
+   "color": "FCA5A5",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 1,
+    "PC_ES": 1,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "ARQ",
+   "name": "Arquivologia",
+   "color": "FDE68A",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 2,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 1,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "QUI",
+   "name": "Química",
+   "color": "86EFAC",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 2,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "BIO",
+   "name": "Biologia",
+   "color": "F0ABFC",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 2,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "BM_SD": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "LP-01",
+   "subject": "LP",
+   "n": 1,
+   "name": "Ortografia oficial",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LP-02",
+   "subject": "LP",
+   "n": 2,
+   "name": "Acentuação gráfica",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LP-03",
+   "subject": "LP",
+   "n": 3,
+   "name": "Classes de palavras: substantivo, adjetivo, artigo e numeral",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-04",
+   "subject": "LP",
+   "n": 4,
+   "name": "Pronomes: emprego e colocação pronominal",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-05",
+   "subject": "LP",
+   "n": 5,
+   "name": "Compreensão e interpretação de textos",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LP-06",
+   "subject": "LP",
+   "n": 6,
+   "name": "Verbos: flexão, tempos, modos e vozes",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-07",
+   "subject": "LP",
+   "n": 7,
+   "name": "Advérbio, preposição e conjunção",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-08",
+   "subject": "LP",
+   "n": 8,
+   "name": "Análise sintática: termos da oração",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LP-09",
+   "subject": "LP",
+   "n": 9,
+   "name": "Orações coordenadas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-10",
+   "subject": "LP",
+   "n": 10,
+   "name": "Orações subordinadas",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LP-11",
+   "subject": "LP",
+   "n": 11,
+   "name": "Concordância nominal e verbal",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LP-12",
+   "subject": "LP",
+   "n": 12,
+   "name": "Regência nominal e verbal",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-13",
+   "subject": "LP",
+   "n": 13,
+   "name": "Crase",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-14",
+   "subject": "LP",
+   "n": 14,
+   "name": "Pontuação",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-15",
+   "subject": "LP",
+   "n": 15,
+   "name": "Tipologia e gêneros textuais",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LP-16",
+   "subject": "LP",
+   "n": 16,
+   "name": "Coesão e coerência textual",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LP-17",
+   "subject": "LP",
+   "n": 17,
+   "name": "Reescrita de frases e parágrafos",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LP-18",
+   "subject": "LP",
+   "n": 18,
+   "name": "Estrutura e formação de palavras",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LP-19",
+   "subject": "LP",
+   "n": 19,
+   "name": "Semântica e significação das palavras",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LP-20",
+   "subject": "LP",
+   "n": 20,
+   "name": "Redação oficial (Manual da Presidência)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-01",
+   "subject": "RLM",
+   "n": 1,
+   "name": "Proposições e conectivos lógicos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-02",
+   "subject": "RLM",
+   "n": 2,
+   "name": "Tabela-verdade, tautologia e contradição",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-03",
+   "subject": "RLM",
+   "n": 3,
+   "name": "Equivalências lógicas e Leis de De Morgan",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-04",
+   "subject": "RLM",
+   "n": 4,
+   "name": "Negação de proposições",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "RLM-05",
+   "subject": "RLM",
+   "n": 5,
+   "name": "Lógica de argumentação",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-06",
+   "subject": "RLM",
+   "n": 6,
+   "name": "Quantificadores e diagramas lógicos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-07",
+   "subject": "RLM",
+   "n": 7,
+   "name": "Conjuntos e operações",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "RLM-08",
+   "subject": "RLM",
+   "n": 8,
+   "name": "Razão, proporção, regra de três e porcentagem",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-09",
+   "subject": "RLM",
+   "n": 9,
+   "name": "Problemas aritméticos e equações",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "RLM-10",
+   "subject": "RLM",
+   "n": 10,
+   "name": "Sequências e progressões",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "RLM-11",
+   "subject": "RLM",
+   "n": 11,
+   "name": "Princípios de contagem e análise combinatória",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "RLM-12",
+   "subject": "RLM",
+   "n": 12,
+   "name": "Probabilidade",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "RLM-13",
+   "subject": "RLM",
+   "n": 13,
+   "name": "Funções: afim, quadrática, exponencial e logarítmica",
+   "size": "M",
+   "scope": [
+    "PRF",
+    "PM",
+    "BM"
+   ]
+  },
+  {
+   "id": "RLM-14",
+   "subject": "RLM",
+   "n": 14,
+   "name": "Geometria plana e espacial",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM",
+    "GCM",
+    "PP"
+   ]
+  },
+  {
+   "id": "INFO-01",
+   "subject": "INFO",
+   "n": 1,
+   "name": "Hardware e software: conceitos básicos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "INFO-02",
+   "subject": "INFO",
+   "n": 2,
+   "name": "Windows: arquivos, pastas e atalhos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-03",
+   "subject": "INFO",
+   "n": 3,
+   "name": "Linux: conceitos e comandos básicos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-04",
+   "subject": "INFO",
+   "n": 4,
+   "name": "Editores de texto (Word/Writer)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-05",
+   "subject": "INFO",
+   "n": 5,
+   "name": "Planilhas (Excel/Calc)",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "INFO-06",
+   "subject": "INFO",
+   "n": 6,
+   "name": "Internet, intranet e extranet",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "INFO-07",
+   "subject": "INFO",
+   "n": 7,
+   "name": "Navegadores, ferramentas de busca e correio eletrônico",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-08",
+   "subject": "INFO",
+   "n": 8,
+   "name": "Redes de computadores: conceitos, topologias e equipamentos",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "INFO-09",
+   "subject": "INFO",
+   "n": 9,
+   "name": "Protocolos e modelos TCP/IP e OSI",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-10",
+   "subject": "INFO",
+   "n": 10,
+   "name": "Computação em nuvem",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-11",
+   "subject": "INFO",
+   "n": 11,
+   "name": "Segurança da informação: princípios e conceitos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "INFO-12",
+   "subject": "INFO",
+   "n": 12,
+   "name": "Malwares, ataques e golpes",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-13",
+   "subject": "INFO",
+   "n": 13,
+   "name": "Firewall, antivírus, backup e mecanismos de segurança",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-14",
+   "subject": "INFO",
+   "n": 14,
+   "name": "Criptografia, assinatura e certificado digital",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INFO-15",
+   "subject": "INFO",
+   "n": 15,
+   "name": "Banco de dados: conceitos e modelo relacional",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "INFO-16",
+   "subject": "INFO",
+   "n": 16,
+   "name": "SQL básico",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "INFO-17",
+   "subject": "INFO",
+   "n": 17,
+   "name": "Big Data, mineração de dados e BI",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "INFO-18",
+   "subject": "INFO",
+   "n": 18,
+   "name": "Inteligência artificial e machine learning (noções)",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "INFO-19",
+   "subject": "INFO",
+   "n": 19,
+   "name": "Programação: Python e R (noções)",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "INFO-20",
+   "subject": "INFO",
+   "n": 20,
+   "name": "Teoria geral de sistemas e análise de informação",
+   "size": "P",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "DC-01",
+   "subject": "DC",
+   "n": 1,
+   "name": "Princípios fundamentais (arts. 1º a 4º)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DC-02",
+   "subject": "DC",
+   "n": 2,
+   "name": "Direitos e deveres individuais e coletivos (art. 5º)",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DC-03",
+   "subject": "DC",
+   "n": 3,
+   "name": "Remédios constitucionais",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DC-04",
+   "subject": "DC",
+   "n": 4,
+   "name": "Direitos sociais (arts. 6º a 11)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DC-05",
+   "subject": "DC",
+   "n": 5,
+   "name": "Nacionalidade (arts. 12 e 13)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DC-06",
+   "subject": "DC",
+   "n": 6,
+   "name": "Direitos políticos e partidos (arts. 14 a 17)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DC-07",
+   "subject": "DC",
+   "n": 7,
+   "name": "Organização político-administrativa do Estado (arts. 18 a 33)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DC-08",
+   "subject": "DC",
+   "n": 8,
+   "name": "Administração Pública e servidores (arts. 37 a 41)",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DC-09",
+   "subject": "DC",
+   "n": 9,
+   "name": "Poder Legislativo e processo legislativo",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC"
+   ]
+  },
+  {
+   "id": "DC-10",
+   "subject": "DC",
+   "n": 10,
+   "name": "Poder Executivo",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC"
+   ]
+  },
+  {
+   "id": "DC-11",
+   "subject": "DC",
+   "n": 11,
+   "name": "Poder Judiciário e funções essenciais à Justiça",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC",
+    "PP"
+   ]
+  },
+  {
+   "id": "DC-12",
+   "subject": "DC",
+   "n": 12,
+   "name": "Defesa do Estado: estados de defesa e de sítio, Forças Armadas",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DC-13",
+   "subject": "DC",
+   "n": 13,
+   "name": "Segurança Pública (art. 144)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-01",
+   "subject": "DA",
+   "n": 1,
+   "name": "Estado, governo e Administração Pública",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DA-02",
+   "subject": "DA",
+   "n": 2,
+   "name": "Princípios da Administração Pública",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-03",
+   "subject": "DA",
+   "n": 3,
+   "name": "Organização administrativa: Administração direta e indireta",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-04",
+   "subject": "DA",
+   "n": 4,
+   "name": "Agentes públicos: conceito, cargos e regime jurídico",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-05",
+   "subject": "DA",
+   "n": 5,
+   "name": "Lei 8.112/90 (servidores públicos federais)",
+   "size": "G",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF"
+   ]
+  },
+  {
+   "id": "DA-06",
+   "subject": "DA",
+   "n": 6,
+   "name": "Poderes administrativos e poder de polícia",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-07",
+   "subject": "DA",
+   "n": 7,
+   "name": "Atos administrativos",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DA-08",
+   "subject": "DA",
+   "n": 8,
+   "name": "Serviços públicos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DA-09",
+   "subject": "DA",
+   "n": 9,
+   "name": "Controle da Administração Pública",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-10",
+   "subject": "DA",
+   "n": 10,
+   "name": "Responsabilidade civil do Estado",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-11",
+   "subject": "DA",
+   "n": 11,
+   "name": "Improbidade administrativa (Lei 8.429/92)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DA-12",
+   "subject": "DA",
+   "n": 12,
+   "name": "Processo administrativo (Lei 9.784/99)",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC"
+   ]
+  },
+  {
+   "id": "DA-13",
+   "subject": "DA",
+   "n": 13,
+   "name": "Licitações e contratos (Lei 14.133/21)",
+   "size": "G",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC",
+    "PP"
+   ]
+  },
+  {
+   "id": "DA-14",
+   "subject": "DA",
+   "n": 14,
+   "name": "Bens públicos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DP-01",
+   "subject": "DP",
+   "n": 1,
+   "name": "Princípios do Direito Penal",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DP-02",
+   "subject": "DP",
+   "n": 2,
+   "name": "Aplicação da lei penal no tempo e no espaço",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-03",
+   "subject": "DP",
+   "n": 3,
+   "name": "Teoria do crime: fato típico",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DP-04",
+   "subject": "DP",
+   "n": 4,
+   "name": "Ilicitude e excludentes",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-05",
+   "subject": "DP",
+   "n": 5,
+   "name": "Culpabilidade e imputabilidade",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-06",
+   "subject": "DP",
+   "n": 6,
+   "name": "Iter criminis: tentativa, desistência e arrependimento",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-07",
+   "subject": "DP",
+   "n": 7,
+   "name": "Concurso de pessoas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-08",
+   "subject": "DP",
+   "n": 8,
+   "name": "Penas: espécies e aplicação",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-09",
+   "subject": "DP",
+   "n": 9,
+   "name": "Extinção da punibilidade",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DP-10",
+   "subject": "DP",
+   "n": 10,
+   "name": "Crimes contra a pessoa",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DP-11",
+   "subject": "DP",
+   "n": 11,
+   "name": "Crimes contra o patrimônio",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DP-12",
+   "subject": "DP",
+   "n": 12,
+   "name": "Crimes contra a dignidade sexual",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DP-13",
+   "subject": "DP",
+   "n": 13,
+   "name": "Crimes contra a fé pública",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC",
+    "PP"
+   ]
+  },
+  {
+   "id": "DP-14",
+   "subject": "DP",
+   "n": 14,
+   "name": "Crimes contra a Administração Pública",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DPP-01",
+   "subject": "DPP",
+   "n": 1,
+   "name": "Princípios e aplicação da lei processual penal",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPP-02",
+   "subject": "DPP",
+   "n": 2,
+   "name": "Inquérito policial",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DPP-03",
+   "subject": "DPP",
+   "n": 3,
+   "name": "Ação penal",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPP-04",
+   "subject": "DPP",
+   "n": 4,
+   "name": "Provas",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DPP-05",
+   "subject": "DPP",
+   "n": 5,
+   "name": "Busca e apreensão",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPP-06",
+   "subject": "DPP",
+   "n": 6,
+   "name": "Prisão em flagrante",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPP-07",
+   "subject": "DPP",
+   "n": 7,
+   "name": "Prisão preventiva e temporária",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPP-08",
+   "subject": "DPP",
+   "n": 8,
+   "name": "Medidas cautelares, liberdade provisória e fiança",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPP-09",
+   "subject": "DPP",
+   "n": 9,
+   "name": "Juiz das garantias e acordo de não persecução penal",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPP-10",
+   "subject": "DPP",
+   "n": 10,
+   "name": "Jurisdição e competência",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC",
+    "PP"
+   ]
+  },
+  {
+   "id": "LPE-01",
+   "subject": "LPE",
+   "n": 1,
+   "name": "Lei de Drogas (Lei 11.343/06)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LPE-02",
+   "subject": "LPE",
+   "n": 2,
+   "name": "Estatuto do Desarmamento (Lei 10.826/03)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LPE-03",
+   "subject": "LPE",
+   "n": 3,
+   "name": "Crimes hediondos (Lei 8.072/90)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LPE-04",
+   "subject": "LPE",
+   "n": 4,
+   "name": "Tortura (Lei 9.455/97)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LPE-05",
+   "subject": "LPE",
+   "n": 5,
+   "name": "Abuso de autoridade (Lei 13.869/19)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LPE-06",
+   "subject": "LPE",
+   "n": 6,
+   "name": "Organizações criminosas (Lei 12.850/13)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LPE-07",
+   "subject": "LPE",
+   "n": 7,
+   "name": "Violência doméstica: Lei Maria da Penha (Lei 11.340/06)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LPE-08",
+   "subject": "LPE",
+   "n": 8,
+   "name": "Interceptação telefônica (Lei 9.296/96)",
+   "size": "P",
+   "scope": [
+    "PF",
+    "PRF",
+    "PPF",
+    "PC",
+    "PP"
+   ]
+  },
+  {
+   "id": "LPE-09",
+   "subject": "LPE",
+   "n": 9,
+   "name": "Juizados Especiais Criminais (Lei 9.099/95)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LPE-10",
+   "subject": "LPE",
+   "n": 10,
+   "name": "ECA: ato infracional",
+   "size": "M",
+   "scope": [
+    "PC",
+    "PM",
+    "GCM",
+    "PP"
+   ]
+  },
+  {
+   "id": "LPE-11",
+   "subject": "LPE",
+   "n": 11,
+   "name": "Estatuto da Pessoa Idosa: crimes",
+   "size": "P",
+   "scope": [
+    "PC",
+    "PM",
+    "GCM"
+   ]
+  },
+  {
+   "id": "LPE-12",
+   "subject": "LPE",
+   "n": 12,
+   "name": "Crimes ambientais (Lei 9.605/98)",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PRF",
+    "PC",
+    "PM",
+    "GCM"
+   ]
+  },
+  {
+   "id": "LPE-13",
+   "subject": "LPE",
+   "n": 13,
+   "name": "Lavagem de dinheiro (Lei 9.613/98)",
+   "size": "M",
+   "scope": [
+    "PF",
+    "PC"
+   ]
+  },
+  {
+   "id": "LPE-14",
+   "subject": "LPE",
+   "n": 14,
+   "name": "Crimes cibernéticos e identificação criminal (Leis 12.737/12 e 12.037/09)",
+   "size": "P",
+   "scope": [
+    "PF",
+    "PC"
+   ]
+  },
+  {
+   "id": "LPE-15",
+   "subject": "LPE",
+   "n": 15,
+   "name": "Lei de Migração (Lei 13.445/17)",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "LPE-16",
+   "subject": "LPE",
+   "n": 16,
+   "name": "Estatuto da Segurança Privada (Lei 14.967/24)",
+   "size": "P",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "LPE-17",
+   "subject": "LPE",
+   "n": 17,
+   "name": "Controle de produtos químicos (Lei 10.357/01)",
+   "size": "P",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "DH-01",
+   "subject": "DH",
+   "n": 1,
+   "name": "Teoria geral dos direitos humanos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DH-02",
+   "subject": "DH",
+   "n": 2,
+   "name": "Direitos humanos na Constituição de 1988",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DH-03",
+   "subject": "DH",
+   "n": 3,
+   "name": "Declaração Universal dos Direitos Humanos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DH-04",
+   "subject": "DH",
+   "n": 4,
+   "name": "Convenção Americana (Pacto de San José da Costa Rica)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DH-05",
+   "subject": "DH",
+   "n": 5,
+   "name": "Sistemas global e interamericano de proteção",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DH-06",
+   "subject": "DH",
+   "n": 6,
+   "name": "Convenção contra a Tortura",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DH-07",
+   "subject": "DH",
+   "n": 7,
+   "name": "Convenções contra a discriminação racial e contra a mulher",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DH-08",
+   "subject": "DH",
+   "n": 8,
+   "name": "Uso da força: Lei 13.060/14 e princípios da ONU",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DH-09",
+   "subject": "DH",
+   "n": 9,
+   "name": "Refugiados, genocídio e desaparecimento forçado (convenções)",
+   "size": "M",
+   "scope": [
+    "PF"
+   ]
+  },
+  {
+   "id": "DH-10",
+   "subject": "DH",
+   "n": 10,
+   "name": "Programa Nacional de Direitos Humanos (PNDH-3)",
+   "size": "P",
+   "scope": [
+    "PPF",
+    "PC",
+    "PM",
+    "GCM",
+    "PP"
+   ]
+  },
+  {
+   "id": "EST-01",
+   "subject": "EST",
+   "n": 1,
+   "name": "Conceitos básicos: população, amostra e variáveis",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "EST-02",
+   "subject": "EST",
+   "n": 2,
+   "name": "Apresentação de dados: tabelas e gráficos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "EST-03",
+   "subject": "EST",
+   "n": 3,
+   "name": "Medidas de posição",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "EST-04",
+   "subject": "EST",
+   "n": 4,
+   "name": "Medidas de dispersão",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "EST-05",
+   "subject": "EST",
+   "n": 5,
+   "name": "Assimetria e curtose",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "EST-06",
+   "subject": "EST",
+   "n": 6,
+   "name": "Probabilidade e distribuições",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "EST-07",
+   "subject": "EST",
+   "n": 7,
+   "name": "Correlação e regressão linear",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "EST-08",
+   "subject": "EST",
+   "n": 8,
+   "name": "Amostragem e inferência (noções)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-01",
+   "subject": "CONT",
+   "n": 1,
+   "name": "Conceitos, objeto e finalidade",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "CONT-02",
+   "subject": "CONT",
+   "n": 2,
+   "name": "Patrimônio e equação patrimonial",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-03",
+   "subject": "CONT",
+   "n": 3,
+   "name": "Atos e fatos contábeis",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-04",
+   "subject": "CONT",
+   "n": 4,
+   "name": "Contas e plano de contas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-05",
+   "subject": "CONT",
+   "n": 5,
+   "name": "Escrituração e livros contábeis",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-06",
+   "subject": "CONT",
+   "n": 6,
+   "name": "Regimes de caixa e de competência",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "CONT-07",
+   "subject": "CONT",
+   "n": 7,
+   "name": "Balancete de verificação",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "CONT-08",
+   "subject": "CONT",
+   "n": 8,
+   "name": "Balanço patrimonial",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "CONT-09",
+   "subject": "CONT",
+   "n": 9,
+   "name": "Demonstração do resultado do exercício (DRE)",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "CONT-10",
+   "subject": "CONT",
+   "n": 10,
+   "name": "Estoques",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-11",
+   "subject": "CONT",
+   "n": 11,
+   "name": "Ativo imobilizado e intangível",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-12",
+   "subject": "CONT",
+   "n": 12,
+   "name": "Estrutura conceitual (CPC 00)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CONT-13",
+   "subject": "CONT",
+   "n": 13,
+   "name": "Contabilidade pública: NBC TSP (noções)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "TRAN-01",
+   "subject": "TRAN",
+   "n": 1,
+   "name": "Sistema Nacional de Trânsito e disposições preliminares",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "TRAN-02",
+   "subject": "TRAN",
+   "n": 2,
+   "name": "Normas gerais de circulação e conduta",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "TRAN-03",
+   "subject": "TRAN",
+   "n": 3,
+   "name": "Pedestres e condutores de veículos não motorizados",
+   "size": "P",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "TRAN-04",
+   "subject": "TRAN",
+   "n": 4,
+   "name": "Sinalização de trânsito",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "TRAN-05",
+   "subject": "TRAN",
+   "n": 5,
+   "name": "Veículos: classificação, registro e licenciamento",
+   "size": "M",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "TRAN-06",
+   "subject": "TRAN",
+   "n": 6,
+   "name": "Habilitação",
+   "size": "M",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "TRAN-07",
+   "subject": "TRAN",
+   "n": 7,
+   "name": "Infrações de trânsito",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "TRAN-08",
+   "subject": "TRAN",
+   "n": 8,
+   "name": "Penalidades e medidas administrativas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "TRAN-09",
+   "subject": "TRAN",
+   "n": 9,
+   "name": "Processo administrativo de trânsito",
+   "size": "P",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "TRAN-10",
+   "subject": "TRAN",
+   "n": 10,
+   "name": "Crimes de trânsito",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "TRAN-11",
+   "subject": "TRAN",
+   "n": 11,
+   "name": "Resoluções do CONTRAN (principais)",
+   "size": "M",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "FIS-01",
+   "subject": "FIS",
+   "n": 1,
+   "name": "Cinemática escalar e vetorial",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "FIS-02",
+   "subject": "FIS",
+   "n": 2,
+   "name": "Movimento circular",
+   "size": "M",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "FIS-03",
+   "subject": "FIS",
+   "n": 3,
+   "name": "Leis de Newton e aplicações",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "FIS-04",
+   "subject": "FIS",
+   "n": 4,
+   "name": "Trabalho, potência e energia",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "FIS-05",
+   "subject": "FIS",
+   "n": 5,
+   "name": "Quantidade de movimento, impulso e colisões",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "FIS-06",
+   "subject": "FIS",
+   "n": 6,
+   "name": "Hidrostática",
+   "size": "M",
+   "scope": [
+    "BM"
+   ]
+  },
+  {
+   "id": "FIS-07",
+   "subject": "FIS",
+   "n": 7,
+   "name": "Termologia e calorimetria",
+   "size": "M",
+   "scope": [
+    "BM"
+   ]
+  },
+  {
+   "id": "FIS-08",
+   "subject": "FIS",
+   "n": 8,
+   "name": "Eletricidade básica",
+   "size": "M",
+   "scope": [
+    "BM"
+   ]
+  },
+  {
+   "id": "LEP-01",
+   "subject": "LEP",
+   "n": 1,
+   "name": "LEP: objeto, aplicação e classificação",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LEP-02",
+   "subject": "LEP",
+   "n": 2,
+   "name": "Assistência ao preso e ao egresso",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LEP-03",
+   "subject": "LEP",
+   "n": 3,
+   "name": "Trabalho do preso",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LEP-04",
+   "subject": "LEP",
+   "n": 4,
+   "name": "Deveres, direitos e disciplina (faltas e sanções)",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LEP-05",
+   "subject": "LEP",
+   "n": 5,
+   "name": "Regime disciplinar diferenciado (RDD)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LEP-06",
+   "subject": "LEP",
+   "n": 6,
+   "name": "Órgãos da execução penal",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LEP-07",
+   "subject": "LEP",
+   "n": 7,
+   "name": "Estabelecimentos penais",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LEP-08",
+   "subject": "LEP",
+   "n": 8,
+   "name": "Regimes, progressão e regressão",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LEP-09",
+   "subject": "LEP",
+   "n": 9,
+   "name": "Saídas, remição e livramento condicional",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LEP-10",
+   "subject": "LEP",
+   "n": 10,
+   "name": "Sistema Penitenciário Federal (Lei 11.671/08)",
+   "size": "M",
+   "scope": [
+    "PPF"
+   ]
+  },
+  {
+   "id": "LEP-11",
+   "subject": "LEP",
+   "n": 11,
+   "name": "Regras de Mandela (ONU)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "INST-01",
+   "subject": "INST",
+   "n": 1,
+   "name": "Sistema Único de Segurança Pública (Lei 13.675/18)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "INST-02",
+   "subject": "INST",
+   "n": 2,
+   "name": "Lei Orgânica Nacional das PMs e CBMs (Lei 14.751/23)",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM"
+   ]
+  },
+  {
+   "id": "INST-03",
+   "subject": "INST",
+   "n": 3,
+   "name": "Lei Orgânica Nacional das Polícias Civis (Lei 14.735/23)",
+   "size": "M",
+   "scope": [
+    "PC"
+   ]
+  },
+  {
+   "id": "INST-04",
+   "subject": "INST",
+   "n": 4,
+   "name": "Estatuto Geral das Guardas Municipais (Lei 13.022/14)",
+   "size": "M",
+   "scope": [
+    "GCM"
+   ]
+  },
+  {
+   "id": "INST-05",
+   "subject": "INST",
+   "n": 5,
+   "name": "Polícia Penal Federal (Lei 14.875/24, cap. XII)",
+   "size": "P",
+   "scope": [
+    "PPF"
+   ]
+  },
+  {
+   "id": "INST-06",
+   "subject": "INST",
+   "n": 6,
+   "name": "Estatuto ou lei orgânica da sua corporação",
+   "size": "G",
+   "scope": [
+    "PC",
+    "PM",
+    "BM",
+    "PP",
+    "GCM"
+   ]
+  },
+  {
+   "id": "INST-07",
+   "subject": "INST",
+   "n": 7,
+   "name": "Direito Penal Militar (noções)",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM"
+   ]
+  },
+  {
+   "id": "INST-08",
+   "subject": "INST",
+   "n": 8,
+   "name": "Proteção e defesa civil (Lei 12.608/12)",
+   "size": "P",
+   "scope": [
+    "BM"
+   ]
+  },
+  {
+   "id": "GER-01",
+   "subject": "GER",
+   "n": 1,
+   "name": "Ética e moral; ética no serviço público",
+   "size": "M",
+   "scope": [
+    "PRF",
+    "PPF",
+    "PP"
+   ]
+  },
+  {
+   "id": "GER-02",
+   "subject": "GER",
+   "n": 2,
+   "name": "Geopolítica brasileira",
+   "size": "M",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "GER-03",
+   "subject": "GER",
+   "n": 3,
+   "name": "Língua estrangeira: inglês ou espanhol (interpretação)",
+   "size": "G",
+   "scope": [
+    "PRF"
+   ]
+  },
+  {
+   "id": "GER-04",
+   "subject": "GER",
+   "n": 4,
+   "name": "História do estado/município",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM",
+    "GCM"
+   ]
+  },
+  {
+   "id": "GER-05",
+   "subject": "GER",
+   "n": 5,
+   "name": "Geografia do estado/município",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM",
+    "GCM"
+   ]
+  },
+  {
+   "id": "GER-06",
+   "subject": "GER",
+   "n": 6,
+   "name": "Atualidades: segurança pública, política e economia",
+   "size": "M",
+   "scope": [
+    "PPF",
+    "PM",
+    "BM",
+    "GCM",
+    "PP"
+   ]
+  },
+  {
+   "id": "GER-07",
+   "subject": "GER",
+   "n": 7,
+   "name": "Primeiros socorros (noções)",
+   "size": "P",
+   "scope": [
+    "BM",
+    "GCM"
+   ]
+  },
+  {
+   "id": "CRIM-01",
+   "subject": "CRIM",
+   "n": 1,
+   "name": "Criminologia: conceito, objeto e métodos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CRIM-02",
+   "subject": "CRIM",
+   "n": 2,
+   "name": "Escolas e teorias criminológicas",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "CRIM-03",
+   "subject": "CRIM",
+   "n": 3,
+   "name": "Vitimologia e prevenção do delito",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "CRIM-04",
+   "subject": "CRIM",
+   "n": 4,
+   "name": "Medicina legal: perícias e documentos médico-legais",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "CRIM-05",
+   "subject": "CRIM",
+   "n": 5,
+   "name": "Traumatologia forense",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "CRIM-06",
+   "subject": "CRIM",
+   "n": 6,
+   "name": "Tanatologia",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "CRIM-07",
+   "subject": "CRIM",
+   "n": 7,
+   "name": "Identidade e identificação",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "ARQ-01",
+   "subject": "ARQ",
+   "n": 1,
+   "name": "Conceitos fundamentais de arquivologia",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "ARQ-02",
+   "subject": "ARQ",
+   "n": 2,
+   "name": "Gestão de documentos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "ARQ-03",
+   "subject": "ARQ",
+   "n": 3,
+   "name": "Protocolo: recebimento, registro, tramitação e expedição",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "ARQ-04",
+   "subject": "ARQ",
+   "n": 4,
+   "name": "Classificação de documentos de arquivo",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "ARQ-05",
+   "subject": "ARQ",
+   "n": 5,
+   "name": "Arquivamento e ordenação de documentos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "ARQ-06",
+   "subject": "ARQ",
+   "n": 6,
+   "name": "Tabela de temporalidade e avaliação de documentos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "ARQ-07",
+   "subject": "ARQ",
+   "n": 7,
+   "name": "Acondicionamento, armazenamento e preservação",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "ARQ-08",
+   "subject": "ARQ",
+   "n": 8,
+   "name": "Documentos digitais e gestão eletrônica",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "QUI-01",
+   "subject": "QUI",
+   "n": 1,
+   "name": "Estrutura atômica e tabela periódica",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "QUI-02",
+   "subject": "QUI",
+   "n": 2,
+   "name": "Ligações químicas e geometria molecular",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "QUI-03",
+   "subject": "QUI",
+   "n": 3,
+   "name": "Funções inorgânicas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "QUI-04",
+   "subject": "QUI",
+   "n": 4,
+   "name": "Reações químicas e estequiometria",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "QUI-05",
+   "subject": "QUI",
+   "n": 5,
+   "name": "Soluções e concentrações",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "QUI-06",
+   "subject": "QUI",
+   "n": 6,
+   "name": "Química orgânica: cadeias e funções",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "BIO-01",
+   "subject": "BIO",
+   "n": 1,
+   "name": "Citologia",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "BIO-02",
+   "subject": "BIO",
+   "n": 2,
+   "name": "Bioquímica: proteínas, lipídios e ácidos nucleicos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "BIO-03",
+   "subject": "BIO",
+   "n": 3,
+   "name": "Genética",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "BIO-04",
+   "subject": "BIO",
+   "n": 4,
+   "name": "Histologia",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "BIO-05",
+   "subject": "BIO",
+   "n": 5,
+   "name": "Pele e anexos (base da papiloscopia)",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "BIO-06",
+   "subject": "BIO",
+   "n": 6,
+   "name": "Fisiologia humana",
+   "size": "G",
+   "scope": []
+  }
+ ],
+ "leiSeca": [
+  "CF/88 — arts. 1º a 4º (princípios fundamentais)",
+  "CF/88 — art. 5º, incisos I a XV",
+  "CF/88 — art. 5º, incisos XVI a XXXV",
+  "CF/88 — art. 5º, incisos XXXVI a LVI",
+  "CF/88 — art. 5º, incisos LVII a LXXIX e parágrafos",
+  "CF/88 — arts. 6º a 11 (direitos sociais)",
+  "CF/88 — arts. 12 e 13 (nacionalidade)",
+  "CF/88 — arts. 14 a 17 (direitos políticos e partidos)",
+  "CF/88 — arts. 18 e 19 (organização do Estado)",
+  "CF/88 — arts. 20 a 24 (bens e competências da União)",
+  "CF/88 — arts. 25 a 31 (Estados e Municípios)",
+  "CF/88 — art. 37 (Administração Pública)",
+  "CF/88 — arts. 38 a 41 (servidores públicos)",
+  "CF/88 — arts. 136 a 141 (estados de defesa e de sítio)",
+  "CF/88 — arts. 142 a 144 (Forças Armadas e Segurança Pública)",
+  "CP — arts. 1º a 12 (aplicação da lei penal)",
+  "CP — arts. 13 a 25 (crime e excludentes)",
+  "CP — arts. 26 a 31 (imputabilidade e concurso de pessoas)",
+  "CP — arts. 121 a 129 (crimes contra a vida e lesões)",
+  "CP — arts. 138 a 154-B (honra e liberdade individual)",
+  "CP — arts. 155 a 180 (crimes contra o patrimônio)",
+  "CP — arts. 312 a 327 (crimes funcionais contra a Adm. Pública)",
+  "CP — arts. 328 a 337-A (crimes de particular contra a Adm.)",
+  "CP — arts. 338 a 359 (crimes contra a Administração da Justiça)",
+  "CPP — arts. 1º a 3º-F (aplicação e juiz das garantias)",
+  "CPP — arts. 4º a 23 (inquérito policial)",
+  "CPP — arts. 24 a 62 (ação penal)",
+  "CPP — arts. 155 a 184 (provas e perícias)",
+  "CPP — arts. 240 a 250 (busca e apreensão)",
+  "CPP — arts. 282 a 300 (prisão: disposições gerais)",
+  "CPP — arts. 301 a 310 (prisão em flagrante)",
+  "CPP — arts. 311 a 318-B (preventiva e domiciliar)",
+  "CPP — arts. 319 a 350 (cautelares diversas e fiança)",
+  "Lei 7.960/89 — prisão temporária",
+  "Lei 11.343/06 — arts. 27 a 47 (crimes da Lei de Drogas)",
+  "Lei 10.826/03 — arts. 12 a 21 (crimes do Estatuto do Desarmamento)",
+  "Lei 8.072/90 — crimes hediondos",
+  "Lei 9.455/97 — tortura",
+  "Lei 13.869/19 — arts. 1º a 8º (abuso de autoridade)",
+  "Lei 13.869/19 — arts. 9º a 38 (crimes de abuso de autoridade)",
+  "Lei 12.850/13 — arts. 1º a 7º (conceito e colaboração premiada)",
+  "Lei 12.850/13 — arts. 8º a 21 (ação controlada, infiltração e crimes)",
+  "Lei 11.340/06 — arts. 1º a 24-A (Maria da Penha)",
+  "Lei 9.296/96 — interceptação telefônica",
+  "Lei 9.099/95 — arts. 60 a 92 (Juizados Especiais Criminais)",
+  "Lei 13.060/14 — instrumentos de menor potencial ofensivo",
+  "Lei 13.675/18 — arts. 1º a 10 (SUSP)",
+  "Lei 8.429/92 — arts. 1º a 13 (improbidade)",
+  "Lei 9.784/99 — arts. 1º a 30 (processo administrativo)",
+  "Lei 9.784/99 — arts. 31 a 69",
+  "Lei 8.112/90 — arts. 1º a 35 (provimento e vacância)",
+  "Lei 8.112/90 — arts. 116 a 142 (deveres, proibições e penalidades)",
+  "ECA — arts. 103 a 128 (ato infracional)",
+  "Lei 9.605/98 — arts. 2º a 28 (disposições gerais)",
+  "Lei 9.613/98 — arts. 1º a 17 (lavagem de dinheiro)",
+  "Lei 12.037/09 — identificação criminal",
+  "CP — arts. 154-A e 154-B (invasão de dispositivo informático)",
+  "Lei 13.445/17 — arts. 1º a 4º e 46 a 62 (Lei de Migração)",
+  "DUDH — arts. 1º a 30",
+  "Pacto de San José (Decreto 678/92) — arts. 1º a 25"
+ ],
+ "params": {
+  "theoryMinutes": {
+   "P": [
+    90,
+    60,
+    40
+   ],
+   "M": [
+    150,
+    100,
+    70
+   ],
+   "G": [
+    240,
+    160,
+    110
+   ]
+  },
+  "minutesPerQuestion": [
+   4.0,
+   3.0,
+   2.0
+  ],
+  "questions": {
+   "P": 15,
+   "M": 25,
+   "G": 40
+  },
+  "reviewShare": 0.2,
+  "weight2AfterHours": 40,
+  "weight1AfterHours": 100,
+  "simuladoFromWeek": 4,
+  "simuladoEveryWeeks": 2,
+  "discursivaFromWeek": 3,
+  "fullSimuladoMinHours": 5
+ },
+ "levels": [
+  "Iniciante (sem base)",
+  "Intermediário",
+  "Avançado"
+ ]
+}
