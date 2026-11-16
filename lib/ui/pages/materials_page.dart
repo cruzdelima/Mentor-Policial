@@ -183,7 +183,7 @@ class _MaterialCard extends StatelessWidget {
             clipBehavior: Clip.antiAlias,
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               Container(
-                height: 92,
+                constraints: const BoxConstraints(minHeight: 96),
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [col.withValues(alpha: 0.35), AppColors.panel2], begin: Alignment.topLeft, end: Alignment.bottomRight),
