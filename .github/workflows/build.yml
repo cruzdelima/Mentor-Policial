@@ -5,9 +5,12 @@ name: Build Windows e macOS
 on:
   push:
     branches: [main]
-    tags: ['v*']
   pull_request:
   workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
   FLUTTER_VERSION: '3.50.0'
@@ -95,30 +98,55 @@ jobs:
           path: MentorPolicial-macOS.dmg
 
   release:
-    name: Publicar versão (tags v*)
-    if: startsWith(github.ref, 'refs/tags/v')
-    needs: [windows, macos]
+    # Publica uma versão nova sempre que o número em pubspec.yaml mudar (e tudo tiver passado).
+    name: Publicar versão
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [verificar, windows, macos]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+      - name: Ler a versão
+        id: v
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(grep -m1 '^version:' pubspec.yaml | sed -E 's/^version:[[:space:]]*([0-9.]+).*/\1/')
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" > /dev/null 2>&1; then
+            echo "A versão v$V já foi publicada; nada a fazer."
+            echo "new=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "new=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/download-artifact@v4
+        if: steps.v.outputs.new == 'true'
         with:
           path: dist
           merge-multiple: true
+      - name: Organizar arquivos
+        if: steps.v.outputs.new == 'true'
+        run: |
+          mkdir -p out
+          find dist -name 'MentorPolicial-Setup.exe' -exec cp {} out/ \;
+          find dist -name 'MentorPolicial-windows-portatil.zip' -exec cp {} out/ \;
+          find dist -name 'MentorPolicial-macOS.dmg' -exec cp {} out/ \;
+          ls -la out
+          test -f out/MentorPolicial-Setup.exe && test -f out/MentorPolicial-macOS.dmg
       - uses: softprops/action-gh-release@v2
+        if: steps.v.outputs.new == 'true'
         with:
-          files: |
-            dist/**/MentorPolicial-Setup.exe
-            dist/**/MentorPolicial-windows-portatil.zip
-            dist/**/MentorPolicial-macOS.dmg
-          prerelease: false
+          tag_name: v${{ steps.v.outputs.version }}
+          name: Mentor Policial ${{ steps.v.outputs.version }}
+          target_commitish: ${{ github.sha }}
           make_latest: true
+          files: out/*
           body: |
             ## Como instalar
 
-            **Windows:** baixe `MentorPolicial-Setup.exe`, abra e clique em Avançar › Instalar. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** › **Executar assim mesmo**.
+            **Windows:** baixe `MentorPolicial-Setup.exe`, abra e clique em **Instalar**. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** › **Executar assim mesmo**.
 
-            **Mac:** baixe `MentorPolicial-macOS.dmg`, abra e arraste o Mentor Policial para Aplicativos. Na primeira vez, se o Mac bloquear: Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**.
+            **Mac:** baixe `MentorPolicial-macOS.dmg`, abra e arraste o Mentor Policial para **Aplicativos**. Na primeira vez: Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**.
 
-            Seus dados ficam salvos no computador e são mantidos nas atualizações.
+            Já tem o app? Instale por cima: seus dados continuam salvos.
