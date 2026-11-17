@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../core/models.dart';
+import '../../core/validation.dart';
+import '../../data/auth.dart';
+import '../../state/account.dart';
+import '../auth_screen.dart' show PasswordChecklist;
 import '../../data/storage.dart';
 import '../../state/app_state.dart';
 import '../dialogs.dart';
@@ -85,6 +89,7 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       Expanded(
         child: ListView(padding: const EdgeInsets.fromLTRB(28, 0, 28, 40), children: [
+          if (AccountScope.maybeOf(context) != null) ...[const _AccountPanel(), const SizedBox(height: 16)],
           Panel(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               const SectionLabel('Perfil e concurso'),
@@ -317,5 +322,194 @@ class _AboutPanel extends StatelessWidget {
         Text('Fontes tipográficas: Barlow e Barlow Condensed (SIL Open Font License).', style: AppText.small(AppColors.dim)),
       ]),
     );
+  }
+}
+
+class _AccountPanel extends StatelessWidget {
+  const _AccountPanel();
+
+  @override
+  Widget build(BuildContext context) {
+    final acc = AccountScope.maybeOf(context)!;
+    final p = acc.profile;
+    return Panel(
+      accent: AppColors.gold,
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        const SectionLabel('Minha conta'),
+        Wrap(spacing: 28, runSpacing: 12, children: [
+          _info('E-mail', acc.email),
+          _info('Celular', p == null || p.phone.isEmpty ? '—' : formatPhone(p.phone)),
+          _info('Permissão', p == null ? '—' : roleLabel(p.role)),
+          _info('Plano', p == null ? '—' : (p.plan == 'free' ? 'Gratuito (beta)' : p.plan)),
+        ]),
+        if (acc.offline) ...[
+          const SizedBox(height: 10),
+          Text('Sem conexão: seus estudos continuam salvos neste computador. Os dados da conta serão atualizados quando a internet voltar.',
+              style: AppText.small(AppColors.amber)),
+        ],
+        const SizedBox(height: 16),
+        Wrap(spacing: 10, runSpacing: 10, children: [
+          OutlinedButton.icon(
+            onPressed: p == null ? null : () => _editProfile(context, p),
+            icon: const Icon(Icons.edit_outlined, size: 18),
+            label: const Text('EDITAR NOME E CELULAR'),
+          ),
+          OutlinedButton.icon(
+            onPressed: acc.offline ? null : () => _changePassword(context),
+            icon: const Icon(Icons.password, size: 18),
+            label: const Text('ALTERAR SENHA'),
+          ),
+          OutlinedButton.icon(
+            onPressed: () async {
+              if (await confirm(context, 'Sair da conta', 'Seus estudos continuam salvos neste computador e voltam quando você entrar de novo.', ok: 'SAIR')) {
+                await acc.signOut();
+              }
+            },
+            icon: const Icon(Icons.logout, size: 18),
+            label: const Text('SAIR'),
+          ),
+          OutlinedButton.icon(
+            style: OutlinedButton.styleFrom(foregroundColor: AppColors.red, side: const BorderSide(color: AppColors.red)),
+            onPressed: acc.offline || (p?.isOwner ?? false) ? null : () => _deleteAccount(context),
+            icon: const Icon(Icons.person_remove_outlined, size: 18),
+            label: const Text('EXCLUIR MINHA CONTA'),
+          ),
+        ]),
+      ]),
+    );
+  }
+
+  Widget _info(String label, String value) => Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+        Text(label.toUpperCase(), style: AppText.label()),
+        const SizedBox(height: 4),
+        Text(value, style: AppText.strong()),
+      ]);
+
+  Future<void> _editProfile(BuildContext context, AccountProfile p) async {
+    final acc = AccountScope.read(context)!;
+    final name = TextEditingController(text: p.name);
+    final phone = TextEditingController(text: p.phone.isEmpty ? '' : formatPhone(p.phone));
+    String? error;
+    await showDialog<void>(
+      context: context,
+      builder: (ctx) => StatefulBuilder(builder: (ctx, setState) {
+        return AlertDialog(
+          title: Text('EDITAR CONTA', style: AppText.h2()),
+          content: SizedBox(
+            width: 420,
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              TextField(controller: name, decoration: const InputDecoration(labelText: 'Nome completo')),
+              const SizedBox(height: 12),
+              TextField(controller: phone, decoration: const InputDecoration(labelText: 'Celular com DDD')),
+              if (error != null) Padding(padding: const EdgeInsets.only(top: 10), child: Text(error!, style: AppText.small(AppColors.red))),
+            ]),
+          ),
+          actions: [
+            TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('CANCELAR')),
+            ElevatedButton(
+              onPressed: () async {
+                final ph = normalizePhone(phone.text);
+                if (name.text.trim().length < 2 || ph == null) {
+                  setState(() => error = 'Confira o nome e o celular (com DDD).');
+                  return;
+                }
+                try {
+                  await acc.service.updateMyProfile(name: name.text, phone: ph);
+                  await acc.refreshProfile();
+                  if (ctx.mounted) Navigator.pop(ctx);
+                } on AuthError catch (e) {
+                  setState(() => error = e.message);
+                }
+              },
+              child: const Text('SALVAR'),
+            ),
+          ],
+        );
+      }),
+    );
+  }
+
+  Future<void> _changePassword(BuildContext context) async {
+    final acc = AccountScope.read(context)!;
+    final p1 = TextEditingController();
+    final p2 = TextEditingController();
+    String? error;
+    await showDialog<void>(
+      context: context,
+      builder: (ctx) => StatefulBuilder(builder: (ctx, setState) {
+        return AlertDialog(
+          title: Text('ALTERAR SENHA', style: AppText.h2()),
+          content: SizedBox(
+            width: 440,
+            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+              TextField(controller: p1, obscureText: true, onChanged: (_) => setState(() {}), decoration: const InputDecoration(labelText: 'Nova senha')),
+              const SizedBox(height: 10),
+              PasswordChecklist(password: p1.text),
+              const SizedBox(height: 12),
+              TextField(controller: p2, obscureText: true, decoration: const InputDecoration(labelText: 'Repita a nova senha')),
+              if (error != null) Padding(padding: const EdgeInsets.only(top: 10), child: Text(error!, style: AppText.small(AppColors.red))),
+            ]),
+          ),
+          actions: [
+            TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('CANCELAR')),
+            ElevatedButton(
+              onPressed: () async {
+                final problem = passwordProblem(p1.text) ?? (p1.text != p2.text ? 'As senhas não conferem.' : null);
+                if (problem != null) {
+                  setState(() => error = problem);
+                  return;
+                }
+                try {
+                  await acc.service.changePassword(p1.text);
+                  if (ctx.mounted) Navigator.pop(ctx);
+                  if (context.mounted) toast(context, 'Senha alterada.');
+                } on AuthError catch (e) {
+                  setState(() => error = e.message);
+                }
+              },
+              child: const Text('SALVAR'),
+            ),
+          ],
+        );
+      }),
+    );
+  }
+
+  Future<void> _deleteAccount(BuildContext context) async {
+    final acc = AccountScope.read(context)!;
+    final c = TextEditingController();
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => StatefulBuilder(builder: (ctx, setState) {
+        return AlertDialog(
+          title: Text('EXCLUIR MINHA CONTA', style: AppText.h2(AppColors.red)),
+          content: SizedBox(
+            width: 460,
+            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('Sua conta e seus dados pessoais serão apagados do servidor, e seus estudos serão apagados deste computador. '
+                  'Isso não pode ser desfeito.', style: AppText.body(AppColors.muted)),
+              const SizedBox(height: 14),
+              Text('Para confirmar, digite EXCLUIR:', style: AppText.small(AppColors.text)),
+              const SizedBox(height: 8),
+              TextField(controller: c, onChanged: (_) => setState(() {})),
+            ]),
+          ),
+          actions: [
+            TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('CANCELAR')),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(backgroundColor: AppColors.red),
+              onPressed: c.text.trim().toUpperCase() == 'EXCLUIR' ? () => Navigator.pop(ctx, true) : null,
+              child: const Text('EXCLUIR DEFINITIVAMENTE'),
+            ),
+          ],
+        );
+      }),
+    );
+    if (ok != true) return;
+    try {
+      await acc.deleteAccount();
+    } on AuthError catch (e) {
+      if (context.mounted) toast(context, e.message);
+    }
   }
 }

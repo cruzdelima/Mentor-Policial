@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../core/dates.dart';
 import '../data/storage.dart';
 import '../state/app_state.dart';
+import '../state/account.dart';
+import 'pages/admin_page.dart';
 import 'pages/diary_page.dart';
 import 'pages/edital_page.dart';
 import 'pages/materials_page.dart';
@@ -45,6 +47,7 @@ class Shell extends StatelessWidget {
       AppPage.materials => const MaterialsPage(),
       AppPage.method => const MethodPage(),
       AppPage.settings => const SettingsPage(),
+      AppPage.admin => const AdminPage(),
     };
     return Scaffold(
       body: LayoutBuilder(builder: (context, c) {
@@ -104,7 +107,11 @@ class _Sidebar extends StatelessWidget {
               ],
             ]),
           ),
-          for (final n in _nav)
+          for (final n in [
+            ..._nav,
+            if (AccountScope.maybeOf(context)?.isAdmin ?? false)
+              const _NavItem(AppPage.admin, 'Admin', Icons.admin_panel_settings_outlined, 'Contas e permissões'),
+          ])
             _NavButton(
               item: n,
               compact: compact,
@@ -128,6 +135,7 @@ class _Sidebar extends StatelessWidget {
                 Text(app.cargo.name, style: AppText.small(), maxLines: 2, overflow: TextOverflow.ellipsis),
                 const SizedBox(height: 8),
                 Wrap(spacing: 6, runSpacing: 6, children: [
+                  if (AccountScope.maybeOf(context)?.offline ?? false) const Pill('OFFLINE', color: AppColors.amber),
                   Pill(p.esfera.toUpperCase(), color: AppColors.esfera(p.esfera), filled: true),
                   if (daysLeft != null && daysLeft >= 0) Pill('PROVA EM $daysLeft D', color: AppColors.gold),
                 ]),

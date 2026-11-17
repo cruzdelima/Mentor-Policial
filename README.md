@@ -52,6 +52,17 @@ cp -R platform/macos/. macos/
 flutter run -d windows                       # ou: flutter run -d macos
 ```
 
+## Documentação
+
+| Documento | Para quem |
+|---|---|
+| [docs/CONTAS_SUPABASE.md](docs/CONTAS_SUPABASE.md) | Dono: ativar contas, e-mail e virar administrador principal |
+| [docs/SEGURANCA.md](docs/SEGURANCA.md) | Todos: dados guardados, controles, regras obrigatórias, incidentes |
+| [docs/ARQUITETURA.md](docs/ARQUITETURA.md) | Programadores: estrutura, fluxos, comandos, decisões |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Programadores: acesso, ambiente, fluxo de Pull Request, padrões |
+| [docs/ASSINATURAS.md](docs/ASSINATURAS.md) | Dono e programadores: plano técnico de cobrança |
+| [docs/TERMOS_E_PRIVACIDADE.md](docs/TERMOS_E_PRIVACIDADE.md) | Alunos: termos e política de privacidade (rascunho) |
+
 ## Onde ficam os dados do aluno
 
 Tudo é local, em um arquivo JSON com cópia diária automática (15 dias):

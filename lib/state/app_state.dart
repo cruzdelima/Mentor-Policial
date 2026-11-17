@@ -24,7 +24,7 @@ const kUpdateApiUrl = 'https://api.github.com/repos/cruzdelima/Mentor-Policial/r
 const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-Setup.exe';
 const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-macOS.dmg';
 
-enum AppPage { qg, missions, edital, diary, materials, method, settings }
+enum AppPage { qg, missions, edital, diary, materials, method, settings, admin }
 
 /// Biblioteca de conteúdos: embutidos + pacotes locais.
 class ContentLibrary {
@@ -122,10 +122,11 @@ class AppController extends ChangeNotifier {
     _recompute();
   }
 
-  static Future<AppController> load() async {
+  /// Carrega os dados de estudo. [storage] = pasta da conta logada (padrão: pasta única, sem contas).
+  static Future<AppController> load({Storage? storage}) async {
     final bundle = rootBundle;
     final catalog = Catalog.fromJson(jsonDecode(await bundle.loadString('assets/catalog/catalog.json')) as Map<String, dynamic>);
-    final storage = Storage(Storage.defaultDir());
+    storage ??= Storage(Storage.defaultDir());
     final data = await storage.load();
     final content = await ContentLibrary.load(bundle, storage);
     final c = AppController(catalog: catalog, storage: storage, data: data, content: content, bundle: bundle);

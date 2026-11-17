@@ -47,7 +47,9 @@ jobs:
           rm -f test/widget_test.dart
           cp -R platform/windows/. windows/
           sed -i 's/set(BINARY_NAME "mentor_policial")/set(BINARY_NAME "MentorPolicial")/' windows/CMakeLists.txt
-      - run: flutter build windows --release
+      - name: Compilar (contas ativadas se as variáveis SUPABASE_URL e SUPABASE_KEY existirem no repositório)
+        shell: bash
+        run: flutter build windows --release --dart-define=SUPABASE_URL="${{ vars.SUPABASE_URL }}" --dart-define=SUPABASE_KEY="${{ vars.SUPABASE_KEY }}"
       - name: Incluir bibliotecas do Visual C++ (para PCs que não as têm)
         shell: pwsh
         run: |
@@ -86,7 +88,8 @@ jobs:
           flutter create --platforms=macos --org br.com.mentorpolicial --project-name mentor_policial .
           rm -f test/widget_test.dart
           cp -R platform/macos/. macos/
-      - run: flutter build macos --release
+      - name: Compilar (contas ativadas se as variáveis SUPABASE_URL e SUPABASE_KEY existirem no repositório)
+        run: flutter build macos --release --dart-define=SUPABASE_URL="${{ vars.SUPABASE_URL }}" --dart-define=SUPABASE_KEY="${{ vars.SUPABASE_KEY }}"
       - name: Gerar o .dmg
         run: |
           APP=$(find build/macos/Build/Products/Release -maxdepth 1 -name "*.app" | head -1)

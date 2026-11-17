@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'app.dart';
+import 'config.dart';
+import 'state/account.dart';
 import 'state/app_state.dart';
 import 'ui/theme.dart';
 
@@ -12,8 +14,14 @@ Future<void> main() async {
     yield LicenseEntryWithLineBreaks(['Barlow', 'Barlow Condensed'], await rootBundle.loadString('assets/fonts/OFL.txt'));
   });
   try {
-    final controller = await AppController.load();
-    runApp(MentorApp(controller: controller));
+    if (kAccountsEnabled) {
+      final account = AccountController();
+      runApp(MentorApp(account: account));
+      await account.start();
+    } else {
+      final controller = await AppController.load();
+      runApp(MentorApp(controller: controller));
+    }
   } catch (e, st) {
     debugPrint('Falha ao iniciar: $e\n$st');
     runApp(StartupError(error: '$e'));

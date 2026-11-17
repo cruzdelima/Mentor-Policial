@@ -1,0 +1,52 @@
+\set ON_ERROR_STOP off
+\set VERBOSITY terse
+-- três contas: dono, aluno A, aluno B
+insert into auth.users (id, email, raw_user_meta_data) values
+ ('00000000-0000-0000-0000-000000000001','DONO@x.com','{"name":"Dono","phone":"+5585999990001","accepted_terms":true,"role":"owner"}'),
+ ('00000000-0000-0000-0000-00000000000a','a@x.com','{"name":"Aluno A","phone":"+5585999990002","accepted_terms":true}'),
+ ('00000000-0000-0000-0000-00000000000b','b@x.com','{"name":"Aluno B","phone":"+5511988887777","accepted_terms":true}');
+select 'T01 papel nunca vem do cadastro (deve ser student)' t, role from public.profiles where id='00000000-0000-0000-0000-000000000001';
+update public.profiles set role='owner' where email = lower('dono@x.com');
+select 'T02 e-mail normalizado' t, email from public.profiles where id='00000000-0000-0000-0000-000000000001';
+
+-- ===== anônimo
+set role anon;
+select 'T03 anônimo lê perfis (deve dar erro)' t; select count(*) from public.profiles;
+reset role;
+
+-- ===== aluno A
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000a',false);
+select 'T04 aluno vê só o próprio perfil (1)' t, count(*) from public.profiles;
+select 'T05 aluno muda o próprio papel (deve dar erro)' t; update public.profiles set role='admin' where id='00000000-0000-0000-0000-00000000000a';
+select 'T06 aluno muda plano (deve dar erro)' t; update public.profiles set plan='premium' where id='00000000-0000-0000-0000-00000000000a';
+select 'T07 aluno edita nome do outro (0 linhas)' t; update public.profiles set name='hack' where id='00000000-0000-0000-0000-00000000000b';
+select 'T08 aluno edita o próprio nome' t; update public.profiles set name='Aluno A2', phone='+5585988887777' where id='00000000-0000-0000-0000-00000000000a';
+select 'T09 telefone inválido (deve dar erro)' t; update public.profiles set phone='123' where id='00000000-0000-0000-0000-00000000000a';
+select 'T10 aluno chama set_role (deve dar erro)' t; select public.set_role('00000000-0000-0000-0000-00000000000a','admin');
+select 'T11 aluno lê auditoria (0)' t, count(*) from public.audit_log_view;
+reset role;
+
+-- ===== dono
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',false);
+select 'T12 dono vê todos (3)' t, count(*) from public.profiles;
+select 'T13 dono torna A admin' t; select public.set_role('00000000-0000-0000-0000-00000000000a','admin');
+select 'T14 dono cria outro dono (deve dar erro)' t; select public.set_role('00000000-0000-0000-0000-00000000000b','owner');
+select 'T15 dono altera a si mesmo (deve dar erro)' t; select public.set_role('00000000-0000-0000-0000-000000000001','admin');
+select 'T16 dono exclui a própria conta (deve dar erro)' t; select public.delete_my_account();
+reset role;
+
+-- ===== A agora é admin
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000a',false);
+select 'T17 admin vê todos (3)' t, count(*) from public.profiles;
+select 'T18 admin concede admin a B (deve dar erro: só o dono)' t; select public.set_role('00000000-0000-0000-0000-00000000000b','admin');
+select 'T19 admin vê auditoria (1)' t, count(*) from public.audit_log_view;
+select 'T20 admin altera papel direto na tabela (deve dar erro)' t; update public.profiles set role='owner' where id='00000000-0000-0000-0000-00000000000a';
+select 'T21 admin apaga auditoria (deve dar erro)' t; delete from public.audit_log;
+reset role;
+
+-- ===== B exclui a própria conta
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000b',false);
+select 'T22 B exclui a própria conta' t; select public.delete_my_account();
+reset role;
+select 'T23 B sumiu de auth.users e profiles (0, 0)' t, (select count(*) from auth.users where email='b@x.com'), (select count(*) from public.profiles where email='b@x.com');
+select 'T24 auditoria' t, action, detail, actor_email, target_email from public.audit_log_view order by at;
