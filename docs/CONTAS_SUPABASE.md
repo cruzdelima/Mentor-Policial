@@ -23,6 +23,8 @@ Leva cerca de 40 minutos. Faça uma vez. Enquanto isso não for feito, o app fun
 3. Deve aparecer *Success. No rows returned*.
 4. Repita com [`supabase/migrations/0002_catalogo.sql`](../supabase/migrations/0002_catalogo.sql) (*New query* › colar › **Run**). Ele cria o catálogo editável (áreas, cargos e concursos pós-edital que você cadastra pelo app).
 
+5. Repita com [`supabase/migrations/0003_convites.sql`](../supabase/migrations/0003_convites.sql). Ele completa o perfil de quem foi convidado pelo painel e depois criou a conta pelo app.
+
 > Os arquivos são aplicados **em ordem** e **uma vez só**. Quando sair um arquivo novo (0003, 0004…), rode só o novo.
 
 ## 3. Regras de senha e de login
@@ -64,6 +66,23 @@ Sem um provedor próprio, o Supabase **só envia e-mails para os membros da equi
 <p style="font-size:28px;font-weight:bold;letter-spacing:6px">{{ .Token }}</p>
 <p>Digite esse código no app. Ele vale por pouco tempo.</p>
 <p>Se você não pediu uma nova senha, ignore este e-mail: sua senha continua a mesma.</p>
+```
+
+**Invite user** — assunto: `Convite para testar o Taticum`
+```html
+<p><img src="https://raw.githubusercontent.com/cruzdelima/Mentor-Policial/main/docs/brand/banner_email_taticum.png" width="600" alt="Taticum" style="max-width:100%;border-radius:8px"></p>
+<h2>Você foi convidado para o Taticum</h2>
+<p>O Taticum monta e acompanha o seu plano de estudos para concursos da área policial.</p>
+<p><b>1. Baixe e instale o app:</b></p>
+<table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr>
+<td style="background:#E0B23A;border-radius:6px;padding:12px 22px"><a href="https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-Setup.exe" style="color:#0A1220;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif">BAIXAR PARA WINDOWS</a></td>
+<td width="12">&nbsp;</td>
+<td style="background:#0A1220;border-radius:6px;padding:12px 22px"><a href="https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-macOS.dmg" style="color:#F5C842;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif">BAIXAR PARA MAC</a></td>
+</tr></table>
+<p style="font-size:13px;color:#555">Windows: se aparecer "O Windows protegeu o computador", clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>. Mac: abra o arquivo, arraste o Taticum para Aplicativos e, na primeira vez, clique com o botão direito no app e escolha <b>Abrir</b>.</p>
+<p><b>2.</b> No app, clique em <b>Criar conta</b> e use este e-mail: <b>{{ .Email }}</b></p>
+<p><b>3.</b> Digite o código de 6 dígitos que chegará aqui no seu e-mail.</p>
+<p style="font-size:13px;color:#555">Se o app disser que a conta já existe, use <b>Esqueci minha senha</b> com este mesmo e-mail.</p>
 ```
 
 ## 5. Ligar o app ao projeto

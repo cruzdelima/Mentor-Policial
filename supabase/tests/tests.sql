@@ -79,3 +79,11 @@ set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000
 select 'T38 aluno lê catálogo atual (versão 2)' t, version, data from public.catalog_docs;
 reset role;
 select 'T39 auditoria do catálogo (2)' t, count(*) from public.audit_log where action = 'alterou o catálogo';
+
+-- ===== convite pelo painel (0003)
+insert into auth.users (id, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1','convidado@x.com','{}');
+select 'T40 convidado nasce sem nome' t, name, phone, accepted_terms_at is null as sem_aceite from public.profiles where email='convidado@x.com';
+update auth.users set raw_user_meta_data = '{"name":"Convidado","phone":"+5581999990009","accepted_terms":true,"role":"owner"}' where email='convidado@x.com';
+select 'T41 cadastro pelo app completa o perfil (Convidado, telefone, aceite, student)' t, name, phone, accepted_terms_at is not null as aceite, role from public.profiles where email='convidado@x.com';
+update auth.users set raw_user_meta_data = '{"name":"Outro","phone":"123"}' where email='convidado@x.com';
+select 'T42 não sobrescreve o que já existe (Convidado)' t, name, phone from public.profiles where email='convidado@x.com';
