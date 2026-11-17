@@ -49,3 +49,16 @@ Name: "{autodesktop}\Taticum"; Filename: "{app}\Taticum.exe"
 
 [Run]
 Filename: "{app}\Taticum.exe"; Description: "Abrir o Taticum"; Flags: nowait postinstall skipifsilent
+
+[Code]
+// Fecha o Taticum (e a versão antiga, Mentor Policial) antes de copiar os arquivos.
+// Sem isso, instalar por cima com o app aberto dá "Acesso negado" no flutter_windows.dll.
+function PrepareToInstall(var NeedsRestart: Boolean): String;
+var
+  Code: Integer;
+begin
+  Exec(ExpandConstant('{sys}\taskkill.exe'), '/F /T /IM Taticum.exe', '', SW_HIDE, ewWaitUntilTerminated, Code);
+  Exec(ExpandConstant('{sys}\taskkill.exe'), '/F /T /IM MentorPolicial.exe', '', SW_HIDE, ewWaitUntilTerminated, Code);
+  Sleep(1000);
+  Result := '';
+end;

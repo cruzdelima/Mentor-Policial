@@ -216,7 +216,7 @@ class _UpdateBanner extends StatelessWidget {
         const SizedBox(width: 12),
         Expanded(
           child: Text(
-            'Nova versão $version disponível. Baixe e instale por cima: seus dados continuam salvos.',
+            'Nova versão $version disponível. Baixe e instale por cima (o instalador fecha o Taticum sozinho): seus dados continuam salvos.',
             style: AppText.strong(AppColors.bg),
           ),
         ),
