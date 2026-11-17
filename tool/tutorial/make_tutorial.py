@@ -190,7 +190,7 @@ def mock_download(c, x, y, w, h):
     c.rect(px + 26, py + 56, 38, 38, fill=GOLD, r=6)
     c.text(px + 45, py + 75, 'exe', HB(16), fill=NAVY, anchor='mm')
     c.text(px + 76, py + 58, 'MentorPolicial-Setup.exe', BB(17), fill=(30, 34, 40))
-    c.text(px + 76, py + 81, 'Concluído · 20 MB', B(15), fill=(100, 106, 118))
+    c.text(px + 76, py + 81, 'Concluído · 13 MB', B(15), fill=(100, 106, 118))
     ring(c, px + 14, py + 46, pw - 28, 58)
     cursor(c, px + 250, py + 82)
     c.text(x + 24, y + 70, 'Abriu o link?', HB(26), fill=(40, 44, 52))
