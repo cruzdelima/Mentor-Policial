@@ -19,12 +19,14 @@ com o método de um aprovado em Agente da Polícia Federal 2025. Feito em Flutte
 
 | Tela | O que faz |
 |---|---|
-| **Primeiro acesso** | Nome → esfera (federal, estadual, municipal) → concurso → cargo → rotina (horas, dias, dia de revisão, nível, datas) → resumo do plano. |
+| **Primeiro acesso** | Nome → esfera (federal, estadual, municipal) → concurso → cargo (ciclo básico, incluindo CFO da PM e do Bombeiro, ou concurso pós-edital) → rotina (horas, dias, dia de revisão, nível, datas) → resumo do plano. |
 | **QG** | Contagem regressiva, missões de hoje, números (questões, acerto, nota líquida, constância, edital), projeção da 1ª volta, gráfico semanal, alertas de reforço, ciclo por matéria. |
 | **Missões** | Cronograma por dia, semana e trilha completa. Concluir uma missão já lança no diário. Revisão 24h, lei seca, revisão semanal, simulados, revisão de 30 dias e discursiva automáticas. Replanejamento a partir de hoje. |
 | **Edital** | Edital verticalizado por cargo: teoria, questões, % de acerto, revisões e status (a estudar, em andamento, reforçar, consolidado). Pular assunto, mudar tamanho (P/M/G) e anotações. |
 | **Diário** | Lançamentos automáticos e manuais, filtros, evolução semanal. |
 | **Materiais** | Dois materiais por assunto: APROFUNDADO (estudo inicial, teoria completa + 20 questões) e RESUMO (revisão, mapa mental + 10 questões), ambos com PDF. Já incluídos: Ortografia, Vírus e malware, Contabilidade (conceitos) e Princípios fundamentais. Mais os links/PDFs do próprio aluno. |
+| **Pós-edital** | Concursos com edital publicado (ex.: CFO CBMPE 2026). Escolhendo um, o plano segue o conteúdo, os pesos e a ordem do edital, com a data da prova; o que já foi estudado continua valendo. |
+| **Admin › Catálogo e concursos** | Só dono e administradores: cadastrar áreas, cargos do ciclo básico (pesos 0–3), matérias e concursos pós-edital, sem programar. Nada muda para os alunos até clicar em PUBLICAR. |
 | **Método** | Os números e as 10 lições do método do autor. |
 | **Ajustes** | Perfil, troca de concurso/cargo, rotina, backup (exportar/importar), apagar dados. |
 

@@ -19,3 +19,6 @@ build/
 /web/
 /android/
 /ios/
+
+# Python
+__pycache__/

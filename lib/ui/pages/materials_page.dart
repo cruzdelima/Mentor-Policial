@@ -79,7 +79,7 @@ class _MaterialsPageState extends State<MaterialsPage> {
     await showDialog<void>(
       context: context,
       builder: (ctx) => StatefulBuilder(builder: (ctx, setState) {
-        final topics = subjectId == null ? <Topic>[] : app.catalog.topicsOf(subjectId!);
+        final topics = subjectId == null ? <Topic>[] : app.catalog.topicsToPick(subjectId!, app.profile.careerCode, opt);
         final ok = title.text.trim().isNotEmpty && loc.text.trim().isNotEmpty;
         return AlertDialog(
           title: Text('ADICIONAR MATERIAL', style: AppText.h2()),

@@ -165,9 +165,13 @@ class Planner {
     for (final t in cat.topics) {
       final s = cat.subjectOrNull(t.subjectId);
       if (s == null || s.weightFor(p.optionId) <= 0) continue;
-      if (!t.appliesTo(p.careerCode, p.optionId)) continue;
+      if (!cat.topicApplies(t, p.careerCode, p.optionId)) continue;
       if (ov[t.id]?.skip ?? false) continue;
       active.add(t);
+    }
+    // Pós-edital: a ordem dentro de cada matéria é a do edital.
+    if (cat.cargoOrNull(p.optionId)?.isContest ?? false) {
+      active.sort((a, b) => cat.contestPosition(p.optionId, a.id)!.compareTo(cat.contestPosition(p.optionId, b.id)!));
     }
 
     final subjIds = <String>{for (final t in active) t.subjectId};

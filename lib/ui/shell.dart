@@ -5,6 +5,7 @@ import '../data/storage.dart';
 import '../state/app_state.dart';
 import '../state/account.dart';
 import 'pages/admin_page.dart';
+import 'pages/contests_page.dart';
 import 'pages/diary_page.dart';
 import 'pages/edital_page.dart';
 import 'pages/materials_page.dart';
@@ -29,6 +30,7 @@ const _nav = [
   _NavItem(AppPage.edital, 'Edital', Icons.checklist_rtl, 'Edital verticalizado'),
   _NavItem(AppPage.diary, 'Diário', Icons.edit_note, 'Lançamentos de estudo'),
   _NavItem(AppPage.materials, 'Materiais', Icons.menu_book_outlined, 'Apostilas e questões'),
+  _NavItem(AppPage.contests, 'Pós-edital', Icons.campaign_outlined, 'Concursos com edital publicado'),
   _NavItem(AppPage.method, 'Método', Icons.military_tech_outlined, 'Como o autor foi aprovado'),
   _NavItem(AppPage.settings, 'Ajustes', Icons.tune, 'Perfil, rotina e dados'),
 ];
@@ -45,6 +47,7 @@ class Shell extends StatelessWidget {
       AppPage.edital => const EditalPage(),
       AppPage.diary => const DiaryPage(),
       AppPage.materials => const MaterialsPage(),
+      AppPage.contests => const ContestsPage(),
       AppPage.method => const MethodPage(),
       AppPage.settings => const SettingsPage(),
       AppPage.admin => const AdminPage(),
@@ -107,19 +110,24 @@ class _Sidebar extends StatelessWidget {
               ],
             ]),
           ),
-          for (final n in [
-            ..._nav,
-            if (AccountScope.maybeOf(context)?.isAdmin ?? false)
-              const _NavItem(AppPage.admin, 'Admin', Icons.admin_panel_settings_outlined, 'Contas e permissões'),
-          ])
-            _NavButton(
-              item: n,
-              compact: compact,
-              selected: app.page == n.page,
-              badge: n.page == AppPage.missions && overdue > 0 ? '$overdue' : null,
-              onTap: () => app.goTo(n.page),
-            ),
-          const Spacer(),
+          Expanded(
+            child: ListView(padding: EdgeInsets.zero, children: [
+              for (final n in [
+                ..._nav,
+                if (AccountScope.maybeOf(context)?.isAdmin ?? false)
+                  const _NavItem(AppPage.admin, 'Admin', Icons.admin_panel_settings_outlined, 'Contas, permissões e catálogo'),
+              ])
+                _NavButton(
+                  item: n,
+                  compact: compact,
+                  selected: app.page == n.page,
+                  badge: n.page == AppPage.missions && overdue > 0
+                      ? '$overdue'
+                      : (n.page == AppPage.contests && app.cargo.isContest ? 'ON' : null),
+                  onTap: () => app.goTo(n.page),
+                ),
+            ]),
+          ),
           if (!compact)
             Container(
               margin: const EdgeInsets.fromLTRB(14, 0, 14, 12),
@@ -179,7 +187,7 @@ class _NavButton extends StatelessWidget {
           if (!compact) ...[
             const SizedBox(width: 12),
             Expanded(child: Text(item.label.toUpperCase(), style: AppText.h3(selected ? AppColors.text : AppColors.muted).copyWith(fontSize: 15))),
-            if (badge != null) Pill(badge!, color: AppColors.red, filled: true),
+            if (badge != null) Pill(badge!, color: item.page == AppPage.missions ? AppColors.red : AppColors.gold, filled: true),
           ],
         ],
       ),

@@ -240,7 +240,7 @@ Future<void> showEntryDialog(BuildContext context, {DiaryEntry? entry}) async {
   await showDialog<void>(
     context: context,
     builder: (ctx) => StatefulBuilder(builder: (ctx, setState) => ListenableBuilder(listenable: Listenable.merge([q, c, m]), builder: (ctx, _) {
-      final topics = subjectId == null ? <Topic>[] : cat.topicsOf(subjectId!);
+      final topics = subjectId == null ? <Topic>[] : cat.topicsToPick(subjectId!, app.profile.careerCode, opt);
       final bad = _int(c) > _int(q);
       final empty = _int(q) == 0 && _int(m) == 0;
       void save() {

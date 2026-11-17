@@ -68,7 +68,7 @@ class AccountController extends ChangeNotifier {
     }
     final storage = await userStorage(id);
     app?.dispose();
-    app = await AppController.load(storage: storage);
+    app = await AppController.load(storage: storage, remote: service);
     status = AccountStatus.signedIn;
     notifyListeners();
   }

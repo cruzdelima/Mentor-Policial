@@ -7,6 +7,7 @@ import '../../state/account.dart';
 import '../dialogs.dart';
 import '../theme.dart';
 import '../widgets.dart';
+import 'catalog_editor.dart';
 
 /// Administração: lista de contas, concessão de administradores (só o dono) e registro de auditoria.
 /// Toda a autorização é feita no servidor; esta tela apenas exibe o que ele libera.
@@ -23,6 +24,7 @@ class _AdminPageState extends State<AdminPage> {
   String? error;
   String query = '';
   bool loading = false;
+  int tab = 0;
 
   @override
   void initState() {
@@ -93,6 +95,21 @@ class _AdminPageState extends State<AdminPage> {
     final admins = all.where((u) => u.isAdmin).length;
     final last7 = all.where((u) => DateTime.now().difference(u.createdAt).inDays < 7).length;
 
+    final tabs = Row(mainAxisSize: MainAxisSize.min, children: [
+      ToggleChip(label: 'CONTAS', selected: tab == 0, onTap: () => setState(() => tab = 0)),
+      const SizedBox(width: 8),
+      ToggleChip(label: 'CATÁLOGO E CONCURSOS', selected: tab == 1, onTap: () => setState(() => tab = 1)),
+    ]);
+    if (tab == 1) {
+      return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        PageHeader(
+          title: 'Catálogo e concursos',
+          subtitle: 'Cadastre áreas, cargos do ciclo básico, matérias e concursos pós-edital. Os alunos recebem ao abrir o app.',
+          actions: [tabs],
+        ),
+        const Expanded(child: CatalogEditor()),
+      ]);
+    }
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       PageHeader(
         title: 'Administração',
@@ -100,6 +117,7 @@ class _AdminPageState extends State<AdminPage> {
             ? 'Você é o dono: só você concede ou remove administradores. Toda alteração fica registrada.'
             : 'Acesso de administrador: consulta de contas. Só o dono altera permissões.',
         actions: [
+          tabs,
           OutlinedButton.icon(onPressed: loading ? null : _load, icon: const Icon(Icons.refresh, size: 18), label: const Text('ATUALIZAR')),
         ],
       ),
@@ -190,7 +208,7 @@ class _AdminPageState extends State<AdminPage> {
           Panel(
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               const SectionLabel('Registro de auditoria · últimas 50 alterações'),
-              if (audit.isEmpty) Text('Nenhuma alteração de permissão registrada.', style: AppText.small()),
+              if (audit.isEmpty) Text('Nenhuma alteração registrada.', style: AppText.small()),
               for (final a in audit)
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 4),

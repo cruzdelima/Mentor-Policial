@@ -31,19 +31,35 @@ class _EditalPageState extends State<EditalPage> {
       ..sort((a, b) => b.weightFor(opt).compareTo(a.weightFor(opt)));
     final outCycle = cat.subjects.where((s) => s.weightFor(opt) == 0).toList();
     final q = query.trim().toLowerCase();
+    final contest = app.cargo.contest;
+    final career = app.profile.careerCode;
     final topics = cat.topics.where((t) {
       if (subjectId != null && t.subjectId != subjectId) return false;
-      if (subjectId == null && cat.subject(t.subjectId).weightFor(opt) == 0) return false;
+      final inPlan = cat.subject(t.subjectId).weightFor(opt) > 0;
+      if (subjectId == null && !inPlan) return false;
+      final applies = cat.topicApplies(t, career, opt);
+      // Assuntos exclusivos de outro edital nunca aparecem; no pós-edital, só o que está no edital.
+      if (t.contest != null && !applies) return false;
+      if (contest != null && inPlan && !applies) return false;
       final ts = st.topic[t.id]!;
       if (status != null && ts.status != status) return false;
       if (q.isNotEmpty && !t.name.toLowerCase().contains(q)) return false;
       return true;
     }).toList();
+    if (contest != null) {
+      final subjOrder = {for (var i = 0; i < inCycle.length; i++) inCycle[i].id: i};
+      topics.sort((a, b) {
+        final c = (subjOrder[a.subjectId] ?? 99).compareTo(subjOrder[b.subjectId] ?? 99);
+        if (c != 0) return c;
+        return (cat.contestPosition(opt, a.id) ?? 9999).compareTo(cat.contestPosition(opt, b.id) ?? 9999);
+      });
+    }
 
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       PageHeader(
         title: 'Edital verticalizado',
-        subtitle: '${app.cargo.name} · ${st.activeTopics} assuntos no ciclo · teoria ${pct(st.theoryShare)} · '
+        subtitle: '${app.cargo.name}${contest == null ? '' : ' · PÓS-EDITAL${contest.examDate == null ? '' : ' · prova ${fmtDate(contest.examDate!)}'}${contest.totalQuestions > 0 ? ' · ${contest.totalQuestions} questões' : ''}'}'
+            ' · ${st.activeTopics} assuntos no ${contest == null ? 'ciclo' : 'edital'} · teoria ${pct(st.theoryShare)} · '
             '${st.reinforce} para reforçar · ${st.consolidated} consolidados',
       ),
       Expanded(
@@ -70,13 +86,14 @@ class _EditalPageState extends State<EditalPage> {
                     selected: subjectId == s.id,
                     weight: s.weightFor(opt),
                     progress: ss.topics == 0 ? 0 : ss.theoryDone / ss.topics,
-                    detail: ss.accuracy == null ? '${ss.theoryDone}/${ss.topics}' : '${ss.theoryDone}/${ss.topics} · ${pct(ss.accuracy)}',
+                    detail: '${contest != null && (contest.questions[s.id] ?? 0) > 0 ? '${contest.questions[s.id]}q · ' : ''}'
+                        '${ss.accuracy == null ? '${ss.theoryDone}/${ss.topics}' : '${ss.theoryDone}/${ss.topics} · ${pct(ss.accuracy)}'}',
                     onTap: () => setState(() => subjectId = s.id),
                   );
                 }),
               if (outCycle.isNotEmpty) ...[
                 const SizedBox(height: 14),
-                Text('FORA DO CICLO BÁSICO DO SEU CARGO', style: AppText.label(AppColors.dim)),
+                Text(contest == null ? 'FORA DO CICLO BÁSICO DO SEU CARGO' : 'FORA DO EDITAL', style: AppText.label(AppColors.dim)),
                 const SizedBox(height: 6),
                 for (final s in outCycle)
                   _SubjectTile(

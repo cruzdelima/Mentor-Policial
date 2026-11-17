@@ -8,13 +8,15 @@ import 'package:flutter/widgets.dart';
 
 import '../core/catalog.dart';
 import '../core/dates.dart';
+import '../core/extras.dart';
 import '../core/models.dart';
 import '../core/planner.dart';
 import '../core/stats.dart';
+import '../data/catalog_store.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.4.0';
+const kAppVersion = '0.5.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
@@ -24,7 +26,31 @@ const kUpdateApiUrl = 'https://api.github.com/repos/cruzdelima/Mentor-Policial/r
 const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-Setup.exe';
 const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-macOS.dmg';
 
-enum AppPage { qg, missions, edital, diary, materials, method, settings, admin }
+enum AppPage { qg, missions, edital, diary, materials, contests, method, settings, admin }
+
+/// Aplica a escolha de cargo/concurso ao perfil. Concurso pós-edital preenche a data da prova e o nome.
+void selectOption(Catalog cat, Profile p, String optionId, {DateTime? today}) {
+  final prev = cat.cargoOrNull(p.optionId);
+  final next = cat.cargo(optionId);
+  final career = cat.careerOfOption(optionId)!;
+  if (prev?.contest != null) {
+    if (p.targetName == prev!.name) p.targetName = '';
+    final d = prev.contest!.examDate;
+    if (d != null && p.examDate != null && sameDay(p.examDate!, d)) p.examDate = null;
+    p.baseOptionId = '';
+  }
+  p
+    ..optionId = optionId
+    ..careerCode = career.code
+    ..esfera = career.esfera;
+  final ct = next.contest;
+  if (ct != null) {
+    p.targetName = next.name;
+    p.baseOptionId = ct.base;
+    final d = ct.examDate;
+    if (d != null && (today == null || d.isAfter(today))) p.examDate = d;
+  }
+}
 
 /// Biblioteca de conteúdos: embutidos + pacotes locais.
 class ContentLibrary {
@@ -117,25 +143,61 @@ class AppController extends ChangeNotifier {
     required this.content,
     required this.bundle,
     DateTime Function()? clock,
-  }) : clock = clock ?? DateTime.now {
+    Map<String, dynamic>? catalogBase,
+    Map<String, dynamic>? extras,
+    this.extrasVersion = 0,
+    this.remote,
+    this.catalogStore,
+  })  : clock = clock ?? DateTime.now,
+        catalogBase = catalogBase ?? const {},
+        extras = extras ?? emptyExtras() {
     _day = today;
+    _fixMissingOption();
     _recompute();
   }
 
   /// Carrega os dados de estudo. [storage] = pasta da conta logada (padrão: pasta única, sem contas).
-  static Future<AppController> load({Storage? storage}) async {
+  /// [remote] = servidor do catálogo extra (null quando o app roda sem contas).
+  static Future<AppController> load({Storage? storage, CatalogRemote? remote}) async {
     final bundle = rootBundle;
-    final catalog = Catalog.fromJson(jsonDecode(await bundle.loadString('assets/catalog/catalog.json')) as Map<String, dynamic>);
+    final base = jsonDecode(await bundle.loadString('assets/catalog/catalog.json')) as Map<String, dynamic>;
+    final store = CatalogStore(Storage.defaultDir());
+    final cached = await store.read();
+    Catalog catalog;
+    try {
+      catalog = Catalog.fromJson(base, extras: cached.data);
+    } catch (_) {
+      catalog = Catalog.fromJson(base);
+    }
     storage ??= Storage(Storage.defaultDir());
     final data = await storage.load();
     final content = await ContentLibrary.load(bundle, storage);
-    final c = AppController(catalog: catalog, storage: storage, data: data, content: content, bundle: bundle);
+    final c = AppController(
+      catalog: catalog,
+      storage: storage,
+      data: data,
+      content: content,
+      bundle: bundle,
+      catalogBase: base,
+      extras: cached.data,
+      extrasVersion: cached.version,
+      remote: remote,
+      catalogStore: store,
+    );
     c._startClock();
     Future<void>.delayed(const Duration(seconds: 3), c._lookForUpdate);
+    if (remote != null) Future<void>.delayed(const Duration(seconds: 1), c.refreshCatalog);
     return c;
   }
 
-  final Catalog catalog;
+  Catalog catalog;
+
+  /// Catálogo embutido no app (JSON) e o catálogo extra publicado pelo dono/administradores.
+  final Map<String, dynamic> catalogBase;
+  Map<String, dynamic> extras;
+  int extrasVersion;
+  final CatalogRemote? remote;
+  final CatalogStore? catalogStore;
   final Storage storage;
   final ContentLibrary content;
   final AssetBundle bundle;
@@ -175,6 +237,77 @@ class AppController extends ChangeNotifier {
   void dispose() {
     _timer?.cancel();
     super.dispose();
+  }
+
+  // ---------------------------------------------------------------- catálogo extra
+
+  /// Busca no servidor a versão publicada do catálogo extra e aplica se mudou.
+  Future<bool> refreshCatalog() async {
+    final r = remote;
+    if (r == null) return false;
+    try {
+      final got = await r.fetchCatalog();
+      if (got == null || got.version == extrasVersion) return false;
+      _useExtras(normalizeExtras(got.data), got.version);
+      return true;
+    } catch (_) {
+      return false; // sem internet: segue com o cache
+    }
+  }
+
+  /// Publica um novo catálogo extra (editor do dono/administradores) e já aplica neste computador.
+  Future<void> publishCatalog(Map<String, dynamic> newExtras, String note) async {
+    final r = remote;
+    if (r == null) throw StateError('Sem servidor configurado.');
+    // Valida antes de enviar: se não montar aqui, não monta em nenhum aluno.
+    Catalog.fromJson(catalogBase, extras: newExtras);
+    final v = await r.saveCatalog(newExtras, extrasVersion, note);
+    _useExtras(normalizeExtras(newExtras), v);
+  }
+
+  void _useExtras(Map<String, dynamic> e, int version) {
+    if (catalogBase.isEmpty) return;
+    final Catalog next;
+    try {
+      next = Catalog.fromJson(catalogBase, extras: e);
+    } catch (_) {
+      return;
+    }
+    extras = e;
+    extrasVersion = version;
+    catalogStore?.write(e, version);
+    catalog = next;
+    if (_fixMissingOption()) {
+      _changed();
+    } else {
+      _recompute();
+      notifyListeners();
+    }
+  }
+
+  /// Se o concurso/cargo do aluno foi removido do catálogo, volta para o cargo de referência.
+  bool _fixMissingOption() {
+    final p = data.profile;
+    if (p == null || catalog.hasOption(p.optionId)) return false;
+    String? opt = catalog.hasOption(p.baseOptionId) ? p.baseOptionId : null;
+    opt ??= catalog.careerOrNull(p.careerCode)?.cycleCargos.firstOrNull?.id;
+    opt ??= catalog.careers.expand((c) => c.cycleCargos).first.id;
+    final career = catalog.careerOfOption(opt)!;
+    p
+      ..optionId = opt
+      ..careerCode = career.code
+      ..esfera = career.esfera;
+    data.anchorDate = _anchorFor(p);
+    data.doneAtAnchor = data.unitDone.keys.toSet();
+    data.planSignature = p.planSignature;
+    return true;
+  }
+
+  /// Troca o plano para um cargo do ciclo básico ou para um concurso pós-edital, sem perder o progresso.
+  void studyFor(String optionId) {
+    final p = profile.copy();
+    selectOption(catalog, p, optionId, today: today);
+    updateProfile(p);
   }
 
   void _recompute() {

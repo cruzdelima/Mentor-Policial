@@ -21,6 +21,9 @@ Leva cerca de 40 minutos. Faça uma vez. Enquanto isso não for feito, o app fun
 1. Menu lateral › **SQL Editor** › *New query*.
 2. Abra o arquivo [`supabase/migrations/0001_contas.sql`](../supabase/migrations/0001_contas.sql), copie **tudo**, cole e clique em **Run**.
 3. Deve aparecer *Success. No rows returned*.
+4. Repita com [`supabase/migrations/0002_catalogo.sql`](../supabase/migrations/0002_catalogo.sql) (*New query* › colar › **Run**). Ele cria o catálogo editável (áreas, cargos e concursos pós-edital que você cadastra pelo app).
+
+> Os arquivos são aplicados **em ordem** e **uma vez só**. Quando sair um arquivo novo (0003, 0004…), rode só o novo.
 
 ## 3. Regras de senha e de login
 

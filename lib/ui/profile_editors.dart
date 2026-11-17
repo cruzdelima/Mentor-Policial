@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/catalog.dart';
 import '../core/dates.dart';
+import '../core/extras.dart';
 import '../core/models.dart';
 import 'theme.dart';
 import 'widgets.dart';
@@ -95,27 +96,86 @@ class CargoPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 14,
-      runSpacing: 14,
-      children: [
-        for (final o in career.cargos)
-          Builder(builder: (context) {
-            final subs = catalog.subjects.where((s) => s.weightFor(o.id) > 0).toList()
-              ..sort((a, b) => b.weightFor(o.id).compareTo(a.weightFor(o.id)));
-            final heavy = subs.where((s) => s.weightFor(o.id) >= 3).map((s) => s.name).join(', ');
-            return ChoiceCard(
-              width: 340,
-              selected: value == o.id,
-              onTap: () => onChanged(o.id),
-              title: o.name,
-              subtitle: '${subs.length} matérias no ciclo básico${heavy.isEmpty ? '' : ' · peso alto: $heavy'}',
-              footer: Wrap(spacing: 5, runSpacing: 5, children: [
-                for (final s in subs) SubjectTag(s),
-              ]),
-            );
-          }),
+    final cycle = career.cycleCargos;
+    final contests = career.contests;
+    return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      if (contests.isNotEmpty) ...[
+        Text('CICLO BÁSICO · PRÉ-EDITAL', style: AppText.label(AppColors.muted)),
+        const SizedBox(height: 4),
+        Text('Para quem estuda antes do edital sair: núcleo comum dos últimos concursos.', style: AppText.small(AppColors.dim)),
+        const SizedBox(height: 10),
       ],
+      Wrap(
+        spacing: 14,
+        runSpacing: 14,
+        children: [
+          for (final o in cycle)
+            Builder(builder: (context) {
+              final subs = catalog.subjects.where((s) => s.weightFor(o.id) > 0).toList()
+                ..sort((a, b) => b.weightFor(o.id).compareTo(a.weightFor(o.id)));
+              final heavy = subs.where((s) => s.weightFor(o.id) >= 3).map((s) => s.name).join(', ');
+              return ChoiceCard(
+                width: 340,
+                selected: value == o.id,
+                onTap: () => onChanged(o.id),
+                title: o.name,
+                subtitle: '${subs.length} matérias no ciclo básico${heavy.isEmpty ? '' : ' · peso alto: $heavy'}',
+                footer: Wrap(spacing: 5, runSpacing: 5, children: [
+                  for (final s in subs) SubjectTag(s),
+                ]),
+              );
+            }),
+        ],
+      ),
+      if (contests.isNotEmpty) ...[
+        const SizedBox(height: 24),
+        Text('PÓS-EDITAL · CONCURSOS COM EDITAL PUBLICADO', style: AppText.label(AppColors.gold)),
+        const SizedBox(height: 4),
+        Text('O plano segue exatamente o conteúdo e a ordem do edital, com a data da prova.', style: AppText.small(AppColors.dim)),
+        const SizedBox(height: 10),
+        Wrap(spacing: 14, runSpacing: 14, children: [
+          for (final o in contests) ContestCard(catalog: catalog, cargo: o, selected: value == o.id, onTap: () => onChanged(o.id)),
+        ]),
+      ],
+    ]);
+  }
+}
+
+/// Cartão de um concurso pós-edital (usado na escolha do cargo e na página Pós-edital).
+class ContestCard extends StatelessWidget {
+  const ContestCard({super.key, required this.catalog, required this.cargo, required this.selected, required this.onTap, this.width = 340});
+  final Catalog catalog;
+  final Cargo cargo;
+  final bool selected;
+  final VoidCallback onTap;
+  final double width;
+
+  @override
+  Widget build(BuildContext context) {
+    final c = cargo.contest!;
+    final subs = catalog.subjects.where((s) => s.weightFor(cargo.id) > 0).toList()
+      ..sort((a, b) => b.weightFor(cargo.id).compareTo(a.weightFor(cargo.id)));
+    final facts = [
+      if (c.banca.isNotEmpty) c.banca,
+      if (c.totalQuestions > 0) '${c.totalQuestions} questões',
+      '${c.topicIds.length} assuntos',
+      if (c.vagas.isNotEmpty) '${c.vagas} vagas',
+    ];
+    return ChoiceCard(
+      width: width,
+      selected: selected,
+      onTap: onTap,
+      title: cargo.name,
+      subtitle: [if (c.orgao.isNotEmpty) c.orgao, facts.join(' · ')].join('\n'),
+      footer: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Wrap(spacing: 6, runSpacing: 6, children: [
+          const Pill('PÓS-EDITAL', color: AppColors.gold, filled: true),
+          if (c.examDate != null) Pill('PROVA ${fmtDate(c.examDate!)}', color: AppColors.amber),
+          if (kContestStatus[c.status] != null) Pill(kContestStatus[c.status]!, color: AppColors.blue),
+        ]),
+        const SizedBox(height: 8),
+        Wrap(spacing: 5, runSpacing: 5, children: [for (final s in subs) SubjectTag(s)]),
+      ]),
     );
   }
 }

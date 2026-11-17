@@ -2,10 +2,76 @@
 /// Vem de assets/catalog/catalog.json e, no futuro, poderá ser atualizado por pacotes de conteúdo.
 library;
 
+import 'extras.dart';
+
 class Cargo {
-  const Cargo(this.id, this.name);
+  const Cargo(this.id, this.name, {this.contest});
+
+  factory Cargo.fromJson(Map<String, dynamic> j) => Cargo(
+        j['id'] as String,
+        j['name'] as String,
+        contest: j['contest'] == null ? null : ContestInfo.fromJson(j['contest'] as Map<String, dynamic>),
+      );
+
   final String id;
   final String name;
+
+  /// Preenchido quando o "cargo" é um concurso específico com edital publicado (modo pós-edital).
+  final ContestInfo? contest;
+
+  bool get isContest => contest != null;
+}
+
+/// Dados de um concurso pós-edital (ex.: CFO CBMPE 2026).
+class ContestInfo {
+  ContestInfo({
+    required this.base,
+    required this.orgao,
+    required this.uf,
+    required this.banca,
+    required this.examDate,
+    required this.editalUrl,
+    required this.vagas,
+    required this.status,
+    required this.notes,
+    required this.topicIds,
+    required this.questions,
+  });
+
+  factory ContestInfo.fromJson(Map<String, dynamic> j) => ContestInfo(
+        base: j['base'] as String? ?? '',
+        orgao: j['orgao'] as String? ?? '',
+        uf: j['uf'] as String? ?? '',
+        banca: j['banca'] as String? ?? '',
+        examDate: DateTime.tryParse(j['examDate'] as String? ?? ''),
+        editalUrl: j['editalUrl'] as String? ?? '',
+        vagas: j['vagas'] as String? ?? '',
+        status: j['status'] as String? ?? '',
+        notes: j['notes'] as String? ?? '',
+        topicIds: [for (final t in j['topicIds'] as List? ?? const []) t as String],
+        questions: {
+          for (final e in ((j['questions'] as Map?) ?? const {}).entries) e.key as String: (e.value as num).toInt(),
+        },
+      );
+
+  /// Cargo do ciclo básico usado como referência (e como plano B se o concurso for removido).
+  final String base;
+  final String orgao;
+  final String uf;
+  final String banca;
+  final DateTime? examDate;
+  final String editalUrl;
+  final String vagas;
+  final String status;
+  final String notes;
+
+  /// Assuntos do edital, na ordem do edital.
+  final List<String> topicIds;
+
+  /// Número de questões por matéria (0 = não informado).
+  final Map<String, int> questions;
+
+  int get totalQuestions => questions.values.fold(0, (a, b) => a + b);
 }
 
 class Career {
@@ -30,9 +96,7 @@ class Career {
         discursiva: j['discursiva'] as bool,
         observacao: j['observacao'] as String,
         marca: j['marca'] as String,
-        cargos: [
-          for (final c in j['cargos'] as List) Cargo(c['id'] as String, c['name'] as String),
-        ],
+        cargos: [for (final c in j['cargos'] as List) Cargo.fromJson(c as Map<String, dynamic>)],
       );
 
   final String code;
@@ -44,6 +108,12 @@ class Career {
   final String observacao;
   final String marca;
   final List<Cargo> cargos;
+
+  /// Cargos do ciclo básico (pré-edital).
+  List<Cargo> get cycleCargos => cargos.where((c) => !c.isContest).toList();
+
+  /// Concursos com edital publicado (pós-edital).
+  List<Cargo> get contests => cargos.where((c) => c.isContest).toList();
 }
 
 class Subject {
@@ -75,6 +145,7 @@ class Topic {
     required this.size,
     required this.scope,
     required this.index,
+    this.contest,
   });
 
   factory Topic.fromJson(Map<String, dynamic> j, int index) => Topic(
@@ -85,6 +156,7 @@ class Topic {
         size: j['size'] as String,
         scope: [for (final s in j['scope'] as List) s as String],
         index: index,
+        contest: j['contest'] as String?,
       );
 
   final String id;
@@ -100,6 +172,9 @@ class Topic {
 
   /// Posição no catálogo (desempate estável).
   final int index;
+
+  /// Id do concurso, quando o assunto é exclusivo de um edital (cadastrado no modo pós-edital).
+  final String? contest;
 
   int get sizeIndex => size == 'P' ? 0 : (size == 'G' ? 2 : 1);
 
@@ -173,9 +248,19 @@ class Catalog {
     for (final t in topics) {
       _topics[t.id] = t;
     }
+    for (final c in careers) {
+      for (final o in c.cargos) {
+        _options[o.id] = o;
+        _optionCareer[o.id] = c;
+        final ct = o.contest;
+        if (ct != null) _contestOrder[o.id] = {for (var i = 0; i < ct.topicIds.length; i++) ct.topicIds[i]: i};
+      }
+    }
   }
 
-  factory Catalog.fromJson(Map<String, dynamic> j) {
+  /// Monta o catálogo a partir do JSON embutido, aplicando os concursos embutidos e o catálogo extra.
+  factory Catalog.fromJson(Map<String, dynamic> json, {Map<String, dynamic>? extras}) {
+    final j = applyExtras(json, extras ?? const {});
     final topicsJson = j['topics'] as List;
     return Catalog(
       version: j['version'] as String,
@@ -199,6 +284,9 @@ class Catalog {
   final List<String> levels;
   final Map<String, Subject> _subjects = {};
   final Map<String, Topic> _topics = {};
+  final Map<String, Cargo> _options = {};
+  final Map<String, Career> _optionCareer = {};
+  final Map<String, Map<String, int>> _contestOrder = {};
 
   Subject subject(String id) => _subjects[id]!;
   Subject? subjectOrNull(String id) => _subjects[id];
@@ -206,11 +294,58 @@ class Catalog {
 
   List<String> get esferas => const ['Federal', 'Estadual', 'Municipal'];
 
-  List<Career> careersOf(String esfera) => careers.where((c) => c.esfera == esfera).toList();
+  List<Career> careersOf(String esfera) => careers.where((c) => c.esfera == esfera && c.cargos.isNotEmpty).toList();
 
   Career career(String code) => careers.firstWhere((c) => c.code == code);
 
-  Cargo cargo(String optionId) => careers.expand((c) => c.cargos).firstWhere((c) => c.id == optionId);
+  Career? careerOrNull(String code) {
+    for (final c in careers) {
+      if (c.code == code) return c;
+    }
+    return null;
+  }
 
-  List<Topic> topicsOf(String subjectId) => topics.where((t) => t.subjectId == subjectId).toList();
+  Cargo cargo(String optionId) => _options[optionId]!;
+  Cargo? cargoOrNull(String optionId) => _options[optionId];
+  Career? careerOfOption(String optionId) => _optionCareer[optionId];
+  bool hasOption(String optionId) => _options.containsKey(optionId);
+
+  /// Todos os concursos pós-edital, do mais próximo ao mais distante.
+  List<Cargo> get contests {
+    final list = _options.values.where((o) => o.isContest).toList();
+    list.sort((a, b) {
+      final da = a.contest!.examDate, db = b.contest!.examDate;
+      if (da == null || db == null) return da == null ? (db == null ? a.name.compareTo(b.name) : 1) : -1;
+      return da.compareTo(db);
+    });
+    return list;
+  }
+
+  /// O assunto entra no plano deste cargo/concurso?
+  bool topicApplies(Topic t, String careerCode, String optionId) {
+    final order = _contestOrder[optionId];
+    if (order != null) return order.containsKey(t.id);
+    if (t.contest != null) return false;
+    return t.appliesTo(careerCode, optionId);
+  }
+
+  /// Assuntos para listas de escolha: os do plano do aluno quando a matéria está no plano; senão, os do catálogo.
+  List<Topic> topicsToPick(String subjectId, String careerCode, String optionId) {
+    final s = subjectOrNull(subjectId);
+    if (s != null && s.weightFor(optionId) > 0) return topicsFor(subjectId, careerCode, optionId);
+    return topicsOf(subjectId);
+  }
+
+  /// Posição do assunto no edital (só para concursos; null no ciclo básico).
+  int? contestPosition(String optionId, String topicId) => _contestOrder[optionId]?[topicId];
+
+  List<Topic> topicsOf(String subjectId) => topics.where((t) => t.subjectId == subjectId && t.contest == null).toList();
+
+  /// Assuntos de uma matéria que valem para o cargo/concurso, na ordem certa (edital ou catálogo).
+  List<Topic> topicsFor(String subjectId, String careerCode, String optionId) {
+    final list = topics.where((t) => t.subjectId == subjectId && topicApplies(t, careerCode, optionId)).toList();
+    final order = _contestOrder[optionId];
+    if (order != null) list.sort((a, b) => order[a.id]!.compareTo(order[b.id]!));
+    return list;
+  }
 }

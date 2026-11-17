@@ -10,6 +10,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import 'catalog_store.dart';
 import 'storage.dart';
 
 enum Role { student, admin, owner }
@@ -132,6 +133,10 @@ String _friendly(String code, String raw, int status) {
     case 'refresh_token_already_used':
     case 'session_not_found':
       return 'Sua sessão expirou. Entre novamente.';
+    case 'PGRST202':
+    case 'PGRST205':
+    case '42P01':
+      return 'O servidor ainda não tem a parte do catálogo. Rode o arquivo supabase/migrations/0002_catalogo.sql no SQL Editor do Supabase.';
   }
   if (status == 429) return 'Muitas tentativas. Aguarde alguns minutos e tente de novo.';
   if (status >= 500) return 'O servidor está indisponível no momento. Tente de novo em instantes.';
@@ -139,7 +144,7 @@ String _friendly(String code, String raw, int status) {
   return raw.isEmpty ? 'Não foi possível concluir a operação (erro $status).' : raw;
 }
 
-class AuthService {
+class AuthService implements CatalogRemote {
   AuthService({required this.url, required this.apiKey, required this.storage});
 
   final String url;
@@ -337,5 +342,22 @@ class AuthService {
           r['detail'] as String? ?? '',
         ),
     ];
+  }
+
+  // ------------------------------------------------------------------ catálogo extra
+
+  @override
+  Future<({Map<String, dynamic> data, int version})?> fetchCatalog() async {
+    final rows = await _send('GET', '/rest/v1/catalog_docs?select=data,version&key=eq.extras', auth: session != null) as List;
+    if (rows.isEmpty) return null;
+    final r = rows.first as Map<String, dynamic>;
+    return (data: (r['data'] as Map).cast<String, dynamic>(), version: (r['version'] as num).toInt());
+  }
+
+  @override
+  Future<int> saveCatalog(Map<String, dynamic> data, int baseVersion, String note) async {
+    final v = await _send('POST', '/rest/v1/rpc/save_catalog',
+        body: {'new_data': data, 'base_version': baseVersion, 'note': note}, auth: true);
+    return (v as num).toInt();
   }
 }

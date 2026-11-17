@@ -27,6 +27,7 @@ class Profile {
     required this.startDate,
     this.examDate,
     this.targetName = '',
+    this.baseOptionId = '',
   });
 
   factory Profile.fromJson(Map<String, dynamic> j) => Profile(
@@ -41,6 +42,7 @@ class Profile {
         startDate: parseIso(j['startDate'] as String),
         examDate: j['examDate'] == null ? null : parseIso(j['examDate'] as String),
         targetName: j['targetName'] as String? ?? '',
+        baseOptionId: j['baseOptionId'] as String? ?? '',
       );
 
   String name;
@@ -61,6 +63,9 @@ class Profile {
   DateTime? examDate;
   String targetName;
 
+  /// Pós-edital: cargo do ciclo básico usado se o concurso escolhido sair do catálogo.
+  String baseOptionId;
+
   /// Dias de conteúdo novo (dias de estudo menos o dia de revisão).
   List<int> get contentWeekdays => studyWeekdays.where((d) => d != reviewWeekday).toList();
 
@@ -76,6 +81,7 @@ class Profile {
         'startDate': isoDate(startDate),
         'examDate': examDate == null ? null : isoDate(examDate!),
         'targetName': targetName,
+        'baseOptionId': baseOptionId,
       };
 
   Profile copy() => Profile.fromJson(toJson());

@@ -195,7 +195,7 @@ class _OnboardingState extends State<Onboarding> {
         ]);
       case 2:
         return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          _title('Passo 2', 'Qual concurso?', 'As matérias e os pesos do ciclo vêm do núcleo comum dos últimos editais de cada carreira.'),
+          _title('Passo 2', 'Qual concurso?', 'As matérias e os pesos do ciclo vêm do núcleo comum dos últimos editais de cada carreira. Concursos com edital publicado aparecem no próximo passo.'),
           CareerPicker(
             catalog: cat,
             esfera: draft.esfera,
@@ -204,7 +204,7 @@ class _OnboardingState extends State<Onboarding> {
               if (draft.careerCode != c) draft.optionId = '';
               draft.careerCode = c;
               final career = cat.career(c);
-              if (career.cargos.length == 1) draft.optionId = career.cargos.first.id;
+              if (career.cargos.length == 1) selectOption(cat, draft, career.cargos.first.id, today: app.today);
             }),
           ),
           const SizedBox(height: 26),
@@ -220,7 +220,15 @@ class _OnboardingState extends State<Onboarding> {
         final career = cat.career(draft.careerCode);
         return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           _title('Passo 3', 'Qual cargo?', 'Cada cargo tem pesos próprios. Matérias de peso alto entram no 1º dia; as demais entram aos poucos.'),
-          CargoPicker(catalog: cat, career: career, value: draft.optionId.isEmpty ? null : draft.optionId, onChanged: (o) => setState(() => draft.optionId = o)),
+          CargoPicker(
+            catalog: cat,
+            career: career,
+            value: draft.optionId.isEmpty ? null : draft.optionId,
+            onChanged: (o) => setState(() {
+              selectOption(cat, draft, o, today: app.today);
+              target.text = draft.targetName;
+            }),
+          ),
         ]);
       case 4:
         return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

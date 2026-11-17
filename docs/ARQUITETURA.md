@@ -29,11 +29,11 @@ Visão para quem vai programar no app. Leia antes de abrir o primeiro Pull Reque
 
 | Pasta | Conteúdo |
 |---|---|
-| `lib/core/` | Dart puro, sem Flutter: `catalog.dart` (carreiras, matérias, assuntos), `planner.dart` (motor de metas), `stats.dart`, `models.dart`, `validation.dart` (senha, e-mail, telefone) |
-| `lib/data/` | `storage.dart` (arquivos locais), `content.dart` (formato dos materiais), `auth.dart` (Supabase) |
+| `lib/core/` | Dart puro, sem Flutter: `catalog.dart` (carreiras, cargos, concursos, matérias, assuntos), `extras.dart` (catálogo extra do editor), `planner.dart` (motor de metas), `stats.dart`, `models.dart`, `validation.dart` (senha, e-mail, telefone) |
+| `lib/data/` | `storage.dart` (arquivos locais), `content.dart` (formato dos materiais), `auth.dart` (Supabase), `catalog_store.dart` (cache do catálogo extra) |
 | `lib/state/` | `app_state.dart` (estudos do aluno), `account.dart` (sessão, perfil, troca de conta) |
 | `lib/ui/` | `theme.dart`, `widgets.dart`, telas em `pages/`, `onboarding.dart`, `auth_screen.dart`, `shell.dart` (menu lateral) |
-| `assets/catalog/` | `catalog.json` — gerado por `tool/content/gen_catalog.py` |
+| `assets/catalog/` | `catalog.json` — gerado por `tool/content/gen_catalog.py` (cargos em `catalog_data.py`/`gen_catalog.py`, concursos embutidos em `contests_data.py`) |
 | `assets/content/` | Um material por pasta (`material.json` + PDF), listados em `index.json` |
 | `tool/content/` | Fontes dos materiais (`<assunto>_aprof.py`, `<assunto>_resumo.py`) e o gerador `build_content.py` |
 | `tool/tutorial/` | Gerador da imagem de instalação |
@@ -54,6 +54,13 @@ Visão para quem vai programar no app. Leia antes de abrir o primeiro Pull Reque
 - `Planner.buildTrail` monta a ordem do ciclo (fila justa ponderada por peso; matérias de peso 2 e 1 entram após 40 h e 100 h).
 - `Schedule` distribui a trilha nos dias a partir da data-âncora; `dayPlan(data)` devolve missões e tarefas (revisão 24 h, lei seca, revisão semanal, simulados, revisão de 30 dias, discursiva).
 - Validado contra a planilha original (`tool/check_planner.dart` e `test/app_test.dart`).
+
+**Catálogo: embutido + extra** (`core/extras.dart`)
+- O app traz `catalog.json` (carreiras, cargos do ciclo básico, matérias, assuntos e concursos pós-edital embutidos).
+- O dono/administradores editam um **catálogo extra** na tela *Admin › Catálogo e concursos*. Ele é um JSON (`areas`, `subjects`, `cargos`, `contests`, `hidden`) salvo na tabela `catalog_docs` pela função `save_catalog()` (só admin/dono; versão com trava contra edição simultânea; histórico em `catalog_history`; registro na auditoria).
+- Na abertura, o app aplica o cache local (`catalogo_extra.json`) e busca a versão publicada em segundo plano. `applyExtras` substitui itens de mesmo id e ignora itens mal formados.
+- **Concurso pós-edital** = um "cargo" com `contest` (banca, data da prova, questões por matéria, assuntos na ordem do edital). Assuntos são `ref` a um assunto do ciclo básico (aproveita PDFs e progresso) ou exclusivos (`<concurso>:<slug>`). `Catalog.topicApplies` decide o que entra no plano.
+- Se um concurso some do catálogo, o aluno volta ao cargo de referência (`Profile.baseOptionId`) sem perder nada.
 
 **Conteúdos**
 - Cada assunto tem dois materiais: `aprofundado` (estudo inicial, 20 questões) e `resumo` (revisão, mapa mental, 10 questões).
@@ -89,3 +96,4 @@ bash supabase/tests/rodar.sh
 | REST direto em vez do pacote `supabase_flutter` | Zero dependências; controle total do que é enviado |
 | Estudos locais | Funciona offline; dados sensíveis de desempenho não saem do computador por padrão |
 | Papéis no banco (`student`/`admin`/`owner`) | Autorização decidida no servidor, auditável |
+| Catálogo extra em JSON único, aplicado sobre o embutido | O dono cadastra concursos sem nova versão do app; um documento só é simples de versionar, auditar e desfazer |

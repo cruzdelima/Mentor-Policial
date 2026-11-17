@@ -109,7 +109,12 @@ class _SettingsPageState extends State<SettingsPage> {
                 Pill(draft.esfera.toUpperCase(), color: AppColors.esfera(draft.esfera), filled: true),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: Text('${app.catalog.career(draft.careerCode).name} · ${app.catalog.cargo(draft.optionId).name}', style: AppText.strong()),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text('${app.catalog.careerOrNull(draft.careerCode)?.name ?? draft.careerCode} · ${app.catalog.cargoOrNull(draft.optionId)?.name ?? '—'}',
+                        style: AppText.strong()),
+                    if (app.catalog.cargoOrNull(draft.optionId)?.isContest ?? false)
+                      Text('Pós-edital: o plano segue o edital deste concurso.', style: AppText.small(AppColors.gold2)),
+                  ]),
                 ),
                 OutlinedButton.icon(
                   onPressed: () => _changeTarget(context),
@@ -188,16 +193,19 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
           actions: [
             TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('CANCELAR')),
-            ElevatedButton(onPressed: option.isEmpty ? null : () => Navigator.pop(ctx, true), child: const Text('USAR ESTE CARGO')),
+            ElevatedButton(
+              onPressed: option.isEmpty ? null : () => Navigator.pop(ctx, true),
+              child: Text(cat.cargoOrNull(option)?.isContest ?? false ? 'USAR ESTE CONCURSO' : 'USAR ESTE CARGO'),
+            ),
           ],
         );
       }),
     );
     if (ok == true) {
       setState(() {
-        draft.esfera = esfera;
-        draft.careerCode = career;
-        draft.optionId = option;
+        draft.targetName = target.text.trim();
+        selectOption(cat, draft, option, today: app.today);
+        target.text = draft.targetName;
       });
     }
   }

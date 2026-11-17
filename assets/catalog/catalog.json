@@ -1,5 +1,5 @@
 {
- "version": "2026.11.1",
+ "version": "2026.11.2",
  "careers": [
   {
    "code": "PF",
@@ -84,12 +84,16 @@
    "escolaridade": "Médio ou superior (varia)",
    "banca": "Varia por estado",
    "discursiva": true,
-   "observacao": "Matemática e conhecimentos gerais pesam; História/Geografia do estado vêm com o edital.",
+   "observacao": "Soldado: Matemática e conhecimentos gerais pesam; História/Geografia do estado vêm com o edital. Oficial (CFO): nível superior (vários estados exigem Direito); Constitucional, Administrativo e Penal Militar pesam.",
    "marca": "Matemática · Conhecimentos gerais",
    "cargos": [
     {
      "id": "PM_SD",
      "name": "Soldado"
+    },
+    {
+     "id": "PM_CFO",
+     "name": "Oficial — CFO (Curso de Formação de Oficiais)"
     }
    ]
   },
@@ -100,12 +104,16 @@
    "escolaridade": "Médio ou superior (varia)",
    "banca": "Varia por estado",
    "discursiva": true,
-   "observacao": "Física e ciências da natureza pesam; Direito em noções.",
+   "observacao": "Soldado: Física e ciências da natureza pesam; Direito em noções. Oficial (CFO): nível superior; Matemática, Física, Química e legislação militar do estado pesam.",
    "marca": "Física · Matemática",
    "cargos": [
     {
      "id": "BM_SD",
      "name": "Soldado Bombeiro"
+    },
+    {
+     "id": "BM_CFO",
+     "name": "Oficial — CFO Bombeiro (Curso de Formação de Oficiais)"
     }
    ]
   },
@@ -156,7 +164,9 @@
     "PC_AG": 3,
     "PC_ES": 3,
     "PM_SD": 3,
+    "PM_CFO": 3,
     "BM_SD": 3,
+    "BM_CFO": 3,
     "PP": 3,
     "GCM": 3
    }
@@ -174,7 +184,9 @@
     "PC_AG": 2,
     "PC_ES": 2,
     "PM_SD": 3,
+    "PM_CFO": 2,
     "BM_SD": 3,
+    "BM_CFO": 3,
     "PP": 2,
     "GCM": 3
    }
@@ -192,7 +204,9 @@
     "PC_AG": 2,
     "PC_ES": 2,
     "PM_SD": 2,
+    "PM_CFO": 1,
     "BM_SD": 2,
+    "BM_CFO": 2,
     "PP": 2,
     "GCM": 2
    }
@@ -210,7 +224,9 @@
     "PC_AG": 2,
     "PC_ES": 2,
     "PM_SD": 2,
+    "PM_CFO": 3,
     "BM_SD": 1,
+    "BM_CFO": 2,
     "PP": 2,
     "GCM": 2
    }
@@ -228,7 +244,9 @@
     "PC_AG": 2,
     "PC_ES": 2,
     "PM_SD": 1,
+    "PM_CFO": 3,
     "BM_SD": 1,
+    "BM_CFO": 2,
     "PP": 2,
     "GCM": 1
    }
@@ -246,7 +264,9 @@
     "PC_AG": 3,
     "PC_ES": 3,
     "PM_SD": 2,
+    "PM_CFO": 2,
     "BM_SD": 1,
+    "BM_CFO": 0,
     "PP": 2,
     "GCM": 2
    }
@@ -264,7 +284,9 @@
     "PC_AG": 3,
     "PC_ES": 3,
     "PM_SD": 1,
+    "PM_CFO": 2,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 2,
     "GCM": 1
    }
@@ -282,7 +304,9 @@
     "PC_AG": 3,
     "PC_ES": 3,
     "PM_SD": 2,
+    "PM_CFO": 2,
     "BM_SD": 1,
+    "BM_CFO": 0,
     "PP": 2,
     "GCM": 2
    }
@@ -300,7 +324,9 @@
     "PC_AG": 1,
     "PC_ES": 1,
     "PM_SD": 2,
+    "PM_CFO": 2,
     "BM_SD": 1,
+    "BM_CFO": 1,
     "PP": 2,
     "GCM": 2
    }
@@ -318,7 +344,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 1,
     "PP": 0,
     "GCM": 0
    }
@@ -336,7 +364,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 0,
     "GCM": 0
    }
@@ -354,7 +384,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 0,
     "GCM": 1
    }
@@ -372,7 +404,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 2,
+    "BM_CFO": 3,
     "PP": 0,
     "GCM": 0
    }
@@ -390,7 +424,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 3,
     "GCM": 0
    }
@@ -408,7 +444,9 @@
     "PC_AG": 1,
     "PC_ES": 1,
     "PM_SD": 2,
+    "PM_CFO": 2,
     "BM_SD": 2,
+    "BM_CFO": 2,
     "PP": 1,
     "GCM": 2
    }
@@ -426,7 +464,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 2,
+    "PM_CFO": 1,
     "BM_SD": 2,
+    "BM_CFO": 1,
     "PP": 1,
     "GCM": 2
    }
@@ -444,7 +484,9 @@
     "PC_AG": 1,
     "PC_ES": 1,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 0,
     "GCM": 0
    }
@@ -462,7 +504,9 @@
     "PC_AG": 0,
     "PC_ES": 1,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 0,
     "PP": 0,
     "GCM": 0
    }
@@ -480,7 +524,9 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 2,
     "PP": 0,
     "GCM": 0
    }
@@ -498,7 +544,69 @@
     "PC_AG": 0,
     "PC_ES": 0,
     "PM_SD": 0,
+    "PM_CFO": 0,
     "BM_SD": 0,
+    "BM_CFO": 2,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "DPM",
+   "name": "Direito Penal Militar",
+   "color": "FCA5A5",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "PM_CFO": 2,
+    "BM_SD": 0,
+    "BM_CFO": 1,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "DPPM",
+   "name": "Direito Processual Penal Militar",
+   "color": "D8B4FE",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "PM_CFO": 1,
+    "BM_SD": 0,
+    "BM_CFO": 0,
+    "PP": 0,
+    "GCM": 0
+   }
+  },
+  {
+   "id": "LE",
+   "name": "Língua Estrangeira (inglês ou espanhol)",
+   "color": "7DD3FC",
+   "weights": {
+    "PF_AG": 0,
+    "PF_ES": 0,
+    "PF_PAP": 0,
+    "PRF": 0,
+    "PPF": 0,
+    "PC_AG": 0,
+    "PC_ES": 0,
+    "PM_SD": 0,
+    "PM_CFO": 0,
+    "BM_SD": 0,
+    "BM_CFO": 1,
     "PP": 0,
     "GCM": 0
    }
@@ -1032,7 +1140,9 @@
     "PF",
     "PRF",
     "PPF",
-    "PC"
+    "PC",
+    "PM_CFO",
+    "BM_CFO"
    ]
   },
   {
@@ -1045,7 +1155,9 @@
     "PF",
     "PRF",
     "PPF",
-    "PC"
+    "PC",
+    "PM_CFO",
+    "BM_CFO"
    ]
   },
   {
@@ -1059,7 +1171,9 @@
     "PRF",
     "PPF",
     "PC",
-    "PP"
+    "PP",
+    "PM_CFO",
+    "BM_CFO"
    ]
   },
   {
@@ -1180,7 +1294,9 @@
     "PF",
     "PRF",
     "PPF",
-    "PC"
+    "PC",
+    "PM_CFO",
+    "BM_CFO"
    ]
   },
   {
@@ -1194,7 +1310,8 @@
     "PRF",
     "PPF",
     "PC",
-    "PP"
+    "PP",
+    "PM_CFO"
    ]
   },
   {
@@ -1312,7 +1429,8 @@
     "PRF",
     "PPF",
     "PC",
-    "PP"
+    "PP",
+    "PM_CFO"
    ]
   },
   {
@@ -1406,7 +1524,8 @@
     "PRF",
     "PPF",
     "PC",
-    "PP"
+    "PP",
+    "PM_CFO"
    ]
   },
   {
@@ -1534,7 +1653,8 @@
    "size": "M",
    "scope": [
     "PF",
-    "PC"
+    "PC",
+    "PM_CFO"
    ]
   },
   {
@@ -2164,8 +2284,8 @@
    "name": "Direito Penal Militar (noções)",
    "size": "M",
    "scope": [
-    "PM",
-    "BM"
+    "PM_SD",
+    "BM_SD"
    ]
   },
   {
@@ -2474,6 +2594,206 @@
    "name": "Fisiologia humana",
    "size": "G",
    "scope": []
+  },
+  {
+   "id": "DPM-01",
+   "subject": "DPM",
+   "n": 1,
+   "name": "Aplicação da lei penal militar",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-02",
+   "subject": "DPM",
+   "n": 2,
+   "name": "Crime militar: conceito, art. 9º do CPM e classificação",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DPM-03",
+   "subject": "DPM",
+   "n": 3,
+   "name": "Imputabilidade penal",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPM-04",
+   "subject": "DPM",
+   "n": 4,
+   "name": "Concurso de agentes",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPM-05",
+   "subject": "DPM",
+   "n": 5,
+   "name": "Penas: espécies e aplicação",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-06",
+   "subject": "DPM",
+   "n": 6,
+   "name": "Medidas de segurança",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPM-07",
+   "subject": "DPM",
+   "n": 7,
+   "name": "Ação penal e extinção da punibilidade",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-08",
+   "subject": "DPM",
+   "n": 8,
+   "name": "Crimes contra a autoridade e a disciplina militar",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-09",
+   "subject": "DPM",
+   "n": 9,
+   "name": "Crimes contra o serviço e o dever militar",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-10",
+   "subject": "DPM",
+   "n": 10,
+   "name": "Crimes contra a pessoa e o patrimônio no CPM",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-11",
+   "subject": "DPM",
+   "n": 11,
+   "name": "Crimes contra a Administração Militar",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPM-12",
+   "subject": "DPM",
+   "n": 12,
+   "name": "Crimes militares em tempo de guerra",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPM-13",
+   "subject": "DPM",
+   "n": 13,
+   "name": "Súmulas e jurisprudência dos tribunais superiores",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "DPPM-01",
+   "subject": "DPPM",
+   "n": 1,
+   "name": "Polícia judiciária militar e inquérito policial militar",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "DPPM-02",
+   "subject": "DPPM",
+   "n": 2,
+   "name": "Ação penal militar",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPPM-03",
+   "subject": "DPPM",
+   "n": 3,
+   "name": "Justiça Militar: organização e competência",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPPM-04",
+   "subject": "DPPM",
+   "n": 4,
+   "name": "Prisão em flagrante, preventiva e menagem",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "DPPM-05",
+   "subject": "DPPM",
+   "n": 5,
+   "name": "Processos especiais e recursos",
+   "size": "P",
+   "scope": []
+  },
+  {
+   "id": "LE-01",
+   "subject": "LE",
+   "n": 1,
+   "name": "Leitura e compreensão de textos",
+   "size": "G",
+   "scope": []
+  },
+  {
+   "id": "LE-02",
+   "subject": "LE",
+   "n": 2,
+   "name": "Vocabulário, sinônimos, antônimos e falsos cognatos",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LE-03",
+   "subject": "LE",
+   "n": 3,
+   "name": "Classes de palavras: substantivos, adjetivos, artigos, pronomes e advérbios",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LE-04",
+   "subject": "LE",
+   "n": 4,
+   "name": "Tempos e modos verbais; verbos regulares e irregulares",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LE-05",
+   "subject": "LE",
+   "n": 5,
+   "name": "Verbos modais, voz passiva e question tags (inglês)",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LE-06",
+   "subject": "LE",
+   "n": 6,
+   "name": "Preposições, conjunções e orações condicionais e relativas",
+   "size": "M",
+   "scope": []
+  },
+  {
+   "id": "LE-07",
+   "subject": "LE",
+   "n": 7,
+   "name": "Divergências entre português e espanhol (espanhol)",
+   "size": "P",
+   "scope": []
   }
  ],
  "leiSeca": [
@@ -2578,5 +2898,543 @@
   "Iniciante (sem base)",
   "Intermediário",
   "Avançado"
+ ],
+ "contests": [
+  {
+   "id": "CBMPE26_TEN",
+   "career": "BM",
+   "base": "BM_CFO",
+   "name": "CFO CBMPE 2026 — 2º Tenente (QOC)",
+   "orgao": "Corpo de Bombeiros Militar de Pernambuco",
+   "uf": "PE",
+   "banca": "Instituto AOCP",
+   "examDate": "2027-02-28",
+   "editalUrl": "https://www.institutoaocp.org.br/",
+   "vagas": "60",
+   "status": "aberto",
+   "notes": "Prova objetiva com 70 questões de 5 alternativas (Bloco I: 20, Bloco II: 20, Bloco III: 30) e redação de 15 a 20 linhas (30 pontos, mínimo 9). Exige 30% de cada bloco e do total, sem zerar disciplina. Requisitos: nível superior em qualquer área, CNH B, 18 a 30 anos. Confira sempre o edital e as retificações.",
+   "subjects": [
+    {
+     "id": "LP",
+     "weight": 3,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "LP-05"
+      },
+      {
+       "ref": "LP-15"
+      },
+      {
+       "name": "Figuras de linguagem",
+       "size": "P"
+      },
+      {
+       "name": "Relações semânticas entre orações, períodos e parágrafos",
+       "size": "M"
+      },
+      {
+       "ref": "LP-01"
+      },
+      {
+       "ref": "LP-02"
+      },
+      {
+       "ref": "LP-03"
+      },
+      {
+       "ref": "LP-06"
+      },
+      {
+       "ref": "LP-07"
+      },
+      {
+       "ref": "LP-13"
+      },
+      {
+       "ref": "LP-08"
+      },
+      {
+       "ref": "LP-09"
+      },
+      {
+       "ref": "LP-10"
+      },
+      {
+       "name": "Funções de \"que\" e \"se\"",
+       "size": "M"
+      },
+      {
+       "ref": "LP-16"
+      },
+      {
+       "ref": "LP-14"
+      },
+      {
+       "ref": "LP-11"
+      },
+      {
+       "ref": "LP-12"
+      },
+      {
+       "ref": "LP-04"
+      },
+      {
+       "ref": "LP-18"
+      },
+      {
+       "ref": "LP-19"
+      },
+      {
+       "name": "Variação linguística",
+       "size": "P"
+      }
+     ]
+    },
+    {
+     "id": "LE",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "LE-01"
+      },
+      {
+       "ref": "LE-02"
+      },
+      {
+       "ref": "LE-03"
+      },
+      {
+       "ref": "LE-04"
+      },
+      {
+       "ref": "LE-05"
+      },
+      {
+       "ref": "LE-06"
+      },
+      {
+       "ref": "LE-07"
+      }
+     ]
+    },
+    {
+     "id": "INFO",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "INFO-06"
+      },
+      {
+       "ref": "INFO-07"
+      },
+      {
+       "ref": "INFO-10"
+      },
+      {
+       "ref": "INFO-11"
+      },
+      {
+       "ref": "INFO-12"
+      },
+      {
+       "ref": "INFO-13"
+      },
+      {
+       "ref": "INFO-02"
+      },
+      {
+       "name": "Windows 11: Prompt de Comando",
+       "size": "P"
+      },
+      {
+       "ref": "INFO-04"
+      },
+      {
+       "ref": "INFO-05"
+      },
+      {
+       "name": "Apresentações (PowerPoint e Impress)",
+       "size": "P"
+      }
+     ]
+    },
+    {
+     "id": "EST",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "EST-01"
+      },
+      {
+       "ref": "EST-08"
+      },
+      {
+       "ref": "EST-06"
+      },
+      {
+       "ref": "EST-02"
+      },
+      {
+       "ref": "EST-03"
+      },
+      {
+       "ref": "EST-04"
+      },
+      {
+       "name": "Testes de hipóteses e análise de variância",
+       "size": "M"
+      },
+      {
+       "ref": "EST-07"
+      }
+     ]
+    },
+    {
+     "id": "RLM",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "RLM-08"
+      },
+      {
+       "ref": "RLM-09"
+      },
+      {
+       "ref": "RLM-10"
+      },
+      {
+       "ref": "RLM-14"
+      },
+      {
+       "ref": "RLM-11"
+      },
+      {
+       "ref": "RLM-12"
+      },
+      {
+       "ref": "RLM-13"
+      },
+      {
+       "name": "Equações, inequações e trigonometria",
+       "size": "M"
+      },
+      {
+       "name": "Geometria analítica: plano cartesiano, retas e circunferências",
+       "size": "M"
+      }
+     ]
+    },
+    {
+     "id": "FIS",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "name": "Grandezas físicas, ordem de grandeza e vetores",
+       "size": "P"
+      },
+      {
+       "ref": "FIS-01"
+      },
+      {
+       "ref": "FIS-03"
+      },
+      {
+       "ref": "FIS-04"
+      },
+      {
+       "ref": "FIS-05"
+      },
+      {
+       "name": "Gravitação e mecânica celeste",
+       "size": "M"
+      },
+      {
+       "ref": "FIS-08"
+      },
+      {
+       "name": "Magnetismo e eletromagnetismo",
+       "size": "M"
+      },
+      {
+       "name": "Ondas, óptica e radiação",
+       "size": "M"
+      },
+      {
+       "ref": "FIS-07"
+      },
+      {
+       "name": "Termodinâmica",
+       "size": "M"
+      }
+     ]
+    },
+    {
+     "id": "QUI",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "QUI-01"
+      },
+      {
+       "ref": "QUI-02"
+      },
+      {
+       "ref": "QUI-03"
+      },
+      {
+       "ref": "QUI-04"
+      },
+      {
+       "ref": "QUI-05"
+      },
+      {
+       "name": "Cinética e equilíbrio químico",
+       "size": "M"
+      },
+      {
+       "name": "Oxirredução e eletroquímica",
+       "size": "M"
+      },
+      {
+       "ref": "QUI-06"
+      },
+      {
+       "name": "Química aplicada: petróleo, polímeros e siderurgia",
+       "size": "P"
+      },
+      {
+       "name": "Aspectos químicos do fogo e da combustão",
+       "size": "M"
+      },
+      {
+       "name": "Produtos químicos perigosos",
+       "size": "P"
+      },
+      {
+       "name": "Química da água",
+       "size": "P"
+      }
+     ]
+    },
+    {
+     "id": "BIO",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "BIO-02"
+      },
+      {
+       "ref": "BIO-01"
+      },
+      {
+       "ref": "BIO-04"
+      },
+      {
+       "name": "Biotecnologia",
+       "size": "P"
+      },
+      {
+       "name": "Evolução e classificação dos seres vivos",
+       "size": "M"
+      },
+      {
+       "ref": "BIO-06"
+      },
+      {
+       "name": "Ecologia e ciências ambientais",
+       "size": "G"
+      },
+      {
+       "name": "Saúde e qualidade de vida das populações humanas",
+       "size": "M"
+      }
+     ]
+    },
+    {
+     "id": "DC",
+     "weight": 3,
+     "questions": 8,
+     "topics": [
+      {
+       "name": "Teoria da Constituição: conceito, classificação e estrutura",
+       "size": "P"
+      },
+      {
+       "name": "Poder constituinte e mutação constitucional",
+       "size": "P"
+      },
+      {
+       "name": "Eficácia e aplicabilidade das normas constitucionais",
+       "size": "P"
+      },
+      {
+       "name": "Controle de constitucionalidade",
+       "size": "G"
+      },
+      {
+       "ref": "DC-01"
+      },
+      {
+       "ref": "DC-02"
+      },
+      {
+       "ref": "DC-03"
+      },
+      {
+       "ref": "DC-04"
+      },
+      {
+       "ref": "DC-05"
+      },
+      {
+       "ref": "DC-06"
+      },
+      {
+       "ref": "DC-07"
+      },
+      {
+       "ref": "DC-08"
+      },
+      {
+       "ref": "DC-09"
+      },
+      {
+       "ref": "DC-10"
+      },
+      {
+       "ref": "DC-11"
+      },
+      {
+       "ref": "DC-12"
+      },
+      {
+       "ref": "DC-13"
+      },
+      {
+       "name": "Ordem social",
+       "size": "M"
+      },
+      {
+       "name": "Constituição do Estado de Pernambuco",
+       "size": "M"
+      },
+      {
+       "name": "ECA, Estatuto da Juventude e Lei Maria da Penha",
+       "size": "M"
+      }
+     ]
+    },
+    {
+     "id": "DA",
+     "weight": 2,
+     "questions": 7,
+     "topics": [
+      {
+       "ref": "DA-01"
+      },
+      {
+       "ref": "DA-02"
+      },
+      {
+       "ref": "DA-03"
+      },
+      {
+       "ref": "DA-04"
+      },
+      {
+       "ref": "DA-06"
+      },
+      {
+       "ref": "DA-07"
+      },
+      {
+       "ref": "DA-08"
+      },
+      {
+       "ref": "DA-09"
+      },
+      {
+       "ref": "DA-10"
+      }
+     ]
+    },
+    {
+     "id": "INST",
+     "weight": 3,
+     "questions": 10,
+     "topics": [
+      {
+       "name": "Código Disciplinar dos Militares de PE (Lei 11.817/00) e regulamento (Decreto 50.014/20)",
+       "size": "G"
+      },
+      {
+       "name": "Estatuto dos Militares de PE (Lei 6.783/74)",
+       "size": "G"
+      },
+      {
+       "name": "Organização Básica do CBMPE (Lei 15.187/13)",
+       "size": "M"
+      },
+      {
+       "ref": "INST-02"
+      }
+     ]
+    },
+    {
+     "id": "DPM",
+     "weight": 2,
+     "questions": 5,
+     "topics": [
+      {
+       "ref": "DPM-01"
+      },
+      {
+       "ref": "DPM-02"
+      },
+      {
+       "ref": "DPM-03"
+      },
+      {
+       "ref": "DPM-04"
+      },
+      {
+       "ref": "DPM-05"
+      },
+      {
+       "ref": "DPM-06"
+      },
+      {
+       "ref": "DPM-07"
+      },
+      {
+       "ref": "DPM-08"
+      },
+      {
+       "ref": "DPM-09"
+      },
+      {
+       "ref": "DPM-10"
+      },
+      {
+       "ref": "DPM-11"
+      },
+      {
+       "ref": "DPM-12"
+      },
+      {
+       "ref": "DPM-13"
+      }
+     ]
+    }
+   ]
+  }
  ]
 }

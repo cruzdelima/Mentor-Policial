@@ -50,3 +50,32 @@ select 'T22 B exclui a própria conta' t; select public.delete_my_account();
 reset role;
 select 'T23 B sumiu de auth.users e profiles (0, 0)' t, (select count(*) from auth.users where email='b@x.com'), (select count(*) from public.profiles where email='b@x.com');
 select 'T24 auditoria' t, action, detail, actor_email, target_email from public.audit_log_view order by at;
+
+-- ===== catálogo editável (0002)
+set role anon;
+select 'T25 anônimo lê o catálogo (0)' t, count(*) from public.catalog_docs;
+select 'T26 anônimo salva catálogo (deve dar erro)' t; select public.save_catalog('{"contests":[]}'::jsonb, 0, 'x');
+select 'T27 anônimo grava direto na tabela (deve dar erro)' t; insert into public.catalog_docs (key, data) values ('extras', '{}');
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000099',false);
+select 'T28 usuário sem perfil salva catálogo (deve dar erro)' t; select public.save_catalog('{"contests":[]}'::jsonb, 0, 'x');
+reset role;
+insert into auth.users (id, email, raw_user_meta_data) values
+ ('00000000-0000-0000-0000-00000000000c','c@x.com','{"name":"Aluno C","phone":"+5585999990003","accepted_terms":true}');
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000c',false);
+select 'T29 aluno salva catálogo (deve dar erro)' t; select public.save_catalog('{"contests":[]}'::jsonb, 0, 'x');
+select 'T30 aluno grava direto (deve dar erro)' t; update public.catalog_docs set data='{}';
+select 'T31 aluno lê histórico (0)' t, count(*) from public.catalog_history;
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000a',false);
+select 'T32 admin salva catálogo (versão 1)' t, public.save_catalog('{"contests":[{"id":"X"}]}'::jsonb, 0, 'primeiro');
+select 'T33 admin salva com versão velha (deve dar erro)' t; select public.save_catalog('{"contests":[]}'::jsonb, 0, 'conflito');
+select 'T34 admin salva versão 2' t, public.save_catalog('{"contests":[]}'::jsonb, 1, 'segundo');
+select 'T35 catálogo não-objeto (deve dar erro)' t; select public.save_catalog('[1,2]'::jsonb, 2, 'lista');
+select 'T36 admin lê histórico (2)' t, count(*) from public.catalog_history;
+select 'T37 admin apaga histórico (deve dar erro)' t; delete from public.catalog_history;
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000c',false);
+select 'T38 aluno lê catálogo atual (versão 2)' t, version, data from public.catalog_docs;
+reset role;
+select 'T39 auditoria do catálogo (2)' t, count(*) from public.audit_log where action = 'alterou o catálogo';
