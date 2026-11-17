@@ -26,6 +26,26 @@ jobs:
           flutter-version: ${{ env.FLUTTER_VERSION }}
           channel: stable
           cache: true
+      - name: Conferir configuração das contas (sem mostrar os valores)
+        env:
+          URL: ${{ vars.SUPABASE_URL }}
+          KEY: ${{ vars.SUPABASE_KEY }}
+        run: |
+          URL="$(echo "$URL" | xargs)"; KEY="$(echo "$KEY" | xargs)"
+          if [ -z "$URL" ] && [ -z "$KEY" ]; then echo "Contas DESATIVADAS (variáveis não definidas)."; exit 0; fi
+          [ -n "$URL" ] || { echo "::error::Falta a variável SUPABASE_URL"; exit 1; }
+          [ -n "$KEY" ] || { echo "::error::Falta a variável SUPABASE_KEY"; exit 1; }
+          echo "$URL" | grep -Eq '^https://[a-z0-9]+\.supabase\.co/?$' || { echo "::error::SUPABASE_URL deve ser https://<id>.supabase.co"; exit 1; }
+          case "$KEY" in
+            sb_secret_*) echo "::error::SUPABASE_KEY é a chave SECRETA. Apague-a do GitHub, gere outra no Supabase e use a Publishable."; exit 1;;
+            sb_publishable_*) echo "Chave publishable: ok";;
+            eyJ*)
+              ROLE="$(echo "$KEY" | cut -d. -f2 | tr '_-' '/+' | base64 -d 2>/dev/null | grep -o '"role":"[a-z_]*"' || true)"
+              [ "$ROLE" = '"role":"anon"' ] || { echo "::error::SUPABASE_KEY não é a chave anon/publishable ($ROLE)"; exit 1; }
+              echo "Chave anon (legada): ok";;
+            *) echo "::error::SUPABASE_KEY em formato desconhecido; use a Publishable key"; exit 1;;
+          esac
+          echo "Contas ATIVADAS: URL e chave em formato válido."
       - run: flutter pub get
       - run: flutter analyze --no-fatal-infos
       - run: flutter test

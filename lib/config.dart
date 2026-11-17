@@ -9,8 +9,12 @@
 /// `service_role`/`secret`: ela ignora todas as regras e daria acesso total ao banco.
 library;
 
-const kSupabaseUrl = String.fromEnvironment('SUPABASE_URL');
-const kSupabaseKey = String.fromEnvironment('SUPABASE_KEY');
+const _rawUrl = String.fromEnvironment('SUPABASE_URL');
+const _rawKey = String.fromEnvironment('SUPABASE_KEY');
+
+/// Endereço do projeto, sem espaços nem barra no final (tolerante a erros de digitação na variável).
+final String kSupabaseUrl = _rawUrl.trim().replaceAll(RegExp(r'/+$'), '');
+final String kSupabaseKey = _rawKey.trim();
 
 /// Página pública com os Termos de Uso e a Política de Privacidade.
 const kTermsUrl = 'https://github.com/cruzdelima/Mentor-Policial/blob/main/docs/TERMOS_E_PRIVACIDADE.md';
