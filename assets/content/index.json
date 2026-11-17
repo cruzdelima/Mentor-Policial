@@ -32,6 +32,126 @@
    "status": "Em revisão pelo autor"
   },
   {
+   "id": "lp-acentuacao-02",
+   "folder": "portugues_acentuacao_aprofundado",
+   "title": "Acentuação gráfica",
+   "subtitle": "Língua Portuguesa · Fonologia e ortografia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-02"
+   ],
+   "kind": "aprofundado",
+   "minutes": 120,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-acentuacao-01",
+   "folder": "portugues_acentuacao",
+   "title": "Acentuação gráfica",
+   "subtitle": "Língua Portuguesa · Fonologia e ortografia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-02"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-classes1-02",
+   "folder": "portugues_classes1_aprofundado",
+   "title": "Substantivo, adjetivo, artigo e numeral",
+   "subtitle": "Língua Portuguesa · Morfologia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-03"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-classes1-01",
+   "folder": "portugues_classes1",
+   "title": "Substantivo, adjetivo, artigo e numeral",
+   "subtitle": "Língua Portuguesa · Morfologia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-03"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-pronomes-02",
+   "folder": "portugues_pronomes_aprofundado",
+   "title": "Pronomes: emprego e colocação",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-04"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-pronomes-01",
+   "folder": "portugues_pronomes",
+   "title": "Pronomes: emprego e colocação",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-04"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-interpretacao-02",
+   "folder": "portugues_interpretacao_aprofundado",
+   "title": "Compreensão e interpretação de textos",
+   "subtitle": "Língua Portuguesa · Leitura",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-05"
+   ],
+   "kind": "aprofundado",
+   "minutes": 180,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-interpretacao-01",
+   "folder": "portugues_interpretacao",
+   "title": "Compreensão e interpretação de textos",
+   "subtitle": "Língua Portuguesa · Leitura",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-05"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
    "id": "info-malware-02",
    "folder": "informatica_virus_aprofundado",
    "title": "Vírus e outros códigos maliciosos",

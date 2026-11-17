@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/dates.dart';
+import '../data/storage.dart';
 import '../state/app_state.dart';
 import 'pages/diary_page.dart';
 import 'pages/edital_page.dart';
@@ -53,10 +54,15 @@ class Shell extends StatelessWidget {
           children: [
             _Sidebar(compact: compact),
             Expanded(
-              child: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 180),
-                child: KeyedSubtree(key: ValueKey(app.page), child: page),
-              ),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                if (app.update != null && !app.updateDismissed) _UpdateBanner(version: app.update!.version, url: app.update!.url),
+                Expanded(
+                  child: AnimatedSwitcher(
+                    duration: const Duration(milliseconds: 180),
+                    child: KeyedSubtree(key: ValueKey(app.page), child: page),
+                  ),
+                ),
+              ]),
             ),
           ],
         );
@@ -174,6 +180,43 @@ class _NavButton extends StatelessWidget {
       message: compact ? '${item.label} · ${item.hint}' : item.hint,
       waitDuration: const Duration(milliseconds: 600),
       child: Material(color: Colors.transparent, child: InkWell(onTap: onTap, borderRadius: BorderRadius.circular(8), child: body)),
+    );
+  }
+}
+
+class _UpdateBanner extends StatelessWidget {
+  const _UpdateBanner({required this.version, required this.url});
+  final String version;
+  final String url;
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.read(context);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 10),
+      color: AppColors.gold,
+      child: Row(children: [
+        const Icon(Icons.system_update_alt, color: AppColors.bg),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Text(
+            'Nova versão $version disponível. Baixe e instale por cima: seus dados continuam salvos.',
+            style: AppText.strong(AppColors.bg),
+          ),
+        ),
+        TextButton(
+          onPressed: app.dismissUpdate,
+          style: TextButton.styleFrom(foregroundColor: AppColors.bg),
+          child: const Text('DEPOIS'),
+        ),
+        const SizedBox(width: 6),
+        ElevatedButton.icon(
+          style: ElevatedButton.styleFrom(backgroundColor: AppColors.bg, foregroundColor: AppColors.gold2),
+          onPressed: () => openExternal(url),
+          icon: const Icon(Icons.download, size: 18),
+          label: const Text('BAIXAR ATUALIZAÇÃO'),
+        ),
+      ]),
     );
   }
 }

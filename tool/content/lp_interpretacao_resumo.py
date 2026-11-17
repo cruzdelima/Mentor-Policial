@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+"""Língua Portuguesa · Compreensão e interpretação de textos — RESUMO (revisão)."""
+from common import *
+
+MATERIAL = material(
+    "lp-interpretacao-01", "LP", "LP-05", "resumo", "Compreensão e interpretação de textos", "Língua Portuguesa · Leitura",
+    "portugues_interpretacao", "Portugues_Interpretacao_de_Textos_RESUMO.pdf", None, ["Compreensão e", "interpretação de textos"], RES_SUB,
+    RES_ITEMS("os três erros da banca, implícitos, modalização e método"),
+    "Tópico do edital: Compreensão e interpretação de textos (Língua Portuguesa)",
+    "Base: linguística textual e padrão de cobrança do Cebraspe.", 40)
+
+THEORY = [
+    exam("O que a banca cobra",
+         "Itens que **ampliam**, **restringem** ou **invertem** o que o texto diz, que atribuem ao autor a ideia de outra pessoa e que trocam "
+         "o grau de certeza (*pode* › *é*). Julgue sempre **voltando ao trecho**."),
+    h2("1. Compreender × interpretar"),
+    tb(["Comando do item", "O que pede", "Onde está a resposta"], [0.36, 0.3, 0.34], [
+        ("Segundo o texto, de acordo com o autor", "Compreensão", "Explícita no texto"),
+        ("Infere-se, depreende-se, conclui-se", "Interpretação", "Conclusão **necessária** a partir do texto"),
+        ("O texto sugere, deixa implícito", "Pressuposto ou subentendido", "Marcas linguísticas e contexto"),
+        ("O autor defende, a argumentação…", "Ponto de vista", "Tese e argumentos"),
+        ("Manteria o sentido e a correção", "Reescrita", "Os dois critérios ao mesmo tempo"),
+    ]),
+    h2("2. Os três erros"),
+    tb(["Erro", "O item…", "Alerta"], [0.2, 0.44, 0.36], [
+        ("Extrapolação", "vai além do texto (generaliza, acrescenta)", "todos, sempre, nunca, elimina, garante"),
+        ("Redução", "toma uma parte pelo todo", "apenas, só, o único, exclusivamente"),
+        ("Contradição", "diz o contrário do texto", "negação trocada, antônimo, conectivo invertido"),
+    ]),
+    nt("Palavra absoluta não torna o item errado sozinha: se o texto também for categórico, o item pode estar certo."),
+    h2("3. Implícitos"),
+    bl("**Pressuposto**: vem de marca no enunciado e resiste à negação — *voltou a, deixou de, ainda, já, até, ex-, reconheceu que*.",
+       "**Subentendido**: insinuação que depende do contexto; quem fala pode negar.",
+       "**Inferência válida** é **necessária**, não apenas possível ou provável."),
+    h2("4. Ponto de vista"),
+    bl("**Tese** costuma vir na introdução ou na conclusão (*portanto, assim, em suma*).",
+       "Cuidado com o **contra-argumento**: “há quem diga”, “acreditou-se” — não é a opinião do autor.",
+       "**Modalizadores**: *talvez, pode, parece, ao que tudo indica* (dúvida) × *evidentemente, comprova* (certeza) × *deve, é preciso* (obrigação). "
+       "Trocar um pelo outro **muda o sentido**.",
+       "**Aspas**: citação, ironia, termo técnico ou distanciamento."),
+    h2("5. Conectivos"),
+    bl("**Mas, porém, contudo**: a ideia forte vem **depois**.",
+       "**Embora, ainda que, apesar de**: a ideia forte está na **outra** oração.",
+       "**Se, caso**: condição — não afirma que o fato ocorreu.",
+       "**Portanto, logo, por isso**: conclusão, muitas vezes a tese."),
+]
+
+SUMMARY = [
+    h2("Método em 7 passos"),
+    tb(["Passo", "Ação"], [0.1, 0.9], [
+        ("1", "Ler o texto inteiro uma vez: tema e intenção (informar ou defender?)."),
+        ("2", "Resumir cada parágrafo em uma frase."),
+        ("3", "Identificar o comando do item."),
+        ("4", "Voltar ao trecho citado — nunca julgar de memória."),
+        ("5", "Perguntar: ampliou, restringiu ou inverteu?"),
+        ("6", "Conferir quem fala: o autor ou alguém que ele cita."),
+        ("7", "Na dúvida real, deixar em branco."),
+    ]),
+    h2("Leve para a prova"),
+    bl("Interpretar **não é opinar**.",
+       "Precisou de informação de fora do texto? Provável **extrapolação**.",
+       "“Infere-se” exige conclusão **necessária**.",
+       "**Voltou a** mentir › já tinha mentido.",
+       "**Mas**: a ideia forte vem depois; **embora**: está na outra oração.",
+       "**Pode** ≠ **é**: modalizador trocado muda o sentido.",
+       "Ideia refutada pelo autor **não** é a tese dele.",
+       "**Isso/isto** podem retomar uma oração inteira.",
+       "Reescrita: **correção e sentido**, os dois.",
+       "Cada erro anula um acerto: **branco** é estratégia."),
+    {"t": "mindmap"},
+]
+
+MINDMAP = {
+    "root": "INTERPRETAÇÃO", "rootSub": "o que o texto diz e permite concluir",
+    "left": [
+        {"label": "Compreender", "items": ["O que está escrito", "Segundo o texto…", "De acordo com o autor…"]},
+        {"label": "Interpretar", "items": ["O que o texto autoriza", "Infere-se, depreende-se", "Conclusão necessária"]},
+        {"label": "Extrapolação", "items": ["Vai além do texto", "todos, sempre, elimina", "Conhecimento de fora"]},
+        {"label": "Redução", "items": ["Parte tomada pelo todo", "apenas, só, o único"]},
+        {"label": "Contradição", "items": ["Diz o oposto do texto", "Negação ou conectivo trocado"]},
+    ],
+    "right": [
+        {"label": "Pressuposto", "items": ["Marca no enunciado", "voltou a, deixou de, até", "Resiste à negação"]},
+        {"label": "Subentendido", "items": ["Depende do contexto", "Insinuação; pode ser negado"]},
+        {"label": "Ponto de vista", "items": ["Tese: início ou fim", "Contra-argumento ≠ opinião", "Quem está falando?"]},
+        {"label": "Modalização", "items": ["talvez, pode: dúvida", "evidentemente: certeza", "Trocar muda o sentido"]},
+        {"label": "Método", "items": ["Ler tudo e resumir", "Voltar ao trecho", "Na dúvida, em branco"]},
+    ],
+}
+
+T4 = ("**Texto.** A pressa é inimiga da perícia. Um local de crime alterado por curiosos, por agentes desatentos ou mesmo pela chuva perde "
+      "informações que nenhum laboratório recupera. Por isso, a primeira tarefa de quem chega não é investigar, mas preservar: isolar a área, impedir o "
+      "trânsito de pessoas e registrar o estado em que tudo foi encontrado. Parece pouco. É, muitas vezes, o que separa um caso resolvido de um arquivado.")
+
+QUIZ = quiz([
+    ("C", "Depreende-se do texto que a preservação do local de crime antecede a investigação propriamente dita.",
+     "“A primeira tarefa de quem chega não é investigar, mas preservar.”", T4),
+    ("E", "Segundo o texto, os laboratórios conseguem recuperar as informações perdidas em locais de crime alterados, ainda que com dificuldade.",
+     "Contradição: o texto diz que nenhum laboratório recupera essas informações."),
+    ("C", "O texto atribui a perda de informações não apenas à ação humana, mas também a fatores naturais.",
+     "Além de curiosos e agentes desatentos, o texto cita a chuva."),
+    ("E", "O trecho “Parece pouco” revela que, para o autor, a preservação do local é tarefa de pouca importância.",
+     "O período seguinte desfaz a aparência: a preservação pode separar um caso resolvido de um arquivado."),
+    ("C", "A expressão “muitas vezes”, no último período, evita que a afirmação seja apresentada como regra absoluta.",
+     "É modalizador: atenua a generalização."),
+    ("C", "O pressuposto decorre de marcas linguísticas do enunciado, ao passo que o subentendido depende do contexto e da interpretação de quem lê ou ouve.",
+     "Por isso o pressuposto resiste à negação, e o subentendido pode ser negado por quem fala."),
+    ("E", "Em itens de interpretação, extrapolar significa reproduzir com fidelidade as informações contidas no texto.",
+     "Extrapolar é ir além do que o texto diz ou autoriza."),
+    ("C", "No enunciado “O réu voltou a mentir”, está pressuposto que o réu já havia mentido antes.",
+     "A locução voltou a é marca de pressuposição."),
+    ("E", "Na frase “Até o delegado foi enganado”, a palavra até não acrescenta informação implícita ao enunciado.",
+     "Até pressupõe que outros também foram enganados e que isso era improvável no caso do delegado."),
+    ("C", "Compreender um texto consiste em identificar o que nele está explícito; interpretá-lo envolve chegar a conclusões que ele autoriza, sem ir além dele.",
+     "É a distinção básica entre os dois tipos de item."),
+], 10)
+
+SOURCES = ["KOCH, I. V.; ELIAS, V. M. Ler e compreender. FIORIN, J. L.; SAVIOLI, F. P. Para entender o texto.", SRC_R]

@@ -55,14 +55,18 @@ class MindMapSpec {
 }
 
 class QuizQuestion {
-  QuizQuestion({required this.id, required this.text, required this.answer, required this.comment, this.group = ''});
+  QuizQuestion({required this.id, required this.text, required this.answer, required this.comment, this.group = '', this.context = ''});
   factory QuizQuestion.fromJson(Map<String, dynamic> j) => QuizQuestion(
         id: j['id'] as String,
         text: j['text'] as String,
         answer: j['answer'] as String,
         comment: j['comment'] as String? ?? '',
         group: j['group'] as String? ?? '',
+        context: j['context'] as String? ?? '',
       );
+
+  /// Texto de apoio exibido antes do item (interpretação de texto).
+  final String context;
 
   /// Bloco da questão (ex.: "Bloco A · inéditas"). Vazio = sem blocos.
   final String group;

@@ -14,12 +14,15 @@ import '../core/stats.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.2.0';
+const kAppVersion = '0.3.0';
 const kAppChannel = 'Beta de testes';
 
-/// Endereço de um JSON com {"version": "x.y.z", "url": "..."} para avisar sobre novas versões.
-/// Vazio = verificação desativada (as versões de teste são distribuídas manualmente).
-const kUpdateManifestUrl = '';
+/// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
+const kUpdateApiUrl = 'https://api.github.com/repos/cruzdelima/Mentor-Policial/releases/latest';
+
+/// Links fixos que sempre baixam a versão mais recente.
+const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-Setup.exe';
+const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-macOS.dmg';
 
 enum AppPage { qg, missions, edital, diary, materials, method, settings }
 
@@ -127,6 +130,7 @@ class AppController extends ChangeNotifier {
     final content = await ContentLibrary.load(bundle, storage);
     final c = AppController(catalog: catalog, storage: storage, data: data, content: content, bundle: bundle);
     c._startClock();
+    Future<void>.delayed(const Duration(seconds: 3), c._lookForUpdate);
     return c;
   }
 
@@ -422,17 +426,36 @@ class AppController extends ChangeNotifier {
     _changed();
   }
 
-  /// Verifica se há versão nova (desativado enquanto [kUpdateManifestUrl] estiver vazio).
+  /// Versão nova encontrada no GitHub (null = nenhuma ou sem internet).
+  ({String version, String url})? update;
+  bool updateDismissed = false;
+
+  Future<void> _lookForUpdate() async {
+    final u = await checkUpdate();
+    if (u != null) {
+      update = u;
+      notifyListeners();
+    }
+  }
+
+  void dismissUpdate() {
+    updateDismissed = true;
+    notifyListeners();
+  }
+
+  /// Consulta a última versão publicada. Falhas (sem internet, limite da API) são ignoradas.
   Future<({String version, String url})?> checkUpdate() async {
-    if (kUpdateManifestUrl.isEmpty) return null;
-    final client = HttpClient()..connectionTimeout = const Duration(seconds: 6);
+    final client = HttpClient()
+      ..connectionTimeout = const Duration(seconds: 6)
+      ..userAgent = 'MentorPolicial/$kAppVersion';
     try {
-      final req = await client.getUrl(Uri.parse(kUpdateManifestUrl));
-      final res = await req.close();
+      final req = await client.getUrl(Uri.parse(kUpdateApiUrl));
+      req.headers.set('Accept', 'application/vnd.github+json');
+      final res = await req.close().timeout(const Duration(seconds: 10));
       if (res.statusCode != 200) return null;
       final j = jsonDecode(await res.transform(utf8.decoder).join()) as Map<String, dynamic>;
-      final v = j['version'] as String? ?? '';
-      if (_newer(v, kAppVersion)) return (version: v, url: j['url'] as String? ?? '');
+      final v = (j['tag_name'] as String? ?? '').replaceFirst(RegExp('^[vV]'), '');
+      if (_newer(v, kAppVersion)) return (version: v, url: Platform.isMacOS ? kDownloadMac : kDownloadWindows);
       return null;
     } catch (_) {
       return null;

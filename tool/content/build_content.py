@@ -30,6 +30,10 @@ sys.path.insert(0, HERE)
 # Ordem = ordem na biblioteca do app.
 MODULES = [
     'lp_ortografia_aprof', 'lp_ortografia_resumo',
+    'lp_acentuacao_aprof', 'lp_acentuacao_resumo',
+    'lp_classes1_aprof', 'lp_classes1_resumo',
+    'lp_pronomes_aprof', 'lp_pronomes_resumo',
+    'lp_interpretacao_aprof', 'lp_interpretacao_resumo',
     'info_virus_aprof', 'info_virus_resumo',
     'cont_conceitos_aprof', 'cont_conceitos_resumo',
     'dc_principios_aprof', 'dc_principios_resumo',
@@ -64,7 +68,8 @@ KIND_USE = {'aprofundado': 'ESTUDO INICIAL', 'resumo': 'REVISÃO'}
 def md(text):
     """**negrito** vira <b>; escapa &, <, >."""
     t = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-    return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
+    t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
+    return t.replace('\n', '<br/><br/>')
 
 
 S = {
@@ -439,6 +444,8 @@ def build_pdf(C, path):
         if g and g != last:
             story.append(Paragraph(g.upper(), S['group']))
             last = g
+        if q.get('context'):
+            story.append(callout('key', 'Texto para os próximos itens', q['context'], fw))
         story.append(QuestionBox(i, q['text'], fw))
         story.append(Spacer(1, 6))
     story.append(PageBreak())

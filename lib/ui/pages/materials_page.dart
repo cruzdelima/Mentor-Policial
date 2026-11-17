@@ -614,6 +614,21 @@ class _QuizViewState extends State<QuizView> {
             padding: const EdgeInsets.only(top: 6, bottom: 10),
             child: Text(quiz.questions[i].group.toUpperCase(), style: AppText.h3(AppColors.gold2)),
           ),
+        if (quiz.questions[i].context.isNotEmpty)
+          Container(
+            margin: const EdgeInsets.only(bottom: 12),
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: AppColors.gold.withValues(alpha: 0.08),
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: AppColors.gold.withValues(alpha: 0.5)),
+            ),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('TEXTO PARA OS PRÓXIMOS ITENS', style: AppText.label(AppColors.gold2)),
+              const SizedBox(height: 6),
+              RichMd(quiz.questions[i].context, style: AppText.body().copyWith(fontSize: 15, height: 1.55)),
+            ]),
+          ),
         _QuestionCard(
         index: i + 1,
         q: quiz.questions[i],

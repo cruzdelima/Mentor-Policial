@@ -1,0 +1,420 @@
+{
+ "id": "lp-pronomes-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-04"
+ ],
+ "kind": "resumo",
+ "title": "Pronomes: emprego e colocação",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 40,
+ "pdf": "portugues_pronomes.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Referência** (“o pronome retoma…”), **emprego** (*o* × *lhe*, *este* × *esse*, *cujo*, *onde*, preposição antes do relativo) e **colocação** (“o pronome pode ir para depois do verbo?” — procure a palavra atrativa)."
+    },
+    {
+     "t": "h2",
+     "text": "1. Pessoais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Para eu fazer** (sujeito de infinitivo) × **para mim** (sem verbo). **Entre mim e ti.**",
+      "**o, a** = objeto direto; **lhe** = objeto indireto. *Eu o vi. Eu lhe obedeço.*",
+      "Depois de **R, S, Z**: lo, la (*prendê-lo, fi-la*). Depois de **som nasal**: no, na (*prenderam-no*).",
+      "**Com nós** só com reforço (*com nós dois*); senão, **conosco**. **Si, consigo**: só reflexivos.",
+      "**Tratamento**: verbo e possessivo na **3ª pessoa**; **Vossa** = falando com; **Sua** = falando de."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Possessivos e demonstrativos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Seu** pode gerar **ambiguidade**; desfaz-se com *dele/dela*.",
+      "**Este** = perto de quem fala; presente; o que **vai ser dito**. **Esse** = perto do ouvinte; o que **já foi dito**.",
+      "Dois termos: **este** = o último citado; **aquele** = o primeiro.",
+      "**O, a** = demonstrativo quando equivale a *aquilo, aquele, isso*: *o que disse; não o disse*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Relativos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Relativo",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.16,
+      0.48,
+      0.36
+     ],
+     "rows": [
+      [
+       "que",
+       "Pessoa ou coisa",
+       "o agente que prendeu"
+      ],
+      [
+       "quem",
+       "Só pessoa, com preposição",
+       "a pessoa a quem me referi"
+      ],
+      [
+       "cujo",
+       "Posse; concorda com o possuído; **sem artigo** depois",
+       "o réu cuja defesa…"
+      ],
+      [
+       "onde",
+       "Só **lugar** (= em que)",
+       "a rua onde mora"
+      ],
+      [
+       "o qual",
+       "Desfaz ambiguidade; após preposição longa",
+       "a lei segundo a qual…"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Preposição antes do relativo",
+     "text": "*O filme **a que** assisti; a pessoa **de quem** gosto; o cargo **a que** aspiro; o autor **de cujo** livro falei.*"
+    },
+    {
+     "t": "h2",
+     "text": "4. Indefinidos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Algum** posposto = nenhum (*ajuda alguma*). **Certo** anteposto = indefinido (*certo dia*).",
+      "**Todo o** = inteiro; **todo** = qualquer. **Bastantes** provas (= muitas)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Colocação pronominal"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Posição",
+      "Quando",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.5,
+      0.32
+     ],
+     "rows": [
+      [
+       "Próclise",
+       "Palavra atrativa: negação, advérbio, relativo, indefinido, demonstrativo neutro, conjunção subordinativa, interrogativo; frases exclamativas e optativas; em + gerúndio",
+       "Não me disse. Quando se soube…"
+      ],
+      [
+       "Mesóclise",
+       "Futuro do presente ou do pretérito, **sem** atração",
+       "Dir-se-ia. Far-lhe-ei."
+      ],
+      [
+       "Ênclise",
+       "Início de frase; imperativo afirmativo; gerúndio; infinitivo impessoal",
+       "Disseram-me. Sente-se."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Proibições",
+     "text": "Não se começa frase com pronome átono. **Nunca** ênclise com **futuro** (“farei-o”) nem com **particípio** (“tinha dado-me”)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Facultativo**: sujeito expresso sem atração (*Ele me disse / Ele disse-me*).",
+      "**Locução com infinitivo ou gerúndio**: *Devo-lhe dizer / Devo dizer-lhe*; com atração: *Não lhe devo dizer / Não devo dizer-lhe*.",
+      "**Locução com particípio**: pronome junto ao auxiliar — *Tinha-me dito / Não me tinha dito*."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: certo × errado no padrão formal"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Evite",
+      "Prefira",
+      "Por quê"
+     ],
+     "widths": [
+      0.3,
+      0.3,
+      0.4
+     ],
+     "rows": [
+      [
+       "Vi ele ontem.",
+       "Vi-o ontem.",
+       "Reto não é objeto"
+      ],
+      [
+       "Eu lhe convidei.",
+       "Eu o convidei.",
+       "Convidar é transitivo direto"
+      ],
+      [
+       "Entre eu e você.",
+       "Entre mim e você.",
+       "Preposição pede oblíquo tônico"
+      ],
+      [
+       "Para mim fazer.",
+       "Para eu fazer.",
+       "Sujeito de infinitivo"
+      ],
+      [
+       "O momento onde…",
+       "O momento em que…",
+       "Onde só para lugar"
+      ],
+      [
+       "O réu cujo o pai…",
+       "O réu cujo pai…",
+       "Cujo sem artigo"
+      ],
+      [
+       "O livro que gosto.",
+       "O livro de que gosto.",
+       "Gostar de"
+      ],
+      [
+       "Me disseram.",
+       "Disseram-me.",
+       "Não se inicia com átono"
+      ],
+      [
+       "Não disse-me.",
+       "Não me disse.",
+       "Negação atrai"
+      ],
+      [
+       "Tinha avisado-me.",
+       "Tinha-me avisado.",
+       "Particípio não aceita ênclise"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Referência: **substitua** o pronome pelo termo e confira a concordância.",
+      "**O/a** sem preposição; **lhe** com preposição.",
+      "**Esse** retoma; **este** anuncia.",
+      "**Este** = o mais próximo; **aquele** = o mais distante.",
+      "**Onde** só lugar; **cujo** só posse.",
+      "A **preposição** do verbo vai para antes do relativo.",
+      "Achou **palavra atrativa**? Próclise obrigatória.",
+      "Futuro sem atração: **mesóclise**; com atração: próclise.",
+      "Tratamento: **3ª pessoa**.",
+      "**Isso/isto/o** podem retomar uma oração inteira."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PRONOMES",
+  "rootSub": "emprego e colocação",
+  "left": [
+   {
+    "label": "Pessoais",
+    "items": [
+     "para eu fazer · para mim",
+     "entre mim e ti",
+     "o/a: direto · lhe: indireto"
+    ]
+   },
+   {
+    "label": "Formas",
+    "items": [
+     "R, S, Z: prendê-lo, fi-la",
+     "Nasal: prenderam-no",
+     "conosco · com nós dois"
+    ]
+   },
+   {
+    "label": "Tratamento",
+    "items": [
+     "Verbo na 3ª pessoa",
+     "Vossa: com · Sua: de",
+     "Seu, não vosso"
+    ]
+   },
+   {
+    "label": "Demonstrativos",
+    "items": [
+     "este: vai dizer · esse: já disse",
+     "este: próximo · aquele: distante",
+     "o = aquilo: o que disse"
+    ]
+   },
+   {
+    "label": "Possessivos e indefinidos",
+    "items": [
+     "seu: risco de ambiguidade",
+     "ajuda alguma = nenhuma",
+     "certo dia ≠ dia certo"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Relativos",
+    "items": [
+     "cujo: posse, sem artigo",
+     "onde: só lugar",
+     "quem: pessoa, com preposição"
+    ]
+   },
+   {
+    "label": "Preposição + relativo",
+    "items": [
+     "a que assisti",
+     "de quem gosto",
+     "de cujo autor falei"
+    ]
+   },
+   {
+    "label": "Próclise",
+    "items": [
+     "Negação, advérbio, relativo",
+     "Conjunção subordinativa",
+     "Indefinido, interrogativo"
+    ]
+   },
+   {
+    "label": "Mesóclise e ênclise",
+    "items": [
+     "Futuro sem atração: dir-se-ia",
+     "Início de frase: Disseram-me",
+     "Imperativo: Sente-se"
+    ]
+   },
+   {
+    "label": "Proibido",
+    "items": [
+     "Começar com átono",
+     "Ênclise com futuro",
+     "Ênclise com particípio"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "E",
+    "text": "Em “Trouxeram os documentos para mim assinar”, o pronome está empregado conforme a norma-padrão.",
+    "comment": "**Errado.** Como sujeito do infinitivo assinar, usa-se o pronome reto: para eu assinar."
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "Em “Obedeço-lhe sem questionar”, o pronome lhe funciona como objeto indireto.",
+    "comment": "**Certo.** Obedecer a alguém: o complemento é indireto, substituível por lhe."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A combinação de fizeram com o pronome as resulta em fizeram-nas.",
+    "comment": "**Certo.** Depois de terminação nasal, usam-se no, na, nos, nas."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Vossa Senhoria receberá vossos documentos amanhã”, o possessivo está corretamente empregado.",
+    "comment": "**Errado.** Pronomes de tratamento pedem possessivo de 3ª pessoa: seus documentos."
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Em “O crime ocorreu em uma época onde não havia câmeras”, o emprego de onde está correto.",
+    "comment": "**Errado.** Onde retoma apenas lugar. Para tempo, usa-se em que ou na qual."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Em “A testemunha de cujo depoimento duvidamos foi dispensada”, o emprego da preposição de antes do relativo justifica-se pela regência de duvidar.",
+    "comment": "**Certo.** Duvidar de: a preposição antecede o pronome relativo."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Em “Ninguém avisou-me da mudança”, a colocação do pronome está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O pronome indefinido ninguém atrai o pronome: Ninguém me avisou."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Em “Realizar-se-á nova perícia”, a mesóclise justifica-se pelo emprego do verbo no futuro do presente, sem palavra atrativa.",
+    "comment": "**Certo.** Com futuro e sem atração, usa-se a mesóclise."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “A ordem é esta: todos devem permanecer no local”, o pronome esta anuncia o que será dito em seguida.",
+    "comment": "**Certo.** Este/esta/isto têm valor catafórico: apontam para o que vem depois."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Haviam contado-lhe toda a história”, o pronome está bem colocado.",
+    "comment": "**Errado.** Não se usa ênclise com particípio: Haviam-lhe contado."
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Mentor Policial (itens inéditos no estilo Cebraspe)."
+ ]
+}
