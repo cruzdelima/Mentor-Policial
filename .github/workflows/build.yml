@@ -31,7 +31,7 @@ jobs:
           URL: ${{ vars.SUPABASE_URL }}
           KEY: ${{ vars.SUPABASE_KEY }}
         run: |
-          URL="$(echo "$URL" | xargs)"; KEY="$(echo "$KEY" | xargs)"
+          URL="$(echo "$URL" | xargs | sed -E 's#/+$##; s#/(rest|auth)/v1$##')"; KEY="$(echo "$KEY" | xargs)"
           if [ -z "$URL" ] && [ -z "$KEY" ]; then echo "Contas DESATIVADAS (variáveis não definidas)."; exit 0; fi
           [ -n "$URL" ] || { echo "::error::Falta a variável SUPABASE_URL"; exit 1; }
           [ -n "$KEY" ] || { echo "::error::Falta a variável SUPABASE_KEY"; exit 1; }

@@ -12,8 +12,9 @@ library;
 const _rawUrl = String.fromEnvironment('SUPABASE_URL');
 const _rawKey = String.fromEnvironment('SUPABASE_KEY');
 
-/// Endereço do projeto, sem espaços nem barra no final (tolerante a erros de digitação na variável).
-final String kSupabaseUrl = _rawUrl.trim().replaceAll(RegExp(r'/+$'), '');
+/// Endereço do projeto, sem espaços, sem "/rest/v1" e sem barra no final (aceita a URL copiada de
+/// qualquer tela do Supabase).
+final String kSupabaseUrl = _rawUrl.trim().replaceAll(RegExp(r'/+$'), '').replaceAll(RegExp(r'/(rest|auth)/v1$'), '');
 final String kSupabaseKey = _rawKey.trim();
 
 /// Página pública com os Termos de Uso e a Política de Privacidade.
