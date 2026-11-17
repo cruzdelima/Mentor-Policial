@@ -164,5 +164,5 @@ QUIZ = quiz([
 
 SOURCES = [
     "Acordo Ortográfico da Língua Portuguesa (1990), promulgado pelo Decreto nº 6.583/2008; VOLP (Academia Brasileira de Letras).",
-    "Texto e questões elaborados para o Mentor Policial (itens inéditos no estilo Cebraspe).",
+    "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe).",
 ]

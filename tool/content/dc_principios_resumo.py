@@ -144,5 +144,5 @@ QUIZ = quiz([
 
 SOURCES = [
     "Constituição da República Federativa do Brasil de 1988, arts. 1º a 4º, 14, 18 e 60; STF, Súmula Vinculante 11 e ADI 2.076.",
-    "Texto e questões elaborados para o Mentor Policial (itens inéditos no estilo Cebraspe).",
+    "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe).",
 ]

@@ -40,19 +40,19 @@ Menu **Authentication**:
 Sem um provedor próprio, o Supabase **só envia e-mails para os membros da equipe do projeto** e apenas 2 por hora. Ou seja: alunos não receberiam o código de confirmação.
 
 1. Crie uma conta gratuita num serviço de envio (ex.: **Brevo** ou **Resend**) e valide um domínio ou e-mail remetente.
-2. Supabase › **Authentication › Emails › SMTP Settings** › *Enable custom SMTP* e preencha com os dados que o serviço fornecer (host, porta, usuário, senha, remetente `Mentor Policial <nao-responda@seudominio>`).
+2. Supabase › **Authentication › Emails › SMTP Settings** › *Enable custom SMTP* e preencha com os dados que o serviço fornecer (host, porta, usuário, senha, remetente `Taticum <nao-responda@seudominio>`).
 3. Em **Authentication › Emails › Templates**, troque os textos para português e **inclua o código** (`{{ .Token }}`), que o app pede na tela:
 
-**Confirm signup** — assunto: `Mentor Policial: confirme seu e-mail`
+**Confirm signup** — assunto: `Taticum: confirme seu e-mail`
 ```html
-<h2>Bem-vindo ao Mentor Policial</h2>
+<h2>Bem-vindo ao Taticum</h2>
 <p>Seu código de confirmação é:</p>
 <p style="font-size:28px;font-weight:bold;letter-spacing:6px">{{ .Token }}</p>
 <p>Digite esse código no app. Se preferir, <a href="{{ .ConfirmationURL }}">clique aqui para confirmar</a> e depois volte ao app e clique em ENTRAR.</p>
 <p>Se você não criou uma conta, ignore este e-mail.</p>
 ```
 
-**Reset password** — assunto: `Mentor Policial: código para nova senha`
+**Reset password** — assunto: `Taticum: código para nova senha`
 ```html
 <h2>Recuperação de senha</h2>
 <p>Seu código para criar uma nova senha é:</p>

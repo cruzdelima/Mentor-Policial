@@ -44,7 +44,7 @@ class StartupError extends StatelessWidget {
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 const Icon(Icons.report_gmailerrorred, size: 48, color: AppColors.red),
                 const SizedBox(height: 12),
-                Text('NÃO FOI POSSÍVEL ABRIR O MENTOR POLICIAL', style: AppText.h2(), textAlign: TextAlign.center),
+                Text('NÃO FOI POSSÍVEL ABRIR O TATICUM', style: AppText.h2(), textAlign: TextAlign.center),
                 const SizedBox(height: 8),
                 SelectableText(error, style: AppText.small(), textAlign: TextAlign.center),
               ]),

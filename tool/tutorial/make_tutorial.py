@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Gera a imagem "Como instalar o Mentor Policial" para enviar aos testadores.
+"""Gera a imagem "Como instalar o Taticum" para enviar aos testadores.
 
 uso: python3 tool/tutorial/make_tutorial.py [saída.png]
 """
@@ -181,7 +181,7 @@ def mock_download(c, x, y, w, h):
     for i, col in enumerate([(237, 106, 94), (245, 191, 79), (98, 197, 84)]):
         c.circle(x + 22 + i * 22, y + 17, 7, fill=col)
     c.rect(x + 100, y + 8, w - 220, 20, fill=WHITE, r=10)
-    c.text(x + 114, y + 18, 'github.com/…/MentorPolicial-Setup.exe', B(15), fill=(90, 98, 112), anchor='lm')
+    c.text(x + 114, y + 18, 'github.com/…/Taticum-Setup.exe', B(15), fill=(90, 98, 112), anchor='lm')
     # painel de downloads
     px, py, pw = x + w - 380, y + 46, 360
     c.rect(px, py, pw, h - 58, fill=WHITE, r=10, outline=(210, 214, 222), width=2)
@@ -189,7 +189,7 @@ def mock_download(c, x, y, w, h):
     c.rect(px + 14, py + 46, pw - 28, 58, fill=(236, 242, 252), r=8)
     c.rect(px + 26, py + 56, 38, 38, fill=GOLD, r=6)
     c.text(px + 45, py + 75, 'exe', HB(16), fill=NAVY, anchor='mm')
-    c.text(px + 76, py + 58, 'MentorPolicial-Setup.exe', BB(17), fill=(30, 34, 40))
+    c.text(px + 76, py + 58, 'Taticum-Setup.exe', BB(17), fill=(30, 34, 40))
     c.text(px + 76, py + 81, 'Concluído · 13 MB', B(15), fill=(100, 106, 118))
     ring(c, px + 14, py + 46, pw - 28, 58)
     cursor(c, px + 250, py + 82)
@@ -202,7 +202,7 @@ def mock_keep(c, x, y, w, h):
     c.rect(x, y, w, h, fill=WHITE, r=12, outline=(210, 214, 222), width=2)
     c.circle(x + 34, y + 36, 14, fill=(245, 191, 79))
     c.text(x + 34, y + 36, '!', HB(22), fill=WHITE, anchor='mm')
-    c.text(x + 60, y + 22, 'MentorPolicial-Setup.exe não é baixado com frequência', BM(17), fill=(40, 44, 52))
+    c.text(x + 60, y + 22, 'Taticum-Setup.exe não é baixado com frequência', BM(17), fill=(40, 44, 52))
     c.text(x + 60, y + 48, 'Clique nos três pontinhos (…) ou na seta, se precisar.', B(15), fill=(110, 116, 128))
     bx, by = x + 60, y + 82
     c.rect(bx, by, 140, 40, fill=(0, 103, 192), r=6)
@@ -241,13 +241,13 @@ def mock_installer(c, x, y, w, h):
     c.rect(x, y, w, h, fill=(246, 247, 250), r=10, outline=(200, 204, 212), width=2)
     c.rect(x, y, w, 40, fill=WHITE, r=10)
     c.rect(x, y + 28, w, 12, fill=WHITE)
-    c.text(x + 18, y + 20, 'Instalação — Mentor Policial', BM(16), fill=(40, 44, 52), anchor='lm')
+    c.text(x + 18, y + 20, 'Instalação — Taticum', BM(16), fill=(40, 44, 52), anchor='lm')
     badge(c, x + 24, y + 58, 52)
     c.text(x + 96, y + 62, 'Instalação concluída', BB(22), fill=(30, 34, 40))
-    c.text(x + 96, y + 94, 'O Mentor Policial foi instalado no seu computador.', B(16), fill=(90, 98, 112))
+    c.text(x + 96, y + 94, 'O Taticum foi instalado no seu computador.', B(16), fill=(90, 98, 112))
     c.rect(x + 96, y + 124, 22, 22, fill=(0, 103, 192), r=4)
     c.line([(x + 101, y + 135), (x + 106, y + 141), (x + 114, y + 129)], fill=WHITE, width=3)
-    c.text(x + 128, y + 126, 'Abrir o Mentor Policial', B(17), fill=(40, 44, 52))
+    c.text(x + 128, y + 126, 'Abrir o Taticum', B(17), fill=(40, 44, 52))
     bx, by = x + w - 170, y + h - 58
     c.rect(bx, by, 140, 40, fill=(0, 103, 192), r=4)
     c.text(bx + 70, by + 20, 'Concluir', BB(18), fill=WHITE, anchor='mm')
@@ -263,8 +263,7 @@ def mock_desktop(c, x, y, w, h):
     c.rect(ix - 14, iy - 10, 108, 128, fill=(40, 84, 136), r=8, outline=GOLD, width=3)
     c.rect(ix + 4, iy, 72, 72, fill=NAVY, r=14)
     badge(c, ix + 16, iy + 6, 48)
-    c.text(ix + 40, iy + 88, 'Mentor', BM(15), fill=WHITE, anchor='mm')
-    c.text(ix + 40, iy + 106, 'Policial', BM(15), fill=WHITE, anchor='mm')
+    c.text(ix + 40, iy + 96, 'Taticum', BM(16), fill=WHITE, anchor='mm')
     c.text(x + 270, y + 46, 'Para abrir de novo:', HB(26), fill=WHITE)
     c.text(x + 270, y + 82, 'atalho na Área de Trabalho', B(19), fill=(200, 216, 236))
     c.text(x + 270, y + 108, 'ou no menu Iniciar.', B(19), fill=(200, 216, 236))
@@ -277,7 +276,7 @@ def build():
     c = Canvas(H)
     # faixa de isolamento
     c.rect(0, 0, W, 46, fill=GOLD2)
-    t = 'MENTOR POLICIAL   //   VERSÃO DE TESTES   //   '
+    t = 'TATICUM   //   VERSÃO DE TESTES   //   '
     x = -10
     while x < W:
         c.text(x, 23, t, HB(22), fill=NAVY, anchor='lm')
@@ -285,7 +284,7 @@ def build():
     # cabeçalho
     badge(c, 56, 92, 110)
     c.text(196, 92, 'COMO INSTALAR O', HB(46), fill=GOLD2)
-    c.text(196, 140, 'MENTOR POLICIAL', HB(72), fill=TEXT)
+    c.text(196, 140, 'TATICUM', HB(72), fill=TEXT)
     c.text(198, 222, 'Grátis  ·  leva uns 2 minutos  ·  só uma vez', BM(24), fill=MUTED)
     c.rect(56, 284, W - 112, 64, fill=PANEL, r=14, outline=GOLD, width=2)
     c.text(84, 316, 'É um programa para', B(24), fill=TEXT, anchor='lm')
@@ -298,7 +297,7 @@ def build():
     c.text(72, y - 2, 'NO WINDOWS', HB(44), fill=TEXT)
     y += 66
     y = step_card(c, y, 1, 'Abra o link no computador',
-                  'Clique no **link de download** que você recebeu. O arquivo **MentorPolicial-Setup.exe** baixa sozinho. '
+                  'Clique no **link de download** que você recebeu. O arquivo **Taticum-Setup.exe** baixa sozinho. '
                   'Depois, clique nele na lista de downloads do navegador (ou abra a pasta **Downloads**).',
                   190, mock_download)
     y = step_card(c, y, 2, 'Se o navegador avisar, clique em Manter',
@@ -310,10 +309,10 @@ def build():
                   'Clique em **Mais informações** e depois em **Executar assim mesmo**.',
                   250, mock_smartscreen)
     y = step_card(c, y, 4, 'Aguarde e clique em Concluir',
-                  'A instalação é **automática**, sem perguntas e sem senha. No fim, clique em **Concluir**: o Mentor Policial abre sozinho.',
+                  'A instalação é **automática**, sem perguntas e sem senha. No fim, clique em **Concluir**: o Taticum abre sozinho.',
                   200, mock_installer)
     y = step_card(c, y, 5, 'Pronto!',
-                  'Um atalho do **Mentor Policial** fica na Área de Trabalho. Na primeira vez, o app pergunta seu nome, o concurso e o cargo.',
+                  'Um atalho do **Taticum** fica na Área de Trabalho. Na primeira vez, o app pergunta seu nome, o concurso e o cargo.',
                   170, mock_desktop)
 
     # Mac
@@ -322,8 +321,8 @@ def build():
     c.text(72, y - 2, 'NO MAC', HB(44), fill=TEXT)
     y += 66
     mac = [
-        ('Abra o link', 'Baixe o arquivo **MentorPolicial-macOS.dmg** e abra-o.'),
-        ('Arraste para Aplicativos', 'Na janela que abrir, arraste o **Mentor Policial** para a pasta **Aplicativos**.'),
+        ('Abra o link', 'Baixe o arquivo **Taticum-macOS.dmg** e abra-o.'),
+        ('Arraste para Aplicativos', 'Na janela que abrir, arraste o **Taticum** para a pasta **Aplicativos**.'),
         ('Primeira vez: libere o app', 'Se o Mac disser que não pode verificar o app, clique em **OK**. Vá em **Ajustes do Sistema › Privacidade e Segurança**, '
                                        'role até o fim e clique em **Abrir Mesmo Assim**. Só é preciso fazer isso uma vez.'),
     ]

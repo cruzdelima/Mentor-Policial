@@ -1,4 +1,4 @@
-# Como contribuir com o Mentor Policial
+# Como contribuir com o Taticum
 
 Guia para programadores convidados pelo dono do projeto.
 
@@ -20,7 +20,7 @@ Ative a autenticação em dois fatores no GitHub e no Supabase antes de receber 
    ```bash
    git clone https://github.com/cruzdelima/Mentor-Policial.git
    cd Mentor-Policial
-   flutter create --platforms=windows,macos --org br.com.mentorpolicial --project-name mentor_policial .
+   flutter create --platforms=windows,macos --org br.com.taticum --project-name mentor_policial .
    rm test/widget_test.dart
    cp -R platform/windows/. windows/     # no Mac: cp -R platform/macos/. macos/
    flutter pub get

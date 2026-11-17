@@ -1,11 +1,11 @@
-# Mentor Policial · v0.3.0 (beta de testes)
+# Taticum · v0.3.0 (beta de testes)
 
 ## ⬇ Baixar
 
 | Computador | Link (o download começa na hora) |
 |---|---|
-| **Windows** | [MentorPolicial-Setup.exe](https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-Setup.exe) |
-| **Mac** | [MentorPolicial-macOS.dmg](https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-macOS.dmg) |
+| **Windows** | [Taticum-Setup.exe](https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-Setup.exe) |
+| **Mac** | [Taticum-macOS.dmg](https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-macOS.dmg) |
 
 Os links sempre apontam para a versão mais nova. O app avisa quando houver atualização; basta instalar por cima, os dados continuam salvos.
 
@@ -28,24 +28,24 @@ com o método de um aprovado em Agente da Polícia Federal 2025. Feito em Flutte
 | **Método** | Os números e as 10 lições do método do autor. |
 | **Ajustes** | Perfil, troca de concurso/cargo, rotina, backup (exportar/importar), apagar dados. |
 
-O motor de metas é o mesmo da planilha *Mentor Policial — Ciclo Básico* (validado: PF Agente, 3h, iniciante → 296 missões, fim da 1ª volta em 02/11/2027).
+O motor de metas é o mesmo da planilha *Taticum — Ciclo Básico* (validado: PF Agente, 3h, iniciante → 296 missões, fim da 1ª volta em 02/11/2027).
 
 ## Como gerar o app para os testadores (sem instalar nada)
 
 1. Crie um repositório **privado** no GitHub e envie esta pasta (com a pasta oculta `.github`).
 2. O GitHub Actions roda sozinho: análise + testes automáticos + build de Windows e macOS (~15 min).
-3. Baixe em **Actions › última execução › Artifacts**: `MentorPolicial-windows-x64.zip` e `MentorPolicial-macos.zip`.
+3. Baixe em **Actions › última execução › Artifacts**: `Taticum-windows-x64.zip` e `Taticum-macos.zip`.
 4. Para publicar uma versão: suba o número em `pubspec.yaml` e em `kAppVersion` (`lib/state/app_state.dart`) e crie uma tag `vX.Y.Z` (vira um *Release* com os dois arquivos).
 
-**Windows:** descompactar e abrir `MentorPolicial.exe` (o SmartScreen pode avisar: *Mais informações › Executar assim mesmo*).
-**macOS:** descompactar, clicar com o botão direito em *Mentor Policial › Abrir* (o app ainda não tem assinatura da Apple).
+**Windows:** descompactar e abrir `Taticum.exe` (o SmartScreen pode avisar: *Mais informações › Executar assim mesmo*).
+**macOS:** descompactar, clicar com o botão direito em *Taticum › Abrir* (o app ainda não tem assinatura da Apple).
 
 ## Como rodar no seu computador (opcional)
 
 Instale o Flutter 3.50 e, na pasta do projeto:
 
 ```bash
-flutter create --platforms=windows,macos --org br.com.mentorpolicial --project-name mentor_policial .
+flutter create --platforms=windows,macos --org br.com.taticum --project-name mentor_policial .
 rm test/widget_test.dart                     # arquivo de exemplo criado pelo comando acima
 cp -R platform/windows/. windows/            # ícone, título e tamanho mínimo da janela
 cp -R platform/macos/. macos/
@@ -67,8 +67,8 @@ flutter run -d windows                       # ou: flutter run -d macos
 
 Tudo é local, em um arquivo JSON com cópia diária automática (15 dias):
 
-* Windows: `%APPDATA%\MentorPolicial\dados.json`
-* macOS: `~/Library/Application Support/MentorPolicial/dados.json`
+* Windows: `%APPDATA%\Taticum\dados.json`
+* macOS: `~/Library/Application Support/Taticum/dados.json`
 
 ## Estrutura
 

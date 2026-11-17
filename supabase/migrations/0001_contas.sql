@@ -1,5 +1,5 @@
 -- =====================================================================================
--- Mentor Policial · 0001 · Contas, papéis e auditoria
+-- Taticum · 0001 · Contas, papéis e auditoria
 -- Rode uma única vez no Supabase: SQL Editor › New query › colar › Run.
 --
 -- Princípios:

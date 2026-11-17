@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Mentor Policial" "\0"
-            VALUE "FileDescription", "Mentor Policial" "\0"
+            VALUE "CompanyName", "Taticum" "\0"
+            VALUE "FileDescription", "Taticum" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "Mentor Policial" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 Mentor Policial. Todos os direitos reservados." "\0"
-            VALUE "OriginalFilename", "MentorPolicial.exe" "\0"
-            VALUE "ProductName", "Mentor Policial" "\0"
+            VALUE "InternalName", "Taticum" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Taticum. Todos os direitos reservados." "\0"
+            VALUE "OriginalFilename", "Taticum.exe" "\0"
+            VALUE "ProductName", "Taticum" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

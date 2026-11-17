@@ -213,5 +213,5 @@ QUIZ = quiz([
 SOURCES = [
     "KOCH, I. V.; ELIAS, V. M. Ler e compreender: os sentidos do texto. FIORIN, J. L.; SAVIOLI, F. P. Para entender o texto: leitura e redação.",
     GRAM,
-    "Os textos 1, 2 e 3 e os 20 itens foram escritos para o Mentor Policial. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
+    "Os textos 1, 2 e 3 e os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
 ]

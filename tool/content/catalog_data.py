@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Dados da planilha Mentor Policial — ciclo básico."""
+"""Dados da planilha Taticum — ciclo básico."""
 
 CAREERS = [
     # sigla, nome exibido, esfera, escolaridade, banca, discursiva, observação, matérias-marca

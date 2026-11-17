@@ -11,16 +11,32 @@ import '../core/models.dart';
 class Storage {
   Storage(this.dir);
 
-  /// Pasta padrão de dados do app em cada sistema.
+  /// Pasta padrão de dados do app em cada sistema. Na primeira abertura após a troca de nome,
+  /// a pasta antiga (MentorPolicial) é renomeada para a nova (Taticum), sem perder nada.
   static Directory defaultDir() {
+    final dir = _dirNamed('Taticum', 'taticum');
+    if (!dir.existsSync()) {
+      final legacy = _dirNamed('MentorPolicial', 'mentor_policial');
+      if (legacy.existsSync()) {
+        try {
+          legacy.renameSync(dir.path);
+        } catch (_) {
+          return legacy; // pasta em uso: continua na antiga e tenta de novo na próxima abertura
+        }
+      }
+    }
+    return dir;
+  }
+
+  static Directory _dirNamed(String name, String linuxName) {
     final env = Platform.environment;
     String path;
     if (Platform.isWindows) {
-      path = '${env['APPDATA'] ?? env['USERPROFILE'] ?? Directory.systemTemp.path}\\MentorPolicial';
+      path = '${env['APPDATA'] ?? env['USERPROFILE'] ?? Directory.systemTemp.path}\\$name';
     } else if (Platform.isMacOS) {
-      path = '${env['HOME']}/Library/Application Support/MentorPolicial';
+      path = '${env['HOME']}/Library/Application Support/$name';
     } else {
-      path = '${env['XDG_DATA_HOME'] ?? '${env['HOME']}/.local/share'}/mentor_policial';
+      path = '${env['XDG_DATA_HOME'] ?? '${env['HOME']}/.local/share'}/$linuxName';
     }
     return Directory(path);
   }
@@ -113,7 +129,7 @@ class Storage {
       if (await docs.exists()) target = docs;
     }
     final now = DateTime.now();
-    final name = 'MentorPolicial_backup_${isoDate(now)}_${two(now.hour)}${two(now.minute)}.json';
+    final name = 'Taticum_backup_${isoDate(now)}_${two(now.hour)}${two(now.minute)}.json';
     final f = File(_join(target.path, name));
     await f.writeAsString(const JsonEncoder.withIndent(' ').convert(data.toJson()));
     return f.path;
@@ -126,7 +142,7 @@ class Storage {
     if (!await f.exists()) throw const FileSystemException('Arquivo não encontrado');
     final j = jsonDecode(await f.readAsString()) as Map<String, dynamic>;
     if (!j.containsKey('profile') || !j.containsKey('diary')) {
-      throw const FormatException('Este arquivo não é um backup do Mentor Policial');
+      throw const FormatException('Este arquivo não é um backup do Taticum');
     }
     return UserData.fromJson(j);
   }

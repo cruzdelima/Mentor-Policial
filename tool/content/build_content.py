@@ -281,8 +281,8 @@ def build_pdf(C, path):
     W, H = A4
     M = 18 * mm
     doc = BaseDocTemplate(path, pagesize=A4, leftMargin=M, rightMargin=M, topMargin=22 * mm, bottomMargin=18 * mm,
-                          title=f"{M_['title']} ({KIND_LABEL[kind].lower()}) — Mentor Policial", author='Mentor Policial',
-                          subject=M_['subtitle'], creator='Mentor Policial')
+                          title=f"{M_['title']} ({KIND_LABEL[kind].lower()}) — Taticum", author='Taticum',
+                          subject=M_['subtitle'], creator='Taticum')
     fw = W - 2 * M
     head_right = M_['header'].upper()
 
@@ -300,7 +300,7 @@ def build_pdf(C, path):
 
     def header(c, d):
         c.saveState()
-        bar(c, W, H, f'MENTOR POLICIAL · {KIND_LABEL[kind]}')
+        bar(c, W, H, f'TATICUM · {KIND_LABEL[kind]}')
         c.setFont('B', 8)
         c.setFillColor(MUTED)
         c.drawString(M, 10 * mm, f"Material v{M_['version']} · {M_['status'].lower()}")
@@ -310,7 +310,7 @@ def build_pdf(C, path):
     def header_land(c, d):
         c.saveState()
         LW, LH = landscape(A4)
-        bar(c, LW, LH, 'MENTOR POLICIAL · MAPA MENTAL')
+        bar(c, LW, LH, 'TATICUM · MAPA MENTAL')
         c.setFont('B', 8)
         c.setFillColor(MUTED)
         c.drawRightString(LW - M, 9 * mm, str(d.page))
@@ -324,7 +324,7 @@ def build_pdf(C, path):
         c.rect(0, H - 34 * mm, W, 11 * mm, stroke=0, fill=1)
         c.setFillColor(NAVY)
         c.setFont('BC-B', 11)
-        txt = f'MENTOR POLICIAL   //   {KIND_LABEL[kind]}   //   '
+        txt = f'TATICUM   //   {KIND_LABEL[kind]}   //   '
         x = -20
         while x < W:
             c.drawString(x, H - 30.3 * mm, txt)

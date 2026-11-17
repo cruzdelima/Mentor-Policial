@@ -26,7 +26,7 @@ class MentorApp extends StatelessWidget {
 
   Widget _material() {
     return MaterialApp(
-      title: 'Mentor Policial',
+      title: 'Taticum',
       debugShowCheckedModeBanner: false,
       theme: buildTheme(),
       locale: const Locale('pt', 'BR'),

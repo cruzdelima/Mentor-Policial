@@ -43,10 +43,10 @@ jobs:
       - name: Gerar a pasta windows/ e aplicar as personalizações
         shell: bash
         run: |
-          flutter create --platforms=windows --org br.com.mentorpolicial --project-name mentor_policial .
+          flutter create --platforms=windows --org br.com.taticum --project-name mentor_policial .
           rm -f test/widget_test.dart
           cp -R platform/windows/. windows/
-          sed -i 's/set(BINARY_NAME "mentor_policial")/set(BINARY_NAME "MentorPolicial")/' windows/CMakeLists.txt
+          sed -i 's/set(BINARY_NAME "mentor_policial")/set(BINARY_NAME "Taticum")/' windows/CMakeLists.txt
       - name: Compilar (contas ativadas se as variáveis SUPABASE_URL e SUPABASE_KEY existirem no repositório)
         shell: bash
         run: flutter build windows --release --dart-define=SUPABASE_URL="${{ vars.SUPABASE_URL }}" --dart-define=SUPABASE_KEY="${{ vars.SUPABASE_KEY }}"
@@ -65,13 +65,13 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Compactar a versão portátil
         shell: pwsh
-        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath MentorPolicial-windows-portatil.zip
+        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath Taticum-windows-portatil.zip
       - uses: actions/upload-artifact@v4
         with:
-          name: MentorPolicial-windows
+          name: Taticum-windows
           path: |
-            dist/MentorPolicial-Setup.exe
-            MentorPolicial-windows-portatil.zip
+            dist/Taticum-Setup.exe
+            Taticum-windows-portatil.zip
 
   macos:
     name: macOS (Apple Silicon e Intel)
@@ -85,7 +85,7 @@ jobs:
           cache: true
       - name: Gerar a pasta macos/ e aplicar as personalizações
         run: |
-          flutter create --platforms=macos --org br.com.mentorpolicial --project-name mentor_policial .
+          flutter create --platforms=macos --org br.com.taticum --project-name mentor_policial .
           rm -f test/widget_test.dart
           cp -R platform/macos/. macos/
       - name: Compilar (contas ativadas se as variáveis SUPABASE_URL e SUPABASE_KEY existirem no repositório)
@@ -94,11 +94,11 @@ jobs:
         run: |
           APP=$(find build/macos/Build/Products/Release -maxdepth 1 -name "*.app" | head -1)
           mkdir dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
-          hdiutil create -volname "Mentor Policial" -srcfolder dmg -ov -format UDZO MentorPolicial-macOS.dmg
+          hdiutil create -volname "Taticum" -srcfolder dmg -ov -format UDZO Taticum-macOS.dmg
       - uses: actions/upload-artifact@v4
         with:
-          name: MentorPolicial-macos
-          path: MentorPolicial-macOS.dmg
+          name: Taticum-macos
+          path: Taticum-macOS.dmg
 
   release:
     # Publica uma versão nova sempre que o número em pubspec.yaml mudar (e tudo tiver passado).
@@ -132,24 +132,27 @@ jobs:
         if: steps.v.outputs.new == 'true'
         run: |
           mkdir -p out
-          find dist -name 'MentorPolicial-Setup.exe' -exec cp {} out/ \;
-          find dist -name 'MentorPolicial-windows-portatil.zip' -exec cp {} out/ \;
-          find dist -name 'MentorPolicial-macOS.dmg' -exec cp {} out/ \;
+          find dist -name 'Taticum-Setup.exe' -exec cp {} out/ \;
+          find dist -name 'Taticum-windows-portatil.zip' -exec cp {} out/ \;
+          find dist -name 'Taticum-macOS.dmg' -exec cp {} out/ \;
+          test -f out/Taticum-Setup.exe && test -f out/Taticum-macOS.dmg
+          # Cópias com o nome antigo: o botão "Baixar atualização" das versões até 0.3.0 aponta para elas.
+          cp out/Taticum-Setup.exe out/MentorPolicial-Setup.exe
+          cp out/Taticum-macOS.dmg out/MentorPolicial-macOS.dmg
           ls -la out
-          test -f out/MentorPolicial-Setup.exe && test -f out/MentorPolicial-macOS.dmg
       - uses: softprops/action-gh-release@v2
         if: steps.v.outputs.new == 'true'
         with:
           tag_name: v${{ steps.v.outputs.version }}
-          name: Mentor Policial ${{ steps.v.outputs.version }}
+          name: Taticum ${{ steps.v.outputs.version }}
           target_commitish: ${{ github.sha }}
           make_latest: true
           files: out/*
           body: |
             ## Como instalar
 
-            **Windows:** baixe `MentorPolicial-Setup.exe`, abra e clique em **Instalar**. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** › **Executar assim mesmo**.
+            **Windows:** baixe `Taticum-Setup.exe`, abra e clique em **Instalar**. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** › **Executar assim mesmo**.
 
-            **Mac:** baixe `MentorPolicial-macOS.dmg`, abra e arraste o Mentor Policial para **Aplicativos**. Na primeira vez: Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**.
+            **Mac:** baixe `Taticum-macOS.dmg`, abra e arraste o Taticum para **Aplicativos**. Na primeira vez: Ajustes do Sistema › Privacidade e Segurança › **Abrir Mesmo Assim**.
 
             Já tem o app? Instale por cima: seus dados continuam salvos.

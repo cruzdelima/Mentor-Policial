@@ -238,7 +238,7 @@ class Bar extends StatelessWidget {
 
 /// Faixa de isolamento policial com texto repetido.
 class TapeBand extends StatelessWidget {
-  const TapeBand({super.key, this.text = 'MENTOR POLICIAL   //   CICLO BÁSICO   //   ', this.height = 26});
+  const TapeBand({super.key, this.text = 'TATICUM   //   CICLO BÁSICO   //   ', this.height = 26});
   final String text;
   final double height;
   @override

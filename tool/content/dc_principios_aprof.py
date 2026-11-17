@@ -259,5 +259,5 @@ SOURCES = [
     "Constituição da República Federativa do Brasil de 1988, arts. 1º a 4º, 14, 18, 34 e 60.",
     "Supremo Tribunal Federal: Súmula Vinculante 11; ADI 2.076 (preâmbulo); ADI 4.277 e ADPF 132 (união homoafetiva).",
     "Doutrina de referência: Lenza, Direito constitucional; Mendes e Branco, Curso de direito constitucional; Silva, Curso de direito constitucional positivo.",
-    "Os 20 itens foram escritos para o Mentor Policial. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
+    "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
 ]

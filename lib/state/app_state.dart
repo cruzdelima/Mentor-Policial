@@ -14,15 +14,15 @@ import '../core/stats.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.3.0';
+const kAppVersion = '0.4.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
 const kUpdateApiUrl = 'https://api.github.com/repos/cruzdelima/Mentor-Policial/releases/latest';
 
 /// Links fixos que sempre baixam a versão mais recente.
-const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-Setup.exe';
-const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/MentorPolicial-macOS.dmg';
+const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-Setup.exe';
+const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-macOS.dmg';
 
 enum AppPage { qg, missions, edital, diary, materials, method, settings, admin }
 
@@ -100,7 +100,7 @@ class ContentLibrary {
     if (m.info.source != 'asset') return Storage.join(Storage.join(m.info.source, m.info.folder), pdf);
     final data = await bundle.load('assets/content/${m.info.folder}/$pdf');
     await storage.materialsDir.create(recursive: true);
-    final name = 'MentorPolicial_${m.info.folder}_v${m.info.version}.pdf';
+    final name = 'Taticum_${m.info.folder}_v${m.info.version}.pdf';
     final f = File(Storage.join(storage.materialsDir.path, name));
     if (!await f.exists() || await f.length() != data.lengthInBytes) {
       await f.writeAsBytes(data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), flush: true);
@@ -448,7 +448,7 @@ class AppController extends ChangeNotifier {
   Future<({String version, String url})?> checkUpdate() async {
     final client = HttpClient()
       ..connectionTimeout = const Duration(seconds: 6)
-      ..userAgent = 'MentorPolicial/$kAppVersion';
+      ..userAgent = 'Taticum/$kAppVersion';
     try {
       final req = await client.getUrl(Uri.parse(kUpdateApiUrl));
       req.headers.set('Accept', 'application/vnd.github+json');

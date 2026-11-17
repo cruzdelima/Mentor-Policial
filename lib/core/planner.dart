@@ -1,6 +1,6 @@
 /// Motor de metas: monta a trilha de missões (ciclo básico) e o cronograma diário.
 ///
-/// Regras (as mesmas da planilha Mentor Policial):
+/// Regras (as mesmas da planilha Taticum):
 ///  * Cada tópico do edital vira 2 missões: teoria + resumo e um bloco de questões.
 ///  * A duração depende do tamanho do tópico (P/M/G) e do nível do aluno.
 ///  * Matérias de peso 3 começam no dia 1; peso 2 entram após [weight2AfterHours] h; peso 1 após [weight1AfterHours] h.

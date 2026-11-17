@@ -15,7 +15,7 @@ class MainFlutterWindow: NSWindow {
     }
     self.setFrame(frame, display: true)
     self.minSize = NSSize(width: 1180, height: 720)
-    self.title = "Mentor Policial"
+    self.title = "Taticum"
 
     RegisterGeneratedPlugins(registry: flutterViewController)
 

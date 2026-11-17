@@ -1,6 +1,6 @@
 # Segurança e proteção de dados
 
-Este documento define **o que o Mentor Policial guarda, onde guarda e quem pode ver**, e as regras que todo programador deve seguir. Qualquer mudança que contrarie estas regras precisa de aprovação do dono.
+Este documento define **o que o Taticum guarda, onde guarda e quem pode ver**, e as regras que todo programador deve seguir. Qualquer mudança que contrarie estas regras precisa de aprovação do dono.
 
 ## 1. Mapa dos dados
 
@@ -8,8 +8,8 @@ Este documento define **o que o Mentor Policial guarda, onde guarda e quem pode 
 |---|---|---|
 | E-mail, nome, celular, papel, plano | Supabase (Postgres, região São Paulo) | O próprio aluno; administradores (somente leitura) |
 | Senha | Supabase Auth, **apenas o hash bcrypt** | Ninguém (nem o dono, nem o Supabase consegue ler a senha) |
-| Sessão (refresh token) | Computador do aluno: `…/MentorPolicial/sessao.json` | O usuário do sistema operacional |
-| Cronograma, diário, questões, anotações | Computador do aluno: `…/MentorPolicial/contas/<id>/dados.json` + backups diários | O usuário do sistema operacional |
+| Sessão (refresh token) | Computador do aluno: `…/Taticum/sessao.json` | O usuário do sistema operacional |
+| Cronograma, diário, questões, anotações | Computador do aluno: `…/Taticum/contas/<id>/dados.json` + backups diários | O usuário do sistema operacional |
 | Registro de auditoria (quem alterou permissões, exclusões de conta) | Supabase | Administradores (somente leitura); ninguém altera ou apaga pelo app |
 
 **Princípio da minimização (LGPD, art. 6º, III):** o app coleta só o necessário. Não coletar CPF, endereço, data de nascimento ou documentos sem necessidade clara e sem atualizar a Política de Privacidade.

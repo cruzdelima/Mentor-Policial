@@ -90,8 +90,8 @@ class _OnboardingState extends State<Onboarding> {
                   const BadgeLogo(size: 46),
                   const SizedBox(width: 14),
                   Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text('MENTOR', style: AppText.h1(AppColors.gold2).copyWith(fontSize: 26, letterSpacing: 2, height: 0.95)),
-                    Text('POLICIAL', style: AppText.h1().copyWith(fontSize: 26, letterSpacing: 2, height: 0.95)),
+                    Text('TATICUM', style: AppText.h1(AppColors.gold2).copyWith(fontSize: 30, letterSpacing: 3, height: 1.0)),
+                    Text('MENTOR POLICIAL', style: AppText.label(AppColors.muted).copyWith(fontSize: 12.6, letterSpacing: 2.2)),
                   ]),
                 ]),
               ),

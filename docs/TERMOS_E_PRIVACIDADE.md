@@ -1,10 +1,10 @@
-# Termos de Uso e Política de Privacidade — Mentor Policial
+# Termos de Uso e Política de Privacidade — Taticum
 
 > **Rascunho** preparado para a fase de testes. Antes de cobrar assinaturas ou abrir o app ao público, peça a revisão de um advogado e preencha os campos entre colchetes.
 
 Versão: 0.1 · Vigência: [data] · Responsável (controlador): [nome completo / CNPJ ou CPF] · Contato para assuntos de privacidade: [e-mail]
 
-## 1. O que é o Mentor Policial
+## 1. O que é o Taticum
 
 Aplicativo para computador que organiza o estudo para concursos da área policial: cronograma de metas, diário de estudos, edital verticalizado, materiais e questões. Nesta fase o app está em **testes** e é gratuito.
 

@@ -1,4 +1,4 @@
-; Instalador do Mentor Policial (Inno Setup). Compilado no GitHub Actions.
+; Instalador do Taticum (Inno Setup). Compilado no GitHub Actions.
 ; Instala só para o usuário atual: não pede senha de administrador.
 #ifndef AppVersion
   #define AppVersion "0.0.0"
@@ -6,12 +6,12 @@
 
 [Setup]
 AppId={{6B0E5C1E-3D0B-4E1B-9A55-7F2C6D1A9E21}
-AppName=Mentor Policial
+AppName=Taticum
 AppVersion={#AppVersion}
-AppVerName=Mentor Policial {#AppVersion}
-AppPublisher=Mentor Policial
-DefaultDirName={autopf}\Mentor Policial
-DefaultGroupName=Mentor Policial
+AppVerName=Taticum {#AppVersion}
+AppPublisher=Taticum
+DefaultDirName={autopf}\Taticum
+DefaultGroupName=Taticum
 DisableProgramGroupPage=yes
 DisableDirPage=yes
 DisableReadyPage=yes
@@ -19,10 +19,10 @@ DisableWelcomePage=yes
 DisableFinishedPage=no
 PrivilegesRequired=lowest
 OutputDir=..\dist
-OutputBaseFilename=MentorPolicial-Setup
+OutputBaseFilename=Taticum-Setup
 SetupIconFile=runner\resources\app_icon.ico
-UninstallDisplayIcon={app}\MentorPolicial.exe
-UninstallDisplayName=Mentor Policial
+UninstallDisplayIcon={app}\Taticum.exe
+UninstallDisplayName=Taticum
 Compression=lzma2
 SolidCompression=yes
 WizardStyle=modern
@@ -33,12 +33,19 @@ CloseApplications=yes
 [Languages]
 Name: "ptbr"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 
+[InstallDelete]
+; Limpeza da versão com o nome antigo (Mentor Policial)
+Type: files; Name: "{app}\MentorPolicial.exe"
+Type: files; Name: "{autodesktop}\Mentor Policial.lnk"
+Type: files; Name: "{group}\Mentor Policial.lnk"
+Type: dirifempty; Name: "{group}"
+
 [Files]
 Source: "..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{group}\Mentor Policial"; Filename: "{app}\MentorPolicial.exe"
-Name: "{autodesktop}\Mentor Policial"; Filename: "{app}\MentorPolicial.exe"
+Name: "{group}\Taticum"; Filename: "{app}\Taticum.exe"
+Name: "{autodesktop}\Taticum"; Filename: "{app}\Taticum.exe"
 
 [Run]
-Filename: "{app}\MentorPolicial.exe"; Description: "Abrir o Mentor Policial"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\Taticum.exe"; Description: "Abrir o Taticum"; Flags: nowait postinstall skipifsilent

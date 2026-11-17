@@ -328,5 +328,5 @@ QUIZ = quiz([
 SOURCES = [
     "CERT.br — Cartilha de Segurança para Internet: capítulos “Códigos maliciosos (malware)”, “Golpes na Internet”, “Ataques na Internet” e “Mecanismos de segurança”; fascículo “Códigos maliciosos”. cartilha.cert.br",
     "STALLINGS, W. Criptografia e segurança de redes — capítulos sobre software malicioso (ciclo de vida e classificação dos vírus).",
-    "Os 20 itens foram escritos para o Mentor Policial. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
+    "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas.",
 ]

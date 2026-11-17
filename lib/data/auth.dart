@@ -112,7 +112,7 @@ String _friendly(String code, String raw, int status) {
     case 'invalid_credentials':
       return 'E-mail ou senha incorretos.';
     case 'email_not_confirmed':
-      return 'Confirme seu e-mail antes de entrar. Procure a mensagem do Mentor Policial (veja também o spam).';
+      return 'Confirme seu e-mail antes de entrar. Procure a mensagem do Taticum (veja também o spam).';
     case 'user_already_exists':
     case 'email_exists':
       return 'Já existe uma conta com esse e-mail. Use "Entrar" ou "Esqueci minha senha".';
@@ -157,7 +157,7 @@ class AuthService {
   Future<dynamic> _send(String method, String path, {Object? body, bool auth = false, Map<String, String> extra = const {}}) async {
     final client = HttpClient()
       ..connectionTimeout = const Duration(seconds: 10)
-      ..userAgent = 'MentorPolicial';
+      ..userAgent = 'Taticum';
     try {
       final req = await client.openUrl(method, Uri.parse('$url$path'));
       req.headers.set('apikey', apiKey);

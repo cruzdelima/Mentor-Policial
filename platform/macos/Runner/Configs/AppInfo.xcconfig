@@ -1,10 +1,10 @@
 // Configurações do app (macOS).
 
 // Nome do aplicativo (também é o título da janela).
-PRODUCT_NAME = Mentor Policial
+PRODUCT_NAME = Taticum
 
 // Identificador do pacote.
-PRODUCT_BUNDLE_IDENTIFIER = br.com.mentorpolicial.app
+PRODUCT_BUNDLE_IDENTIFIER = br.com.taticum.app
 
 // Direitos autorais exibidos em "Sobre".
-PRODUCT_COPYRIGHT = Copyright © 2026 Mentor Policial. Todos os direitos reservados.
+PRODUCT_COPYRIGHT = Copyright © 2026 Taticum. Todos os direitos reservados.

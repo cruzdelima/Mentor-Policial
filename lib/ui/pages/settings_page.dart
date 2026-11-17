@@ -307,7 +307,7 @@ class _AboutPanel extends StatelessWidget {
           const SizedBox(width: 14),
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text('MENTOR POLICIAL · v$kAppVersion', style: AppText.h3()),
+              Text('TATICUM · v$kAppVersion', style: AppText.h3()),
               Text('$kAppChannel · catálogo ${app.catalog.version} · ${app.content.items.length} material(is) de conteúdo', style: AppText.small()),
             ]),
           ),

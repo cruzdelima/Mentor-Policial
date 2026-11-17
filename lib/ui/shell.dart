@@ -100,8 +100,8 @@ class _Sidebar extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text('MENTOR', style: AppText.h2(AppColors.gold2).copyWith(height: 0.95, letterSpacing: 2)),
-                    Text('POLICIAL', style: AppText.h2().copyWith(height: 0.95, letterSpacing: 2)),
+                    Text('TATICUM', style: AppText.h2(AppColors.gold2).copyWith(fontSize: 24, letterSpacing: 3, height: 1.0)),
+                    Text('MENTOR POLICIAL', style: AppText.label(AppColors.muted).copyWith(fontSize: 10.1, letterSpacing: 2.2)),
                   ]),
                 ),
               ],

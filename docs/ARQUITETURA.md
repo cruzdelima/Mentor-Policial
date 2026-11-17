@@ -1,4 +1,4 @@
-# Arquitetura do Mentor Policial
+# Arquitetura do Taticum
 
 Visão para quem vai programar no app. Leia antes de abrir o primeiro Pull Request.
 
