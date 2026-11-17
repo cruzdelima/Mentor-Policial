@@ -250,13 +250,15 @@ class _FolderCard extends StatelessWidget {
           onTap: onOpen,
           borderRadius: BorderRadius.circular(12),
           child: Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12),
-              border: Border(left: BorderSide(color: col, width: 4), top: const BorderSide(color: AppColors.lineSoft),
-                  right: const BorderSide(color: AppColors.lineSoft), bottom: const BorderSide(color: AppColors.lineSoft)),
-            ),
-            child: Row(children: [
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), border: Border.all(color: AppColors.lineSoft)),
+            clipBehavior: Clip.antiAlias,
+            child: IntrinsicHeight(
+              child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                Container(width: 4, color: col),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Row(children: [
               Icon(Icons.folder, color: col, size: 36),
               const SizedBox(width: 14),
               Expanded(
@@ -274,7 +276,11 @@ class _FolderCard extends StatelessWidget {
                 ]),
               ),
               const Icon(Icons.chevron_right, color: AppColors.dim),
-            ]),
+                    ]),
+                  ),
+                ),
+              ]),
+            ),
           ),
         ),
       ),
