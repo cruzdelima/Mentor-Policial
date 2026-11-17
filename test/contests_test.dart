@@ -122,7 +122,7 @@ void main() {
     expect(t.activeTopics.map((x) => x.id).toSet(), c.contest!.topicIds.toSet());
     // Ordem do edital dentro de cada matéria.
     final lp = t.units.where((u) => u.subject.id == 'LP' && u.isTheory).map((u) => u.topic.id).toList();
-    expect(lp.take(3).toList(), ['LP-05', 'LP-15', 'CBMPE26_TEN:figuras-de-linguagem']);
+    expect(lp.take(4).toList(), ['LP-05', 'LP-15', 'LP-21', 'LP-22']);
     // Assuntos exclusivos do edital não aparecem no ciclo básico.
     final bm = Planner.buildTrail(catalog, profileFor('BM_CFO'), const {});
     expect(bm.activeTopics.any((x) => x.contest != null), isFalse);
@@ -330,7 +330,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.ensureVisible(find.widgetWithText(TextField, 'Assuntos (um por linha)'));
     await tester.pumpAndSettle();
-    await tester.enterText(find.widgetWithText(TextField, 'Assuntos (um por linha)'), 'Compreensão e interpretação de textos\nFiguras de linguagem (P)');
+    await tester.enterText(find.widgetWithText(TextField, 'Assuntos (um por linha)'), 'Compreensão e interpretação de textos\nLinguagem jurídica (P)');
     await tester.pumpAndSettle();
     expect(find.textContaining('1 aproveitados do ciclo básico'), findsOneWidget);
     await tester.tap(find.text('GUARDAR NO RASCUNHO'));
@@ -344,8 +344,8 @@ void main() {
     await tester.pumpAndSettle();
     expect(remote.version, 1);
     final c = app.catalog.cargo('CFO_PMPE_2026');
-    expect(c.contest!.topicIds, ['LP-05', 'CFO_PMPE_2026:figuras-de-linguagem']);
-    expect(app.catalog.topic('CFO_PMPE_2026:figuras-de-linguagem')!.size, 'P');
+    expect(c.contest!.topicIds, ['LP-05', 'CFO_PMPE_2026:linguagem-juridica']);
+    expect(app.catalog.topic('CFO_PMPE_2026:linguagem-juridica')!.size, 'P');
     expect(tester.takeException(), isNull);
     await tester.pump(const Duration(seconds: 4));
     await tester.pumpAndSettle();

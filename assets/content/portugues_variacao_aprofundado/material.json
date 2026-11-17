@@ -1,0 +1,287 @@
+{
+ "id": "lp-variacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-24"
+ ],
+ "kind": "aprofundado",
+ "title": "Variação linguística",
+ "subtitle": "Língua Portuguesa · Linguagem",
+ "minutes": 90,
+ "pdf": "portugues_variacao_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Tópico curto e conceitual. As bancas cobram o **tipo** de variação presente num trecho (regional, social, situacional, histórica), a ideia de **adequação** ao contexto e a postura contra o **preconceito linguístico**. A gramática normativa continua sendo a referência para a escrita formal e para a prova."
+    },
+    {
+     "t": "h2",
+     "text": "1. A língua varia"
+    },
+    {
+     "t": "p",
+     "text": "Toda língua muda no tempo e varia entre regiões, grupos sociais e situações de uso. Essas diferenças são **variedades linguísticas**, todas com regras próprias e capazes de comunicar. A variação é natural e não é sinônimo de erro."
+    },
+    {
+     "t": "h2",
+     "text": "2. Tipos de variação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Depende de",
+      "Exemplos"
+     ],
+     "widths": [
+      0.26,
+      0.3,
+      0.44
+     ],
+     "rows": [
+      [
+       "Diatópica (regional, geográfica)",
+       "Região",
+       "*mandioca / aipim / macaxeira*; *tu vais* no Sul; sotaques"
+      ],
+      [
+       "Diastrática (social)",
+       "Grupo social: escolaridade, idade, profissão, classe",
+       "gírias de jovens; jargão policial (*meliante, guarnição, QTH*); *nós vai* em variedades populares"
+      ],
+      [
+       "Diafásica (situacional, estilística)",
+       "Situação de comunicação: formal ou informal",
+       "*Prezado senhor* × *E aí, beleza?*"
+      ],
+      [
+       "Diacrônica (histórica)",
+       "Época",
+       "*vossa mercê* › *vosmecê* › *você* › *cê*; *pharmacia* › *farmácia*"
+      ],
+      [
+       "Diamésica",
+       "Meio: fala ou escrita",
+       "*Tá* na fala × *está* na escrita formal"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Gíria**: vocabulário de um grupo social, muitas vezes passageiro.",
+      "**Jargão**: vocabulário técnico de uma profissão (*flagrante, oitiva, auto de prisão*).",
+      "**Regionalismo**: palavra ou construção típica de uma região."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Norma-padrão, norma culta e variedades populares"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Norma-padrão**: modelo idealizado, descrito nas gramáticas normativas; é a referência para documentos oficiais, provas e textos formais.",
+      "**Norma culta**: variedade efetivamente usada por falantes escolarizados em situações formais (é mais flexível que a norma-padrão).",
+      "**Variedades populares**: usadas por grande parte da população no dia a dia, com regras próprias (*os menino*, *nós vai*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Adequação × correção"
+    },
+    {
+     "t": "p",
+     "text": "A noção de **adequação** substitui a ideia simples de *certo e errado* quando se fala de **uso**: a variedade deve combinar com a situação. Um ofício exige a norma-padrão; uma conversa entre amigos admite a linguagem informal. Usar linguagem formal demais numa conversa também é inadequação."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "E na prova?",
+     "text": "As questões de gramática continuam julgando a **norma-padrão**. As de variação perguntam se a linguagem é **adequada** ao contexto e qual o **tipo** de variação. As duas visões convivem."
+    },
+    {
+     "t": "h2",
+     "text": "5. Preconceito linguístico"
+    },
+    {
+     "t": "p",
+     "text": "É a discriminação de pessoas pelo modo como falam (sotaque, variedade popular, regionalismo). As bancas costumam adotar a visão da sociolinguística: **não existe variedade inferior**; existe variedade **adequada ou inadequada** a cada situação."
+    },
+    {
+     "t": "h2",
+     "text": "6. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“No trecho, há marcas de variação regional / social / informal.”",
+      "“O emprego de *tá* e *pra* indica registro informal, típico da oralidade.”",
+      "“A linguagem empregada é adequada ao gênero e à situação.”",
+      "“Variedades populares devem ser consideradas erradas” — afirmação que as bancas tratam como preconceituosa."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "As diferenças entre mandioca, aipim e macaxeira exemplificam variação regional (diatópica).",
+    "comment": "**Certo.** A mesma raiz recebe nomes diferentes conforme a região.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A variação diacrônica está relacionada às diferenças entre grupos sociais.",
+    "comment": "**Errado.** Diacrônica é a variação ao longo do tempo; a social é diastrática.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O uso de termos técnicos próprios da atividade policial, como oitiva e flagrante, é exemplo de jargão profissional.",
+    "comment": "**Certo.** Jargão é o vocabulário técnico de um grupo profissional.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A variação linguística deve ser entendida como sinônimo de erro gramatical.",
+    "comment": "**Errado.** Variação é fenômeno natural de toda língua.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A escolha entre “Prezado senhor” e “E aí, beleza?” exemplifica variação situacional (diafásica).",
+    "comment": "**Certo.** Depende do grau de formalidade da situação.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A evolução de vossa mercê para você exemplifica variação regional.",
+    "comment": "**Errado.** É mudança ao longo do tempo: variação histórica (diacrônica).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A norma-padrão é a referência para a redação de documentos oficiais.",
+    "comment": "**Certo.** Textos formais e oficiais seguem a norma-padrão.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Norma culta e norma-padrão são exatamente a mesma coisa.",
+    "comment": "**Errado.** A norma-padrão é um modelo idealizado; a culta é o uso real de falantes escolarizados.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Gírias são marcas de variação social, associadas a grupos específicos.",
+    "comment": "**Certo.** Identificam grupos, como jovens ou profissões.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Empregar linguagem formal em qualquer situação de comunicação é sempre o mais adequado.",
+    "comment": "**Errado.** Adequação depende do contexto; formalidade excessiva numa conversa informal também é inadequada.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em um bilhete entre amigos, a forma “Tô chegando, me espera aí” é adequada à situação, embora não siga a norma-padrão.",
+    "comment": "**Certo.** O registro informal é adequado ao contexto.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em um ofício, a forma “Tô encaminhando os documentos pro senhor” é adequada, pois a comunicação foi compreendida.",
+    "comment": "**Errado.** O ofício exige a norma-padrão: estou encaminhando os documentos ao senhor.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "O preconceito linguístico consiste em discriminar pessoas pelo modo como falam.",
+    "comment": "**Certo.** Sotaques e variedades populares são alvos comuns.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Segundo a sociolinguística, as variedades populares são inferiores por não terem regras.",
+    "comment": "**Errado.** Toda variedade tem regras próprias; nenhuma é inferior.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "O emprego de “tu vais” em algumas regiões do Sul do Brasil é exemplo de variação regional.",
+    "comment": "**Certo.** O uso do pronome tu varia conforme a região.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "A diferença entre a fala e a escrita não constitui variação linguística.",
+    "comment": "**Errado.** É a variação diamésica: fala e escrita têm características próprias.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "A mudança da grafia pharmacia para farmácia exemplifica variação histórica.",
+    "comment": "**Certo.** Reflete mudança ao longo do tempo (e nas normas ortográficas).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Regionalismos são palavras de uso exclusivo de grupos profissionais.",
+    "comment": "**Errado.** Regionalismo é típico de uma região; o de grupo profissional é jargão.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em questões de gramática, a referência de correção continua sendo a norma-padrão.",
+    "comment": "**Certo.** A prova julga a norma-padrão; a variação é avaliada pela adequação.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "O uso de “a gente” no lugar de “nós” só ocorre em variedades populares.",
+    "comment": "**Errado.** A gente é amplamente usado por falantes de todas as classes, sobretudo na fala.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Marcos Bagno, Preconceito linguístico.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

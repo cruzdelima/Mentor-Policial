@@ -16,7 +16,7 @@ import '../data/catalog_store.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.6.0';
+const kAppVersion = '0.7.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].

@@ -1,0 +1,383 @@
+{
+ "id": "lp-figuras-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-21"
+ ],
+ "kind": "aprofundado",
+ "title": "Figuras de linguagem",
+ "subtitle": "Língua Portuguesa · Semântica e estilística",
+ "minutes": 90,
+ "pdf": "portugues_figuras_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Bancas como AOCP, FGV e Vunesp cobram a identificação da figura num trecho do texto; o Cebraspe costuma cobrar o **efeito** (“o emprego da hipérbole enfatiza…”). O segredo é separar figuras **parecidas**: metáfora × comparação, antítese × paradoxo, eufemismo × ironia, polissíndeto × assíndeto."
+    },
+    {
+     "t": "h2",
+     "text": "1. Figuras de palavra"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Metáfora",
+       "Comparação **implícita**, sem conectivo",
+       "Ele é **uma fera** no tiro."
+      ],
+      [
+       "Comparação (símile)",
+       "Comparação **explícita**, com conectivo (*como, tal qual, parece*)",
+       "Ele é forte **como um touro**."
+      ],
+      [
+       "Metonímia",
+       "Troca de um termo por outro com o qual mantém relação real (autor pela obra, continente pelo conteúdo, parte pelo todo, marca pelo produto)",
+       "Li **Machado de Assis**. Bebi **um copo** de água. Há poucos **braços** na lavoura."
+      ],
+      [
+       "Catacrese",
+       "Metáfora já incorporada à língua, por falta de termo próprio",
+       "**pé** da mesa, **braço** da cadeira, **embarcar** no ônibus"
+      ],
+      [
+       "Sinestesia",
+       "Mistura de sensações (visão, audição, tato, paladar, olfato)",
+       "Um grito **áspero**. Uma cor **quente**."
+      ],
+      [
+       "Antonomásia",
+       "Substituição de um nome por qualidade ou apelido conhecido",
+       "**O Poeta dos Escravos** (Castro Alves)."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Metáfora × comparação",
+     "text": "Se há **conectivo comparativo** (*como, tal qual, feito*), é **comparação**. Sem conectivo, é **metáfora**: *O delegado é **uma rocha*** × *O delegado é firme **como** uma rocha*."
+    },
+    {
+     "t": "h2",
+     "text": "2. Figuras de pensamento"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Antítese",
+       "Aproximação de ideias **opostas**",
+       "**Riso** e **choro** se misturavam no velório."
+      ],
+      [
+       "Paradoxo (oxímoro)",
+       "Ideias opostas atribuídas **ao mesmo ser**, criando contradição aparente",
+       "É dor que desatina sem doer. (Camões)"
+      ],
+      [
+       "Hipérbole",
+       "**Exagero** intencional",
+       "**Morri de rir**. Já te disse **um milhão de vezes**."
+      ],
+      [
+       "Eufemismo",
+       "**Suaviza** uma ideia desagradável",
+       "Ele **faltou com a verdade**. **Partiu desta para melhor**."
+      ],
+      [
+       "Ironia",
+       "Diz o **contrário** do que se pensa, com tom crítico",
+       "Que **bela** atuação: perdeu todos os prazos!"
+      ],
+      [
+       "Personificação (prosopopeia)",
+       "Atribui características humanas a seres não humanos",
+       "A cidade **dormia**. O vento **gemia**."
+      ],
+      [
+       "Gradação",
+       "Sequência crescente ou decrescente de ideias",
+       "Andei, corri, **voei**."
+      ],
+      [
+       "Apóstrofe",
+       "Invocação, chamamento enfático",
+       "**Deus**, ó Deus, onde estás?"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Antítese × paradoxo",
+     "text": "Na **antítese**, os opostos aparecem lado a lado, sem contradição lógica (*riso e choro*). No **paradoxo**, os opostos se fundem num mesmo ser, gerando contradição aparente (*dor que não dói*; *silêncio ensurdecedor*)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Figuras de construção (sintaxe)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Elipse",
+       "Omissão de termo facilmente identificável",
+       "Na sala, apenas silêncio. (havia)"
+      ],
+      [
+       "Zeugma",
+       "Omissão de termo **já citado**",
+       "Eu prefiro café; ele, chá. (prefere)"
+      ],
+      [
+       "Pleonasmo",
+       "Repetição de ideia: **literário** (para ênfase) ou **vicioso** (erro)",
+       "Vi **com meus próprios olhos** (literário). **Subir para cima** (vicioso)."
+      ],
+      [
+       "Polissíndeto",
+       "Repetição de conectivos",
+       "**E** chora, **e** grita, **e** corre."
+      ],
+      [
+       "Assíndeto",
+       "Ausência de conectivos",
+       "Chegou, viu, venceu."
+      ],
+      [
+       "Anáfora",
+       "Repetição de palavra no início de versos ou frases",
+       "**Tudo** passa, **tudo** muda, **tudo** acaba."
+      ],
+      [
+       "Hipérbato (inversão)",
+       "Inversão da ordem direta",
+       "Das armas o barulho ouvia-se ao longe."
+      ],
+      [
+       "Silepse",
+       "Concordância com a **ideia**, não com a forma",
+       "**A gente** fomos (pessoa) · **Vossa Excelência** está **cansado** (gênero)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Figuras de som"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Aliteração**: repetição de **consoantes** — *O **r**ato **r**oeu a **r**oupa do **r**ei de **R**oma*.",
+      "**Assonância**: repetição de **vogais** — *Sou um **a**rm**a**zém de m**á**goas*.",
+      "**Onomatopeia**: imitação de sons — *tique-taque, zum-zum, bum*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Identificação: “no trecho X, há metonímia / hipérbole / eufemismo”.",
+      "Efeito: “a hipérbole enfatiza a gravidade da situação”.",
+      "Distinções: metáfora × comparação; antítese × paradoxo; polissíndeto × assíndeto; elipse × zeugma.",
+      "Pleonasmo vicioso como erro em reescritas (*elo de ligação, surpresa inesperada, há anos atrás*)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Aquele agente é uma fera no tiro”, há metáfora.",
+    "comment": "**Certo.** Comparação implícita, sem conectivo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Ele é forte como um touro”, há metáfora.",
+    "comment": "**Errado.** O conectivo como torna a comparação explícita: é comparação (símile).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Li Machado de Assis nas férias”, há metonímia.",
+    "comment": "**Certo.** O autor está no lugar da obra.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O pé da mesa quebrou”, há sinestesia.",
+    "comment": "**Errado.** É catacrese: metáfora incorporada à língua por falta de termo próprio.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ouviu-se um grito áspero na madrugada”, há sinestesia.",
+    "comment": "**Certo.** Mistura audição (grito) e tato (áspero).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Morri de rir com a piada”, há eufemismo.",
+    "comment": "**Errado.** É hipérbole: exagero intencional.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O depoente faltou com a verdade”, há eufemismo.",
+    "comment": "**Certo.** Suaviza a ideia de que ele mentiu.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Que bela atuação: perdeu todos os prazos!”, há paradoxo.",
+    "comment": "**Errado.** Diz-se o contrário do que se pensa, com tom crítico: ironia.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "No verso camoniano “É dor que desatina sem doer”, há paradoxo.",
+    "comment": "**Certo.** Atribui-se ao mesmo ser (a dor) uma característica contraditória (não doer).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “A cidade dormia quando o alarme soou”, há hipérbole.",
+    "comment": "**Errado.** Atribui-se ação humana à cidade: personificação.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em “Riso e choro se misturavam no velório”, há antítese.",
+    "comment": "**Certo.** Ideias opostas aproximadas, sem contradição lógica.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "A expressão “subir para cima” exemplifica pleonasmo literário, empregado para dar ênfase.",
+    "comment": "**Errado.** É pleonasmo vicioso: redundância sem valor expressivo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Em “Chegou, viu, venceu”, há assíndeto.",
+    "comment": "**Certo.** As orações estão ligadas sem conectivos.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Em “E chora, e grita, e corre”, há assíndeto.",
+    "comment": "**Errado.** A repetição do conectivo e caracteriza o polissíndeto.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Em “Na sala, apenas silêncio”, há elipse do verbo.",
+    "comment": "**Certo.** Omite-se havia, facilmente identificável.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Em “Eu prefiro café; ele, chá”, há anáfora.",
+    "comment": "**Errado.** Omite-se o verbo já citado (prefere): zeugma.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “O tique-taque do relógio irritava a testemunha”, há onomatopeia.",
+    "comment": "**Certo.** Tique-taque imita o som do relógio.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Em “Ele partiu desta para melhor”, há ironia.",
+    "comment": "**Errado.** A expressão suaviza a ideia de morte: eufemismo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em “Andei, corri, voei”, há gradação.",
+    "comment": "**Certo.** As ações seguem em sequência crescente de intensidade.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Em “Bebi um copo de água”, há metáfora.",
+    "comment": "**Errado.** O continente (copo) está no lugar do conteúdo (água): metonímia.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

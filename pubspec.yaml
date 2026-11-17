@@ -1,7 +1,7 @@
 name: mentor_policial
 description: "Taticum — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
 publish_to: 'none'
-version: 0.6.0+8
+version: 0.7.0+9
 
 environment:
   sdk: ^3.9.0
@@ -31,20 +31,48 @@ flutter:
     - assets/content/portugues_acentuacao_aprofundado/
     - assets/content/portugues_classes1/
     - assets/content/portugues_classes1_aprofundado/
+    - assets/content/portugues_coesao/
+    - assets/content/portugues_coesao_aprofundado/
+    - assets/content/portugues_concordancia/
+    - assets/content/portugues_concordancia_aprofundado/
     - assets/content/portugues_conectivos/
     - assets/content/portugues_conectivos_aprofundado/
     - assets/content/portugues_coordenadas/
     - assets/content/portugues_coordenadas_aprofundado/
+    - assets/content/portugues_crase/
+    - assets/content/portugues_crase_aprofundado/
+    - assets/content/portugues_figuras/
+    - assets/content/portugues_figuras_aprofundado/
+    - assets/content/portugues_formacao/
+    - assets/content/portugues_formacao_aprofundado/
     - assets/content/portugues_interpretacao/
     - assets/content/portugues_interpretacao_aprofundado/
     - assets/content/portugues_ortografia/
     - assets/content/portugues_ortografia_aprofundado/
+    - assets/content/portugues_pontuacao/
+    - assets/content/portugues_pontuacao_aprofundado/
     - assets/content/portugues_pronomes/
     - assets/content/portugues_pronomes_aprofundado/
+    - assets/content/portugues_que_se/
+    - assets/content/portugues_que_se_aprofundado/
+    - assets/content/portugues_redacao_oficial/
+    - assets/content/portugues_redacao_oficial_aprofundado/
+    - assets/content/portugues_reescrita/
+    - assets/content/portugues_reescrita_aprofundado/
+    - assets/content/portugues_regencia/
+    - assets/content/portugues_regencia_aprofundado/
+    - assets/content/portugues_relacoes/
+    - assets/content/portugues_relacoes_aprofundado/
+    - assets/content/portugues_semantica/
+    - assets/content/portugues_semantica_aprofundado/
     - assets/content/portugues_subordinadas/
     - assets/content/portugues_subordinadas_aprofundado/
     - assets/content/portugues_termos/
     - assets/content/portugues_termos_aprofundado/
+    - assets/content/portugues_tipologia/
+    - assets/content/portugues_tipologia_aprofundado/
+    - assets/content/portugues_variacao/
+    - assets/content/portugues_variacao_aprofundado/
     - assets/content/portugues_verbos/
     - assets/content/portugues_verbos_aprofundado/
     - assets/fonts/OFL.txt

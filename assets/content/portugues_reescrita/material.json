@@ -1,0 +1,298 @@
+{
+ "id": "lp-reescrita-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-17"
+ ],
+ "kind": "resumo",
+ "title": "Reescrita de frases e parágrafos",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 35,
+ "pdf": "portugues_reescrita.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Se a reescrita mantém **correção** e **sentido**. Compare as versões palavra por palavra."
+    },
+    {
+     "t": "h2",
+     "text": "1. Método"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**1º correção**: concordância, regência, crase, pontuação, colocação, tempos.",
+      "**2º sentido**: conectivo, tempo verbal, voz, palavras de foco, vírgulas da adjetiva, ordem dos termos.",
+      "Um problema basta para o item ser **errado**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Transformações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Passiva**: *ser* no tempo da ativa; particípio concorda; só VTD.",
+      "**Indireto**: presente › imperfeito; perfeito › mais-que-perfeito; futuro › futuro do pretérito; imperativo › subjuntivo; *eu › ele; aqui › ali; hoje › naquele dia; ontem › no dia anterior*.",
+      "**Nominalização**: *decidiu › a decisão*.",
+      "**Reduzidas**: *ao chegar = quando chegou; elaborado = que foi elaborado*.",
+      "**Conectivos**: mesmo grupo mantém; grupo diferente altera. *Embora + subjuntivo = apesar de + infinitivo*."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: mantém ou altera?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mudança",
+      "Resultado"
+     ],
+     "widths": [
+      0.64,
+      0.36
+     ],
+     "rows": [
+      [
+       "Ativa › passiva no mesmo tempo",
+       "Mantém"
+      ],
+      [
+       "Ativa no futuro › passiva no passado",
+       "Altera"
+      ],
+      [
+       "Tirar vírgulas da adjetiva explicativa",
+       "Altera"
+      ],
+      [
+       "Mover *só* do sujeito para o verbo",
+       "Altera"
+      ],
+      [
+       "*Teria fugido* › *fugiu*",
+       "Altera"
+      ],
+      [
+       "*mas* › *porém*",
+       "Mantém"
+      ],
+      [
+       "*Como chovia* › *Chovia; por isso*",
+       "Mantém"
+      ],
+      [
+       "*que foi elaborado* › *elaborado*",
+       "Mantém"
+      ],
+      [
+       "*Disse-me* › *Me disse*",
+       "Erro"
+      ],
+      [
+       "*Caso colabore* › *Caso colabora*",
+       "Erro"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Correção **e** sentido: julgue os dois.",
+      "Marque **todas** as diferenças entre as versões.",
+      "Tempo verbal mudou? Sentido mudou.",
+      "Vírgulas da adjetiva: **cuidado**.",
+      "Palavras de foco (*só, até, ainda*) mudam de lugar? Confira.",
+      "Passiva: só com **VTD**.",
+      "Indireto: tempos **recuam**.",
+      "Concessiva: subjuntivo ou *apesar de* + infinitivo.",
+      "Novo conectivo: mesmo **grupo**?",
+      "Colocação pronominal após deslocamento."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "REESCRITA",
+  "rootSub": "correção e sentido",
+  "left": [
+   {
+    "label": "Método",
+    "items": [
+     "1º correção",
+     "2º sentido",
+     "um erro basta"
+    ]
+   },
+   {
+    "label": "Correção",
+    "items": [
+     "concordância e regência",
+     "crase e pontuação",
+     "colocação e tempos"
+    ]
+   },
+   {
+    "label": "Sentido",
+    "items": [
+     "conectivos",
+     "tempos verbais",
+     "palavras de foco"
+    ]
+   },
+   {
+    "label": "Voz passiva",
+    "items": [
+     "ser no tempo da ativa",
+     "particípio concorda",
+     "só VTD"
+    ]
+   },
+   {
+    "label": "Discurso indireto",
+    "items": [
+     "vou › ia",
+     "vi › tinha visto",
+     "aqui › ali"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Nominalização",
+    "items": [
+     "decidiu › decisão",
+     "terminou › término",
+     "mantém sentido"
+    ]
+   },
+   {
+    "label": "Reduzidas",
+    "items": [
+     "ao chegar = quando chegou",
+     "elaborado = que foi",
+     "sendo = como é"
+    ]
+   },
+   {
+    "label": "Conectivos",
+    "items": [
+     "mesmo grupo: mantém",
+     "outro grupo: altera",
+     "embora › apesar de"
+    ]
+   },
+   {
+    "label": "Armadilhas",
+    "items": [
+     "vírgula da adjetiva",
+     "teria › fugiu",
+     "só muda de lugar"
+    ]
+   },
+   {
+    "label": "Erros",
+    "items": [
+     "me disse (início)",
+     "caso colabora",
+     "se apure os fatos"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A reescrita de “A comissão aprovou o relatório” como “O relatório foi aprovado pela comissão” mantém a correção e o sentido.",
+    "comment": "**Certo.** Transposição correta para a voz passiva, no mesmo tempo."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A reescrita de “O juiz decidirá o caso” como “O caso foi decidido pelo juiz” mantém o sentido original.",
+    "comment": "**Errado.** O tempo mudou: o caso será decidido."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em discurso indireto, “Ele disse: — Estou cansado” passa a “Ele disse que estava cansado”.",
+    "comment": "**Certo.** O presente passa ao pretérito imperfeito."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A reescrita de “O réu, que confessou, foi solto” como “O réu que confessou foi solto” mantém o sentido.",
+    "comment": "**Errado.** A oração passa de explicativa a restritiva."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A substituição de mas por porém, com o ajuste da pontuação, mantém a relação de oposição.",
+    "comment": "**Certo.** Ambas são adversativas."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A reescrita de “Embora chovesse, a operação ocorreu” como “Apesar de chovesse, a operação ocorreu” mantém a correção.",
+    "comment": "**Errado.** Apesar de exige infinitivo: apesar de chover."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A reescrita de “Quando chegou à delegacia, o advogado pediu vista” como “Ao chegar à delegacia, o advogado pediu vista” mantém o sentido.",
+    "comment": "**Certo.** A reduzida de infinitivo com ao tem valor temporal."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A reescrita de “O suspeito teria fugido” como “O suspeito fugiu” mantém o sentido.",
+    "comment": "**Errado.** A hipótese passa a ser apresentada como fato."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A reescrita de “A polícia investigou o caso” como “O caso foi investigado pela polícia” preserva o sentido original.",
+    "comment": "**Certo.** Voz passiva analítica no mesmo tempo."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A reescrita de “Disseram-me a verdade” como “Me disseram a verdade” mantém a correção segundo a norma-padrão.",
+    "comment": "**Errado.** Não se inicia período com pronome oblíquo átono no padrão formal."
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

@@ -39,6 +39,20 @@ MODULES = [
     'lp_termos_aprof', 'lp_termos_resumo',
     'lp_coordenadas_aprof', 'lp_coordenadas_resumo',
     'lp_subordinadas_aprof', 'lp_subordinadas_resumo',
+    'lp_concordancia_aprof', 'lp_concordancia_resumo',
+    'lp_regencia_aprof', 'lp_regencia_resumo',
+    'lp_crase_aprof', 'lp_crase_resumo',
+    'lp_pontuacao_aprof', 'lp_pontuacao_resumo',
+    'lp_tipologia_aprof', 'lp_tipologia_resumo',
+    'lp_coesao_aprof', 'lp_coesao_resumo',
+    'lp_reescrita_aprof', 'lp_reescrita_resumo',
+    'lp_formacao_aprof', 'lp_formacao_resumo',
+    'lp_semantica_aprof', 'lp_semantica_resumo',
+    'lp_redacao_oficial_aprof', 'lp_redacao_oficial_resumo',
+    'lp_figuras_aprof', 'lp_figuras_resumo',
+    'lp_relacoes_aprof', 'lp_relacoes_resumo',
+    'lp_que_se_aprof', 'lp_que_se_resumo',
+    'lp_variacao_aprof', 'lp_variacao_resumo',
     'info_virus_aprof', 'info_virus_resumo',
     'cont_conceitos_aprof', 'cont_conceitos_resumo',
     'dc_principios_aprof', 'dc_principios_resumo',
@@ -70,9 +84,14 @@ KIND_LABEL = {'aprofundado': 'MATERIAL APROFUNDADO', 'resumo': 'RESUMO PARA REVI
 KIND_USE = {'aprofundado': 'ESTUDO INICIAL', 'resumo': 'REVISÃO'}
 
 
+# *exemplo* (destaque de exemplos) — pode conter **negrito** dentro.
+ITALIC = re.compile(r'(?<!\*)\*(?=[^*]|\*\*[^*])((?:\*\*[^*]+?\*\*|[^*])+?)\*(?!\*)')
+
+
 def md(text):
-    """**negrito** vira <b>; escapa &, <, >."""
+    """**negrito** vira <b>; *exemplo* vira destaque em azul (a fonte não tem itálico); escapa &, <, >."""
     t = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    t = ITALIC.sub(r'<font color="#2B5C8A">\1</font>', t)
     t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
     return t.replace('\n', '<br/><br/>')
 
@@ -376,6 +395,9 @@ def build_pdf(C, path):
         c.setFillColor(GOLD2)
         c.setFont('BC-B', 11)
         c.drawString(M + 8 * mm, y0 + ch - 9 * mm, 'NESTE MATERIAL')
+        # Coluna da descrição começa depois do rótulo mais longo (mínimo de 32 mm).
+        lab = max(32 * mm, max(c.stringWidth(t.upper(), 'BC-B', 13) for _, t, _ in items) + 6 * mm)
+        dx = M + 20 * mm + lab
         for i, (n, t, s) in enumerate(items):
             yy = y0 + ch - 19 * mm - i * 9 * mm
             c.setFillColor(GOLD)
@@ -386,10 +408,10 @@ def build_pdf(C, path):
             c.drawString(M + 20 * mm, yy, t.upper())
             c.setFillColor(SOFT)
             size2 = 10
-            while size2 > 7 and c.stringWidth(s, 'B', size2) > W - 2 * M - 58 * mm:
+            while size2 > 7 and c.stringWidth(s, 'B', size2) > W - M - 6 * mm - dx:
                 size2 -= 0.3
             c.setFont('B', size2)
-            c.drawString(M + 52 * mm, yy, s)
+            c.drawString(dx, yy, s)
         c.setFillColor(SOFT)
         c.setFont('B', 9)
         c.drawString(M, 30 * mm, M_['coverTopic'])

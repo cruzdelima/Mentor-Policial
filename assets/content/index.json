@@ -302,6 +302,426 @@
    "status": "Em revisão pelo autor"
   },
   {
+   "id": "lp-concordancia-02",
+   "folder": "portugues_concordancia_aprofundado",
+   "title": "Concordância nominal e verbal",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-11"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-concordancia-01",
+   "folder": "portugues_concordancia",
+   "title": "Concordância nominal e verbal",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-11"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-regencia-02",
+   "folder": "portugues_regencia_aprofundado",
+   "title": "Regência nominal e verbal",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-12"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-regencia-01",
+   "folder": "portugues_regencia",
+   "title": "Regência nominal e verbal",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-12"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-crase-02",
+   "folder": "portugues_crase_aprofundado",
+   "title": "Crase",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-13"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-crase-01",
+   "folder": "portugues_crase",
+   "title": "Crase",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-13"
+   ],
+   "kind": "resumo",
+   "minutes": 30,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-pontuacao-02",
+   "folder": "portugues_pontuacao_aprofundado",
+   "title": "Pontuação",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-14"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-pontuacao-01",
+   "folder": "portugues_pontuacao",
+   "title": "Pontuação",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-14"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-tipologia-02",
+   "folder": "portugues_tipologia_aprofundado",
+   "title": "Tipologia e gêneros textuais",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-15"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-tipologia-01",
+   "folder": "portugues_tipologia",
+   "title": "Tipologia e gêneros textuais",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-15"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-coesao-02",
+   "folder": "portugues_coesao_aprofundado",
+   "title": "Coesão e coerência textual",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-16"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-coesao-01",
+   "folder": "portugues_coesao",
+   "title": "Coesão e coerência textual",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-16"
+   ],
+   "kind": "resumo",
+   "minutes": 30,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-reescrita-02",
+   "folder": "portugues_reescrita_aprofundado",
+   "title": "Reescrita de frases e parágrafos",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-17"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-reescrita-01",
+   "folder": "portugues_reescrita",
+   "title": "Reescrita de frases e parágrafos",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-17"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-formacao-02",
+   "folder": "portugues_formacao_aprofundado",
+   "title": "Estrutura e formação de palavras",
+   "subtitle": "Língua Portuguesa · Morfologia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-18"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-formacao-01",
+   "folder": "portugues_formacao",
+   "title": "Estrutura e formação de palavras",
+   "subtitle": "Língua Portuguesa · Morfologia",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-18"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-semantica-02",
+   "folder": "portugues_semantica_aprofundado",
+   "title": "Semântica e significação das palavras",
+   "subtitle": "Língua Portuguesa · Semântica",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-19"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-semantica-01",
+   "folder": "portugues_semantica",
+   "title": "Semântica e significação das palavras",
+   "subtitle": "Língua Portuguesa · Semântica",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-19"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-redacao-oficial-02",
+   "folder": "portugues_redacao_oficial_aprofundado",
+   "title": "Redação oficial",
+   "subtitle": "Língua Portuguesa · Redação oficial",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-20"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-redacao-oficial-01",
+   "folder": "portugues_redacao_oficial",
+   "title": "Redação oficial",
+   "subtitle": "Língua Portuguesa · Redação oficial",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-20"
+   ],
+   "kind": "resumo",
+   "minutes": 30,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-figuras-02",
+   "folder": "portugues_figuras_aprofundado",
+   "title": "Figuras de linguagem",
+   "subtitle": "Língua Portuguesa · Semântica e estilística",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-21"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-figuras-01",
+   "folder": "portugues_figuras",
+   "title": "Figuras de linguagem",
+   "subtitle": "Língua Portuguesa · Semântica e estilística",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-21"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-relacoes-02",
+   "folder": "portugues_relacoes_aprofundado",
+   "title": "Relações semânticas entre orações, períodos e parágrafos",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-22"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-relacoes-01",
+   "folder": "portugues_relacoes",
+   "title": "Relações semânticas entre orações, períodos e parágrafos",
+   "subtitle": "Língua Portuguesa · Texto",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-22"
+   ],
+   "kind": "resumo",
+   "minutes": 30,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-que-se-02",
+   "folder": "portugues_que_se_aprofundado",
+   "title": "Funções do “que” e do “se”",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-23"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-que-se-01",
+   "folder": "portugues_que_se",
+   "title": "Funções do “que” e do “se”",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-23"
+   ],
+   "kind": "resumo",
+   "minutes": 30,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-variacao-02",
+   "folder": "portugues_variacao_aprofundado",
+   "title": "Variação linguística",
+   "subtitle": "Língua Portuguesa · Linguagem",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-24"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-variacao-01",
+   "folder": "portugues_variacao",
+   "title": "Variação linguística",
+   "subtitle": "Língua Portuguesa · Linguagem",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-24"
+   ],
+   "kind": "resumo",
+   "minutes": 20,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
    "id": "info-malware-02",
    "folder": "informatica_virus_aprofundado",
    "title": "Vírus e outros códigos maliciosos",

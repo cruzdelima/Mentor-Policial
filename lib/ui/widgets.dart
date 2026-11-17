@@ -330,16 +330,30 @@ class RichMd extends StatelessWidget {
   }
 }
 
+/// *exemplo* (itálico, pode conter **negrito**) e **negrito**.
+final _italicRe = RegExp(r'(?<!\*)\*(?=[^*]|\*\*[^*])((?:\*\*[^*]+?\*\*|[^*])+?)\*(?!\*)');
+final _boldRe = RegExp(r'\*\*(.+?)\*\*');
+
 List<InlineSpan> mdSpans(String text, TextStyle base, {Color? boldColor}) {
   final spans = <InlineSpan>[];
-  final re = RegExp(r'\*\*(.+?)\*\*');
+  void bold(String t, TextStyle style) {
+    var last = 0;
+    for (final m in _boldRe.allMatches(t)) {
+      if (m.start > last) spans.add(TextSpan(text: t.substring(last, m.start), style: style));
+      spans.add(TextSpan(text: m.group(1), style: style.copyWith(fontWeight: FontWeight.w700, color: boldColor ?? style.color)));
+      last = m.end;
+    }
+    if (last < t.length) spans.add(TextSpan(text: t.substring(last), style: style));
+  }
+
   var last = 0;
-  for (final m in re.allMatches(text)) {
-    if (m.start > last) spans.add(TextSpan(text: text.substring(last, m.start)));
-    spans.add(TextSpan(text: m.group(1), style: base.copyWith(fontWeight: FontWeight.w700, color: boldColor ?? base.color)));
+  final italic = base.copyWith(fontStyle: FontStyle.italic);
+  for (final m in _italicRe.allMatches(text)) {
+    if (m.start > last) bold(text.substring(last, m.start), base);
+    bold(m.group(1)!, italic);
     last = m.end;
   }
-  if (last < text.length) spans.add(TextSpan(text: text.substring(last)));
+  if (last < text.length) bold(text.substring(last), base);
   return spans;
 }
 

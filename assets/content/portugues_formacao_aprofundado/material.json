@@ -1,0 +1,424 @@
+{
+ "id": "lp-formacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-18"
+ ],
+ "kind": "aprofundado",
+ "title": "Estrutura e formação de palavras",
+ "subtitle": "Língua Portuguesa · Morfologia",
+ "minutes": 90,
+ "pdf": "portugues_formacao_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Assunto curto e muito previsível. O Cebraspe pergunta o **processo de formação** de uma palavra do texto ou o **sentido de um afixo** (“o prefixo *des-* indica negação”). Decore o quadro da seção 2 e o teste da parassíntese."
+    },
+    {
+     "t": "h2",
+     "text": "1. Estrutura das palavras"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Elemento",
+      "Função",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.4,
+      0.36
+     ],
+     "rows": [
+      [
+       "Radical",
+       "Parte que carrega o significado básico",
+       "**polic**-ial, **polic**-iamento"
+      ],
+      [
+       "Prefixo",
+       "Afixo antes do radical",
+       "**in**-feliz, **re**-abrir, **des**-leal"
+      ],
+      [
+       "Sufixo",
+       "Afixo depois do radical",
+       "investiga-**ção**, agress-**or**, feliz-**mente**"
+      ],
+      [
+       "Vogal temática",
+       "Indica a conjugação ou o grupo do nome",
+       "cant-**a**-r, vend-**e**-r, part-**i**-r"
+      ],
+      [
+       "Desinências",
+       "Indicam flexões (gênero, número, pessoa, tempo)",
+       "agente-**s**, delegad-**a**, cantá-**va**-**mos**"
+      ],
+      [
+       "Vogal e consoante de ligação",
+       "Facilitam a pronúncia",
+       "gas-**ô**-metro, cafe-**t**-eira"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Derivação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Processo",
+      "Como se forma",
+      "Exemplos"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Prefixal",
+       "Prefixo + radical",
+       "reabrir, desleal, ilegal, subchefe"
+      ],
+      [
+       "Sufixal",
+       "Radical + sufixo",
+       "investigação, policial, rapidamente, agressor"
+      ],
+      [
+       "Prefixal e sufixal",
+       "Prefixo e sufixo, mas a palavra existe com **um só** deles",
+       "**in**feliz**mente** (infeliz / felizmente), **des**leal**dade** (desleal / lealdade)"
+      ],
+      [
+       "Parassintética",
+       "Prefixo e sufixo **ao mesmo tempo**: sem um deles, a palavra não existe",
+       "**en**tard**ecer**, **a**manh**ecer**, **en**riqu**ecer**, **es**clar**ecer**, **a**pedr**ejar**"
+      ],
+      [
+       "Regressiva",
+       "Redução da palavra; em geral, **substantivo a partir de verbo**",
+       "combate (combater), ataque, saque (sacar), pesca, debate"
+      ],
+      [
+       "Imprópria (conversão)",
+       "Mudança de classe, sem mudar a forma",
+       "**o** jantar, **o** sim, **um** não, **o** porquê"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Teste da parassíntese",
+     "text": "Retire o prefixo e, depois, o sufixo. Se **nenhuma** das duas formas existir, é parassíntese: *entardecer* › “tardecer”? não; “entarde”? não › **parassintética**. Se uma das formas existir, é prefixal e sufixal: *infelizmente* › *felizmente* existe › **prefixal e sufixal**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Composição"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Processo",
+      "O que acontece",
+      "Exemplos"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Justaposição",
+       "Os radicais se unem **sem perda** de som",
+       "girassol, passatempo, guarda-chuva, pontapé, pé de moleque"
+      ],
+      [
+       "Aglutinação",
+       "Os radicais se unem **com perda** de som",
+       "planalto (plano + alto), aguardente (água + ardente), embora (em boa hora), fidalgo (filho de algo)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Justaposição × aglutinação",
+     "text": "*Girassol* parece aglutinação, mas *gira + sol* não perde nenhum som: é **justaposição**. *Planalto* perde o *o* de *plano*: é **aglutinação**."
+    },
+    {
+     "t": "h2",
+     "text": "4. Outros processos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Hibridismo**: elementos de línguas diferentes — *automóvel* (grego + latim), *televisão* (grego *tele* + latim *visão*), *burocracia* (francês + grego), *sociologia* (latim + grego).",
+      "**Abreviação (redução)**: *moto* (motocicleta), *foto*, *cine*, *pneu*.",
+      "**Siglonimização**: *PF, PRF, ONU, INSS*. Quando a sigla vira palavra e gera derivados: *petista, celetista*.",
+      "**Onomatopeia**: imitação de sons — *tique-taque, zunzum, cochicho*.",
+      "**Estrangeirismos** e **neologismos**: *deletar, printar*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Sentido de prefixos e sufixos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Afixo",
+      "Sentido",
+      "Exemplos"
+     ],
+     "widths": [
+      0.18,
+      0.32,
+      0.5
+     ],
+     "rows": [
+      [
+       "a-, an-, des-, in-, i-",
+       "negação, privação",
+       "atípico, anormal, desleal, ilegal, inativo"
+      ],
+      [
+       "anti-, contra-",
+       "oposição",
+       "antidrogas, contraordem"
+      ],
+      [
+       "re-",
+       "repetição ou retrocesso",
+       "reabrir, refazer, regredir"
+      ],
+      [
+       "pre-, pré-",
+       "anterioridade",
+       "prever, pré-edital"
+      ],
+      [
+       "pós-",
+       "posterioridade",
+       "pós-edital, pós-graduação"
+      ],
+      [
+       "sub-",
+       "posição inferior",
+       "subchefe, subsolo"
+      ],
+      [
+       "super-, hiper-",
+       "excesso, posição superior",
+       "superlotado, hipertensão"
+      ],
+      [
+       "ex-",
+       "estado anterior ou movimento para fora",
+       "ex-delegado, exportar"
+      ],
+      [
+       "-dor, -or, -ista",
+       "agente",
+       "investigador, agressor, motorista"
+      ],
+      [
+       "-ção, -mento",
+       "ação ou resultado",
+       "investigação, policiamento"
+      ],
+      [
+       "-vel",
+       "possibilidade",
+       "punível, inafiançável"
+      ],
+      [
+       "-mente",
+       "modo (forma advérbios)",
+       "rapidamente"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Cebraspe cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A palavra X é formada por derivação parassintética / prefixal e sufixal.”",
+      "“O prefixo presente em X expressa negação.”",
+      "“X e Y são formadas pelo mesmo processo.”",
+      "“O vocábulo X resulta de derivação imprópria” (substantivação de verbo ou adjetivo)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A palavra entardecer é formada por derivação parassintética.",
+    "comment": "**Certo.** Não existem tardecer nem entarde: prefixo e sufixo entram juntos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A palavra infelizmente é formada por derivação parassintética.",
+    "comment": "**Errado.** Existem infeliz e felizmente: é derivação prefixal e sufixal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O substantivo combate, formado a partir do verbo combater, exemplifica a derivação regressiva.",
+    "comment": "**Certo.** Substantivo formado pela redução do verbo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A palavra girassol é formada por composição por aglutinação.",
+    "comment": "**Errado.** Gira e sol se unem sem perda de som: justaposição.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A palavra planalto é formada por composição por aglutinação.",
+    "comment": "**Certo.** Plano + alto, com perda do o final de plano.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “O jantar foi servido”, a palavra jantar resulta de derivação sufixal.",
+    "comment": "**Errado.** O verbo passou a substantivo sem mudar de forma: derivação imprópria.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A palavra automóvel é um hibridismo, pois une elementos de origem grega e latina.",
+    "comment": "**Certo.** Auto (grego) + móvel (latim).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Na palavra desleal, o prefixo des- indica repetição.",
+    "comment": "**Errado.** Des- indica negação: que não é leal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Na palavra investigação, o sufixo -ção forma substantivo a partir de verbo e indica ação.",
+    "comment": "**Certo.** Investigar › investigação.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A palavra aguardente é formada por composição por justaposição.",
+    "comment": "**Errado.** Água + ardente, com perda de som: aglutinação.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "A sigla PF exemplifica o processo de formação por siglonimização.",
+    "comment": "**Certo.** Forma-se com as letras iniciais de Polícia Federal.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "O verbo enriquecer é formado por derivação prefixal.",
+    "comment": "**Errado.** Não existem enrico nem riquecer: é parassintética.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Na palavra reabrir, o prefixo re- indica repetição.",
+    "comment": "**Certo.** Reabrir = abrir de novo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "A palavra pontapé é formada por composição por aglutinação.",
+    "comment": "**Errado.** Ponta + pé, sem perda de som: justaposição.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "O substantivo saque, relacionado ao verbo sacar, é formado por derivação regressiva.",
+    "comment": "**Certo.** Redução do verbo para formar o substantivo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "A palavra televisão é formada apenas por elementos de origem latina.",
+    "comment": "**Errado.** Tele é de origem grega: trata-se de hibridismo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "A palavra deslealdade é formada por derivação prefixal e sufixal.",
+    "comment": "**Certo.** Existem desleal e lealdade: os afixos não entram simultaneamente.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "A palavra foto, redução de fotografia, é formada por derivação regressiva.",
+    "comment": "**Errado.** Trata-se de abreviação (redução vocabular).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "A palavra tique-taque é formada por onomatopeia.",
+    "comment": "**Certo.** Imita o som do relógio.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Na palavra agressor, o sufixo -or indica lugar.",
+    "comment": "**Errado.** O sufixo -or indica agente: quem agride.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

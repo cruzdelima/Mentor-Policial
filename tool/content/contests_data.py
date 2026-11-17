@@ -27,10 +27,10 @@ CBMPE26_TEN = {
               'Requisitos: nível superior em qualquer área, CNH B, 18 a 30 anos. Confira sempre o edital e as retificações.'),
     'subjects': [
         {'id': 'LP', 'weight': 3, 'questions': 5, 'topics': [
-            'LP-05', 'LP-15', ('Figuras de linguagem', 'P'), ('Relações semânticas entre orações, períodos e parágrafos', 'M'),
+            'LP-05', 'LP-15', 'LP-21', 'LP-22',
             'LP-01', 'LP-02', 'LP-03', 'LP-06', 'LP-07', 'LP-13', 'LP-08', 'LP-09', 'LP-10',
-            ('Funções de "que" e "se"', 'M'), 'LP-16', 'LP-14', 'LP-11', 'LP-12', 'LP-04', 'LP-18', 'LP-19',
-            ('Variação linguística', 'P')]},
+            'LP-23', 'LP-16', 'LP-14', 'LP-11', 'LP-12', 'LP-04', 'LP-18', 'LP-19',
+            'LP-24']},
         {'id': 'LE', 'weight': 2, 'questions': 5, 'topics': ['LE-01', 'LE-02', 'LE-03', 'LE-04', 'LE-05', 'LE-06', 'LE-07']},
         {'id': 'INFO', 'weight': 2, 'questions': 5, 'topics': [
             'INFO-06', 'INFO-07', 'INFO-10', 'INFO-11', 'INFO-12', 'INFO-13', 'INFO-02',

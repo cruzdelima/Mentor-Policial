@@ -1,0 +1,400 @@
+{
+ "id": "lp-tipologia-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-15"
+ ],
+ "kind": "aprofundado",
+ "title": "Tipologia e gêneros textuais",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 90,
+ "pdf": "portugues_tipologia_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O Cebraspe pergunta “o texto é predominantemente narrativo / argumentativo?” e “o texto pertence ao gênero X”. Para acertar, olhe a **finalidade** do texto (contar, descrever, informar, convencer, orientar) e as **marcas linguísticas** (tempos verbais, pessoa, conectores). O assunto do texto não define o tipo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Tipo textual × gênero textual"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Tipo textual",
+      "Gênero textual"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "O que é",
+       "Sequência linguística definida pela estrutura e pela finalidade",
+       "Texto concreto, reconhecido socialmente, com função e formato próprios"
+      ],
+      [
+       "Quantidade",
+       "Poucos (cinco ou seis)",
+       "Ilimitados (surgem e desaparecem)"
+      ],
+      [
+       "Exemplos",
+       "narrativo, descritivo, expositivo, argumentativo, injuntivo",
+       "notícia, editorial, boletim de ocorrência, ofício, edital, receita, crônica"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Um **gênero** costuma ter um tipo **predominante**, mas mistura sequências de outros tipos (**heterogeneidade tipológica**). Um boletim de ocorrência, por exemplo, é predominantemente narrativo, mas descreve o suspeito e os objetos."
+    },
+    {
+     "t": "h2",
+     "text": "2. Os tipos textuais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Finalidade",
+      "Marcas linguísticas"
+     ],
+     "widths": [
+      0.17,
+      0.3,
+      0.53
+     ],
+     "rows": [
+      [
+       "Narrativo",
+       "Contar fatos em sequência temporal",
+       "Personagens, narrador, tempo e espaço; verbos de ação no **pretérito perfeito**; marcadores de tempo (*depois, em seguida, às 22h*)"
+      ],
+      [
+       "Descritivo",
+       "Caracterizar seres, objetos, lugares",
+       "Adjetivos e locuções adjetivas; verbos de estado e de ligação; **pretérito imperfeito** ou presente; enumeração de traços"
+      ],
+      [
+       "Expositivo",
+       "Informar, explicar um conceito ou fenômeno",
+       "3ª pessoa, **presente** atemporal, definições, exemplos, dados; tom neutro"
+      ],
+      [
+       "Argumentativo (dissertativo-argumentativo)",
+       "Convencer: defender uma tese",
+       "Tese, argumentos e conclusão; **operadores argumentativos** (*portanto, além disso, no entanto*); modalizadores (*é necessário, certamente*)"
+      ],
+      [
+       "Injuntivo (instrucional)",
+       "Orientar, instruir, ordenar",
+       "**Imperativo** ou **infinitivo**; sequência de passos; enumeração"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Alguns autores incluem o tipo **dialogal** (conversação, entrevista). O Cebraspe trata o argumentativo e o expositivo como dissertativos; a diferença é que o expositivo **informa** e o argumentativo **defende um ponto de vista**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Como reconhecer o tipo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Se a resposta for sim…"
+     ],
+     "widths": [
+      0.55,
+      0.45
+     ],
+     "rows": [
+      [
+       "Há fatos que avançam no tempo, com personagens?",
+       "Narrativo"
+      ],
+      [
+       "O texto pinta um retrato, sem progressão temporal?",
+       "Descritivo"
+      ],
+      [
+       "Explica um assunto sem tomar partido?",
+       "Expositivo"
+      ],
+      [
+       "Defende uma ideia e tenta convencer o leitor?",
+       "Argumentativo"
+      ],
+      [
+       "Diz ao leitor o que fazer?",
+       "Injuntivo"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "O assunto não define o tipo",
+     "text": "Um texto sobre um crime pode ser **narrativo** (como aconteceu), **descritivo** (como era o local), **expositivo** (o que diz a lei) ou **argumentativo** (por que a pena deveria ser maior). Olhe a finalidade, não o tema."
+    },
+    {
+     "t": "h2",
+     "text": "4. Gêneros mais cobrados"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Gênero",
+      "Tipo predominante",
+      "Características"
+     ],
+     "widths": [
+      0.22,
+      0.24,
+      0.54
+     ],
+     "rows": [
+      [
+       "Notícia",
+       "Narrativo / expositivo",
+       "Relata fato recente, linguagem impessoal; lide responde o quê, quem, quando, onde, como, por quê"
+      ],
+      [
+       "Reportagem",
+       "Expositivo",
+       "Aprofunda o tema, com dados, entrevistas e contexto"
+      ],
+      [
+       "Editorial",
+       "Argumentativo",
+       "Opinião do veículo de imprensa, sem assinatura"
+      ],
+      [
+       "Artigo de opinião",
+       "Argumentativo",
+       "Opinião assinada por um autor"
+      ],
+      [
+       "Crônica",
+       "Narrativo (com reflexão)",
+       "Fato do cotidiano, tom leve, pode ter humor, lirismo ou crítica"
+      ],
+      [
+       "Boletim de ocorrência",
+       "Narrativo",
+       "Relato do fato, com descrição de envolvidos e objetos"
+      ],
+      [
+       "Laudo pericial",
+       "Descritivo / expositivo",
+       "Descreve vestígios e expõe conclusões técnicas"
+      ],
+      [
+       "Relatório",
+       "Expositivo / narrativo",
+       "Relata atividades e resultados, com conclusões"
+      ],
+      [
+       "Edital",
+       "Injuntivo / expositivo",
+       "Torna público e estabelece regras e prazos"
+      ],
+      [
+       "Ofício",
+       "Expositivo / injuntivo",
+       "Comunicação oficial entre órgãos (padrão ofício)"
+      ],
+      [
+       "Manual, receita",
+       "Injuntivo",
+       "Instruções em passos"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Cebraspe cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O texto é predominantemente narrativo / descritivo / argumentativo.”",
+      "“Trata-se de texto do gênero X” — confira a finalidade e o suporte (jornal, documento oficial).",
+      "“O texto apresenta trechos descritivos, embora seja predominantemente narrativo” — heterogeneidade tipológica.",
+      "Marcas linguísticas: “predominam verbos no pretérito perfeito, típicos da narração”."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O texto narrativo organiza fatos em sequência temporal e apresenta personagens, tempo e espaço.",
+    "comment": "**Certo.** São os elementos característicos da narração.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O texto descritivo caracteriza-se pela defesa de uma tese por meio de argumentos.",
+    "comment": "**Errado.** Defender tese é próprio do texto argumentativo; o descritivo caracteriza seres e lugares.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Textos injuntivos empregam formas verbais no imperativo ou no infinitivo para orientar o leitor.",
+    "comment": "**Certo.** É o caso de manuais, receitas e instruções de editais.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Tipo textual e gênero textual são expressões sinônimas.",
+    "comment": "**Errado.** Tipos são poucas sequências estruturais; gêneros são textos concretos e ilimitados.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O editorial é gênero predominantemente argumentativo.",
+    "comment": "**Certo.** Expressa a opinião do veículo de imprensa sobre um tema.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A notícia tem como característica principal a defesa da opinião do jornalista.",
+    "comment": "**Errado.** A notícia relata fatos com linguagem impessoal; a opinião é própria do artigo e do editorial.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Um mesmo gênero pode apresentar sequências de tipos textuais diferentes.",
+    "comment": "**Certo.** É a heterogeneidade tipológica: um boletim de ocorrência narra e também descreve.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No texto expositivo, predominam a primeira pessoa e a expressão de opiniões pessoais.",
+    "comment": "**Errado.** O expositivo informa com linguagem impessoal, em 3ª pessoa.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "O boletim de ocorrência é gênero em que predomina a sequência narrativa.",
+    "comment": "**Certo.** Relata um fato em ordem temporal, com envolvidos e circunstâncias.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Receitas culinárias são exemplos típicos de texto descritivo.",
+    "comment": "**Errado.** Receitas orientam o leitor passo a passo: são injuntivas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "O trecho é predominantemente narrativo.",
+    "comment": "**Certo.** Há ações em sequência temporal (recebeu, chegou, encontrou, deteve) e marcadores de tempo.",
+    "context": "Às 22h, a guarnição recebeu o chamado. Minutos depois, chegou ao local, encontrou a porta arrombada e deteve dois suspeitos que fugiam pelos fundos.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "No trecho, predominam formas verbais no pretérito imperfeito, típicas da descrição.",
+    "comment": "**Errado.** Predominam formas no pretérito perfeito (recebeu, chegou, deteve), típicas da narração.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "O texto é argumentativo: apresenta tese, argumentos e conclusão.",
+    "comment": "**Certo.** A tese (a ampliação é necessária) é sustentada por argumentos e retomada na conclusão.",
+    "context": "A ampliação do videomonitoramento é necessária. Além de inibir delitos, as imagens agilizam as investigações. Portanto, investir em câmeras é investir em segurança.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "No texto, o conector Portanto introduz um argumento contrário à tese.",
+    "comment": "**Errado.** Portanto introduz a conclusão, favorável à tese.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "No trecho, predomina a sequência descritiva.",
+    "comment": "**Certo.** O trecho caracteriza o suspeito, com verbos no imperfeito e adjetivos.",
+    "context": "O suspeito tinha cerca de 1,80 m, cabelos curtos e grisalhos e usava jaqueta escura e tênis brancos.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "O trecho é injuntivo, pois orienta o leitor a agir.",
+    "comment": "**Errado.** O trecho não dá instruções; apenas caracteriza o suspeito.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "O trecho é injuntivo.",
+    "comment": "**Certo.** Orienta o leitor sobre como agir, com verbos no imperativo.",
+    "context": "Mantenha a calma. Não reaja. Memorize as características do assaltante e acione a polícia assim que possível.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "No trecho, as formas verbais estão no modo indicativo, como é típico das instruções.",
+    "comment": "**Errado.** As formas mantenha, reaja, memorize e acione estão no imperativo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "O edital de concurso público é gênero em que predominam sequências injuntivas e expositivas.",
+    "comment": "**Certo.** Estabelece regras e prazos e expõe informações sobre o certame.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "A crônica é gênero exclusivamente argumentativo, sem trechos narrativos.",
+    "comment": "**Errado.** A crônica parte em geral de um fato do cotidiano narrado, acrescido de reflexão.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Luiz Antônio Marcuschi, Produção textual, análise de gêneros e compreensão.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "id": "lp-que-se-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-23"
+ ],
+ "kind": "aprofundado",
+ "title": "Funções do “que” e do “se”",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 150,
+ "pdf": "portugues_que_se_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O *que* e o *se* são as palavras mais versáteis da língua. As bancas pedem a **classificação** (“o *que* é pronome relativo”) e as **consequências** dela: concordância (*vendem-se casas* × *precisa-se de*), pontuação e sentido. Use os testes de cada seção."
+    },
+    {
+     "t": "h2",
+     "text": "1. Funções do “que”"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Classe",
+      "Como reconhecer",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.38,
+      0.42
+     ],
+     "rows": [
+      [
+       "Pronome relativo",
+       "Retoma um antecedente; troca por **o qual / a qual**",
+       "O documento **que** o réu apresentou é falso. (o qual)"
+      ],
+      [
+       "Conjunção integrante",
+       "Inicia oração substantiva; a oração troca por **isso**",
+       "Espero **que** o laudo saia hoje. (espero isso)"
+      ],
+      [
+       "Conjunção adverbial",
+       "Liga orações com valor de causa, consequência, comparação, finalidade, concessão",
+       "Correu tanto **que** caiu (consecutiva). Mais rápido **que** ele (comparativa)."
+      ],
+      [
+       "Conjunção coordenativa",
+       "Explicativa (= pois) ou aditiva (em repetições)",
+       "Venha logo, **que** a reunião vai começar. Fala **que** fala."
+      ],
+      [
+       "Pronome interrogativo",
+       "Em perguntas diretas ou indiretas",
+       "**Que** houve? Não sei **que** houve."
+      ],
+      [
+       "Pronome indefinido / adjetivo",
+       "Acompanha substantivo em exclamação ou interrogação",
+       "**Que** operação! **Que** horas são?"
+      ],
+      [
+       "Advérbio de intensidade",
+       "Modifica adjetivo ou advérbio (= quão)",
+       "**Que** difícil foi a prova!"
+      ],
+      [
+       "Preposição",
+       "Equivale a *de*, em *ter que*",
+       "Tenho **que** sair. (= tenho de sair)"
+      ],
+      [
+       "Partícula expletiva (de realce)",
+       "Pode ser retirada sem prejuízo",
+       "Quase **que** caí. Eu é **que** decidi."
+      ],
+      [
+       "Substantivo",
+       "Com determinante; leva acento",
+       "Ele tem um **quê** de mistério."
+      ],
+      [
+       "Interjeição",
+       "Expressa espanto; leva acento",
+       "**Quê!** Você foi aprovado?"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Relativo × integrante",
+     "text": "Se trocar por **o qual** funciona, é **relativo** (e exerce função sintática na oração). Se a oração inteira vira **isso**, é **integrante** (e não exerce função, só liga). *O laudo **que** chegou* (o qual chegou) × *Soube **que** chegou* (soube isso)."
+    },
+    {
+     "t": "h2",
+     "text": "2. Funções do “se”"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Classe",
+      "Como reconhecer",
+      "Exemplo"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Pronome reflexivo",
+       "Sujeito pratica e sofre a ação (objeto direto ou indireto)",
+       "O agente **se** feriu. Ele **se** deu um prêmio."
+      ],
+      [
+       "Pronome recíproco",
+       "Ação mútua entre dois ou mais",
+       "Os suspeitos **se** acusaram."
+      ],
+      [
+       "Partícula apassivadora",
+       "**VTD** + se; troca pela passiva analítica",
+       "Vendem-**se** viaturas. (viaturas são vendidas)"
+      ],
+      [
+       "Índice de indeterminação do sujeito",
+       "**VTI, VI ou VL** + se; verbo no singular",
+       "Precisa-**se** de agentes. Vive-**se** bem aqui."
+      ],
+      [
+       "Parte integrante do verbo",
+       "Verbos pronominais (o se não tem função)",
+       "Ele **se** queixou. Arrependeu-**se**. Suicidou-**se**."
+      ],
+      [
+       "Partícula expletiva",
+       "Realce, pode ser retirada",
+       "Foi-**se** embora. Passaram-**se** os dias."
+      ],
+      [
+       "Conjunção condicional",
+       "= caso",
+       "**Se** houver flagrante, haverá prisão."
+      ],
+      [
+       "Conjunção integrante",
+       "Inicia oração substantiva (= isso)",
+       "Não sei **se** ele voltará."
+      ],
+      [
+       "Conjunção causal",
+       "= já que (uso menos comum)",
+       "**Se** você já sabia, por que não avisou?"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Apassivador × indeterminador",
+     "text": "Olhe o **verbo**: transitivo direto + se = **apassivador**, e o verbo concorda com o sujeito (*revisaram-se os inquéritos*). Transitivo indireto, intransitivo ou de ligação + se = **indeterminador**, e o verbo fica no singular (*trata-se de casos graves*). Teste da apassivadora: transforme em *ser + particípio* (*os inquéritos foram revisados*)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Consequências na prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concordância**: *Vendem-se casas* (sujeito plural) × *Precisa-se de agentes* (singular).",
+      "**Pontuação**: oração com *que* relativo explicativo vai entre vírgulas; com *que* integrante, sem vírgula.",
+      "**Regência**: a preposição exigida pelo verbo vem antes do *que* relativo (*o cargo a que aspiro*).",
+      "**Colocação**: *que* e *se* (conjunções) são palavras atrativas: *Disse que **se** arrependeu*; *Se **me** chamarem, irei*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O vocábulo *que* é pronome relativo e retoma X.”",
+      "“O *se* é partícula apassivadora; por isso, o verbo está no plural.”",
+      "“O *se* poderia ser substituído por *caso*” (condicional).",
+      "“A retirada do *que* em *Eu é que decidi* não prejudicaria a correção” (expletivo)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O documento que o réu apresentou é falso”, o vocábulo que é pronome relativo.",
+    "comment": "**Certo.** Retoma documento e pode ser trocado por o qual.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Espero que o laudo saia hoje”, o vocábulo que é pronome relativo.",
+    "comment": "**Errado.** É conjunção integrante: a oração equivale a isso.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Correu tanto que caiu”, o que é conjunção que introduz ideia de consequência.",
+    "comment": "**Certo.** Tanto… que forma correlação consecutiva.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Tenho que entregar o relatório”, o vocábulo que é conjunção integrante.",
+    "comment": "**Errado.** Em ter que, o que funciona como preposição (= ter de).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Quase que o suspeito escapou”, o que é partícula expletiva e poderia ser retirado sem prejuízo da correção.",
+    "comment": "**Certo.** Quase o suspeito escapou mantém o sentido.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Que difícil foi a prova!”, o vocábulo que é pronome relativo.",
+    "comment": "**Errado.** Intensifica o adjetivo difícil: é advérbio de intensidade.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Venha logo, que a reunião vai começar”, o que é conjunção explicativa.",
+    "comment": "**Certo.** Equivale a pois.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “O agente se feriu durante a abordagem”, o se é índice de indeterminação do sujeito.",
+    "comment": "**Errado.** O agente pratica e sofre a ação: pronome reflexivo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Vendem-se viaturas apreendidas”, o se é partícula apassivadora.",
+    "comment": "**Certo.** Vender é transitivo direto: viaturas apreendidas são vendidas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Precisa-se de agentes”, o se é partícula apassivadora.",
+    "comment": "**Errado.** Precisar de é transitivo indireto: o se indetermina o sujeito.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em “O réu arrependeu-se do crime”, o se é parte integrante do verbo.",
+    "comment": "**Certo.** Arrepender-se é verbo pronominal; o se não exerce função sintática.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “Os suspeitos se acusaram mutuamente”, o se é pronome reflexivo, e não recíproco.",
+    "comment": "**Errado.** A ação é mútua entre os suspeitos: o se é recíproco.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Em “Se houver flagrante, a prisão será imediata”, o se poderia ser substituído por caso, com ajuste do verbo para haja.",
+    "comment": "**Certo.** Se condicional equivale a caso + subjuntivo presente.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Em “Ninguém sabe se o suspeito voltará”, o se é conjunção condicional.",
+    "comment": "**Errado.** Introduz oração substantiva (ninguém sabe isso): conjunção integrante.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Em “Revisaram-se os inquéritos pendentes”, o verbo está no plural porque o se é partícula apassivadora e os inquéritos pendentes é o sujeito.",
+    "comment": "**Certo.** Equivale a os inquéritos pendentes foram revisados.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Em “Trata-se de casos graves”, o verbo poderia ir para o plural, pois o se é partícula apassivadora.",
+    "comment": "**Errado.** Tratar de é transitivo indireto: o se indetermina o sujeito e o verbo fica no singular.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “Eu é que decidi o caso”, o termo é que tem valor de realce e poderia ser retirado sem prejuízo da correção.",
+    "comment": "**Certo.** Eu decidi o caso mantém a correção; é que apenas enfatiza.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Em “Não sei que houve na operação”, o vocábulo que é conjunção integrante.",
+    "comment": "**Errado.** Em interrogativa indireta, que é pronome interrogativo (= o que).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em “Foi-se embora sem avisar”, o se é partícula expletiva.",
+    "comment": "**Certo.** Pode ser retirado: foi embora sem avisar.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Em “Ele tem um quê de mistério”, quê é pronome relativo.",
+    "comment": "**Errado.** Precedido de artigo e acentuado, quê é substantivo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

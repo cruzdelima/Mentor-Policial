@@ -72,7 +72,7 @@ THEORY = [
 
     h2("3. Pronomes possessivos"),
     p("Indicam posse em relação às pessoas do discurso: **meu, teu, seu, nosso, vosso** e flexões."),
-    bl("**Ambiguidade de *seu***: *O delegado disse ao escrivão que **seu** relatório estava incompleto* (de quem?). "
+    bl("**Ambiguidade de “seu”**: *O delegado disse ao escrivão que **seu** relatório estava incompleto* (de quem?). "
        "Desfaz-se com **dele, dela** ou reescrevendo a frase. O Cebraspe cobra tanto a identificação da ambiguidade quanto a solução.",
        "Antes de possessivo, o **artigo é facultativo**: *(a) minha casa*.",
        "Com partes do corpo, peças de roupa e faculdades do espírito, dispensa-se o possessivo: *Machucou **a** mão* (e não “a sua mão”).",

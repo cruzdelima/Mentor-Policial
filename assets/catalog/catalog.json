@@ -774,6 +774,62 @@
    "scope": []
   },
   {
+   "id": "LP-21",
+   "subject": "LP",
+   "n": 21,
+   "name": "Figuras de linguagem",
+   "size": "P",
+   "scope": [
+    "PM",
+    "BM",
+    "PC",
+    "PP",
+    "GCM"
+   ]
+  },
+  {
+   "id": "LP-22",
+   "subject": "LP",
+   "n": 22,
+   "name": "Relações semânticas entre orações, períodos e parágrafos",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM",
+    "PC",
+    "PP",
+    "GCM"
+   ]
+  },
+  {
+   "id": "LP-23",
+   "subject": "LP",
+   "n": 23,
+   "name": "Funções do \"que\" e do \"se\"",
+   "size": "M",
+   "scope": [
+    "PM",
+    "BM",
+    "PC",
+    "PP",
+    "GCM"
+   ]
+  },
+  {
+   "id": "LP-24",
+   "subject": "LP",
+   "n": 24,
+   "name": "Variação linguística",
+   "size": "P",
+   "scope": [
+    "PM",
+    "BM",
+    "PC",
+    "PP",
+    "GCM"
+   ]
+  },
+  {
    "id": "RLM-01",
    "subject": "RLM",
    "n": 1,
@@ -2926,12 +2982,10 @@
        "ref": "LP-15"
       },
       {
-       "name": "Figuras de linguagem",
-       "size": "P"
+       "ref": "LP-21"
       },
       {
-       "name": "Relações semânticas entre orações, períodos e parágrafos",
-       "size": "M"
+       "ref": "LP-22"
       },
       {
        "ref": "LP-01"
@@ -2961,8 +3015,7 @@
        "ref": "LP-10"
       },
       {
-       "name": "Funções de \"que\" e \"se\"",
-       "size": "M"
+       "ref": "LP-23"
       },
       {
        "ref": "LP-16"
@@ -2986,8 +3039,7 @@
        "ref": "LP-19"
       },
       {
-       "name": "Variação linguística",
-       "size": "P"
+       "ref": "LP-24"
       }
      ]
     },

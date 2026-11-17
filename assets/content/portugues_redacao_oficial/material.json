@@ -1,0 +1,305 @@
+{
+ "id": "lp-redacao-oficial-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-20"
+ ],
+ "kind": "resumo",
+ "title": "Redação oficial",
+ "subtitle": "Língua Portuguesa · Redação oficial",
+ "minutes": 30,
+ "pdf": "portugues_redacao_oficial.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Tratamento** (e a concordância na 3ª pessoa), **vocativo**, **fecho** e **atributos** do texto oficial."
+    },
+    {
+     "t": "h2",
+     "text": "1. Atributos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Clareza, precisão, objetividade, **concisão** (sem cortar o essencial), coesão, **impessoalidade** (sem opinião pessoal), formalidade e padronização, norma-padrão."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Tratamento"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Verbo e possessivo na **3ª pessoa**: *Vossa Excelência deve… seu parecer*.",
+      "**Vossa** = falando com; **Sua** = falando sobre.",
+      "**Vossa Excelência**: altas autoridades dos três Poderes, magistrados, MP, oficiais-generais. **Vossa Senhoria**: demais.",
+      "Abolidos: *digníssimo, ilustríssimo*. *Doutor* é título acadêmico."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Vocativo e fecho"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Excelentíssimo Senhor**: só chefes de Poder. Demais: **Senhor + cargo**.",
+      "**Respeitosamente**: superior. **Atenciosamente**: mesma hierarquia ou inferior."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Padrão ofício"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Aviso e memorando agora são **ofício** (3ª edição).",
+      "Partes: identificação (tipo, número, sigla), local e data **por extenso**, endereçamento, assunto, vocativo, texto, fecho, assinatura."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Destinatário",
+      "Tratamento",
+      "Vocativo",
+      "Fecho (de subordinado)"
+     ],
+     "widths": [
+      0.28,
+      0.24,
+      0.3,
+      0.18
+     ],
+     "rows": [
+      [
+       "Presidente da República",
+       "Vossa Excelência",
+       "Excelentíssimo Senhor Presidente da República,",
+       "Respeitosamente"
+      ],
+      [
+       "Ministro de Estado",
+       "Vossa Excelência",
+       "Senhor Ministro,",
+       "Respeitosamente"
+      ],
+      [
+       "Juiz de direito",
+       "Vossa Excelência",
+       "Senhor Juiz,",
+       "Respeitosamente"
+      ],
+      [
+       "Diretor (mesmo nível)",
+       "Vossa Senhoria",
+       "Senhor Diretor,",
+       "Atenciosamente"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Tratamento: verbo na **3ª pessoa**.",
+      "Vossa = com; Sua = sobre.",
+      "Excelentíssimo: **só** chefes de Poder.",
+      "Respeitosamente: **superior**.",
+      "Atenciosamente: mesma ou inferior.",
+      "Sem digníssimo e ilustríssimo.",
+      "Doutor não é tratamento.",
+      "Concisão sem perder o essencial.",
+      "Impessoalidade: sem opinião pessoal.",
+      "Data por extenso."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "REDAÇÃO OFICIAL",
+  "rootSub": "Manual da Presidência, 3ª ed.",
+  "left": [
+   {
+    "label": "Atributos",
+    "items": [
+     "clareza e precisão",
+     "concisão e objetividade",
+     "impessoalidade"
+    ]
+   },
+   {
+    "label": "Formalidade",
+    "items": [
+     "padronização",
+     "norma-padrão",
+     "sem gírias"
+    ]
+   },
+   {
+    "label": "Tratamento",
+    "items": [
+     "3ª pessoa",
+     "Vossa: com",
+     "Sua: sobre"
+    ]
+   },
+   {
+    "label": "Excelência",
+    "items": [
+     "chefes de Poder",
+     "ministros, juízes",
+     "MP e generais"
+    ]
+   },
+   {
+    "label": "Abolidos",
+    "items": [
+     "digníssimo",
+     "ilustríssimo",
+     "doutor como tratamento"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Vocativo",
+    "items": [
+     "Excelentíssimo: chefes de Poder",
+     "Senhor + cargo",
+     "Senhora Delegada,"
+    ]
+   },
+   {
+    "label": "Fecho",
+    "items": [
+     "Respeitosamente: superior",
+     "Atenciosamente: igual",
+     "ou inferior"
+    ]
+   },
+   {
+    "label": "Padrão ofício",
+    "items": [
+     "aviso e memorando",
+     "agora são ofício",
+     "3ª edição"
+    ]
+   },
+   {
+    "label": "Partes",
+    "items": [
+     "identificação e data",
+     "endereçamento e assunto",
+     "texto, fecho, assinatura"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "deveis, vosso: erro",
+     "data abreviada: erro",
+     "opinião pessoal: erro"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em comunicações oficiais, o pronome Vossa Excelência exige verbo na terceira pessoa.",
+    "comment": "**Certo.** Vossa Excelência deve, e não deveis."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em ofício dirigido a um senador, o vocativo adequado é Excelentíssimo Senhor Senador.",
+    "comment": "**Errado.** Excelentíssimo é reservado aos chefes de Poder; para senador, Senhor Senador."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O fecho Respeitosamente é adequado em ofício enviado por um delegado a um ministro.",
+    "comment": "**Certo.** É o fecho para autoridade de hierarquia superior."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A forma Ilustríssimo Senhor continua recomendada pelo Manual de Redação da Presidência da República.",
+    "comment": "**Errado.** O manual aboliu essa forma."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A impessoalidade impede que o texto oficial expresse impressões pessoais de quem o redige.",
+    "comment": "**Certo.** O texto oficial fala em nome do órgão."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Para se referir a uma autoridade, sem se dirigir a ela, emprega-se Vossa Excelência.",
+    "comment": "**Errado.** Ao falar sobre a autoridade, usa-se Sua Excelência."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Na 3ª edição do Manual, aviso e memorando passaram a ser chamados de ofício.",
+    "comment": "**Certo.** Os documentos foram unificados no padrão ofício."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Concisão, na redação oficial, significa reduzir o texto mesmo que se percam informações essenciais.",
+    "comment": "**Errado.** Concisão elimina excessos, mantendo o essencial."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Juízes recebem o tratamento Vossa Excelência.",
+    "comment": "**Certo.** Magistrados estão entre as autoridades tratadas por Vossa Excelência."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O fecho Atenciosamente é o indicado para autoridades de hierarquia superior.",
+    "comment": "**Errado.** Para hierarquia superior, usa-se Respeitosamente."
+   }
+  ]
+ },
+ "sources": [
+  "Presidência da República, Manual de Redação da Presidência da República, 3ª edição (2018).",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

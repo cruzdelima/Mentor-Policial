@@ -67,6 +67,10 @@ add("LP", [
     ("Estrutura e formação de palavras", "P"),
     ("Semântica e significação das palavras", "P"),
     ("Redação oficial (Manual da Presidência)", "M"),
+    ("Figuras de linguagem", "P", "PM BM PC PP GCM"),
+    ("Relações semânticas entre orações, períodos e parágrafos", "M", "PM BM PC PP GCM"),
+    ('Funções do "que" e do "se"', "M", "PM BM PC PP GCM"),
+    ("Variação linguística", "P", "PM BM PC PP GCM"),
 ])
 add("RLM", [
     ("Proposições e conectivos lógicos", "M"),
