@@ -14,6 +14,7 @@ import 'package:mentor_policial/data/catalog_store.dart';
 import 'package:mentor_policial/data/storage.dart';
 import 'package:mentor_policial/state/app_state.dart';
 import 'package:mentor_policial/ui/pages/catalog_editor.dart';
+import 'package:mentor_policial/ui/theme.dart';
 
 class DiskBundle extends CachingAssetBundle {
   @override
@@ -284,7 +285,7 @@ void main() {
     final p = profileFor('PM_CFO');
     final remote = FakeRemote();
     final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature), remote: remote);
-    await tester.pumpWidget(MaterialApp(home: AppScope(controller: app, child: const Scaffold(body: CatalogEditor()))));
+    await tester.pumpWidget(MaterialApp(theme: buildTheme(), home: AppScope(controller: app, child: const Scaffold(body: CatalogEditor()))));
     await tester.pumpAndSettle();
     expect(find.text('CATÁLOGO EM DIA'), findsOneWidget);
 
