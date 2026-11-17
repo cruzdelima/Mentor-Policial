@@ -15,6 +15,8 @@ DefaultGroupName=Mentor Policial
 DisableProgramGroupPage=yes
 DisableDirPage=yes
 DisableReadyPage=yes
+DisableWelcomePage=yes
+DisableFinishedPage=no
 PrivilegesRequired=lowest
 OutputDir=..\dist
 OutputBaseFilename=MentorPolicial-Setup
@@ -31,15 +33,12 @@ CloseApplications=yes
 [Languages]
 Name: "ptbr"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 
-[Tasks]
-Name: "desktopicon"; Description: "Criar atalho na Área de Trabalho"; GroupDescription: "Atalhos:"
-
 [Files]
 Source: "..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\Mentor Policial"; Filename: "{app}\MentorPolicial.exe"
-Name: "{autodesktop}\Mentor Policial"; Filename: "{app}\MentorPolicial.exe"; Tasks: desktopicon
+Name: "{autodesktop}\Mentor Policial"; Filename: "{app}\MentorPolicial.exe"
 
 [Run]
 Filename: "{app}\MentorPolicial.exe"; Description: "Abrir o Mentor Policial"; Flags: nowait postinstall skipifsilent
