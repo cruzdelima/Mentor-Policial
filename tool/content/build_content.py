@@ -34,6 +34,11 @@ MODULES = [
     'lp_classes1_aprof', 'lp_classes1_resumo',
     'lp_pronomes_aprof', 'lp_pronomes_resumo',
     'lp_interpretacao_aprof', 'lp_interpretacao_resumo',
+    'lp_verbos_aprof', 'lp_verbos_resumo',
+    'lp_conectivos_aprof', 'lp_conectivos_resumo',
+    'lp_termos_aprof', 'lp_termos_resumo',
+    'lp_coordenadas_aprof', 'lp_coordenadas_resumo',
+    'lp_subordinadas_aprof', 'lp_subordinadas_resumo',
     'info_virus_aprof', 'info_virus_resumo',
     'cont_conceitos_aprof', 'cont_conceitos_resumo',
     'dc_principios_aprof', 'dc_principios_resumo',
@@ -303,7 +308,7 @@ def build_pdf(C, path):
         bar(c, W, H, f'TATICUM · {KIND_LABEL[kind]}')
         c.setFont('B', 8)
         c.setFillColor(MUTED)
-        c.drawString(M, 10 * mm, f"Material v{M_['version']} · {M_['status'].lower()}")
+        c.drawString(M, 10 * mm, f"Material v{M_['version']}")
         c.drawRightString(W - M, 10 * mm, str(d.page))
         c.restoreState()
 
@@ -391,7 +396,7 @@ def build_pdf(C, path):
         c.drawString(M, 25 * mm, M_['coverBase'])
         c.setFillColor(GOLD)
         c.setFont('BC-B', 10)
-        c.drawString(M, 17 * mm, f"VERSÃO {M_['version']}  ·  NOVEMBRO DE 2026  ·  {M_['status'].upper()}")
+        c.drawString(M, 17 * mm, f"VERSÃO {M_['version']}  ·  NOVEMBRO DE 2026")
         c.restoreState()
 
     LW, LH = landscape(A4)

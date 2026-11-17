@@ -66,7 +66,7 @@ void main() {
   setUpAll(() async {
     catalog = Catalog.fromJson(jsonDecode(File('assets/catalog/catalog.json').readAsStringSync()) as Map<String, dynamic>);
     content = await ContentLibrary.load(bundle, storage);
-    for (final m in content.items) {
+    for (final m in content.all) {
       await content.open(m, bundle);
     }
     await loadFont('Barlow', ['Barlow-Regular', 'Barlow-Medium', 'Barlow-SemiBold', 'Barlow-Bold']);
@@ -189,7 +189,8 @@ void main() {
       expect(tester.takeException(), isNull);
 
       // Material aprofundado: teoria longa e 20 questões em dois blocos.
-      for (final m in content.items.where((m) => m.isDeep)) {
+      app.reviewer = true; // visão do dono: abre também os materiais em revisão
+      for (final m in content.all.where((m) => m.isDeep)) {
         app.goTo(AppPage.materials);
         await tester.pumpAndSettle();
         app.goTo(AppPage.materials, materialId: m.id);

@@ -21,6 +21,9 @@ class MaterialsPage extends StatefulWidget {
 class _MaterialsPageState extends State<MaterialsPage> {
   MaterialInfo? open;
 
+  /// Pasta (matéria) aberta; null = lista de pastas.
+  String? folder;
+
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
@@ -28,27 +31,51 @@ class _MaterialsPageState extends State<MaterialsPage> {
       final id = app.pendingMaterialId;
       app.pendingMaterialId = null;
       open = app.content.items.where((m) => m.id == id).firstOrNull ?? open;
+      if (open != null) folder = open!.subjectId;
     }
     if (open != null) {
       return MaterialReader(key: ValueKey(open!.id), info: open!, onClose: () => setState(() => open = null));
     }
     final items = app.content.items;
+    final opt = app.profile.optionId;
+    final bySubject = <String, List<MaterialInfo>>{};
+    for (final m in items) {
+      bySubject.putIfAbsent(m.subjectId, () => []).add(m);
+    }
+    // Pastas: matérias do plano do aluno primeiro (por peso), depois as demais.
+    final subjects = app.catalog.subjects.where((s) => bySubject.containsKey(s.id)).toList()
+      ..sort((a, b) {
+        final w = b.weightFor(opt).compareTo(a.weightFor(opt));
+        return w != 0 ? w : a.name.compareTo(b.name);
+      });
+    if (folder != null && !bySubject.containsKey(folder)) folder = null;
+    if (folder != null) return _folderView(app, app.catalog.subject(folder!), bySubject[folder]!);
+
     return ListView(padding: const EdgeInsets.only(bottom: 32), children: [
-      const PageHeader(
+      PageHeader(
         title: 'Materiais',
-        subtitle: 'Apostilas do Mentor com teoria, mapa mental e questões comentadas — e os seus próprios links e PDFs.',
+        subtitle: 'Apostilas do Taticum separadas por matéria — e os seus próprios links e PDFs.',
+        actions: [if (app.reviewer) const _ReviewerBadge()],
       ),
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 28),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          const SectionLabel('Conteúdos do Mentor'),
+          const SectionLabel('Conteúdos do Taticum'),
           Text('Cada assunto tem dois materiais: o APROFUNDADO, para o primeiro estudo (teoria completa + 20 questões), '
               'e o RESUMO, para as revisões (direto ao ponto + mapa mental + 10 questões).', style: AppText.small()),
           const SizedBox(height: 14),
-          Wrap(spacing: 16, runSpacing: 16, children: [
-            for (final m in items) _MaterialCard(info: m, onOpen: () => setState(() => open = m)),
-            const _ComingSoon(),
-          ]),
+          if (subjects.isEmpty)
+            const _ComingSoon()
+          else
+            Wrap(spacing: 16, runSpacing: 16, children: [
+              for (final s in subjects)
+                _FolderCard(
+                  subject: s,
+                  materials: bySubject[s.id]!,
+                  inPlan: s.weightFor(opt) > 0,
+                  onOpen: () => setState(() => folder = s.id),
+                ),
+            ]),
           const SizedBox(height: 30),
           SectionLabel(
             'Meus materiais',
@@ -62,6 +89,50 @@ class _MaterialsPageState extends State<MaterialsPage> {
               ),
             ),
           for (final m in app.data.materials) _UserMaterialRow(material: m),
+        ]),
+      ),
+    ]);
+  }
+
+  Widget _folderView(AppController app, Subject sub, List<MaterialInfo> list) {
+    // Agrupa por assunto, na ordem do catálogo; aprofundado antes do resumo.
+    final byTopic = <String, List<MaterialInfo>>{};
+    for (final m in list) {
+      byTopic.putIfAbsent(m.topicIds.isEmpty ? '' : m.topicIds.first, () => []).add(m);
+    }
+    final topicIds = byTopic.keys.toList()
+      ..sort((a, b) => (app.catalog.topic(a)?.index ?? 9999).compareTo(app.catalog.topic(b)?.index ?? 9999));
+    final mine = app.data.materials.where((m) => m.subjectId == sub.id).toList();
+    return ListView(padding: const EdgeInsets.only(bottom: 32), children: [
+      Padding(
+        padding: const EdgeInsets.fromLTRB(16, 18, 28, 6),
+        child: Row(children: [
+          IconButton(tooltip: 'Voltar para as pastas', onPressed: () => setState(() => folder = null), icon: const Icon(Icons.arrow_back)),
+          const SizedBox(width: 6),
+          Icon(Icons.folder_open, color: AppColors.hex(sub.colorHex), size: 28),
+          const SizedBox(width: 10),
+          Expanded(child: Text(sub.name.toUpperCase(), style: AppText.h1())),
+          if (app.reviewer) const _ReviewerBadge(),
+        ]),
+      ),
+      Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 28),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          Text('${byTopic.length} assunto(s) · ${list.length} material(is)', style: AppText.small()),
+          const SizedBox(height: 14),
+          for (final tid in topicIds) ...[
+            Text(app.catalog.topic(tid)?.name.toUpperCase() ?? 'GERAL', style: AppText.label(AppColors.gold)),
+            const SizedBox(height: 8),
+            Wrap(spacing: 16, runSpacing: 16, children: [
+              for (final m in [...byTopic[tid]!.where((m) => m.isDeep), ...byTopic[tid]!.where((m) => !m.isDeep)])
+                _MaterialCard(info: m, onOpen: () => setState(() => open = m)),
+            ]),
+            const SizedBox(height: 22),
+          ],
+          if (mine.isNotEmpty) ...[
+            const SectionLabel('Meus materiais desta matéria'),
+            for (final m in mine) _UserMaterialRow(material: m),
+          ],
         ]),
       ),
     ]);
@@ -157,6 +228,84 @@ class _MaterialsPageState extends State<MaterialsPage> {
   }
 }
 
+class _FolderCard extends StatelessWidget {
+  const _FolderCard({required this.subject, required this.materials, required this.inPlan, required this.onOpen});
+  final Subject subject;
+  final List<MaterialInfo> materials;
+  final bool inPlan;
+  final VoidCallback onOpen;
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final col = AppColors.hex(subject.colorHex);
+    final topics = {for (final m in materials) ...m.topicIds}.length;
+    final pending = app.reviewer ? materials.where((m) => !app.content.isApproved(m)).length : 0;
+    return SizedBox(
+      width: 280,
+      child: Material(
+        color: AppColors.panel,
+        borderRadius: BorderRadius.circular(12),
+        child: InkWell(
+          onTap: onOpen,
+          borderRadius: BorderRadius.circular(12),
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12),
+              border: Border(left: BorderSide(color: col, width: 4), top: const BorderSide(color: AppColors.lineSoft),
+                  right: const BorderSide(color: AppColors.lineSoft), bottom: const BorderSide(color: AppColors.lineSoft)),
+            ),
+            child: Row(children: [
+              Icon(Icons.folder, color: col, size: 36),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(subject.name.toUpperCase(), style: AppText.h3(), maxLines: 2, overflow: TextOverflow.ellipsis),
+                  const SizedBox(height: 4),
+                  Text('$topics assunto(s) · ${materials.length} material(is)', style: AppText.small()),
+                  if (!inPlan || pending > 0) ...[
+                    const SizedBox(height: 6),
+                    Wrap(spacing: 6, runSpacing: 6, children: [
+                      if (!inPlan) const Pill('FORA DO SEU PLANO', color: AppColors.dim),
+                      if (pending > 0) Pill('$pending EM REVISÃO', color: AppColors.amber),
+                    ]),
+                  ],
+                ]),
+              ),
+              const Icon(Icons.chevron_right, color: AppColors.dim),
+            ]),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Aviso de que o dono está vendo também o que ainda não foi liberado.
+class _ReviewerBadge extends StatelessWidget {
+  const _ReviewerBadge();
+  @override
+  Widget build(BuildContext context) => const Tooltip(
+        message: 'Só você vê os materiais em revisão. Os alunos veem apenas os liberados.',
+        child: Pill('VISÃO DO DONO', color: AppColors.gold, icon: Icons.visibility_outlined),
+      );
+}
+
+/// Selo de revisão: aparece só para o dono.
+class ReviewPill extends StatelessWidget {
+  const ReviewPill(this.info, {super.key});
+  final MaterialInfo info;
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    if (!app.reviewer) return const SizedBox.shrink();
+    return app.content.isApproved(info)
+        ? const Pill('LIBERADO AOS ALUNOS', color: AppColors.green, icon: Icons.verified_outlined)
+        : const Pill('EM REVISÃO · SÓ VOCÊ VÊ', color: AppColors.amber, icon: Icons.rate_review_outlined);
+  }
+}
+
 class _MaterialCard extends StatelessWidget {
   const _MaterialCard({required this.info, required this.onOpen});
   final MaterialInfo info;
@@ -213,7 +362,7 @@ class _MaterialCard extends StatelessWidget {
                   ]),
                   const SizedBox(height: 12),
                   Row(children: [
-                    if (info.status.isNotEmpty) Pill(info.status.toUpperCase(), color: AppColors.amber, icon: Icons.rate_review_outlined),
+                    ReviewPill(info),
                     const Spacer(),
                     Text(best == null ? 'v${info.version}' : 'melhor líquida: $best/${info.questions}', style: AppText.small(AppColors.dim)),
                   ]),
@@ -369,6 +518,7 @@ class _MaterialReaderState extends State<MaterialReader> {
             Expanded(child: Text(info.title.toUpperCase(), style: AppText.h2(), overflow: TextOverflow.ellipsis)),
             Pill(info.kindLabel, color: info.isDeep ? AppColors.gold : AppColors.amber),
             const SizedBox(width: 10),
+            if (app.reviewer) ...[_ReviewButton(info: info), const SizedBox(width: 10)],
             OutlinedButton.icon(onPressed: m?.pdf == null ? null : _openPdf, icon: const Icon(Icons.picture_as_pdf_outlined, size: 18), label: const Text('ABRIR PDF')),
           ]),
           const SizedBox(height: 10),
@@ -409,6 +559,60 @@ class _MaterialReaderState extends State<MaterialReader> {
                   ),
       ),
     ]);
+  }
+}
+
+/// Dono: libera o material para os alunos (ou recolhe para revisão), sem nova versão do app.
+class _ReviewButton extends StatefulWidget {
+  const _ReviewButton({required this.info});
+  final MaterialInfo info;
+  @override
+  State<_ReviewButton> createState() => _ReviewButtonState();
+}
+
+class _ReviewButtonState extends State<_ReviewButton> {
+  bool busy = false;
+
+  Future<void> _toggle(AppController app, bool approve) async {
+    final ok = await confirm(
+      context,
+      approve ? 'LIBERAR PARA OS ALUNOS' : 'RECOLHER PARA REVISÃO',
+      approve
+          ? 'Confirma que revisou "${widget.info.title}" (${widget.info.isDeep ? 'aprofundado' : 'resumo'})? '
+              'Ele passa a aparecer para todos os alunos na próxima vez que abrirem o app.'
+          : 'O material deixa de aparecer para os alunos até você liberar de novo.',
+      ok: approve ? 'LIBERAR' : 'RECOLHER',
+      danger: !approve,
+    );
+    if (!ok || !mounted) return;
+    setState(() => busy = true);
+    try {
+      await app.setReviewed(widget.info, approve);
+      if (mounted) toast(context, approve ? 'Material liberado para os alunos.' : 'Material recolhido para revisão.');
+    } catch (e) {
+      if (mounted) toast(context, 'Não foi possível salvar: $e');
+    } finally {
+      if (mounted) setState(() => busy = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final approved = app.content.isApproved(widget.info);
+    if (busy) return const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2));
+    return approved
+        ? TextButton.icon(
+            onPressed: () => _toggle(app, false),
+            icon: const Icon(Icons.undo, size: 18),
+            label: const Text('RECOLHER PARA REVISÃO'),
+          )
+        : ElevatedButton.icon(
+            style: ElevatedButton.styleFrom(backgroundColor: AppColors.green, foregroundColor: AppColors.bg),
+            onPressed: () => _toggle(app, true),
+            icon: const Icon(Icons.verified_outlined, size: 18),
+            label: const Text('REVISEI · LIBERAR AOS ALUNOS'),
+          );
   }
 }
 

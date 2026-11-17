@@ -1,0 +1,378 @@
+{
+ "id": "lp-termos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-08"
+ ],
+ "kind": "resumo",
+ "title": "Análise sintática: termos da oração",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 40,
+ "pdf": "portugues_termos.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Função sintática** de termos, **sujeito posposto** e impessoalidade (concordância) e **vírgula** entre sujeito e verbo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Sujeito"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Simples, composto, oculto** (identificado pela desinência ou pelo contexto).",
+      "**Indeterminado**: 3ª pessoa do plural **sem referente** (*Roubaram a viatura*) ou **VTI/VI/VL + se** (*Precisa-se de peritos*).",
+      "**Sem sujeito**: *haver* (existir, tempo), *fazer/estar/ser* (tempo, clima), fenômenos da natureza.",
+      "*Existir* tem sujeito: *Existiam provas*. Sujeito **posposto** também comanda o verbo: *Faltam dois documentos*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Predicado"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Verbal**: núcleo é verbo de ação (*prendeu o suspeito*).",
+      "**Nominal**: verbo de ligação + predicativo (*ficou preocupado*).",
+      "**Verbo-nominal**: verbo de ação + predicativo (*chegaram cansados*; *considerou o réu culpado*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Complementos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Termo",
+      "Completa",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.32,
+      0.42
+     ],
+     "rows": [
+      [
+       "Objeto direto",
+       "VTD, sem preposição",
+       "prendeu **o suspeito**"
+      ],
+      [
+       "Objeto indireto",
+       "VTI, com preposição",
+       "obedeceu **às ordens**"
+      ],
+      [
+       "Complemento nominal",
+       "Nome (substantivo, adjetivo, advérbio)",
+       "obediência **às leis**; favorável **ao réu**"
+      ],
+      [
+       "Agente da passiva",
+       "Verbo na voz passiva",
+       "instaurado **pelo delegado**"
+      ],
+      [
+       "Predicativo do objeto",
+       "Característica do objeto",
+       "julgou o réu **culpado**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Acessórios, aposto e vocativo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Adjunto adnominal**: caracteriza o substantivo (*os dois agentes **experientes da equipe***).",
+      "**Adjunto adverbial**: circunstância (*ontem, no bairro, com cautela*).",
+      "**Aposto**: explica, enumera, resume ou especifica (*Carlos, **o escrivão**, …*).",
+      "**Vocativo**: chama o interlocutor, sempre entre vírgulas (***Soldado**, apresente-se*)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "CN × adjunto adnominal",
+     "text": "Termo com *de* ligado a substantivo abstrato: se é **alvo** da ação, é **complemento nominal** (*investigação **da fraude***); se **pratica** a ação ou indica posse/matéria, é **adjunto adnominal** (*chegada **dos agentes**; mesa **de madeira***). Ligado a **adjetivo ou advérbio**: sempre CN."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Vírgula proibida",
+     "text": "Nunca separe **sujeito e verbo** nem **verbo e complemento** por vírgula, por mais longo que seja o sujeito."
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro de reconhecimento"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Termo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.36,
+      0.26,
+      0.38
+     ],
+     "rows": [
+      [
+       "Quem pratica / de quem se fala?",
+       "Sujeito",
+       "**Os agentes** chegaram."
+      ],
+      [
+       "O verbo pede algo sem preposição?",
+       "Objeto direto",
+       "Prendeu **o suspeito**."
+      ],
+      [
+       "O verbo pede algo com preposição?",
+       "Objeto indireto",
+       "Obedeceu **ao chefe**."
+      ],
+      [
+       "Um nome pede complemento?",
+       "Complemento nominal",
+       "Medo **de represálias**."
+      ],
+      [
+       "Quem age na passiva?",
+       "Agente da passiva",
+       "Preso **pela PM**."
+      ],
+      [
+       "Característica do sujeito?",
+       "Predicativo do sujeito",
+       "Ficou **calmo**."
+      ],
+      [
+       "Característica do objeto?",
+       "Predicativo do objeto",
+       "Julgou-o **culpado**."
+      ],
+      [
+       "Qualifica o substantivo?",
+       "Adjunto adnominal",
+       "Mesa **de madeira**."
+      ],
+      [
+       "Circunstância?",
+       "Adjunto adverbial",
+       "Saiu **à noite**."
+      ],
+      [
+       "Chama alguém?",
+       "Vocativo",
+       "**Senhor**, sente-se."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Comece pelo **verbo**: ele define sujeito e complementos.",
+      "Sujeito posposto continua sendo sujeito (concordância!).",
+      "*Haver* = existir: **sem sujeito**, verbo no singular.",
+      "3ª do plural **com** referente = oculto; **sem** referente = indeterminado.",
+      "VTD + se = passiva (sujeito); VTI + se = indeterminado.",
+      "Predicado verbo-nominal = verbo de ação + predicativo.",
+      "CN = alvo; adjunto adnominal = agente, posse, matéria.",
+      "Complemento de adjetivo = sempre CN.",
+      "Aposto explicativo e vocativo: entre vírgulas.",
+      "Sujeito e verbo: **nunca** separados por vírgula."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "TERMOS",
+  "rootSub": "da oração",
+  "left": [
+   {
+    "label": "Sujeito",
+    "items": [
+     "simples · composto · oculto",
+     "posposto: chegaram os laudos",
+     "existir tem sujeito"
+    ]
+   },
+   {
+    "label": "Indeterminado",
+    "items": [
+     "3ª pl. sem referente",
+     "VTI/VI + se",
+     "precisa-se de peritos"
+    ]
+   },
+   {
+    "label": "Sem sujeito",
+    "items": [
+     "haver = existir",
+     "faz dois anos",
+     "choveu, anoiteceu"
+    ]
+   },
+   {
+    "label": "Predicado",
+    "items": [
+     "verbal: ação",
+     "nominal: VL + predicativo",
+     "verbo-nominal: os dois"
+    ]
+   },
+   {
+    "label": "Predicativo",
+    "items": [
+     "do sujeito: ficou calmo",
+     "do objeto: julgou-o culpado",
+     "teste do pronome"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Objetos",
+    "items": [
+     "OD: sem preposição",
+     "OI: com preposição",
+     "OD preposicionado: amar a Deus"
+    ]
+   },
+   {
+    "label": "Complemento nominal",
+    "items": [
+     "completa nome",
+     "alvo da ação",
+     "favorável ao réu"
+    ]
+   },
+   {
+    "label": "Adjuntos",
+    "items": [
+     "adnominal: caracteriza",
+     "adverbial: circunstância",
+     "agente, posse, matéria"
+    ]
+   },
+   {
+    "label": "Aposto e vocativo",
+    "items": [
+     "aposto explica o termo",
+     "vocativo chama",
+     "ambos entre vírgulas"
+    ]
+   },
+   {
+    "label": "Vírgula",
+    "items": [
+     "nunca sujeito | verbo",
+     "nunca verbo | complemento",
+     "adjunto deslocado: pode"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Existiam provas suficientes no processo”, o termo provas suficientes exerce a função de sujeito.",
+    "comment": "**Certo.** Existir é verbo pessoal: provas suficientes é o sujeito, e o verbo concorda com ele."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Havia provas suficientes no processo”, o termo provas suficientes exerce a função de sujeito.",
+    "comment": "**Errado.** Haver no sentido de existir é impessoal; provas suficientes é objeto direto."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Necessita-se de reforços”, o sujeito é indeterminado.",
+    "comment": "**Certo.** Necessitar de é transitivo indireto; com o se, o sujeito fica indeterminado."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O suspeito parecia nervoso”, o termo nervoso exerce a função de adjunto adnominal.",
+    "comment": "**Errado.** Parecer é verbo de ligação: nervoso é predicativo do sujeito."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ele tem medo de represálias”, o termo de represálias exerce a função de complemento nominal.",
+    "comment": "**Certo.** Completa o sentido do substantivo abstrato medo."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Compraram uma mesa de madeira para a sala”, o termo de madeira exerce a função de complemento nominal.",
+    "comment": "**Errado.** De madeira indica matéria e caracteriza mesa: é adjunto adnominal."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Entreguei o ofício ao comandante”, o termo ao comandante exerce a função de objeto indireto.",
+    "comment": "**Certo.** Entregar algo a alguém: ao comandante é o complemento preposicionado."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “A denúncia foi feita por um vizinho”, o termo por um vizinho é adjunto adverbial de causa.",
+    "comment": "**Errado.** Em voz passiva, quem pratica a ação é o agente da passiva."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Soldado, apresente-se ao comandante”, o termo Soldado exerce a função de vocativo.",
+    "comment": "**Certo.** O termo chama o interlocutor e vem isolado por vírgula."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Admite-se vírgula entre o sujeito e o verbo quando o sujeito é longo.",
+    "comment": "**Errado.** Não se separa o sujeito do verbo por vírgula, qualquer que seja a extensão do sujeito."
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

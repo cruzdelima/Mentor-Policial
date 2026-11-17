@@ -316,7 +316,7 @@ class _AboutPanel extends StatelessWidget {
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Text('TATICUM · v$kAppVersion', style: AppText.h3()),
-              Text('$kAppChannel · catálogo ${app.catalog.version} · ${app.content.items.length} material(is) de conteúdo', style: AppText.small()),
+              Text('$kAppChannel · catálogo ${app.catalog.version} · ${app.content.items.length} material(is) liberado(s)', style: AppText.small()),
             ]),
           ),
         ]),

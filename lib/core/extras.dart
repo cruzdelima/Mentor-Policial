@@ -11,7 +11,8 @@
 ///   "cargos":   [{id, career, name, weights: {LP: 3, ...}}],
 ///   "contests": [{id, career, base, name, orgao, uf, banca, examDate, editalUrl, vagas, status, notes,
 ///                 subjects: [{id, weight, questions, topics: [{ref: 'LP-05'} | {id?, name, size}]}]}],
-///   "hidden":   ["PM_SD", "CBMPE26_TEN", ...]
+///   "hidden":   ["PM_SD", "CBMPE26_TEN", ...],
+///   "review":   {"lp-verbos-02": true, ...}   // materiais revisados pelo dono (true = liberado aos alunos)
 /// }
 library;
 
@@ -33,6 +34,7 @@ Map<String, dynamic> emptyExtras() => {
       'cargos': <dynamic>[],
       'contests': <dynamic>[],
       'hidden': <dynamic>[],
+      'review': <String, dynamic>{},
     };
 
 /// Cópia profunda (o editor trabalha numa cópia e só aplica ao salvar).
@@ -44,12 +46,22 @@ Map<String, dynamic> normalizeExtras(Object? raw) {
   if (raw is! Map) return out;
   for (final k in out.keys) {
     final v = raw[k];
-    if (v is List) out[k] = [for (final x in v) if (x is Map || (k == 'hidden' && x is String)) x];
+    if (k == 'review') {
+      if (v is Map) out[k] = {for (final e in v.entries) if (e.key is String && e.value is bool) e.key as String: e.value};
+    } else if (v is List) {
+      out[k] = [for (final x in v) if (x is Map || (k == 'hidden' && x is String)) x];
+    }
   }
   return cloneJson(out);
 }
 
-bool extrasIsEmpty(Map<String, dynamic> e) => e.values.every((v) => v is List && v.isEmpty);
+bool extrasIsEmpty(Map<String, dynamic> e) => e.values.every((v) => (v is List && v.isEmpty) || (v is Map && v.isEmpty));
+
+/// Decisões de revisão de materiais publicadas pelo dono (id → liberado).
+Map<String, bool> reviewOf(Map<String, dynamic> extras) => {
+      for (final e in ((extras['review'] as Map?) ?? const {}).entries)
+        if (e.key is String && e.value is bool) e.key as String: e.value as bool,
+    };
 
 /// Transforma um nome em pedaço de id estável ("Ordem social" → "ordem-social").
 String slug(String s) {

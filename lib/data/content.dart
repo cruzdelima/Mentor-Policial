@@ -139,7 +139,15 @@ class MaterialInfo {
   final int minutes;
   final int questions;
   final String version;
+
+  /// Situação de revisão embutida no app ("Em revisão pelo autor" ou "Revisado/Aprovado pelo autor").
+  /// O dono pode mudar pelo app (catálogo extra, chave "review"), sem nova versão.
   final String status;
+
+  bool get builtinApproved {
+    final s = status.toLowerCase();
+    return s.startsWith('aprovado') || s.startsWith('revisado');
+  }
 
   /// 'asset' (embutido no app) ou caminho da pasta do pacote local.
   final String source;

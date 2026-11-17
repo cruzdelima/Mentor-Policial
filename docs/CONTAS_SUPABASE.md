@@ -48,6 +48,7 @@ Sem um provedor próprio, o Supabase **só envia e-mails para os membros da equi
 
 **Confirm signup** — assunto: `Taticum: confirme seu e-mail`
 ```html
+<p><img src="https://raw.githubusercontent.com/cruzdelima/Mentor-Policial/main/docs/brand/banner_email_taticum.png" width="600" alt="Taticum" style="max-width:100%;border-radius:8px"></p>
 <h2>Bem-vindo ao Taticum</h2>
 <p>Seu código de confirmação é:</p>
 <p style="font-size:28px;font-weight:bold;letter-spacing:6px">{{ .Token }}</p>
@@ -57,6 +58,7 @@ Sem um provedor próprio, o Supabase **só envia e-mails para os membros da equi
 
 **Reset password** — assunto: `Taticum: código para nova senha`
 ```html
+<p><img src="https://raw.githubusercontent.com/cruzdelima/Mentor-Policial/main/docs/brand/banner_email_taticum.png" width="600" alt="Taticum" style="max-width:100%;border-radius:8px"></p>
 <h2>Recuperação de senha</h2>
 <p>Seu código para criar uma nova senha é:</p>
 <p style="font-size:28px;font-weight:bold;letter-spacing:6px">{{ .Token }}</p>

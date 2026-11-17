@@ -208,6 +208,32 @@ void main() {
     expect(app.catalog.hasOption('CBMPE26_TEN'), isTrue);
   });
 
+  test('materiais: aluno só vê o que o dono liberou', () async {
+    final p = profileFor('PM_CFO');
+    final remote = FakeRemote();
+    final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature), remote: remote);
+    app.reviewer = false;
+    final draft = content.all.firstWhere((m) => m.id == 'lp-ortografia-02');
+    expect(content.isApproved(draft), isFalse);
+    expect(content.items.any((m) => m.id == draft.id), isFalse);
+    expect(content.items.any((m) => m.id == 'info-malware-01'), isTrue); // já aprovado
+    app.reviewer = true;
+    expect(content.items.length, content.all.length);
+    await app.setReviewed(draft, true);
+    expect(remote.version, 1);
+    expect((remote.data!['review'] as Map)['lp-ortografia-02'], isTrue);
+    app.reviewer = false;
+    expect(content.items.any((m) => m.id == draft.id), isTrue);
+    // Outro computador recebe a decisão pelo catálogo publicado.
+    final other = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature), remote: remote);
+    await other.refreshCatalog();
+    expect(other.content.isApproved(draft), isTrue);
+    await app.setReviewed(draft, false);
+    expect(content.items.any((m) => m.id == draft.id), isFalse);
+    // Publicar pelo editor não apaga as decisões de revisão.
+    expect(normalizeExtras(remote.data)['review'], {'lp-ortografia-02': false});
+  });
+
   testWidgets('telas no modo pós-edital e volta ao ciclo básico', (tester) async {
     for (final size in const [Size(1366, 768), Size(1180, 720)]) {
       tester.view.physicalSize = size;

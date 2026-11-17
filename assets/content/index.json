@@ -152,6 +152,156 @@
    "status": "Em revisão pelo autor"
   },
   {
+   "id": "lp-verbos-02",
+   "folder": "portugues_verbos_aprofundado",
+   "title": "Verbos: flexão, tempos, modos e vozes",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-06"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-verbos-01",
+   "folder": "portugues_verbos",
+   "title": "Verbos: flexão, tempos, modos e vozes",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-06"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-conectivos-02",
+   "folder": "portugues_conectivos_aprofundado",
+   "title": "Advérbio, preposição e conjunção",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-07"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-conectivos-01",
+   "folder": "portugues_conectivos",
+   "title": "Advérbio, preposição e conjunção",
+   "subtitle": "Língua Portuguesa · Morfossintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-07"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-termos-02",
+   "folder": "portugues_termos_aprofundado",
+   "title": "Análise sintática: termos da oração",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-08"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-termos-01",
+   "folder": "portugues_termos",
+   "title": "Análise sintática: termos da oração",
+   "subtitle": "Língua Portuguesa · Sintaxe",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-08"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-coordenadas-02",
+   "folder": "portugues_coordenadas_aprofundado",
+   "title": "Orações coordenadas",
+   "subtitle": "Língua Portuguesa · Sintaxe do período",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-09"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-coordenadas-01",
+   "folder": "portugues_coordenadas",
+   "title": "Orações coordenadas",
+   "subtitle": "Língua Portuguesa · Sintaxe do período",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-09"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-subordinadas-02",
+   "folder": "portugues_subordinadas_aprofundado",
+   "title": "Orações subordinadas",
+   "subtitle": "Língua Portuguesa · Sintaxe do período",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-10"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "lp-subordinadas-01",
+   "folder": "portugues_subordinadas",
+   "title": "Orações subordinadas",
+   "subtitle": "Língua Portuguesa · Sintaxe do período",
+   "subjectId": "LP",
+   "topicIds": [
+    "LP-10"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
    "id": "info-malware-02",
    "folder": "informatica_virus_aprofundado",
    "title": "Vírus e outros códigos maliciosos",

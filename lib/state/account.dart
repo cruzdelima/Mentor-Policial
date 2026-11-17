@@ -69,6 +69,7 @@ class AccountController extends ChangeNotifier {
     final storage = await userStorage(id);
     app?.dispose();
     app = await AppController.load(storage: storage, remote: service);
+    app!.reviewer = isOwner; // só o dono vê materiais em revisão
     status = AccountStatus.signedIn;
     notifyListeners();
   }
@@ -100,6 +101,7 @@ class AccountController extends ChangeNotifier {
   Future<void> refreshProfile() async {
     profile = await service.myProfile();
     offline = false;
+    app?.reviewer = isOwner;
     notifyListeners();
   }
 

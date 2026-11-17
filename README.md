@@ -24,10 +24,9 @@ com o método de um aprovado em Agente da Polícia Federal 2025. Feito em Flutte
 | **Missões** | Cronograma por dia, semana e trilha completa. Concluir uma missão já lança no diário. Revisão 24h, lei seca, revisão semanal, simulados, revisão de 30 dias e discursiva automáticas. Replanejamento a partir de hoje. |
 | **Edital** | Edital verticalizado por cargo: teoria, questões, % de acerto, revisões e status (a estudar, em andamento, reforçar, consolidado). Pular assunto, mudar tamanho (P/M/G) e anotações. |
 | **Diário** | Lançamentos automáticos e manuais, filtros, evolução semanal. |
-| **Materiais** | Dois materiais por assunto: APROFUNDADO (estudo inicial, teoria completa + 20 questões) e RESUMO (revisão, mapa mental + 10 questões), ambos com PDF. Já incluídos: Ortografia, Vírus e malware, Contabilidade (conceitos) e Princípios fundamentais. Mais os links/PDFs do próprio aluno. |
+| **Materiais** | Pastas por matéria. Dois materiais por assunto: APROFUNDADO (estudo inicial, teoria completa + 20 questões) e RESUMO (revisão, mapa mental + 10 questões), ambos com PDF. Os alunos só veem os materiais que o dono marcou como revisados (botão REVISEI · LIBERAR AOS ALUNOS, visível só para o dono). Mais os links/PDFs do próprio aluno. |
 | **Pós-edital** | Concursos com edital publicado (ex.: CFO CBMPE 2026). Escolhendo um, o plano segue o conteúdo, os pesos e a ordem do edital, com a data da prova; o que já foi estudado continua valendo. |
 | **Admin › Catálogo e concursos** | Só dono e administradores: cadastrar áreas, cargos do ciclo básico (pesos 0–3), matérias e concursos pós-edital, sem programar. Nada muda para os alunos até clicar em PUBLICAR. |
-| **Método** | Os números e as 10 lições do método do autor. |
 | **Ajustes** | Perfil, troca de concurso/cargo, rotina, backup (exportar/importar), apagar dados. |
 
 O motor de metas é o mesmo da planilha *Taticum — Ciclo Básico* (validado: PF Agente, 3h, iniciante → 296 missões, fim da 1ª volta em 02/11/2027).

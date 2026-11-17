@@ -9,7 +9,6 @@ import 'pages/contests_page.dart';
 import 'pages/diary_page.dart';
 import 'pages/edital_page.dart';
 import 'pages/materials_page.dart';
-import 'pages/method_page.dart';
 import 'pages/missions_page.dart';
 import 'pages/qg_page.dart';
 import 'pages/settings_page.dart';
@@ -31,7 +30,6 @@ const _nav = [
   _NavItem(AppPage.diary, 'Diário', Icons.edit_note, 'Lançamentos de estudo'),
   _NavItem(AppPage.materials, 'Materiais', Icons.menu_book_outlined, 'Apostilas e questões'),
   _NavItem(AppPage.contests, 'Pós-edital', Icons.campaign_outlined, 'Concursos com edital publicado'),
-  _NavItem(AppPage.method, 'Método', Icons.military_tech_outlined, 'Como o autor foi aprovado'),
   _NavItem(AppPage.settings, 'Ajustes', Icons.tune, 'Perfil, rotina e dados'),
 ];
 
@@ -48,7 +46,6 @@ class Shell extends StatelessWidget {
       AppPage.diary => const DiaryPage(),
       AppPage.materials => const MaterialsPage(),
       AppPage.contests => const ContestsPage(),
-      AppPage.method => const MethodPage(),
       AppPage.settings => const SettingsPage(),
       AppPage.admin => const AdminPage(),
     };

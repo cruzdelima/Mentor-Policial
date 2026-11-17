@@ -1,7 +1,7 @@
 name: mentor_policial
 description: "Taticum — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
 publish_to: 'none'
-version: 0.5.2+7
+version: 0.6.0+8
 
 environment:
   sdk: ^3.9.0
@@ -31,12 +31,22 @@ flutter:
     - assets/content/portugues_acentuacao_aprofundado/
     - assets/content/portugues_classes1/
     - assets/content/portugues_classes1_aprofundado/
+    - assets/content/portugues_conectivos/
+    - assets/content/portugues_conectivos_aprofundado/
+    - assets/content/portugues_coordenadas/
+    - assets/content/portugues_coordenadas_aprofundado/
     - assets/content/portugues_interpretacao/
     - assets/content/portugues_interpretacao_aprofundado/
     - assets/content/portugues_ortografia/
     - assets/content/portugues_ortografia_aprofundado/
     - assets/content/portugues_pronomes/
     - assets/content/portugues_pronomes_aprofundado/
+    - assets/content/portugues_subordinadas/
+    - assets/content/portugues_subordinadas_aprofundado/
+    - assets/content/portugues_termos/
+    - assets/content/portugues_termos_aprofundado/
+    - assets/content/portugues_verbos/
+    - assets/content/portugues_verbos_aprofundado/
     - assets/fonts/OFL.txt
   fonts:
     - family: Barlow

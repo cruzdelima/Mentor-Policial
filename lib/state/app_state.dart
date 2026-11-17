@@ -16,7 +16,7 @@ import '../data/catalog_store.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.5.2';
+const kAppVersion = '0.6.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
@@ -26,7 +26,7 @@ const kUpdateApiUrl = 'https://api.github.com/repos/cruzdelima/Mentor-Policial/r
 const kDownloadWindows = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-Setup.exe';
 const kDownloadMac = 'https://github.com/cruzdelima/Mentor-Policial/releases/latest/download/Taticum-macOS.dmg';
 
-enum AppPage { qg, missions, edital, diary, materials, contests, method, settings, admin }
+enum AppPage { qg, missions, edital, diary, materials, contests, settings, admin }
 
 /// Aplica a escolha de cargo/concurso ao perfil. Concurso pós-edital preenche a data da prova e o nome.
 void selectOption(Catalog cat, Profile p, String optionId, {DateTime? today}) {
@@ -54,10 +54,22 @@ void selectOption(Catalog cat, Profile p, String optionId, {DateTime? today}) {
 
 /// Biblioteca de conteúdos: embutidos + pacotes locais.
 class ContentLibrary {
-  ContentLibrary(this.items);
+  ContentLibrary(this.all);
 
-  final List<MaterialInfo> items;
+  /// Todos os materiais (inclusive os ainda em revisão).
+  final List<MaterialInfo> all;
   final Map<String, StudyMaterial> _cache = {};
+
+  /// Visão do dono: mostra também os materiais em revisão.
+  bool showAll = false;
+
+  /// Decisões de revisão publicadas pelo dono (id → liberado), que valem sobre a situação embutida.
+  Map<String, bool> review = const {};
+
+  bool isApproved(MaterialInfo m) => review[m.id] ?? m.builtinApproved;
+
+  /// Materiais que esta pessoa pode ver: alunos só veem os revisados.
+  List<MaterialInfo> get items => showAll ? all : all.where(isApproved).toList();
 
   static Future<ContentLibrary> load(AssetBundle bundle, Storage storage) async {
     final items = <MaterialInfo>[];
@@ -152,8 +164,26 @@ class AppController extends ChangeNotifier {
         catalogBase = catalogBase ?? const {},
         extras = extras ?? emptyExtras() {
     _day = today;
+    content.review = reviewOf(this.extras);
     _fixMissingOption();
     _recompute();
+  }
+
+  /// Dono: vê os materiais em revisão e pode liberá-los aos alunos.
+  bool get reviewer => content.showAll;
+  set reviewer(bool v) {
+    if (content.showAll == v) return;
+    content.showAll = v;
+    notifyListeners();
+  }
+
+  /// Marca o material como revisado (liberado aos alunos) ou o recolhe para revisão. Publica na hora.
+  Future<void> setReviewed(MaterialInfo m, bool approved) async {
+    await refreshCatalog();
+    final next = cloneJson(normalizeExtras(extras));
+    (next['review'] as Map)[m.id] = approved;
+    await publishCatalog(next, '${approved ? 'Material revisado e liberado' : 'Material recolhido para revisão'}: '
+        '${m.title} (${m.isDeep ? 'aprofundado' : 'resumo'})');
   }
 
   /// Carrega os dados de estudo. [storage] = pasta da conta logada (padrão: pasta única, sem contas).
@@ -275,6 +305,7 @@ class AppController extends ChangeNotifier {
     }
     extras = e;
     extrasVersion = version;
+    content.review = reviewOf(e);
     catalogStore?.write(e, version);
     catalog = next;
     if (_fixMissingOption()) {

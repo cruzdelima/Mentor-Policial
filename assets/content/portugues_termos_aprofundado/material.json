@@ -1,0 +1,516 @@
+{
+ "id": "lp-termos-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-08"
+ ],
+ "kind": "aprofundado",
+ "title": "Análise sintática: termos da oração",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 240,
+ "pdf": "portugues_termos_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Sintaxe é a base de **concordância, regência, crase e pontuação**. O Cebraspe pergunta diretamente “o termo X exerce a função de…”, mas também cobra sintaxe de forma indireta: “a inserção de vírgula após X prejudicaria a correção” (porque separaria sujeito e verbo). Comece sempre pelo **verbo**: ache o verbo, pergunte quem pratica a ação (sujeito) e o que o verbo exige (complementos)."
+    },
+    {
+     "t": "h2",
+     "text": "1. Frase, oração e período"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Frase**: enunciado com sentido completo, com ou sem verbo — *Silêncio! Que operação!*",
+      "**Oração**: enunciado organizado em torno de um **verbo** (ou locução verbal).",
+      "**Período**: frase formada por uma ou mais orações. **Simples** (uma oração) ou **composto** (duas ou mais).",
+      "Regra prática: **número de orações = número de verbos** (locução verbal conta como um só)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Termos essenciais: sujeito e predicado"
+    },
+    {
+     "t": "h3",
+     "text": "Tipos de sujeito"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Como reconhecer",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.42,
+      0.38
+     ],
+     "rows": [
+      [
+       "Simples",
+       "Um núcleo",
+       "**Os agentes** chegaram."
+      ],
+      [
+       "Composto",
+       "Dois ou mais núcleos",
+       "**O delegado e o escrivão** chegaram."
+      ],
+      [
+       "Oculto (desinencial, elíptico)",
+       "Não aparece, mas é identificado pela desinência ou pelo contexto",
+       "**Chegamos** cedo. (nós)"
+      ],
+      [
+       "Indeterminado",
+       "Existe, mas não se quer ou não se pode identificar",
+       "**Assaltaram** a agência. **Precisa-se** de agentes."
+      ],
+      [
+       "Oração sem sujeito",
+       "Verbo impessoal: não há sujeito",
+       "**Houve** ocorrências. **Choveu**. **Faz** dois anos."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sujeito indeterminado: duas formas",
+     "text": "1) **Verbo na 3ª pessoa do plural sem referente** no texto: *Roubaram a viatura.* 2) **Verbo transitivo indireto, intransitivo ou de ligação + se**: *Precisa-se de peritos. Vive-se bem aqui. Era-se feliz.* Se o verbo na 3ª do plural retoma alguém já citado (*Os presos fugiram. Roubaram a viatura*), o sujeito é **oculto**, não indeterminado."
+    },
+    {
+     "t": "h3",
+     "text": "Orações sem sujeito (verbos impessoais)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Haver** no sentido de existir, acontecer ou de tempo decorrido: *Havia provas. Houve tumulto. Há dois anos.*",
+      "**Fazer**, **estar**, **ser** indicando tempo ou clima: *Faz frio. Está tarde. É uma hora. São dez horas.*",
+      "**Fenômenos da natureza**: *Chovia. Ventou muito. Anoiteceu.*",
+      "Atenção: **existir** não é impessoal. *Existiam provas* (sujeito: provas)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Sujeito posposto"
+    },
+    {
+     "t": "p",
+     "text": "O sujeito pode vir **depois do verbo** — e é aí que mora o erro de concordância: *Chegaram **os laudos da perícia**. Faltam **dois documentos**. Ocorreram **várias prisões**.* Pergunte ao verbo: *o que chegou? o que falta?*"
+    },
+    {
+     "t": "h3",
+     "text": "Tipos de predicado"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Predicado",
+      "Núcleo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.22,
+      0.38,
+      0.4
+     ],
+     "rows": [
+      [
+       "Verbal",
+       "Um **verbo** significativo (ação)",
+       "O agente **prendeu** o suspeito."
+      ],
+      [
+       "Nominal",
+       "Um **nome** (predicativo), com verbo de ligação",
+       "O delegado **ficou preocupado**."
+      ],
+      [
+       "Verbo-nominal",
+       "Um verbo significativo **e** um predicativo",
+       "Os agentes **chegaram cansados**."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Verbos de ligação** (ligam sujeito a uma característica): *ser, estar, permanecer, ficar, parecer, continuar, andar, tornar-se, virar*.",
+      "O mesmo verbo pode ser de ligação ou significativo: *Ele **anda** nervoso* (ligação) × *Ele **anda** pela rua* (intransitivo)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Predicativo do sujeito e do objeto"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Do sujeito**: característica atribuída ao sujeito — *O suspeito **parecia nervoso**. Os agentes chegaram **cansados**.*",
+      "**Do objeto**: característica atribuída ao objeto — *O juiz considerou o réu **culpado**. Elegeram-no **presidente**.*",
+      "Verbos que costumam pedir predicativo do objeto: *considerar, julgar, achar, eleger, nomear, chamar, tornar, deixar*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Transitividade e termos integrantes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Exige",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.32,
+      0.42
+     ],
+     "rows": [
+      [
+       "Intransitivo (VI)",
+       "Nada; sentido completo",
+       "O suspeito **fugiu**."
+      ],
+      [
+       "Transitivo direto (VTD)",
+       "Objeto **sem** preposição",
+       "Prendeu **o suspeito**."
+      ],
+      [
+       "Transitivo indireto (VTI)",
+       "Objeto **com** preposição",
+       "Obedeceu **às ordens**."
+      ],
+      [
+       "Transitivo direto e indireto (VTDI)",
+       "Os dois objetos",
+       "Entregou **o relatório** **ao juiz**."
+      ],
+      [
+       "De ligação (VL)",
+       "Predicativo",
+       "Ficou **calmo**."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Objeto direto preposicionado**: complemento de VTD que, por ênfase ou clareza, recebe preposição — *Amar **a Deus**. Feriu **a si** mesmo.*",
+      "**Objeto direto e indireto pleonásticos**: repetidos por pronome — *O relatório, entreguei-**o** ontem.*",
+      "**Complemento nominal (CN)**: completa o sentido de um **nome** (substantivo abstrato, adjetivo ou advérbio), sempre com preposição — *obediência **às leis**; favorável **ao réu**; relativamente **ao caso***.",
+      "**Agente da passiva**: quem pratica a ação na voz passiva, introduzido por *por* (*pelo*) ou *de* — *O inquérito foi instaurado **pelo delegado**.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Termos acessórios"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Adjunto adnominal**: caracteriza ou determina um substantivo, sem ser exigido por ele — artigos, adjetivos, pronomes adjetivos, numerais e locuções adjetivas: ***Os** **dois** agentes **experientes** **da equipe**.*",
+      "**Adjunto adverbial**: circunstância ligada ao verbo, adjetivo ou advérbio — tempo, lugar, modo, causa, intensidade, instrumento, companhia — *Ontem, a equipe cumpriu o mandado **no bairro** **com cautela**.*",
+      "**Aposto**: termo que explica, enumera, resume ou especifica outro termo — *Carlos, **o escrivão da equipe**, lavrou o termo.*"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Aposto",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Explicativo (entre vírgulas)",
+       "Recife, **capital de Pernambuco**, sediou a operação."
+      ],
+      [
+       "Enumerativo",
+       "Apreenderam três itens: **armas, drogas e dinheiro**."
+      ],
+      [
+       "Resumitivo",
+       "Armas, drogas, dinheiro, **tudo** foi apreendido."
+      ],
+      [
+       "Especificativo (sem vírgula)",
+       "o delegado **Paulo**; a cidade **de Recife**; o rio **Capibaribe**"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Vocativo**: termo usado para **chamar** o interlocutor. Não pertence à estrutura da oração e vem sempre **isolado por vírgula** — ***Senhor delegado**, o relatório está pronto. Apresente-se, **soldado**.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. As distinções que mais caem"
+    },
+    {
+     "t": "h3",
+     "text": "Complemento nominal × adjunto adnominal"
+    },
+    {
+     "t": "p",
+     "text": "Os dois podem ser locuções com *de*. O teste é o **papel** do termo em relação ao substantivo abstrato:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Complemento nominal",
+      "Adjunto adnominal"
+     ],
+     "widths": [
+      0.22,
+      0.39,
+      0.39
+     ],
+     "rows": [
+      [
+       "Papel",
+       "**Paciente / alvo** da ação (sofre)",
+       "**Agente** (pratica), posse, matéria, característica"
+      ],
+      [
+       "Exemplo",
+       "*a investigação **da fraude*** (a fraude é investigada)",
+       "*a chegada **dos agentes*** (os agentes chegam)"
+      ],
+      [
+       "Exemplo",
+       "*o medo **de represálias***",
+       "*a mesa **de madeira***; *a viatura **do batalhão***"
+      ],
+      [
+       "Com adjetivo ou advérbio",
+       "Sempre CN: *útil **ao processo***",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Ambiguidade clássica",
+     "text": "*A crítica **do professor*** pode ser adjunto (o professor critica) ou CN (o professor é criticado). Em prova, o contexto decide; quando não decide, a banca aceita a ambiguidade."
+    },
+    {
+     "t": "h3",
+     "text": "Predicativo × adjunto adnominal"
+    },
+    {
+     "t": "p",
+     "text": "*Encontrei o preso **nervoso*** (estado no momento: **predicativo do objeto**) × *Encontrei o preso **nervoso** que fugiu ontem* (característica que identifica: **adjunto adnominal**). Teste: troque o objeto por pronome — *Encontrei-o nervoso*: se o termo continua, é predicativo."
+    },
+    {
+     "t": "h3",
+     "text": "Objeto indireto × adjunto adverbial"
+    },
+    {
+     "t": "p",
+     "text": "*Entreguei o ofício **ao comandante*** (exigido pelo verbo: OI) × *Trabalhei **no batalhão*** (circunstância de lugar: adjunto adverbial)."
+    },
+    {
+     "t": "h3",
+     "text": "Sintaxe e vírgula"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Não se separa por vírgula** o sujeito do verbo, nem o verbo de seus complementos — mesmo que o sujeito seja longo.",
+      "**Adjunto adverbial deslocado** (no início ou no meio) pode ser isolado por vírgulas; se for curto, a vírgula é facultativa.",
+      "**Aposto explicativo** e **vocativo** vêm isolados por vírgulas."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Cebraspe cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O termo X exerce a função de sujeito / complemento de Y / adjunto”.",
+      "“A inserção de vírgula após X prejudicaria a correção” — verifique se separaria sujeito e verbo.",
+      "Concordância com **sujeito posposto** e com **haver** impessoal.",
+      "“O sujeito da oração é indeterminado” — confira se há referente no texto (aí seria oculto).",
+      "Complemento nominal × adjunto adnominal em expressões com *de*."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Chegaram os laudos da perícia”, o sujeito é os laudos da perícia, posposto ao verbo.",
+    "comment": "**Certo.** O que chegou? Os laudos da perícia: sujeito simples posposto, que leva o verbo ao plural.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Houve muitas ocorrências no feriado”, o termo muitas ocorrências exerce a função de sujeito.",
+    "comment": "**Errado.** Haver no sentido de acontecer é impessoal: a oração não tem sujeito, e muitas ocorrências é objeto direto.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A oração “Choveu durante toda a operação” não tem sujeito.",
+    "comment": "**Certo.** Verbos que indicam fenômenos da natureza são impessoais.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Precisa-se de peritos”, o termo peritos é o sujeito da oração.",
+    "comment": "**Errado.** Precisar de é transitivo indireto: o se indetermina o sujeito, e de peritos é objeto indireto.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O delegado ficou preocupado”, o termo preocupado é predicativo do sujeito.",
+    "comment": "**Certo.** Ficar é verbo de ligação; preocupado é característica atribuída ao sujeito.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Os agentes chegaram cansados”, o predicado é verbal.",
+    "comment": "**Errado.** Há verbo significativo (chegaram) e predicativo do sujeito (cansados): predicado verbo-nominal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O juiz considerou o réu culpado”, o termo culpado é predicativo do objeto.",
+    "comment": "**Certo.** Culpado é característica atribuída ao objeto direto o réu.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “A obediência às leis é dever de todos”, o termo às leis exerce a função de objeto indireto.",
+    "comment": "**Errado.** Às leis completa o substantivo obediência: é complemento nominal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “O inquérito foi instaurado pelo delegado”, o termo pelo delegado é agente da passiva.",
+    "comment": "**Certo.** Na voz passiva analítica, quem pratica a ação é o agente da passiva.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Ontem, a equipe cumpriu o mandado”, o termo Ontem exerce a função de adjunto adnominal.",
+    "comment": "**Errado.** Ontem indica circunstância de tempo ligada ao verbo: é adjunto adverbial.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "No trecho “A investigação da fraude demorou meses”, o termo da fraude complementa o sentido de investigação e exerce a função de complemento nominal.",
+    "comment": "**Certo.** A fraude é o alvo da investigação (é investigada): papel de paciente, típico do complemento nominal.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "No trecho “A chegada dos agentes surpreendeu os moradores”, o termo dos agentes exerce a função de complemento nominal.",
+    "comment": "**Errado.** Os agentes praticam a ação de chegar: papel de agente, típico do adjunto adnominal.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "No período “Carlos, o escrivão da equipe, lavrou o termo”, o trecho isolado por vírgulas é aposto explicativo.",
+    "comment": "**Certo.** O trecho explica quem é Carlos e vem entre vírgulas.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Em “Senhor delegado, o relatório está pronto”, o termo Senhor delegado é o sujeito da oração.",
+    "comment": "**Errado.** É vocativo: chama o interlocutor. O sujeito é o relatório.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Em “Os moradores do bairro denunciaram o tráfico”, a inserção de uma vírgula logo após bairro prejudicaria a correção gramatical do período.",
+    "comment": "**Certo.** A vírgula separaria o sujeito (os moradores do bairro) do verbo.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Em “O agente entregou ao juiz o relatório”, o termo ao juiz exerce a função de objeto direto.",
+    "comment": "**Errado.** Ao juiz vem com preposição exigida por entregar: é objeto indireto. O objeto direto é o relatório.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “Faz três anos que a quadrilha atua na região”, o verbo fazer é impessoal, e a oração em que ele aparece não tem sujeito.",
+    "comment": "**Certo.** Fazer indicando tempo decorrido é impessoal.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Em “Assaltaram a agência ontem à noite”, sem referência anterior a quem praticou a ação, o sujeito é oculto e pode ser identificado pela desinência verbal.",
+    "comment": "**Errado.** Verbo na 3ª pessoa do plural sem referente no texto indica sujeito indeterminado.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em “O policial era um homem de coragem”, o termo de coragem exerce a função de adjunto adnominal.",
+    "comment": "**Certo.** De coragem caracteriza o substantivo homem (equivale a corajoso): é adjunto adnominal.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "No período “Os policiais estão atentos”, a forma verbal estão classifica-se como transitiva direta.",
+    "comment": "**Errado.** Estar, nesse caso, é verbo de ligação: liga o sujeito ao predicativo atentos.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Nomenclatura Gramatical Brasileira (NGB).",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

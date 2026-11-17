@@ -1,0 +1,402 @@
+{
+ "id": "lp-subordinadas-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-10"
+ ],
+ "kind": "resumo",
+ "title": "Orações subordinadas",
+ "subtitle": "Língua Portuguesa · Sintaxe do período",
+ "minutes": 40,
+ "pdf": "portugues_subordinadas.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Vírgulas da adjetiva** (restritiva × explicativa muda o sentido), **que relativo × integrante** e o **sentido** das adverbiais."
+    },
+    {
+     "t": "h2",
+     "text": "1. Substantivas (teste: ISSO)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "Subjetiva",
+       "É necessário **que todos colaborem**. Convém **que…** Sabe-se **que…**"
+      ],
+      [
+       "Objetiva direta",
+       "Afirmou **que o caso estava encerrado**."
+      ],
+      [
+       "Objetiva indireta",
+       "Lembrou-se **de que havia esquecido**. (completa verbo)"
+      ],
+      [
+       "Completiva nominal",
+       "Tenho certeza **de que ele mentiu**. (completa nome)"
+      ],
+      [
+       "Predicativa",
+       "A verdade é **que ninguém viu**."
+      ],
+      [
+       "Apositiva",
+       "Só uma coisa importava: **que a vítima fosse localizada**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Adjetivas (teste: o qual)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Restritiva**: sem vírgulas; restringe o grupo — *Os presos **que trabalham** têm remição* (só alguns).",
+      "**Explicativa**: entre vírgulas; vale para todos — *Os agentes, **que estavam de plantão**, atenderam*.",
+      "Inserir ou retirar as vírgulas **altera o sentido**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Adverbiais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções"
+     ],
+     "widths": [
+      0.22,
+      0.78
+     ],
+     "rows": [
+      [
+       "Causal",
+       "porque, como (anteposto), já que, visto que"
+      ],
+      [
+       "Concessiva",
+       "embora, ainda que, mesmo que (+ subjuntivo)"
+      ],
+      [
+       "Condicional",
+       "se, caso, desde que + subjuntivo"
+      ],
+      [
+       "Conformativa",
+       "conforme, segundo, consoante"
+      ],
+      [
+       "Comparativa",
+       "como, mais… (do) que"
+      ],
+      [
+       "Consecutiva",
+       "tão/tanto… que, de modo que"
+      ],
+      [
+       "Final",
+       "para que, a fim de que"
+      ],
+      [
+       "Proporcional",
+       "à medida que, à proporção que"
+      ],
+      [
+       "Temporal",
+       "quando, assim que, logo que, desde que + indicativo"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Reduzidas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sem conectivo, com infinitivo, gerúndio ou particípio. **Desenvolva** para classificar.",
+      "*Ao chegar* = quando chegou (tempo). *Sendo primário* = como é primário (causa). *Terminada a audiência* = assim que terminou (tempo)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Vírgula",
+     "text": "Nunca separe a **substantiva** da principal (*É necessário, que…* é erro). A **adverbial anteposta** costuma levar vírgula."
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: como reconhecer"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pista",
+      "Oração",
+      "Teste"
+     ],
+     "widths": [
+      0.38,
+      0.3,
+      0.32
+     ],
+     "rows": [
+      [
+       "Que / se depois de verbo ou nome",
+       "Substantiva",
+       "Troca por **isso**"
+      ],
+      [
+       "É + adjetivo + que; convém que; sabe-se que",
+       "Subjetiva",
+       "Isso é necessário"
+      ],
+      [
+       "Preposição + que completando verbo",
+       "Objetiva indireta",
+       "lembrou-se disso"
+      ],
+      [
+       "Preposição + que completando nome",
+       "Completiva nominal",
+       "certeza disso"
+      ],
+      [
+       "Que retomando um termo",
+       "Adjetiva",
+       "Troca por **o qual**"
+      ],
+      [
+       "Adjetiva sem vírgula",
+       "Restritiva",
+       "Só uma parte"
+      ],
+      [
+       "Adjetiva entre vírgulas",
+       "Explicativa",
+       "Todos"
+      ],
+      [
+       "Conjunção de circunstância",
+       "Adverbial",
+       "Qual o sentido?"
+      ],
+      [
+       "Infinitivo, gerúndio, particípio",
+       "Reduzida",
+       "Desenvolva"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Substantiva = **isso**; adjetiva = **o qual**.",
+      "Vírgulas na adjetiva: **explicativa**; sem vírgulas: **restritiva**.",
+      "Retirar/inserir vírgulas da adjetiva **altera o sentido**.",
+      "Subjetiva: verbo da principal na 3ª do singular.",
+      "Preposição + que: verbo › objetiva indireta; nome › completiva nominal.",
+      "Embora, ainda que = **concessão** (+ subjuntivo).",
+      "Se, caso = **condição**.",
+      "Tão… que = **consequência**; para que = **finalidade**.",
+      "*Sendo réu primário* = causa.",
+      "Sem vírgula entre principal e substantiva."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "SUBORDINADAS",
+  "rootSub": "substantivas · adjetivas · adverbiais",
+  "left": [
+   {
+    "label": "Substantivas",
+    "items": [
+     "que/se integrante",
+     "teste: ISSO",
+     "sem vírgula na principal"
+    ]
+   },
+   {
+    "label": "Funções",
+    "items": [
+     "subjetiva · objetiva direta",
+     "objetiva indireta · completiva",
+     "predicativa · apositiva"
+    ]
+   },
+   {
+    "label": "Subjetiva",
+    "items": [
+     "é necessário que",
+     "convém que · parece que",
+     "sabe-se que"
+    ]
+   },
+   {
+    "label": "Adjetivas",
+    "items": [
+     "pronome relativo",
+     "teste: o qual",
+     "retoma um antecedente"
+    ]
+   },
+   {
+    "label": "Restritiva × explicativa",
+    "items": [
+     "sem vírgula: restringe",
+     "com vírgula: todos",
+     "vírgula muda o sentido"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Causa e concessão",
+    "items": [
+     "como, já que, visto que",
+     "embora + subjuntivo",
+     "ainda que, mesmo que"
+    ]
+   },
+   {
+    "label": "Condição e tempo",
+    "items": [
+     "se, caso",
+     "quando, assim que",
+     "desde que: os dois"
+    ]
+   },
+   {
+    "label": "Fim e consequência",
+    "items": [
+     "para que, a fim de que",
+     "tão… que",
+     "de modo que"
+    ]
+   },
+   {
+    "label": "Outras",
+    "items": [
+     "conforme: conformidade",
+     "como: comparação",
+     "à medida que: proporção"
+    ]
+   },
+   {
+    "label": "Reduzidas",
+    "items": [
+     "ao chegar: tempo",
+     "sendo primário: causa",
+     "terminada a audiência: tempo"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "As orações subordinadas substantivas podem, em regra, ser substituídas pelo pronome isso.",
+    "comment": "**Certo.** Elas equivalem a um substantivo; o teste do isso ajuda a reconhecê-las."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "No período “Convém que o réu seja ouvido”, a oração subordinada é substantiva objetiva direta.",
+    "comment": "**Errado.** A oração é o sujeito de convém (isso convém): subjetiva."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "No período “Tenho receio de que o prazo expire”, a oração “de que o prazo expire” é subordinada substantiva completiva nominal.",
+    "comment": "**Certo.** Completa o substantivo receio."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A oração subordinada adjetiva restritiva deve vir isolada por vírgulas.",
+    "comment": "**Errado.** Quem vem entre vírgulas é a explicativa; a restritiva não leva vírgulas."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "No período “Como o réu não compareceu, a audiência foi adiada”, a oração introduzida por como expressa causa.",
+    "comment": "**Certo.** Como anteposto à principal tem valor causal (= visto que)."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "No período “Caso o réu confesse, a pena será atenuada”, a oração subordinada é adverbial concessiva.",
+    "comment": "**Errado.** Caso introduz condição: a oração é condicional."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "No período “Lacraram a sala para que não houvesse fraude”, a oração introduzida por para que expressa finalidade.",
+    "comment": "**Certo.** Para que é locução conjuntiva final."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No período “Ainda que chova, a operação ocorrerá”, a oração subordinada é adverbial condicional.",
+    "comment": "**Errado.** Ainda que introduz concessão: a chuva não impede a operação."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "No período “Sendo réu primário, ele terá direito ao benefício”, a oração reduzida de gerúndio tem valor causal.",
+    "comment": "**Certo.** Desenvolvida: como é réu primário."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Espero que o laudo saia hoje”, o vocábulo que poderia ser substituído por o qual, pois é pronome relativo.",
+    "comment": "**Errado.** Que é conjunção integrante: a oração é objetiva direta (espero isso)."
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}
