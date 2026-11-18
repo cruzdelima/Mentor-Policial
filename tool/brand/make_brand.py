@@ -147,7 +147,31 @@ def email_banner():
     return finish(img.convert('RGB'), S, 'banner_email_taticum.png')
 
 
+def msix_assets():
+    """Imagens do pacote da Microsoft Store (tamanhos exatos pedidos pelo manifesto)."""
+    out = os.path.join(ROOT, 'platform', 'windows', 'msix', 'Assets')
+    os.makedirs(out, exist_ok=True)
+
+    def tile(w, h, badge_h, bg, name):
+        S = 8
+        img = Image.new('RGBA', (w * S, h * S), bg)
+        d = ImageDraw.Draw(img)
+        bw = badge_h * S / 1.12
+        draw_badge(d, (w * S - bw) / 2, (h * S - badge_h * S) / 2, bw)
+        img.resize((w, h), Image.LANCZOS).save(os.path.join(out, name), optimize=True)
+        print('ok msix', name, (w, h))
+
+    clear = (0, 0, 0, 0)
+    tile(50, 50, 46, clear, 'StoreLogo.png')
+    tile(44, 44, 42, clear, 'Square44x44Logo.png')
+    tile(150, 150, 96, NAVY, 'Square150x150Logo.png')
+    tile(310, 150, 96, NAVY, 'Wide310x150Logo.png')
+
+
 if __name__ == '__main__':
+    if len(sys.argv) > 3 and sys.argv[3] == 'msix':
+        msix_assets()
+        sys.exit(0)
     lockup(True)
     lockup(False)
     symbol()

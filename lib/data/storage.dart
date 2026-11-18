@@ -13,7 +13,12 @@ class Storage {
 
   /// Pasta padrão de dados do app em cada sistema. Na primeira abertura após a troca de nome,
   /// a pasta antiga (MentorPolicial) é renomeada para a nova (Taticum), sem perder nada.
+  /// O app está rodando como pacote da Microsoft Store (MSIX)?
+  static bool get isStorePackage =>
+      Platform.isWindows && Platform.resolvedExecutable.toLowerCase().contains(r'\windowsapps\');
+
   static Directory defaultDir() {
+    if (isStorePackage) return _storeDir();
     final dir = _dirNamed('Taticum', 'taticum');
     if (!dir.existsSync()) {
       final legacy = _dirNamed('MentorPolicial', 'mentor_policial');
@@ -26,6 +31,32 @@ class Storage {
       }
     }
     return dir;
+  }
+
+  /// Versão da Store: usa uma pasta própria (o Windows guarda num local privado do pacote).
+  /// Na primeira abertura, copia os dados da versão instalada pelo instalador (.exe), se houver,
+  /// sem alterar os originais: as duas versões nunca escrevem nos mesmos arquivos.
+  static Directory _storeDir() {
+    final dir = _dirNamed('TaticumStore', 'taticum_store');
+    if (dir.existsSync()) return dir;
+    final old = _dirNamed('Taticum', 'taticum');
+    try {
+      if (old.existsSync()) _copyDir(old, dir);
+    } catch (_) {}
+    return dir;
+  }
+
+  static void _copyDir(Directory from, Directory to) {
+    to.createSync(recursive: true);
+    for (final e in from.listSync(followLinks: false)) {
+      final name = e.path.split(Platform.pathSeparator).last;
+      final target = _join(to.path, name);
+      if (e is Directory) {
+        _copyDir(e, Directory(target));
+      } else if (e is File) {
+        e.copySync(target);
+      }
+    }
   }
 
   static Directory _dirNamed(String name, String linuxName) {

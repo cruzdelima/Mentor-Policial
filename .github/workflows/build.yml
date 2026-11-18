@@ -86,12 +86,29 @@ jobs:
       - name: Compactar a versão portátil
         shell: pwsh
         run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath Taticum-windows-portatil.zip
+      - name: Gerar o pacote da Microsoft Store (MSIX, assinado pela própria Store no envio)
+        shell: pwsh
+        run: |
+          $v = (Select-String -Path pubspec.yaml -Pattern '^version:\s*([0-9]+)\.([0-9]+)\.([0-9]+)').Matches[0].Groups
+          $version = "$($v[1].Value).$($v[2].Value).$($v[3].Value).0"   # a Store exige o 4º número = 0
+          $stage = "msix-stage"
+          New-Item -ItemType Directory -Force $stage | Out-Null
+          Copy-Item -Recurse build/windows/x64/runner/Release/* $stage
+          Copy-Item -Recurse platform/windows/msix/Assets $stage/Assets
+          (Get-Content platform/windows/msix/AppxManifest.xml -Raw).Replace('__VERSION__', $version) | Set-Content -Encoding utf8 "$stage/AppxManifest.xml"
+          $makeappx = Get-ChildItem "${env:ProgramFiles(x86)}\Windows Kits\10\bin" -Recurse -Filter makeappx.exe |
+            Where-Object { $_.FullName -match '\\x64\\' } | Sort-Object FullName -Descending | Select-Object -First 1
+          if (-not $makeappx) { throw "makeappx.exe não encontrado" }
+          & $makeappx.FullName pack /o /d $stage /p Taticum-Store.msix
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Write-Host "MSIX $version gerado"
       - uses: actions/upload-artifact@v4
         with:
           name: Taticum-windows
           path: |
             dist/Taticum-Setup.exe
             Taticum-windows-portatil.zip
+            Taticum-Store.msix
 
   macos:
     name: macOS (Apple Silicon e Intel)
@@ -155,6 +172,7 @@ jobs:
           find dist -name 'Taticum-Setup.exe' -exec cp {} out/ \;
           find dist -name 'Taticum-windows-portatil.zip' -exec cp {} out/ \;
           find dist -name 'Taticum-macOS.dmg' -exec cp {} out/ \;
+          find dist -name 'Taticum-Store.msix' -exec cp {} out/ \;
           test -f out/Taticum-Setup.exe && test -f out/Taticum-macOS.dmg
           # Cópias com o nome antigo: o botão "Baixar atualização" das versões até 0.3.0 aponta para elas.
           cp out/Taticum-Setup.exe out/MentorPolicial-Setup.exe
