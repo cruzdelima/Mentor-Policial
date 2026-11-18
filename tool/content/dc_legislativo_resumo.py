@@ -1,0 +1,114 @@
+# -*- coding: utf-8 -*-
+"""Direito Constitucional · Poder Legislativo e processo legislativo — RESUMO (revisão)."""
+from common import *
+
+MATERIAL = material(
+    "dc-legislativo-01", "DC", "DC-09", "resumo", "Poder Legislativo e processo legislativo", "Direito Constitucional · Organização dos Poderes",
+    "constitucional_legislativo", "Constitucional_Poder_Legislativo_RESUMO.pdf", None, ["Poder", "Legislativo"], RES_SUB,
+    RES_ITEMS("Congresso, imunidades, CPI e espécies normativas"),
+    "Tópico do edital: Poder Legislativo e processo legislativo (arts. 44 a 75) — Direito Constitucional",
+    "Base: Constituição Federal de 1988 e jurisprudência do STF.", 35)
+
+THEORY = [
+    exam("O que a banca cobra",
+         "Números da Câmara e do Senado, **imunidades**, limites da **CPI**, **emenda constitucional**, **veto** e **medida provisória**."),
+    h2("1. Estrutura"),
+    bl("Câmara: povo, **proporcional**, **8 a 70** por Estado, 4 por Território, mandato de **4 anos**.",
+       "Senado: Estados e DF, **majoritário**, **3** por Estado, **2 suplentes**, mandato de **8 anos**, renovação de **1/3 e 2/3**.",
+       "Impeachment: Câmara autoriza por **2/3**; Senado julga, presidido pelo **Presidente do STF**; condena por **2/3**; inabilitação por **8 anos**.",
+       "Senado suspende lei declarada inconstitucional pelo STF em controle **difuso**."),
+    h2("2. Imunidades"),
+    bl("**Material**: opiniões, palavras e votos, civil e penalmente.",
+       "**Foro no STF** desde a **diplomação**, para crimes **no cargo e em razão dele**; subsiste **após o mandato** (STF, 2025).",
+       "**Prisão**: só em **flagrante de crime inafiançável**; autos em **24 h** à Casa, que decide por **maioria de seus membros**.",
+       "**Processo**: a Casa pode **sustar** a ação por crime posterior à diplomação (partido + maioria); suspende a prescrição.",
+       "Deputado estadual: igual. **Vereador**: só material, **no Município**."),
+    h2("3. CPI"),
+    bl("Requerimento de **1/3**, **fato determinado**, **prazo certo**; conclusões ao **MP**; direito da **minoria**.",
+       "Pode: quebrar sigilos **bancário, fiscal e de dados**; ouvir testemunhas; requisitar documentos.",
+       "Não pode: **interceptação**, **busca domiciliar**, **prisão** (salvo flagrante), **indisponibilidade de bens**."),
+    h2("4. Processo legislativo"),
+    bl("**EC**: 1/3 da Câmara ou do Senado, Presidente ou **mais da metade** das Assembleias; **2 turnos**, **3/5**, em cada Casa; promulgam as "
+       "**Mesas**; sem sanção; vedada em **intervenção, defesa e sítio**.",
+       "**LC**: maioria **absoluta**. **LO**: maioria **simples**.",
+       "Sanção ou veto em **15 dias úteis**; silêncio = **sanção tácita**; veto parcial só de texto **integral**; derrubada por **maioria "
+       "absoluta** em sessão conjunta.",
+       "**MP**: relevância e urgência; **60 + 60** dias; pauta trancada após **45 dias**; vedada em penal, processual, eleitoral, nacionalidade, "
+       "LC; sem reedição na mesma sessão legislativa.",
+       "**Lei delegada**: resolução do Congresso; não cabe em matéria de LC, direitos individuais, nacionalidade."),
+]
+
+SUMMARY = [
+    h2("Quadro rápido"),
+    tb(["Item", "Regra"], [0.42, 0.58], [
+        ("Deputados por Estado", "Mínimo 8, máximo 70"),
+        ("Senadores", "3 por Estado, mandato de 8 anos"),
+        ("Autorizar processo contra o Presidente", "Câmara, 2/3"),
+        ("Prisão de parlamentar", "Só flagrante de crime inafiançável"),
+        ("Criação de CPI", "1/3 + fato determinado + prazo certo"),
+        ("Emenda constitucional", "2 turnos, 3/5, cada Casa"),
+        ("Lei complementar", "Maioria absoluta"),
+        ("Prazo de sanção", "15 dias úteis"),
+        ("Derrubada de veto", "Maioria absoluta, sessão conjunta"),
+        ("Medida provisória", "60 + 60 dias; tranca pauta em 45"),
+    ]),
+    h2("Leve para a prova"),
+    bl("Imunidades começam na **diplomação**.",
+       "Flagrante **afiançável**: parlamentar **não** é preso.",
+       "Vereador: só imunidade **material**.",
+       "CPI **não** intercepta, **não** faz busca em casa.",
+       "EC **não** tem iniciativa popular.",
+       "EC **não** tem sanção.",
+       "Veto parcial: **artigo, parágrafo, inciso ou alínea** inteiros.",
+       "MP **não** trata de direito penal.",
+       "MP rejeitada: **sem reedição** na mesma sessão.",
+       "TCU **aprecia**; Congresso **julga** as contas do Presidente."),
+    {"t": "mindmap"},
+]
+
+MINDMAP = {
+    "root": "LEGISLATIVO", "rootSub": "arts. 44 a 75",
+    "left": [
+        {"label": "Câmara", "items": ["povo, proporcional", "8 a 70 por Estado", "mandato de 4 anos"]},
+        {"label": "Senado", "items": ["Estados e DF", "3 senadores", "mandato de 8 anos"]},
+        {"label": "Impeachment", "items": ["Câmara: 2/3", "Senado julga", "Presidente do STF preside"]},
+        {"label": "Imunidades", "items": ["material: opiniões", "prisão: inafiançável", "sustação da ação"]},
+        {"label": "CPI", "items": ["1/3, fato, prazo", "quebra sigilos", "não intercepta"]},
+    ],
+    "right": [
+        {"label": "Emenda", "items": ["2 turnos, 3/5", "Mesas promulgam", "cláusulas pétreas"]},
+        {"label": "Leis", "items": ["LC: maioria absoluta", "LO: maioria simples", "iniciativa do art. 61"]},
+        {"label": "Sanção e veto", "items": ["15 dias úteis", "silêncio = sanção", "derrubada: absoluta"]},
+        {"label": "Medida provisória", "items": ["60 + 60 dias", "pauta trancada em 45", "vedada em penal"]},
+        {"label": "Lei delegada", "items": ["resolução do CN", "votação única", "sem emendas"]},
+    ],
+}
+
+QUIZ = quiz([
+    ("C", "A representação de cada estado no Senado é renovada de quatro em quatro anos, alternadamente, por um e dois terços.",
+     "Art. 46, § 2º."),
+    ("E", "Compete ao Senado Federal autorizar a instauração de processo contra o Presidente da República por crime de responsabilidade.",
+     "A autorização é da Câmara, por dois terços; o Senado processa e julga."),
+    ("C", "Os vereadores são invioláveis por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do município.",
+     "Art. 29, VIII."),
+    ("E", "Parlamentar federal pode ser preso em flagrante de crime afiançável, desde que a prisão seja comunicada à Casa em vinte e quatro horas.",
+     "Só cabe prisão em flagrante de crime inafiançável."),
+    ("C", "Comissão parlamentar de inquérito não pode determinar a interceptação de comunicações telefônicas.",
+     "É matéria sujeita à reserva de jurisdição."),
+    ("E", "A proposta de emenda constitucional é aprovada se obtiver, em cada Casa, em turno único, dois terços dos votos dos respectivos membros.",
+     "Exigem-se dois turnos em cada Casa e três quintos dos votos."),
+    ("C", "A Constituição não pode ser emendada na vigência de estado de sítio.",
+     "Art. 60, § 1º."),
+    ("E", "O veto presidencial só pode ser rejeitado pelo voto de dois terços dos deputados e senadores.",
+     "A rejeição exige maioria absoluta dos deputados e senadores."),
+    ("C", "Medida provisória não apreciada em quarenta e cinco dias entra em regime de urgência, sobrestando as demais deliberações da Casa em que estiver tramitando.",
+     "Art. 62, § 6º."),
+    ("E", "É permitido ao Presidente da República reeditar, na mesma sessão legislativa, medida provisória que tenha sido rejeitada pelo Congresso Nacional.",
+     "A reedição na mesma sessão legislativa é vedada (art. 62, § 10)."),
+], 10)
+
+SOURCES = [
+    "Constituição da República Federativa do Brasil de 1988, arts. 29 e 44 a 75.",
+    "Supremo Tribunal Federal: HC 232.627.",
+    SRC_R,
+]
