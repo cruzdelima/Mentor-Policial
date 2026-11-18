@@ -1,7 +1,7 @@
 name: mentor_policial
 description: "Taticum — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
 publish_to: 'none'
-version: 0.7.1+10
+version: 0.8.0+11
 
 environment:
   sdk: ^3.9.0
@@ -21,8 +21,32 @@ flutter:
   assets:
     - assets/catalog/
     - assets/content/
+    - assets/content/constitucional_administracao/
+    - assets/content/constitucional_administracao_aprofundado/
+    - assets/content/constitucional_defesa/
+    - assets/content/constitucional_defesa_aprofundado/
+    - assets/content/constitucional_direitos/
+    - assets/content/constitucional_direitos_aprofundado/
+    - assets/content/constitucional_executivo/
+    - assets/content/constitucional_executivo_aprofundado/
+    - assets/content/constitucional_judiciario/
+    - assets/content/constitucional_judiciario_aprofundado/
+    - assets/content/constitucional_legislativo/
+    - assets/content/constitucional_legislativo_aprofundado/
+    - assets/content/constitucional_nacionalidade/
+    - assets/content/constitucional_nacionalidade_aprofundado/
+    - assets/content/constitucional_organizacao/
+    - assets/content/constitucional_organizacao_aprofundado/
+    - assets/content/constitucional_politicos/
+    - assets/content/constitucional_politicos_aprofundado/
     - assets/content/constitucional_principios/
     - assets/content/constitucional_principios_aprofundado/
+    - assets/content/constitucional_remedios/
+    - assets/content/constitucional_remedios_aprofundado/
+    - assets/content/constitucional_seguranca/
+    - assets/content/constitucional_seguranca_aprofundado/
+    - assets/content/constitucional_sociais/
+    - assets/content/constitucional_sociais_aprofundado/
     - assets/content/contabilidade_conceitos/
     - assets/content/contabilidade_conceitos_aprofundado/
     - assets/content/informatica_virus/

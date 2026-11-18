@@ -1,0 +1,453 @@
+{
+ "id": "dc-organizacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-07"
+ ],
+ "kind": "aprofundado",
+ "title": "Organização político-administrativa do Estado (arts. 18 a 33)",
+ "subtitle": "Direito Constitucional · Organização do Estado",
+ "minutes": 150,
+ "pdf": "constitucional_organizacao_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O ponto mais cobrado é a **repartição de competências** (arts. 21 a 24). Aprenda a diferença entre competência **administrativa** (fazer) e **legislativa** (legislar), e entre **exclusiva, privativa, comum e concorrente**. Em provas policiais, a banca adora perguntar **quem legisla sobre as polícias** e **quem organiza as polícias do DF**."
+    },
+    {
+     "t": "h2",
+     "text": "1. A federação brasileira"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a **União**, os **Estados**, o **Distrito Federal** e os **Municípios**, todos **autônomos**, nos termos desta Constituição."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Brasília** é a Capital Federal (§ 1º).",
+      "Os **Territórios Federais** integram a **União**: não são entes federativos. Sua criação, transformação em Estado ou reintegração ao Estado de origem é regulada em **lei complementar** (§ 2º).",
+      "A **soberania** pertence à República Federativa do Brasil; os entes têm **autonomia**: auto-organização, autogoverno, autoadministração e autolegislação."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Vedações aos entes (art. 19)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles relações de dependência ou aliança, **ressalvada a colaboração de interesse público** (o Estado é **laico**).",
+      "**Recusar fé aos documentos públicos.**",
+      "Criar **distinções entre brasileiros** ou **preferências entre si**."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Bens da União (art. 20), em destaque"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Mar territorial, terrenos de marinha, recursos da plataforma continental e da zona econômica exclusiva.",
+      "Lagos e rios em terrenos da União ou que **banhem mais de um Estado** ou sirvam de **limite com outros países**.",
+      "**Recursos minerais**, inclusive os do subsolo, e os **potenciais de energia hidráulica**.",
+      "**Cavidades naturais subterrâneas** e **sítios arqueológicos e pré-históricos**.",
+      "**Terras tradicionalmente ocupadas pelos índios**.",
+      "A **faixa de fronteira** tem até **150 km** de largura e é fundamental para a defesa do território (§ 2º)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Criação, fusão e desmembramento de entes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Ente",
+      "Requisitos"
+     ],
+     "widths": [
+      0.18,
+      0.82
+     ],
+     "rows": [
+      [
+       "**Estados**",
+       "**Plebiscito** da população diretamente interessada + **lei complementar** do Congresso Nacional (ouvidas as Assembleias Legislativas)."
+      ],
+      [
+       "**Municípios**",
+       "**Lei estadual**, dentro do período fixado em **lei complementar federal**, após **Estudos de Viabilidade Municipal** divulgados e **plebiscito** das populações dos Municípios envolvidos."
+      ],
+      [
+       "**Territórios**",
+       "**Lei complementar** federal."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "A lei complementar federal que fixa o período para criar Municípios **ainda não foi editada**. Por isso, Municípios criados depois da EC 15/1996 sem ela eram inconstitucionais; a **EC 57/2008** convalidou os criados até **31/12/2006**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Repartição de competências"
+    },
+    {
+     "t": "p",
+     "text": "A Constituição reparte as competências pelo **princípio da predominância do interesse**: o que é de interesse **geral** fica com a **União**; o **regional**, com os **Estados**; o **local**, com os **Municípios**. O **DF** acumula as competências estaduais e municipais."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Artigo",
+      "Tipo",
+      "Quem",
+      "Delegável?"
+     ],
+     "widths": [
+      0.1,
+      0.36,
+      0.3,
+      0.24
+     ],
+     "rows": [
+      [
+       "21",
+       "**Exclusiva** (administrativa: fazer)",
+       "União",
+       "**Não**"
+      ],
+      [
+       "22",
+       "**Privativa** (legislativa: legislar)",
+       "União",
+       "**Sim**, por **lei complementar**, aos Estados, sobre questões específicas"
+      ],
+      [
+       "23",
+       "**Comum** (administrativa)",
+       "União, Estados, DF e Municípios",
+       "—"
+      ],
+      [
+       "24",
+       "**Concorrente** (legislativa)",
+       "União, Estados e DF (**não** os Municípios)",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Art. 21: competência exclusiva da União (seleção)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Manter relações com Estados estrangeiros; declarar a guerra e celebrar a paz; assegurar a defesa nacional.",
+      "Decretar o **estado de sítio**, o **estado de defesa** e a **intervenção federal**.",
+      "Emitir moeda; manter o serviço postal e o correio aéreo nacional.",
+      "Autorizar e fiscalizar a produção e o comércio de **material bélico**.",
+      "**Organizar e manter** a **polícia civil**, a **polícia penal**, a **polícia militar** e o **corpo de bombeiros militar do DF** (XIV).",
+      "Executar os serviços de **polícia marítima, aeroportuária e de fronteiras** (XXII)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Art. 22: competência privativa da União para legislar (seleção)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Mnemônico: CAPACETE DE PM",
+     "text": "Direito **C**ivil, **A**grário, **P**enal, **A**eronáutico, **C**omercial, **E**leitoral, do **T**rabalho, **E**spacial, **D**esapropriação, **P**rocessual e **M**arítimo."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Trânsito e transporte; águas, energia, informática e telecomunicações; registros públicos; nacionalidade e cidadania.",
+      "**Normas gerais** de organização, efetivos, material bélico, garantias, convocação, mobilização, inatividades e pensões das **polícias militares** e dos **corpos de bombeiros militares** (XXI).",
+      "**Competência da polícia federal e das polícias rodoviária e ferroviária federais** (XXII).",
+      "Material bélico; diretrizes e bases da educação; seguridade social; normas gerais de licitação e contratação.",
+      "**Proteção e tratamento de dados pessoais** (XXX, EC 115/2022)."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Súmulas Vinculantes ligadas ao tema: **SV 46** (definição dos crimes de responsabilidade e normas de processo e julgamento são da União); **SV 39** (compete privativamente à União legislar sobre **vencimentos** dos membros das **polícias civil e militar e do corpo de bombeiros militar do DF**)."
+    },
+    {
+     "t": "h3",
+     "text": "Art. 23: competência comum (seleção)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Zelar pela guarda da Constituição, das leis e das instituições democráticas e conservar o patrimônio público.",
+      "Cuidar da saúde e da assistência pública; proteger documentos, obras e bens de valor histórico e cultural.",
+      "Proteger o **meio ambiente**, combater a poluição e preservar florestas, fauna e flora.",
+      "Combater as causas da pobreza; estabelecer política de educação para a **segurança do trânsito**.",
+      "**Lei complementar** fixa normas de **cooperação** entre os entes."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Art. 24: competência concorrente"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Mnemônico: PUFETO",
+     "text": "Direito **P**enitenciário, **U**rbanístico, **F**inanceiro, **E**conômico, **T**ributário e **O**rçamento. Também: juntas comerciais, custas forenses, produção e consumo, proteção ao meio ambiente, educação e cultura, proteção à infância e à juventude, procedimentos em matéria processual e **organização, garantias, direitos e deveres das polícias civis** (XVI)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Regra do art. 24",
+      "Conteúdo"
+     ],
+     "widths": [
+      0.28,
+      0.72
+     ],
+     "rows": [
+      [
+       "§ 1º",
+       "A **União** edita **normas gerais**."
+      ],
+      [
+       "§ 2º",
+       "Os **Estados** têm competência **suplementar**."
+      ],
+      [
+       "§ 3º",
+       "Inexistindo lei federal de normas gerais, os Estados exercem a competência legislativa **plena**."
+      ],
+      [
+       "§ 4º",
+       "A superveniência de lei federal **suspende a eficácia** (não revoga) da lei estadual, **no que lhe for contrário**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: Direito Penal × Penitenciário",
+     "text": "Direito **Penal** e **Processual** são **privativos** da União (art. 22). Direito **Penitenciário** e **procedimentos** em matéria processual são **concorrentes** (art. 24). E o Município não aparece no art. 24, embora possa **suplementar** a legislação federal e estadual no que couber (art. 30, II)."
+    },
+    {
+     "t": "h2",
+     "text": "4. Estados (arts. 25 a 28)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Organizam-se e regem-se pelas **Constituições** e leis que adotarem, observados os princípios da Constituição Federal.",
+      "Têm a competência **residual** (remanescente): o que não lhes for vedado.",
+      "Exploram diretamente, ou por concessão, os serviços locais de **gás canalizado** (vedada a medida provisória para regulamentá-los).",
+      "Podem instituir **regiões metropolitanas**, aglomerações urbanas e microrregiões por **lei complementar estadual**.",
+      "**Deputados estaduais** (art. 27): o **triplo** da representação do Estado na Câmara dos Deputados; atingido o número de **36**, acrescem-se tantos quantos forem os deputados federais acima de **12**.",
+      "Mandato de **4 anos** para deputados estaduais e governador; aplicam-se aos deputados estaduais as regras de imunidades dos federais."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Municípios (arts. 29 a 31)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Regem-se por **lei orgânica**, votada em **dois turnos**, com interstício mínimo de **10 dias**, e aprovada por **2/3** dos membros da Câmara Municipal.",
+      "Competem-lhes legislar sobre **assuntos de interesse local**, suplementar a legislação federal e estadual no que couber e prestar os serviços públicos de interesse local, incluído o **transporte coletivo**, que tem caráter essencial.",
+      "**SV 38**: o Município é competente para fixar o **horário de funcionamento** de estabelecimento comercial. Já o horário de funcionamento **bancário** é assunto da **União**.",
+      "**SV 49**: ofende a livre concorrência lei municipal que impede a instalação de estabelecimentos comerciais do **mesmo ramo** em determinada área.",
+      "**Fiscalização** (art. 31): controle externo pela **Câmara Municipal**, com auxílio dos Tribunais de Contas dos Estados ou dos Municípios, onde houver. O parecer prévio sobre as contas do prefeito só deixa de prevalecer por **2/3** da Câmara. É **vedada a criação** de novos Tribunais, Conselhos ou órgãos de Contas **Municipais**."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Os Municípios **não têm Poder Judiciário** próprio nem **Ministério Público** próprio, e **não elegem representantes** para o Senado."
+    },
+    {
+     "t": "h2",
+     "text": "6. Distrito Federal e Territórios (arts. 32 e 33)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O **DF** é **vedado dividir-se em Municípios**. Rege-se por **lei orgânica** (dois turnos, 10 dias, 2/3 da Câmara Legislativa).",
+      "O DF acumula as competências legislativas **reservadas aos Estados e Municípios**.",
+      "A **polícia civil**, a **polícia penal**, a **polícia militar** e o **corpo de bombeiros militar** do DF são **organizados e mantidos pela União**; **lei federal** dispõe sobre sua utilização pelo Governo do DF (art. 32, § 4º).",
+      "O **Poder Judiciário** e o **Ministério Público** do DF também são organizados e mantidos pela União.",
+      "**Territórios**: podem ser divididos em Municípios; o **governador** é nomeado pelo **Presidente** após aprovação do **Senado**; cada Território elege **4 deputados federais** e **nenhum senador**; com mais de **100 mil habitantes**, terá órgãos judiciários, Ministério Público e Defensoria Pública federais."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Os territórios federais integram a União e não são entes federativos.",
+    "comment": "**Certo.** Art. 18, § 2º.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Os municípios não têm autonomia política, pois estão subordinados aos estados em que se localizam.",
+    "comment": "**Errado.** Todos os entes do art. 18 são autônomos; não há hierarquia entre eles.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A incorporação, subdivisão ou desmembramento de estados depende de aprovação da população diretamente interessada, por plebiscito, e do Congresso Nacional, por lei complementar.",
+    "comment": "**Certo.** Art. 18, § 3º.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A criação de municípios é feita por lei complementar federal, após plebiscito da população do município de origem.",
+    "comment": "**Errado.** A criação se faz por lei estadual, no período fixado por lei complementar federal, após estudos de viabilidade e plebiscito das populações envolvidas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A competência exclusiva da União, prevista no art. 21, é indelegável.",
+    "comment": "**Certo.** Só a competência privativa do art. 22 admite delegação por lei complementar.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Compete aos estados, concorrentemente com a União, legislar sobre direito penal e processual.",
+    "comment": "**Errado.** Direito penal e processual são de competência privativa da União (art. 22, I).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Legislar sobre direito penitenciário é competência concorrente da União, dos estados e do Distrito Federal.",
+    "comment": "**Certo.** Art. 24, I.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No âmbito da competência concorrente, a superveniência de lei federal sobre normas gerais revoga a lei estadual que dispuser em sentido contrário.",
+    "comment": "**Errado.** A lei federal superveniente suspende a eficácia da lei estadual no que lhe for contrário; não a revoga.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Compete aos municípios legislar sobre assuntos de interesse local.",
+    "comment": "**Certo.** Art. 30, I.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "É permitida a divisão do Distrito Federal em municípios, desde que aprovada pela Câmara Legislativa.",
+    "comment": "**Errado.** O art. 32 veda a divisão do DF em municípios.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Compete à União organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do Distrito Federal.",
+    "comment": "**Certo.** Art. 21, XIV.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Lei distrital pode fixar os vencimentos dos integrantes da Polícia Civil do Distrito Federal, uma vez que o DF possui autonomia para organizar seus órgãos de segurança pública.",
+    "comment": "**Errado.** SV 39: compete privativamente à União legislar sobre vencimentos das polícias civil e militar e do corpo de bombeiros do DF.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Compete privativamente à União legislar sobre normas gerais de organização, efetivos, material bélico, garantias, convocação e mobilização das polícias militares e dos corpos de bombeiros militares.",
+    "comment": "**Certo.** Art. 22, XXI.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Compete à União legislar privativamente sobre organização, garantias, direitos e deveres das polícias civis.",
+    "comment": "**Errado.** Essa matéria é de competência concorrente (art. 24, XVI).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Lei municipal pode fixar o horário de funcionamento dos estabelecimentos comerciais localizados no município.",
+    "comment": "**Certo.** SV 38.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Lei municipal pode proibir a instalação de farmácias a menos de quinhentos metros de outra já existente, como forma de organizar o comércio local.",
+    "comment": "**Errado.** SV 49: a restrição ofende o princípio da livre concorrência.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Considere que um estado tenha dezoito deputados federais. Nesse caso, a Assembleia Legislativa desse estado terá quarenta e dois deputados estaduais.",
+    "comment": "**Certo.** O triplo de 12 é 36; os 6 deputados federais acima de 12 se somam: 36 + 6 = 42.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Os municípios podem criar tribunais de contas municipais, desde que o façam por lei orgânica aprovada por dois terços da Câmara Municipal.",
+    "comment": "**Errado.** O art. 31, § 4º, veda a criação de tribunais, conselhos ou órgãos de contas municipais.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Inexistindo lei federal sobre normas gerais em matéria de competência concorrente, os estados exercerão a competência legislativa plena para atender a suas peculiaridades.",
+    "comment": "**Certo.** Art. 24, § 3º.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Cada território federal elege três senadores e quatro deputados federais.",
+    "comment": "**Errado.** Territórios elegem quatro deputados federais, mas não elegem senadores.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 18 a 33, 45 e 84; EC 57/2008, 104/2019 e 115/2022.",
+  "Supremo Tribunal Federal: Súmulas Vinculantes 38, 39, 46 e 49.",
+  "Doutrina de referência: Lenza, Direito constitucional; Mendes e Branco, Curso de direito constitucional.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -554,7 +554,7 @@ def check(C):
 
 
 if __name__ == '__main__':
-    index = {'version': '2026.11.2', 'materials': []}
+    index = {'version': '2026.11.3', 'materials': []}
     for name in MODULES:
         C = importlib.import_module(name)
         m = C.MATERIAL

@@ -1,0 +1,434 @@
+{
+ "id": "dc-sociais-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-04"
+ ],
+ "kind": "aprofundado",
+ "title": "Direitos sociais (arts. 6º a 11)",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 90,
+ "pdf": "constitucional_sociais_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Direitos sociais são direitos de **2ª dimensão**: exigem que o Estado **faça** algo (prestações). A banca cobra o **rol do art. 6º** com itens trocados, os números do **art. 7º** (horas, dias, percentuais) e, em provas policiais, a **proibição de greve** para quem atua na segurança pública."
+    },
+    {
+     "t": "h2",
+     "text": "1. Art. 6º: o rol dos direitos sociais"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 6º São direitos sociais a **educação**, a **saúde**, a **alimentação**, o **trabalho**, a **moradia**, o **transporte**, o **lazer**, a **segurança**, a **previdência social**, a **proteção à maternidade e à infância**, a **assistência aos desamparados**, na forma desta Constituição."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Direito",
+      "Incluído por"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Moradia",
+       "EC 26/2000"
+      ],
+      [
+       "Alimentação",
+       "EC 64/2010"
+      ],
+      [
+       "Transporte",
+       "EC 90/2015"
+      ],
+      [
+       "Renda básica familiar (parágrafo único)",
+       "EC 114/2021"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "O **parágrafo único** (EC 114/2021) garante a **todo brasileiro em situação de vulnerabilidade social** o direito a uma **renda básica familiar**, paga pelo poder público em **programa permanente de transferência de renda**, nos termos da lei."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: o que não está no art. 6º",
+     "text": "**Cultura**, **esporte**, **meio ambiente**, **igualdade** e **propriedade** **não** estão no rol do art. 6º (estão em outros artigos da Constituição). A banca também cita “**segurança pública**”: o art. 6º fala apenas em **segurança**."
+    },
+    {
+     "t": "h3",
+     "text": "Conceitos ligados aos direitos sociais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Conceito",
+      "Significado"
+     ],
+     "widths": [
+      0.28,
+      0.72
+     ],
+     "rows": [
+      [
+       "Reserva do possível",
+       "O Estado só pode cumprir as prestações dentro dos **recursos disponíveis**. Não pode ser usada como desculpa genérica."
+      ],
+      [
+       "Mínimo existencial",
+       "Núcleo básico de condições para uma vida digna. Não pode ser negado com base na reserva do possível."
+      ],
+      [
+       "Vedação do retrocesso",
+       "Direitos sociais já concretizados não podem ser simplesmente suprimidos sem alternativa."
+      ],
+      [
+       "Controle judicial",
+       "O Judiciário pode determinar ao Executivo a implementação de políticas públicas essenciais (ex.: vagas em creche) sem violar a separação dos Poderes."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Art. 7º: direitos dos trabalhadores"
+    },
+    {
+     "t": "p",
+     "text": "O art. 7º lista direitos dos trabalhadores **urbanos e rurais**, “além de outros que visem à melhoria de sua condição social”. Os números são os mais cobrados:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Direito",
+      "Regra"
+     ],
+     "widths": [
+      0.36,
+      0.64
+     ],
+     "rows": [
+      [
+       "Salário mínimo (IV)",
+       "Fixado em **lei**, **nacionalmente unificado**, reajustes periódicos; **vedada sua vinculação** para qualquer fim."
+      ],
+      [
+       "Irredutibilidade do salário (VI)",
+       "Salvo o disposto em **convenção ou acordo coletivo**."
+      ],
+      [
+       "13º salário (VIII)",
+       "Com base na remuneração integral ou no valor da aposentadoria."
+      ],
+      [
+       "Participação nos lucros (XI)",
+       "**Desvinculada da remuneração**; excepcionalmente, participação na gestão."
+      ],
+      [
+       "Salário-família (XII)",
+       "Para o dependente do trabalhador de **baixa renda**."
+      ],
+      [
+       "Jornada (XIII)",
+       "Até **8 horas diárias** e **44 semanais**, facultada compensação e redução por acordo ou convenção."
+      ],
+      [
+       "Turnos ininterruptos (XIV)",
+       "Jornada de **6 horas**, salvo negociação coletiva."
+      ],
+      [
+       "Repouso semanal (XV)",
+       "Remunerado, **preferencialmente aos domingos**."
+      ],
+      [
+       "Hora extra (XVI)",
+       "Remuneração superior, **no mínimo, em 50%** à do normal."
+      ],
+      [
+       "Férias (XVII)",
+       "Anuais remuneradas com, **pelo menos, um terço a mais** do salário normal."
+      ],
+      [
+       "Licença à gestante (XVIII)",
+       "**120 dias**, sem prejuízo do emprego e do salário."
+      ],
+      [
+       "Licença-paternidade (XIX)",
+       "Nos termos da lei. A **Lei 15.371/2026** a fixou em **10 dias em 2027**, **15 em 2028** e **20 a partir de 2029** (antes, 5 dias pelo ADCT)."
+      ],
+      [
+       "Aviso prévio (XXI)",
+       "**Proporcional** ao tempo de serviço, **no mínimo 30 dias**."
+      ],
+      [
+       "Creche e pré-escola (XXV)",
+       "Assistência gratuita aos filhos e dependentes **até 5 anos** de idade."
+      ],
+      [
+       "Prescrição (XXIX)",
+       "**5 anos** para os créditos, até o limite de **2 anos** após a extinção do contrato."
+      ],
+      [
+       "Menores (XXXIII)",
+       "Proibido trabalho **noturno, perigoso ou insalubre** a menores de **18**; qualquer trabalho a menores de **16**, salvo **aprendiz**, a partir de **14**."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Também são direitos: proteção contra **despedida arbitrária** (lei complementar, com indenização compensatória), **seguro-desemprego**, **FGTS**, adicional **noturno**, adicionais de **insalubridade e periculosidade**, **aposentadoria**, reconhecimento de **convenções e acordos coletivos** e seguro contra acidentes de trabalho.",
+      "São proibidas diferenças de salários, de funções e de critério de admissão por motivo de **sexo, idade, cor ou estado civil** (XXX) e qualquer discriminação ao trabalhador **com deficiência** (XXXI).",
+      "O trabalhador **avulso** tem igualdade de direitos com o de vínculo permanente (XXXIV). Os **domésticos** têm boa parte desses direitos (parágrafo único, ampliado pela EC 72/2013)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Números para decorar",
+     "text": "**8 e 44** horas · **6** horas no turno ininterrupto · hora extra **+50%** · férias **+1/3** · gestante **120 dias** · aviso **30 dias** · creche **até 5 anos** · prescrição **5 anos / 2 anos** · aprendiz **14**, trabalho **16**, noturno **18**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Art. 8º: liberdade sindical"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "É livre a associação profissional ou sindical. A lei **não pode exigir autorização do Estado** para fundar sindicato, ressalvado o **registro** no órgão competente.",
+      "**Unicidade sindical**: é vedada a criação de **mais de uma** organização sindical representativa da mesma categoria na **mesma base territorial**, que **não pode ser inferior à área de um Município**.",
+      "**Ninguém** será obrigado a filiar-se ou a manter-se filiado.",
+      "É **obrigatória** a participação dos sindicatos nas **negociações coletivas** de trabalho.",
+      "O **aposentado filiado** tem direito a votar e ser votado.",
+      "**Estabilidade do dirigente**: é vedada a dispensa do empregado sindicalizado a partir do **registro da candidatura** a cargo de direção e, se eleito, até **1 ano após o final do mandato**, salvo **falta grave**.",
+      "A **contribuição confederativa** só é exigível dos **filiados** (Súmula Vinculante 40)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Art. 9º: direito de greve"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 9º É assegurado o direito de greve, competindo aos **trabalhadores** decidir sobre a **oportunidade** de exercê-lo e sobre os **interesses** que devam por meio dele defender. § 1º A lei definirá os **serviços ou atividades essenciais** e disporá sobre o atendimento das necessidades inadiáveis da comunidade. § 2º Os **abusos** cometidos sujeitam os responsáveis às penas da lei."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quem",
+      "Greve"
+     ],
+     "widths": [
+      0.32,
+      0.68
+     ],
+     "rows": [
+      [
+       "Trabalhador da iniciativa privada",
+       "Direito assegurado (art. 9º; Lei 7.783/1989)."
+      ],
+      [
+       "Servidor público civil",
+       "Exercido nos termos de **lei específica** (art. 37, VII). Como a lei não veio, aplica-se a lei do setor privado (MI 670, 708 e 712)."
+      ],
+      [
+       "**Policial civil** e demais servidores que atuam **diretamente na segurança pública**",
+       "**Vedada** sob qualquer forma (STF, ARE 654.432, Tema 541). O poder público deve participar de mediação com a categoria."
+      ],
+      [
+       "**Militares** (Forças Armadas, PM e bombeiros)",
+       "**Proibidas a sindicalização e a greve** (art. 142, § 3º, IV, aplicado aos militares estaduais pelo art. 42, § 1º)."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha da área policial",
+     "text": "A Constituição proíbe expressamente greve e sindicalização dos **militares**. Para os **policiais civis**, a proibição de greve vem do **STF**, não do texto constitucional. Os policiais civis **podem** se sindicalizar."
+    },
+    {
+     "t": "h2",
+     "text": "5. Arts. 10 e 11: participação dos trabalhadores"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Art. 10**: é assegurada a participação dos trabalhadores e empregadores nos **colegiados dos órgãos públicos** em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.",
+      "**Art. 11**: nas empresas de **mais de 200 empregados**, é assegurada a eleição de **um representante** destes para promover o entendimento direto com os empregadores."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O transporte foi incluído entre os direitos sociais do art. 6º da Constituição por emenda constitucional.",
+    "comment": "**Certo.** Foi incluído pela EC 90/2015.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A cultura e o meio ambiente integram o rol de direitos sociais do art. 6º da Constituição Federal.",
+    "comment": "**Errado.** Não estão no art. 6º; são tratados em outros capítulos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A Constituição assegura renda básica familiar a todo brasileiro em situação de vulnerabilidade social, por meio de programa permanente de transferência de renda.",
+    "comment": "**Certo.** É o parágrafo único do art. 6º (EC 114/2021).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A Constituição admite a vinculação do salário mínimo para fins de reajuste de benefícios e contratos.",
+    "comment": "**Errado.** É vedada a vinculação do salário mínimo para qualquer fim.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A remuneração do serviço extraordinário deve ser superior, no mínimo, em cinquenta por cento à do normal.",
+    "comment": "**Certo.** Art. 7º, XVI.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A jornada normal de trabalho não pode ser superior a oito horas diárias e quarenta horas semanais.",
+    "comment": "**Errado.** O limite semanal é de 44 horas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "É proibido qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos.",
+    "comment": "**Certo.** Art. 7º, XXXIII.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A lei pode exigir autorização do Estado para a fundação de sindicato, desde que fundada em critérios objetivos.",
+    "comment": "**Errado.** A lei não pode exigir autorização; ressalva-se apenas o registro no órgão competente.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "É vedada a criação de mais de uma organização sindical representativa da mesma categoria na mesma base territorial, que não pode ser inferior à área de um município.",
+    "comment": "**Certo.** É a unicidade sindical do art. 8º, II.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Nas empresas com mais de cem empregados, a Constituição assegura a eleição de um representante destes para promover o entendimento direto com os empregadores.",
+    "comment": "**Errado.** O art. 11 fala em empresas com mais de duzentos empregados.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Um sindicato de policiais civis decidiu paralisar as atividades da categoria por tempo indeterminado. Conforme o entendimento do STF, essa paralisação é vedada, por se tratar de servidores que atuam diretamente na área de segurança pública.",
+    "comment": "**Certo.** STF, ARE 654.432 (Tema 541): o exercício do direito de greve é vedado aos policiais civis.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "A Constituição Federal proíbe expressamente a sindicalização dos policiais civis.",
+    "comment": "**Errado.** A vedação expressa de sindicalização e greve atinge os militares. Policiais civis podem se sindicalizar; a proibição de greve decorre do STF.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Aos militares dos estados aplicam-se as proibições de sindicalização e de greve previstas para os membros das Forças Armadas.",
+    "comment": "**Certo.** Art. 142, § 3º, IV, combinado com o art. 42, § 1º.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "O direito de greve dos servidores públicos civis é exercido nos termos de lei complementar, de modo que, enquanto esta não for editada, a greve é proibida.",
+    "comment": "**Errado.** A Constituição exige lei específica (ordinária). Na falta dela, o STF mandou aplicar a lei de greve do setor privado.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "A contribuição confederativa só é exigível dos filiados ao sindicato respectivo.",
+    "comment": "**Certo.** Súmula Vinculante 40.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "O empregado eleito para cargo de direção sindical tem estabilidade até dois anos após o final do mandato, salvo se cometer falta grave.",
+    "comment": "**Errado.** A estabilidade vai até um ano após o final do mandato.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "A alegação genérica de falta de recursos (reserva do possível) não basta para afastar a obrigação do Estado de garantir o mínimo existencial.",
+    "comment": "**Certo.** O mínimo existencial prevalece sobre a invocação genérica da reserva do possível.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Considere que um trabalhador tenha sido demitido há três anos. Nesse caso, ele ainda pode cobrar judicialmente créditos dos últimos cinco anos do contrato, pois a prescrição trabalhista é de cinco anos.",
+    "comment": "**Errado.** Após a extinção do contrato, a ação deve ser proposta em até dois anos.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "A Constituição proíbe diferença de salários, de exercício de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil.",
+    "comment": "**Certo.** Art. 7º, XXX.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "A participação nos lucros ou resultados integra a remuneração do empregado para todos os efeitos legais.",
+    "comment": "**Errado.** A Constituição a prevê desvinculada da remuneração.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 6º a 11, 37, VII, 42 e 142, § 3º; ADCT, art. 10, § 1º.",
+  "Lei 15.371/2026 (licença-paternidade e salário-paternidade); Lei 7.783/1989 (greve).",
+  "Supremo Tribunal Federal: ARE 654.432 (Tema 541); MI 670, 708 e 712; Súmula Vinculante 40.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

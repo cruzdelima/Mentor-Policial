@@ -1,5 +1,5 @@
 {
- "version": "2026.11.2",
+ "version": "2026.11.3",
  "materials": [
   {
    "id": "lp-ortografia-02",
@@ -807,6 +807,366 @@
    ],
    "kind": "resumo",
    "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-direitos-02",
+   "folder": "constitucional_direitos_aprofundado",
+   "title": "Direitos e deveres individuais e coletivos (art. 5º)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-02"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-direitos-01",
+   "folder": "constitucional_direitos",
+   "title": "Direitos e deveres individuais e coletivos (art. 5º)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-02"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-remedios-02",
+   "folder": "constitucional_remedios_aprofundado",
+   "title": "Remédios constitucionais",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-03"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-remedios-01",
+   "folder": "constitucional_remedios",
+   "title": "Remédios constitucionais",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-03"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-sociais-02",
+   "folder": "constitucional_sociais_aprofundado",
+   "title": "Direitos sociais (arts. 6º a 11)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-04"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-sociais-01",
+   "folder": "constitucional_sociais",
+   "title": "Direitos sociais (arts. 6º a 11)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-04"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-nacionalidade-02",
+   "folder": "constitucional_nacionalidade_aprofundado",
+   "title": "Nacionalidade (arts. 12 e 13)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-05"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-nacionalidade-01",
+   "folder": "constitucional_nacionalidade",
+   "title": "Nacionalidade (arts. 12 e 13)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-05"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-politicos-02",
+   "folder": "constitucional_politicos_aprofundado",
+   "title": "Direitos políticos e partidos (arts. 14 a 17)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-06"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-politicos-01",
+   "folder": "constitucional_politicos",
+   "title": "Direitos políticos e partidos (arts. 14 a 17)",
+   "subtitle": "Direito Constitucional · Direitos fundamentais",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-06"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-organizacao-02",
+   "folder": "constitucional_organizacao_aprofundado",
+   "title": "Organização político-administrativa do Estado (arts. 18 a 33)",
+   "subtitle": "Direito Constitucional · Organização do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-07"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-organizacao-01",
+   "folder": "constitucional_organizacao",
+   "title": "Organização político-administrativa do Estado (arts. 18 a 33)",
+   "subtitle": "Direito Constitucional · Organização do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-07"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-administracao-02",
+   "folder": "constitucional_administracao_aprofundado",
+   "title": "Administração Pública e servidores (arts. 37 a 41)",
+   "subtitle": "Direito Constitucional · Organização do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-08"
+   ],
+   "kind": "aprofundado",
+   "minutes": 240,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-administracao-01",
+   "folder": "constitucional_administracao",
+   "title": "Administração Pública e servidores (arts. 37 a 41)",
+   "subtitle": "Direito Constitucional · Organização do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-08"
+   ],
+   "kind": "resumo",
+   "minutes": 40,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-legislativo-02",
+   "folder": "constitucional_legislativo_aprofundado",
+   "title": "Poder Legislativo e processo legislativo",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-09"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-legislativo-01",
+   "folder": "constitucional_legislativo",
+   "title": "Poder Legislativo e processo legislativo",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-09"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-executivo-02",
+   "folder": "constitucional_executivo_aprofundado",
+   "title": "Poder Executivo",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-10"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-executivo-01",
+   "folder": "constitucional_executivo",
+   "title": "Poder Executivo",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-10"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-judiciario-02",
+   "folder": "constitucional_judiciario_aprofundado",
+   "title": "Poder Judiciário e funções essenciais à Justiça",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-11"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-judiciario-01",
+   "folder": "constitucional_judiciario",
+   "title": "Poder Judiciário e funções essenciais à Justiça",
+   "subtitle": "Direito Constitucional · Organização dos Poderes",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-11"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-defesa-02",
+   "folder": "constitucional_defesa_aprofundado",
+   "title": "Defesa do Estado: estados de defesa e de sítio, Forças Armadas",
+   "subtitle": "Direito Constitucional · Defesa do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-12"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-defesa-01",
+   "folder": "constitucional_defesa",
+   "title": "Defesa do Estado: estados de defesa e de sítio, Forças Armadas",
+   "subtitle": "Direito Constitucional · Defesa do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-12"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-seguranca-02",
+   "folder": "constitucional_seguranca_aprofundado",
+   "title": "Segurança Pública (art. 144)",
+   "subtitle": "Direito Constitucional · Defesa do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-13"
+   ],
+   "kind": "aprofundado",
+   "minutes": 150,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor"
+  },
+  {
+   "id": "dc-seguranca-01",
+   "folder": "constitucional_seguranca",
+   "title": "Segurança Pública (art. 144)",
+   "subtitle": "Direito Constitucional · Defesa do Estado",
+   "subjectId": "DC",
+   "topicIds": [
+    "DC-13"
+   ],
+   "kind": "resumo",
+   "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
    "status": "Em revisão pelo autor"

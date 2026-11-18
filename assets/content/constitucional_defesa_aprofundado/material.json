@@ -1,0 +1,423 @@
+{
+ "id": "dc-defesa-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-12"
+ ],
+ "kind": "aprofundado",
+ "title": "Defesa do Estado: estados de defesa e de sítio, Forças Armadas",
+ "subtitle": "Direito Constitucional · Defesa do Estado",
+ "minutes": 90,
+ "pdf": "constitucional_defesa_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Monte uma tabela comparando **estado de defesa** e **estado de sítio**: hipótese, quem ouve, quando o Congresso se manifesta, quórum, prazo e medidas. A banca quase sempre troca uma característica de um pelo outro. Nas Forças Armadas, o foco é a **missão** (art. 142) e as **restrições** aos militares."
+    },
+    {
+     "t": "h2",
+     "text": "1. O sistema constitucional de crises"
+    },
+    {
+     "t": "p",
+     "text": "O Título V trata da **defesa do Estado e das instituições democráticas**. Em situações de crise, a Constituição permite **restringir temporariamente** alguns direitos, sempre com **necessidade**, **temporariedade**, **proporcionalidade** e **controle** pelo Congresso e pelo Judiciário. Os executores respondem pelos **ilícitos** cometidos."
+    },
+    {
+     "t": "note",
+     "text": "Durante o estado de defesa, o estado de sítio e a intervenção federal, a Constituição **não pode ser emendada** (art. 60, § 1º)."
+    },
+    {
+     "t": "h2",
+     "text": "2. Estado de defesa (art. 136)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Hipóteses",
+     "text": "Preservar ou prontamente restabelecer, em **locais restritos e determinados**, a **ordem pública** ou a **paz social** ameaçadas por **grave e iminente instabilidade institucional** ou atingidas por **calamidades de grandes proporções na natureza**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Quem decreta**: o **Presidente da República**, depois de **ouvir** o Conselho da República e o Conselho de Defesa Nacional (opiniões **não vinculantes**).",
+      "**Controle**: decretado, o ato é submetido ao **Congresso** em **24 horas**, com a justificação. O Congresso decide por **maioria absoluta** em **10 dias**; se estiver em recesso, será convocado extraordinariamente em **5 dias**. **Rejeitado**, o estado de defesa **cessa imediatamente**.",
+      "**Prazo**: **até 30 dias**, prorrogável **uma vez** por igual período.",
+      "O decreto indica o **tempo de duração**, as **áreas** abrangidas e as **medidas coercitivas**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Medidas permitidas no estado de defesa"
+     ],
+     "widths": [
+      1.0
+     ],
+     "rows": [
+      [
+       "Restrições ao direito de **reunião**, ainda que exercida no seio das associações"
+      ],
+      [
+       "Restrições ao **sigilo de correspondência** e ao **sigilo de comunicação telegráfica e telefônica**"
+      ],
+      [
+       "Na **calamidade pública**, **ocupação e uso temporário de bens e serviços públicos**, respondendo a União pelos danos e custos"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Prisão durante o estado de defesa (§ 3º)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A prisão por **crime contra o Estado**, determinada pelo **executor da medida**, será **comunicada imediatamente ao juiz** competente, que a **relaxará** se não for legal. O preso pode requerer **exame de corpo de delito**.",
+      "A comunicação vem acompanhada de declaração do **estado físico e mental** do detido.",
+      "A prisão **não pode passar de 10 dias**, salvo quando **autorizada pelo Judiciário**.",
+      "É **vedada a incomunicabilidade** do preso."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Estado de sítio (arts. 137 a 139)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Hipótese",
+      "Prazo"
+     ],
+     "widths": [
+      0.62,
+      0.38
+     ],
+     "rows": [
+      [
+       "**I** – **comoção grave de repercussão nacional** ou fatos que comprovem a **ineficácia** de medida tomada durante o **estado de defesa**",
+       "**Até 30 dias**, prorrogável **cada vez** por no máximo 30 (sem limite de prorrogações)"
+      ],
+      [
+       "**II** – **declaração de estado de guerra** ou **resposta a agressão armada estrangeira**",
+       "**Enquanto durar** a guerra ou a agressão"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Quem decreta**: o **Presidente**, ouvidos os dois Conselhos, depois de **solicitar autorização prévia** ao **Congresso Nacional**, que decide por **maioria absoluta**.",
+      "O decreto indica a **duração**, as **normas** necessárias à sua execução e as **garantias constitucionais** que ficarão suspensas; depois de publicado, o Presidente designa o **executor** e as **áreas** abrangidas.",
+      "O Congresso permanece **em funcionamento** até o término das medidas. A Mesa designa **comissão de 5 membros** para acompanhar e fiscalizar a execução (o mesmo vale para o estado de defesa)."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Medidas no sítio por comoção grave (art. 139)"
+     ],
+     "widths": [
+      1.0
+     ],
+     "rows": [
+      [
+       "**Obrigação de permanência** em localidade determinada"
+      ],
+      [
+       "**Detenção** em edifício **não destinado** a acusados ou condenados por crimes comuns"
+      ],
+      [
+       "Restrições à inviolabilidade da **correspondência**, ao sigilo das **comunicações**, à prestação de **informações** e à **liberdade de imprensa**, radiodifusão e televisão, na forma da lei"
+      ],
+      [
+       "**Suspensão** da liberdade de **reunião**"
+      ],
+      [
+       "**Busca e apreensão em domicílio**"
+      ],
+      [
+       "**Intervenção** nas empresas de serviços públicos"
+      ],
+      [
+       "**Requisição de bens**"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Não se inclui nas restrições a difusão de **pronunciamentos de parlamentares** feitos em suas Casas, desde que liberada pela respectiva Mesa. No sítio por **guerra** (inciso II), a Constituição não traz rol fechado de medidas, mas os princípios de necessidade e proporcionalidade continuam valendo."
+    },
+    {
+     "t": "h3",
+     "text": "Comparação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Estado de defesa",
+      "Estado de sítio"
+     ],
+     "widths": [
+      0.22,
+      0.39,
+      0.39
+     ],
+     "rows": [
+      [
+       "Gravidade",
+       "Menor",
+       "Maior"
+      ],
+      [
+       "Área",
+       "**Locais restritos e determinados**",
+       "Pode ser **nacional**"
+      ],
+      [
+       "Conselhos",
+       "Ouvidos (não vinculam)",
+       "Ouvidos (não vinculam)"
+      ],
+      [
+       "Congresso",
+       "Controle **posterior**: recebe o decreto em 24 h e **aprova** ou rejeita",
+       "Controle **prévio**: **autoriza** antes do decreto"
+      ],
+      [
+       "Quórum",
+       "Maioria **absoluta**",
+       "Maioria **absoluta**"
+      ],
+      [
+       "Prazo",
+       "30 dias + **1** prorrogação de 30",
+       "30 dias, prorrogáveis **cada vez** por 30 (comoção); guerra: enquanto durar"
+      ],
+      [
+       "Busca domiciliar",
+       "**Não** prevista",
+       "**Prevista** (comoção grave)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinhas clássicas",
+     "text": "No **estado de defesa**, o Congresso **aprova** depois (24 h); no **estado de sítio**, **autoriza** antes. A prorrogação do estado de defesa é **uma só**; a do sítio por comoção pode ser **repetida**. Busca e apreensão em domicílio só aparece no **sítio**. E quem decreta os dois é sempre o **Presidente**, não o Congresso."
+    },
+    {
+     "t": "p",
+     "text": "Cessado o estado de defesa ou de sítio, **cessam também seus efeitos**, sem prejuízo da **responsabilidade** pelos ilícitos dos executores ou agentes. O Presidente relata ao Congresso as medidas aplicadas, com a relação nominal dos atingidos e a indicação das restrições (art. 141)."
+    },
+    {
+     "t": "h2",
+     "text": "4. Forças Armadas (arts. 142 e 143)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 142. As Forças Armadas, constituídas pela **Marinha**, pelo **Exército** e pela **Aeronáutica**, são **instituições nacionais permanentes e regulares**, organizadas com base na **hierarquia** e na **disciplina**, sob a **autoridade suprema do Presidente da República**, e destinam-se à **defesa da Pátria**, à **garantia dos poderes constitucionais** e, por iniciativa de qualquer destes, da **lei e da ordem**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**GLO** (garantia da lei e da ordem): o emprego das Forças Armadas é regulado pela **LC 97/1999**; ocorre por **decisão do Presidente**, por iniciativa própria ou dos Presidentes do STF, do Senado ou da Câmara, depois de **esgotados** os instrumentos de segurança pública do art. 144, em área previamente definida e por tempo limitado.",
+      "O STF afirmou que o art. 142 **não** confere às Forças Armadas papel de **poder moderador** nem autoriza intervenção militar sobre os Poderes (ADI 6.457).",
+      "**Não cabe habeas corpus** em relação a **punições disciplinares militares** (§ 2º), salvo para examinar a legalidade, conforme o STF."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Regime dos militares (art. 142, § 3º)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As **patentes** são conferidas pelo **Presidente da República**.",
+      "São **proibidas a sindicalização e a greve**.",
+      "Enquanto em **serviço ativo**, o militar **não pode estar filiado** a partido político.",
+      "O militar da ativa que tomar posse em **cargo público civil permanente** será **transferido para a reserva**, salvo nas hipóteses de acumulação admitidas (profissionais de saúde).",
+      "O **oficial** só perde o **posto e a patente** se julgado **indigno** ou **incompatível** com o oficialato por decisão de **tribunal militar permanente** (em tempo de paz) ou de tribunal especial (em guerra). O oficial condenado a pena privativa de liberdade **superior a 2 anos**, por sentença transitada em julgado, será submetido a esse julgamento.",
+      "Essas regras se aplicam, no que couber, aos **militares dos Estados** (PM e bombeiros), por força do art. 42, § 1º, e o oficial estadual perde o posto por decisão do **Tribunal de Justiça** ou do Tribunal de Justiça Militar, onde houver."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Serviço militar (art. 143)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "É **obrigatório**, nos termos da lei.",
+      "Às Forças Armadas compete atribuir **serviço alternativo** aos que, em **tempo de paz**, alegarem **imperativo de consciência** (crença religiosa, convicção filosófica ou política).",
+      "As **mulheres** e os **eclesiásticos** ficam **isentos** do serviço militar obrigatório em **tempo de paz**, sujeitos a outros encargos da lei."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O estado de defesa pode ser decretado para restabelecer a ordem pública em locais restritos e determinados atingidos por calamidade de grandes proporções na natureza.",
+    "comment": "**Certo.** Art. 136, caput.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O estado de defesa depende de autorização prévia do Congresso Nacional.",
+    "comment": "**Errado.** O decreto é submetido ao Congresso em 24 horas, que o aprova ou rejeita depois; a autorização prévia é exigida no estado de sítio.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O tempo de duração do estado de defesa não será superior a trinta dias, podendo ser prorrogado uma vez, por igual período.",
+    "comment": "**Certo.** Art. 136, § 2º.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "No estado de defesa, a prisão por crime contra o Estado pode durar até trinta dias sem autorização judicial.",
+    "comment": "**Errado.** Não pode superar dez dias, salvo autorização do Judiciário.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Durante o estado de defesa, é vedada a incomunicabilidade do preso.",
+    "comment": "**Certo.** Art. 136, § 3º, IV.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A declaração de estado de guerra autoriza a decretação do estado de defesa.",
+    "comment": "**Errado.** A guerra ou a agressão armada estrangeira é hipótese de estado de sítio.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O Congresso Nacional decide por maioria absoluta tanto sobre o decreto de estado de defesa quanto sobre o pedido de autorização para o estado de sítio.",
+    "comment": "**Certo.** Arts. 136, § 4º, e 137, parágrafo único.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "As Forças Armadas estão sob a autoridade suprema do Ministro de Estado da Defesa.",
+    "comment": "**Errado.** Estão sob a autoridade suprema do Presidente da República.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Ao militar são proibidas a sindicalização e a greve.",
+    "comment": "**Certo.** Art. 142, § 3º, IV.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "As mulheres estão sujeitas ao serviço militar obrigatório em tempo de paz, nas mesmas condições dos homens.",
+    "comment": "**Errado.** As mulheres e os eclesiásticos são isentos do serviço militar obrigatório em tempo de paz.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Durante estado de sítio decretado por comoção grave de repercussão nacional, pode ser determinada a busca e apreensão em domicílio.",
+    "comment": "**Certo.** Art. 139, V.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Durante o estado de defesa, o executor da medida pode determinar a busca e apreensão em domicílio de pessoas suspeitas de crimes contra o Estado.",
+    "comment": "**Errado.** A busca e apreensão em domicílio está entre as medidas do estado de sítio, não do estado de defesa.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "O estado de sítio decretado em razão de comoção grave de repercussão nacional não pode ser decretado por mais de trinta dias, nem prorrogado, de cada vez, por prazo superior.",
+    "comment": "**Certo.** Art. 138, § 1º.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Rejeitado pelo Congresso Nacional o decreto de estado de defesa, as medidas continuarão em vigor até o fim do prazo nele fixado.",
+    "comment": "**Errado.** Rejeitado o decreto, cessa imediatamente o estado de defesa (art. 136, § 7º).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Cessado o estado de sítio, cessarão também seus efeitos, sem prejuízo da responsabilidade pelos ilícitos cometidos por seus executores ou agentes.",
+    "comment": "**Certo.** Art. 141.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Conforme o STF, o art. 142 da Constituição permite às Forças Armadas atuar como poder moderador em caso de conflito entre os Poderes.",
+    "comment": "**Errado.** O STF rejeitou essa interpretação (ADI 6.457).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "O emprego das Forças Armadas na garantia da lei e da ordem pode ocorrer por iniciativa de qualquer dos poderes constitucionais, cabendo a decisão ao Presidente da República.",
+    "comment": "**Certo.** Art. 142 e LC 97/1999.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "O oficial das Forças Armadas condenado a pena privativa de liberdade superior a um ano perde automaticamente o posto e a patente.",
+    "comment": "**Errado.** A perda depende de julgamento por tribunal militar; o oficial condenado a pena superior a dois anos é submetido a esse julgamento.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "O militar enquanto em serviço ativo não pode estar filiado a partido político.",
+    "comment": "**Certo.** Art. 142, § 3º, V.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Os pareceres do Conselho da República e do Conselho de Defesa Nacional sobre a decretação do estado de defesa vinculam o Presidente da República.",
+    "comment": "**Errado.** Os Conselhos são ouvidos, mas suas manifestações são apenas opinativas.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 42, 60, § 1º, e 136 a 143.",
+  "Lei Complementar 97/1999 (organização e emprego das Forças Armadas).",
+  "Supremo Tribunal Federal: ADI 6.457.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}
