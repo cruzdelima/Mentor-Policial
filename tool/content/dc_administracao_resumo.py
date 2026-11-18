@@ -1,0 +1,116 @@
+# -*- coding: utf-8 -*-
+"""Direito Constitucional · Administração Pública e servidores (arts. 37 a 41) — RESUMO (revisão)."""
+from common import *
+
+MATERIAL = material(
+    "dc-administracao-01", "DC", "DC-08", "resumo", "Administração Pública e servidores (arts. 37 a 41)",
+    "Direito Constitucional · Organização do Estado",
+    "constitucional_administracao", "Constitucional_Administracao_Publica_RESUMO.pdf", None, ["Administração", "Pública e servidores"], RES_SUB,
+    RES_ITEMS("princípios, concurso, teto, acumulação e estabilidade"),
+    "Tópico do edital: Administração Pública e servidores públicos (arts. 37 a 41) — Direito Constitucional",
+    "Base: Constituição Federal de 1988 e jurisprudência do STF.", 40)
+
+THEORY = [
+    exam("O que a banca cobra",
+         "**Prazos** (2 anos, 3 anos), **teto**, **acumulação** (EC 138/2025), **responsabilidade objetiva** e **estabilidade**."),
+    h2("1. Princípios e acesso"),
+    bl("**LIMPE** para a administração direta e indireta de todos os Poderes e entes.",
+       "Concurso de **provas** ou de **provas e títulos**; exceção: **cargo em comissão** de livre nomeação.",
+       "Validade: **até 2 anos**, prorrogável **uma vez** por igual período; aprovado tem **prioridade** sobre novos concursados.",
+       "Função de confiança: **só efetivos**. Comissão: percentual mínimo de servidores de carreira. Ambos: **direção, chefia e assessoramento**.",
+       "Aprovado **dentro das vagas** tem direito à nomeação. Nepotismo até o **3º grau** (SV 13). Psicotécnico só por **lei** (SV 44)."),
+    h2("2. Remuneração e acumulação"),
+    bl("Remuneração por **lei específica**; revisão geral **anual**; vedada vinculação ou equiparação.",
+       "Teto geral: **Ministro do STF**. Município: **Prefeito**. Estado: **Governador**, **Deputado estadual** ou **Desembargador** "
+       "(90,25% do STF; vale para MP, Procuradores e Defensores).",
+       "Acumulação, com **compatibilidade de horários** e teto: **2 de professor**; **professor + qualquer outro** (EC 138/2025); "
+       "**2 de saúde** regulamentados.",
+       "Autarquia **criada** por lei específica; EP, SEM e fundação **autorizadas** por lei."),
+    h2("3. Responsabilidade e improbidade"),
+    bl("Estado e prestadoras de serviço público respondem **objetivamente** (risco administrativo); agente responde em **regresso** por "
+       "**dolo ou culpa**; a vítima aciona o **Estado** (dupla garantia).",
+       "Estado responde pela **morte de preso** sob custódia.",
+       "Improbidade: **suspensão** dos direitos políticos, **perda** da função, **indisponibilidade** dos bens, **ressarcimento**, sem prejuízo da "
+       "ação penal. Ressarcimento imprescritível só no ato **doloso**."),
+    h2("4. Mandato, subsídio e estabilidade"),
+    bl("Mandato federal/estadual: **afastado**. Prefeito: afastado, **opta** pela remuneração. Vereador: **acumula** se houver compatibilidade.",
+       "Policiais do art. 144: remunerados por **subsídio**.",
+       "Estabilidade: **3 anos** de efetivo exercício + **avaliação especial** de desempenho; só cargo **efetivo**.",
+       "Perda do cargo do estável: **sentença transitada**, **PAD**, **avaliação periódica** (LC) ou **excesso de despesa** (art. 169).",
+       "Cargo extinto: **disponibilidade** com remuneração **proporcional** ao tempo de serviço."),
+]
+
+SUMMARY = [
+    h2("Quadro rápido"),
+    tb(["Tema", "Regra"], [0.4, 0.6], [
+        ("Validade do concurso", "Até 2 anos + 1 prorrogação igual"),
+        ("Função de confiança", "Só servidor efetivo"),
+        ("Teto geral", "Subsídio de Ministro do STF"),
+        ("Teto no Judiciário estadual", "Desembargador (90,25% do STF)"),
+        ("Acumulação de professor", "Com qualquer outro cargo (EC 138)"),
+        ("Responsabilidade do Estado", "Objetiva"),
+        ("Responsabilidade do agente", "Subjetiva, em regresso"),
+        ("Servidor prefeito", "Afastado, opta pela remuneração"),
+        ("Estabilidade", "3 anos + avaliação especial"),
+        ("Cargo extinto", "Disponibilidade proporcional"),
+    ]),
+    h2("Leve para a prova"),
+    bl("Concurso: **2 anos**, prorroga **uma** vez.",
+       "Comissão e confiança: **direção, chefia, assessoramento**.",
+       "Nepotismo: até o **3º grau**.",
+       "Município: teto é o **Prefeito**.",
+       "Professor acumula com **qualquer** cargo.",
+       "Policial + técnico: **não** acumula.",
+       "Vítima processa o **Estado**.",
+       "Agente responde só com **dolo ou culpa**.",
+       "Vereador **acumula** se der horário.",
+       "Estável após **3 anos**."),
+    {"t": "mindmap"},
+]
+
+MINDMAP = {
+    "root": "ADMINISTRAÇÃO", "rootSub": "arts. 37 a 41",
+    "left": [
+        {"label": "Princípios", "items": ["LIMPE", "direta e indireta", "todos os Poderes"]},
+        {"label": "Concurso", "items": ["provas ou títulos", "2 anos + 1 vez", "vagas: direito"]},
+        {"label": "Cargos de confiança", "items": ["função: só efetivo", "comissão: livre", "nepotismo: SV 13"]},
+        {"label": "Teto", "items": ["Ministro do STF", "Município: Prefeito", "Desembargador: 90,25%"]},
+        {"label": "Acumulação", "items": ["2 professores", "professor + qualquer", "2 de saúde"]},
+    ],
+    "right": [
+        {"label": "Responsabilidade", "items": ["Estado: objetiva", "agente: regresso", "dupla garantia"]},
+        {"label": "Improbidade", "items": ["suspensão políticos", "perda da função", "ressarcimento"]},
+        {"label": "Mandato eletivo", "items": ["federal: afastado", "prefeito: opta", "vereador: acumula"]},
+        {"label": "Estabilidade", "items": ["3 anos", "avaliação especial", "só cargo efetivo"]},
+        {"label": "Perda do cargo", "items": ["sentença transitada", "PAD", "avaliação periódica"]},
+    ],
+}
+
+QUIZ = quiz([
+    ("C", "A investidura em cargo público efetivo depende de aprovação prévia em concurso público de provas ou de provas e títulos.",
+     "Art. 37, II."),
+    ("E", "O prazo de validade do concurso público é de até quatro anos, improrrogável.",
+     "É de até dois anos, prorrogável uma vez por igual período."),
+    ("C", "Conforme a Súmula Vinculante 13, a nomeação de parente em linha colateral de terceiro grau da autoridade nomeante para cargo em comissão viola a Constituição.",
+     "A vedação ao nepotismo vai até o terceiro grau."),
+    ("E", "O teto remuneratório do Poder Executivo estadual é o subsídio dos desembargadores do Tribunal de Justiça.",
+     "No Executivo estadual, o teto é o subsídio do governador."),
+    ("C", "É permitida a acumulação remunerada de dois cargos privativos de profissionais de saúde, com profissões regulamentadas, havendo compatibilidade de horários.",
+     "Art. 37, XVI, c."),
+    ("E", "As empresas públicas são criadas diretamente por lei específica, assim como as autarquias.",
+     "A lei específica cria a autarquia e apenas autoriza a instituição da empresa pública."),
+    ("C", "As pessoas jurídicas de direito privado prestadoras de serviços públicos respondem objetivamente pelos danos que seus agentes, nessa qualidade, causarem a terceiros.",
+     "Art. 37, § 6º."),
+    ("E", "O direito de regresso do Estado contra o agente público independe da comprovação de dolo ou culpa.",
+     "O regresso exige dolo ou culpa do agente."),
+    ("C", "O servidor público investido no mandato de vereador, havendo compatibilidade de horários, perceberá as vantagens de seu cargo sem prejuízo da remuneração do cargo eletivo.",
+     "Art. 38, III."),
+    ("E", "Os ocupantes de cargo em comissão adquirem estabilidade após três anos de efetivo exercício.",
+     "A estabilidade é restrita aos nomeados para cargo de provimento efetivo, mediante concurso."),
+], 10)
+
+SOURCES = [
+    "Constituição da República Federativa do Brasil de 1988, arts. 37 a 41; EC 138/2025.",
+    "Supremo Tribunal Federal: Súmulas Vinculantes 13 e 44; RE 598.099; Temas 592 e 940.",
+    SRC_R,
+]
