@@ -56,6 +56,18 @@ MODULES = [
     'info_virus_aprof', 'info_virus_resumo',
     'cont_conceitos_aprof', 'cont_conceitos_resumo',
     'dc_principios_aprof', 'dc_principios_resumo',
+    'dc_direitos_aprof', 'dc_direitos_resumo',
+    'dc_remedios_aprof', 'dc_remedios_resumo',
+    'dc_sociais_aprof', 'dc_sociais_resumo',
+    'dc_nacionalidade_aprof', 'dc_nacionalidade_resumo',
+    'dc_politicos_aprof', 'dc_politicos_resumo',
+    'dc_organizacao_aprof', 'dc_organizacao_resumo',
+    'dc_administracao_aprof', 'dc_administracao_resumo',
+    'dc_legislativo_aprof', 'dc_legislativo_resumo',
+    'dc_executivo_aprof', 'dc_executivo_resumo',
+    'dc_judiciario_aprof', 'dc_judiciario_resumo',
+    'dc_defesa_aprof', 'dc_defesa_resumo',
+    'dc_seguranca_aprof', 'dc_seguranca_resumo',
 ]
 
 PROJ = sys.argv[1] if len(sys.argv) > 1 else os.path.abspath(os.path.join(HERE, '..', '..'))
