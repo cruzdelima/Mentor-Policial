@@ -262,19 +262,23 @@ void main() {
           // Nada pode ficar animando sem parar nesta tela.
           expect(tester.binding.transientCallbackCount, 0, reason: 'animação contínua em $option');
           expect(find.text('ASSUNTOS DO EDITAL'), findsOneWidget);
-          if (option == 'CBMPE26_TEN') {
-            // Assuntos só deste edital aparecem marcados (a lista é preguiçosa: rola até eles).
-            await tester.scrollUntilVisible(find.text('SÓ DESTE EDITAL').first, 400, scrollable: find.byType(Scrollable).first);
-            expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
-            await tester.drag(find.byType(Scrollable).first, const Offset(0, 20000));
-            await tester.pump(const Duration(milliseconds: 300));
-          }
           for (final f in const ['FALTA PRODUZIR', 'FALTA VALIDAR', 'PRONTOS', 'TODOS']) {
             await tester.tap(find.text(f).last);
             await tester.pump(const Duration(milliseconds: 300));
           }
         }
       }
+      // Assuntos só deste edital aparecem marcados (tela alta para a lista montar todas as matérias).
+      await setWindow(tester, const Size(1366, 12000));
+      final p = pfProfile();
+      final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
+      await tester.pumpWidget(MaterialApp(
+        key: const ValueKey('cbmpe-alto'),
+        theme: buildTheme(),
+        home: AppScope(controller: app, child: const Scaffold(body: ContentChecklist(initialOptionId: 'CBMPE26_TEN'))),
+      ));
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
     } finally {
       FlutterError.onError = previous;
     }
