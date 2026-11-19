@@ -60,12 +60,14 @@ void main() {
       final acc = AccountController(
         service: AuthService(url: 'https://exemplo.invalid', apiKey: 'teste', storage: Directory.systemTemp.createTempSync('mp_auth').path),
       )..status = AccountStatus.signedOut;
-      await tester.pumpWidget(MentorApp(account: acc));
+      await tester.pumpWidget(MentorApp(key: ValueKey(size), account: acc));
       await tester.pumpAndSettle();
       expect(find.text('ENTRAR'), findsWidgets);
+      expect(tester.takeException(), isNull, reason: 'entrar em $size');
+      await tester.ensureVisible(find.widgetWithText(TextButton, 'CRIAR CONTA'));
       await tester.tap(find.widgetWithText(TextButton, 'CRIAR CONTA'));
       await tester.pumpAndSettle();
-      expect(tester.takeException(), isNull, reason: '$size');
+      expect(tester.takeException(), isNull, reason: 'criar conta em $size');
     }
     tester.view.reset();
   });

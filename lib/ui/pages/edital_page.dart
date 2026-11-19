@@ -55,6 +55,8 @@ class _EditalPageState extends State<EditalPage> {
       });
     }
 
+    // Telas estreitas (tablet na horizontal): esconde as colunas PREVISTO e REVISÕES.
+    final narrow = MediaQuery.sizeOf(context).width < 1240;
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       PageHeader(
         title: 'Edital verticalizado',
@@ -66,8 +68,8 @@ class _EditalPageState extends State<EditalPage> {
         child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           // ------------------------------------------------ matérias
           SizedBox(
-            width: 250,
-            child: ListView(padding: const EdgeInsets.fromLTRB(28, 0, 8, 28), children: [
+            width: narrow ? 220 : 250,
+            child: ListView(padding: EdgeInsets.fromLTRB(narrow ? 20 : 28, 0, 8, 28), children: [
               _SubjectTile(
                 label: 'Todas as matérias do ciclo',
                 color: AppColors.gold,
@@ -137,12 +139,12 @@ class _EditalPageState extends State<EditalPage> {
                   _h('Nº', 36),
                   Expanded(child: Text('ASSUNTO', style: AppText.label(AppColors.gold))),
                   _h('TAM.', 50),
-                  _h('PREVISTO', 84),
+                  if (!narrow) _h('PREVISTO', 84),
                   _h('TEORIA', 54),
                   _h('QUESTÕES', 70),
                   _h('% ACERTO', 70),
-                  _h('REVISÕES', 70),
-                  _h('STATUS', 120),
+                  if (!narrow) _h('REVISÕES', 70),
+                  _h('STATUS', narrow ? 108 : 120),
                   const SizedBox(width: 40),
                 ]),
               ),
@@ -152,7 +154,7 @@ class _EditalPageState extends State<EditalPage> {
                     : ListView.builder(
                         padding: const EdgeInsets.fromLTRB(12, 0, 28, 28),
                         itemCount: topics.length,
-                        itemBuilder: (context, i) => _TopicRow(topic: topics[i], showSubject: subjectId == null, active: trail.isActive(topics[i].id)),
+                        itemBuilder: (context, i) => _TopicRow(topic: topics[i], showSubject: subjectId == null, active: trail.isActive(topics[i].id), narrow: narrow),
                       ),
               ),
             ]),
@@ -211,8 +213,9 @@ class _SubjectTile extends StatelessWidget {
 }
 
 class _TopicRow extends StatelessWidget {
-  const _TopicRow({required this.topic, required this.showSubject, required this.active});
+  const _TopicRow({required this.topic, required this.showSubject, required this.active, this.narrow = false});
   final Topic topic;
+  final bool narrow;
   final bool showSubject;
   final bool active;
 
@@ -291,7 +294,7 @@ class _TopicRow extends StatelessWidget {
             ),
           ),
         ),
-        SizedBox(width: 84, child: Text(prev, style: AppText.small(prev == 'feito' ? AppColors.green : AppColors.muted), textAlign: TextAlign.center)),
+        if (!narrow) SizedBox(width: 84, child: Text(prev, style: AppText.small(prev == 'feito' ? AppColors.green : AppColors.muted), textAlign: TextAlign.center)),
         SizedBox(width: 54, child: Center(child: ts.theory ? const Icon(Icons.check_circle, size: 18, color: AppColors.green) : Text('—', style: AppText.small(AppColors.dim)))),
         SizedBox(width: 70, child: Text(ts.questions == 0 ? '—' : thousands(ts.questions), style: AppText.body(txt), textAlign: TextAlign.center)),
         SizedBox(
@@ -302,8 +305,8 @@ class _TopicRow extends StatelessWidget {
             style: AppText.strong(ts.accuracy == null ? AppColors.dim : (ts.accuracy! >= 0.8 ? AppColors.green : (ts.accuracy! < 0.7 ? AppColors.red : AppColors.text))),
           ),
         ),
-        SizedBox(width: 70, child: Center(child: Dots(ts.reviews.clamp(0, 3)))),
-        SizedBox(width: 120, child: Center(child: skipped ? const Pill('PULADO', color: AppColors.dim) : StatusPill(ts.status))),
+        if (!narrow) SizedBox(width: 70, child: Center(child: Dots(ts.reviews.clamp(0, 3)))),
+        SizedBox(width: narrow ? 108 : 120, child: Center(child: skipped ? const Pill('PULADO', color: AppColors.dim) : StatusPill(ts.status))),
         SizedBox(
           width: 40,
           child: PopupMenuButton<String>(

@@ -146,6 +146,15 @@ void main() {
   });
 
   testWidgets('todas as telas abrem sem erro (computador e tablet na horizontal)', (tester) async {
+    // Junta todos os estouros de layout (em vez de parar no primeiro) para corrigir tudo de uma vez.
+    final problems = <String>{};
+    var where = '';
+    final previous = FlutterError.onError;
+    FlutterError.onError = (d) {
+      final text = d.toString();
+      final loc = RegExp(r'lib/ui/[\w/]+\.dart:\d+').firstMatch(text)?.group(0) ?? '';
+      problems.add('$where: ${d.exceptionAsString().split('\n').first} $loc');
+    };
     // Tablets na horizontal: iPad (1024×768 e 1133×744) e Android (960×600).
     for (final size in const [Size(1366, 768), Size(1180, 720), Size(1920, 1080), Size(1024, 768), Size(1133, 744), Size(960, 600)]) {
       await setWindow(tester, size);
@@ -159,10 +168,11 @@ void main() {
       await tester.pumpAndSettle();
 
       for (final page in AppPage.values) {
+        where = '$page em ${size.width.toInt()}×${size.height.toInt()}';
         app.goTo(page);
         await tester.pumpAndSettle();
-        expect(tester.takeException(), isNull, reason: '$page em $size');
       }
+      where = 'materiais em ${size.width.toInt()}×${size.height.toInt()}';
 
       // Missões: visões semana e trilha.
       app.goTo(AppPage.missions);
@@ -203,6 +213,8 @@ void main() {
       await tester.pump(const Duration(seconds: 4));
       await tester.pumpAndSettle();
     }
+    FlutterError.onError = previous;
+    expect(problems, isEmpty, reason: problems.join('\n'));
   });
 
   testWidgets('concluir missão pelo diálogo lança no diário', (tester) async {
