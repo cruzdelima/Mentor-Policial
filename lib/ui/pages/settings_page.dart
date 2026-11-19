@@ -345,7 +345,7 @@ class _AboutPanel extends StatelessWidget {
         ]),
         const SizedBox(height: 12),
         Text(
-          'Versão de testes: anote o que travou, o que ficou confuso e o que faria você usar todos os dias — e envie ao autor. '
+          'Versão de testes: anote o que travou, o que ficou confuso e o que faria você usar todos os dias — e envie para a equipe do Taticum. '
           'Os pesos e assuntos seguem o núcleo comum dos últimos editais; confira sempre o edital do seu concurso.',
           style: AppText.small(),
         ),

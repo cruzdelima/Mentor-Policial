@@ -12,8 +12,8 @@ Os links sempre apontam para a versão mais nova. O app avisa quando houver atua
 ---
 
 
-Aplicativo para computador (Windows e macOS) que monta e acompanha o **ciclo básico de estudos** para carreiras policiais,
-com o método de um aprovado em Agente da Polícia Federal 2025. Feito em Flutter, sem dependências externas.
+Aplicativo para computador (Windows e macOS) que monta e acompanha o **ciclo básico de estudos** para carreiras policiais.
+Feito em Flutter, sem dependências externas.
 
 ## O que já tem nesta versão
 

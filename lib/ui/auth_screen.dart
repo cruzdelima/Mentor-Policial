@@ -203,7 +203,7 @@ class _AuthScreenState extends State<AuthScreen> {
             const Spacer(),
             Padding(
               padding: const EdgeInsets.all(32),
-              child: Text('Método de um aprovado em Agente da Polícia Federal 2025.', style: AppText.small(AppColors.dim)),
+              child: Text('Ciclo básico, edital verticalizado e revisões para carreiras policiais.', style: AppText.small(AppColors.dim)),
             ),
           ]);
 

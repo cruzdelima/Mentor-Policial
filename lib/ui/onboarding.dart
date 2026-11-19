@@ -99,7 +99,7 @@ class _OnboardingState extends State<Onboarding> {
               const Spacer(),
               Padding(
                 padding: const EdgeInsets.all(26),
-                child: Text('Ciclo básico para carreiras policiais, com o método de um aprovado na PF 2025.', style: AppText.small(AppColors.dim)),
+                child: Text('Ciclo básico, edital verticalizado e revisões para carreiras policiais.', style: AppText.small(AppColors.dim)),
               ),
             ]),
           ),
@@ -159,7 +159,7 @@ class _OnboardingState extends State<Onboarding> {
       case 0:
         return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           _title('Bem-vindo', 'Seu mentor para a área policial',
-              'Você escolhe o concurso e quanto tempo tem por dia. O Mentor monta as missões de cada dia, agenda as revisões e acompanha seus números — do jeito que o autor estudou para ser aprovado na Polícia Federal.'),
+              'Você escolhe o concurso e quanto tempo tem por dia. O Mentor monta as missões de cada dia, agenda as revisões e acompanha seus números.'),
           const Wrap(spacing: 14, runSpacing: 14, children: [
             _Feature(Icons.flag_outlined, 'Metas, não horas', 'Cada dia tem missões claras: teoria de um assunto e um bloco de questões.'),
             _Feature(Icons.autorenew, 'Revisão automática', 'Revisão de 24 horas, semanal e de 30 dias, sem você precisar planejar.'),
