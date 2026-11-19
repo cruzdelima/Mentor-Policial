@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
 import '../core/catalog.dart';
@@ -331,6 +332,11 @@ class RichMd extends StatelessWidget {
 }
 
 /// *exemplo* (itálico, pode conter **negrito**) e **negrito**.
+/// "neste computador" no app instalado, "neste navegador" na versão web.
+const String kNeste = kIsWeb ? 'neste navegador' : 'neste computador';
+const String kDeste = kIsWeb ? 'deste navegador' : 'deste computador';
+const String kDESTE = kIsWeb ? 'DESTE NAVEGADOR' : 'DESTE COMPUTADOR';
+
 final _italicRe = RegExp(r'(?<!\*)\*(?=[^*]|\*\*[^*])((?:\*\*[^*]+?\*\*|[^*])+?)\*(?!\*)');
 final _boldRe = RegExp(r'\*\*(.+?)\*\*');
 

@@ -9,9 +9,10 @@ library;
 
 import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+
+import '../platform/fs.dart';
 
 /// Cópia guardada na nuvem.
 class RemoteStudy {
@@ -44,7 +45,7 @@ enum SyncState { starting, synced, pending, syncing, offline, conflict, unavaila
 class CloudSync extends ChangeNotifier {
   CloudSync({
     required this.remote,
-    required this.metaFile,
+    required this.metaPath,
     required this.device,
     required this.readLocal,
     required this.adoptRemote,
@@ -56,7 +57,7 @@ class CloudSync extends ChangeNotifier {
   final StudyRemote remote;
 
   /// Arquivo com a versão que este aparelho recebeu/enviou por último e se há mudanças não enviadas.
-  final File metaFile;
+  final String metaPath;
   final String device;
   final Map<String, dynamic> Function() readLocal;
   final void Function(Map<String, dynamic> data) adoptRemote;
@@ -241,8 +242,9 @@ class CloudSync extends ChangeNotifier {
 
   Future<void> _readMeta() async {
     try {
-      if (await metaFile.exists()) {
-        final j = jsonDecode(await metaFile.readAsString()) as Map<String, dynamic>;
+      final text = await Fs.instance.read(metaPath);
+      if (text != null) {
+        final j = jsonDecode(text) as Map<String, dynamic>;
         version = (j['version'] as num?)?.toInt() ?? 0;
         dirty = j['dirty'] as bool? ?? false;
       }
@@ -251,8 +253,7 @@ class CloudSync extends ChangeNotifier {
 
   Future<void> _writeMeta() async {
     try {
-      await metaFile.parent.create(recursive: true);
-      await metaFile.writeAsString(jsonEncode({'version': version, 'dirty': dirty}), flush: true);
+      await Fs.instance.write(metaPath, jsonEncode({'version': version, 'dirty': dirty}));
     } catch (_) {}
   }
 

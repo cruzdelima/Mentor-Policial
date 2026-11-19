@@ -4,11 +4,13 @@ library;
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/widgets.dart';
 
 import '../config.dart';
 import '../data/auth.dart';
 import '../data/storage.dart';
+import '../platform/fs.dart';
 import 'app_state.dart';
 
 enum AccountStatus { starting, signedOut, signedIn }
@@ -123,7 +125,7 @@ class AccountController extends ChangeNotifier {
     final dir = (await userStorage(userId)).dir;
     await _leave();
     try {
-      if (await dir.exists()) await dir.delete(recursive: true);
+      await Fs.instance.deleteTree(dir);
     } catch (_) {}
   }
 
@@ -148,13 +150,13 @@ class AccountController extends ChangeNotifier {
   /// versão sem contas (dados.json na raiz) são trazidos para ela, para ninguém perder o progresso.
   static Future<Storage> userStorage(String userId) async {
     final root = Storage.defaultDir();
-    final dir = Directory(Storage.join(Storage.join(root.path, 'contas'), userId));
-    if (!await dir.exists()) {
-      await dir.create(recursive: true);
-      final legacy = File(Storage.join(root.path, 'dados.json'));
+    final dir = Storage.join(Storage.join(root, 'contas'), userId);
+    if (!kIsWeb && !await Directory(dir).exists()) {
+      await Directory(dir).create(recursive: true);
+      final legacy = File(Storage.join(root, 'dados.json'));
       if (await legacy.exists()) {
-        await legacy.copy(Storage.join(dir.path, 'dados.json'));
-        await legacy.rename(Storage.join(root.path, 'dados_antes_das_contas.json'));
+        await legacy.copy(Storage.join(dir, 'dados.json'));
+        await legacy.rename(Storage.join(root, 'dados_antes_das_contas.json'));
       }
     }
     return Storage(dir);

@@ -62,7 +62,7 @@ Profile profileFor(String option) {
 }
 
 AppController controllerWith(UserData data, {CatalogRemote? remote, Map<String, dynamic>? extras}) {
-  final storage = Storage(Directory.systemTemp.createTempSync('taticum_test'));
+  final storage = Storage(Directory.systemTemp.createTempSync('taticum_test').path);
   return AppController(
     catalog: Catalog.fromJson(base, extras: extras),
     storage: storage,
@@ -88,7 +88,7 @@ void main() {
   setUpAll(() async {
     base = jsonDecode(File('assets/catalog/catalog.json').readAsStringSync()) as Map<String, dynamic>;
     catalog = Catalog.fromJson(base);
-    content = await ContentLibrary.load(bundle, Storage(Directory.systemTemp.createTempSync('taticum_c')));
+    content = await ContentLibrary.load(bundle, Storage(Directory.systemTemp.createTempSync('taticum_c').path));
     await loadFont('Barlow', ['Barlow-Regular', 'Barlow-Medium', 'Barlow-SemiBold', 'Barlow-Bold']);
     await loadFont('BarlowCondensed', ['BarlowCondensed-Medium', 'BarlowCondensed-SemiBold', 'BarlowCondensed-Bold']);
   });

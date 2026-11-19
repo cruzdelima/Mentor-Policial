@@ -1,7 +1,7 @@
 name: mentor_policial
 description: "Taticum — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
 publish_to: 'none'
-version: 0.10.0+15
+version: 0.11.0+16
 
 environment:
   sdk: ^3.9.0

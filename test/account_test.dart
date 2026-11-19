@@ -53,12 +53,29 @@ void main() {
     expect(roleFrom('qualquer coisa'), Role.student);
   });
 
+  testWidgets('tela de entrada cabe no tablet (horizontal, em pé e com teclado aberto)', (tester) async {
+    for (final size in const [Size(1024, 768), Size(960, 600), Size(1024, 360), Size(768, 1024)]) {
+      tester.view.physicalSize = size;
+      tester.view.devicePixelRatio = 1;
+      final acc = AccountController(
+        service: AuthService(url: 'https://exemplo.invalid', apiKey: 'teste', storage: Directory.systemTemp.createTempSync('mp_auth').path),
+      )..status = AccountStatus.signedOut;
+      await tester.pumpWidget(MentorApp(account: acc));
+      await tester.pumpAndSettle();
+      expect(find.text('ENTRAR'), findsWidgets);
+      await tester.tap(find.widgetWithText(TextButton, 'CRIAR CONTA'));
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull, reason: '$size');
+    }
+    tester.view.reset();
+  });
+
   testWidgets('cadastro só libera o botão com dados válidos', (tester) async {
     tester.view.physicalSize = const Size(1366, 768);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.reset);
     final acc = AccountController(
-      service: AuthService(url: 'https://exemplo.invalid', apiKey: 'teste', storage: Directory.systemTemp.createTempSync('mp_auth')),
+      service: AuthService(url: 'https://exemplo.invalid', apiKey: 'teste', storage: Directory.systemTemp.createTempSync('mp_auth').path),
     )..status = AccountStatus.signedOut;
     await tester.pumpWidget(MentorApp(account: acc));
     await tester.pumpAndSettle();

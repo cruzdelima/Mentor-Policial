@@ -134,12 +134,40 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final width = MediaQuery.sizeOf(context).width;
     return Scaffold(
       body: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-        Container(
-          width: 380,
-          color: AppColors.sidebar,
-          child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        // Em telas estreitas (tablet em pé) o painel de apresentação some; em telas baixas (tablet deitado
+        // com o teclado aberto) ele rola em vez de estourar.
+        if (width >= 820)
+          Container(
+            width: width < 1100 ? 320 : 380,
+            color: AppColors.sidebar,
+            child: LayoutBuilder(
+              builder: (context, box) => SingleChildScrollView(
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(minHeight: box.maxHeight),
+                  child: IntrinsicHeight(child: _intro()),
+                ),
+              ),
+            ),
+          ),
+        Expanded(
+          child: Center(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 460),
+                child: AutofillGroup(child: _form()),
+              ),
+            ),
+          ),
+        ),
+      ]),
+    );
+  }
+
+  Widget _intro() => Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
             const TapeBand(height: 22),
             Padding(
               padding: const EdgeInsets.fromLTRB(32, 40, 32, 0),
@@ -156,7 +184,7 @@ class _AuthScreenState extends State<AuthScreen> {
             for (final (icon, title, text) in const [
               (Icons.flag_outlined, 'Metas diárias', 'O cronograma do ciclo básico, calculado pelo seu tempo e pelo seu nível.'),
               (Icons.menu_book_outlined, 'Materiais e questões', 'Apostilas aprofundadas, resumos para revisão e questões comentadas.'),
-              (Icons.lock_outline, 'Seus dados protegidos', 'Senha forte e acesso individual. O seu diário fica no seu computador.'),
+              (Icons.lock_outline, 'Seus dados protegidos', 'Senha forte e acesso individual. Seu progresso fica com você e numa cópia protegida na nuvem.'),
             ])
               Padding(
                 padding: const EdgeInsets.fromLTRB(32, 0, 32, 22),
@@ -177,22 +205,7 @@ class _AuthScreenState extends State<AuthScreen> {
               padding: const EdgeInsets.all(32),
               child: Text('Método de um aprovado em Agente da Polícia Federal 2025.', style: AppText.small(AppColors.dim)),
             ),
-          ]),
-        ),
-        Expanded(
-          child: Center(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 460),
-                child: AutofillGroup(child: _form()),
-              ),
-            ),
-          ),
-        ),
-      ]),
-    );
-  }
+          ]);
 
   Widget _form() {
     final children = <Widget>[];

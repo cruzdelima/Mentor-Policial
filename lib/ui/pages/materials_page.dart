@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
 import '../../core/bancas.dart';
@@ -159,7 +160,8 @@ class _MaterialsPageState extends State<MaterialsPage> {
             width: 520,
             child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               Wrap(spacing: 8, children: [
-                for (final k in const [('video', 'VIDEOAULA'), ('pdf', 'PDF / ARQUIVO'), ('link', 'SITE / LINK')])
+                // No navegador não há como abrir um arquivo do computador pelo caminho: só links.
+                for (final k in const [('video', 'VIDEOAULA'), if (!kIsWeb) ('pdf', 'PDF / ARQUIVO'), ('link', 'SITE / LINK')])
                   ToggleChip(label: k.$2, selected: kind == k.$1, onTap: () => setState(() => kind = k.$1)),
               ]),
               const SizedBox(height: 14),
@@ -169,7 +171,7 @@ class _MaterialsPageState extends State<MaterialsPage> {
                 controller: loc,
                 onChanged: (_) => setState(() {}),
                 decoration: InputDecoration(
-                  labelText: kind == 'pdf' ? 'Caminho do arquivo' : 'Link (https://…)',
+                  labelText: kind == 'pdf' ? 'Caminho do arquivo' : 'Link (https://…, Google Drive, OneDrive…)',
                   hintText: kind == 'pdf' ? r'Ex.: C:\Users\voce\Documents\resumo.pdf' : 'Cole o endereço aqui',
                 ),
               ),

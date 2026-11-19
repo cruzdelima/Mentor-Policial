@@ -5,8 +5,12 @@ library;
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
+
 import '../core/dates.dart';
 import '../core/models.dart';
+import '../platform/fs.dart';
+import '../platform/web_bridge.dart';
 
 class Storage {
   Storage(this.dir);
@@ -15,9 +19,15 @@ class Storage {
   /// a pasta antiga (MentorPolicial) é renomeada para a nova (Taticum), sem perder nada.
   /// O app está rodando como pacote da Microsoft Store (MSIX)?
   static bool get isStorePackage =>
-      Platform.isWindows && Platform.resolvedExecutable.toLowerCase().contains(r'\windowsapps\');
+      !kIsWeb && Platform.isWindows && Platform.resolvedExecutable.toLowerCase().contains(r'\windowsapps\');
 
-  static Directory defaultDir() {
+  /// Pasta (no navegador: prefixo) dos dados do app.
+  static String defaultDir() {
+    if (kIsWeb) return 'taticum';
+    return _desktopDir().path;
+  }
+
+  static Directory _desktopDir() {
     if (isStorePackage) return _storeDir();
     final dir = _dirNamed('Taticum', 'taticum');
     if (!dir.existsSync()) {
@@ -50,7 +60,7 @@ class Storage {
     to.createSync(recursive: true);
     for (final e in from.listSync(followLinks: false)) {
       final name = e.path.split(Platform.pathSeparator).last;
-      final target = _join(to.path, name);
+      final target = join(to.path, name);
       if (e is Directory) {
         _copyDir(e, Directory(target));
       } else if (e is File) {
@@ -72,19 +82,24 @@ class Storage {
     return Directory(path);
   }
 
-  final Directory dir;
+  /// Pasta dos dados desta conta (no navegador, um prefixo do localStorage).
+  final String dir;
 
-  File get _file => File(_join(dir.path, 'dados.json'));
-  File get _tmp => File(_join(dir.path, 'dados.json.tmp'));
-  Directory get backups => Directory(_join(dir.path, 'backups'));
-  Directory get materialsDir => Directory(_join(dir.path, 'materiais'));
-  Directory get packsDir => Directory(_join(dir.path, 'conteudos'));
+  static final Fs _fs = Fs.instance;
 
-  static String _join(String a, String b) => '$a${Platform.pathSeparator}$b';
-  static String join(String a, String b) => _join(a, b);
+  String get _file => join(dir, 'dados.json');
+  String get _tmp => join(dir, 'dados.json.tmp');
+  String get backups => join(dir, 'backups');
+
+  /// Só no desktop: PDFs copiados do app e pacotes de conteúdo extras.
+  Directory get materialsDir => Directory(join(dir, 'materiais'));
+  Directory get packsDir => Directory(join(dir, 'conteudos'));
+
+  static String join(String a, String b) => _fs.join(a, b);
 
   /// Nome deste aparelho, mostrado ao aluno quando há dados de dois aparelhos.
   static String deviceName() {
+    if (kIsWeb) return 'Navegador';
     final os = Platform.isWindows ? 'Windows' : (Platform.isMacOS ? 'Mac' : 'Linux');
     try {
       final h = Platform.localHostname.trim();
@@ -95,34 +110,25 @@ class Storage {
   }
 
   /// Controle da cópia na nuvem (versão recebida e mudanças pendentes).
-  File get syncFile => File(_join(dir.path, 'nuvem.json'));
+  String get syncFile => join(dir, 'nuvem.json');
 
   Future<UserData> load() async {
-    await dir.create(recursive: true);
     for (final f in [_file, _tmp]) {
-      if (await f.exists()) {
-        try {
-          final j = jsonDecode(await f.readAsString()) as Map<String, dynamic>;
-          return UserData.fromJson(j);
-        } catch (_) {
-          // arquivo corrompido: tenta o próximo / o backup mais recente
-        }
+      final text = await _fs.read(f);
+      if (text == null) continue;
+      try {
+        return UserData.fromJson(jsonDecode(text) as Map<String, dynamic>);
+      } catch (_) {
+        // arquivo corrompido: tenta o próximo / o backup mais recente
       }
     }
-    final latest = await _latestBackup();
-    if (latest != null) {
+    final files = (await _fs.list(backups)).where((f) => f.endsWith('.json')).toList()..sort((a, b) => b.compareTo(a));
+    for (final f in files.take(3)) {
       try {
-        return UserData.fromJson(jsonDecode(await latest.readAsString()) as Map<String, dynamic>);
+        return UserData.fromJson(jsonDecode((await _fs.read(f))!) as Map<String, dynamic>);
       } catch (_) {}
     }
     return UserData();
-  }
-
-  Future<File?> _latestBackup() async {
-    if (!await backups.exists()) return null;
-    final files = backups.listSync().whereType<File>().where((f) => f.path.endsWith('.json')).toList()
-      ..sort((a, b) => b.path.compareTo(a.path));
-    return files.isEmpty ? null : files.first;
   }
 
   Future<void>? _pending;
@@ -130,7 +136,7 @@ class Storage {
 
   /// Grava de forma atômica (arquivo temporário + renomear) e serializa as escritas.
   Future<void> save(UserData data) {
-    _queued = const JsonEncoder.withIndent(' ').convert(data.toJson());
+    _queued = kIsWeb ? jsonEncode(data.toJson()) : const JsonEncoder.withIndent(' ').convert(data.toJson());
     return _pending ??= _flush();
   }
 
@@ -139,11 +145,8 @@ class Storage {
       while (_queued != null) {
         final text = _queued!;
         _queued = null;
-        await dir.create(recursive: true);
-        await _tmp.writeAsString(text, flush: true);
-        if (await _file.exists()) await _file.delete();
-        await _tmp.rename(_file.path);
-        await _dailyBackup(text);
+        await _fs.write(_file, text);
+        if (!kIsWeb) await _dailyBackup(text); // no navegador, a cópia de segurança é a da nuvem
       }
     } finally {
       _pending = null;
@@ -152,40 +155,47 @@ class Storage {
 
   /// Uma cópia por dia na pasta "backups" (mantém as 15 mais recentes).
   Future<void> _dailyBackup(String text) async {
-    await backups.create(recursive: true);
-    final f = File(_join(backups.path, 'dados_${isoDate(DateTime.now())}.json'));
-    await f.writeAsString(text);
-    final files = backups.listSync().whereType<File>().where((x) => x.path.endsWith('.json')).toList()
-      ..sort((a, b) => b.path.compareTo(a.path));
+    await _fs.write(join(backups, 'dados_${isoDate(DateTime.now())}.json'), text);
+    final files = (await _fs.list(backups)).where((x) => x.endsWith('.json')).toList()..sort((a, b) => b.compareTo(a));
     for (final old in files.skip(15)) {
       try {
-        old.deleteSync();
+        await _fs.delete(old);
       } catch (_) {}
     }
   }
 
   /// Guarda uma cópia dos dados antes de serem substituídos pela versão da nuvem (pasta "substituidos").
   Future<String> keepReplaced(UserData data) async {
-    final d = Directory(_join(dir.path, 'substituidos'));
-    await d.create(recursive: true);
     final now = DateTime.now();
-    final f = File(_join(d.path, 'antes_da_nuvem_${isoDate(now)}_${two(now.hour)}${two(now.minute)}${two(now.second)}.json'));
-    await f.writeAsString(const JsonEncoder.withIndent(' ').convert(data.toJson()));
-    return f.path;
+    final path = join(join(dir, 'substituidos'), 'antes_da_nuvem_${isoDate(now)}_${two(now.hour)}${two(now.minute)}${two(now.second)}.json');
+    await _fs.write(path, jsonEncode(data.toJson()));
+    if (kIsWeb) {
+      // No navegador, guarda só a cópia mais recente (o espaço é pequeno).
+      for (final old in await _fs.list(join(dir, 'substituidos'))) {
+        if (old != path) await _fs.delete(old);
+      }
+    }
+    return path;
   }
 
   /// Exporta um backup para a pasta Documentos (ou para a pasta de dados) e devolve o caminho.
   Future<String> exportBackup(UserData data) async {
+    if (kIsWeb) {
+      final now = DateTime.now();
+      final name = 'Taticum_backup_${isoDate(now)}_${two(now.hour)}${two(now.minute)}.json';
+      webDownload(name, const JsonEncoder.withIndent(' ').convert(data.toJson()));
+      return name;
+    }
     final env = Platform.environment;
     final home = Platform.isWindows ? env['USERPROFILE'] : env['HOME'];
-    Directory target = dir;
+    Directory target = Directory(dir);
     if (home != null) {
-      final docs = Directory(_join(home, 'Documents'));
+      final docs = Directory(join(home, 'Documents'));
       if (await docs.exists()) target = docs;
     }
     final now = DateTime.now();
     final name = 'Taticum_backup_${isoDate(now)}_${two(now.hour)}${two(now.minute)}.json';
-    final f = File(_join(target.path, name));
+    final f = File(join(target.path, name));
     await f.writeAsString(const JsonEncoder.withIndent(' ').convert(data.toJson()));
     return f.path;
   }
@@ -195,7 +205,12 @@ class Storage {
     final clean = path.trim().replaceAll('"', '');
     final f = File(clean);
     if (!await f.exists()) throw const FileSystemException('Arquivo não encontrado');
-    final j = jsonDecode(await f.readAsString()) as Map<String, dynamic>;
+    return parseBackup(await f.readAsString());
+  }
+
+  /// Valida o conteúdo de um backup (usado também no navegador, que lê o arquivo escolhido).
+  static UserData parseBackup(String text) {
+    final j = jsonDecode(text) as Map<String, dynamic>;
     if (!j.containsKey('profile') || !j.containsKey('diary')) {
       throw const FormatException('Este arquivo não é um backup do Taticum');
     }
@@ -208,6 +223,11 @@ Future<bool> openExternal(String target) async {
   try {
     final t = target.trim();
     if (t.isEmpty) return false;
+    if (kIsWeb) {
+      if (!looksLikeUrl(t) && !t.startsWith('assets/') && !t.startsWith('mailto:') && !t.startsWith('blob:')) return false;
+      webOpen(looksLikeUrl(t) ? normalizeUrl(t) : t);
+      return true;
+    }
     if (Platform.isWindows) {
       final isUrl = t.startsWith('http://') || t.startsWith('https://') || t.startsWith('mailto:');
       if (isUrl) {

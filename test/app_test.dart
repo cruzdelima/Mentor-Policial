@@ -26,7 +26,7 @@ class DiskBundle extends CachingAssetBundle {
 late Catalog catalog;
 late ContentLibrary content;
 final bundle = DiskBundle();
-final storage = Storage(Directory.systemTemp.createTempSync('mentor_test'));
+final storage = Storage(Directory.systemTemp.createTempSync('mentor_test').path);
 final now = DateTime(2026, 11, 18, 9);
 
 Future<void> loadFont(String family, List<String> files) async {
@@ -145,8 +145,9 @@ void main() {
     expect(find.text('QG · CENTRAL DE COMANDO'), findsOneWidget);
   });
 
-  testWidgets('todas as telas abrem sem erro (1366×768 e 1180×720)', (tester) async {
-    for (final size in const [Size(1366, 768), Size(1180, 720), Size(1920, 1080)]) {
+  testWidgets('todas as telas abrem sem erro (computador e tablet na horizontal)', (tester) async {
+    // Tablets na horizontal: iPad (1024×768 e 1133×744) e Android (960×600).
+    for (final size in const [Size(1366, 768), Size(1180, 720), Size(1920, 1080), Size(1024, 768), Size(1133, 744), Size(960, 600)]) {
       await setWindow(tester, size);
       final p = pfProfile();
       final data = UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature);

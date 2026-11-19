@@ -11,6 +11,10 @@ import 'dart:convert';
 import 'dart:io';
 
 import '../state/cloud_sync.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
+
+import '../platform/fs.dart';
+import '../platform/web_bridge.dart';
 import 'catalog_store.dart';
 import 'storage.dart';
 
@@ -188,41 +192,55 @@ class AuthService implements CatalogRemote, StudyRemote {
   final String apiKey;
 
   /// Pasta onde a sessão fica salva (raiz dos dados do app).
-  final Directory storage;
+  /// Pasta (no navegador: prefixo) onde a sessão fica salva.
+  final String storage;
 
   Session? session;
 
-  File get _sessionFile => File(Storage.join(storage.path, 'sessao.json'));
+  String get _sessionFile => Storage.join(storage, 'sessao.json');
 
   // ------------------------------------------------------------------ HTTP
 
   Future<dynamic> _send(String method, String path, {Object? body, bool auth = false, Map<String, String> extra = const {}}) async {
+    final headers = <String, String>{'apikey': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json'};
+    if (auth) {
+      final s = await validSession();
+      headers['Authorization'] = 'Bearer ${s.accessToken}';
+    }
+    headers.addAll(extra);
+    final payload = body == null ? null : jsonEncode(body);
+    final (status, text) = kIsWeb ? await _sendWeb(method, '$url$path', headers, payload) : await _sendIo(method, '$url$path', headers, payload);
+    final data = text.isEmpty ? null : jsonDecode(text);
+    if (status >= 200 && status < 300) return data;
+    var code = '', msg = '';
+    if (data is Map) {
+      code = '${data['error_code'] ?? data['code'] ?? data['error'] ?? ''}';
+      msg = '${data['msg'] ?? data['message'] ?? data['error_description'] ?? ''}';
+    }
+    throw AuthError(_friendly(code, msg, status), code: code);
+  }
+
+  Future<(int, String)> _sendWeb(String method, String url, Map<String, String> headers, String? body) async {
+    try {
+      final r = await webFetch(method, url, headers, body).timeout(const Duration(seconds: 25));
+      return (r.status, r.text);
+    } on TimeoutException {
+      throw AuthError('O servidor demorou a responder. Verifique sua internet.', offline: true);
+    } catch (_) {
+      throw AuthError('Sem conexão com a internet.', offline: true);
+    }
+  }
+
+  Future<(int, String)> _sendIo(String method, String url, Map<String, String> headers, String? body) async {
     final client = HttpClient()
       ..connectionTimeout = const Duration(seconds: 10)
       ..userAgent = 'Taticum';
     try {
-      final req = await client.openUrl(method, Uri.parse('$url$path'));
-      req.headers.set('apikey', apiKey);
-      req.headers.set('Accept', 'application/json');
-      req.headers.contentType = ContentType.json;
-      if (auth) {
-        final s = await validSession();
-        req.headers.set('Authorization', 'Bearer ${s.accessToken}');
-      }
-      extra.forEach(req.headers.set);
-      if (body != null) req.add(utf8.encode(jsonEncode(body)));
+      final req = await client.openUrl(method, Uri.parse(url));
+      headers.forEach(req.headers.set);
+      if (body != null) req.add(utf8.encode(body));
       final res = await req.close().timeout(const Duration(seconds: 20));
-      final text = await res.transform(utf8.decoder).join();
-      final data = text.isEmpty ? null : jsonDecode(text);
-      if (res.statusCode >= 200 && res.statusCode < 300) return data;
-      var code = '', msg = '';
-      if (data is Map) {
-        code = '${data['error_code'] ?? data['code'] ?? data['error'] ?? ''}';
-        msg = '${data['msg'] ?? data['message'] ?? data['error_description'] ?? ''}';
-      }
-      throw AuthError(_friendly(code, msg, res.statusCode), code: code);
-    } on AuthError {
-      rethrow;
+      return (res.statusCode, await res.transform(utf8.decoder).join());
     } on SocketException {
       throw AuthError('Sem conexão com a internet.', offline: true);
     } on HandshakeException {
@@ -240,24 +258,24 @@ class AuthService implements CatalogRemote, StudyRemote {
 
   Future<void> _saveSession(Session? s) async {
     session = s;
-    await storage.create(recursive: true);
     if (s == null) {
-      if (await _sessionFile.exists()) await _sessionFile.delete();
+      await Fs.instance.delete(_sessionFile);
       return;
     }
     // Guarda só o necessário para renovar a sessão. Nada de senha.
-    await _sessionFile.writeAsString(jsonEncode({'refresh_token': s.refreshToken, 'user_id': s.userId, 'email': s.email}), flush: true);
-    if (!Platform.isWindows) {
+    await Fs.instance.write(_sessionFile, jsonEncode({'refresh_token': s.refreshToken, 'user_id': s.userId, 'email': s.email}));
+    if (!kIsWeb && !Platform.isWindows) {
       // Somente o usuário do sistema pode ler o arquivo (no Windows, a pasta AppData já é privada do usuário).
-      await Process.run('chmod', ['600', _sessionFile.path]);
+      await Process.run('chmod', ['600', _sessionFile]);
     }
   }
 
   /// Dados da última sessão salva (para abrir offline): (userId, email) ou null.
   Future<(String, String)?> savedUser() async {
-    if (!await _sessionFile.exists()) return null;
+    final text = await Fs.instance.read(_sessionFile);
+    if (text == null) return null;
     try {
-      final j = jsonDecode(await _sessionFile.readAsString()) as Map<String, dynamic>;
+      final j = jsonDecode(text) as Map<String, dynamic>;
       return (j['user_id'] as String, j['email'] as String? ?? '');
     } catch (_) {
       return null;
@@ -266,8 +284,9 @@ class AuthService implements CatalogRemote, StudyRemote {
 
   /// Renova a sessão salva. Lança [AuthError] (offline = true se não houver internet).
   Future<Session> restore() async {
-    if (!await _sessionFile.exists()) throw AuthError('Sem sessão salva.');
-    final j = jsonDecode(await _sessionFile.readAsString()) as Map<String, dynamic>;
+    final text = await Fs.instance.read(_sessionFile);
+    if (text == null) throw AuthError('Sem sessão salva.');
+    final j = jsonDecode(text) as Map<String, dynamic>;
     return _refresh(j['refresh_token'] as String);
   }
 

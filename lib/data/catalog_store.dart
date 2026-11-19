@@ -3,9 +3,9 @@
 library;
 
 import 'dart:convert';
-import 'dart:io';
 
 import '../core/extras.dart';
+import '../platform/fs.dart';
 import 'storage.dart';
 
 /// Onde o catálogo extra é lido e publicado (no app: Supabase, via [AuthService]).
@@ -21,14 +21,15 @@ abstract class CatalogRemote {
 /// Fica na pasta geral do app (vale para todas as contas do computador).
 class CatalogStore {
   CatalogStore(this.dir);
-  final Directory dir;
+  final String dir;
 
-  File get _file => File(Storage.join(dir.path, 'catalogo_extra.json'));
+  String get _file => Storage.join(dir, 'catalogo_extra.json');
 
   Future<({Map<String, dynamic> data, int version})> read() async {
     try {
-      if (await _file.exists()) {
-        final j = jsonDecode(await _file.readAsString()) as Map<String, dynamic>;
+      final text = await Fs.instance.read(_file);
+      if (text != null) {
+        final j = jsonDecode(text) as Map<String, dynamic>;
         return (data: normalizeExtras(j['data']), version: (j['version'] as num? ?? 0).toInt());
       }
     } catch (_) {}
@@ -37,10 +38,7 @@ class CatalogStore {
 
   Future<void> write(Map<String, dynamic> data, int version) async {
     try {
-      await dir.create(recursive: true);
-      final tmp = File('${_file.path}.tmp');
-      await tmp.writeAsString(jsonEncode({'version': version, 'data': data}));
-      await tmp.rename(_file.path);
+      await Fs.instance.write(_file, jsonEncode({'version': version, 'data': data}));
     } catch (_) {}
   }
 }

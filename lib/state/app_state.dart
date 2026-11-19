@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
@@ -18,7 +19,7 @@ import '../data/content.dart';
 import '../data/storage.dart';
 import 'cloud_sync.dart';
 
-const kAppVersion = '0.10.0';
+const kAppVersion = '0.11.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
@@ -100,7 +101,7 @@ class ContentLibrary {
     }
     // Pacotes locais: <dados>/conteudos/<pacote>/index.json (atualização de conteúdo sem nova versão do app).
     try {
-      if (await storage.packsDir.exists()) {
+      if (!kIsWeb && await storage.packsDir.exists()) {
         for (final d in storage.packsDir.listSync().whereType<Directory>()) {
           final f = File(Storage.join(d.path, 'index.json'));
           if (!await f.exists()) continue;
@@ -155,6 +156,8 @@ class ContentLibrary {
   Future<String?> pdfPath(StudyMaterial m, AssetBundle bundle, Storage storage) async {
     final pdf = m.pdf;
     if (pdf == null) return null;
+    // No navegador, o PDF é publicado junto com o app: abre numa aba nova.
+    if (kIsWeb) return 'assets/assets/content/${m.info.folder}/$pdf';
     if (m.info.source != 'asset') return Storage.join(Storage.join(m.info.source, m.info.folder), pdf);
     final data = await bundle.load('assets/content/${m.info.folder}/$pdf');
     await storage.materialsDir.create(recursive: true);
@@ -403,7 +406,7 @@ class AppController extends ChangeNotifier {
     sync?.dispose();
     final s = CloudSync(
       remote: remote,
-      metaFile: storage.syncFile,
+      metaPath: storage.syncFile,
       device: Storage.deviceName(),
       readLocal: () => data.toJson(),
       adoptRemote: _adoptRemote,
@@ -651,6 +654,11 @@ class AppController extends ChangeNotifier {
     _changed();
   }
 
+  void importBackupText(String text) {
+    data = Storage.parseBackup(text);
+    _changed();
+  }
+
   void resetAll() {
     data = UserData();
     page = AppPage.qg;
@@ -677,6 +685,7 @@ class AppController extends ChangeNotifier {
 
   /// Consulta a última versão publicada. Falhas (sem internet, limite da API) são ignoradas.
   Future<({String version, String url})?> checkUpdate() async {
+    if (kIsWeb) return null; // o site já abre sempre na versão nova
     final client = HttpClient()
       ..connectionTimeout = const Duration(seconds: 6)
       ..userAgent = 'Taticum/$kAppVersion';

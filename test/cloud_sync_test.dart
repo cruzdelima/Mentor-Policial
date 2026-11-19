@@ -32,7 +32,7 @@ class Device {
     final dir = Directory.systemTemp.createTempSync('taticum_sync_');
     sync = CloudSync(
       remote: cloud,
-      metaFile: File('${dir.path}/nuvem.json'),
+      metaPath: '${dir.path}/nuvem.json',
       device: name,
       readLocal: () => Map.of(this.local),
       adoptRemote: (d) => this.local = Map.of(d),

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
 import '../../core/dates.dart';
@@ -8,6 +9,7 @@ import '../../state/account.dart';
 import '../../state/cloud_sync.dart';
 import '../auth_screen.dart' show PasswordChecklist;
 import '../../data/storage.dart';
+import '../../platform/web_bridge.dart';
 import '../../state/app_state.dart';
 import '../dialogs.dart';
 import '../profile_editors.dart';
@@ -222,21 +224,27 @@ class _DataPanel extends StatelessWidget {
     return Panel(
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         const SectionLabel('Seus dados'),
-        Text('Tudo fica salvo neste computador. Uma cópia de segurança diária é feita automaticamente (últimos 15 dias).', style: AppText.small()),
-        const SizedBox(height: 8),
-        SelectableText(app.storage.dir.path, style: AppText.small(AppColors.dim)),
+        if (kIsWeb)
+          Text('No navegador, seus dados ficam guardados neste navegador e na cópia da nuvem da sua conta. '
+              'Exporte um backup de vez em quando para ter uma cópia em arquivo.', style: AppText.small())
+        else ...[
+          Text('Tudo fica salvo $kNeste. Uma cópia de segurança diária é feita automaticamente (últimos 15 dias).', style: AppText.small()),
+          const SizedBox(height: 8),
+          SelectableText(app.storage.dir, style: AppText.small(AppColors.dim)),
+        ],
         const SizedBox(height: 14),
         Wrap(spacing: 10, runSpacing: 10, children: [
-          OutlinedButton.icon(
-            onPressed: () => openExternal(app.storage.dir.path),
-            icon: const Icon(Icons.folder_open_outlined, size: 18),
-            label: const Text('ABRIR PASTA DE DADOS'),
-          ),
+          if (!kIsWeb)
+            OutlinedButton.icon(
+              onPressed: () => openExternal(app.storage.dir),
+              icon: const Icon(Icons.folder_open_outlined, size: 18),
+              label: const Text('ABRIR PASTA DE DADOS'),
+            ),
           OutlinedButton.icon(
             onPressed: () async {
               try {
                 final path = await app.exportBackup();
-                if (context.mounted) toast(context, 'Backup salvo em: $path');
+                if (context.mounted) toast(context, kIsWeb ? 'Backup baixado: $path' : 'Backup salvo em: $path');
               } catch (e) {
                 if (context.mounted) toast(context, 'Falha ao exportar: $e');
               }
@@ -255,7 +263,7 @@ class _DataPanel extends StatelessWidget {
               final ok = await confirm(
                 context,
                 'Apagar tudo',
-                'Perfil, diário, missões concluídas e anotações serão apagados deste computador. Exporte um backup antes se quiser guardar.',
+                'Perfil, diário, missões concluídas e anotações serão apagados${kIsWeb ? '' : ' deste computador'}. Exporte um backup antes se quiser guardar.',
                 ok: 'APAGAR TUDO',
                 danger: true,
               );
@@ -271,6 +279,19 @@ class _DataPanel extends StatelessWidget {
 
   Future<void> _import(BuildContext context) async {
     final app = AppScope.read(context);
+    if (kIsWeb) {
+      try {
+        final text = await webPickText('.json,application/json');
+        if (text == null || !context.mounted) return;
+        final ok = await confirm(context, 'Importar backup', 'Os dados atuais serão substituídos pelos do arquivo escolhido.', ok: 'IMPORTAR');
+        if (!ok) return;
+        app.importBackupText(text);
+        if (context.mounted) toast(context, 'Backup importado.');
+      } catch (e) {
+        if (context.mounted) toast(context, 'Falha ao importar: $e');
+      }
+      return;
+    }
     final c = TextEditingController();
     final path = await showDialog<String>(
       context: context,
@@ -354,7 +375,7 @@ class _AccountPanel extends StatelessWidget {
         ]),
         if (acc.offline) ...[
           const SizedBox(height: 10),
-          Text('Sem conexão: seus estudos continuam salvos neste computador. Os dados da conta serão atualizados quando a internet voltar.',
+          Text('Sem conexão: seus estudos continuam salvos $kNeste. Os dados da conta serão atualizados quando a internet voltar.',
               style: AppText.small(AppColors.amber)),
         ],
         if (acc.app?.sync != null) ...[
@@ -375,7 +396,7 @@ class _AccountPanel extends StatelessWidget {
           ),
           OutlinedButton.icon(
             onPressed: () async {
-              if (await confirm(context, 'Sair da conta', 'Seus estudos continuam salvos neste computador e voltam quando você entrar de novo.', ok: 'SAIR')) {
+              if (await confirm(context, 'Sair da conta', 'Seus estudos continuam salvos $kNeste e voltam quando você entrar de novo.', ok: 'SAIR')) {
                 await acc.signOut();
               }
             },
@@ -500,7 +521,7 @@ class _AccountPanel extends StatelessWidget {
           content: SizedBox(
             width: 460,
             child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text('Sua conta e seus dados pessoais serão apagados do servidor, e seus estudos serão apagados deste computador. '
+              Text('Sua conta e seus dados pessoais serão apagados do servidor, e seus estudos serão apagados $kDeste. '
                   'Isso não pode ser desfeito.', style: AppText.body(AppColors.muted)),
               const SizedBox(height: 14),
               Text('Para confirmar, digite EXCLUIR:', style: AppText.small(AppColors.text)),
@@ -550,10 +571,10 @@ class _SyncLine extends StatelessWidget {
     final t = sync.lastSync;
     final at = t == null ? '' : ' às ${two(t.hour)}:${two(t.minute)}';
     final (IconData icon, Color color, String text) = switch (sync.state) {
-      SyncState.synced => (Icons.cloud_done_outlined, AppColors.green, 'Progresso salvo na nuvem$at. Entre em outro computador com esta conta e continue de onde parou.'),
+      SyncState.synced => (Icons.cloud_done_outlined, AppColors.green, 'Progresso salvo na nuvem$at. Entre em outro aparelho com esta conta e continue de onde parou.'),
       SyncState.pending || SyncState.syncing || SyncState.starting => (Icons.cloud_upload_outlined, AppColors.muted, 'Enviando seu progresso para a nuvem…'),
-      SyncState.offline => (Icons.cloud_off_outlined, AppColors.amber, 'Sem internet: o progresso está salvo neste computador e sobe para a nuvem quando a conexão voltar.'),
-      SyncState.conflict => (Icons.cloud_sync_outlined, AppColors.amber, 'O progresso deste computador e o da nuvem são diferentes. Escolha qual manter na faixa no topo da tela.'),
+      SyncState.offline => (Icons.cloud_off_outlined, AppColors.amber, 'Sem internet: o progresso está salvo $kNeste e sobe para a nuvem quando a conexão voltar.'),
+      SyncState.conflict => (Icons.cloud_sync_outlined, AppColors.amber, 'O progresso $kDeste e o da nuvem são diferentes. Escolha qual manter na faixa no topo da tela.'),
       SyncState.unavailable => (Icons.cloud_off_outlined, AppColors.muted, 'O salvamento na nuvem ainda não foi ativado no servidor.'),
       SyncState.error => (Icons.error_outline, AppColors.red, 'Não foi possível salvar na nuvem agora. Tentaremos de novo em alguns minutos.'),
     };

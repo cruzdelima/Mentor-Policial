@@ -106,6 +106,12 @@ Cada material tem até três versões, geradas por `tool/content/build_content.p
   arquivo `me_<perfil>_<matéria>.py`.
 * O dono confere as versões no leitor do material (VERSÃO POR BANCA); o editor de concursos mostra qual versão a banca digitada recebe.
 
+## Versão para navegador
+
+O mesmo código gera o site (`flutter build web`, publicado no GitHub Pages pelo job `web`/`site`).
+Tudo que depende do sistema passa por `lib/platform/` (`Fs` e `web_bridge`) e fica protegido por `kIsWeb`.
+Detalhes e configuração do domínio: `docs/VERSAO_WEB.md`.
+
 ## Decisões registradas
 
 | Decisão | Motivo |

@@ -255,7 +255,7 @@ class _SyncConflictBanner extends StatelessWidget {
         const SizedBox(width: 12),
         Expanded(
           child: Text(
-            'Seu progresso na nuvem é diferente do deste computador (última gravação na nuvem: $where, $when). Qual você quer manter?',
+            'Seu progresso na nuvem é diferente do $kDeste (última gravação na nuvem: $where, $when). Qual você quer manter?',
             style: AppText.strong(AppColors.bg),
           ),
         ),
@@ -263,7 +263,7 @@ class _SyncConflictBanner extends StatelessWidget {
           style: TextButton.styleFrom(foregroundColor: AppColors.bg),
           onPressed: () async {
             final ok = await confirm(context, 'Usar o progresso da nuvem',
-                'O progresso deste computador será substituído pelo que está salvo na nuvem ($where, $when). '
+                'O progresso $kDeste será substituído pelo que está salvo na nuvem ($where, $when). '
                 'Uma cópia do progresso atual fica guardada na pasta de dados do Taticum (substituidos).',
                 ok: 'USAR O DA NUVEM');
             if (ok) await sync.useRemote();
@@ -274,13 +274,13 @@ class _SyncConflictBanner extends StatelessWidget {
         ElevatedButton(
           style: ElevatedButton.styleFrom(backgroundColor: AppColors.bg, foregroundColor: AppColors.amber),
           onPressed: () async {
-            final ok = await confirm(context, 'Manter o progresso deste computador',
-                'A cópia da nuvem ($where, $when) será substituída pelo progresso deste computador. '
+            final ok = await confirm(context, 'Manter o progresso $kDeste',
+                'A cópia da nuvem ($where, $when) será substituída pelo progresso $kDeste. '
                 'Os outros aparelhos passarão a usar este.',
                 ok: 'MANTER ESTE');
             if (ok) await sync.keepLocal();
           },
-          child: const Text('MANTER O DESTE COMPUTADOR'),
+          child: const Text('MANTER O $kDESTE'),
         ),
       ]),
     );
