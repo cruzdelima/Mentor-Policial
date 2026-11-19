@@ -15,7 +15,10 @@ import '../widgets.dart';
 /// As marcas não são manuais: "lançado" vem da biblioteca de conteúdo do app (o material existe para o assunto) e
 /// "validado" vem da revisão do dono (botão REVISEI). Assim o checklist nunca fica desatualizado.
 class ContentChecklist extends StatefulWidget {
-  const ContentChecklist({super.key});
+  const ContentChecklist({super.key, this.initialOptionId});
+
+  /// Concurso ou cargo aberto de início (padrão: o do perfil do usuário).
+  final String? initialOptionId;
 
   @override
   State<ContentChecklist> createState() => _ContentChecklistState();
@@ -24,7 +27,7 @@ class ContentChecklist extends StatefulWidget {
 enum _Filter { all, missing, pending, ready }
 
 class _ContentChecklistState extends State<ContentChecklist> {
-  String? optionId;
+  late String? optionId = widget.initialOptionId;
   _Filter filter = _Filter.all;
   final Set<String> busy = {};
 

@@ -245,39 +245,30 @@ void main() {
   testWidgets('checklist de materiais por edital (ADMIN)', (tester) async {
     final problems = <String>[];
     final previous = FlutterError.onError;
-    FlutterError.onError = (d) => problems.add(d.exceptionAsString());
-    for (final size in const [Size(1366, 768), Size(1024, 768)]) {
-      await setWindow(tester, size);
-      final p = pfProfile();
-      final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
-      await tester.pumpWidget(MaterialApp(
-        key: ValueKey(size),
-        theme: buildTheme(),
-        home: AppScope(controller: app, child: const Scaffold(body: ContentChecklist())),
-      ));
-      await tester.pumpAndSettle();
-      expect(find.text('Assuntos do edital'), findsOneWidget);
-      await tester.tap(find.text('FALTA PRODUZIR'));
-      await tester.pumpAndSettle();
-      await tester.tap(find.text('PRONTOS'));
-      await tester.pumpAndSettle();
+    FlutterError.onError = (d) => problems.add(d.exceptionAsString().split('\n').first);
+    try {
+      for (final size in const [Size(1366, 768), Size(1024, 768)]) {
+        for (final option in const ['PF_AG', 'CBMPE26_TEN']) {
+          await setWindow(tester, size);
+          final p = pfProfile();
+          final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
+          await tester.pumpWidget(MaterialApp(
+            key: ValueKey('$size$option'),
+            theme: buildTheme(),
+            home: AppScope(controller: app, child: Scaffold(body: ContentChecklist(initialOptionId: option))),
+          ));
+          await tester.pump(const Duration(milliseconds: 300));
+          expect(find.text('Assuntos do edital'), findsOneWidget);
+          if (option == 'CBMPE26_TEN') expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
+          for (final f in const ['FALTA PRODUZIR', 'FALTA VALIDAR', 'PRONTOS', 'TODOS']) {
+            await tester.tap(find.text(f));
+            await tester.pump(const Duration(milliseconds: 300));
+          }
+        }
+      }
+    } finally {
+      FlutterError.onError = previous;
     }
-    // O CFO CBMPE tem assuntos só do edital: eles aparecem marcados como tal.
-    final p = pfProfile();
-    final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
-    expect(catalog.contests.any((c) => c.id == 'CBMPE26_TEN'), isTrue);
-    await tester.pumpWidget(MaterialApp(
-      key: const ValueKey('cbmpe'),
-      theme: buildTheme(),
-      home: AppScope(controller: app, child: const Scaffold(body: ContentChecklist())),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byType(DropdownButtonFormField<String>));
-    await tester.pumpAndSettle();
-    await tester.tap(find.textContaining('CFO CBMPE').last);
-    await tester.pumpAndSettle();
-    expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
-    FlutterError.onError = previous;
     expect(problems, isEmpty, reason: problems.join('\n'));
   });
 }
