@@ -262,7 +262,13 @@ void main() {
           // Nada pode ficar animando sem parar nesta tela.
           expect(tester.binding.transientCallbackCount, 0, reason: 'animação contínua em $option');
           expect(find.text('ASSUNTOS DO EDITAL'), findsOneWidget);
-          if (option == 'CBMPE26_TEN') expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
+          if (option == 'CBMPE26_TEN') {
+            // Assuntos só deste edital aparecem marcados (a lista é preguiçosa: rola até eles).
+            await tester.scrollUntilVisible(find.text('SÓ DESTE EDITAL').first, 400, scrollable: find.byType(Scrollable).first);
+            expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
+            await tester.drag(find.byType(Scrollable).first, const Offset(0, 20000));
+            await tester.pump(const Duration(milliseconds: 300));
+          }
           for (final f in const ['FALTA PRODUZIR', 'FALTA VALIDAR', 'PRONTOS', 'TODOS']) {
             await tester.tap(find.text(f).last);
             await tester.pump(const Duration(milliseconds: 300));
