@@ -264,7 +264,7 @@ void main() {
           expect(find.text('ASSUNTOS DO EDITAL'), findsOneWidget);
           if (option == 'CBMPE26_TEN') expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
           for (final f in const ['FALTA PRODUZIR', 'FALTA VALIDAR', 'PRONTOS', 'TODOS']) {
-            await tester.tap(find.text(f));
+            await tester.tap(find.text(f).last);
             await tester.pump(const Duration(milliseconds: 300));
           }
         }
