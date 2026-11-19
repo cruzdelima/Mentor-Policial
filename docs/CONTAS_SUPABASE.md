@@ -24,6 +24,7 @@ Leva cerca de 40 minutos. Faça uma vez. Enquanto isso não for feito, o app fun
 4. Repita com [`supabase/migrations/0002_catalogo.sql`](../supabase/migrations/0002_catalogo.sql) (*New query* › colar › **Run**). Ele cria o catálogo editável (áreas, cargos e concursos pós-edital que você cadastra pelo app).
 
 5. Repita com [`supabase/migrations/0003_convites.sql`](../supabase/migrations/0003_convites.sql). Ele completa o perfil de quem foi convidado pelo painel e depois criou a conta pelo app.
+6. Repita com [`supabase/migrations/0004_classificacao.sql`](../supabase/migrations/0004_classificacao.sql). Ele cria a classificação dos alunos (Testador Beta, Testador Gratuito, Assinante mensal e anual), que o dono define em ADMIN › CONTAS.
 
 > Os arquivos são aplicados **em ordem** e **uma vez só**. Quando sair um arquivo novo (0003, 0004…), rode só o novo.
 

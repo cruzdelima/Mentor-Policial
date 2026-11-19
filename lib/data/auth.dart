@@ -27,6 +27,29 @@ String roleLabel(Role r) => switch (r) {
       Role.student => 'Aluno',
     };
 
+/// Classificação do aluno (coluna profiles.plan). Beta e Gratuito são manuais (só o dono);
+/// mensal e anual virão do pagamento, quando o app for pago.
+enum Plan { none, beta, tester, monthly, annual }
+
+Plan planFrom(String? s) => switch (s) {
+      'beta' => Plan.beta,
+      'tester' => Plan.tester,
+      'monthly' => Plan.monthly,
+      'annual' => Plan.annual,
+      _ => Plan.none,
+    };
+
+String planLabel(Plan p) => switch (p) {
+      Plan.none => 'Sem classificação',
+      Plan.beta => 'Testador Beta',
+      Plan.tester => 'Testador Gratuito',
+      Plan.monthly => 'Assinante mensal',
+      Plan.annual => 'Assinante anual',
+    };
+
+/// Classificações que o dono pode dar à mão.
+const kManualPlans = [Plan.none, Plan.beta, Plan.tester];
+
 class AccountProfile {
   AccountProfile({
     required this.id,
@@ -37,6 +60,9 @@ class AccountProfile {
     required this.plan,
     required this.createdAt,
     this.planExpiresAt,
+    this.planNote = '',
+    this.planSource = 'manual',
+    this.planUpdatedAt,
   });
 
   factory AccountProfile.fromJson(Map<String, dynamic> j) => AccountProfile(
@@ -45,9 +71,12 @@ class AccountProfile {
         name: j['name'] as String? ?? '',
         phone: j['phone'] as String? ?? '',
         role: roleFrom(j['role'] as String?),
-        plan: j['plan'] as String? ?? 'free',
+        plan: planFrom(j['plan'] as String?),
         createdAt: DateTime.tryParse(j['created_at'] as String? ?? '')?.toLocal() ?? DateTime.now(),
         planExpiresAt: DateTime.tryParse(j['plan_expires_at'] as String? ?? '')?.toLocal(),
+        planNote: j['plan_note'] as String? ?? '',
+        planSource: j['plan_source'] as String? ?? 'manual',
+        planUpdatedAt: DateTime.tryParse(j['plan_updated_at'] as String? ?? '')?.toLocal(),
       );
 
   final String id;
@@ -55,9 +84,16 @@ class AccountProfile {
   final String name;
   final String phone;
   final Role role;
-  final String plan;
+  final Plan plan;
   final DateTime createdAt;
   final DateTime? planExpiresAt;
+  final String planNote;
+  final String planSource;
+  final DateTime? planUpdatedAt;
+
+  /// Assinatura paga ainda válida (o dono não pode mudar à mão).
+  bool get hasActiveSubscription =>
+      (plan == Plan.monthly || plan == Plan.annual) && (planExpiresAt == null || planExpiresAt!.isAfter(DateTime.now()));
 
   bool get isAdmin => role == Role.admin || role == Role.owner;
   bool get isOwner => role == Role.owner;
@@ -329,6 +365,10 @@ class AuthService implements CatalogRemote {
   /// Concede ou retira o papel de administrador (o servidor só aceita do dono).
   Future<void> setRole(String userId, Role role) =>
       _send('POST', '/rest/v1/rpc/set_role', body: {'target': userId, 'new_role': role.name}, auth: true);
+
+  /// Classifica um aluno (o servidor só aceita do dono e só as classificações manuais).
+  Future<void> setPlan(String userId, Plan plan, String note) =>
+      _send('POST', '/rest/v1/rpc/set_plan', body: {'target': userId, 'new_plan': plan.name, 'note': note.trim()}, auth: true);
 
   Future<List<AuditEntry>> auditLog() async {
     final data = await _send('GET', '/rest/v1/audit_log_view?select=*&order=at.desc&limit=50', auth: true) as List;

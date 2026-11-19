@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../core/dates.dart';
 import '../../core/models.dart';
 import '../../core/validation.dart';
 import '../../data/auth.dart';
@@ -348,7 +349,7 @@ class _AccountPanel extends StatelessWidget {
           _info('E-mail', acc.email),
           _info('Celular', p == null || p.phone.isEmpty ? '—' : formatPhone(p.phone)),
           _info('Permissão', p == null ? '—' : roleLabel(p.role)),
-          _info('Plano', p == null ? '—' : (p.plan == 'free' ? 'Gratuito (beta)' : p.plan)),
+          _info('Acesso', p == null ? '—' : _accessText(p)),
         ]),
         if (acc.offline) ...[
           const SizedBox(height: 10),
@@ -520,4 +521,16 @@ class _AccountPanel extends StatelessWidget {
       if (context.mounted) toast(context, e.message);
     }
   }
+}
+
+/// Como o aluno vê a própria classificação.
+String _accessText(AccountProfile p) {
+  if (p.isAdmin) return 'Completo (${roleLabel(p.role).toLowerCase()})';
+  return switch (p.plan) {
+    Plan.beta => 'Testador Beta · acesso gratuito',
+    Plan.tester => 'Testador · acesso gratuito',
+    Plan.monthly || Plan.annual =>
+      '${planLabel(p.plan)}${p.planExpiresAt == null ? '' : ' · válida até ${fmtDate(p.planExpiresAt!)}'}',
+    Plan.none => 'Gratuito durante os testes',
+  };
 }

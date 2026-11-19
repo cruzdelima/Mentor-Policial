@@ -87,3 +87,29 @@ update auth.users set raw_user_meta_data = '{"name":"Convidado","phone":"+558199
 select 'T41 cadastro pelo app completa o perfil (Convidado, telefone, aceite, student)' t, name, phone, accepted_terms_at is not null as aceite, role from public.profiles where email='convidado@x.com';
 update auth.users set raw_user_meta_data = '{"name":"Outro","phone":"123"}' where email='convidado@x.com';
 select 'T42 não sobrescreve o que já existe (Convidado)' t, name, phone from public.profiles where email='convidado@x.com';
+
+-- ===== classificação dos alunos (0004)
+select 'T43 convidado nasce sem classificação (none)' t, plan from public.profiles where email='convidado@x.com';
+set role authenticated; select set_config('request.jwt.claim.sub',(select id::text from public.profiles where email='convidado@x.com'),false);
+select 'T44 aluno se classifica beta (deve dar erro)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'beta','');
+select 'T45 aluno muda plano direto (deve dar erro)' t; update public.profiles set plan='beta' where email='convidado@x.com';
+select 'T46 aluno sem classificação tem acesso? (false)' t, public.has_access();
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000a',false);
+select 'T47 admin classifica (deve dar erro: só o dono)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'beta','');
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',false);
+select 'T48 dono classifica como Testador Beta' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'beta','grupo de agosto');
+select 'T49 dono define assinante mensal (deve dar erro)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'monthly','');
+select 'T50 dono classifica a si mesmo (deve dar erro)' t; select public.set_plan('00000000-0000-0000-0000-000000000001','tester','');
+select 'T51 classificação desconhecida (deve dar erro)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'vip','');
+select 'T52 registro (beta, grupo de agosto, manual)' t, plan, plan_note, plan_source from public.profiles where email='convidado@x.com';
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub',(select id::text from public.profiles where email='convidado@x.com'),false);
+select 'T53 beta tem acesso (true)' t, public.has_access();
+reset role;
+update public.profiles set plan='annual', plan_source='pagamento', plan_expires_at=now() + interval '300 days' where email='convidado@x.com';
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',false);
+select 'T54 dono rebaixa assinatura ativa (deve dar erro)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'tester','');
+select 'T55 auditoria da classificação' t, action, detail from public.audit_log_view where action = 'alterou classificação';
+reset role;
