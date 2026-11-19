@@ -1,0 +1,350 @@
+{
+ "id": "rlm-negacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-04"
+ ],
+ "kind": "resumo",
+ "title": "Negação de proposições",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 20,
+ "pdf": "raciocinio_negacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "“A negação de X é Y”: as regras de cada **conectivo**, os **quantificadores** e a diferença entre **negar** e dizer o **contrário**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**¬(P ∧ Q) = ¬P ∨ ¬Q**.",
+      "**¬(P ∨ Q) = ¬P ∧ ¬Q**.",
+      "**¬(P → Q) = P ∧ ¬Q** (MANÉ: mantém, nega, e).",
+      "**¬(P ↔ Q) = P ⊻ Q** = (P ∧ ¬Q) ∨ (¬P ∧ Q).",
+      "**¬(P ⊻ Q) = P ↔ Q**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Quantificadores"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Todo A é B** → algum A **não** é B.",
+      "**Algum A é B** → **nenhum** A é B.",
+      "**Nenhum A é B** → algum A é B.",
+      "“Pelo menos um”, “existe”, “há” = algum."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Cuidado"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Negação **não é contrário**: cheia → não cheia (não “vazia”).",
+      "A negação da condicional **não** tem “se... então”."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação"
+     ],
+     "widths": [
+      0.45,
+      0.55
+     ],
+     "rows": [
+      [
+       "P e Q",
+       "não P **ou** não Q"
+      ],
+      [
+       "P ou Q",
+       "não P **e** não Q"
+      ],
+      [
+       "Se P, então Q",
+       "P **e** não Q"
+      ],
+      [
+       "P se e somente se Q",
+       "ou P ou Q"
+      ],
+      [
+       "Nem P nem Q",
+       "P ou Q"
+      ],
+      [
+       "Todo A é B",
+       "Algum A não é B"
+      ],
+      [
+       "Algum A é B",
+       "Nenhum A é B"
+      ],
+      [
+       "Nenhum A é B",
+       "Algum A é B"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "De Morgan: **nega e troca**.",
+      "Condicional: **MANÉ**.",
+      "Bicondicional: vira **ou exclusivo**.",
+      "Todo ↔ **algum não**.",
+      "Algum ↔ **nenhum**.",
+      "Negar não é dizer o **contrário**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "NEGAÇÃO",
+  "rootSub": "valor sempre oposto",
+  "left": [
+   {
+    "label": "Negar o e",
+    "items": [
+     "não P ou não Q",
+     "De Morgan",
+     "troca por ou"
+    ]
+   },
+   {
+    "label": "Negar o ou",
+    "items": [
+     "não P e não Q",
+     "De Morgan",
+     "troca por e"
+    ]
+   },
+   {
+    "label": "Negar se então",
+    "items": [
+     "mantém a primeira",
+     "nega a segunda",
+     "liga com e"
+    ]
+   },
+   {
+    "label": "Negar sse",
+    "items": [
+     "ou exclusivo",
+     "um sem o outro",
+     "valores diferentes"
+    ]
+   },
+   {
+    "label": "Dupla negação",
+    "items": [
+     "não não P",
+     "é P",
+     "volta ao original"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Todo",
+    "items": [
+     "algum não é",
+     "basta um contraexemplo",
+     "não é nenhum"
+    ]
+   },
+   {
+    "label": "Algum",
+    "items": [
+     "nenhum é",
+     "pelo menos um",
+     "existe, há"
+    ]
+   },
+   {
+    "label": "Nenhum",
+    "items": [
+     "algum é",
+     "basta um",
+     "que seja"
+    ]
+   },
+   {
+    "label": "Contrário",
+    "items": [
+     "não é negação",
+     "cheia e vazia",
+     "há meio-termo"
+    ]
+   },
+   {
+    "label": "Composta",
+    "items": [
+     "nega o principal",
+     "depois as partes",
+     "passo a passo"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A negação de “O agente dirigia e o escrivão anotava” é “O agente não dirigia ou o escrivão não anotava”.",
+    "comment": "**Certo.** De Morgan.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A negação de “Se o carro for roubado, o seguro pagará” é “Se o carro não for roubado, o seguro não pagará”.",
+    "comment": "**Errado.** A negação é “O carro foi roubado e o seguro não pagará”.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A negação de “Todo laudo é assinado por dois peritos” é “Algum laudo não é assinado por dois peritos”.",
+    "comment": "**Certo.** Todo ↔ algum não.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A negação de “Algum preso fugiu” é “Algum preso não fugiu”.",
+    "comment": "**Errado.** A negação é “Nenhum preso fugiu”.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A negação de P ∨ ¬Q é ¬P ∧ Q.",
+    "comment": "**Certo.** De Morgan com dupla negação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "A",
+    "text": "A negação de “Se o carro for roubado, o seguro pagará” é",
+    "options": [
+     "O carro foi roubado e o seguro não pagará.",
+     "Se o carro não for roubado, o seguro não pagará.",
+     "O carro não foi roubado ou o seguro pagará.",
+     "O carro não foi roubado e o seguro pagará.",
+     "Se o seguro pagar, o carro foi roubado."
+    ],
+    "comment": "**Gabarito: A.** Mantém a primeira, nega a segunda e usa “e”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "D",
+    "text": "A negação de “Todo laudo é assinado por dois peritos” é",
+    "options": [
+     "Nenhum laudo é assinado por dois peritos.",
+     "Todo laudo é assinado por um perito.",
+     "Algum laudo é assinado por dois peritos.",
+     "Algum laudo não é assinado por dois peritos.",
+     "Nenhum perito assina laudos."
+    ],
+    "comment": "**Gabarito: D.** Todo ↔ algum não.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "C",
+    "text": "A negação de P ∨ ¬Q é",
+    "options": [
+     "¬P ∨ Q",
+     "P ∧ ¬Q",
+     "¬P ∧ Q",
+     "¬P ∧ ¬Q",
+     "P → Q"
+    ],
+    "comment": "**Gabarito: C.** De Morgan com dupla negação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "E",
+    "text": "A negação de “O agente dirigia e o escrivão anotava” é",
+    "options": [
+     "O agente não dirigia e o escrivão não anotava.",
+     "O agente dirigia ou o escrivão anotava.",
+     "Se o agente dirigia, o escrivão anotava.",
+     "O agente não dirigia e o escrivão anotava.",
+     "O agente não dirigia ou o escrivão não anotava."
+    ],
+    "comment": "**Gabarito: E.** De Morgan.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "B",
+    "text": "A negação de “Nenhum servidor faltou” é",
+    "options": [
+     "Todos os servidores faltaram.",
+     "Pelo menos um servidor faltou.",
+     "Algum servidor não faltou.",
+     "Nenhum servidor compareceu.",
+     "Todo servidor compareceu."
+    ],
+    "comment": "**Gabarito: B.** Nenhum ↔ algum (pelo menos um).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional e de quantificadores.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

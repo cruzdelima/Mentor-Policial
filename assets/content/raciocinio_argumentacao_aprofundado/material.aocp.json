@@ -1,0 +1,451 @@
+{
+ "id": "rlm-argumentacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-05"
+ ],
+ "kind": "aprofundado",
+ "title": "Lógica de argumentação",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 80,
+ "pdf": "raciocinio_argumentacao_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca apresenta um texto com algumas afirmações (as **premissas**) e pergunta se uma conclusão “**decorre**” delas ou se o argumento é **válido**. Você vai usar duas técnicas: **considerar as premissas verdadeiras** e descobrir o valor de cada letra, ou **tentar tornar o argumento inválido** (premissas V e conclusão F)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Argumento e validade"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Definições",
+     "text": "**Argumento** é um conjunto de proposições (**premissas**) das quais se pretende tirar outra (**conclusão**). É **válido** quando é **impossível** ter **todas as premissas verdadeiras e a conclusão falsa**. Formalmente: (premissa 1 ∧ premissa 2 ∧ ... ∧ premissa n) → conclusão é uma **tautologia**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Validade** diz respeito à **forma**, não ao conteúdo. Um argumento pode ser válido com premissas falsas: *Todo peixe voa; o tubarão é peixe; logo, o tubarão voa* é **válido** (a conclusão decorre das premissas), embora falso.",
+      "Argumento válido com **premissas verdadeiras** é chamado **sólido** (ou correto): sua conclusão é necessariamente verdadeira.",
+      "Argumento **inválido** (falácia): existe ao menos uma situação com premissas V e conclusão F."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Regras de inferência (formas válidas)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Nome",
+      "Premissas",
+      "Conclusão",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.22,
+      0.14,
+      0.44
+     ],
+     "rows": [
+      [
+       "**Modus ponens**",
+       "P → Q; P",
+       "Q",
+       "*Se houve flagrante, houve prisão. Houve flagrante. Logo, houve prisão.*"
+      ],
+      [
+       "**Modus tollens**",
+       "P → Q; ¬Q",
+       "¬P",
+       "*Se houve flagrante, houve prisão. Não houve prisão. Logo, não houve flagrante.*"
+      ],
+      [
+       "**Silogismo hipotético**",
+       "P → Q; Q → R",
+       "P → R",
+       "*Se estudar, passa. Se passar, toma posse. Logo, se estudar, toma posse.*"
+      ],
+      [
+       "**Silogismo disjuntivo**",
+       "P ∨ Q; ¬P",
+       "Q",
+       "*O autor é João ou Pedro. Não é João. Logo, é Pedro.*"
+      ],
+      [
+       "**Simplificação**",
+       "P ∧ Q",
+       "P",
+       "*Choveu e ventou. Logo, choveu.*"
+      ],
+      [
+       "**Adição**",
+       "P",
+       "P ∨ Q",
+       "*Choveu. Logo, choveu ou ventou.*"
+      ],
+      [
+       "**Dilema construtivo**",
+       "P → Q; R → S; P ∨ R",
+       "Q ∨ S",
+       "*Se for de dia, usa o carro; se for de noite, usa a moto; é dia ou noite; logo, usa o carro ou a moto.*"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Falácias formais (formas inválidas)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Nome",
+      "Forma",
+      "Por que falha"
+     ],
+     "widths": [
+      0.26,
+      0.3,
+      0.44
+     ],
+     "rows": [
+      [
+       "**Afirmação do consequente**",
+       "P → Q; Q; logo P",
+       "Q pode ser verdadeira por outro motivo. *Se chover, a rua molha. A rua está molhada. Logo, choveu.* (pode ter sido um caminhão-pipa)"
+      ],
+      [
+       "**Negação do antecedente**",
+       "P → Q; ¬P; logo ¬Q",
+       "*Se chover, a rua molha. Não choveu. Logo, a rua não está molhada.* (idem)"
+      ],
+      [
+       "Disjunção inclusiva tomada como exclusiva",
+       "P ∨ Q; P; logo ¬Q",
+       "No “ou” inclusivo, as duas podem ser verdadeiras."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "A pegadinha clássica",
+     "text": "*Se o investigado é culpado, ele mentiu. Ele mentiu. Logo, é culpado.* Parece convincente, mas é **afirmação do consequente**: o argumento é **inválido**."
+    },
+    {
+     "t": "h2",
+     "text": "4. Método 1: considerar as premissas verdadeiras"
+    },
+    {
+     "t": "p",
+     "text": "Quando o item pergunta o que **se pode concluir**, assuma que **todas as premissas são verdadeiras** e comece pela mais “fechada”: uma **proposição simples** ou uma **conjunção** (que obriga as duas partes a serem V). Depois, propague os valores pelas condicionais e disjunções."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Se Ana é a autora, Bruno é cúmplice.* (A → B)",
+      "P2: *Se Bruno é cúmplice, Caio não depôs.* (B → ¬C)",
+      "P3: *Caio depôs.* (C)",
+      "De P3, C = V. Em P2, ¬C = F; para P2 ser V, B tem de ser **F**. Em P1, B = F; para P1 ser V, A tem de ser **F**.",
+      "Conclusões válidas: *Bruno não é cúmplice* e *Ana não é a autora*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Método 2: tentar tornar o argumento inválido"
+    },
+    {
+     "t": "p",
+     "text": "Para testar se um argumento é válido, suponha a **conclusão falsa** e tente deixar **todas as premissas verdadeiras**. Se conseguir, o argumento é **inválido**; se der contradição, é **válido**."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Premissas: P → Q e Q. Conclusão: P.",
+      "Conclusão falsa: P = F. Premissa Q verdadeira: Q = V. Premissa P → Q: F → V = **V**.",
+      "Conseguimos premissas V e conclusão F: o argumento é **inválido** (afirmação do consequente)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Problemas de verdade e mentira"
+    },
+    {
+     "t": "p",
+     "text": "Em problemas com pessoas que **sempre mentem** ou **sempre dizem a verdade**, **suponha** que uma delas diz a verdade e verifique se surge contradição. Se surgir, a suposição está errada. Comece pelas falas que **se contradizem**: entre duas afirmações contraditórias, **exatamente uma** é verdadeira."
+    },
+    {
+     "t": "h2",
+     "text": "7. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A partir das premissas, é correto concluir que...”: use o método 1.",
+      "“O argumento é válido”: use o método 2.",
+      "Itens que concluem pela **recíproca** (afirmação do consequente) ou pela **inversa** (negação do antecedente): **errados**.",
+      "Validade não depende de a conclusão ser verdadeira no mundo real.",
+      "Na dúvida real, **não deixe em branco**: no Instituto AOCP o erro não desconta. Elimine as alternativas erradas e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O argumento formado pelas premissas P → Q e P e pela conclusão Q é válido.",
+    "comment": "**Certo.** É o modus ponens.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "O argumento formado pelas premissas P → Q e ¬Q e pela conclusão ¬P é válido.",
+    "comment": "**Certo.** É o modus tollens.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "O argumento formado pelas premissas P → Q e Q e pela conclusão P é válido.",
+    "comment": "**Errado.** Afirmação do consequente: com P = F e Q = V, premissas V e conclusão F.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O argumento formado pelas premissas P → Q e ¬P e pela conclusão ¬Q é válido.",
+    "comment": "**Errado.** Negação do antecedente: com P = F e Q = V, premissas V e conclusão F.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O argumento formado pelas premissas P ∨ Q e ¬P e pela conclusão Q é válido.",
+    "comment": "**Certo.** Silogismo disjuntivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "O argumento formado pelas premissas P → Q e Q → R e pela conclusão P → R é válido.",
+    "comment": "**Certo.** Silogismo hipotético.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Um argumento válido tem, necessariamente, conclusão verdadeira.",
+    "comment": "**Errado.** Só se as premissas forem verdadeiras. Validade é questão de forma.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Um argumento é inválido quando é possível que todas as premissas sejam verdadeiras e a conclusão seja falsa.",
+    "comment": "**Certo.** É a definição de argumento inválido.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "O argumento formado pelas premissas P ∨ Q e P e pela conclusão ¬Q é válido.",
+    "comment": "**Errado.** No “ou” inclusivo, P e Q podem ser ambas verdadeiras.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "O argumento formado pela premissa P ∧ Q e pela conclusão Q é válido.",
+    "comment": "**Certo.** Simplificação: se a conjunção é V, cada parte é V.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "Considere as premissas “Se o veículo foi clonado, a placa não confere com o chassi” e “A placa confere com o chassi”. Pode-se concluir que",
+    "options": [
+     "o veículo foi clonado.",
+     "o veículo não foi clonado.",
+     "a placa não confere com o chassi.",
+     "o chassi foi adulterado.",
+     "nada se pode concluir."
+    ],
+    "comment": "**Gabarito: B.** Modus tollens: C → ¬P e P; logo ¬C.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "E",
+    "text": "Assinale a alternativa que apresenta um argumento INVÁLIDO.",
+    "options": [
+     "P → Q; P; logo Q.",
+     "P → Q; ¬Q; logo ¬P.",
+     "P ∨ Q; ¬P; logo Q.",
+     "P → Q; Q → R; logo P → R.",
+     "P → Q; Q; logo P."
+    ],
+    "comment": "**Gabarito: E.** Afirmação do consequente: com P = F e Q = V, premissas verdadeiras e conclusão falsa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "Considere as premissas: “O autor do disparo foi Carlos ou Davi” e “Davi não efetuou o disparo”. Conclui-se que",
+    "options": [
+     "Carlos foi o autor do disparo.",
+     "Carlos e Davi efetuaram o disparo.",
+     "Nenhum dos dois efetuou o disparo.",
+     "Davi foi o autor do disparo.",
+     "Não é possível concluir nada."
+    ],
+    "comment": "**Gabarito: A.** Silogismo disjuntivo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "C",
+    "text": "Um argumento é válido quando",
+    "options": [
+     "sua conclusão é verdadeira.",
+     "todas as premissas são verdadeiras.",
+     "é impossível ter todas as premissas verdadeiras e a conclusão falsa.",
+     "a conclusão é uma das premissas.",
+     "possui pelo menos duas premissas."
+    ],
+    "comment": "**Gabarito: C.** Validade é questão de forma: a conclusão decorre necessariamente das premissas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Considere: “Se Paulo é agente, Rita é escrivã”; “Se Rita é escrivã, Sônia é perita”; “Sônia não é perita”. É correto concluir que",
+    "options": [
+     "Paulo é agente.",
+     "Rita é escrivã.",
+     "Sônia é escrivã.",
+     "Paulo não é agente.",
+     "Rita é perita."
+    ],
+    "comment": "**Gabarito: D.** Sônia não é perita → Rita não é escrivã → Paulo não é agente (modus tollens em cadeia).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "O argumento “Se chover, a rua molha. Não choveu. Logo, a rua não está molhada” é",
+    "options": [
+     "válido, por modus tollens.",
+     "inválido, por negação do antecedente.",
+     "válido, por modus ponens.",
+     "inválido, por afirmação do consequente.",
+     "válido, por silogismo disjuntivo."
+    ],
+    "comment": "**Gabarito: B.** Negar o antecedente não permite negar o consequente.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "Considere as premissas “Todo agente é concursado” e “Marcos é agente”. A conclusão que decorre é",
+    "options": [
+     "Marcos não é concursado.",
+     "Todo concursado é agente.",
+     "Algum concursado não é agente.",
+     "Marcos é delegado.",
+     "Marcos é concursado."
+    ],
+    "comment": "**Gabarito: E.** Marcos está dentro do conjunto dos agentes, que está dentro dos concursados.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Ari diz “Bento mente”; Bento diz “Ciro mente”; Ciro diz “Ari e Bento mentem”. Cada um sempre mente ou sempre diz a verdade. Então",
+    "options": [
+     "apenas Bento diz a verdade.",
+     "apenas Ciro diz a verdade.",
+     "Ari e Ciro dizem a verdade.",
+     "todos dizem a verdade.",
+     "todos mentem."
+    ],
+    "comment": "**Gabarito: A.** Se Ciro fosse verdadeiro, Ari mentiria e “Bento mente” seria verdade: contradição. Logo Ciro mente, Bento diz a verdade e Ari mente.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "O argumento “Todo número primo é ímpar; 2 é primo; logo, 2 é ímpar” é",
+    "options": [
+     "inválido, pois a conclusão é falsa.",
+     "inválido, pois 2 é par.",
+     "válido, embora tenha uma premissa falsa.",
+     "válido e sólido.",
+     "inválido por afirmação do consequente."
+    ],
+    "comment": "**Gabarito: C.** A forma é válida; a conclusão é falsa porque a primeira premissa é falsa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Das premissas “P ∨ Q” (disjunção inclusiva) e “P”, conclui-se corretamente que",
+    "options": [
+     "¬Q",
+     "Q",
+     "P ∧ Q",
+     "nada se pode afirmar sobre Q",
+     "¬P"
+    ],
+    "comment": "**Gabarito: D.** No ou inclusivo, Q pode ser verdadeira ou falsa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional clássica: validade, regras de inferência e falácias formais.",
+  "Obras de referência: Copi, Introdução à lógica; Alencar Filho, Iniciação à lógica matemática.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

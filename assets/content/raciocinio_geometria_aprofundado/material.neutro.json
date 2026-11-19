@@ -1,0 +1,394 @@
+{
+ "id": "rlm-geometria-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-14"
+ ],
+ "kind": "aprofundado",
+ "title": "Geometria plana e espacial",
+ "subtitle": "Raciocínio Lógico e Matemática · Geometria",
+ "minutes": 85,
+ "pdf": "raciocinio_geometria_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A geometria das provas de PM, Bombeiros, Guardas e Polícia Penal é **aplicada**: escadas apoiadas na parede, sombras, terrenos, caixas-d’água, tanques e reservatórios. Decore as fórmulas de área e volume e o **teorema de Pitágoras**; o resto é desenhar a situação e conferir as **unidades**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Ângulos e triângulos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Ângulo **reto**: 90°. **Raso**: 180°. Ângulos **complementares** somam 90°; **suplementares**, 180°.",
+      "Ângulos **opostos pelo vértice** são iguais.",
+      "A soma dos ângulos internos de qualquer triângulo é **180°**.",
+      "Classificação pelos lados: **equilátero** (3 iguais, ângulos de 60°), **isósceles** (2 iguais), **escaleno** (todos diferentes)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Teorema de Pitágoras",
+     "text": "Em um triângulo **retângulo**, **a² = b² + c²**, em que a é a **hipotenusa** (lado oposto ao ângulo reto) e b, c são os catetos. Ternos comuns: **3, 4, 5** · **6, 8, 10** · **5, 12, 13** · **9, 12, 15**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Uma escada de **5 m** apoiada em uma parede, com o pé a **3 m** da parede, alcança a altura de √(25 − 9) = **4 m**.",
+      "Diagonal do quadrado de lado ℓ: **ℓ√2**. Altura do triângulo equilátero de lado ℓ: **ℓ√3/2**."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Semelhança"
+    },
+    {
+     "t": "p",
+     "text": "Triângulos com os mesmos ângulos são **semelhantes**: os lados correspondentes são **proporcionais**. Exemplo clássico: um poste faz sombra de 6 m no mesmo instante em que uma pessoa de 1,8 m faz sombra de 1,2 m. Altura do poste: 1,8 × 6/1,2 = **9 m**."
+    },
+    {
+     "t": "note",
+     "text": "Se os lados são multiplicados por k, as **áreas** ficam multiplicadas por **k²** e os **volumes** por **k³**."
+    },
+    {
+     "t": "h2",
+     "text": "2. Polígonos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grandeza",
+      "Fórmula",
+      "Hexágono (n = 6)"
+     ],
+     "widths": [
+      0.4,
+      0.34,
+      0.26
+     ],
+     "rows": [
+      [
+       "Soma dos ângulos internos",
+       "(n − 2) · 180°",
+       "720°"
+      ],
+      [
+       "Ângulo interno (polígono regular)",
+       "(n − 2) · 180°/n",
+       "120°"
+      ],
+      [
+       "Soma dos ângulos externos",
+       "360°",
+       "360°"
+      ],
+      [
+       "Número de diagonais",
+       "n(n − 3)/2",
+       "9"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Áreas e perímetros"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Área",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.36,
+      0.4
+     ],
+     "rows": [
+      [
+       "Retângulo",
+       "base × altura",
+       "8 × 5 = **40** (perímetro 26)"
+      ],
+      [
+       "Quadrado",
+       "ℓ²",
+       "lado 6: **36**"
+      ],
+      [
+       "Triângulo",
+       "base × altura / 2",
+       "base 12, altura 5: **30**"
+      ],
+      [
+       "Paralelogramo",
+       "base × altura",
+       "base 10, altura 4: **40**"
+      ],
+      [
+       "Trapézio",
+       "(B + b) × h / 2",
+       "bases 10 e 6, altura 4: **32**"
+      ],
+      [
+       "Losango",
+       "D × d / 2",
+       "diagonais 10 e 7: **35**"
+      ],
+      [
+       "Círculo",
+       "π · r²",
+       "raio 5 (π = 3,14): **78,5**"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Comprimento da circunferência**: **2πr**. Raio 5 (π = 3,14): **31,4**.",
+      "Converta antes de calcular: 1 m² = 10.000 cm²; 1 km² = 1.000.000 m²; 1 hectare = 10.000 m²."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Geometria espacial"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sólido",
+      "Volume",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.32,
+      0.44
+     ],
+     "rows": [
+      [
+       "Cubo",
+       "a³",
+       "aresta 4: **64** (área total 6a² = 96)"
+      ],
+      [
+       "Paralelepípedo",
+       "a × b × c",
+       "2 m × 1,5 m × 1 m = **3 m³**"
+      ],
+      [
+       "Prisma (qualquer)",
+       "área da base × altura",
+       "—"
+      ],
+      [
+       "Cilindro",
+       "π · r² · h",
+       "r = 2 m, h = 5 m, π = 3: **60 m³**"
+      ],
+      [
+       "Pirâmide e cone",
+       "área da base × altura / 3",
+       "um terço do prisma ou do cilindro de mesma base e altura"
+      ],
+      [
+       "Esfera",
+       "(4/3) · π · r³",
+       "r = 3 (π = 3,14): **113,04**"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Volume em litros",
+     "text": "**1 m³ = 1.000 L** e **1 dm³ = 1 L**. Uma caixa-d’água de 3 m³ comporta **3.000 litros**. 1 L = 1.000 cm³ = 1.000 mL."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Diagonal do cubo de aresta a: **a√3**. Diagonal do paralelepípedo: √(a² + b² + c²).",
+      "Área lateral do cilindro: **2πrh**; área total: 2πrh + 2πr²."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Situações práticas: terreno, sala, viatura, tanque de combustível, reservatório de água.",
+      "Itens que comparam figuras (dobrar o raio quadruplica a área e multiplica o volume por 8).",
+      "Unidades misturadas (cm e m, m³ e litros): converta antes de comparar.",
+      "Na dúvida real, confira a regra da sua banca: no Cebraspe, cada erro anula um acerto (deixe em branco); na múltipla escolha, o erro não desconta (não deixe em branco)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em um triângulo retângulo de catetos 9 e 12, a hipotenusa mede 15.",
+    "comment": "**Certo.** √(81 + 144) = √225.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A soma dos ângulos internos de um triângulo é 360°.",
+    "comment": "**Errado.** É 180°.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Dois ângulos complementares somam 90°.",
+    "comment": "**Certo.** Definição.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "A soma dos ângulos internos de um hexágono é 720°.",
+    "comment": "**Certo.** (6 − 2) × 180°.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Um hexágono tem 6 diagonais.",
+    "comment": "**Errado.** 6 × 3/2 = 9 diagonais.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A área de um trapézio de bases 10 e 6 e altura 4 é 32.",
+    "comment": "**Certo.** (10 + 6) × 4/2.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A área de um círculo de raio 5, com π = 3,14, é 31,4.",
+    "comment": "**Errado.** πr² = 78,5. O valor 31,4 é o comprimento da circunferência.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "O volume de um cubo de aresta 4 é 64.",
+    "comment": "**Certo.** 4³.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Um reservatório com 3 m³ de volume comporta 3.000 litros.",
+    "comment": "**Certo.** 1 m³ = 1.000 L.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O volume de um cone é igual ao de um cilindro de mesma base e mesma altura.",
+    "comment": "**Errado.** O cone tem um terço do volume do cilindro.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Uma escada de 5 m está apoiada em uma parede vertical, com o pé a 3 m da parede. O topo da escada está a 4 m do chão.",
+    "comment": "**Certo.** Pitágoras: √(25 − 9) = 4.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "C",
+    "text": "Um poste projeta sombra de 6 m no mesmo instante em que uma pessoa de 1,8 m projeta sombra de 1,2 m. O poste mede 9 m.",
+    "comment": "**Certo.** Semelhança: 1,8/1,2 = h/6.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "Um terreno retangular de 8 m por 5 m tem perímetro de 40 m.",
+    "comment": "**Errado.** Perímetro: 2 × (8 + 5) = 26 m. A área é 40 m².",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Um tanque cilíndrico de raio 2 m e altura 5 m, com π = 3, tem volume de 60 m³.",
+    "comment": "**Certo.** 3 × 4 × 5.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "Na situação do item anterior, o tanque comporta 6.000 litros.",
+    "comment": "**Errado.** 60 m³ = 60.000 L.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "Dobrando-se o raio de um círculo, sua área fica multiplicada por 4.",
+    "comment": "**Certo.** A área é proporcional ao quadrado do raio.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "E",
+    "text": "Dobrando-se a aresta de um cubo, seu volume fica multiplicado por 4.",
+    "comment": "**Errado.** O volume fica multiplicado por 2³ = 8.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "C",
+    "text": "O ângulo interno de um octógono regular mede 135°.",
+    "comment": "**Certo.** (8 − 2) × 180°/8.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Uma caixa-d’água em forma de paralelepípedo com 2 m de comprimento, 1,5 m de largura e 1 m de altura comporta 3.000 L.",
+    "comment": "**Certo.** 2 × 1,5 × 1 = 3 m³.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "A área de um losango de diagonais 10 e 7 é 70.",
+    "comment": "**Errado.** D × d/2 = 35.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Geometria euclidiana plana e espacial.",
+  "Obras de referência: Dolce e Pompeo, Fundamentos de matemática elementar, v. 9 e 10.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

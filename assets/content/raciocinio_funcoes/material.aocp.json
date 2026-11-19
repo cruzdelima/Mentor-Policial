@@ -1,0 +1,349 @@
+{
+ "id": "rlm-funcoes-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-13"
+ ],
+ "kind": "resumo",
+ "title": "Funções: afim, quadrática, exponencial e logarítmica",
+ "subtitle": "Raciocínio Lógico e Matemática · Funções",
+ "minutes": 25,
+ "pdf": "raciocinio_funcoes.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Valores de funções em **situações aplicadas**, **máximo e mínimo** da quadrática e **propriedades** de potências e logaritmos."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Afim: ax + b"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**a**: taxa de variação (a > 0 cresce). **b**: valor inicial.",
+      "Zero: **x = −b/a**. Dois pontos: a = Δy/Δx.",
+      "b = 0: linear (proporcional)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Quadrática: ax² + bx + c"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "a > 0: **mínimo**; a < 0: **máximo**.",
+      "Vértice: **xᵥ = −b/2a**, **yᵥ = −Δ/4a**.",
+      "Δ decide as raízes; c corta o eixo y."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Exponencial e logaritmo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "bˣ > 0 sempre; b > 1 cresce, 0 < b < 1 decresce.",
+      "Iguale as bases: 2ˣ = 32 → x = 5.",
+      "Logaritmo de a na base b: **é o expoente x tal que bˣ = a** (log₂ 8 = 3).",
+      "log(ab) = log a + log b; log(a/b) = log a − log b; log aⁿ = n log a."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Conta",
+      "Resultado"
+     ],
+     "widths": [
+      0.6,
+      0.4
+     ],
+     "rows": [
+      [
+       "f(x) = 2x + 3; f(5)",
+       "13"
+      ],
+      [
+       "Zero de 2x + 3",
+       "−3/2"
+      ],
+      [
+       "Mínimo de x² − 6x + 5",
+       "−4 (em x = 3)"
+      ],
+      [
+       "Máximo de −5t² + 20t",
+       "20 (em t = 2)"
+      ],
+      [
+       "2ˣ = 32",
+       "x = 5"
+      ],
+      [
+       "log 8 (log 2 = 0,301)",
+       "0,903"
+      ],
+      [
+       "log 5",
+       "0,699"
+      ],
+      [
+       "log 6 (log 3 = 0,477)",
+       "0,778"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Afim: **a** inclina, **b** começa.",
+      "Máximo/mínimo: **vértice**.",
+      "a < 0: boca para baixo, **máximo**.",
+      "Exponencial nunca é negativa.",
+      "Log é **expoente**.",
+      "log (a + b) ≠ log a + log b."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "FUNÇÕES",
+  "rootSub": "afim, quadrática, exp. e log",
+  "left": [
+   {
+    "label": "Função",
+    "items": [
+     "cada x",
+     "um único y",
+     "domínio e imagem"
+    ]
+   },
+   {
+    "label": "Afim",
+    "items": [
+     "a: inclinação",
+     "b: valor inicial",
+     "zero: -b/a"
+    ]
+   },
+   {
+    "label": "Linear",
+    "items": [
+     "b = 0",
+     "proporcional",
+     "passa na origem"
+    ]
+   },
+   {
+    "label": "Quadrática",
+    "items": [
+     "parábola",
+     "a > 0: mínimo",
+     "a < 0: máximo"
+    ]
+   },
+   {
+    "label": "Vértice",
+    "items": [
+     "x = -b/2a",
+     "y = -delta/4a",
+     "meio das raízes"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Exponencial",
+    "items": [
+     "base > 1 cresce",
+     "sempre positiva",
+     "dobra a cada t"
+    ]
+   },
+   {
+    "label": "Equação exp.",
+    "items": [
+     "iguale as bases",
+     "2 elevado a x = 32",
+     "x = 5"
+    ]
+   },
+   {
+    "label": "Logaritmo",
+    "items": [
+     "é o expoente",
+     "base 10 padrão",
+     "x > 0"
+    ]
+   },
+   {
+    "label": "Propriedades",
+    "items": [
+     "produto: soma",
+     "quociente: diferença",
+     "potência: desce"
+    ]
+   },
+   {
+    "label": "Valores",
+    "items": [
+     "log 2 = 0,301",
+     "log 3 = 0,477",
+     "log 5 = 0,699"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A função f(x) = 5x − 10 tem zero em x = 2.",
+    "comment": "**Certo.** 5x = 10.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A função f(x) = 7 − 2x é crescente.",
+    "comment": "**Errado.** a = −2 < 0: decrescente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O vértice da parábola f(x) = x² − 4x + 3 tem abscissa 2.",
+    "comment": "**Certo.** xᵥ = 4/2.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A função f(x) = −x² + 6x tem valor mínimo 9.",
+    "comment": "**Errado.** a < 0: tem máximo, que é f(3) = 9.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A solução de 3^(x − 1) = 81 é x = 5.",
+    "comment": "**Certo.** 81 = 3⁴ → x − 1 = 4.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "A",
+    "text": "O zero da função f(x) = 5x − 10 é",
+    "options": [
+     "2",
+     "−2",
+     "10",
+     "5",
+     "−10"
+    ],
+    "comment": "**Gabarito: A.** 5x = 10.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "D",
+    "text": "A função f(x) = −x² + 6x tem",
+    "options": [
+     "mínimo 9.",
+     "mínimo 0.",
+     "máximo 6.",
+     "máximo 9.",
+     "máximo 3."
+    ],
+    "comment": "**Gabarito: D.** a < 0: máximo em x = 3, f(3) = 9.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "A solução de 3^(x − 1) = 81 é",
+    "options": [
+     "x = 3",
+     "x = 4",
+     "x = 27",
+     "x = 80",
+     "x = 5"
+    ],
+    "comment": "**Gabarito: E.** 81 = 3⁴ → x − 1 = 4.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Considerando log 2 = 0,301, o valor de log 20 é",
+    "options": [
+     "0,602",
+     "1,301",
+     "2,301",
+     "0,401",
+     "6,02"
+    ],
+    "comment": "**Gabarito: B.** log 20 = log 2 + log 10.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Na função de custo f(x) = 3x + 4, a taxa fixa é",
+    "options": [
+     "3",
+     "7",
+     "4",
+     "12",
+     "0"
+    ],
+    "comment": "**Gabarito: C.** O termo independente b = 4.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Matemática do ensino médio: funções.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

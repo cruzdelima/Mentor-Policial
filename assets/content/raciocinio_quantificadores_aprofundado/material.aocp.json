@@ -1,0 +1,464 @@
+{
+ "id": "rlm-quantificadores-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-06"
+ ],
+ "kind": "aprofundado",
+ "title": "Quantificadores e diagramas lógicos",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica de primeira ordem",
+ "minutes": 75,
+ "pdf": "raciocinio_quantificadores_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Os itens trazem duas ou três afirmações com **todo**, **algum** e **nenhum** e perguntam se uma conclusão é necessariamente verdadeira. A técnica é sempre a mesma: **desenhe os conjuntos** e procure **um desenho em que as premissas sejam verdadeiras e a conclusão falsa**. Se encontrar, a conclusão não decorre."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Quantificadores"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quantificador",
+      "Símbolo",
+      "Leitura",
+      "Sinônimos"
+     ],
+     "widths": [
+      0.2,
+      0.12,
+      0.3,
+      0.38
+     ],
+     "rows": [
+      [
+       "Universal",
+       "∀x",
+       "para todo x",
+       "todo, qualquer, cada, todos os"
+      ],
+      [
+       "Existencial",
+       "∃x",
+       "existe x",
+       "algum, pelo menos um, existe, há"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Uma sentença aberta (*x é policial*) vira proposição quando é **quantificada**: *Todo x é policial* ou *Existe x que é policial*. Por isso, *Ele é policial* não é proposição, mas *Alguém é policial* é."
+    },
+    {
+     "t": "h2",
+     "text": "2. As quatro proposições categóricas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Forma",
+      "Significado no diagrama"
+     ],
+     "widths": [
+      0.12,
+      0.28,
+      0.6
+     ],
+     "rows": [
+      [
+       "A",
+       "**Todo A é B**",
+       "O círculo A fica **inteiro dentro** de B (A ⊂ B). Não diz que existe B fora de A."
+      ],
+      [
+       "E",
+       "**Nenhum A é B**",
+       "Os círculos A e B **não se tocam** (A ∩ B = ∅). Vale nos dois sentidos: nenhum B é A."
+      ],
+      [
+       "I",
+       "**Algum A é B**",
+       "Existe **pelo menos um** elemento na **interseção**. Vale nos dois sentidos: algum B é A."
+      ],
+      [
+       "O",
+       "**Algum A não é B**",
+       "Existe pelo menos um elemento de A **fora** de B. **Não** vale no sentido inverso."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "O que “algum” NÃO diz",
+     "text": "*Algum policial é atleta* **não** significa que algum policial não é atleta: pode ser que **todos** sejam. Em lógica, “algum” é **pelo menos um**, sem limite superior. Do mesmo modo, *Todo A é B* **não** permite concluir *Todo B é A*."
+    },
+    {
+     "t": "h3",
+     "text": "O que se pode inverter"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Nenhum A é B* ⇔ *Nenhum B é A*.",
+      "*Algum A é B* ⇔ *Algum B é A*.",
+      "*Todo A é B* **não** equivale a *Todo B é A* (só permite *Algum B é A*, se A não for vazio).",
+      "*Algum A não é B* **não** equivale a *Algum B não é A*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Negações (revisão)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Todo A é B",
+       "Algum A não é B"
+      ],
+      [
+       "Nenhum A é B",
+       "Algum A é B"
+      ],
+      [
+       "Algum A é B",
+       "Nenhum A é B"
+      ],
+      [
+       "Algum A não é B",
+       "Todo A é B"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Diagramas: o método"
+    },
+    {
+     "t": "p",
+     "text": "Desenhe primeiro as afirmações **universais** (todo, nenhum), que fixam o desenho; depois as **particulares** (algum), que só marcam a existência de um elemento. Quando houver **várias formas possíveis** de desenhar, a conclusão só é válida se for verdadeira em **todas** elas."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 1 (conclusão válida)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Todo agente é concursado.* · P2: *Nenhum concursado é estagiário.*",
+      "Desenho: o círculo dos agentes dentro do círculo dos concursados; o dos estagiários fora dos concursados.",
+      "Conclusão válida: *Nenhum agente é estagiário.*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 2 (conclusão inválida)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Todo perito é servidor.* · P2: *Algum servidor é professor.*",
+      "O professor que é servidor pode estar **dentro** ou **fora** do círculo dos peritos.",
+      "*Algum perito é professor* **não** decorre: há um desenho em que nenhum perito é professor."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 3 (conclusão válida com algum)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Algum escrivão é advogado.* · P2: *Todo advogado é bacharel.*",
+      "O escrivão que é advogado está dentro do círculo dos advogados, que está dentro dos bacharéis.",
+      "Conclusão válida: *Algum escrivão é bacharel.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Quantificadores com conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Todo A é B* equivale a *Se x é A, então x é B* (para qualquer x).",
+      "*Nenhum A é B* equivale a *Se x é A, então x não é B*.",
+      "Por isso, *Todo policial é concursado* e *Se alguém é policial, então é concursado* têm o mesmo sentido.",
+      "Contrapositiva: *Todo A é B* ⇔ *Todo não B é não A* (quem não é concursado não é policial)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Duas premissas + uma conclusão: desenhe e procure o **contraexemplo**.",
+      "Conclusões com **algum** a partir de premissas com **todo** e **algum** costumam ser armadilha: confira se o elemento está mesmo na interseção.",
+      "Itens de negação: *Todo* ↔ *algum não*; *algum* ↔ *nenhum*.",
+      "Na dúvida real, **não deixe em branco**: no Instituto AOCP o erro não desconta. Elimine as alternativas erradas e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A proposição “Nenhum agente é estagiário” é equivalente a “Nenhum estagiário é agente”.",
+    "comment": "**Certo.** Na universal negativa, os conjuntos não se tocam: vale nos dois sentidos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A proposição “Todo escrivão é bacharel” é equivalente a “Todo bacharel é escrivão”.",
+    "comment": "**Errado.** Todo A é B não permite inverter.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição “Algum perito é médico” é equivalente a “Algum médico é perito”.",
+    "comment": "**Certo.** O elemento está na interseção: vale nos dois sentidos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Da proposição “Algum policial é atleta” conclui-se que algum policial não é atleta.",
+    "comment": "**Errado.** “Algum” é pelo menos um; pode ser que todos sejam atletas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A proposição “Existe x tal que x é policial” é uma proposição, ainda que a sentença “x é policial” não o seja.",
+    "comment": "**Certo.** O quantificador transforma a sentença aberta em proposição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Das premissas “Todo agente é concursado” e “Nenhum concursado é estagiário”, conclui-se que nenhum agente é estagiário.",
+    "comment": "**Certo.** Os agentes estão dentro dos concursados, que não tocam os estagiários.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Das premissas “Todo perito é servidor” e “Algum servidor é professor”, conclui-se que algum perito é professor.",
+    "comment": "**Errado.** O servidor professor pode estar fora do círculo dos peritos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Das premissas “Algum escrivão é advogado” e “Todo advogado é bacharel”, conclui-se que algum escrivão é bacharel.",
+    "comment": "**Certo.** O escrivão advogado está dentro dos bacharéis.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "A negação de “Algum suspeito não foi ouvido” é “Nenhum suspeito foi ouvido”.",
+    "comment": "**Errado.** A negação é “Todo suspeito foi ouvido”.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A proposição “Todo policial é concursado” equivale a “Quem não é concursado não é policial”.",
+    "comment": "**Certo.** É a contrapositiva da universal afirmativa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "D",
+    "text": "A proposição “Nenhum agente é estagiário” é equivalente a",
+    "options": [
+     "Todo agente é estagiário.",
+     "Algum agente é estagiário.",
+     "Algum estagiário não é agente.",
+     "Nenhum estagiário é agente.",
+     "Todo estagiário é agente."
+    ],
+    "comment": "**Gabarito: D.** A universal negativa vale nos dois sentidos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Das premissas “Todo agente é concursado” e “Nenhum concursado é estagiário”, conclui-se que",
+    "options": [
+     "nenhum agente é estagiário.",
+     "algum agente é estagiário.",
+     "todo estagiário é agente.",
+     "todo concursado é agente.",
+     "algum estagiário é concursado."
+    ],
+    "comment": "**Gabarito: A.** Os agentes estão dentro dos concursados, que não têm interseção com os estagiários.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Das premissas “Algum escrivão é advogado” e “Todo advogado é bacharel”, conclui-se que",
+    "options": [
+     "todo escrivão é bacharel.",
+     "nenhum escrivão é bacharel.",
+     "algum escrivão é bacharel.",
+     "todo bacharel é escrivão.",
+     "algum advogado não é bacharel."
+    ],
+    "comment": "**Gabarito: C.** O escrivão que é advogado está dentro do conjunto dos bacharéis.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Das premissas “Todo perito é servidor” e “Algum servidor é professor”, é correto afirmar que",
+    "options": [
+     "algum perito é professor.",
+     "nenhum perito é professor.",
+     "todo professor é servidor.",
+     "todo servidor é perito.",
+     "não se pode concluir que algum perito é professor."
+    ],
+    "comment": "**Gabarito: E.** O servidor professor pode estar fora do conjunto dos peritos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "B",
+    "text": "A negação de “Algum suspeito não foi ouvido” é",
+    "options": [
+     "Nenhum suspeito foi ouvido.",
+     "Todo suspeito foi ouvido.",
+     "Algum suspeito foi ouvido.",
+     "Nenhum suspeito deixou de ser preso.",
+     "Todo suspeito não foi ouvido."
+    ],
+    "comment": "**Gabarito: B.** Algum... não ↔ todo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "D",
+    "text": "A proposição “Nem todo investigado é culpado” é equivalente a",
+    "options": [
+     "Nenhum investigado é culpado.",
+     "Todo investigado é inocente.",
+     "Todo culpado é investigado.",
+     "Algum investigado não é culpado.",
+     "Algum culpado não é investigado."
+    ],
+    "comment": "**Gabarito: D.** “Nem todo” nega o “todo”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "Das premissas “Todo delegado é bacharel em direito” e “Rui não é bacharel em direito”, conclui-se que",
+    "options": [
+     "Rui é delegado.",
+     "Rui é escrivão.",
+     "Rui não é delegado.",
+     "todo bacharel é delegado.",
+     "nada se pode concluir sobre Rui."
+    ],
+    "comment": "**Gabarito: C.** Quem está fora dos bacharéis está fora dos delegados.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Das premissas “Nenhum traficante é servidor” e “Algum investigado é servidor”, conclui-se que",
+    "options": [
+     "algum investigado não é traficante.",
+     "algum traficante é investigado.",
+     "nenhum investigado é traficante.",
+     "todo servidor é investigado.",
+     "todo investigado é servidor."
+    ],
+    "comment": "**Gabarito: A.** O investigado que é servidor não pode ser traficante.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "A proposição “Todo policial é concursado” é equivalente a",
+    "options": [
+     "Todo concursado é policial.",
+     "Quem não é concursado não é policial.",
+     "Algum policial não é concursado.",
+     "Nenhum policial é concursado.",
+     "Quem não é policial não é concursado."
+    ],
+    "comment": "**Gabarito: B.** Contrapositiva da universal afirmativa: se não é concursado, não é policial.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "E",
+    "text": "Das premissas “Todo agente é atirador” e “Todo escrivão é atirador”, é correto afirmar que",
+    "options": [
+     "algum agente é escrivão.",
+     "todo atirador é agente.",
+     "nenhum agente é escrivão.",
+     "todo escrivão é agente.",
+     "não se pode concluir que algum agente é escrivão."
+    ],
+    "comment": "**Gabarito: E.** Os dois conjuntos podem estar dentro dos atiradores sem se tocar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Lógica de primeira ordem (quantificadores) e silogística categórica.",
+  "Obras de referência: Copi, Introdução à lógica; Alencar Filho, Iniciação à lógica matemática.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

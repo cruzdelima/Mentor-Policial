@@ -1,0 +1,299 @@
+{
+ "id": "rlm-negacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-04"
+ ],
+ "kind": "resumo",
+ "title": "Negação de proposições",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 20,
+ "pdf": "raciocinio_negacao.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "“A negação de X é Y”: as regras de cada **conectivo**, os **quantificadores** e a diferença entre **negar** e dizer o **contrário**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**¬(P ∧ Q) = ¬P ∨ ¬Q**.",
+      "**¬(P ∨ Q) = ¬P ∧ ¬Q**.",
+      "**¬(P → Q) = P ∧ ¬Q** (MANÉ: mantém, nega, e).",
+      "**¬(P ↔ Q) = P ⊻ Q** = (P ∧ ¬Q) ∨ (¬P ∧ Q).",
+      "**¬(P ⊻ Q) = P ↔ Q**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Quantificadores"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Todo A é B** → algum A **não** é B.",
+      "**Algum A é B** → **nenhum** A é B.",
+      "**Nenhum A é B** → algum A é B.",
+      "“Pelo menos um”, “existe”, “há” = algum."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Cuidado"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Negação **não é contrário**: cheia → não cheia (não “vazia”).",
+      "A negação da condicional **não** tem “se... então”."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação"
+     ],
+     "widths": [
+      0.45,
+      0.55
+     ],
+     "rows": [
+      [
+       "P e Q",
+       "não P **ou** não Q"
+      ],
+      [
+       "P ou Q",
+       "não P **e** não Q"
+      ],
+      [
+       "Se P, então Q",
+       "P **e** não Q"
+      ],
+      [
+       "P se e somente se Q",
+       "ou P ou Q"
+      ],
+      [
+       "Nem P nem Q",
+       "P ou Q"
+      ],
+      [
+       "Todo A é B",
+       "Algum A não é B"
+      ],
+      [
+       "Algum A é B",
+       "Nenhum A é B"
+      ],
+      [
+       "Nenhum A é B",
+       "Algum A é B"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "De Morgan: **nega e troca**.",
+      "Condicional: **MANÉ**.",
+      "Bicondicional: vira **ou exclusivo**.",
+      "Todo ↔ **algum não**.",
+      "Algum ↔ **nenhum**.",
+      "Negar não é dizer o **contrário**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "NEGAÇÃO",
+  "rootSub": "valor sempre oposto",
+  "left": [
+   {
+    "label": "Negar o e",
+    "items": [
+     "não P ou não Q",
+     "De Morgan",
+     "troca por ou"
+    ]
+   },
+   {
+    "label": "Negar o ou",
+    "items": [
+     "não P e não Q",
+     "De Morgan",
+     "troca por e"
+    ]
+   },
+   {
+    "label": "Negar se então",
+    "items": [
+     "mantém a primeira",
+     "nega a segunda",
+     "liga com e"
+    ]
+   },
+   {
+    "label": "Negar sse",
+    "items": [
+     "ou exclusivo",
+     "um sem o outro",
+     "valores diferentes"
+    ]
+   },
+   {
+    "label": "Dupla negação",
+    "items": [
+     "não não P",
+     "é P",
+     "volta ao original"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Todo",
+    "items": [
+     "algum não é",
+     "basta um contraexemplo",
+     "não é nenhum"
+    ]
+   },
+   {
+    "label": "Algum",
+    "items": [
+     "nenhum é",
+     "pelo menos um",
+     "existe, há"
+    ]
+   },
+   {
+    "label": "Nenhum",
+    "items": [
+     "algum é",
+     "basta um",
+     "que seja"
+    ]
+   },
+   {
+    "label": "Contrário",
+    "items": [
+     "não é negação",
+     "cheia e vazia",
+     "há meio-termo"
+    ]
+   },
+   {
+    "label": "Composta",
+    "items": [
+     "nega o principal",
+     "depois as partes",
+     "passo a passo"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A negação de “O agente dirigia e o escrivão anotava” é “O agente não dirigia ou o escrivão não anotava”.",
+    "comment": "**Certo.** De Morgan."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A negação de “Se o carro for roubado, o seguro pagará” é “Se o carro não for roubado, o seguro não pagará”.",
+    "comment": "**Errado.** A negação é “O carro foi roubado e o seguro não pagará”."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A negação de “Todo laudo é assinado por dois peritos” é “Algum laudo não é assinado por dois peritos”.",
+    "comment": "**Certo.** Todo ↔ algum não."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A negação de “Algum preso fugiu” é “Algum preso não fugiu”.",
+    "comment": "**Errado.** A negação é “Nenhum preso fugiu”."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A negação de P ∨ ¬Q é ¬P ∧ Q.",
+    "comment": "**Certo.** De Morgan com dupla negação."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A negação de P ↔ Q é equivalente a P ↔ ¬Q.",
+    "comment": "**Certo.** Ambas são verdadeiras quando P e Q têm valores diferentes."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A negação de “O réu é culpado” é “O réu é inocente”.",
+    "comment": "**Errado.** A negação é “O réu não é culpado”; inocente seria o contrário."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "A negação de “Nenhum servidor faltou” é “Pelo menos um servidor faltou”.",
+    "comment": "**Certo.** Nenhum ↔ algum."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "A negação de P ∧ ¬Q é ¬P ∧ Q.",
+    "comment": "**Errado.** É ¬P ∨ Q."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A negação de P → Q é equivalente a ¬(¬P ∨ Q).",
+    "comment": "**Certo.** P → Q ⇔ ¬P ∨ Q; negar os dois lados mantém a equivalência."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica proposicional e de quantificadores.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

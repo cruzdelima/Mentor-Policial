@@ -1,0 +1,309 @@
+{
+ "id": "rlm-equivalencias-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-03"
+ ],
+ "kind": "resumo",
+ "title": "Equivalências lógicas e Leis de De Morgan",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 25,
+ "pdf": "raciocinio_equivalencias.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Frases que “**equivalem**” a outras: contrapositiva, troca pelo **ou**, De Morgan e as pegadinhas da **recíproca** e da **inversa**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Equivalência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Mesma tabela-verdade em **todas** as linhas.",
+      "Uma linha diferente basta para **não** ser equivalente."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Condicional"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**P → Q ⇔ ¬Q → ¬P** (contrapositiva: inverte e nega).",
+      "**P → Q ⇔ ¬P ∨ Q** (NEYMAR: nega a 1ª, mantém a 2ª, troca por ou).",
+      "**P ∨ Q ⇔ ¬P → Q**.",
+      "**Não** equivalem: recíproca **Q → P** e inversa **¬P → ¬Q**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. De Morgan"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**¬(P ∧ Q) ⇔ ¬P ∨ ¬Q**.",
+      "**¬(P ∨ Q) ⇔ ¬P ∧ ¬Q** (= nem P nem Q).",
+      "Nega as duas e **troca** o conectivo."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Bicondicional e propriedades"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**P ↔ Q ⇔ (P → Q) ∧ (Q → P) ⇔ ¬P ↔ ¬Q**.",
+      "Distributiva: P ∧ (Q ∨ R) ⇔ (P ∧ Q) ∨ (P ∧ R).",
+      "Absorção: P ∧ (P ∨ Q) ⇔ P; P ∨ (P ∧ Q) ⇔ P.",
+      "(P ∧ Q) → R ⇔ P → (Q → R)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Equivale a",
+      "Não equivale a"
+     ],
+     "widths": [
+      0.24,
+      0.42,
+      0.34
+     ],
+     "rows": [
+      [
+       "P → Q",
+       "¬Q → ¬P · ¬P ∨ Q",
+       "Q → P · ¬P → ¬Q"
+      ],
+      [
+       "P ∨ Q",
+       "¬P → Q · ¬Q → P",
+       "P ∧ Q"
+      ],
+      [
+       "¬(P ∧ Q)",
+       "¬P ∨ ¬Q",
+       "¬P ∧ ¬Q"
+      ],
+      [
+       "¬(P ∨ Q)",
+       "¬P ∧ ¬Q",
+       "¬P ∨ ¬Q"
+      ],
+      [
+       "P ↔ Q",
+       "(P → Q) ∧ (Q → P)",
+       "P ⊻ Q"
+      ],
+      [
+       "P ⊻ Q",
+       "¬(P ↔ Q) · P ↔ ¬Q",
+       "P ↔ Q"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Contrapositiva: **inverte e nega**.",
+      "NEYMAR: **nega, mantém, ou**.",
+      "Recíproca e inversa **não** equivalem.",
+      "De Morgan: **nega tudo e troca** e/ou.",
+      "Nem P nem Q = **¬P ∧ ¬Q**.",
+      "Teste com **P = V e Q = F**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "EQUIVALÊNCIAS",
+  "rootSub": "mesma tabela-verdade",
+  "left": [
+   {
+    "label": "Contrapositiva",
+    "items": [
+     "inverte e nega",
+     "não Q então não P",
+     "sempre equivale"
+    ]
+   },
+   {
+    "label": "Troca pelo ou",
+    "items": [
+     "nega a primeira",
+     "mantém a segunda",
+     "se então vira ou"
+    ]
+   },
+   {
+    "label": "Ou para se",
+    "items": [
+     "P ou Q",
+     "se não P, então Q",
+     "caminho inverso"
+    ]
+   },
+   {
+    "label": "Não equivale",
+    "items": [
+     "recíproca",
+     "inversa",
+     "pegadinha favorita"
+    ]
+   },
+   {
+    "label": "Teste",
+    "items": [
+     "uma linha diferente",
+     "derruba",
+     "use P = V, Q = F"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "De Morgan e",
+    "items": [
+     "não (P e Q)",
+     "não P ou não Q",
+     "troca o conectivo"
+    ]
+   },
+   {
+    "label": "De Morgan ou",
+    "items": [
+     "não (P ou Q)",
+     "não P e não Q",
+     "nem P nem Q"
+    ]
+   },
+   {
+    "label": "Bicondicional",
+    "items": [
+     "ida e volta",
+     "não P sse não Q",
+     "negação: ou exclusivo"
+    ]
+   },
+   {
+    "label": "Distributiva",
+    "items": [
+     "e sobre ou",
+     "ou sobre e",
+     "como na álgebra"
+    ]
+   },
+   {
+    "label": "Absorção",
+    "items": [
+     "P e (P ou Q) = P",
+     "P ou (P e Q) = P",
+     "dupla negação"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A proposição “Se o perito chegou, a cena foi isolada” equivale a “Se a cena não foi isolada, o perito não chegou”.",
+    "comment": "**Certo.** Contrapositiva."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A proposição “Se o perito chegou, a cena foi isolada” equivale a “Se a cena foi isolada, o perito chegou”.",
+    "comment": "**Errado.** É a recíproca."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição ¬P → Q é equivalente a P ∨ Q.",
+    "comment": "**Certo.** ¬P → Q ⇔ ¬¬P ∨ Q ⇔ P ∨ Q."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A proposição “Não é verdade que Lúcia é agente ou escrivã” equivale a “Lúcia não é agente ou não é escrivã”.",
+    "comment": "**Errado.** ¬(A ∨ E) ⇔ ¬A ∧ ¬E: “não é agente e não é escrivã”."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A proposição ¬(P ∧ Q) é equivalente a P → ¬Q.",
+    "comment": "**Certo.** P → ¬Q ⇔ ¬P ∨ ¬Q ⇔ ¬(P ∧ Q)."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A proposição P ↔ Q é equivalente a ¬P ↔ ¬Q.",
+    "comment": "**Certo.** Negar os dois lados da bicondicional preserva os valores iguais ou diferentes."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A proposição P → Q é equivalente a P ∧ ¬Q.",
+    "comment": "**Errado.** P ∧ ¬Q é a negação de P → Q."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "A proposição P ∨ (P ∧ Q) é equivalente a P.",
+    "comment": "**Certo.** Absorção."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "A proposição P ∧ (Q ∨ R) é equivalente a (P ∧ Q) ∨ R.",
+    "comment": "**Errado.** Pela distributiva, equivale a (P ∧ Q) ∨ (P ∧ R). Com P = F e R = V, diferem."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A proposição “Nem o delegado nem o agente estavam armados” equivale a “Não é verdade que o delegado ou o agente estava armado”.",
+    "comment": "**Certo.** ¬D ∧ ¬A ⇔ ¬(D ∨ A)."
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional clássica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

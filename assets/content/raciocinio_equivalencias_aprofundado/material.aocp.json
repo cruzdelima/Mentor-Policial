@@ -1,0 +1,489 @@
+{
+ "id": "rlm-equivalencias-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-03"
+ ],
+ "kind": "aprofundado",
+ "title": "Equivalências lógicas e Leis de De Morgan",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 80,
+ "pdf": "raciocinio_equivalencias_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Equivalência é o assunto de lógica **mais cobrado** pelas bancas em provas policiais. Quase todo item é uma frase do tipo “a proposição X é equivalente a Y”. Decore as **três equivalências da condicional** e as **duas leis de De Morgan**: elas resolvem a maior parte das questões."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. O que é equivalência"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Definição",
+     "text": "Duas proposições são **logicamente equivalentes** (A ⇔ B) quando têm **a mesma tabela-verdade**: em todas as linhas, os valores coincidem. Na prática, uma pode substituir a outra sem mudar o sentido lógico."
+    },
+    {
+     "t": "p",
+     "text": "Para testar, monte as duas tabelas ou procure **uma linha** em que os valores sejam diferentes: basta uma para **não** haver equivalência. Outra forma: A e B são equivalentes quando A ↔ B é **tautologia**."
+    },
+    {
+     "t": "h2",
+     "text": "2. As equivalências da condicional"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Equivalente",
+      "Nome"
+     ],
+     "widths": [
+      0.24,
+      0.36,
+      0.4
+     ],
+     "rows": [
+      [
+       "P → Q",
+       "**¬Q → ¬P**",
+       "Contrapositiva: **inverte e nega** as duas"
+      ],
+      [
+       "P → Q",
+       "**¬P ∨ Q**",
+       "Troca da condicional pelo ou: **nega a primeira, mantém a segunda, troca → por ∨**"
+      ],
+      [
+       "P ∨ Q",
+       "¬P → Q",
+       "O caminho inverso: nega a primeira e troca ∨ por →"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Regra prática: NEYMAR",
+     "text": "Para trocar a condicional pelo **ou**: **NE**ga a primeira, **MA**ntém a segunda e troca o conectivo (**R**: “se... então” vira “ou”). *Se o suspeito fugiu, ele é culpado* ⇔ *O suspeito não fugiu ou é culpado*."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Recíproca e inversa NÃO são equivalentes",
+     "text": "Dada P → Q: a **recíproca** é Q → P e a **inversa** é ¬P → ¬Q. Nenhuma das duas é equivalente a P → Q (mas são equivalentes entre si). *Se é policial, é concursado* não equivale a *Se é concursado, é policial*."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Forma",
+      "Frase"
+     ],
+     "widths": [
+      0.22,
+      0.78
+     ],
+     "rows": [
+      [
+       "P → Q",
+       "*Se a perícia encontrou digitais, o suspeito esteve no local.*"
+      ],
+      [
+       "¬Q → ¬P",
+       "*Se o suspeito não esteve no local, a perícia não encontrou digitais.* (equivalente)"
+      ],
+      [
+       "¬P ∨ Q",
+       "*A perícia não encontrou digitais ou o suspeito esteve no local.* (equivalente)"
+      ],
+      [
+       "Q → P",
+       "*Se o suspeito esteve no local, a perícia encontrou digitais.* (recíproca: **não** equivalente)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. A bicondicional"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Equivalentes"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "P ↔ Q",
+       "(P → Q) ∧ (Q → P) · (¬P ↔ ¬Q) · (P ∧ Q) ∨ (¬P ∧ ¬Q)"
+      ],
+      [
+       "P ⊻ Q (ou exclusivo)",
+       "¬(P ↔ Q) · P ↔ ¬Q · (P ∧ ¬Q) ∨ (¬P ∧ Q)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Leis de De Morgan"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Negar o e e o ou",
+     "text": "**¬(P ∧ Q) ⇔ ¬P ∨ ¬Q** · **¬(P ∨ Q) ⇔ ¬P ∧ ¬Q**. Nega as duas e **troca o conectivo**: “e” vira “ou”, “ou” vira “e”."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Equivalente por De Morgan"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "*Não é verdade que João é agente e Maria é perita.*",
+       "*João não é agente ou Maria não é perita.*"
+      ],
+      [
+       "*Não é verdade que choveu ou ventou.*",
+       "*Não choveu e não ventou.* (= *Nem choveu nem ventou.*)"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "De Morgan vale com mais de duas proposições: ¬(P ∧ Q ∧ R) ⇔ ¬P ∨ ¬Q ∨ ¬R. Também se aplica dentro de outras equivalências: (P ∧ Q) → R ⇔ ¬(P ∧ Q) ∨ R ⇔ ¬P ∨ ¬Q ∨ R."
+    },
+    {
+     "t": "h2",
+     "text": "5. Propriedades dos conectivos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Propriedade",
+      "Conjunção",
+      "Disjunção"
+     ],
+     "widths": [
+      0.22,
+      0.39,
+      0.39
+     ],
+     "rows": [
+      [
+       "Dupla negação",
+       "¬¬P ⇔ P",
+       "¬¬P ⇔ P"
+      ],
+      [
+       "Idempotência",
+       "P ∧ P ⇔ P",
+       "P ∨ P ⇔ P"
+      ],
+      [
+       "Comutativa",
+       "P ∧ Q ⇔ Q ∧ P",
+       "P ∨ Q ⇔ Q ∨ P"
+      ],
+      [
+       "Associativa",
+       "(P ∧ Q) ∧ R ⇔ P ∧ (Q ∧ R)",
+       "(P ∨ Q) ∨ R ⇔ P ∨ (Q ∨ R)"
+      ],
+      [
+       "Distributiva",
+       "P ∧ (Q ∨ R) ⇔ (P ∧ Q) ∨ (P ∧ R)",
+       "P ∨ (Q ∧ R) ⇔ (P ∨ Q) ∧ (P ∨ R)"
+      ],
+      [
+       "Absorção",
+       "P ∧ (P ∨ Q) ⇔ P",
+       "P ∨ (P ∧ Q) ⇔ P"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A **condicional não é comutativa**: P → Q não equivale a Q → P. A bicondicional é: P ↔ Q ⇔ Q ↔ P.",
+      "Condicional com antecedente composto: **(P ∧ Q) → R ⇔ P → (Q → R)** (exportação).",
+      "Condicional com consequente composto: **P → (Q ∧ R) ⇔ (P → Q) ∧ (P → R)**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O item traz uma frase longa e diz que ela **equivale** a outra. Simbolize as duas e compare com a tabela de equivalências.",
+      "A pegadinha preferida é a **recíproca** (Q → P) apresentada como equivalente da condicional.",
+      "Outra pegadinha: aplicar De Morgan **sem trocar o conectivo** (¬(P ∧ Q) como ¬P ∧ ¬Q).",
+      "Na dúvida, procure **uma linha** que diferencie as duas proposições (ex.: P = V, Q = F)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A proposição P → Q é equivalente a ¬Q → ¬P.",
+    "comment": "**Certo.** É a contrapositiva.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A proposição P → Q é equivalente a Q → P.",
+    "comment": "**Errado.** Q → P é a recíproca. Com P = V e Q = F, P → Q é F e Q → P é V.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição P → Q é equivalente a ¬P ∨ Q.",
+    "comment": "**Certo.** Nega a primeira, mantém a segunda e troca o conectivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A proposição ¬(P ∧ Q) é equivalente a ¬P ∧ ¬Q.",
+    "comment": "**Errado.** Por De Morgan, ¬(P ∧ Q) ⇔ ¬P ∨ ¬Q: é preciso trocar o conectivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A proposição ¬(P ∨ Q) é equivalente a ¬P ∧ ¬Q.",
+    "comment": "**Certo.** Segunda lei de De Morgan.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A proposição P ↔ Q é equivalente a (P → Q) ∧ (Q → P).",
+    "comment": "**Certo.** A bicondicional é a conjunção da condicional com a recíproca.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A proposição P → Q é equivalente a ¬P → ¬Q.",
+    "comment": "**Errado.** ¬P → ¬Q é a inversa, que não equivale à condicional.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "A proposição P ∨ Q é equivalente a ¬P → Q.",
+    "comment": "**Certo.** Pela regra da troca: ¬P → Q ⇔ ¬¬P ∨ Q ⇔ P ∨ Q.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A proposição P ∧ (P ∨ Q) é equivalente a P.",
+    "comment": "**Certo.** Absorção.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A proposição P ∨ (Q ∧ R) é equivalente a (P ∨ Q) ∧ R.",
+    "comment": "**Errado.** Pela distributiva, equivale a (P ∨ Q) ∧ (P ∨ R). Com P = V e R = F, a primeira é V e (P ∨ Q) ∧ R é F.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "A proposição “Se o suspeito fugiu, então é culpado” é equivalente a",
+    "options": [
+     "Se o suspeito é culpado, então fugiu.",
+     "Se o suspeito não é culpado, então não fugiu.",
+     "Se o suspeito não fugiu, então não é culpado.",
+     "O suspeito fugiu e não é culpado.",
+     "O suspeito fugiu ou é culpado."
+    ],
+    "comment": "**Gabarito: B.** Contrapositiva: inverte e nega. A é a recíproca, C é a inversa, D é a negação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "A proposição P → Q é equivalente a",
+    "options": [
+     "P ∧ ¬Q",
+     "Q → P",
+     "¬P → ¬Q",
+     "¬P ∨ Q",
+     "P ∨ ¬Q"
+    ],
+    "comment": "**Gabarito: D.** Nega a primeira, mantém a segunda e troca o conectivo por “ou”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "De acordo com as Leis de De Morgan, ¬(P ∧ Q) é equivalente a",
+    "options": [
+     "¬P ∨ ¬Q",
+     "¬P ∧ ¬Q",
+     "P ∨ Q",
+     "¬P → ¬Q",
+     "P → ¬Q ∧ Q"
+    ],
+    "comment": "**Gabarito: A.** Nega as duas e troca “e” por “ou”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "A proposição “Não é verdade que choveu ou ventou” é equivalente a",
+    "options": [
+     "Não choveu ou não ventou.",
+     "Choveu e não ventou.",
+     "Se choveu, não ventou.",
+     "Choveu ou ventou.",
+     "Não choveu e não ventou."
+    ],
+    "comment": "**Gabarito: E.** ¬(C ∨ V) ⇔ ¬C ∧ ¬V.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "C",
+    "text": "A proposição “O réu confessou ou há provas suficientes” é equivalente a",
+    "options": [
+     "Se o réu confessou, há provas suficientes.",
+     "O réu confessou e há provas suficientes.",
+     "Se o réu não confessou, há provas suficientes.",
+     "Se não há provas suficientes, o réu não confessou.",
+     "O réu não confessou e não há provas suficientes."
+    ],
+    "comment": "**Gabarito: C.** P ∨ Q ⇔ ¬P → Q.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "A bicondicional P ↔ Q é equivalente a",
+    "options": [
+     "(P → Q) ∨ (Q → P)",
+     "(P → Q) ∧ (Q → P)",
+     "(P ∧ ¬Q) ∨ (¬P ∧ Q)",
+     "P → Q",
+     "¬P ∧ ¬Q"
+    ],
+    "comment": "**Gabarito: B.** Ida e volta: conjunção da condicional com a recíproca. A alternativa C é o ou exclusivo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "Assinale a alternativa que apresenta proposições NÃO equivalentes.",
+    "options": [
+     "P → Q e ¬Q → ¬P",
+     "P ∨ Q e Q ∨ P",
+     "¬(P ∨ Q) e ¬P ∧ ¬Q",
+     "P → Q e Q → P",
+     "P ∧ (P ∨ Q) e P"
+    ],
+    "comment": "**Gabarito: D.** Q → P é a recíproca, que não equivale à condicional.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "A proposição (P ∧ Q) → R é equivalente a",
+    "options": [
+     "¬P ∨ ¬Q ∨ R",
+     "¬P ∧ ¬Q ∧ R",
+     "P ∧ Q ∧ ¬R",
+     "(P → R) ∧ Q",
+     "R → (P ∧ Q)"
+    ],
+    "comment": "**Gabarito: A.** (P ∧ Q) → R ⇔ ¬(P ∧ Q) ∨ R ⇔ ¬P ∨ ¬Q ∨ R.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Pela propriedade de absorção, P ∨ (P ∧ Q) é equivalente a",
+    "options": [
+     "Q",
+     "P ∧ Q",
+     "P ∨ Q",
+     "¬P",
+     "P"
+    ],
+    "comment": "**Gabarito: E.** Se P é V, a expressão é V; se P é F, P ∧ Q é F e a expressão é F: equivale a P.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "C",
+    "text": "A proposição “Se o candidato estudar, será aprovado” NÃO é equivalente a",
+    "options": [
+     "Se o candidato não for aprovado, não estudou.",
+     "O candidato não estuda ou é aprovado.",
+     "Se o candidato não estudar, não será aprovado.",
+     "Não é verdade que o candidato estuda e não é aprovado.",
+     "Se o candidato estudar, então será aprovado."
+    ],
+    "comment": "**Gabarito: C.** A alternativa C é a inversa, que não equivale à condicional.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional clássica: equivalências notáveis e Leis de De Morgan.",
+  "Obras de referência: Alencar Filho, Iniciação à lógica matemática; Copi, Introdução à lógica.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

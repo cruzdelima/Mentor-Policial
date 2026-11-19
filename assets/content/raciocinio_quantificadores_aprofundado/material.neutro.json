@@ -1,0 +1,379 @@
+{
+ "id": "rlm-quantificadores-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-06"
+ ],
+ "kind": "aprofundado",
+ "title": "Quantificadores e diagramas lógicos",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica de primeira ordem",
+ "minutes": 75,
+ "pdf": "raciocinio_quantificadores_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Os itens trazem duas ou três afirmações com **todo**, **algum** e **nenhum** e perguntam se uma conclusão é necessariamente verdadeira. A técnica é sempre a mesma: **desenhe os conjuntos** e procure **um desenho em que as premissas sejam verdadeiras e a conclusão falsa**. Se encontrar, a conclusão não decorre."
+    },
+    {
+     "t": "h2",
+     "text": "1. Quantificadores"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quantificador",
+      "Símbolo",
+      "Leitura",
+      "Sinônimos"
+     ],
+     "widths": [
+      0.2,
+      0.12,
+      0.3,
+      0.38
+     ],
+     "rows": [
+      [
+       "Universal",
+       "∀x",
+       "para todo x",
+       "todo, qualquer, cada, todos os"
+      ],
+      [
+       "Existencial",
+       "∃x",
+       "existe x",
+       "algum, pelo menos um, existe, há"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Uma sentença aberta (*x é policial*) vira proposição quando é **quantificada**: *Todo x é policial* ou *Existe x que é policial*. Por isso, *Ele é policial* não é proposição, mas *Alguém é policial* é."
+    },
+    {
+     "t": "h2",
+     "text": "2. As quatro proposições categóricas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Forma",
+      "Significado no diagrama"
+     ],
+     "widths": [
+      0.12,
+      0.28,
+      0.6
+     ],
+     "rows": [
+      [
+       "A",
+       "**Todo A é B**",
+       "O círculo A fica **inteiro dentro** de B (A ⊂ B). Não diz que existe B fora de A."
+      ],
+      [
+       "E",
+       "**Nenhum A é B**",
+       "Os círculos A e B **não se tocam** (A ∩ B = ∅). Vale nos dois sentidos: nenhum B é A."
+      ],
+      [
+       "I",
+       "**Algum A é B**",
+       "Existe **pelo menos um** elemento na **interseção**. Vale nos dois sentidos: algum B é A."
+      ],
+      [
+       "O",
+       "**Algum A não é B**",
+       "Existe pelo menos um elemento de A **fora** de B. **Não** vale no sentido inverso."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "O que “algum” NÃO diz",
+     "text": "*Algum policial é atleta* **não** significa que algum policial não é atleta: pode ser que **todos** sejam. Em lógica, “algum” é **pelo menos um**, sem limite superior. Do mesmo modo, *Todo A é B* **não** permite concluir *Todo B é A*."
+    },
+    {
+     "t": "h3",
+     "text": "O que se pode inverter"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Nenhum A é B* ⇔ *Nenhum B é A*.",
+      "*Algum A é B* ⇔ *Algum B é A*.",
+      "*Todo A é B* **não** equivale a *Todo B é A* (só permite *Algum B é A*, se A não for vazio).",
+      "*Algum A não é B* **não** equivale a *Algum B não é A*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Negações (revisão)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Todo A é B",
+       "Algum A não é B"
+      ],
+      [
+       "Nenhum A é B",
+       "Algum A é B"
+      ],
+      [
+       "Algum A é B",
+       "Nenhum A é B"
+      ],
+      [
+       "Algum A não é B",
+       "Todo A é B"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Diagramas: o método"
+    },
+    {
+     "t": "p",
+     "text": "Desenhe primeiro as afirmações **universais** (todo, nenhum), que fixam o desenho; depois as **particulares** (algum), que só marcam a existência de um elemento. Quando houver **várias formas possíveis** de desenhar, a conclusão só é válida se for verdadeira em **todas** elas."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 1 (conclusão válida)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Todo agente é concursado.* · P2: *Nenhum concursado é estagiário.*",
+      "Desenho: o círculo dos agentes dentro do círculo dos concursados; o dos estagiários fora dos concursados.",
+      "Conclusão válida: *Nenhum agente é estagiário.*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 2 (conclusão inválida)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Todo perito é servidor.* · P2: *Algum servidor é professor.*",
+      "O professor que é servidor pode estar **dentro** ou **fora** do círculo dos peritos.",
+      "*Algum perito é professor* **não** decorre: há um desenho em que nenhum perito é professor."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo 3 (conclusão válida com algum)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "P1: *Algum escrivão é advogado.* · P2: *Todo advogado é bacharel.*",
+      "O escrivão que é advogado está dentro do círculo dos advogados, que está dentro dos bacharéis.",
+      "Conclusão válida: *Algum escrivão é bacharel.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Quantificadores com conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Todo A é B* equivale a *Se x é A, então x é B* (para qualquer x).",
+      "*Nenhum A é B* equivale a *Se x é A, então x não é B*.",
+      "Por isso, *Todo policial é concursado* e *Se alguém é policial, então é concursado* têm o mesmo sentido.",
+      "Contrapositiva: *Todo A é B* ⇔ *Todo não B é não A* (quem não é concursado não é policial)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Duas premissas + uma conclusão: desenhe e procure o **contraexemplo**.",
+      "Conclusões com **algum** a partir de premissas com **todo** e **algum** costumam ser armadilha: confira se o elemento está mesmo na interseção.",
+      "Itens de negação: *Todo* ↔ *algum não*; *algum* ↔ *nenhum*.",
+      "Na dúvida real, confira a regra da sua banca: no Cebraspe, cada erro anula um acerto (deixe em branco); na múltipla escolha, o erro não desconta (não deixe em branco)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A proposição “Nenhum agente é estagiário” é equivalente a “Nenhum estagiário é agente”.",
+    "comment": "**Certo.** Na universal negativa, os conjuntos não se tocam: vale nos dois sentidos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A proposição “Todo escrivão é bacharel” é equivalente a “Todo bacharel é escrivão”.",
+    "comment": "**Errado.** Todo A é B não permite inverter.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição “Algum perito é médico” é equivalente a “Algum médico é perito”.",
+    "comment": "**Certo.** O elemento está na interseção: vale nos dois sentidos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Da proposição “Algum policial é atleta” conclui-se que algum policial não é atleta.",
+    "comment": "**Errado.** “Algum” é pelo menos um; pode ser que todos sejam atletas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A proposição “Existe x tal que x é policial” é uma proposição, ainda que a sentença “x é policial” não o seja.",
+    "comment": "**Certo.** O quantificador transforma a sentença aberta em proposição.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Das premissas “Todo agente é concursado” e “Nenhum concursado é estagiário”, conclui-se que nenhum agente é estagiário.",
+    "comment": "**Certo.** Os agentes estão dentro dos concursados, que não tocam os estagiários.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Das premissas “Todo perito é servidor” e “Algum servidor é professor”, conclui-se que algum perito é professor.",
+    "comment": "**Errado.** O servidor professor pode estar fora do círculo dos peritos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Das premissas “Algum escrivão é advogado” e “Todo advogado é bacharel”, conclui-se que algum escrivão é bacharel.",
+    "comment": "**Certo.** O escrivão advogado está dentro dos bacharéis.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "A negação de “Algum suspeito não foi ouvido” é “Nenhum suspeito foi ouvido”.",
+    "comment": "**Errado.** A negação é “Todo suspeito foi ouvido”.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A proposição “Todo policial é concursado” equivale a “Quem não é concursado não é policial”.",
+    "comment": "**Certo.** É a contrapositiva da universal afirmativa.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Considere as premissas “Todo delegado é bacharel em direito” e “Rui não é bacharel em direito”. Delas se conclui que Rui não é delegado.",
+    "comment": "**Certo.** Rui está fora do círculo dos bacharéis, que contém o dos delegados.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Considere as premissas “Todo delegado é bacharel em direito” e “Lia é bacharel em direito”. Delas se conclui que Lia é delegada.",
+    "comment": "**Errado.** Lia pode estar no círculo dos bacharéis, mas fora do dos delegados.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "Considere as premissas “Nenhum traficante é servidor” e “Algum servidor é investigado”. Delas se conclui que algum traficante é investigado.",
+    "comment": "**Errado.** O servidor investigado não é traficante; os traficantes podem não ter interseção com os investigados.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Considere as premissas “Nenhum traficante é servidor” e “Algum investigado é servidor”. Delas se conclui que algum investigado não é traficante.",
+    "comment": "**Certo.** O investigado que é servidor não pode ser traficante.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "Considere as premissas “Todo agente é atirador” e “Todo escrivão é atirador”. Delas se conclui que algum agente é escrivão.",
+    "comment": "**Errado.** Os dois círculos podem estar dentro do dos atiradores sem se tocar.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "Considere as premissas “Todo agente é atirador” e “Nenhum atirador é sedentário”. Delas se conclui que nenhum sedentário é agente.",
+    "comment": "**Certo.** Os agentes estão dentro dos atiradores, que não tocam os sedentários.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "E",
+    "text": "A negação de “Todos os presos foram transferidos” é “Nenhum preso foi transferido”.",
+    "comment": "**Errado.** A negação é “Algum preso não foi transferido”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "C",
+    "text": "A proposição “Nem todo investigado é culpado” é equivalente a “Algum investigado não é culpado”.",
+    "comment": "**Certo.** “Nem todo” nega o “todo”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "E",
+    "text": "Das premissas “Algum A é B” e “Algum B é C”, conclui-se que algum A é C.",
+    "comment": "**Errado.** Os elementos das duas interseções podem ser diferentes.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "C",
+    "text": "Se for verdadeira a proposição “Algum servidor não é estável”, então será falsa a proposição “Todo servidor é estável”.",
+    "comment": "**Certo.** Uma é a negação da outra.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica de primeira ordem (quantificadores) e silogística categórica.",
+  "Obras de referência: Copi, Introdução à lógica; Alencar Filho, Iniciação à lógica matemática.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

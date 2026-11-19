@@ -1,0 +1,300 @@
+{
+ "id": "rlm-sequencias-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-10"
+ ],
+ "kind": "aprofundado",
+ "title": "Sequências e progressões",
+ "subtitle": "Raciocínio Lógico e Matemática · Sequências",
+ "minutes": 70,
+ "pdf": "raciocinio_sequencias_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Sequências caem de dois jeitos: **descobrir a lei de formação** de uma lista (números, letras, figuras) e **calcular termos e somas** de PA e PG. Decore as quatro fórmulas e treine a pergunta “o que acontece de um termo para o seguinte?”."
+    },
+    {
+     "t": "h2",
+     "text": "1. Descobrindo o padrão"
+    },
+    {
+     "t": "p",
+     "text": "Compare termos vizinhos: a diferença é constante (soma)? O quociente é constante (multiplicação)? As diferenças crescem? Há duas sequências intercaladas (posições ímpares e pares)?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sequência",
+      "Lei de formação",
+      "Próximo"
+     ],
+     "widths": [
+      0.36,
+      0.44,
+      0.2
+     ],
+     "rows": [
+      [
+       "5, 12, 19, 26, ...",
+       "soma 7",
+       "33"
+      ],
+      [
+       "2, 6, 18, 54, ...",
+       "multiplica por 3",
+       "162"
+      ],
+      [
+       "2, 3, 5, 9, 17, ...",
+       "dobra e subtrai 1 (diferenças 1, 2, 4, 8)",
+       "33"
+      ],
+      [
+       "1, 1, 2, 3, 5, 8, ...",
+       "cada termo é a soma dos dois anteriores (Fibonacci)",
+       "13"
+      ],
+      [
+       "1, 4, 9, 16, ...",
+       "quadrados perfeitos",
+       "25"
+      ],
+      [
+       "A, C, E, G, ...",
+       "pula uma letra",
+       "I"
+      ],
+      [
+       "3, 10, 5, 20, 7, 30, ...",
+       "duas intercaladas: 3, 5, 7 e 10, 20, 30",
+       "9"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Nas sequências de letras, considere o alfabeto de **26 letras** (com K, W e Y), salvo se o item disser outra coisa. Numere as letras (A = 1, B = 2...) para enxergar o padrão."
+    },
+    {
+     "t": "h2",
+     "text": "2. Progressão aritmética (PA)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fórmulas da PA",
+     "text": "Cada termo é o anterior **mais a razão r**. **Termo geral: aₙ = a₁ + (n − 1) · r**. **Soma dos n primeiros: Sₙ = (a₁ + aₙ) · n / 2**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "PA (3, 7, 11, ...): r = 4. O 20º termo é a₂₀ = 3 + 19 × 4 = **79**. A soma dos 20 primeiros é (3 + 79) × 20/2 = **820**.",
+      "Soma de 1 a 100: (1 + 100) × 100/2 = **5.050**.",
+      "Em uma PA, cada termo é a **média** dos seus vizinhos: a₂ = (a₁ + a₃)/2.",
+      "**Quantos múltiplos de 7** há entre 100 e 300? O primeiro é 105 e o último 294: 294 = 105 + (n − 1) × 7 → **n = 28**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Progressão geométrica (PG)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fórmulas da PG",
+     "text": "Cada termo é o anterior **vezes a razão q**. **Termo geral: aₙ = a₁ · qⁿ⁻¹**. **Soma dos n primeiros: Sₙ = a₁ · (qⁿ − 1)/(q − 1)**. Se **0 < |q| < 1**, a soma infinita é **S = a₁/(1 − q)**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "PG (2, 6, 18, ...): q = 3. O 6º termo é 2 × 3⁵ = **486**. A soma dos 6 primeiros é 2 × (3⁶ − 1)/(3 − 1) = **728**.",
+      "PG (1, 2, 4, 8, ...): o 10º termo é 2⁹ = **512** e a soma dos 10 primeiros é 2¹⁰ − 1 = **1.023**.",
+      "Soma infinita de (10, 5, 2,5, ...): q = 1/2 → S = 10/(1 − 1/2) = **20**.",
+      "Crescimento percentual constante é uma PG: um valor que cresce **10% ao ano** é multiplicado por **1,1** a cada ano. R$ 1.000 viram 1.000 × 1,1³ = **R$ 1.331** em 3 anos."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "PA × PG",
+     "text": "Aumento de **quantidade fixa** (15 apreensões a mais por mês) é **PA**. Aumento de **percentual fixo** (10% ao mês) é **PG**. Não confunda a razão da PA (soma) com a da PG (multiplicação)."
+    },
+    {
+     "t": "h2",
+     "text": "4. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Uma lista com a lei de formação e itens sobre um termo distante (o 50º, o 100º): use o **termo geral**.",
+      "Situações com crescimento mensal (apreensões, efetivo, gastos) e itens sobre o total acumulado: use a **soma**.",
+      "Padrões de letras e figuras: numere e procure a regra.",
+      "Na dúvida real, confira a regra da sua banca: no Cebraspe, cada erro anula um acerto (deixe em branco); na múltipla escolha, o erro não desconta (não deixe em branco)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Na sequência 5, 12, 19, 26, ..., o 10º termo é 68.",
+    "comment": "**Certo.** PA de razão 7: 5 + 9 × 7 = 68.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Na sequência 2, 6, 18, 54, ..., o próximo termo é 108.",
+    "comment": "**Errado.** PG de razão 3: 54 × 3 = 162.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Na sequência 1, 1, 2, 3, 5, 8, 13, ..., o termo seguinte a 13 é 21.",
+    "comment": "**Certo.** Fibonacci: 8 + 13.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Na sequência de letras A, C, E, G, ..., a próxima letra é I.",
+    "comment": "**Certo.** Pula uma letra a cada passo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "O 20º termo da PA (3, 7, 11, ...) é 83.",
+    "comment": "**Errado.** a₂₀ = 3 + 19 × 4 = 79.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A soma dos 20 primeiros termos da PA (3, 7, 11, ...) é 820.",
+    "comment": "**Certo.** (3 + 79) × 20/2.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A soma dos números naturais de 1 a 100 é 5.050.",
+    "comment": "**Certo.** (1 + 100) × 100/2.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O 6º termo da PG (2, 6, 18, ...) é 1.458.",
+    "comment": "**Errado.** a₆ = 2 × 3⁵ = 486.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A soma dos infinitos termos da PG (10, 5, 2,5, ...) é 20.",
+    "comment": "**Certo.** S = 10/(1 − 1/2).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em uma PA, o termo central de três termos consecutivos é sempre o produto dos outros dois dividido por 2.",
+    "comment": "**Errado.** É a média aritmética (soma dividida por 2).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Entre 100 e 300 há exatamente 28 múltiplos de 7.",
+    "comment": "**Certo.** De 105 a 294: (294 − 105)/7 + 1 = 28.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "C",
+    "text": "Uma delegacia registrou 120 apreensões em janeiro e, a cada mês, 15 a mais que no mês anterior. Ao final de dezembro, o total do ano foi de 2.430 apreensões.",
+    "comment": "**Certo.** PA com a₁ = 120 e a₁₂ = 285: (120 + 285) × 12/2 = 2.430.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "Na situação do item anterior, em dezembro foram registradas 300 apreensões.",
+    "comment": "**Errado.** a₁₂ = 120 + 11 × 15 = 285.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Um orçamento de R$ 1.000 que aumenta 10% ao ano, de forma cumulativa, passa a R$ 1.331 após 3 anos.",
+    "comment": "**Certo.** PG de razão 1,1: 1.000 × 1,1³.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "Um valor que aumenta 10% ao ano, de forma cumulativa, forma uma progressão aritmética de razão 10.",
+    "comment": "**Errado.** Aumento percentual constante gera PG de razão 1,1.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "Na sequência 3, 10, 5, 20, 7, 30, ..., o próximo termo é 9.",
+    "comment": "**Certo.** Posições ímpares: 3, 5, 7, 9.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "A soma dos 10 primeiros termos da PG (1, 2, 4, 8, ...) é 1.023.",
+    "comment": "**Certo.** 2¹⁰ − 1.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Na sequência 2, 3, 5, 9, 17, ..., o próximo termo é 25.",
+    "comment": "**Errado.** Diferenças 1, 2, 4, 8, 16: o próximo é 33.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "A soma dos números pares de 2 a 100 é 2.550.",
+    "comment": "**Certo.** PA com 50 termos: (2 + 100) × 50/2.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "O 50º termo da PA (5, 8, 11, ...) é 155.",
+    "comment": "**Errado.** 5 + 49 × 3 = 152.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Matemática do ensino médio: sequências, progressões aritméticas e geométricas.",
+  "Obras de referência: Iezzi e Hazzan, Fundamentos de matemática elementar, v. 4.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

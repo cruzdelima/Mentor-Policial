@@ -1,0 +1,391 @@
+{
+ "id": "rlm-problemas-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-09"
+ ],
+ "kind": "aprofundado",
+ "title": "Problemas aritméticos e equações",
+ "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+ "minutes": 85,
+ "pdf": "raciocinio_problemas_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Os problemas das bancas vêm em textos com várias informações e itens que afirmam um resultado. O segredo é **traduzir o texto em equação**: dê nome à incógnita, escreva as relações e só depois faça as contas. Muitas vezes dá para **testar o valor do item** no enunciado em vez de resolver a equação."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Frações, MMC e MDC"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Somar frações: iguale os denominadores pelo **MMC**. 1/4 + 1/6 = 3/12 + 2/12 = **5/12**.",
+      "“2/5 de” = multiplicar por 2/5. 2/5 de R$ 10.000 = **R$ 4.000**.",
+      "Fração do **restante**: se 2/5 do orçamento foram gastos e depois 3/4 do que sobrou, o segundo gasto foi 3/4 de 6.000 = **4.500**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Ferramenta",
+      "Quando usar",
+      "Exemplo"
+     ],
+     "widths": [
+      0.14,
+      0.4,
+      0.46
+     ],
+     "rows": [
+      [
+       "**MMC**",
+       "Eventos que se **repetem** e coincidem; menor múltiplo comum.",
+       "Duas rondas passam a cada 12 e 18 min. Juntas de novo em MMC(12, 18) = **36 min**."
+      ],
+      [
+       "**MDC**",
+       "**Dividir** em grupos iguais do **maior tamanho** possível.",
+       "48 agentes e 36 escrivães em equipes do mesmo tamanho, sem misturar: MDC(48, 36) = **12** por equipe → 4 + 3 = **7 equipes**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Equação do 1º grau e sistemas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Isole a incógnita: 3x − 7 = 11 → 3x = 18 → **x = 6**.",
+      "**Sistema** por adição: x + y = 50 e x − y = 10 → 2x = 60 → **x = 30**, **y = 20**.",
+      "**Sistema** por substituição: carros (c) e motos (m) somam 20 veículos e 56 rodas: c + m = 20 e 4c + 2m = 56. Substituindo m = 20 − c: 4c + 40 − 2c = 56 → **c = 8**, **m = 12**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Equação do 2º grau"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fórmula de Bhaskara",
+     "text": "Para ax² + bx + c = 0: **Δ = b² − 4ac** e **x = (−b ± √Δ)/2a**. Se Δ > 0, duas raízes reais distintas; Δ = 0, uma raiz (dupla); Δ < 0, **nenhuma raiz real**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Soma** das raízes = **−b/a**; **produto** = **c/a**. Em x² − 5x + 6 = 0, soma 5 e produto 6: raízes **2 e 3**.",
+      "x² − x − 12 = 0: soma 1, produto −12 → raízes **4 e −3**.",
+      "Em problemas, descarte a raiz que não faz sentido (número negativo de pessoas, idade negativa)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Problemas típicos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Como montar",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.36,
+      0.46
+     ],
+     "rows": [
+      [
+       "**Idades**",
+       "Some o mesmo tempo t às idades de todos.",
+       "Pai com 40 e filho com 10. Em t anos, 40 + t = 2(10 + t) → **t = 20**."
+      ],
+      [
+       "**Trabalho conjunto**",
+       "Some as **frações feitas por hora**: 1/a + 1/b = 1/T.",
+       "A digitaliza um arquivo em 6 h e B em 3 h. Juntos: 1/6 + 1/3 = 1/2 → **2 h**."
+      ],
+      [
+       "**Um faz, outro desfaz**",
+       "Subtraia as taxas.",
+       "Uma bomba enche um tanque em 10 h e um vazamento o esvazia em 15 h: 1/10 − 1/15 = 1/30 → **30 h**."
+      ],
+      [
+       "**Divisão com mudança**",
+       "Escreva a parte de cada um nas duas situações.",
+       "R$ 1.200 divididos igualmente; com 2 pessoas a menos, cada um receberia R$ 50 a mais: 1.200/(n − 2) − 1.200/n = 50 → **n = 8**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Teste o valor do item",
+     "text": "Se o item diz “o grupo tinha 8 pessoas”, confira: 1.200/8 = 150 e 1.200/6 = 200. A diferença é 50: **certo**. Testar é mais rápido que resolver a equação do 2º grau."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto-base (orçamento de uma operação, escala de plantões, divisão de equipes) seguido de 3 a 5 itens com resultados.",
+      "Itens de MMC disfarçados: “os dois plantões voltarão a coincidir em...”.",
+      "Itens de MDC disfarçados: “o maior número de pessoas por equipe”.",
+      "Na dúvida real, **não deixe em branco**: no Instituto AOCP o erro não desconta. Elimine as alternativas erradas e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A solução da equação 3x − 7 = 11 é x = 6.",
+    "comment": "**Certo.** 3x = 18.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A soma 1/4 + 1/6 é igual a 2/10.",
+    "comment": "**Errado.** 1/4 + 1/6 = 3/12 + 2/12 = 5/12.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Se x + y = 50 e x − y = 10, então x = 30.",
+    "comment": "**Certo.** Somando: 2x = 60.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "As raízes da equação x² − 5x + 6 = 0 são 2 e 3.",
+    "comment": "**Certo.** Soma 5 e produto 6.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "A equação x² + 2x + 5 = 0 possui duas raízes reais distintas.",
+    "comment": "**Errado.** Δ = 4 − 20 = −16 < 0: nenhuma raiz real.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Na equação x² − x − 12 = 0, o produto das raízes é −12.",
+    "comment": "**Certo.** Produto = c/a = −12 (raízes 4 e −3).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O MMC de 12 e 18 é 36.",
+    "comment": "**Certo.** Menor múltiplo comum.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O MDC de 48 e 36 é 6.",
+    "comment": "**Errado.** MDC(48, 36) = 12.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Dois terços de 2/5 de um valor correspondem a 4/15 desse valor.",
+    "comment": "**Certo.** 2/3 × 2/5 = 4/15.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Se o dobro de um número somado a 8 é igual a 30, esse número é 19.",
+    "comment": "**Errado.** 2x + 8 = 30 → x = 11.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "Duas equipes de ronda passam por um posto a cada 12 e a cada 18 minutos. Se passaram juntas às 8 h, voltarão a passar juntas às",
+    "options": [
+     "8 h 30 min.",
+     "8 h 36 min.",
+     "8 h 54 min.",
+     "9 h 12 min.",
+     "8 h 06 min."
+    ],
+    "comment": "**Gabarito: B.** MMC(12, 18) = 36 minutos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "E",
+    "text": "Para dividir 48 agentes e 36 escrivães em equipes do mesmo tamanho, sem misturar cargos e com o maior número possível de pessoas por equipe, serão formadas",
+    "options": [
+     "12 equipes.",
+     "6 equipes.",
+     "4 equipes.",
+     "84 equipes.",
+     "7 equipes."
+    ],
+    "comment": "**Gabarito: E.** MDC(48, 36) = 12; 4 equipes de agentes e 3 de escrivães.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "Em um pátio há carros e motos, num total de 20 veículos e 56 rodas. O número de motos é",
+    "options": [
+     "12",
+     "8",
+     "10",
+     "14",
+     "16"
+    ],
+    "comment": "**Gabarito: A.** c + m = 20 e 4c + 2m = 56 → c = 8, m = 12.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "C",
+    "text": "Um pai tem 40 anos e o filho, 10. Daqui a quantos anos a idade do pai será o dobro da do filho?",
+    "options": [
+     "10",
+     "15",
+     "20",
+     "25",
+     "30"
+    ],
+    "comment": "**Gabarito: C.** 40 + t = 2(10 + t) → t = 20.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Um servidor digitaliza um arquivo em 6 horas e outro, em 3 horas. Juntos, no mesmo ritmo, levam",
+    "options": [
+     "4 h 30 min.",
+     "1 h 30 min.",
+     "3 h.",
+     "2 h.",
+     "9 h."
+    ],
+    "comment": "**Gabarito: D.** 1/6 + 1/3 = 1/2.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "Uma bomba enche um tanque em 10 horas e um vazamento o esvazia em 15 horas. Funcionando juntos, o tanque vazio fica cheio em",
+    "options": [
+     "25 horas.",
+     "30 horas.",
+     "6 horas.",
+     "12 horas.",
+     "5 horas."
+    ],
+    "comment": "**Gabarito: B.** 1/10 − 1/15 = 1/30.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "As raízes da equação x² − 5x + 6 = 0 são",
+    "options": [
+     "−2 e −3",
+     "1 e 6",
+     "−1 e 6",
+     "5 e 6",
+     "2 e 3"
+    ],
+    "comment": "**Gabarito: E.** Soma 5 e produto 6.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Um prêmio de R$ 1.200 seria dividido igualmente. Como 2 pessoas desistiram, cada uma das demais recebeu R$ 50 a mais. O grupo tinha inicialmente",
+    "options": [
+     "8 pessoas.",
+     "6 pessoas.",
+     "10 pessoas.",
+     "12 pessoas.",
+     "4 pessoas."
+    ],
+    "comment": "**Gabarito: A.** 1.200/6 − 1.200/8 = 200 − 150 = 50.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "De um orçamento de R$ 10.000, gastaram-se 2/5 com combustível e 3/4 do restante com manutenção. Sobraram",
+    "options": [
+     "R$ 2.500",
+     "R$ 1.000",
+     "R$ 1.500",
+     "R$ 2.000",
+     "R$ 4.500"
+    ],
+    "comment": "**Gabarito: C.** Restam 6.000 após o combustível; manutenção 4.500; sobram 1.500.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "A soma de três números inteiros consecutivos é 75. O maior deles é",
+    "options": [
+     "24",
+     "25",
+     "27",
+     "26",
+     "28"
+    ],
+    "comment": "**Gabarito: D.** 24 + 25 + 26 = 75.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Matemática básica: operações, MMC e MDC, equações e sistemas.",
+  "Obras de referência: Iezzi et al., Matemática: ciência e aplicações; Dante, Matemática: contexto e aplicações.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

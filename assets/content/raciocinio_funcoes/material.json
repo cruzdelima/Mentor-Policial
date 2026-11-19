@@ -1,0 +1,297 @@
+{
+ "id": "rlm-funcoes-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-13"
+ ],
+ "kind": "resumo",
+ "title": "Funções: afim, quadrática, exponencial e logarítmica",
+ "subtitle": "Raciocínio Lógico e Matemática · Funções",
+ "minutes": 25,
+ "pdf": "raciocinio_funcoes.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Valores de funções em **situações aplicadas**, **máximo e mínimo** da quadrática e **propriedades** de potências e logaritmos."
+    },
+    {
+     "t": "h2",
+     "text": "1. Afim: ax + b"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**a**: taxa de variação (a > 0 cresce). **b**: valor inicial.",
+      "Zero: **x = −b/a**. Dois pontos: a = Δy/Δx.",
+      "b = 0: linear (proporcional)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Quadrática: ax² + bx + c"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "a > 0: **mínimo**; a < 0: **máximo**.",
+      "Vértice: **xᵥ = −b/2a**, **yᵥ = −Δ/4a**.",
+      "Δ decide as raízes; c corta o eixo y."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Exponencial e logaritmo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "bˣ > 0 sempre; b > 1 cresce, 0 < b < 1 decresce.",
+      "Iguale as bases: 2ˣ = 32 → x = 5.",
+      "Logaritmo de a na base b: **é o expoente x tal que bˣ = a** (log₂ 8 = 3).",
+      "log(ab) = log a + log b; log(a/b) = log a − log b; log aⁿ = n log a."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Conta",
+      "Resultado"
+     ],
+     "widths": [
+      0.6,
+      0.4
+     ],
+     "rows": [
+      [
+       "f(x) = 2x + 3; f(5)",
+       "13"
+      ],
+      [
+       "Zero de 2x + 3",
+       "−3/2"
+      ],
+      [
+       "Mínimo de x² − 6x + 5",
+       "−4 (em x = 3)"
+      ],
+      [
+       "Máximo de −5t² + 20t",
+       "20 (em t = 2)"
+      ],
+      [
+       "2ˣ = 32",
+       "x = 5"
+      ],
+      [
+       "log 8 (log 2 = 0,301)",
+       "0,903"
+      ],
+      [
+       "log 5",
+       "0,699"
+      ],
+      [
+       "log 6 (log 3 = 0,477)",
+       "0,778"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Afim: **a** inclina, **b** começa.",
+      "Máximo/mínimo: **vértice**.",
+      "a < 0: boca para baixo, **máximo**.",
+      "Exponencial nunca é negativa.",
+      "Log é **expoente**.",
+      "log (a + b) ≠ log a + log b."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "FUNÇÕES",
+  "rootSub": "afim, quadrática, exp. e log",
+  "left": [
+   {
+    "label": "Função",
+    "items": [
+     "cada x",
+     "um único y",
+     "domínio e imagem"
+    ]
+   },
+   {
+    "label": "Afim",
+    "items": [
+     "a: inclinação",
+     "b: valor inicial",
+     "zero: -b/a"
+    ]
+   },
+   {
+    "label": "Linear",
+    "items": [
+     "b = 0",
+     "proporcional",
+     "passa na origem"
+    ]
+   },
+   {
+    "label": "Quadrática",
+    "items": [
+     "parábola",
+     "a > 0: mínimo",
+     "a < 0: máximo"
+    ]
+   },
+   {
+    "label": "Vértice",
+    "items": [
+     "x = -b/2a",
+     "y = -delta/4a",
+     "meio das raízes"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Exponencial",
+    "items": [
+     "base > 1 cresce",
+     "sempre positiva",
+     "dobra a cada t"
+    ]
+   },
+   {
+    "label": "Equação exp.",
+    "items": [
+     "iguale as bases",
+     "2 elevado a x = 32",
+     "x = 5"
+    ]
+   },
+   {
+    "label": "Logaritmo",
+    "items": [
+     "é o expoente",
+     "base 10 padrão",
+     "x > 0"
+    ]
+   },
+   {
+    "label": "Propriedades",
+    "items": [
+     "produto: soma",
+     "quociente: diferença",
+     "potência: desce"
+    ]
+   },
+   {
+    "label": "Valores",
+    "items": [
+     "log 2 = 0,301",
+     "log 3 = 0,477",
+     "log 5 = 0,699"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A função f(x) = 5x − 10 tem zero em x = 2.",
+    "comment": "**Certo.** 5x = 10."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A função f(x) = 7 − 2x é crescente.",
+    "comment": "**Errado.** a = −2 < 0: decrescente."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O vértice da parábola f(x) = x² − 4x + 3 tem abscissa 2.",
+    "comment": "**Certo.** xᵥ = 4/2."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A função f(x) = −x² + 6x tem valor mínimo 9.",
+    "comment": "**Errado.** a < 0: tem máximo, que é f(3) = 9."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A solução de 3^(x − 1) = 81 é x = 5.",
+    "comment": "**Certo.** 81 = 3⁴ → x − 1 = 4."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "log 1.000 = 3.",
+    "comment": "**Certo.** 10³ = 1.000."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Considerando log 2 = 0,301, tem-se log 20 = 0,602.",
+    "comment": "**Errado.** log 20 = log 2 + log 10 = 1,301."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "A função f(x) = (1/2)ˣ é decrescente.",
+    "comment": "**Certo.** Base entre 0 e 1."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "O logaritmo de 1 é 0 em qualquer base válida.",
+    "comment": "**Certo.** b⁰ = 1."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Se f(x) = 3x + 4 representa o custo de um serviço com taxa fixa, a taxa fixa é 3.",
+    "comment": "**Errado.** A taxa fixa é o termo independente, b = 4."
+   }
+  ]
+ },
+ "sources": [
+  "Matemática do ensino médio: funções.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "version": "2026.11.3",
+ "version": "2026.11.4",
  "materials": [
   {
    "id": "lp-ortografia-02",
@@ -1473,6 +1473,538 @@
    ],
    "kind": "resumo",
    "minutes": 35,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-proposicoes-02",
+   "folder": "raciocinio_proposicoes_aprofundado",
+   "title": "Proposições e conectivos lógicos",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-01"
+   ],
+   "kind": "aprofundado",
+   "minutes": 80,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-proposicoes-01",
+   "folder": "raciocinio_proposicoes",
+   "title": "Proposições e conectivos lógicos",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-01"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-tabela-02",
+   "folder": "raciocinio_tabela_verdade_aprofundado",
+   "title": "Tabela-verdade, tautologia e contradição",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-02"
+   ],
+   "kind": "aprofundado",
+   "minutes": 80,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-tabela-01",
+   "folder": "raciocinio_tabela_verdade",
+   "title": "Tabela-verdade, tautologia e contradição",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-02"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-equivalencias-02",
+   "folder": "raciocinio_equivalencias_aprofundado",
+   "title": "Equivalências lógicas e Leis de De Morgan",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-03"
+   ],
+   "kind": "aprofundado",
+   "minutes": 80,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-equivalencias-01",
+   "folder": "raciocinio_equivalencias",
+   "title": "Equivalências lógicas e Leis de De Morgan",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-03"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-negacao-02",
+   "folder": "raciocinio_negacao_aprofundado",
+   "title": "Negação de proposições",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-04"
+   ],
+   "kind": "aprofundado",
+   "minutes": 70,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-negacao-01",
+   "folder": "raciocinio_negacao",
+   "title": "Negação de proposições",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-04"
+   ],
+   "kind": "resumo",
+   "minutes": 20,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-argumentacao-02",
+   "folder": "raciocinio_argumentacao_aprofundado",
+   "title": "Lógica de argumentação",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-05"
+   ],
+   "kind": "aprofundado",
+   "minutes": 80,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-argumentacao-01",
+   "folder": "raciocinio_argumentacao",
+   "title": "Lógica de argumentação",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-05"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-quantificadores-02",
+   "folder": "raciocinio_quantificadores_aprofundado",
+   "title": "Quantificadores e diagramas lógicos",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica de primeira ordem",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-06"
+   ],
+   "kind": "aprofundado",
+   "minutes": 75,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-quantificadores-01",
+   "folder": "raciocinio_quantificadores",
+   "title": "Quantificadores e diagramas lógicos",
+   "subtitle": "Raciocínio Lógico e Matemática · Lógica de primeira ordem",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-06"
+   ],
+   "kind": "resumo",
+   "minutes": 20,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-conjuntos-02",
+   "folder": "raciocinio_conjuntos_aprofundado",
+   "title": "Conjuntos e operações",
+   "subtitle": "Raciocínio Lógico e Matemática · Conjuntos",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-07"
+   ],
+   "kind": "aprofundado",
+   "minutes": 70,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-conjuntos-01",
+   "folder": "raciocinio_conjuntos",
+   "title": "Conjuntos e operações",
+   "subtitle": "Raciocínio Lógico e Matemática · Conjuntos",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-07"
+   ],
+   "kind": "resumo",
+   "minutes": 20,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-proporcao-02",
+   "folder": "raciocinio_proporcao_aprofundado",
+   "title": "Razão, proporção, regra de três e porcentagem",
+   "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-08"
+   ],
+   "kind": "aprofundado",
+   "minutes": 85,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-proporcao-01",
+   "folder": "raciocinio_proporcao",
+   "title": "Razão, proporção, regra de três e porcentagem",
+   "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-08"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-problemas-02",
+   "folder": "raciocinio_problemas_aprofundado",
+   "title": "Problemas aritméticos e equações",
+   "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-09"
+   ],
+   "kind": "aprofundado",
+   "minutes": 85,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-problemas-01",
+   "folder": "raciocinio_problemas",
+   "title": "Problemas aritméticos e equações",
+   "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-09"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-sequencias-02",
+   "folder": "raciocinio_sequencias_aprofundado",
+   "title": "Sequências e progressões",
+   "subtitle": "Raciocínio Lógico e Matemática · Sequências",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-10"
+   ],
+   "kind": "aprofundado",
+   "minutes": 70,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-sequencias-01",
+   "folder": "raciocinio_sequencias",
+   "title": "Sequências e progressões",
+   "subtitle": "Raciocínio Lógico e Matemática · Sequências",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-10"
+   ],
+   "kind": "resumo",
+   "minutes": 20,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-contagem-02",
+   "folder": "raciocinio_contagem_aprofundado",
+   "title": "Princípios de contagem e análise combinatória",
+   "subtitle": "Raciocínio Lógico e Matemática · Combinatória",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-11"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-contagem-01",
+   "folder": "raciocinio_contagem",
+   "title": "Princípios de contagem e análise combinatória",
+   "subtitle": "Raciocínio Lógico e Matemática · Combinatória",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-11"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-probabilidade-02",
+   "folder": "raciocinio_probabilidade_aprofundado",
+   "title": "Probabilidade",
+   "subtitle": "Raciocínio Lógico e Matemática · Probabilidade",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-12"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-probabilidade-01",
+   "folder": "raciocinio_probabilidade",
+   "title": "Probabilidade",
+   "subtitle": "Raciocínio Lógico e Matemática · Probabilidade",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-12"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-funcoes-02",
+   "folder": "raciocinio_funcoes_aprofundado",
+   "title": "Funções: afim, quadrática, exponencial e logarítmica",
+   "subtitle": "Raciocínio Lógico e Matemática · Funções",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-13"
+   ],
+   "kind": "aprofundado",
+   "minutes": 90,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-funcoes-01",
+   "folder": "raciocinio_funcoes",
+   "title": "Funções: afim, quadrática, exponencial e logarítmica",
+   "subtitle": "Raciocínio Lógico e Matemática · Funções",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-13"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
+   "questions": 10,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-geometria-02",
+   "folder": "raciocinio_geometria_aprofundado",
+   "title": "Geometria plana e espacial",
+   "subtitle": "Raciocínio Lógico e Matemática · Geometria",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-14"
+   ],
+   "kind": "aprofundado",
+   "minutes": 85,
+   "questions": 20,
+   "version": "0.1.0",
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
+  },
+  {
+   "id": "rlm-geometria-01",
+   "folder": "raciocinio_geometria",
+   "title": "Geometria plana e espacial",
+   "subtitle": "Raciocínio Lógico e Matemática · Geometria",
+   "subjectId": "RLM",
+   "topicIds": [
+    "RLM-14"
+   ],
+   "kind": "resumo",
+   "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
    "status": "Em revisão pelo autor",

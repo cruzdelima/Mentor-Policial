@@ -1,0 +1,308 @@
+{
+ "id": "rlm-tabela-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-02"
+ ],
+ "kind": "resumo",
+ "title": "Tabela-verdade, tautologia e contradição",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 25,
+ "pdf": "raciocinio_tabela_verdade.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Número de linhas**, **valor de uma linha** e se a proposição é **tautologia, contradição ou contingência**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Linhas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**2ⁿ linhas**, sendo n o número de proposições simples **distintas**.",
+      "Letra repetida ou negada (P e ¬P) conta **uma vez**.",
+      "3 letras: colunas VVVVFFFF, VVFFVVFF, VFVFVFVF."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Classificação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Tautologia**: só V (ex.: P ∨ ¬P, (P ∧ Q) → P, P → (P ∨ Q)).",
+      "**Contradição**: só F (ex.: P ∧ ¬P, P ↔ ¬P).",
+      "**Contingência**: V e F (ex.: P → Q, P ∧ Q).",
+      "A negação de uma tautologia é contradição."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Atalho"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Para testar se A → B é tautologia, suponha **A = V e B = F**.",
+      "Se isso for **impossível**, é tautologia; se for possível, não é.",
+      "Para contar linhas V, conte as F e subtraia do total."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Linhas V (de 4)",
+      "Classificação"
+     ],
+     "widths": [
+      0.4,
+      0.26,
+      0.34
+     ],
+     "rows": [
+      [
+       "P ∧ Q",
+       "1",
+       "Contingência"
+      ],
+      [
+       "P ∨ Q",
+       "3",
+       "Contingência"
+      ],
+      [
+       "P → Q",
+       "3",
+       "Contingência"
+      ],
+      [
+       "P ↔ Q",
+       "2",
+       "Contingência"
+      ],
+      [
+       "P ∨ ¬P",
+       "4 (de 2)",
+       "Tautologia"
+      ],
+      [
+       "P ∧ ¬P",
+       "0 (de 2)",
+       "Contradição"
+      ],
+      [
+       "[(P → Q) ∧ P] → Q",
+       "4",
+       "Tautologia (modus ponens)"
+      ],
+      [
+       "[(P → Q) ∧ Q] → P",
+       "3",
+       "Contingência (falácia)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Linhas: **2ⁿ** (letras distintas).",
+      "Tautologia: **só V**.",
+      "Contradição: **só F**.",
+      "Contingência: **V e F**.",
+      "Atalho: força o caso **V → F**.",
+      "Resolva de **dentro para fora**.",
+      "Modus ponens é tautologia; afirmar o consequente, não."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "TABELA-VERDADE",
+  "rootSub": "e classificação",
+  "left": [
+   {
+    "label": "Linhas",
+    "items": [
+     "2 elevado a n",
+     "n = letras distintas",
+     "negação não conta"
+    ]
+   },
+   {
+    "label": "Montagem",
+    "items": [
+     "todas as combinações",
+     "de dentro para fora",
+     "conectivo principal"
+    ]
+   },
+   {
+    "label": "3 letras",
+    "items": [
+     "8 linhas",
+     "4 em 4, 2 em 2",
+     "1 em 1"
+    ]
+   },
+   {
+    "label": "Contar linhas",
+    "items": [
+     "conte as falsas",
+     "subtraia do total",
+     "ou conte as V"
+    ]
+   },
+   {
+    "label": "Exemplos",
+    "items": [
+     "P e Q: 1 linha V",
+     "P ou Q: 3 linhas V",
+     "se então: 3 linhas V"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Tautologia",
+    "items": [
+     "só V",
+     "P ou não P",
+     "modus ponens"
+    ]
+   },
+   {
+    "label": "Contradição",
+    "items": [
+     "só F",
+     "P e não P",
+     "P sse não P"
+    ]
+   },
+   {
+    "label": "Contingência",
+    "items": [
+     "V e F",
+     "P então Q",
+     "a maioria"
+    ]
+   },
+   {
+    "label": "Atalho",
+    "items": [
+     "force V e F",
+     "impossível: tautologia",
+     "possível: não é"
+    ]
+   },
+   {
+    "label": "Negação",
+    "items": [
+     "de tautologia",
+     "vira contradição",
+     "e vice-versa"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A tabela-verdade de (P ∨ Q) ↔ (R ∧ S) tem 16 linhas.",
+    "comment": "**Certo.** Quatro letras distintas: 2⁴ = 16."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A tabela-verdade de P → (¬P ∨ Q) tem 8 linhas.",
+    "comment": "**Errado.** Só P e Q: 4 linhas."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição P → P é uma tautologia.",
+    "comment": "**Certo.** Nunca ocorre V → F com a mesma letra."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A proposição P ∧ Q é uma tautologia.",
+    "comment": "**Errado.** É falsa em três linhas: contingência."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A proposição ¬(P ∨ ¬P) é uma contradição.",
+    "comment": "**Certo.** É a negação de uma tautologia."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A proposição P → Q é verdadeira em três das quatro linhas da tabela-verdade.",
+    "comment": "**Certo.** Só é falsa em V → F."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A proposição (P → Q) → P é uma tautologia.",
+    "comment": "**Errado.** Com P = F, P → Q = V e o consequente P = F: V → F, falsa."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Se P é falsa e Q é verdadeira, então (P ∧ Q) → P é verdadeira.",
+    "comment": "**Certo.** Antecedente F: a condicional é verdadeira."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A proposição [(P → Q) ∧ P] → Q é uma tautologia.",
+    "comment": "**Certo.** É o modus ponens."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em uma tabela-verdade com 32 linhas, há 6 proposições simples distintas.",
+    "comment": "**Errado.** 2⁵ = 32: são 5 proposições simples."
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional clássica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

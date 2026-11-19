@@ -1,0 +1,302 @@
+{
+ "id": "rlm-quantificadores-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-06"
+ ],
+ "kind": "resumo",
+ "title": "Quantificadores e diagramas lógicos",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica de primeira ordem",
+ "minutes": 20,
+ "pdf": "raciocinio_quantificadores.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Premissas com **todo**, **algum** e **nenhum** e uma conclusão para julgar: **desenhe** e procure o contraexemplo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Categóricas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Todo A é B**: A dentro de B. Não inverte.",
+      "**Nenhum A é B**: sem interseção. Inverte.",
+      "**Algum A é B**: pelo menos um na interseção. Inverte.",
+      "**Algum A não é B**: pelo menos um de A fora de B. Não inverte."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Diagramas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Desenhe primeiro **todo** e **nenhum**; depois **algum**.",
+      "Se houver mais de um desenho possível, a conclusão precisa valer em **todos**.",
+      "Achou um desenho com premissas V e conclusão F: **não decorre**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Negação e equivalências"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Todo ↔ algum **não**; algum ↔ **nenhum**.",
+      "“Nem todo” = algum não.",
+      "Todo A é B = se é A, é B = quem não é B não é A."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Premissas",
+      "Conclusão",
+      "Decorre?"
+     ],
+     "widths": [
+      0.5,
+      0.3,
+      0.2
+     ],
+     "rows": [
+      [
+       "Todo A é B; nenhum B é C",
+       "Nenhum A é C",
+       "Sim"
+      ],
+      [
+       "Algum A é B; todo B é C",
+       "Algum A é C",
+       "Sim"
+      ],
+      [
+       "Todo A é B; algum B é C",
+       "Algum A é C",
+       "Não"
+      ],
+      [
+       "Todo A é B; todo C é B",
+       "Algum A é C",
+       "Não"
+      ],
+      [
+       "Nenhum A é B; algum C é B",
+       "Algum C não é A",
+       "Sim"
+      ],
+      [
+       "Todo A é B; x não é B",
+       "x não é A",
+       "Sim"
+      ],
+      [
+       "Todo A é B; x é B",
+       "x é A",
+       "Não"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Algum = **pelo menos um**.",
+      "Todo **não inverte**.",
+      "Nenhum e algum **invertem**.",
+      "Desenhe e busque o **contraexemplo**.",
+      "Todo ↔ algum não.",
+      "Algum ↔ nenhum."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "QUANTIFICADORES",
+  "rootSub": "e diagramas",
+  "left": [
+   {
+    "label": "Todo",
+    "items": [
+     "A dentro de B",
+     "não inverte",
+     "nega: algum não"
+    ]
+   },
+   {
+    "label": "Nenhum",
+    "items": [
+     "sem interseção",
+     "inverte",
+     "nega: algum"
+    ]
+   },
+   {
+    "label": "Algum",
+    "items": [
+     "pelo menos um",
+     "inverte",
+     "nega: nenhum"
+    ]
+   },
+   {
+    "label": "Algum não",
+    "items": [
+     "um de A fora de B",
+     "não inverte",
+     "nega: todo"
+    ]
+   },
+   {
+    "label": "Símbolos",
+    "items": [
+     "universal: todo",
+     "existencial: existe",
+     "fecha a sentença"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Método",
+    "items": [
+     "universais primeiro",
+     "depois o algum",
+     "busque contraexemplo"
+    ]
+   },
+   {
+    "label": "Decorre",
+    "items": [
+     "todo e nenhum",
+     "algum e todo",
+     "fora de B, fora de A"
+    ]
+   },
+   {
+    "label": "Não decorre",
+    "items": [
+     "todo e algum",
+     "dois todos para B",
+     "dois alguns"
+    ]
+   },
+   {
+    "label": "Equivalências",
+    "items": [
+     "todo = se então",
+     "contrapositiva",
+     "nem todo = algum não"
+    ]
+   },
+   {
+    "label": "Armadilha",
+    "items": [
+     "algum não diz",
+     "que algum não é",
+     "pode ser todos"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "“Nenhum policial é corrupto” equivale a “Nenhum corrupto é policial”.",
+    "comment": "**Certo.** A universal negativa inverte."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "“Todo agente é servidor” equivale a “Todo servidor é agente”.",
+    "comment": "**Errado.** A universal afirmativa não inverte."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Das premissas “Todo agente é servidor” e “Nenhum servidor é empresário”, conclui-se que nenhum agente é empresário.",
+    "comment": "**Certo.** Os agentes estão dentro dos servidores."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Das premissas “Todo agente é servidor” e “Algum servidor é professor”, conclui-se que algum agente é professor.",
+    "comment": "**Errado.** O servidor professor pode não ser agente."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Das premissas “Algum perito é químico” e “Todo químico é cientista”, conclui-se que algum perito é cientista.",
+    "comment": "**Certo.** O perito químico está dentro dos cientistas."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A negação de “Algum candidato faltou” é “Algum candidato não faltou”.",
+    "comment": "**Errado.** É “Nenhum candidato faltou”."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "“Nem todo suspeito é culpado” equivale a “Existe suspeito que não é culpado”.",
+    "comment": "**Certo.** Nega o “todo”."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "De “Algum servidor é estável” conclui-se que algum servidor não é estável.",
+    "comment": "**Errado.** Pode ser que todos sejam estáveis."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Das premissas “Todo delegado é bacharel” e “Caio não é bacharel”, conclui-se que Caio não é delegado.",
+    "comment": "**Certo.** Quem está fora de B está fora de A."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Das premissas “Todo delegado é bacharel” e “Caio é bacharel”, conclui-se que Caio é delegado.",
+    "comment": "**Errado.** Caio pode ser bacharel sem ser delegado."
+   }
+  ]
+ },
+ "sources": [
+  "Lógica de primeira ordem e silogística.",
+  "Texto e questões elaborados para o Taticum (itens inéditos no estilo Cebraspe)."
+ ]
+}

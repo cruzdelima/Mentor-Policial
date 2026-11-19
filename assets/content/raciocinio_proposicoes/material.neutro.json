@@ -1,0 +1,358 @@
+{
+ "id": "rlm-proposicoes-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-01"
+ ],
+ "kind": "resumo",
+ "title": "Proposições e conectivos lógicos",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 25,
+ "pdf": "raciocinio_proposicoes.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Reconhecer **proposição**, contar **proposições simples**, traduzir frases para **símbolos** e julgar o **valor lógico** de compostas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Proposição"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sentença **declarativa** que pode ser **V ou F** (nunca as duas).",
+      "**Não são**: perguntas, exclamações, ordens, desejos, frases sem verbo, **sentenças abertas** (*x > 2*, *Ele é perito*) e paradoxos.",
+      "Frase **negativa** ou **falsa** continua sendo proposição."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Simples e composta"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Simples**: uma afirmação. **Composta**: duas ou mais simples ligadas por conectivos.",
+      "Conte as afirmações independentes: *Se faltar e não justificar, será punido* tem **3**.",
+      "O “e” de relação (*Ana e Pedro são irmãos*) não separa proposições."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Conectivos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Conectivo",
+      "Símbolo",
+      "Quando é verdadeira"
+     ],
+     "widths": [
+      0.3,
+      0.16,
+      0.54
+     ],
+     "rows": [
+      [
+       "Negação (não)",
+       "¬P",
+       "Inverte o valor de P"
+      ],
+      [
+       "Conjunção (e)",
+       "P ∧ Q",
+       "Só se **as duas** forem V"
+      ],
+      [
+       "Disjunção (ou)",
+       "P ∨ Q",
+       "Se **ao menos uma** for V"
+      ],
+      [
+       "Disjunção exclusiva (ou... ou)",
+       "P ⊻ Q",
+       "Se os valores forem **diferentes**"
+      ],
+      [
+       "Condicional (se... então)",
+       "P → Q",
+       "Sempre, **exceto V → F**"
+      ],
+      [
+       "Bicondicional (se e somente se)",
+       "P ↔ Q",
+       "Se os valores forem **iguais**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Redações da condicional"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Se P, então Q* = *Quando P, Q* = *Q, se P* = *P implica Q* = *P somente se Q* = *Todo P é Q*.",
+      "**P** é **condição suficiente** para Q; **Q** é **condição necessária** para P.",
+      "*Mas*, *porém*, *embora* = conjunção. *Nem P nem Q* = ¬P ∧ ¬Q."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "P",
+      "Q",
+      "P ∧ Q",
+      "P ∨ Q",
+      "P → Q",
+      "P ↔ Q"
+     ],
+     "widths": [
+      0.1,
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+     ],
+     "rows": [
+      [
+       "V",
+       "V",
+       "V",
+       "V",
+       "V",
+       "V"
+      ],
+      [
+       "V",
+       "F",
+       "F",
+       "V",
+       "**F**",
+       "F"
+      ],
+      [
+       "F",
+       "V",
+       "F",
+       "V",
+       "V",
+       "F"
+      ],
+      [
+       "F",
+       "F",
+       "F",
+       "F",
+       "V",
+       "V"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Proposição: declarativa + **V ou F**.",
+      "Sentença aberta **não** é proposição.",
+      "Conjunção: **uma F derruba**.",
+      "Disjunção: **uma V salva**.",
+      "Condicional: só **V → F** é falsa (Vera Fischer).",
+      "Bicondicional: **iguais** dão V.",
+      "Ou... ou: **diferentes** dão V.",
+      "*Somente se* aponta o **consequente**.",
+      "Suficiente = antecedente; necessária = consequente.",
+      "n proposições simples: **2ⁿ linhas**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PROPOSIÇÕES",
+  "rootSub": "e conectivos",
+  "left": [
+   {
+    "label": "É proposição",
+    "items": [
+     "declarativa",
+     "pode ser V ou F",
+     "negativa também"
+    ]
+   },
+   {
+    "label": "Não é",
+    "items": [
+     "pergunta e ordem",
+     "exclamação, desejo",
+     "sentença aberta"
+    ]
+   },
+   {
+    "label": "Simples",
+    "items": [
+     "uma afirmação",
+     "letras P, Q, R",
+     "valor V ou F"
+    ]
+   },
+   {
+    "label": "Composta",
+    "items": [
+     "duas ou mais",
+     "ligadas por conectivo",
+     "conte as simples"
+    ]
+   },
+   {
+    "label": "Princípios",
+    "items": [
+     "identidade",
+     "não contradição",
+     "terceiro excluído"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "E (conjunção)",
+    "items": [
+     "só V se ambas V",
+     "uma F derruba",
+     "mas, porém, embora"
+    ]
+   },
+   {
+    "label": "Ou (disjunção)",
+    "items": [
+     "só F se ambas F",
+     "uma V salva",
+     "inclusiva"
+    ]
+   },
+   {
+    "label": "Ou... ou",
+    "items": [
+     "exclusiva",
+     "V se diferentes",
+     "não ambas"
+    ]
+   },
+   {
+    "label": "Se... então",
+    "items": [
+     "só F em V e F",
+     "suficiente: antes",
+     "necessária: depois"
+    ]
+   },
+   {
+    "label": "Se e somente se",
+    "items": [
+     "bicondicional",
+     "V se iguais",
+     "necessária e suficiente"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A frase “Os peritos chegaram ao local às 10 horas” é uma proposição.",
+    "comment": "**Certo.** Declarativa, pode ser V ou F."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A frase “Quantos mandados foram cumpridos?” é uma proposição.",
+    "comment": "**Errado.** Pergunta não é proposição."
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "A sentença “Ela é a autora do crime” é uma proposição, pois tem sujeito e predicado.",
+    "comment": "**Errado.** É sentença aberta: depende de quem é “ela”."
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Se P é verdadeira e Q é verdadeira, então P → Q é verdadeira.",
+    "comment": "**Certo.** V → V é verdadeira."
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Se P é verdadeira e Q é falsa, então P ∨ Q é falsa.",
+    "comment": "**Errado.** Basta uma verdadeira para a disjunção ser verdadeira."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A proposição “Nem o agente nem o escrivão compareceram” pode ser representada por ¬A ∧ ¬E.",
+    "comment": "**Certo.** “Nem... nem” é a conjunção de duas negações."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Na proposição “Se houver flagrante, haverá prisão”, a ocorrência do flagrante é condição suficiente para a prisão.",
+    "comment": "**Certo.** O antecedente é condição suficiente."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A proposição “Se o relatório estiver pronto e o delegado assinar, o inquérito será remetido” contém duas proposições simples.",
+    "comment": "**Errado.** Contém três: relatório pronto; delegado assina; inquérito remetido."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Se P e Q têm valores lógicos diferentes, a bicondicional P ↔ Q é falsa.",
+    "comment": "**Certo.** A bicondicional exige valores iguais."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A proposição “Ana é perita, mas Bruno é delegado” é uma disjunção.",
+    "comment": "**Errado.** “Mas” tem valor de conjunção."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica proposicional clássica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

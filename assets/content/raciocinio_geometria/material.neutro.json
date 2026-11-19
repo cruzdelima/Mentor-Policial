@@ -1,0 +1,297 @@
+{
+ "id": "rlm-geometria-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-14"
+ ],
+ "kind": "resumo",
+ "title": "Geometria plana e espacial",
+ "subtitle": "Raciocínio Lógico e Matemática · Geometria",
+ "minutes": 25,
+ "pdf": "raciocinio_geometria.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Pitágoras**, **semelhança**, **áreas** e **volumes** em situações práticas, com atenção às **unidades**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Triângulos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Soma dos ângulos: **180°**.",
+      "Pitágoras: **a² = b² + c²** (3, 4, 5; 6, 8, 10; 5, 12, 13).",
+      "Semelhança: lados proporcionais (sombras)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Polígonos e áreas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Soma dos internos: **(n − 2) · 180°**. Diagonais: **n(n − 3)/2**.",
+      "Triângulo: b · h/2. Trapézio: (B + b) · h/2. Losango: D · d/2.",
+      "Círculo: **πr²**; circunferência: **2πr**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Volumes"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Prisma e cilindro: **base × altura**. Cilindro: πr²h.",
+      "Pirâmide e cone: **um terço** de base × altura.",
+      "Esfera: (4/3)πr³.",
+      "**1 m³ = 1.000 L**; 1 dm³ = 1 L."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Fórmula"
+     ],
+     "widths": [
+      0.4,
+      0.6
+     ],
+     "rows": [
+      [
+       "Retângulo",
+       "b · h"
+      ],
+      [
+       "Triângulo",
+       "b · h / 2"
+      ],
+      [
+       "Trapézio",
+       "(B + b) · h / 2"
+      ],
+      [
+       "Círculo",
+       "π r² (comprimento 2π r)"
+      ],
+      [
+       "Cubo",
+       "a³ (diagonal a√3)"
+      ],
+      [
+       "Cilindro",
+       "π r² h"
+      ],
+      [
+       "Cone e pirâmide",
+       "Ab · h / 3"
+      ],
+      [
+       "Esfera",
+       "(4/3) π r³"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Hipotenusa: oposta ao **ângulo reto**.",
+      "Lados × k: área × **k²**, volume × **k³**.",
+      "1 m³ = **1.000 L**.",
+      "Perímetro ≠ área.",
+      "Cone = **1/3** do cilindro."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "GEOMETRIA",
+  "rootSub": "plana e espacial",
+  "left": [
+   {
+    "label": "Ângulos",
+    "items": [
+     "complementares: 90",
+     "suplementares: 180",
+     "opostos: iguais"
+    ]
+   },
+   {
+    "label": "Triângulo",
+    "items": [
+     "soma 180 graus",
+     "equilátero: 60",
+     "isósceles, escaleno"
+    ]
+   },
+   {
+    "label": "Pitágoras",
+    "items": [
+     "hipotenusa ao quadrado",
+     "soma dos catetos",
+     "3, 4, 5"
+    ]
+   },
+   {
+    "label": "Semelhança",
+    "items": [
+     "mesmos ângulos",
+     "lados proporcionais",
+     "sombras"
+    ]
+   },
+   {
+    "label": "Polígonos",
+    "items": [
+     "(n - 2) x 180",
+     "diagonais n(n - 3)/2",
+     "externos: 360"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Áreas",
+    "items": [
+     "retângulo b x h",
+     "triângulo: metade",
+     "trapézio: média das bases"
+    ]
+   },
+   {
+    "label": "Círculo",
+    "items": [
+     "área pi r ao quadrado",
+     "comprimento 2 pi r",
+     "dobrar r: área x 4"
+    ]
+   },
+   {
+    "label": "Prismas",
+    "items": [
+     "base x altura",
+     "cubo: aresta ao cubo",
+     "paralelepípedo"
+    ]
+   },
+   {
+    "label": "Pontudos",
+    "items": [
+     "cone e pirâmide",
+     "um terço",
+     "da base x altura"
+    ]
+   },
+   {
+    "label": "Unidades",
+    "items": [
+     "1 m3 = 1.000 L",
+     "1 dm3 = 1 L",
+     "converta antes"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Um triângulo retângulo de catetos 6 e 8 tem hipotenusa 10.",
+    "comment": "**Certo.** √(36 + 64)."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Se dois ângulos de um triângulo medem 50° e 60°, o terceiro mede 80°.",
+    "comment": "**Errado.** 180 − 110 = 70°."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A área de um triângulo de base 12 e altura 5 é 30.",
+    "comment": "**Certo.** 12 × 5/2."
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Um polígono de 20 lados tem 170 diagonais.",
+    "comment": "**Certo.** 20 × 17/2."
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "O comprimento de uma circunferência de raio 5, com π = 3,14, é 78,5.",
+    "comment": "**Errado.** 2πr = 31,4. O valor 78,5 é a área do círculo."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Um cubo de aresta 4 tem área total de 96.",
+    "comment": "**Certo.** 6 × 16."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Uma piscina de 10 m por 3 m com 3 m de profundidade contém, cheia, 90.000 L.",
+    "comment": "**Certo.** 90 m³ = 90.000 L."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Uma pirâmide de base quadrada de lado 3 e altura 4 tem volume 36.",
+    "comment": "**Errado.** Ab · h/3 = 9 × 4/3 = 12."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Triplicando-se a aresta de um cubo, o volume fica multiplicado por 27.",
+    "comment": "**Certo.** 3³ = 27."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Os ângulos internos de um quadrilátero somam 180°.",
+    "comment": "**Errado.** (4 − 2) × 180° = 360°."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Geometria euclidiana.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

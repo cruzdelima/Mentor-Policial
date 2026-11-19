@@ -1,0 +1,450 @@
+{
+ "id": "rlm-probabilidade-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-12"
+ ],
+ "kind": "aprofundado",
+ "title": "Probabilidade",
+ "subtitle": "Raciocínio Lógico e Matemática · Probabilidade",
+ "minutes": 90,
+ "pdf": "raciocinio_probabilidade_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Probabilidade é cobrada em **toda** prova de PF e PRF, quase sempre com uma situação concreta (sorteio de equipes, tiros, testes de bafômetro, perfil de servidores). Domine três ideias: **favoráveis/possíveis**, **complementar** (“pelo menos um”) e **multiplicação** para eventos em sequência. A combinatória do material anterior é a base para contar os casos."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Definição clássica"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Probabilidade",
+     "text": "Em um espaço amostral com resultados **igualmente prováveis**: **P(A) = número de casos favoráveis / número de casos possíveis**. Sempre **0 ≤ P(A) ≤ 1** (de 0% a 100%)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Dado honesto: P(par) = 3/6 = **1/2**; P(número maior que 4) = 2/6 = **1/3**.",
+      "Dois dados: 36 resultados. P(soma 7) = 6/36 = **1/6**; P(soma 12) = **1/36**; P(soma pelo menos 10) = 6/36 = **1/6**.",
+      "Baralho de 52 cartas: P(ás) = 4/52 = **1/13**.",
+      "Evento **impossível**: P = 0. Evento **certo**: P = 1."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Regras"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Regra",
+      "Fórmula",
+      "Uso"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "**Complementar**",
+       "P(não A) = 1 − P(A)",
+       "“Pelo menos um”, “nenhum”"
+      ],
+      [
+       "**União**",
+       "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+       "“A ou B”"
+      ],
+      [
+       "**Mutuamente exclusivos**",
+       "P(A ∪ B) = P(A) + P(B)",
+       "Não podem ocorrer juntos"
+      ],
+      [
+       "**Independentes**",
+       "P(A ∩ B) = P(A) · P(B)",
+       "Um não altera o outro"
+      ],
+      [
+       "**Condicional**",
+       "P(A | B) = P(A ∩ B)/P(B)",
+       "Sabendo que B ocorreu"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Se P(A) = 0,3 e P(B) = 0,5, independentes: P(A ∩ B) = **0,15** e P(A ∪ B) = 0,3 + 0,5 − 0,15 = **0,65**.",
+      "Lançar uma moeda 3 vezes: P(pelo menos uma cara) = 1 − P(nenhuma cara) = 1 − 1/8 = **7/8**."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Exclusivos não são independentes",
+     "text": "Eventos **mutuamente exclusivos** (não ocorrem juntos) com probabilidades positivas **não** são independentes: se um ocorreu, o outro passa a ter probabilidade zero. Não confunda “não podem ocorrer juntos” com “um não influencia o outro”."
+    },
+    {
+     "t": "h2",
+     "text": "3. Probabilidade condicional"
+    },
+    {
+     "t": "p",
+     "text": "Quando o item diz “**sabendo que**”, “**dado que**” ou “**entre os que**”, o espaço amostral **encolhe** para o grupo informado. Monte uma tabela de dupla entrada."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Fez o curso",
+      "Não fez",
+      "Total"
+     ],
+     "widths": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+     ],
+     "rows": [
+      [
+       "Homens",
+       "25",
+       "15",
+       "40"
+      ],
+      [
+       "Mulheres",
+       "10",
+       "10",
+       "20"
+      ],
+      [
+       "Total",
+       "35",
+       "25",
+       "60"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sorteado um policial ao acaso: P(fez o curso) = 35/60 = **7/12**.",
+      "**Sabendo que** o sorteado fez o curso, P(ser mulher) = 10/35 = **2/7** (o espaço passa a ser os 35 que fizeram).",
+      "**Sabendo que** é mulher, P(fez o curso) = 10/20 = **1/2**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Experimentos repetidos"
+    },
+    {
+     "t": "h3",
+     "text": "Com e sem reposição"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Urna com 5 bolas brancas e 3 pretas. Retiram-se 2 bolas.",
+      "**Sem reposição**: P(duas pretas) = 3/8 × 2/7 = **3/28** (o total diminui).",
+      "**Com reposição**: P(duas pretas) = 3/8 × 3/8 = **9/64**.",
+      "Sem reposição, também se pode contar por combinação: C(3, 2)/C(8, 2) = 3/28."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exatamente k sucessos (binomial)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fórmula",
+     "text": "Em **n** repetições independentes, com probabilidade **p** de sucesso em cada uma: **P(exatamente k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**. O C(n, k) conta **em quais tentativas** ocorrem os sucessos."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um atirador acerta o alvo com probabilidade 0,8. Em 3 tiros, P(exatamente 2 acertos) = C(3, 2) × 0,8² × 0,2 = 3 × 0,64 × 0,2 = **0,384**.",
+      "P(pelo menos um acerto em 3 tiros) = 1 − 0,2³ = 1 − 0,008 = **0,992**.",
+      "Erro comum: esquecer o C(n, k) e responder 0,8² × 0,2 = 0,128."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Sorteios com combinatória"
+    },
+    {
+     "t": "p",
+     "text": "Quando se sorteia um **grupo**, conte os casos com combinação. De 10 servidores (4 mulheres), sorteia-se uma comissão de 3: P(só mulheres) = C(4, 3)/C(10, 3) = 4/120 = **1/30**; P(pelo menos uma mulher) = 1 − C(6, 3)/C(10, 3) = 1 − 20/120 = **5/6**."
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto com uma situação (equipes, testes, tiros, sorteios) e itens com probabilidades em fração ou porcentagem.",
+      "“Pelo menos um”: **complementar**.",
+      "“Sabendo que”: **condicional** (encolha o espaço).",
+      "Sem reposição: o denominador **diminui** a cada retirada.",
+      "Na dúvida real, **não deixe em branco**: no Instituto AOCP o erro não desconta. Elimine as alternativas erradas e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "No lançamento de um dado honesto, a probabilidade de sair número par é 1/2.",
+    "comment": "**Certo.** 3 favoráveis em 6.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "No lançamento de dois dados honestos, a probabilidade de a soma ser 7 é 1/36.",
+    "comment": "**Errado.** Há 6 pares com soma 7: 6/36 = 1/6.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A probabilidade de um evento é sempre um número entre 0 e 1, inclusive.",
+    "comment": "**Certo.** Definição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Se P(A) = 0,3, então P(não A) = 0,7.",
+    "comment": "**Certo.** Complementar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Se A e B são independentes, com P(A) = 0,3 e P(B) = 0,5, então P(A ∪ B) = 0,8.",
+    "comment": "**Errado.** P(A ∪ B) = 0,3 + 0,5 − 0,15 = 0,65.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Lançando-se uma moeda honesta 3 vezes, a probabilidade de sair pelo menos uma cara é 7/8.",
+    "comment": "**Certo.** 1 − (1/2)³.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Eventos mutuamente exclusivos, ambos com probabilidade positiva, são independentes.",
+    "comment": "**Errado.** Se um ocorre, o outro fica impossível: há dependência.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Retirando-se, sem reposição, 2 bolas de uma urna com 5 brancas e 3 pretas, a probabilidade de ambas serem pretas é 3/28.",
+    "comment": "**Certo.** 3/8 × 2/7.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "Retirando-se, com reposição, 2 bolas da mesma urna, a probabilidade de ambas serem pretas é 3/28.",
+    "comment": "**Errado.** Com reposição: 3/8 × 3/8 = 9/64.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A probabilidade de retirar um ás de um baralho comum de 52 cartas é 1/13.",
+    "comment": "**Certo.** 4/52.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "No lançamento de dois dados honestos, a probabilidade de a soma ser 7 é",
+    "options": [
+     "1/6",
+     "1/36",
+     "7/36",
+     "1/12",
+     "1/2"
+    ],
+    "comment": "**Gabarito: A.** 6 pares com soma 7 em 36 resultados.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "Lançando-se uma moeda honesta 3 vezes, a probabilidade de sair pelo menos uma cara é",
+    "options": [
+     "1/8",
+     "3/8",
+     "1/2",
+     "7/8",
+     "3/4"
+    ],
+    "comment": "**Gabarito: D.** 1 − (1/2)³.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "B",
+    "text": "Retirando-se 2 bolas, sem reposição, de uma urna com 5 brancas e 3 pretas, a probabilidade de ambas serem pretas é",
+    "options": [
+     "9/64",
+     "3/28",
+     "6/64",
+     "3/8",
+     "1/4"
+    ],
+    "comment": "**Gabarito: B.** 3/8 × 2/7 = 6/56 = 3/28.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Se A e B são independentes, com P(A) = 0,3 e P(B) = 0,5, então P(A ∪ B) é",
+    "options": [
+     "0,80",
+     "0,15",
+     "0,50",
+     "0,35",
+     "0,65"
+    ],
+    "comment": "**Gabarito: E.** 0,3 + 0,5 − 0,15.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "C",
+    "text": "Em uma delegacia com 60 policiais, 40 homens e 20 mulheres, 25 homens e 10 mulheres fizeram um curso. Sabendo que o sorteado fez o curso, a probabilidade de ser mulher é",
+    "options": [
+     "1/2",
+     "1/3",
+     "2/7",
+     "1/6",
+     "10/60"
+    ],
+    "comment": "**Gabarito: C.** Condicional: 10/35.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Um atirador acerta o alvo com probabilidade 0,8 em cada tiro, de forma independente. A probabilidade de acertar exatamente 2 de 3 tiros é",
+    "options": [
+     "0,384",
+     "0,128",
+     "0,640",
+     "0,512",
+     "0,096"
+    ],
+    "comment": "**Gabarito: A.** C(3, 2) × 0,8² × 0,2.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "B",
+    "text": "Na situação anterior, a probabilidade de acertar pelo menos um dos 3 tiros é",
+    "options": [
+     "0,800",
+     "0,992",
+     "0,512",
+     "0,896",
+     "0,008"
+    ],
+    "comment": "**Gabarito: B.** 1 − 0,2³.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "D",
+    "text": "De 10 servidores, 4 mulheres e 6 homens, sorteia-se uma comissão de 3. A probabilidade de ter só mulheres é",
+    "options": [
+     "1/5",
+     "1/10",
+     "4/10",
+     "1/30",
+     "1/6"
+    ],
+    "comment": "**Gabarito: D.** C(4, 3)/C(10, 3) = 4/120.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Dois eventos mutuamente exclusivos A e B, com probabilidades positivas, são",
+    "options": [
+     "independentes.",
+     "complementares em qualquer caso.",
+     "eventos certos.",
+     "eventos impossíveis.",
+     "dependentes, pois não podem ocorrer juntos."
+    ],
+    "comment": "**Gabarito: E.** Se um ocorre, o outro passa a ter probabilidade zero.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "C",
+    "text": "A probabilidade de retirar um ás de um baralho comum de 52 cartas é",
+    "options": [
+     "1/4",
+     "1/52",
+     "1/13",
+     "4/13",
+     "1/26"
+    ],
+    "comment": "**Gabarito: C.** 4/52 = 1/13.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Probabilidade elementar: definição clássica, regras da adição e da multiplicação, probabilidade condicional e distribuição binomial.",
+  "Obras de referência: Morgado et al., Análise combinatória e probabilidade (SBM); Bussab e Morettin, Estatística básica.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

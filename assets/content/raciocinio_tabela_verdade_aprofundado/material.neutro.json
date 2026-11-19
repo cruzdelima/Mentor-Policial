@@ -1,0 +1,464 @@
+{
+ "id": "rlm-tabela-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-02"
+ ],
+ "kind": "aprofundado",
+ "title": "Tabela-verdade, tautologia e contradição",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 80,
+ "pdf": "raciocinio_tabela_verdade_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A tabela-verdade é a ferramenta que resolve quase todo item de lógica proposicional. A banca cobra: **o número de linhas**, **o valor de uma linha** e se uma proposição é **tautologia**. Monte pelo menos três tabelas inteiras à mão antes de usar os atalhos."
+    },
+    {
+     "t": "h2",
+     "text": "1. Quantas linhas"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Regra",
+     "text": "Uma proposição com **n proposições simples distintas** tem uma tabela-verdade com **2ⁿ linhas**. Cada letra só conta **uma vez**, mesmo que apareça repetida ou negada."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposições simples",
+      "Linhas",
+      "Exemplo"
+     ],
+     "widths": [
+      0.28,
+      0.16,
+      0.56
+     ],
+     "rows": [
+      [
+       "1",
+       "2",
+       "¬P"
+      ],
+      [
+       "2",
+       "4",
+       "P → Q · (P ∧ Q) ∨ ¬P"
+      ],
+      [
+       "3",
+       "8",
+       "(P ∨ Q) → R"
+      ],
+      [
+       "4",
+       "16",
+       "(P ∧ Q) ↔ (R ∨ S)"
+      ],
+      [
+       "5",
+       "32",
+       "[(P → Q) ∧ R] ∨ (S ↔ T)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha",
+     "text": "Em (P ∨ ¬P) → (Q ∧ P), há **duas** proposições simples (P e Q), e a tabela tem **4** linhas, não 8. A negação ¬P não é uma proposição simples nova."
+    },
+    {
+     "t": "h2",
+     "text": "2. Como montar"
+    },
+    {
+     "t": "p",
+     "text": "Distribua os valores das proposições simples de forma que **todas as combinações** apareçam uma única vez. Com 3 letras: a primeira coluna alterna de **4 em 4** (VVVVFFFF), a segunda de **2 em 2** (VVFFVVFF) e a terceira de **1 em 1** (VFVFVFVF). Depois, resolva do mais interno para o mais externo: primeiro as negações e os parênteses, por último o conectivo principal."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo resolvido: (P ∧ Q) → ¬R"
+    },
+    {
+     "t": "table",
+     "head": [
+      "P",
+      "Q",
+      "R",
+      "P ∧ Q",
+      "¬R",
+      "(P ∧ Q) → ¬R"
+     ],
+     "widths": [
+      0.1,
+      0.1,
+      0.1,
+      0.22,
+      0.16,
+      0.32
+     ],
+     "rows": [
+      [
+       "V",
+       "V",
+       "V",
+       "V",
+       "F",
+       "**F**"
+      ],
+      [
+       "V",
+       "V",
+       "F",
+       "V",
+       "V",
+       "V"
+      ],
+      [
+       "V",
+       "F",
+       "V",
+       "F",
+       "F",
+       "V"
+      ],
+      [
+       "V",
+       "F",
+       "F",
+       "F",
+       "V",
+       "V"
+      ],
+      [
+       "F",
+       "V",
+       "V",
+       "F",
+       "F",
+       "V"
+      ],
+      [
+       "F",
+       "V",
+       "F",
+       "F",
+       "V",
+       "V"
+      ],
+      [
+       "F",
+       "F",
+       "V",
+       "F",
+       "F",
+       "V"
+      ],
+      [
+       "F",
+       "F",
+       "F",
+       "F",
+       "V",
+       "V"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "A coluna final tem **7 V e 1 F**: a proposição só é falsa quando P, Q e R são todas verdadeiras (antecedente V e consequente F)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Tautologia, contradição e contingência"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Classificação",
+      "Coluna final",
+      "Exemplos"
+     ],
+     "widths": [
+      0.22,
+      0.3,
+      0.48
+     ],
+     "rows": [
+      [
+       "**Tautologia**",
+       "**Só V**, em todas as linhas",
+       "P ∨ ¬P · P → P · (P ∧ Q) → P · P → (P ∨ Q)"
+      ],
+      [
+       "**Contradição**",
+       "**Só F**, em todas as linhas",
+       "P ∧ ¬P · P ↔ ¬P · ¬(P → P)"
+      ],
+      [
+       "**Contingência**",
+       "Tem V **e** F",
+       "P → Q · P ∧ Q · P ∨ Q · P ↔ Q"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A **negação de uma tautologia** é uma contradição, e vice-versa.",
+      "Toda tautologia vale independentemente do conteúdo das proposições: *Ou chove ou não chove* é sempre verdadeira.",
+      "As **regras de inferência** (modus ponens, modus tollens, silogismo) correspondem a condicionais tautológicas, como [(P → Q) ∧ P] → Q."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Atalhos para não montar a tabela inteira"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Testar a condicional pelo caso falso",
+     "text": "Para saber se A → B é tautologia, **tente torná-la falsa**: suponha A verdadeira e B falsa. Se isso for **possível**, não é tautologia; se levar a uma **contradição** (uma letra precisaria ser V e F ao mesmo tempo), é tautologia."
+    },
+    {
+     "t": "p",
+     "text": "Exemplo: (P ∧ Q) → P. Para ser falsa, o antecedente P ∧ Q seria V (logo P = V e Q = V) e o consequente P seria F. Mas P não pode ser V e F ao mesmo tempo: **impossível**. Logo, é **tautologia**."
+    },
+    {
+     "t": "p",
+     "text": "Exemplo: (P ∨ Q) → P. Para ser falsa: P ∨ Q = V e P = F. Com P = F e Q = V isso acontece. Logo, **não** é tautologia (é contingência)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Para a **conjunção** ser V, todas as partes precisam ser V: comece por elas.",
+      "Para a **disjunção** ser F, todas as partes precisam ser F.",
+      "Conte as linhas pedidas: “a tabela tem exatamente k linhas com valor V” se resolve contando os casos que tornam a proposição falsa."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Quantas linhas são V em cada conectivo (duas letras)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Linhas V",
+      "Linhas F"
+     ],
+     "widths": [
+      0.4,
+      0.3,
+      0.3
+     ],
+     "rows": [
+      [
+       "P ∧ Q",
+       "1",
+       "3"
+      ],
+      [
+       "P ∨ Q",
+       "3",
+       "1"
+      ],
+      [
+       "P → Q",
+       "3",
+       "1"
+      ],
+      [
+       "P ↔ Q",
+       "2",
+       "2"
+      ],
+      [
+       "P ⊻ Q",
+       "2",
+       "2"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A tabela-verdade da proposição ... tem 16 linhas”: conte as letras **distintas** e faça 2ⁿ.",
+      "“A proposição ... é uma tautologia”: use o atalho do caso falso.",
+      "“Na tabela-verdade de ..., há exatamente x linhas em que a proposição é verdadeira”: conte os casos falsos e subtraia do total.",
+      "“Se P é V e Q é F, então ...”: substitua os valores e resolva de dentro para fora.",
+      "Na dúvida real, confira a regra da sua banca: no Cebraspe, cada erro anula um acerto (deixe em branco); na múltipla escolha, o erro não desconta (não deixe em branco)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A tabela-verdade da proposição (P ∧ Q) → R possui 8 linhas.",
+    "comment": "**Certo.** Há 3 proposições simples: 2³ = 8.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A tabela-verdade da proposição (P → ¬Q) ∨ (Q ∧ P) possui 16 linhas.",
+    "comment": "**Errado.** Só há 2 proposições simples distintas (P e Q): 2² = 4 linhas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A proposição P ∨ ¬P é uma tautologia.",
+    "comment": "**Certo.** Uma das duas é sempre verdadeira.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "A proposição P ∧ ¬P é uma contradição.",
+    "comment": "**Certo.** P e ¬P nunca são verdadeiras ao mesmo tempo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "A proposição P → Q é uma tautologia.",
+    "comment": "**Errado.** É falsa quando P é V e Q é F: é contingência.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "A proposição (P ∧ Q) → P é uma tautologia.",
+    "comment": "**Certo.** Para ser falsa, P teria de ser V (no antecedente) e F (no consequente): impossível.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "A proposição (P ∨ Q) → Q é uma tautologia.",
+    "comment": "**Errado.** Com P = V e Q = F, o antecedente é V e o consequente F: a condicional é falsa.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Na tabela-verdade da proposição P ∨ Q, há exatamente uma linha em que a proposição é falsa.",
+    "comment": "**Certo.** Só quando P e Q são ambas falsas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A negação de uma tautologia é uma contradição.",
+    "comment": "**Certo.** Se a coluna só tem V, a negação só tem F.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A proposição P ↔ Q é verdadeira em três das quatro linhas de sua tabela-verdade.",
+    "comment": "**Errado.** É verdadeira em duas linhas (valores iguais) e falsa em duas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Considere as proposições P: “o suspeito foi preso em flagrante”, Q: “houve mandado judicial” e R: “a prisão foi legal”. A tabela-verdade da proposição (P ∨ Q) → R tem 8 linhas.",
+    "comment": "**Certo.** Três proposições simples: 2³ = 8.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "C",
+    "text": "A proposição [(P → Q) ∧ P] → Q é uma tautologia.",
+    "comment": "**Certo.** É o modus ponens. Para ser falsa, Q seria F e P seria V; então P → Q seria F e o antecedente também F: impossível.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "A proposição [(P → Q) ∧ Q] → P é uma tautologia.",
+    "comment": "**Errado.** Com P = F e Q = V, o antecedente é V e o consequente F: a condicional é falsa (falácia da afirmação do consequente).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "A proposição P → (P ∨ Q) é uma tautologia.",
+    "comment": "**Certo.** Se P é V, P ∨ Q também é V: nunca ocorre V → F.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "Na tabela-verdade da proposição (P ∧ Q) → ¬R, a proposição é falsa em exatamente duas linhas.",
+    "comment": "**Errado.** É falsa só quando P, Q e R são verdadeiras: uma única linha.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "Se P é verdadeira, Q é falsa e R é falsa, então a proposição (P ∨ Q) → R é falsa.",
+    "comment": "**Certo.** P ∨ Q = V e R = F: V → F é falso.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "E",
+    "text": "A proposição P ↔ ¬P é uma contingência.",
+    "comment": "**Errado.** P e ¬P sempre têm valores diferentes: a bicondicional é sempre falsa (contradição).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "C",
+    "text": "A proposição (P → Q) ∨ (Q → P) é uma tautologia.",
+    "comment": "**Certo.** Para a disjunção ser falsa, P → Q e Q → P teriam de ser falsas: P = V, Q = F e Q = V, P = F ao mesmo tempo. Impossível.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Uma proposição composta por quatro proposições simples distintas tem tabela-verdade com 16 linhas.",
+    "comment": "**Certo.** 2⁴ = 16.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Se a proposição A → B é uma tautologia, então B é uma tautologia.",
+    "comment": "**Errado.** Basta que nunca ocorra A verdadeira e B falsa. Ex.: (P ∧ Q) → P é tautologia, mas P sozinha não é.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica proposicional clássica: tabelas-verdade e classificação das proposições.",
+  "Obras de referência: Alencar Filho, Iniciação à lógica matemática; Copi, Introdução à lógica.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

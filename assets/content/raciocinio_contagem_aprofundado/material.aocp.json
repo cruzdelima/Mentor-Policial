@@ -1,0 +1,407 @@
+{
+ "id": "rlm-contagem-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-11"
+ ],
+ "kind": "aprofundado",
+ "title": "Princípios de contagem e análise combinatória",
+ "subtitle": "Raciocínio Lógico e Matemática · Combinatória",
+ "minutes": 90,
+ "pdf": "raciocinio_contagem_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Combinatória é um dos assuntos **mais cobrados** pelas bancas em PF e PRF. Quase todo problema se resolve com o **princípio fundamental da contagem** e com uma pergunta: **a ordem importa?** Não decore fórmulas sem entender quando usar cada uma: resolva os exemplos pelo raciocínio das etapas."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Princípio fundamental da contagem"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Regra",
+     "text": "Se uma escolha é feita em **etapas independentes**, com m₁ opções na primeira, m₂ na segunda e assim por diante, o total de possibilidades é o **produto** m₁ × m₂ × ... Use o **“e”** para multiplicar (etapas) e o **“ou”** para somar (casos separados)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Placas com **3 letras e 4 algarismos** (letras e algarismos podem repetir): 26 × 26 × 26 × 10 × 10 × 10 × 10 = **175.760.000**.",
+      "Senhas de **4 algarismos distintos**: 10 × 9 × 8 × 7 = **5.040**.",
+      "Números de **4 algarismos** (o primeiro não pode ser zero): 9 × 10 × 10 × 10 = **9.000**.",
+      "Comece sempre pela etapa **com restrição** (primeiro algarismo, letra obrigatória)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Fatorial e permutações"
+    },
+    {
+     "t": "p",
+     "text": "**n!** (lê-se “n fatorial”) = n × (n − 1) × ... × 2 × 1. Por definição, 0! = 1. Valores úteis: 3! = 6, 4! = 24, 5! = 120, 6! = 720, 7! = 5.040."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Fórmula",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.24,
+      0.5
+     ],
+     "rows": [
+      [
+       "**Permutação simples**",
+       "Pₙ = n!",
+       "Formas de enfileirar 5 agentes: 5! = **120**. Anagramas de PERITO (6 letras distintas): 6! = **720**."
+      ],
+      [
+       "**Com repetição**",
+       "n!/(a! · b! ...)",
+       "Anagramas de POLICIA (I duas vezes): 7!/2! = **2.520**. De DELEGADO (D e E duas vezes): 8!/(2! · 2!) = **10.080**."
+      ],
+      [
+       "**Circular**",
+       "(n − 1)!",
+       "5 pessoas em volta de uma mesa redonda: 4! = **24**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Elementos que devem ficar juntos",
+     "text": "Em uma fila de 5 pessoas, de quantas formas duas delas ficam **lado a lado**? Trate as duas como um **bloco**: 4 “elementos” permutam em 4! = 24, e o bloco se arruma de 2! = 2 formas. Total: **48**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Arranjo ou combinação: a ordem importa?"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "O teste da ordem",
+     "text": "Escolha um grupo e **troque a ordem** dos escolhidos. Se a troca gera uma **situação diferente** (cargos, posições, senhas), é **arranjo**. Se gera **a mesma** situação (comissão, equipe, grupo), é **combinação**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Arranjo",
+      "Combinação"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "A ordem",
+       "**importa**",
+       "**não importa**"
+      ],
+      [
+       "Fórmula",
+       "A(n, p) = n!/(n − p)!",
+       "C(n, p) = n!/[p! · (n − p)!]"
+      ],
+      [
+       "Exemplo",
+       "Escolher delegado, escrivão e agente entre 8 pessoas: 8 × 7 × 6 = **336**",
+       "Escolher uma equipe de 3 entre 8 pessoas: 336/3! = **56**"
+      ],
+      [
+       "Também",
+       "Pódio, senha, presidente e vice",
+       "Comissão, grupo, apertos de mão, saladas"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Combinação = arranjo dividido por p! (as ordens dos p escolhidos contam como uma só).",
+      "C(n, p) = C(n, n − p): escolher 3 de 10 para ir é o mesmo que escolher 7 para ficar.",
+      "Apertos de mão entre 10 pessoas: C(10, 2) = **45**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Casos combinados"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Grupos de origens diferentes**: comissão com 2 agentes (de 6) **e** 1 escrivão (de 4): C(6, 2) × C(4, 1) = 15 × 4 = **60**.",
+      "**Pelo menos um**: calcule o **total** e subtraia os casos **sem nenhum**. Comissões de 3 entre 10 pessoas (4 mulheres e 6 homens) com pelo menos uma mulher: C(10, 3) − C(6, 3) = 120 − 20 = **100**.",
+      "**Casos separados** (“ou”): some. Comissões de 3 só de homens ou só de mulheres: C(6, 3) + C(4, 3) = 20 + 4 = **24**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+      "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+      "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto descreve uma escolha (equipes de plantão, senhas de sistema, placas, distribuição de viaturas) e os itens trazem números.",
+      "A pegadinha mais comum é usar **arranjo onde é combinação** (ou o contrário): aplique o teste da ordem.",
+      "Itens com “**pelo menos um**” quase sempre se resolvem pelo complementar.",
+      "Na dúvida real, **não deixe em branco**: no Instituto AOCP o erro não desconta. Elimine as alternativas erradas e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Com 3 letras (entre 26) seguidas de 4 algarismos, podendo haver repetição, é possível formar 175.760.000 placas diferentes.",
+    "comment": "**Certo.** 26³ × 10⁴.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O número de senhas de 4 algarismos distintos é 10.000.",
+    "comment": "**Errado.** Com algarismos distintos: 10 × 9 × 8 × 7 = 5.040. O valor 10.000 admite repetição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Existem 9.000 números naturais de 4 algarismos.",
+    "comment": "**Certo.** 9 × 10 × 10 × 10 (o primeiro não pode ser zero).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "O número de anagramas da palavra PERITO é 720.",
+    "comment": "**Certo.** 6 letras distintas: 6!.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "O número de anagramas da palavra POLICIA é 5.040.",
+    "comment": "**Errado.** A letra I se repete: 7!/2! = 2.520.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Há 120 maneiras de dispor 5 agentes em fila.",
+    "comment": "**Certo.** 5! = 120.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "O número de maneiras de escolher 3 agentes entre 8 para formar uma equipe é 336.",
+    "comment": "**Errado.** Equipe não tem ordem: C(8, 3) = 56. O valor 336 é arranjo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "O número de maneiras de escolher, entre 8 pessoas, um delegado, um escrivão e um agente (cargos distintos) é 336.",
+    "comment": "**Certo.** A ordem importa (cargos): 8 × 7 × 6.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em uma reunião com 10 pessoas, se cada uma cumprimentar todas as outras com um aperto de mão, haverá 45 apertos de mão.",
+    "comment": "**Certo.** C(10, 2) = 45.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O número de maneiras de 5 pessoas sentarem em volta de uma mesa circular é 120.",
+    "comment": "**Errado.** Permutação circular: (5 − 1)! = 24.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "Quantas senhas de 4 algarismos distintos podem ser formadas com os algarismos de 0 a 9?",
+    "options": [
+     "10.000",
+     "5.040",
+     "210",
+     "40",
+     "3.024"
+    ],
+    "comment": "**Gabarito: B.** 10 × 9 × 8 × 7 = 5.040.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "E",
+    "text": "O número de anagramas da palavra POLICIA é",
+    "options": [
+     "5.040",
+     "720",
+     "1.260",
+     "7",
+     "2.520"
+    ],
+    "comment": "**Gabarito: E.** 7 letras com o I repetido: 7!/2! = 2.520.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "De quantas maneiras é possível escolher 3 agentes, entre 8, para formar uma equipe?",
+    "options": [
+     "56",
+     "336",
+     "24",
+     "512",
+     "40.320"
+    ],
+    "comment": "**Gabarito: A.** A ordem não importa: C(8, 3) = 56.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "C",
+    "text": "De quantas maneiras é possível escolher, entre 8 pessoas, um delegado, um escrivão e um agente (cargos distintos)?",
+    "options": [
+     "56",
+     "24",
+     "336",
+     "512",
+     "168"
+    ],
+    "comment": "**Gabarito: C.** A ordem importa: 8 × 7 × 6 = 336.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Em uma reunião com 10 pessoas, cada uma cumprimenta todas as outras uma única vez. O número de cumprimentos é",
+    "options": [
+     "100",
+     "90",
+     "20",
+     "45",
+     "55"
+    ],
+    "comment": "**Gabarito: D.** C(10, 2) = 45.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "De quantas maneiras 5 pessoas podem sentar-se em volta de uma mesa circular?",
+    "options": [
+     "120",
+     "24",
+     "60",
+     "5",
+     "20"
+    ],
+    "comment": "**Gabarito: B.** Permutação circular: (5 − 1)! = 24.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "Uma comissão deve ter 2 agentes, escolhidos entre 6, e 1 escrivão, escolhido entre 4. O número de comissões possíveis é",
+    "options": [
+     "24",
+     "10",
+     "120",
+     "30",
+     "60"
+    ],
+    "comment": "**Gabarito: E.** C(6, 2) × C(4, 1) = 15 × 4.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Entre 10 servidores, 4 mulheres e 6 homens, o número de comissões de 3 pessoas com pelo menos uma mulher é",
+    "options": [
+     "100",
+     "120",
+     "20",
+     "96",
+     "4"
+    ],
+    "comment": "**Gabarito: A.** Total 120 menos 20 comissões só de homens.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "Em uma fila de 5 pessoas, de quantas maneiras duas pessoas determinadas ficam lado a lado?",
+    "options": [
+     "24",
+     "120",
+     "48",
+     "10",
+     "96"
+    ],
+    "comment": "**Gabarito: C.** Bloco: 4! × 2! = 48.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Com os algarismos 1, 2, 3, 4 e 5, sem repetição, quantos números de 3 algarismos podem ser formados?",
+    "options": [
+     "10",
+     "125",
+     "15",
+     "60",
+     "120"
+    ],
+    "comment": "**Gabarito: D.** 5 × 4 × 3 = 60.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Análise combinatória: princípio fundamental da contagem, permutações, arranjos e combinações.",
+  "Obras de referência: Morgado et al., Análise combinatória e probabilidade (SBM); Iezzi et al., Fundamentos de matemática elementar, v. 5.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

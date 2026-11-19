@@ -1,0 +1,387 @@
+{
+ "id": "rlm-negacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-04"
+ ],
+ "kind": "aprofundado",
+ "title": "Negação de proposições",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 70,
+ "pdf": "raciocinio_negacao_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A negação é cobrada em itens do tipo “a negação da proposição X é Y”. Para acertar, você precisa de duas coisas: as **regras de negação de cada conectivo** e saber que **negar não é dizer o contrário**. A negação é verdadeira exatamente quando a original é falsa."
+    },
+    {
+     "t": "h2",
+     "text": "1. A ideia central"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Definição",
+     "text": "A negação de P (¬P) tem **sempre o valor oposto** ao de P. Por isso, a negação de uma proposição composta é a proposição que é verdadeira **exatamente nas linhas em que a original é falsa**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação correta",
+      "Errado (contrário)"
+     ],
+     "widths": [
+      0.34,
+      0.33,
+      0.33
+     ],
+     "rows": [
+      [
+       "*O agente está armado.*",
+       "*O agente não está armado.*",
+       "—"
+      ],
+      [
+       "*A sala está cheia.*",
+       "*A sala não está cheia.*",
+       "*A sala está vazia.*"
+      ],
+      [
+       "*O preso é culpado.*",
+       "*O preso não é culpado.*",
+       "*O preso é inocente*: só equivale se o contexto não admitir outra opção"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "“Vazia” é o **contrário** de “cheia”, mas existe meio-termo (a sala pode estar meio cheia). A negação só **nega**; não troca por um antônimo."
+    },
+    {
+     "t": "h2",
+     "text": "2. Negação dos conectivos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação",
+      "Como lembrar"
+     ],
+     "widths": [
+      0.22,
+      0.34,
+      0.44
+     ],
+     "rows": [
+      [
+       "P ∧ Q",
+       "**¬P ∨ ¬Q**",
+       "De Morgan: nega as duas e troca e por ou"
+      ],
+      [
+       "P ∨ Q",
+       "**¬P ∧ ¬Q**",
+       "De Morgan: nega as duas e troca ou por e"
+      ],
+      [
+       "P → Q",
+       "**P ∧ ¬Q**",
+       "**MA**ntém a primeira, **NE**ga a segunda e troca por **e** (MANÉ)"
+      ],
+      [
+       "P ↔ Q",
+       "**P ⊻ Q** (ou exclusivo)",
+       "Também: (P ∧ ¬Q) ∨ (¬P ∧ Q) · P ↔ ¬Q · ¬P ↔ Q"
+      ],
+      [
+       "P ⊻ Q",
+       "**P ↔ Q**",
+       "A negação do ou exclusivo é a bicondicional"
+      ],
+      [
+       "¬P",
+       "P",
+       "Dupla negação"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "A negação da condicional não é uma condicional",
+     "text": "*Se chover, a operação será adiada.* Negação: *Chove e a operação **não** será adiada.* O item que nega com “se... então” (como *Se não chover, a operação não será adiada*) está **errado**."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplos com frases"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "*João é agente e Maria é perita.*",
+       "*João não é agente ou Maria não é perita.*"
+      ],
+      [
+       "*O réu confessou ou há testemunhas.*",
+       "*O réu não confessou e não há testemunhas.*"
+      ],
+      [
+       "*Se o laudo atrasar, o prazo será prorrogado.*",
+       "*O laudo atrasou e o prazo não será prorrogado.*"
+      ],
+      [
+       "*Haverá operação se e somente se houver mandado.*",
+       "*Ou haverá operação ou haverá mandado* (um sem o outro)."
+      ],
+      [
+       "*Nem o delegado nem o escrivão estavam presentes.*",
+       "*O delegado ou o escrivão estava presente.*"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Negação com quantificadores"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Proposição",
+      "Negação",
+      "Não é negação (contrária)"
+     ],
+     "widths": [
+      0.3,
+      0.36,
+      0.34
+     ],
+     "rows": [
+      [
+       "*Todo policial é concursado.*",
+       "*Algum policial não é concursado.* (= existe policial que não é)",
+       "*Nenhum policial é concursado.*"
+      ],
+      [
+       "*Algum policial é concursado.*",
+       "*Nenhum policial é concursado.*",
+       "*Algum policial não é concursado.*"
+      ],
+      [
+       "*Nenhum policial é concursado.*",
+       "*Algum policial é concursado.*",
+       "*Todo policial é concursado.*"
+      ],
+      [
+       "*Algum policial não é concursado.*",
+       "*Todo policial é concursado.*",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Regra",
+     "text": "**Todo ↔ algum... não** e **algum ↔ nenhum**. Para negar “todo”, basta **um contraexemplo**; para negar “algum”, é preciso dizer que **nenhum**."
+    },
+    {
+     "t": "note",
+     "text": "“Pelo menos um”, “existe” e “há” equivalem a “algum”. “Não é verdade que todo...” = “algum... não”."
+    },
+    {
+     "t": "h2",
+     "text": "4. Negações em sequência"
+    },
+    {
+     "t": "p",
+     "text": "Quando a proposição mistura conectivos, negue o **conectivo principal** e depois aplique as regras às partes. Exemplo: negar *Se o investigado for servidor, ele será afastado e responderá a processo*: P → (Q ∧ R). Negação: P ∧ ¬(Q ∧ R) = P ∧ (¬Q ∨ ¬R): *O investigado é servidor e não será afastado ou não responderá a processo.*"
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A negação de *Se P, então Q* é *Se não P, então não Q*”: **errado**. A negação é *P e não Q*.",
+      "“A negação de *Todo A é B* é *Nenhum A é B*”: **errado**. É *Algum A não é B*.",
+      "“A negação de *P e Q* é *não P e não Q*”: **errado**. É *não P ou não Q*.",
+      "Também cai a forma “é **equivalente** à negação de...”: primeiro negue, depois aplique uma equivalência."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A negação de P ∧ Q é ¬P ∨ ¬Q.",
+    "comment": "**Certo.** Lei de De Morgan.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A negação de P ∨ Q é ¬P ∨ ¬Q.",
+    "comment": "**Errado.** É ¬P ∧ ¬Q: o conectivo precisa ser trocado.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A negação de P → Q é P ∧ ¬Q.",
+    "comment": "**Certo.** Mantém a primeira, nega a segunda e troca por “e”.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A negação de P → Q é ¬P → ¬Q.",
+    "comment": "**Errado.** A negação da condicional é uma conjunção: P ∧ ¬Q.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A negação de P ↔ Q é equivalente a (P ∧ ¬Q) ∨ (¬P ∧ Q).",
+    "comment": "**Certo.** É o ou exclusivo: verdadeiro quando os valores são diferentes.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A negação de “Todo agente é concursado” é “Nenhum agente é concursado”.",
+    "comment": "**Errado.** A negação é “Algum agente não é concursado”.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A negação de “Algum perito é médico” é “Nenhum perito é médico”.",
+    "comment": "**Certo.** Algum ↔ nenhum.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "A negação de “Nenhum suspeito foi liberado” é “Algum suspeito foi liberado”.",
+    "comment": "**Certo.** Basta um ter sido liberado para a proposição original ser falsa.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "A negação de “A porta está aberta” é “A porta está fechada”.",
+    "comment": "**Errado.** Fechada é o contrário. A negação é “A porta não está aberta”.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "A negação de ¬P ∧ Q é P ∨ ¬Q.",
+    "comment": "**Certo.** ¬(¬P ∧ Q) ⇔ ¬¬P ∨ ¬Q ⇔ P ∨ ¬Q.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "A negação da proposição “Se o servidor recebeu vantagem indevida, então cometeu ato de improbidade” é “O servidor recebeu vantagem indevida e não cometeu ato de improbidade”.",
+    "comment": "**Certo.** ¬(P → Q) ⇔ P ∧ ¬Q.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "A negação da proposição “O delegado assinou o relatório e o escrivão o juntou aos autos” é “O delegado não assinou o relatório e o escrivão não o juntou aos autos”.",
+    "comment": "**Errado.** A negação é “O delegado não assinou o relatório ou o escrivão não o juntou aos autos”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "A negação da proposição “O suspeito fugiu ou foi preso” é “O suspeito não fugiu e não foi preso”.",
+    "comment": "**Certo.** ¬(F ∨ P) ⇔ ¬F ∧ ¬P.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "A negação da proposição “Se houver flagrante, haverá prisão” é “Se não houver flagrante, não haverá prisão”.",
+    "comment": "**Errado.** A negação é “Há flagrante e não há prisão”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "A negação da proposição “Todos os candidatos foram aprovados no teste físico” é “Pelo menos um candidato não foi aprovado no teste físico”.",
+    "comment": "**Certo.** Todo ↔ algum... não; “pelo menos um” = “algum”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "A negação da proposição “Algum documento apreendido é falso” é “Algum documento apreendido não é falso”.",
+    "comment": "**Errado.** A negação de “algum é” é “nenhum é”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "A negação da proposição “O laudo será refeito se e somente se houver contestação” é “Ou o laudo será refeito ou haverá contestação”.",
+    "comment": "**Certo.** A negação da bicondicional é o ou exclusivo.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "C",
+    "text": "A negação de P → (Q ∧ R) é equivalente a P ∧ (¬Q ∨ ¬R).",
+    "comment": "**Certo.** ¬(P → (Q ∧ R)) ⇔ P ∧ ¬(Q ∧ R) ⇔ P ∧ (¬Q ∨ ¬R).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "E",
+    "text": "A negação da proposição “Nem Ana nem Bruno são agentes” é “Ana e Bruno são agentes”.",
+    "comment": "**Errado.** ¬(¬A ∧ ¬B) ⇔ A ∨ B: “Ana ou Bruno é agente”.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "C",
+    "text": "A proposição “Não é verdade que todo crime é doloso” é equivalente a “Existe crime que não é doloso”.",
+    "comment": "**Certo.** Negar “todo” é afirmar que há pelo menos um que não é.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica proposicional e de quantificadores: regras de negação.",
+  "Obras de referência: Alencar Filho, Iniciação à lógica matemática; Copi, Introdução à lógica.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

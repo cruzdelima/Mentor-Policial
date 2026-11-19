@@ -1,7 +1,7 @@
 name: mentor_policial
 description: "Taticum — ciclo básico de estudos para carreiras policiais (Windows e macOS)."
 publish_to: 'none'
-version: 0.11.1+17
+version: 0.12.0+18
 
 environment:
   sdk: ^3.9.0
@@ -99,6 +99,34 @@ flutter:
     - assets/content/portugues_variacao_aprofundado/
     - assets/content/portugues_verbos/
     - assets/content/portugues_verbos_aprofundado/
+    - assets/content/raciocinio_argumentacao/
+    - assets/content/raciocinio_argumentacao_aprofundado/
+    - assets/content/raciocinio_conjuntos/
+    - assets/content/raciocinio_conjuntos_aprofundado/
+    - assets/content/raciocinio_contagem/
+    - assets/content/raciocinio_contagem_aprofundado/
+    - assets/content/raciocinio_equivalencias/
+    - assets/content/raciocinio_equivalencias_aprofundado/
+    - assets/content/raciocinio_funcoes/
+    - assets/content/raciocinio_funcoes_aprofundado/
+    - assets/content/raciocinio_geometria/
+    - assets/content/raciocinio_geometria_aprofundado/
+    - assets/content/raciocinio_negacao/
+    - assets/content/raciocinio_negacao_aprofundado/
+    - assets/content/raciocinio_probabilidade/
+    - assets/content/raciocinio_probabilidade_aprofundado/
+    - assets/content/raciocinio_problemas/
+    - assets/content/raciocinio_problemas_aprofundado/
+    - assets/content/raciocinio_proporcao/
+    - assets/content/raciocinio_proporcao_aprofundado/
+    - assets/content/raciocinio_proposicoes/
+    - assets/content/raciocinio_proposicoes_aprofundado/
+    - assets/content/raciocinio_quantificadores/
+    - assets/content/raciocinio_quantificadores_aprofundado/
+    - assets/content/raciocinio_sequencias/
+    - assets/content/raciocinio_sequencias_aprofundado/
+    - assets/content/raciocinio_tabela_verdade/
+    - assets/content/raciocinio_tabela_verdade_aprofundado/
     - assets/fonts/OFL.txt
   fonts:
     - family: Barlow

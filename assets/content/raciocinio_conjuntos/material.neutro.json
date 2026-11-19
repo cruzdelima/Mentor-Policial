@@ -1,0 +1,293 @@
+{
+ "id": "rlm-conjuntos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-07"
+ ],
+ "kind": "resumo",
+ "title": "Conjuntos e operações",
+ "subtitle": "Raciocínio Lógico e Matemática · Conjuntos",
+ "minutes": 20,
+ "pdf": "raciocinio_conjuntos.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Notação** (∈ e ⊂), **operações** e **problemas numéricos** com diagramas de Venn."
+    },
+    {
+     "t": "h2",
+     "text": "1. Notação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**∈**: elemento pertence a conjunto. **⊂**: conjunto contido em conjunto.",
+      "Vazio é subconjunto de todo conjunto.",
+      "n elementos → **2ⁿ subconjuntos**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Operações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**A ∪ B**: em A ou em B. **A ∩ B**: em A e em B.",
+      "**A − B**: em A e não em B. **Aᶜ**: no universo e não em A.",
+      "(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ; (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Contagem"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**.",
+      "Três: soma os três, subtrai as interseções duplas, **soma** a tripla.",
+      "Só A = n(A) − n(A ∩ B). Nenhum = total − n(A ∪ B).",
+      "Preencha o Venn **de dentro para fora**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quero",
+      "Conta"
+     ],
+     "widths": [
+      0.42,
+      0.58
+     ],
+     "rows": [
+      [
+       "Pelo menos um (2 conjuntos)",
+       "n(A) + n(B) − n(A ∩ B)"
+      ],
+      [
+       "Os dois",
+       "n(A) + n(B) − n(A ∪ B)"
+      ],
+      [
+       "Só A",
+       "n(A) − n(A ∩ B)"
+      ],
+      [
+       "Exatamente um",
+       "n(A ∪ B) − n(A ∩ B)"
+      ],
+      [
+       "Nenhum",
+       "total − n(A ∪ B)"
+      ],
+      [
+       "Interseção mínima",
+       "n(A) + n(B) − total (se positivo)"
+      ],
+      [
+       "Subconjuntos",
+       "2ⁿ"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "∈ elemento; ⊂ conjunto.",
+      "União: **some e tire a interseção**.",
+      "Três: **+ tripla** no final.",
+      "Venn: **comece pelo meio**.",
+      "Números dados são **totais** dos círculos."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CONJUNTOS",
+  "rootSub": "e operações",
+  "left": [
+   {
+    "label": "Pertence",
+    "items": [
+     "elemento",
+     "e conjunto",
+     "1 pertence a A"
+    ]
+   },
+   {
+    "label": "Contido",
+    "items": [
+     "conjunto",
+     "e conjunto",
+     "vazio em todos"
+    ]
+   },
+   {
+    "label": "Subconjuntos",
+    "items": [
+     "2 elevado a n",
+     "inclui o vazio",
+     "e o próprio"
+    ]
+   },
+   {
+    "label": "União",
+    "items": [
+     "em A ou em B",
+     "soma menos",
+     "a interseção"
+    ]
+   },
+   {
+    "label": "Interseção",
+    "items": [
+     "em A e em B",
+     "disjuntos: vazio",
+     "região do meio"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Diferença",
+    "items": [
+     "A menos B",
+     "só os de A",
+     "não comuta"
+    ]
+   },
+   {
+    "label": "Complementar",
+    "items": [
+     "fora de A",
+     "dentro do universo",
+     "De Morgan vale"
+    ]
+   },
+   {
+    "label": "Três conjuntos",
+    "items": [
+     "soma os três",
+     "menos as duplas",
+     "mais a tripla"
+    ]
+   },
+   {
+    "label": "Venn",
+    "items": [
+     "de dentro",
+     "para fora",
+     "totais nos círculos"
+    ]
+   },
+   {
+    "label": "Numéricos",
+    "items": [
+     "naturais, inteiros",
+     "racionais, reais",
+     "pi é irracional"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Se B = {a, b, c}, então {a, b} ⊂ B.",
+    "comment": "**Certo.** {a, b} é subconjunto de B."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Se B = {a, b, c}, então a ⊂ B.",
+    "comment": "**Errado.** a é elemento: a ∈ B."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Um conjunto com 4 elementos tem 16 subconjuntos.",
+    "comment": "**Certo.** 2⁴ = 16."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Se n(A) = 12, n(B) = 9 e n(A ∩ B) = 4, então n(A ∪ B) = 21.",
+    "comment": "**Errado.** 12 + 9 − 4 = 17."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Se A = {1, 3, 5, 7} e B = {5, 7, 9}, então B − A = {9}.",
+    "comment": "**Certo.** Elementos de B que não estão em A."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Entre 50 agentes, 30 fizeram curso de inteligência, 25 de tiro e 12 os dois. Então 7 agentes não fizeram nenhum dos cursos.",
+    "comment": "**Certo.** Pelo menos um: 30 + 25 − 12 = 43; nenhum: 50 − 43 = 7."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Na situação do item anterior, 30 agentes fizeram somente o curso de inteligência.",
+    "comment": "**Errado.** Só inteligência: 30 − 12 = 18."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Se 70 de 100 candidatos estudaram Lógica e 60 estudaram Português, pelo menos 30 estudaram as duas matérias.",
+    "comment": "**Certo.** 70 + 60 − 100 = 30."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "O conjunto dos números naturais contém o conjunto dos números inteiros.",
+    "comment": "**Errado.** É o contrário: ℕ ⊂ ℤ."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "Se A ⊂ B, então A ∩ B = A.",
+    "comment": "**Certo.** Os elementos comuns são os de A."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Teoria elementar dos conjuntos.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

@@ -69,6 +69,20 @@ MODULES = [
     'dc_judiciario_aprof', 'dc_judiciario_resumo',
     'dc_defesa_aprof', 'dc_defesa_resumo',
     'dc_seguranca_aprof', 'dc_seguranca_resumo',
+    'rlm_proposicoes_aprof', 'rlm_proposicoes_resumo',
+    'rlm_tabela_aprof', 'rlm_tabela_resumo',
+    'rlm_equivalencias_aprof', 'rlm_equivalencias_resumo',
+    'rlm_negacao_aprof', 'rlm_negacao_resumo',
+    'rlm_argumentacao_aprof', 'rlm_argumentacao_resumo',
+    'rlm_quantificadores_aprof', 'rlm_quantificadores_resumo',
+    'rlm_conjuntos_aprof', 'rlm_conjuntos_resumo',
+    'rlm_proporcao_aprof', 'rlm_proporcao_resumo',
+    'rlm_problemas_aprof', 'rlm_problemas_resumo',
+    'rlm_sequencias_aprof', 'rlm_sequencias_resumo',
+    'rlm_contagem_aprof', 'rlm_contagem_resumo',
+    'rlm_probabilidade_aprof', 'rlm_probabilidade_resumo',
+    'rlm_funcoes_aprof', 'rlm_funcoes_resumo',
+    'rlm_geometria_aprof', 'rlm_geometria_resumo',
 ]
 
 PROJ = sys.argv[1] if len(sys.argv) > 1 else os.path.abspath(os.path.join(HERE, '..', '..'))
@@ -79,6 +93,31 @@ for name, file in [('B', 'Barlow-Regular'), ('B-M', 'Barlow-Medium'), ('B-SB', '
                    ('BC-SB', 'BarlowCondensed-SemiBold'), ('BC-B', 'BarlowCondensed-Bold'), ('BC-M', 'BarlowCondensed-Medium')]:
     pdfmetrics.registerFont(TTFont(name, os.path.join(FONTS, file + '.ttf')))
 pdfmetrics.registerFontFamily('B', normal='B', bold='B-B', italic='B', boldItalic='B-B')
+# Símbolos que a Barlow não tem (∧ ∨ → ↔ ∈ ∪ ∩ …) saem na DejaVu Sans, só onde aparecem.
+SYM_DIR = os.path.join(HERE, 'fonts')
+pdfmetrics.registerFont(TTFont('Sym', os.path.join(SYM_DIR, 'DejaVuSans.ttf')))
+pdfmetrics.registerFont(TTFont('Sym-B', os.path.join(SYM_DIR, 'DejaVuSans-Bold.ttf')))
+pdfmetrics.registerFontFamily('Sym', normal='Sym', bold='Sym-B', italic='Sym', boldItalic='Sym-B')
+from fontTools.ttLib import TTFont as _FT
+_BARLOW = set(_FT(os.path.join(FONTS, 'Barlow-Regular.ttf')).getBestCmap())
+_SYMSET = set(_FT(os.path.join(SYM_DIR, 'DejaVuSans.ttf')).getBestCmap())
+_SYMRUN = re.compile('([^\x00-\x7f]+)')
+
+
+def _sym(t):
+    def rep(m):
+        out, buf = [], ''
+        for ch in m.group(1):
+            if ord(ch) in _BARLOW:
+                if buf:
+                    out.append(f'<font face="Sym">{buf}</font>'); buf = ''
+                out.append(ch)
+            else:
+                buf += ch
+        if buf:
+            out.append(f'<font face="Sym">{buf}</font>')
+        return ''.join(out)
+    return _SYMRUN.sub(rep, t)
 
 NAVY = colors.HexColor('#0A1220')
 NAVY2 = colors.HexColor('#111C30')
@@ -106,6 +145,7 @@ def md(text):
     t = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     t = ITALIC.sub(r'<font color="#2B5C8A">\1</font>', t)
     t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
+    t = _sym(t)
     return t.replace('\n', '<br/><br/>')
 
 
@@ -173,7 +213,7 @@ def callout(style, title, text, width):
 
 
 def table(head, rows, widths, width):
-    data = [[Paragraph(h.upper(), S['head']) for h in head]]
+    data = [[Paragraph(_sym(h.upper()), S['head']) for h in head]]
     for r in rows:
         data.append([Paragraph(md(r[0]), S['cellb'])] + [Paragraph(md(x), S['cell']) for x in r[1:]])
     t = Table(data, colWidths=[w * width for w in widths], repeatRows=1)
@@ -557,9 +597,16 @@ def check(C):
     if _CMAP is None:
         from fontTools.ttLib import TTFont as FT
         _CMAP = FT(os.path.join(FONTS, 'Barlow-Regular.ttf')).getBestCmap()
-    text = json.dumps([C.MATERIAL, C.THEORY, getattr(C, 'SUMMARY', None), getattr(C, 'MINDMAP', None), C.QUIZ, C.SOURCES], ensure_ascii=False)
-    missing = sorted({ch for ch in text if ord(ch) > 127 and ord(ch) not in _CMAP})
-    assert not missing, f'{C.__name__}: caracteres sem glifo na fonte do PDF: {missing}'
+    # Capa, mapa mental e títulos de seção são desenhados direto com a Barlow: lá não pode faltar glifo.
+    strict = json.dumps([C.MATERIAL, getattr(C, 'MINDMAP', None),
+                         [b.get('text') for b in (C.THEORY + (getattr(C, 'SUMMARY', None) or [])) if b.get('t') == 'h2'],
+                         [b.get('title') for b in (C.THEORY + (getattr(C, 'SUMMARY', None) or [])) if b.get('t') == 'callout']], ensure_ascii=False)
+    missing = sorted({ch for ch in strict if ord(ch) > 127 and ord(ch) not in _CMAP})
+    assert not missing, f'{C.__name__}: caracteres sem glifo na fonte do PDF (capa, mapa ou título): {missing}'
+    # No corpo do texto, o que a Barlow não tem sai na DejaVu (símbolos lógicos).
+    text = json.dumps([C.THEORY, getattr(C, 'SUMMARY', None), C.QUIZ, C.SOURCES], ensure_ascii=False)
+    missing = sorted({ch for ch in text if ord(ch) > 127 and ord(ch) not in _CMAP and ord(ch) not in _SYMSET})
+    assert not missing, f'{C.__name__}: caracteres sem glifo nem na fonte de símbolos: {missing}'
     qs = C.QUIZ['questions']
     ids = [q['id'] for q in qs]
     assert len(ids) == len(set(ids)), f'{C.__name__}: ids repetidos'
@@ -578,7 +625,7 @@ def check(C):
 
 
 if __name__ == '__main__':
-    index = {'version': '2026.11.3', 'materials': []}
+    index = {'version': '2026.11.4', 'materials': []}
     for name in MODULES:
         C = importlib.import_module(name)
         m = C.MATERIAL

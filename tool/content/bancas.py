@@ -107,6 +107,11 @@ AOCP_INTRO = {
              "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Informática, "
              "o AOCP cobra **conceitos e definições** (“assinale a alternativa que apresenta o conceito de…”) e situações práticas curtas. "
              "Associe cada termo à sua definição exata: as alternativas erradas costumam trazer a definição de um termo vizinho."),
+    'RLM': ("Sua banca: Instituto AOCP",
+            "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio "
+            "Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, "
+            "funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). "
+            "As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."),
     'CONT': ("Sua banca: Instituto AOCP",
              "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Contabilidade, "
              "o AOCP alterna conceitos e pequenos cálculos; confira cada alternativa contra a definição da norma."),
@@ -124,6 +129,11 @@ AOCP_HOW = {
            "Sem desconto por erro: elimine o que souber e marque a mais provável."],
     'INFO': ["Cada alternativa costuma trazer a definição de um termo diferente: identifique o termo pedido e procure a definição exata.",
              "Sem desconto por erro: elimine as alternativas absurdas e marque a mais provável."],
+    'RLM': ["Faça a conta antes de olhar as alternativas: as erradas trazem o resultado de erros comuns (somar porcentagens, usar arranjo "
+            "no lugar de combinação, esquecer o C(n, k) da probabilidade).",
+            "Em lógica, simbolize a frase do enunciado e cada alternativa; a pegadinha preferida é a **recíproca** no lugar da contrapositiva.",
+            "Quando a conta é longa, **teste as alternativas** no enunciado: muitas vezes é mais rápido.",
+            "Sem desconto por erro: elimine o que souber e marque a mais provável."],
     'CONT': ["Refaça os cálculos com calma: as alternativas erradas trazem os resultados de erros comuns.",
              "Sem desconto por erro: nunca deixe em branco."],
 }

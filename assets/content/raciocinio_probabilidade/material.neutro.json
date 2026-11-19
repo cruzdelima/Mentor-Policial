@@ -1,0 +1,307 @@
+{
+ "id": "rlm-probabilidade-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-12"
+ ],
+ "kind": "resumo",
+ "title": "Probabilidade",
+ "subtitle": "Raciocínio Lógico e Matemática · Probabilidade",
+ "minutes": 25,
+ "pdf": "raciocinio_probabilidade.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Situações concretas com **favoráveis/possíveis**, **complementar**, **condicional** e **repetições**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Definição"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**P = favoráveis / possíveis** (resultados igualmente prováveis).",
+      "0 ≤ P ≤ 1. Dois dados: 36 resultados."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Regras"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Complementar: **1 − P(A)** (“pelo menos um”).",
+      "União: P(A) + P(B) − **P(A ∩ B)**.",
+      "Independentes: **P(A) · P(B)**.",
+      "Exclusivos **não** são independentes."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Condicional"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“Sabendo que”: o espaço **encolhe** para o grupo dado.",
+      "P(A | B) = P(A ∩ B)/P(B). Use tabela de dupla entrada."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Repetições"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sem reposição: o total **diminui**. Com reposição: repete a fração.",
+      "Exatamente k em n: **C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Conta",
+      "Resultado"
+     ],
+     "widths": [
+      0.44,
+      0.34,
+      0.22
+     ],
+     "rows": [
+      [
+       "Soma 7 com dois dados",
+       "6/36",
+       "1/6"
+      ],
+      [
+       "Pelo menos uma cara em 3",
+       "1 − 1/8",
+       "7/8"
+      ],
+      [
+       "2 pretas sem reposição (5B, 3P)",
+       "3/8 × 2/7",
+       "3/28"
+      ],
+      [
+       "2 pretas com reposição",
+       "3/8 × 3/8",
+       "9/64"
+      ],
+      [
+       "2 acertos em 3 (p = 0,8)",
+       "3 × 0,64 × 0,2",
+       "0,384"
+      ],
+      [
+       "Pelo menos 1 acerto em 3",
+       "1 − 0,2³",
+       "0,992"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Favoráveis ÷ possíveis.",
+      "Pelo menos um: **complementar**.",
+      "E (independentes): **multiplica**.",
+      "Ou: soma e tira a interseção.",
+      "Sabendo que: **encolhe o espaço**.",
+      "Binomial: não esqueça o **C(n, k)**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PROBABILIDADE",
+  "rootSub": "favoráveis / possíveis",
+  "left": [
+   {
+    "label": "Definição",
+    "items": [
+     "favoráveis",
+     "sobre possíveis",
+     "entre 0 e 1"
+    ]
+   },
+   {
+    "label": "Complementar",
+    "items": [
+     "1 menos P",
+     "pelo menos um",
+     "nenhum"
+    ]
+   },
+   {
+    "label": "União",
+    "items": [
+     "soma as duas",
+     "tira a interseção",
+     "exclusivos: só soma"
+    ]
+   },
+   {
+    "label": "Independentes",
+    "items": [
+     "multiplica",
+     "um não muda o outro",
+     "tiros, moedas"
+    ]
+   },
+   {
+    "label": "Exclusivos",
+    "items": [
+     "não ocorrem juntos",
+     "não são independentes",
+     "interseção zero"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Condicional",
+    "items": [
+     "sabendo que",
+     "encolhe o espaço",
+     "tabela dupla"
+    ]
+   },
+   {
+    "label": "Sem reposição",
+    "items": [
+     "total diminui",
+     "3/8 e 2/7",
+     "ou combinação"
+    ]
+   },
+   {
+    "label": "Com reposição",
+    "items": [
+     "repete a fração",
+     "3/8 e 3/8",
+     "independentes"
+    ]
+   },
+   {
+    "label": "Binomial",
+    "items": [
+     "exatamente k",
+     "C(n, k)",
+     "p e 1 - p"
+    ]
+   },
+   {
+    "label": "Sorteio de grupo",
+    "items": [
+     "combinação",
+     "favoráveis",
+     "sobre total"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "No lançamento de dois dados honestos, a probabilidade de a soma ser pelo menos 10 é 1/6.",
+    "comment": "**Certo.** Somas 10, 11 e 12: 3 + 2 + 1 = 6 casos em 36."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "No lançamento de um dado honesto, a probabilidade de sair número maior que 4 é 1/2.",
+    "comment": "**Errado.** Só 5 e 6: 2/6 = 1/3."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Se a probabilidade de chover amanhã é 0,35, a de não chover é 0,65.",
+    "comment": "**Certo.** Complementar."
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Se A e B são independentes, com P(A) = 0,6 e P(B) = 0,7, então P(A ∩ B) = 0,42.",
+    "comment": "**Certo.** 0,6 × 0,7."
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Lançando-se uma moeda 3 vezes, a probabilidade de saírem 3 caras é 3/8.",
+    "comment": "**Errado.** (1/2)³ = 1/8."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Retirando-se 2 bolas, sem reposição, de uma urna com 5 brancas e 3 pretas, a probabilidade de nenhuma ser preta é 5/14.",
+    "comment": "**Certo.** 5/8 × 4/7 = 20/56."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Na situação do item anterior, a probabilidade de pelo menos uma ser preta é 5/14.",
+    "comment": "**Errado.** 1 − 5/14 = 9/14."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "Em uma turma, 30 de 50 alunos são homens e 12 dos homens usam óculos. Sabendo que o sorteado é homem, a probabilidade de ele usar óculos é 2/5.",
+    "comment": "**Certo.** 12/30."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "Se um evento tem probabilidade 1,2, ele é mais provável que um evento certo.",
+    "comment": "**Errado.** Probabilidade nunca passa de 1."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "Se cada tentativa tem probabilidade 1/2 de sucesso, de forma independente, a probabilidade de exatamente 1 sucesso em 2 tentativas é 1/2.",
+    "comment": "**Certo.** C(2, 1) × 1/2 × 1/2 = 1/2."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Probabilidade elementar.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

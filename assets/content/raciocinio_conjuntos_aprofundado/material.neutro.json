@@ -1,0 +1,381 @@
+{
+ "id": "rlm-conjuntos-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-07"
+ ],
+ "kind": "aprofundado",
+ "title": "Conjuntos e operações",
+ "subtitle": "Raciocínio Lógico e Matemática · Conjuntos",
+ "minutes": 70,
+ "pdf": "raciocinio_conjuntos_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca cobra conjuntos em **problemas com números** (quantas pessoas falam inglês e espanhol, quantos policiais fizeram os dois cursos) e em itens de **notação** (pertence, está contido). A técnica principal é o **diagrama de Venn preenchido de dentro para fora**: comece sempre pela interseção."
+    },
+    {
+     "t": "h2",
+     "text": "1. Noções básicas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Símbolo",
+      "Leitura",
+      "Relação entre"
+     ],
+     "widths": [
+      0.16,
+      0.44,
+      0.4
+     ],
+     "rows": [
+      [
+       "x ∈ A",
+       "x pertence a A",
+       "**elemento** e conjunto"
+      ],
+      [
+       "x ∉ A",
+       "x não pertence a A",
+       "elemento e conjunto"
+      ],
+      [
+       "A ⊂ B",
+       "A está contido em B (A é subconjunto de B)",
+       "**conjunto** e conjunto"
+      ],
+      [
+       "A ⊄ B",
+       "A não está contido em B",
+       "conjunto e conjunto"
+      ],
+      [
+       "∅ ou { }",
+       "conjunto vazio",
+       "—"
+      ],
+      [
+       "n(A)",
+       "número de elementos de A",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Pertinência** (∈) liga elemento a conjunto; **inclusão** (⊂) liga conjunto a conjunto. Se A = {1, 2}, então 1 ∈ A e {1} ⊂ A, mas **não** {1} ∈ A.",
+      "O **vazio** é subconjunto de **qualquer** conjunto, e todo conjunto é subconjunto de si mesmo.",
+      "Um conjunto com **n** elementos tem **2ⁿ subconjuntos** (incluindo o vazio e ele próprio). O conjunto de todos eles é o **conjunto das partes**, P(A)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Operações"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Operação",
+      "Notação",
+      "Elementos",
+      "Exemplo: A = {1, 2, 3}, B = {3, 4}"
+     ],
+     "widths": [
+      0.18,
+      0.14,
+      0.36,
+      0.32
+     ],
+     "rows": [
+      [
+       "União",
+       "A ∪ B",
+       "estão em A **ou** em B (ou nos dois)",
+       "{1, 2, 3, 4}"
+      ],
+      [
+       "Interseção",
+       "A ∩ B",
+       "estão em A **e** em B",
+       "{3}"
+      ],
+      [
+       "Diferença",
+       "A − B",
+       "estão em A e **não** em B",
+       "{1, 2}"
+      ],
+      [
+       "Diferença",
+       "B − A",
+       "estão em B e não em A",
+       "{4}"
+      ],
+      [
+       "Complementar",
+       "Aᶜ ou A'",
+       "estão no universo U e não em A",
+       "depende de U"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Quando A ∩ B = ∅, os conjuntos são **disjuntos**.",
+      "Se A ⊂ B, então A ∪ B = B e A ∩ B = A.",
+      "Leis de De Morgan para conjuntos: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ e (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ (as mesmas da lógica)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Quantos elementos tem a união"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Dois conjuntos",
+     "text": "**n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**. Subtrai-se a interseção porque ela foi contada duas vezes."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Três conjuntos",
+     "text": "**n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ C) + n(A ∩ B ∩ C)**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Só A** (apenas A): n(A) − n(A ∩ B), em dois conjuntos.",
+      "**Nenhum dos dois**: total − n(A ∪ B).",
+      "**Exatamente um**: n(A ∪ B) − n(A ∩ B)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Problemas com diagrama de Venn"
+    },
+    {
+     "t": "p",
+     "text": "Desenhe os círculos e preencha **primeiro a região mais interna** (a interseção de todos), depois as interseções de dois a dois e por último as regiões “só”. Cada número dado no enunciado costuma ser um **total do círculo**, não a região “só”."
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo resolvido"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Numa delegacia com **60** policiais, **35** fizeram o curso de tiro, **28** o de direção defensiva e **10** fizeram os dois.",
+      "Interseção: 10. Só tiro: 35 − 10 = **25**. Só direção: 28 − 10 = **18**.",
+      "Fizeram pelo menos um: 25 + 18 + 10 = **53** (ou 35 + 28 − 10).",
+      "Não fizeram nenhum: 60 − 53 = **7**."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Exemplo com três conjuntos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Entre **100** candidatos, 50 estudaram Português (P), 40 Direito (D) e 30 Informática (I). Estudaram P e D: 15; P e I: 10; D e I: 8; as três: 5.",
+      "Pela fórmula: 50 + 40 + 30 − 15 − 10 − 8 + 5 = **92** estudaram pelo menos uma.",
+      "Nenhuma: 100 − 92 = **8**. Só P: 50 − 15 − 10 + 5 = **30**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Conjuntos numéricos (noção)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Naturais** (ℕ): 0, 1, 2, 3...",
+      "**Inteiros** (ℤ): ..., −2, −1, 0, 1, 2...",
+      "**Racionais** (ℚ): frações de inteiros (inclui decimais exatos e dízimas periódicas).",
+      "**Irracionais**: decimais infinitos não periódicos (√2, π).",
+      "**Reais** (ℝ): racionais e irracionais. Vale ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto com totais de grupos e afirmações do tipo “exatamente x pessoas fizeram só um curso”. Monte o diagrama antes de julgar.",
+      "Itens de notação: ∈ para elemento, ⊂ para conjunto.",
+      "Número de subconjuntos: 2ⁿ.",
+      "Na dúvida real, confira a regra da sua banca: no Cebraspe, cada erro anula um acerto (deixe em branco); na múltipla escolha, o erro não desconta (não deixe em branco)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Se A = {2, 4, 6}, então 4 ∈ A.",
+    "comment": "**Certo.** 4 é elemento de A.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Se A = {2, 4, 6}, então {4} ∈ A.",
+    "comment": "**Errado.** {4} é conjunto: o correto é {4} ⊂ A.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O conjunto vazio é subconjunto de qualquer conjunto.",
+    "comment": "**Certo.** Propriedade da inclusão.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Um conjunto com 5 elementos possui 32 subconjuntos.",
+    "comment": "**Certo.** 2⁵ = 32.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Se A = {1, 2, 3, 4} e B = {3, 4, 5}, então A − B = {1, 2, 5}.",
+    "comment": "**Errado.** A − B = {1, 2}; o 5 está em B, não em A.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Se A = {1, 2, 3, 4} e B = {3, 4, 5}, então A ∩ B = {3, 4}.",
+    "comment": "**Certo.** Elementos comuns.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Se A ⊂ B, então A ∪ B = B.",
+    "comment": "**Certo.** Todos os elementos de A já estão em B.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Se n(A) = 20, n(B) = 15 e n(A ∩ B) = 5, então n(A ∪ B) = 35.",
+    "comment": "**Errado.** n(A ∪ B) = 20 + 15 − 5 = 30.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "O complementar da união de A e B é igual à interseção dos complementares de A e de B.",
+    "comment": "**Certo.** Lei de De Morgan para conjuntos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O número π pertence ao conjunto dos números racionais.",
+    "comment": "**Errado.** π é irracional.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em uma delegacia com 60 policiais, 35 fizeram o curso de tiro, 28 o de direção defensiva e 10 fizeram os dois. Nessa situação, 7 policiais não fizeram nenhum dos dois cursos.",
+    "comment": "**Certo.** Pelo menos um: 35 + 28 − 10 = 53; nenhum: 60 − 53 = 7.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Na situação do item anterior, 35 policiais fizeram somente o curso de tiro.",
+    "comment": "**Errado.** Só tiro: 35 − 10 = 25.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Na mesma situação, 43 policiais fizeram exatamente um dos dois cursos.",
+    "comment": "**Certo.** Só tiro (25) + só direção (18) = 43.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Em um grupo de 100 candidatos, 50 estudaram Português, 40 Direito e 30 Informática; 15 estudaram Português e Direito, 10 Português e Informática, 8 Direito e Informática, e 5 as três. Nesse caso, 8 candidatos não estudaram nenhuma das três matérias.",
+    "comment": "**Certo.** União: 50 + 40 + 30 − 15 − 10 − 8 + 5 = 92; nenhuma: 100 − 92 = 8.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "Na situação do item anterior, 35 candidatos estudaram somente Português.",
+    "comment": "**Errado.** Só Português: 50 − 15 − 10 + 5 = 30.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "Em uma operação, 40 agentes participaram da fase 1 e 30 da fase 2. Se 55 agentes participaram de pelo menos uma das fases, então 15 participaram das duas.",
+    "comment": "**Certo.** 55 = 40 + 30 − x → x = 15.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "E",
+    "text": "Se, entre 80 servidores, 50 falam inglês e 45 falam espanhol, então nenhum servidor fala as duas línguas.",
+    "comment": "**Errado.** 50 + 45 = 95 > 80: ao menos 15 falam as duas.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "C",
+    "text": "Se 50 dos 80 servidores falam inglês e 45 falam espanhol, então pelo menos 15 servidores falam as duas línguas.",
+    "comment": "**Certo.** n(I ∩ E) = 50 + 45 − n(I ∪ E) ≥ 95 − 80 = 15.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "E",
+    "text": "Se A e B são conjuntos disjuntos, então A ∩ B = A.",
+    "comment": "**Errado.** Disjuntos têm interseção vazia.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "C",
+    "text": "Todo número inteiro é também um número racional.",
+    "comment": "**Certo.** Cada inteiro n pode ser escrito como n/1.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Teoria elementar dos conjuntos: operações e princípio da inclusão-exclusão.",
+  "Obras de referência: Iezzi e Murakami, Fundamentos de matemática elementar, v. 1.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

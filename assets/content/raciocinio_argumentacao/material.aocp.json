@@ -1,0 +1,368 @@
+{
+ "id": "rlm-argumentacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-05"
+ ],
+ "kind": "resumo",
+ "title": "Lógica de argumentação",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 25,
+ "pdf": "raciocinio_argumentacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Se uma conclusão **decorre** das premissas e se o argumento é **válido**, com as falácias como pegadinha."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Validade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Válido**: impossível ter premissas **V** e conclusão **F**.",
+      "Validade é de **forma**: argumento válido pode ter conclusão falsa (se alguma premissa for falsa).",
+      "Válido + premissas verdadeiras = conclusão verdadeira."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Formas válidas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Modus ponens**: P → Q; P ⊢ Q.",
+      "**Modus tollens**: P → Q; ¬Q ⊢ ¬P.",
+      "**Silogismo hipotético**: P → Q; Q → R ⊢ P → R.",
+      "**Silogismo disjuntivo**: P ∨ Q; ¬P ⊢ Q.",
+      "**Simplificação**: P ∧ Q ⊢ P. **Adição**: P ⊢ P ∨ Q."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Falácias"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Afirmar o consequente**: P → Q; Q ⊢ P (inválido).",
+      "**Negar o antecedente**: P → Q; ¬P ⊢ ¬Q (inválido).",
+      "P ∨ Q; P ⊢ ¬Q (inválido no ou inclusivo)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Métodos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concluir**: premissas V; comece pela simples ou pela conjunção e propague.",
+      "**Validar**: conclusão F e tente premissas V; se der, é inválido.",
+      "**Verdade e mentira**: suponha e procure contradição."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Premissas",
+      "Conclusão",
+      "Situação"
+     ],
+     "widths": [
+      0.4,
+      0.2,
+      0.4
+     ],
+     "rows": [
+      [
+       "P → Q; P",
+       "Q",
+       "Válido (modus ponens)"
+      ],
+      [
+       "P → Q; ¬Q",
+       "¬P",
+       "Válido (modus tollens)"
+      ],
+      [
+       "P → Q; Q",
+       "P",
+       "Inválido (afirma o consequente)"
+      ],
+      [
+       "P → Q; ¬P",
+       "¬Q",
+       "Inválido (nega o antecedente)"
+      ],
+      [
+       "P ∨ Q; ¬P",
+       "Q",
+       "Válido (silogismo disjuntivo)"
+      ],
+      [
+       "P ∨ Q; P",
+       "¬Q",
+       "Inválido"
+      ],
+      [
+       "P → Q; Q → R",
+       "P → R",
+       "Válido (silogismo hipotético)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Válido = **sem caso V, V, F**.",
+      "Forma, não conteúdo.",
+      "Ponens **afirma** o antecedente.",
+      "Tollens **nega** o consequente.",
+      "Afirmar o consequente: **falácia**.",
+      "Negar o antecedente: **falácia**.",
+      "Comece pela **proposição simples**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "ARGUMENTAÇÃO",
+  "rootSub": "premissas e conclusão",
+  "left": [
+   {
+    "label": "Válido",
+    "items": [
+     "premissas V",
+     "conclusão nunca F",
+     "questão de forma"
+    ]
+   },
+   {
+    "label": "Sólido",
+    "items": [
+     "válido",
+     "premissas verdadeiras",
+     "conclusão verdadeira"
+    ]
+   },
+   {
+    "label": "Modus ponens",
+    "items": [
+     "se P então Q",
+     "P",
+     "logo Q"
+    ]
+   },
+   {
+    "label": "Modus tollens",
+    "items": [
+     "se P então Q",
+     "não Q",
+     "logo não P"
+    ]
+   },
+   {
+    "label": "Silogismos",
+    "items": [
+     "hipotético: encadeia",
+     "disjuntivo: elimina",
+     "ou P ou Q, não P"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Falácia 1",
+    "items": [
+     "afirmar o consequente",
+     "se P então Q; Q",
+     "não dá P"
+    ]
+   },
+   {
+    "label": "Falácia 2",
+    "items": [
+     "negar o antecedente",
+     "se P então Q; não P",
+     "não dá não Q"
+    ]
+   },
+   {
+    "label": "Método concluir",
+    "items": [
+     "premissas V",
+     "comece pela simples",
+     "propague"
+    ]
+   },
+   {
+    "label": "Método validar",
+    "items": [
+     "conclusão F",
+     "premissas V?",
+     "se der: inválido"
+    ]
+   },
+   {
+    "label": "Verdade e mentira",
+    "items": [
+     "suponha um caso",
+     "procure contradição",
+     "falas opostas"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "De “Se houve fraude, a licitação será anulada” e “Houve fraude”, conclui-se que a licitação será anulada.",
+    "comment": "**Certo.** Modus ponens.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "De “Se houve fraude, a licitação será anulada” e “A licitação não será anulada”, conclui-se que não houve fraude.",
+    "comment": "**Certo.** Modus tollens.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "De “Se houve fraude, a licitação será anulada” e “A licitação será anulada”, conclui-se que houve fraude.",
+    "comment": "**Errado.** Afirmação do consequente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "De “Se houve fraude, a licitação será anulada” e “Não houve fraude”, conclui-se que a licitação não será anulada.",
+    "comment": "**Errado.** Negação do antecedente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "De “O mandado foi expedido pela vara criminal ou pela vara federal” e “Não foi pela vara criminal”, conclui-se que foi pela vara federal.",
+    "comment": "**Certo.** Silogismo disjuntivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Das premissas “Se houve fraude, a licitação será anulada” e “A licitação não será anulada”, conclui-se que",
+    "options": [
+     "houve fraude.",
+     "a licitação será anulada.",
+     "não houve fraude.",
+     "a licitação foi regular e anulada.",
+     "nada se pode concluir."
+    ],
+    "comment": "**Gabarito: C.** Modus tollens.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Assinale a forma de argumento VÁLIDA.",
+    "options": [
+     "P → Q; Q → R; logo P → R.",
+     "P → Q; Q; logo P.",
+     "P → Q; ¬P; logo ¬Q.",
+     "P ∨ Q; P; logo ¬Q.",
+     "P → Q; logo Q → P."
+    ],
+    "comment": "**Gabarito: A.** Silogismo hipotético. As demais são falácias.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "O argumento “Se o suspeito é culpado, mentiu. Ele mentiu. Logo, é culpado” é",
+    "options": [
+     "válido por modus ponens.",
+     "válido por modus tollens.",
+     "válido por silogismo hipotético.",
+     "inválido por negação do antecedente.",
+     "inválido por afirmação do consequente."
+    ],
+    "comment": "**Gabarito: E.** Afirmar o consequente não permite afirmar o antecedente.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Um argumento válido com todas as premissas verdadeiras tem conclusão",
+    "options": [
+     "falsa.",
+     "necessariamente verdadeira.",
+     "indeterminada.",
+     "verdadeira apenas se for simples.",
+     "contraditória."
+    ],
+    "comment": "**Gabarito: B.** Argumento sólido: a conclusão é verdadeira.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "De “Se Ana viajou, Beto ficou”, “Se Beto ficou, Caio saiu” e “Caio não saiu”, conclui-se que",
+    "options": [
+     "Ana viajou.",
+     "Beto ficou.",
+     "Caio saiu.",
+     "Ana não viajou.",
+     "Beto e Ana viajaram."
+    ],
+    "comment": "**Gabarito: D.** Caio não saiu → Beto não ficou → Ana não viajou.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Lógica proposicional clássica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

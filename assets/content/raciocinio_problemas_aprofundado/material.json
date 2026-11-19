@@ -1,0 +1,305 @@
+{
+ "id": "rlm-problemas-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-09"
+ ],
+ "kind": "aprofundado",
+ "title": "Problemas aritméticos e equações",
+ "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+ "minutes": 85,
+ "pdf": "raciocinio_problemas_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Os problemas do Cebraspe vêm em textos com várias informações e itens que afirmam um resultado. O segredo é **traduzir o texto em equação**: dê nome à incógnita, escreva as relações e só depois faça as contas. Muitas vezes dá para **testar o valor do item** no enunciado em vez de resolver a equação."
+    },
+    {
+     "t": "h2",
+     "text": "1. Frações, MMC e MDC"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Somar frações: iguale os denominadores pelo **MMC**. 1/4 + 1/6 = 3/12 + 2/12 = **5/12**.",
+      "“2/5 de” = multiplicar por 2/5. 2/5 de R$ 10.000 = **R$ 4.000**.",
+      "Fração do **restante**: se 2/5 do orçamento foram gastos e depois 3/4 do que sobrou, o segundo gasto foi 3/4 de 6.000 = **4.500**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Ferramenta",
+      "Quando usar",
+      "Exemplo"
+     ],
+     "widths": [
+      0.14,
+      0.4,
+      0.46
+     ],
+     "rows": [
+      [
+       "**MMC**",
+       "Eventos que se **repetem** e coincidem; menor múltiplo comum.",
+       "Duas rondas passam a cada 12 e 18 min. Juntas de novo em MMC(12, 18) = **36 min**."
+      ],
+      [
+       "**MDC**",
+       "**Dividir** em grupos iguais do **maior tamanho** possível.",
+       "48 agentes e 36 escrivães em equipes do mesmo tamanho, sem misturar: MDC(48, 36) = **12** por equipe → 4 + 3 = **7 equipes**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Equação do 1º grau e sistemas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Isole a incógnita: 3x − 7 = 11 → 3x = 18 → **x = 6**.",
+      "**Sistema** por adição: x + y = 50 e x − y = 10 → 2x = 60 → **x = 30**, **y = 20**.",
+      "**Sistema** por substituição: carros (c) e motos (m) somam 20 veículos e 56 rodas: c + m = 20 e 4c + 2m = 56. Substituindo m = 20 − c: 4c + 40 − 2c = 56 → **c = 8**, **m = 12**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Equação do 2º grau"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fórmula de Bhaskara",
+     "text": "Para ax² + bx + c = 0: **Δ = b² − 4ac** e **x = (−b ± √Δ)/2a**. Se Δ > 0, duas raízes reais distintas; Δ = 0, uma raiz (dupla); Δ < 0, **nenhuma raiz real**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Soma** das raízes = **−b/a**; **produto** = **c/a**. Em x² − 5x + 6 = 0, soma 5 e produto 6: raízes **2 e 3**.",
+      "x² − x − 12 = 0: soma 1, produto −12 → raízes **4 e −3**.",
+      "Em problemas, descarte a raiz que não faz sentido (número negativo de pessoas, idade negativa)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Problemas típicos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Como montar",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.36,
+      0.46
+     ],
+     "rows": [
+      [
+       "**Idades**",
+       "Some o mesmo tempo t às idades de todos.",
+       "Pai com 40 e filho com 10. Em t anos, 40 + t = 2(10 + t) → **t = 20**."
+      ],
+      [
+       "**Trabalho conjunto**",
+       "Some as **frações feitas por hora**: 1/a + 1/b = 1/T.",
+       "A digitaliza um arquivo em 6 h e B em 3 h. Juntos: 1/6 + 1/3 = 1/2 → **2 h**."
+      ],
+      [
+       "**Um faz, outro desfaz**",
+       "Subtraia as taxas.",
+       "Uma bomba enche um tanque em 10 h e um vazamento o esvazia em 15 h: 1/10 − 1/15 = 1/30 → **30 h**."
+      ],
+      [
+       "**Divisão com mudança**",
+       "Escreva a parte de cada um nas duas situações.",
+       "R$ 1.200 divididos igualmente; com 2 pessoas a menos, cada um receberia R$ 50 a mais: 1.200/(n − 2) − 1.200/n = 50 → **n = 8**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Teste o valor do item",
+     "text": "Se o item diz “o grupo tinha 8 pessoas”, confira: 1.200/8 = 150 e 1.200/6 = 200. A diferença é 50: **certo**. Testar é mais rápido que resolver a equação do 2º grau."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Cebraspe cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto-base (orçamento de uma operação, escala de plantões, divisão de equipes) seguido de 3 a 5 itens com resultados.",
+      "Itens de MMC disfarçados: “os dois plantões voltarão a coincidir em...”.",
+      "Itens de MDC disfarçados: “o maior número de pessoas por equipe”.",
+      "Na dúvida real, **deixe em branco**: no Cebraspe, cada erro anula um acerto."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A solução da equação 3x − 7 = 11 é x = 6.",
+    "comment": "**Certo.** 3x = 18.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A soma 1/4 + 1/6 é igual a 2/10.",
+    "comment": "**Errado.** 1/4 + 1/6 = 3/12 + 2/12 = 5/12.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Se x + y = 50 e x − y = 10, então x = 30.",
+    "comment": "**Certo.** Somando: 2x = 60.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "As raízes da equação x² − 5x + 6 = 0 são 2 e 3.",
+    "comment": "**Certo.** Soma 5 e produto 6.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "A equação x² + 2x + 5 = 0 possui duas raízes reais distintas.",
+    "comment": "**Errado.** Δ = 4 − 20 = −16 < 0: nenhuma raiz real.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Na equação x² − x − 12 = 0, o produto das raízes é −12.",
+    "comment": "**Certo.** Produto = c/a = −12 (raízes 4 e −3).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O MMC de 12 e 18 é 36.",
+    "comment": "**Certo.** Menor múltiplo comum.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O MDC de 48 e 36 é 6.",
+    "comment": "**Errado.** MDC(48, 36) = 12.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Dois terços de 2/5 de um valor correspondem a 4/15 desse valor.",
+    "comment": "**Certo.** 2/3 × 2/5 = 4/15.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Se o dobro de um número somado a 8 é igual a 30, esse número é 19.",
+    "comment": "**Errado.** 2x + 8 = 30 → x = 11.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Duas equipes de ronda passam por um mesmo posto a cada 12 e a cada 18 minutos, respectivamente. Se passaram juntas às 8 h, voltarão a passar juntas às 8 h 36 min.",
+    "comment": "**Certo.** MMC(12, 18) = 36.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "C",
+    "text": "Para dividir 48 agentes e 36 escrivães em equipes com o mesmo número de pessoas, sem misturar cargos e com o maior número possível de pessoas por equipe, serão formadas 7 equipes.",
+    "comment": "**Certo.** MDC = 12; 48/12 + 36/12 = 4 + 3.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "Em um pátio há carros e motos, num total de 20 veículos e 56 rodas. Nesse caso, há 12 carros.",
+    "comment": "**Errado.** c + m = 20 e 4c + 2m = 56 → c = 8 e m = 12.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Um pai tem 40 anos e o filho, 10. Daqui a 20 anos, a idade do pai será o dobro da do filho.",
+    "comment": "**Certo.** 60 = 2 × 30.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Um servidor digitaliza um arquivo em 6 horas e outro, em 3 horas. Trabalhando juntos, no mesmo ritmo, levarão 2 horas.",
+    "comment": "**Certo.** 1/6 + 1/3 = 1/2.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Uma bomba enche um tanque em 10 horas, e um vazamento o esvazia em 15 horas. Com a bomba ligada e o vazamento aberto, o tanque vazio ficará cheio em 25 horas.",
+    "comment": "**Errado.** 1/10 − 1/15 = 1/30: 30 horas.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Um prêmio de R$ 1.200 seria dividido igualmente entre os membros de um grupo. Como 2 membros desistiram, cada um dos demais recebeu R$ 50 a mais. Então o grupo tinha inicialmente 8 membros.",
+    "comment": "**Certo.** 1.200/6 − 1.200/8 = 200 − 150 = 50.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "De um orçamento de R$ 10.000, gastaram-se 2/5 com combustível e 3/4 do restante com manutenção. Sobraram R$ 2.500.",
+    "comment": "**Errado.** Combustível 4.000; restam 6.000; manutenção 4.500; sobram 1.500.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Se a soma de três números inteiros consecutivos é 75, o maior deles é 26.",
+    "comment": "**Certo.** x + x + 1 + x + 2 = 75 → x = 24; maior 26.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Se dois quintos dos 150 candidatos de uma turma foram aprovados, o número de reprovados é 60.",
+    "comment": "**Errado.** Aprovados 60; reprovados 90.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Matemática básica: operações, MMC e MDC, equações e sistemas.",
+  "Obras de referência: Iezzi et al., Matemática: ciência e aplicações; Dante, Matemática: contexto e aplicações.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

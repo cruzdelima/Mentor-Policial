@@ -1,0 +1,321 @@
+{
+ "id": "rlm-contagem-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-11"
+ ],
+ "kind": "aprofundado",
+ "title": "Princípios de contagem e análise combinatória",
+ "subtitle": "Raciocínio Lógico e Matemática · Combinatória",
+ "minutes": 90,
+ "pdf": "raciocinio_contagem_aprofundado.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Combinatória é um dos assuntos **mais cobrados** pelo Cebraspe em PF e PRF. Quase todo problema se resolve com o **princípio fundamental da contagem** e com uma pergunta: **a ordem importa?** Não decore fórmulas sem entender quando usar cada uma: resolva os exemplos pelo raciocínio das etapas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Princípio fundamental da contagem"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Regra",
+     "text": "Se uma escolha é feita em **etapas independentes**, com m₁ opções na primeira, m₂ na segunda e assim por diante, o total de possibilidades é o **produto** m₁ × m₂ × ... Use o **“e”** para multiplicar (etapas) e o **“ou”** para somar (casos separados)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Placas com **3 letras e 4 algarismos** (letras e algarismos podem repetir): 26 × 26 × 26 × 10 × 10 × 10 × 10 = **175.760.000**.",
+      "Senhas de **4 algarismos distintos**: 10 × 9 × 8 × 7 = **5.040**.",
+      "Números de **4 algarismos** (o primeiro não pode ser zero): 9 × 10 × 10 × 10 = **9.000**.",
+      "Comece sempre pela etapa **com restrição** (primeiro algarismo, letra obrigatória)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Fatorial e permutações"
+    },
+    {
+     "t": "p",
+     "text": "**n!** (lê-se “n fatorial”) = n × (n − 1) × ... × 2 × 1. Por definição, 0! = 1. Valores úteis: 3! = 6, 4! = 24, 5! = 120, 6! = 720, 7! = 5.040."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Fórmula",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.24,
+      0.5
+     ],
+     "rows": [
+      [
+       "**Permutação simples**",
+       "Pₙ = n!",
+       "Formas de enfileirar 5 agentes: 5! = **120**. Anagramas de PERITO (6 letras distintas): 6! = **720**."
+      ],
+      [
+       "**Com repetição**",
+       "n!/(a! · b! ...)",
+       "Anagramas de POLICIA (I duas vezes): 7!/2! = **2.520**. De DELEGADO (D e E duas vezes): 8!/(2! · 2!) = **10.080**."
+      ],
+      [
+       "**Circular**",
+       "(n − 1)!",
+       "5 pessoas em volta de uma mesa redonda: 4! = **24**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Elementos que devem ficar juntos",
+     "text": "Em uma fila de 5 pessoas, de quantas formas duas delas ficam **lado a lado**? Trate as duas como um **bloco**: 4 “elementos” permutam em 4! = 24, e o bloco se arruma de 2! = 2 formas. Total: **48**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Arranjo ou combinação: a ordem importa?"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "O teste da ordem",
+     "text": "Escolha um grupo e **troque a ordem** dos escolhidos. Se a troca gera uma **situação diferente** (cargos, posições, senhas), é **arranjo**. Se gera **a mesma** situação (comissão, equipe, grupo), é **combinação**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Arranjo",
+      "Combinação"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "A ordem",
+       "**importa**",
+       "**não importa**"
+      ],
+      [
+       "Fórmula",
+       "A(n, p) = n!/(n − p)!",
+       "C(n, p) = n!/[p! · (n − p)!]"
+      ],
+      [
+       "Exemplo",
+       "Escolher delegado, escrivão e agente entre 8 pessoas: 8 × 7 × 6 = **336**",
+       "Escolher uma equipe de 3 entre 8 pessoas: 336/3! = **56**"
+      ],
+      [
+       "Também",
+       "Pódio, senha, presidente e vice",
+       "Comissão, grupo, apertos de mão, saladas"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Combinação = arranjo dividido por p! (as ordens dos p escolhidos contam como uma só).",
+      "C(n, p) = C(n, n − p): escolher 3 de 10 para ir é o mesmo que escolher 7 para ficar.",
+      "Apertos de mão entre 10 pessoas: C(10, 2) = **45**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Casos combinados"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Grupos de origens diferentes**: comissão com 2 agentes (de 6) **e** 1 escrivão (de 4): C(6, 2) × C(4, 1) = 15 × 4 = **60**.",
+      "**Pelo menos um**: calcule o **total** e subtraia os casos **sem nenhum**. Comissões de 3 entre 10 pessoas (4 mulheres e 6 homens) com pelo menos uma mulher: C(10, 3) − C(6, 3) = 120 − 20 = **100**.",
+      "**Casos separados** (“ou”): some. Comissões de 3 só de homens ou só de mulheres: C(6, 3) + C(4, 3) = 20 + 4 = **24**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Cebraspe cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Um texto descreve uma escolha (equipes de plantão, senhas de sistema, placas, distribuição de viaturas) e os itens trazem números.",
+      "A pegadinha mais comum é usar **arranjo onde é combinação** (ou o contrário): aplique o teste da ordem.",
+      "Itens com “**pelo menos um**” quase sempre se resolvem pelo complementar.",
+      "Na dúvida real, **deixe em branco**: no Cebraspe, cada erro anula um acerto."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "estilo Cebraspe",
+  "instructions": "Julgue os itens a seguir. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o padrão de cobrança da banca. No estilo Cebraspe, cada erro anula um acerto: na dúvida, deixe em branco.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Com 3 letras (entre 26) seguidas de 4 algarismos, podendo haver repetição, é possível formar 175.760.000 placas diferentes.",
+    "comment": "**Certo.** 26³ × 10⁴.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O número de senhas de 4 algarismos distintos é 10.000.",
+    "comment": "**Errado.** Com algarismos distintos: 10 × 9 × 8 × 7 = 5.040. O valor 10.000 admite repetição.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Existem 9.000 números naturais de 4 algarismos.",
+    "comment": "**Certo.** 9 × 10 × 10 × 10 (o primeiro não pode ser zero).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "O número de anagramas da palavra PERITO é 720.",
+    "comment": "**Certo.** 6 letras distintas: 6!.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "O número de anagramas da palavra POLICIA é 5.040.",
+    "comment": "**Errado.** A letra I se repete: 7!/2! = 2.520.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Há 120 maneiras de dispor 5 agentes em fila.",
+    "comment": "**Certo.** 5! = 120.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "O número de maneiras de escolher 3 agentes entre 8 para formar uma equipe é 336.",
+    "comment": "**Errado.** Equipe não tem ordem: C(8, 3) = 56. O valor 336 é arranjo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "O número de maneiras de escolher, entre 8 pessoas, um delegado, um escrivão e um agente (cargos distintos) é 336.",
+    "comment": "**Certo.** A ordem importa (cargos): 8 × 7 × 6.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em uma reunião com 10 pessoas, se cada uma cumprimentar todas as outras com um aperto de mão, haverá 45 apertos de mão.",
+    "comment": "**Certo.** C(10, 2) = 45.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O número de maneiras de 5 pessoas sentarem em volta de uma mesa circular é 120.",
+    "comment": "**Errado.** Permutação circular: (5 − 1)! = 24.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Uma comissão de 3 membros deve ser formada a partir de 6 agentes e 4 escrivães, com exatamente 2 agentes e 1 escrivão. Há 60 comissões possíveis.",
+    "comment": "**Certo.** C(6, 2) × C(4, 1) = 15 × 4.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q12",
+    "answer": "C",
+    "text": "Entre 10 servidores, 4 mulheres e 6 homens, o número de comissões de 3 pessoas com pelo menos uma mulher é 100.",
+    "comment": "**Certo.** Total C(10, 3) = 120 menos comissões só de homens C(6, 3) = 20.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q13",
+    "answer": "E",
+    "text": "Na situação do item anterior, o número de comissões formadas só por mulheres é 24.",
+    "comment": "**Errado.** Só mulheres: C(4, 3) = 4. O valor 24 é a soma das comissões só de homens e só de mulheres.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q14",
+    "answer": "C",
+    "text": "Em uma fila de 5 pessoas, há 48 maneiras de duas pessoas determinadas ficarem lado a lado.",
+    "comment": "**Certo.** Bloco: 4! × 2! = 48.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q15",
+    "answer": "E",
+    "text": "O número de anagramas da palavra DELEGADO é 40.320.",
+    "comment": "**Errado.** 8!/(2! · 2!) = 10.080, porque D e E se repetem.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q16",
+    "answer": "C",
+    "text": "O número de maneiras de escolher 4 viaturas entre 12 para uma operação, sem importar a ordem, é 495.",
+    "comment": "**Certo.** C(12, 4) = 495.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Se um agente tem 3 camisas, 4 calças e 2 pares de sapatos, ele pode montar 24 trajes diferentes.",
+    "comment": "**Certo.** 3 × 4 × 2.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "O número de maneiras de escolher presidente e vice-presidente de uma comissão entre 5 pessoas é 10.",
+    "comment": "**Errado.** A ordem importa: 5 × 4 = 20. O valor 10 é C(5, 2).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Escolher 3 de 10 candidatos para uma vaga é feito do mesmo número de maneiras que escolher 7 dos 10 para não ocupá-la.",
+    "comment": "**Certo.** C(10, 3) = C(10, 7).",
+    "group": "Bloco B · padrão de cobrança da banca"
+   },
+   {
+    "id": "q20",
+    "answer": "C",
+    "text": "Com os algarismos 1, 2, 3, 4 e 5, sem repetição, é possível formar 60 números de 3 algarismos.",
+    "comment": "**Certo.** 5 × 4 × 3.",
+    "group": "Bloco B · padrão de cobrança da banca"
+   }
+  ]
+ },
+ "sources": [
+  "Análise combinatória: princípio fundamental da contagem, permutações, arranjos e combinações.",
+  "Obras de referência: Morgado et al., Análise combinatória e probabilidade (SBM); Iezzi et al., Fundamentos de matemática elementar, v. 5.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

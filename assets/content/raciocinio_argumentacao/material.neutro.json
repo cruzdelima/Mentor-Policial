@@ -1,0 +1,317 @@
+{
+ "id": "rlm-argumentacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-05"
+ ],
+ "kind": "resumo",
+ "title": "Lógica de argumentação",
+ "subtitle": "Raciocínio Lógico e Matemática · Lógica proposicional",
+ "minutes": 25,
+ "pdf": "raciocinio_argumentacao.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Se uma conclusão **decorre** das premissas e se o argumento é **válido**, com as falácias como pegadinha."
+    },
+    {
+     "t": "h2",
+     "text": "1. Validade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Válido**: impossível ter premissas **V** e conclusão **F**.",
+      "Validade é de **forma**: argumento válido pode ter conclusão falsa (se alguma premissa for falsa).",
+      "Válido + premissas verdadeiras = conclusão verdadeira."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Formas válidas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Modus ponens**: P → Q; P ⊢ Q.",
+      "**Modus tollens**: P → Q; ¬Q ⊢ ¬P.",
+      "**Silogismo hipotético**: P → Q; Q → R ⊢ P → R.",
+      "**Silogismo disjuntivo**: P ∨ Q; ¬P ⊢ Q.",
+      "**Simplificação**: P ∧ Q ⊢ P. **Adição**: P ⊢ P ∨ Q."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Falácias"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Afirmar o consequente**: P → Q; Q ⊢ P (inválido).",
+      "**Negar o antecedente**: P → Q; ¬P ⊢ ¬Q (inválido).",
+      "P ∨ Q; P ⊢ ¬Q (inválido no ou inclusivo)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Métodos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concluir**: premissas V; comece pela simples ou pela conjunção e propague.",
+      "**Validar**: conclusão F e tente premissas V; se der, é inválido.",
+      "**Verdade e mentira**: suponha e procure contradição."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Premissas",
+      "Conclusão",
+      "Situação"
+     ],
+     "widths": [
+      0.4,
+      0.2,
+      0.4
+     ],
+     "rows": [
+      [
+       "P → Q; P",
+       "Q",
+       "Válido (modus ponens)"
+      ],
+      [
+       "P → Q; ¬Q",
+       "¬P",
+       "Válido (modus tollens)"
+      ],
+      [
+       "P → Q; Q",
+       "P",
+       "Inválido (afirma o consequente)"
+      ],
+      [
+       "P → Q; ¬P",
+       "¬Q",
+       "Inválido (nega o antecedente)"
+      ],
+      [
+       "P ∨ Q; ¬P",
+       "Q",
+       "Válido (silogismo disjuntivo)"
+      ],
+      [
+       "P ∨ Q; P",
+       "¬Q",
+       "Inválido"
+      ],
+      [
+       "P → Q; Q → R",
+       "P → R",
+       "Válido (silogismo hipotético)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Válido = **sem caso V, V, F**.",
+      "Forma, não conteúdo.",
+      "Ponens **afirma** o antecedente.",
+      "Tollens **nega** o consequente.",
+      "Afirmar o consequente: **falácia**.",
+      "Negar o antecedente: **falácia**.",
+      "Comece pela **proposição simples**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "ARGUMENTAÇÃO",
+  "rootSub": "premissas e conclusão",
+  "left": [
+   {
+    "label": "Válido",
+    "items": [
+     "premissas V",
+     "conclusão nunca F",
+     "questão de forma"
+    ]
+   },
+   {
+    "label": "Sólido",
+    "items": [
+     "válido",
+     "premissas verdadeiras",
+     "conclusão verdadeira"
+    ]
+   },
+   {
+    "label": "Modus ponens",
+    "items": [
+     "se P então Q",
+     "P",
+     "logo Q"
+    ]
+   },
+   {
+    "label": "Modus tollens",
+    "items": [
+     "se P então Q",
+     "não Q",
+     "logo não P"
+    ]
+   },
+   {
+    "label": "Silogismos",
+    "items": [
+     "hipotético: encadeia",
+     "disjuntivo: elimina",
+     "ou P ou Q, não P"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Falácia 1",
+    "items": [
+     "afirmar o consequente",
+     "se P então Q; Q",
+     "não dá P"
+    ]
+   },
+   {
+    "label": "Falácia 2",
+    "items": [
+     "negar o antecedente",
+     "se P então Q; não P",
+     "não dá não Q"
+    ]
+   },
+   {
+    "label": "Método concluir",
+    "items": [
+     "premissas V",
+     "comece pela simples",
+     "propague"
+    ]
+   },
+   {
+    "label": "Método validar",
+    "items": [
+     "conclusão F",
+     "premissas V?",
+     "se der: inválido"
+    ]
+   },
+   {
+    "label": "Verdade e mentira",
+    "items": [
+     "suponha um caso",
+     "procure contradição",
+     "falas opostas"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "De “Se houve fraude, a licitação será anulada” e “Houve fraude”, conclui-se que a licitação será anulada.",
+    "comment": "**Certo.** Modus ponens."
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "De “Se houve fraude, a licitação será anulada” e “A licitação não será anulada”, conclui-se que não houve fraude.",
+    "comment": "**Certo.** Modus tollens."
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "De “Se houve fraude, a licitação será anulada” e “A licitação será anulada”, conclui-se que houve fraude.",
+    "comment": "**Errado.** Afirmação do consequente."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "De “Se houve fraude, a licitação será anulada” e “Não houve fraude”, conclui-se que a licitação não será anulada.",
+    "comment": "**Errado.** Negação do antecedente."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "De “O mandado foi expedido pela vara criminal ou pela vara federal” e “Não foi pela vara criminal”, conclui-se que foi pela vara federal.",
+    "comment": "**Certo.** Silogismo disjuntivo."
+   },
+   {
+    "id": "q6",
+    "answer": "C",
+    "text": "Um argumento pode ser válido mesmo que todas as suas premissas sejam falsas.",
+    "comment": "**Certo.** Validade é de forma."
+   },
+   {
+    "id": "q7",
+    "answer": "E",
+    "text": "Se um argumento tem conclusão verdadeira, então ele é válido.",
+    "comment": "**Errado.** Um argumento inválido também pode ter conclusão verdadeira."
+   },
+   {
+    "id": "q8",
+    "answer": "C",
+    "text": "O argumento com premissas P → Q e Q → R e conclusão ¬R → ¬P é válido.",
+    "comment": "**Certo.** Silogismo hipotético dá P → R, cuja contrapositiva é ¬R → ¬P."
+   },
+   {
+    "id": "q9",
+    "answer": "E",
+    "text": "O argumento com premissas P ∨ Q e Q e conclusão ¬P é válido.",
+    "comment": "**Errado.** No ou inclusivo, P também pode ser verdadeira."
+   },
+   {
+    "id": "q10",
+    "answer": "C",
+    "text": "De “Se Ana viajou, Beto ficou” e “Se Beto ficou, Caio saiu” e “Caio não saiu”, conclui-se que Ana não viajou.",
+    "comment": "**Certo.** Caio não saiu → Beto não ficou → Ana não viajou."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Lógica proposicional clássica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

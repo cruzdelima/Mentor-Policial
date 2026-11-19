@@ -1,0 +1,363 @@
+{
+ "id": "rlm-proporcao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "RLM",
+ "topicIds": [
+  "RLM-08"
+ ],
+ "kind": "resumo",
+ "title": "Razão, proporção, regra de três e porcentagem",
+ "subtitle": "Raciocínio Lógico e Matemática · Matemática básica",
+ "minutes": 25,
+ "pdf": "raciocinio_proporcao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Razões em situações reais, **divisão proporcional**, **regra de três composta** e **porcentagens sucessivas**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Raciocínio Lógico e Matemática, o AOCP cobra sobretudo **problemas com contas** (porcentagem, proporção, combinatória, probabilidade, funções e geometria) e, na lógica, **equivalências e negações** (“assinale a alternativa que apresenta a negação de...”). As alternativas erradas costumam trazer o resultado de um **erro comum** de cálculo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Razão e proporção"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Razão a/b; proporção a/b = c/d → **a · d = b · c**.",
+      "Escala 1:50.000 → 1 cm = 500 m.",
+      "Direta: razão constante. Inversa: **produto** constante."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Divisão proporcional"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Direta: total ÷ soma dos números = constante; multiplique.",
+      "Inversa: use os **inversos** (quem tem número maior recebe menos)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Regra de três"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Compare cada grandeza com a procurada: aumenta junto (direta) ou ao contrário (inversa).",
+      "Multiplique pelas frações, **invertendo as inversas**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Porcentagem"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Aumento de p% → × (1 + p/100); desconto → × (1 − p/100).",
+      "Variação = (final − inicial)/**inicial**.",
+      "Sucessivas: **multiplique** os fatores.",
+      "Valor antes do aumento: **divida** pelo fator."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Fator",
+      "Resultado"
+     ],
+     "widths": [
+      0.44,
+      0.3,
+      0.26
+     ],
+     "rows": [
+      [
+       "+10% e +20%",
+       "1,1 × 1,2",
+       "+32%"
+      ],
+      [
+       "+20% e +20%",
+       "1,2 × 1,2",
+       "+44%"
+      ],
+      [
+       "−20% e +20%",
+       "0,8 × 1,2",
+       "−4%"
+      ],
+      [
+       "+10% e −10%",
+       "1,1 × 0,9",
+       "−1%"
+      ],
+      [
+       "−15% e −10%",
+       "0,85 × 0,9",
+       "−23,5%"
+      ],
+      [
+       "Desfazer +25%",
+       "1 ÷ 1,25",
+       "−20%"
+      ],
+      [
+       "Desfazer −20%",
+       "1 ÷ 0,8",
+       "+25%"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Meios × extremos.",
+      "Inversa: **inverta** a fração.",
+      "Porcentagens se **multiplicam**.",
+      "Variação: divide pelo **inicial**.",
+      "Desconto não desfaz aumento de mesma taxa."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PROPORÇÃO",
+  "rootSub": "e porcentagem",
+  "left": [
+   {
+    "label": "Razão",
+    "items": [
+     "a dividido por b",
+     "escala",
+     "velocidade"
+    ]
+   },
+   {
+    "label": "Proporção",
+    "items": [
+     "a/b = c/d",
+     "meios e extremos",
+     "produto cruzado"
+    ]
+   },
+   {
+    "label": "Direta",
+    "items": [
+     "dobra e dobra",
+     "razão constante",
+     "viaturas e litros"
+    ]
+   },
+   {
+    "label": "Inversa",
+    "items": [
+     "dobra e cai à metade",
+     "produto constante",
+     "agentes e dias"
+    ]
+   },
+   {
+    "label": "Divisão",
+    "items": [
+     "some os números",
+     "ache a constante",
+     "inversa: inversos"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Regra de três",
+    "items": [
+     "simples ou composta",
+     "compare com a pedida",
+     "inverta as inversas"
+    ]
+   },
+   {
+    "label": "Fator",
+    "items": [
+     "+p%: 1 + p/100",
+     "-p%: 1 - p/100",
+     "multiplique"
+    ]
+   },
+   {
+    "label": "Variação",
+    "items": [
+     "final menos inicial",
+     "sobre o inicial",
+     "80 a 100: 25%"
+    ]
+   },
+   {
+    "label": "Sucessivas",
+    "items": [
+     "multiplicam",
+     "10 e 20: 32%",
+     "não somam"
+    ]
+   },
+   {
+    "label": "Volta",
+    "items": [
+     "divida pelo fator",
+     "+25% volta com -20%",
+     "-20% volta com +25%"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Se 3/x = 9/12, então x = 4.",
+    "comment": "**Certo.** 9x = 36.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em um mapa na escala 1:100.000, 3 cm representam 30 km.",
+    "comment": "**Errado.** 3 × 100.000 cm = 3 km.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Dividindo-se R$ 1.200 em partes diretamente proporcionais a 1, 2 e 3, a maior parte é R$ 600.",
+    "comment": "**Certo.** Constante 200; maior 3 × 200.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Se 3 servidores digitalizam 900 páginas em 5 dias, 5 servidores, no mesmo ritmo, digitalizam 1.500 páginas em 5 dias.",
+    "comment": "**Certo.** Direta: 900 × 5/3.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Se 10 agentes fazem uma vistoria em 12 dias, 15 agentes fazem a mesma vistoria em 18 dias.",
+    "comment": "**Errado.** Inversa: 10 × 12/15 = 8 dias.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Dois aumentos sucessivos de 10% equivalem a um único aumento de",
+    "options": [
+     "20%",
+     "20,5%",
+     "21%",
+     "22%",
+     "11%"
+    ],
+    "comment": "**Gabarito: C.** 1,1 × 1,1 = 1,21.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Se 10 agentes fazem uma vistoria em 12 dias, 15 agentes, no mesmo ritmo, fazem a mesma vistoria em",
+    "options": [
+     "8 dias.",
+     "10 dias.",
+     "18 dias.",
+     "9 dias.",
+     "6 dias."
+    ],
+    "comment": "**Gabarito: A.** 10 × 12/15 = 8.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Se um preço de R$ 90 já inclui um desconto de 25%, o preço original era",
+    "options": [
+     "R$ 112,50",
+     "R$ 115,00",
+     "R$ 100,00",
+     "R$ 67,50",
+     "R$ 120,00"
+    ],
+    "comment": "**Gabarito: E.** 90/0,75 = 120.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Para desfazer um desconto de 20%, é necessário um aumento de",
+    "options": [
+     "20%",
+     "25%",
+     "30%",
+     "15%",
+     "40%"
+    ],
+    "comment": "**Gabarito: B.** 1/0,8 = 1,25.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Se um valor caiu de 250 para 200, a redução foi de",
+    "options": [
+     "25%",
+     "50%",
+     "10%",
+     "20%",
+     "15%"
+    ],
+    "comment": "**Gabarito: D.** 50/250 = 0,2.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Matemática básica.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}
