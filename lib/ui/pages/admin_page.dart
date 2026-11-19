@@ -8,6 +8,7 @@ import '../dialogs.dart';
 import '../theme.dart';
 import '../widgets.dart';
 import 'catalog_editor.dart';
+import 'content_checklist.dart';
 
 /// Administração: lista de contas, concessão de administradores (só o dono) e registro de auditoria.
 /// Toda a autorização é feita no servidor; esta tela apenas exibe o que ele libera.
@@ -150,7 +151,19 @@ class _AdminPageState extends State<AdminPage> {
       ToggleChip(label: 'CONTAS', selected: tab == 0, onTap: () => setState(() => tab = 0)),
       const SizedBox(width: 8),
       ToggleChip(label: 'CATÁLOGO E CONCURSOS', selected: tab == 1, onTap: () => setState(() => tab = 1)),
+      const SizedBox(width: 8),
+      ToggleChip(label: 'MATERIAIS', selected: tab == 2, onTap: () => setState(() => tab = 2)),
     ]);
+    if (tab == 2) {
+      return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        PageHeader(
+          title: 'Materiais por edital',
+          subtitle: 'Checklist de produção: cada assunto do edital, o que já foi lançado na plataforma e o que já foi validado e liberado aos alunos.',
+          actions: [tabs],
+        ),
+        const Expanded(child: ContentChecklist()),
+      ]);
+    }
     if (tab == 1) {
       return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         PageHeader(

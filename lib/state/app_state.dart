@@ -19,7 +19,7 @@ import '../data/content.dart';
 import '../data/storage.dart';
 import 'cloud_sync.dart';
 
-const kAppVersion = '0.12.0';
+const kAppVersion = '0.12.1';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].

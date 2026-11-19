@@ -13,6 +13,8 @@ import 'package:mentor_policial/core/models.dart';
 import 'package:mentor_policial/core/planner.dart';
 import 'package:mentor_policial/data/storage.dart';
 import 'package:mentor_policial/state/app_state.dart';
+import 'package:mentor_policial/ui/pages/content_checklist.dart';
+import 'package:mentor_policial/ui/theme.dart';
 
 /// Lê os assets direto do disco (fora da zona de tempo simulado dos testes).
 class DiskBundle extends CachingAssetBundle {
@@ -238,5 +240,44 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('SALVAR'), findsOneWidget);
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('checklist de materiais por edital (ADMIN)', (tester) async {
+    final problems = <String>[];
+    final previous = FlutterError.onError;
+    FlutterError.onError = (d) => problems.add(d.exceptionAsString());
+    for (final size in const [Size(1366, 768), Size(1024, 768)]) {
+      await setWindow(tester, size);
+      final p = pfProfile();
+      final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
+      await tester.pumpWidget(MaterialApp(
+        key: ValueKey(size),
+        theme: buildTheme(),
+        home: AppScope(controller: app, child: const Scaffold(body: ContentChecklist())),
+      ));
+      await tester.pumpAndSettle();
+      expect(find.text('Assuntos do edital'), findsOneWidget);
+      await tester.tap(find.text('FALTA PRODUZIR'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('PRONTOS'));
+      await tester.pumpAndSettle();
+    }
+    // O CFO CBMPE tem assuntos só do edital: eles aparecem marcados como tal.
+    final p = pfProfile();
+    final app = controllerWith(UserData(profile: p, anchorDate: p.startDate, planSignature: p.planSignature));
+    expect(catalog.contests.any((c) => c.id == 'CBMPE26_TEN'), isTrue);
+    await tester.pumpWidget(MaterialApp(
+      key: const ValueKey('cbmpe'),
+      theme: buildTheme(),
+      home: AppScope(controller: app, child: const Scaffold(body: ContentChecklist())),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byType(DropdownButtonFormField<String>));
+    await tester.pumpAndSettle();
+    await tester.tap(find.textContaining('CFO CBMPE').last);
+    await tester.pumpAndSettle();
+    expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
+    FlutterError.onError = previous;
+    expect(problems, isEmpty, reason: problems.join('\n'));
   });
 }
