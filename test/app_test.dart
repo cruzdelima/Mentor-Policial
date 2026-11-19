@@ -258,7 +258,10 @@ void main() {
             home: AppScope(controller: app, child: Scaffold(body: ContentChecklist(initialOptionId: option))),
           ));
           await tester.pump(const Duration(milliseconds: 300));
-          expect(find.text('Assuntos do edital'), findsOneWidget);
+          await tester.pump(const Duration(seconds: 2));
+          // Nada pode ficar animando sem parar nesta tela.
+          expect(tester.binding.transientCallbackCount, 0, reason: 'animação contínua em $option');
+          expect(find.text('ASSUNTOS DO EDITAL'), findsOneWidget);
           if (option == 'CBMPE26_TEN') expect(find.text('SÓ DESTE EDITAL'), findsWidgets);
           for (final f in const ['FALTA PRODUZIR', 'FALTA VALIDAR', 'PRONTOS', 'TODOS']) {
             await tester.tap(find.text(f));
