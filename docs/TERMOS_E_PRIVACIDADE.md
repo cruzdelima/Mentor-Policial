@@ -2,7 +2,7 @@
 
 > **Rascunho** preparado para a fase de testes. Antes de cobrar assinaturas ou abrir o app ao público, peça a revisão de um advogado e preencha os campos entre colchetes.
 
-Versão: 0.1 · Vigência: [data] · Responsável (controlador): [nome completo / CNPJ ou CPF] · Contato para assuntos de privacidade: [e-mail]
+Versão: 0.2 · Vigência: [data] · Responsável (controlador): [nome completo / CNPJ ou CPF] · Contato para assuntos de privacidade: [e-mail]
 
 ## 1. O que é o Taticum
 
@@ -16,8 +16,9 @@ Aplicativo para computador que organiza o estudo para concursos da área policia
 | Senha | Autenticação. Guardamos apenas um código irreversível (hash); ninguém consegue ler sua senha | Execução do contrato |
 | Data de aceite destes termos | Comprovar o consentimento e o aceite | Cumprimento de obrigação legal (inciso II) |
 | Registros técnicos de acesso (data, hora, IP) mantidos pelo provedor de autenticação | Segurança e prevenção a fraudes | Legítimo interesse (inciso IX) |
+| Progresso de estudo (cronograma, missões concluídas, diário, questões respondidas, progresso de leitura) e o nome do aparelho que gravou por último | Guardar uma cópia de segurança e permitir continuar o estudo em outro computador | Execução do contrato (inciso V) |
 
-**Seus estudos** (cronograma, diário, questões, anotações) ficam **no seu computador** e não são enviados aos nossos servidores nesta versão.
+**Seus estudos** ficam no seu computador e, desde a versão 0.10, também numa cópia na nuvem ligada à sua conta. Essa cópia só pode ser lida por você: nem os administradores nem o responsável pelo app têm acesso a ela pelo aplicativo.
 
 Não coletamos CPF, endereço, documentos nem dados sensíveis. Não vendemos nem compartilhamos seus dados para publicidade.
 
@@ -30,11 +31,11 @@ Não coletamos CPF, endereço, documentos nem dados sensíveis. Não vendemos ne
 
 ## 4. Quem pode ver seus dados
 
-Apenas você e os administradores autorizados pelo responsável, para suporte e gestão das contas. Todo acesso administrativo que altera permissões é registrado.
+Seus dados de conta (nome, e-mail, celular, classificação): você e os administradores autorizados pelo responsável, para suporte e gestão das contas. Seu progresso de estudo: só você. Todo acesso administrativo que altera permissões ou classificações é registrado.
 
 ## 5. Por quanto tempo
 
-Enquanto sua conta existir. Ao excluí-la, os dados são apagados do servidor; registros técnicos de segurança podem ser mantidos pelo prazo exigido em lei.
+Enquanto sua conta existir. Ao excluí-la, os dados (inclusive a cópia do progresso de estudo) são apagados do servidor; registros técnicos de segurança podem ser mantidos pelo prazo exigido em lei.
 
 ## 6. Seus direitos (LGPD, art. 18)
 

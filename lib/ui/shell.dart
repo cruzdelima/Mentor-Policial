@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../core/dates.dart';
 import '../data/storage.dart';
 import '../state/app_state.dart';
+import '../state/cloud_sync.dart';
+import 'dialogs.dart';
 import '../state/account.dart';
 import 'pages/admin_page.dart';
 import 'pages/contests_page.dart';
@@ -58,6 +60,7 @@ class Shell extends StatelessWidget {
             _Sidebar(compact: compact),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                if (app.sync?.state == SyncState.conflict && app.sync?.conflict != null) _SyncConflictBanner(sync: app.sync!),
                 if (app.update != null && !app.updateDismissed) _UpdateBanner(version: app.update!.version, url: app.update!.url),
                 Expanded(
                   child: AnimatedSwitcher(
@@ -228,6 +231,56 @@ class _UpdateBanner extends StatelessWidget {
           onPressed: () => openExternal(url),
           icon: const Icon(Icons.download, size: 18),
           label: const Text('BAIXAR ATUALIZAÇÃO'),
+        ),
+      ]),
+    );
+  }
+}
+
+/// Os dados mudaram aqui e em outro aparelho: o aluno escolhe qual versão manter.
+class _SyncConflictBanner extends StatelessWidget {
+  const _SyncConflictBanner({required this.sync});
+  final CloudSync sync;
+
+  @override
+  Widget build(BuildContext context) {
+    final r = sync.conflict!;
+    final when = '${fmtDate(r.updatedAt)} às ${two(r.updatedAt.hour)}:${two(r.updatedAt.minute)}';
+    final where = r.device.isEmpty ? 'outro aparelho' : r.device;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 10),
+      color: AppColors.amber,
+      child: Row(children: [
+        const Icon(Icons.cloud_sync_outlined, color: AppColors.bg),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Text(
+            'Seu progresso na nuvem é diferente do deste computador (última gravação na nuvem: $where, $when). Qual você quer manter?',
+            style: AppText.strong(AppColors.bg),
+          ),
+        ),
+        TextButton(
+          style: TextButton.styleFrom(foregroundColor: AppColors.bg),
+          onPressed: () async {
+            final ok = await confirm(context, 'Usar o progresso da nuvem',
+                'O progresso deste computador será substituído pelo que está salvo na nuvem ($where, $when). '
+                'Uma cópia do progresso atual fica guardada na pasta de dados do Taticum (substituidos).',
+                ok: 'USAR O DA NUVEM');
+            if (ok) await sync.useRemote();
+          },
+          child: const Text('USAR O DA NUVEM'),
+        ),
+        const SizedBox(width: 6),
+        ElevatedButton(
+          style: ElevatedButton.styleFrom(backgroundColor: AppColors.bg, foregroundColor: AppColors.amber),
+          onPressed: () async {
+            final ok = await confirm(context, 'Manter o progresso deste computador',
+                'A cópia da nuvem ($where, $when) será substituída pelo progresso deste computador. '
+                'Os outros aparelhos passarão a usar este.',
+                ok: 'MANTER ESTE');
+            if (ok) await sync.keepLocal();
+          },
+          child: const Text('MANTER O DESTE COMPUTADOR'),
         ),
       ]),
     );

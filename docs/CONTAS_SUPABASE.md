@@ -25,6 +25,7 @@ Leva cerca de 40 minutos. Faça uma vez. Enquanto isso não for feito, o app fun
 
 5. Repita com [`supabase/migrations/0003_convites.sql`](../supabase/migrations/0003_convites.sql). Ele completa o perfil de quem foi convidado pelo painel e depois criou a conta pelo app.
 6. Repita com [`supabase/migrations/0004_classificacao.sql`](../supabase/migrations/0004_classificacao.sql). Ele cria a classificação dos alunos (Testador Beta, Testador Gratuito, Assinante mensal e anual), que o dono define em ADMIN › CONTAS.
+7. Repita com [`supabase/migrations/0005_progresso.sql`](../supabase/migrations/0005_progresso.sql). Ele guarda na nuvem uma cópia do progresso de estudo de cada aluno (só o próprio aluno lê), para continuar em outro computador e, depois, no navegador.
 
 > Os arquivos são aplicados **em ordem** e **uma vez só**. Quando sair um arquivo novo (0003, 0004…), rode só o novo.
 

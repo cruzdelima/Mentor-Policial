@@ -113,3 +113,20 @@ set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000
 select 'T54 dono rebaixa assinatura ativa (deve dar erro)' t; select public.set_plan((select id from public.profiles where email='convidado@x.com'),'tester','');
 select 'T55 auditoria da classificação' t, action, detail from public.audit_log_view where action = 'alterou classificação';
 reset role;
+
+-- ===== progresso na nuvem (0005)
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-00000000000a',false);
+select 'T56 A grava pela primeira vez (1)' t, public.save_study('{"profile":{"name":"A"}}'::jsonb, 0, 'PC-A');
+select 'T57 A grava com versão certa (2)' t, public.save_study('{"profile":{"name":"A2"}}'::jsonb, 1, 'PC-A');
+select 'T58 outro aparelho grava com versão velha (deve dar erro)' t; select public.save_study('{"x":1}'::jsonb, 1, 'Tablet');
+select 'T59 primeiro envio de outro aparelho quando já existe (deve dar erro)' t; select public.save_study('{"x":1}'::jsonb, 0, 'Tablet');
+select 'T60 dado que não é objeto (deve dar erro)' t; select public.save_study('[1,2]'::jsonb, 2, 'PC-A');
+select 'T61 A lê o próprio progresso (1 linha, versão 2, A2)' t, count(*), max(version), max(data->'profile'->>'name') from public.study_data;
+select 'T62 A grava direto na tabela (deve dar erro)' t; update public.study_data set version = 99;
+reset role;
+set role authenticated; select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',false);
+select 'T63 dono lê progresso dos alunos (0)' t, count(*) from public.study_data;
+reset role;
+set role anon;
+select 'T64 anônimo grava progresso (deve dar erro)' t; select public.save_study('{}'::jsonb, 0, '');
+reset role;

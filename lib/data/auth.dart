@@ -10,6 +10,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import '../state/cloud_sync.dart';
 import 'catalog_store.dart';
 import 'storage.dart';
 
@@ -180,7 +181,7 @@ String _friendly(String code, String raw, int status) {
   return raw.isEmpty ? 'Não foi possível concluir a operação (erro $status).' : raw;
 }
 
-class AuthService implements CatalogRemote {
+class AuthService implements CatalogRemote, StudyRemote {
   AuthService({required this.url, required this.apiKey, required this.storage});
 
   final String url;
@@ -382,6 +383,45 @@ class AuthService implements CatalogRemote {
           r['detail'] as String? ?? '',
         ),
     ];
+  }
+
+  // ------------------------------------------------------------------ progresso na nuvem
+
+  @override
+  Future<RemoteStudy?> fetchStudy({bool withData = true}) async {
+    try {
+      final s = await validSession();
+      final cols = withData ? 'data,version,device,updated_at' : 'version,device,updated_at';
+      final rows = await _send('GET', '/rest/v1/study_data?select=$cols&user_id=eq.${s.userId}', auth: true) as List;
+      if (rows.isEmpty) return null;
+      final r = rows.first as Map<String, dynamic>;
+      return RemoteStudy(
+        version: (r['version'] as num).toInt(),
+        device: r['device'] as String? ?? '',
+        updatedAt: DateTime.tryParse(r['updated_at'] as String? ?? '')?.toLocal() ?? DateTime.now(),
+        data: withData ? (r['data'] as Map).cast<String, dynamic>() : null,
+      );
+    } on AuthError catch (e) {
+      throw _studyError(e);
+    }
+  }
+
+  @override
+  Future<int> saveStudy(Map<String, dynamic> data, int baseVersion, String device) async {
+    try {
+      final v = await _send('POST', '/rest/v1/rpc/save_study',
+          body: {'new_data': data, 'base_version': baseVersion, 'device_name': device}, auth: true);
+      return (v as num).toInt();
+    } on AuthError catch (e) {
+      throw _studyError(e);
+    }
+  }
+
+  Exception _studyError(AuthError e) {
+    if (e.offline) return StudyOffline();
+    if (e.code == 'TS409' || e.code == '23505') return StudyConflict();
+    if (const {'PGRST202', 'PGRST205', '42P01', '42883'}.contains(e.code)) return StudyUnavailable();
+    return e;
   }
 
   // ------------------------------------------------------------------ catálogo extra

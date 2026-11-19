@@ -5,6 +5,7 @@ import '../../core/models.dart';
 import '../../core/validation.dart';
 import '../../data/auth.dart';
 import '../../state/account.dart';
+import '../../state/cloud_sync.dart';
 import '../auth_screen.dart' show PasswordChecklist;
 import '../../data/storage.dart';
 import '../../state/app_state.dart';
@@ -356,6 +357,10 @@ class _AccountPanel extends StatelessWidget {
           Text('Sem conexão: seus estudos continuam salvos neste computador. Os dados da conta serão atualizados quando a internet voltar.',
               style: AppText.small(AppColors.amber)),
         ],
+        if (acc.app?.sync != null) ...[
+          const SizedBox(height: 14),
+          ListenableBuilder(listenable: acc.app!.sync!, builder: (context, _) => _SyncLine(sync: acc.app!.sync!)),
+        ],
         const SizedBox(height: 16),
         Wrap(spacing: 10, runSpacing: 10, children: [
           OutlinedButton.icon(
@@ -533,4 +538,35 @@ String _accessText(AccountProfile p) {
       '${planLabel(p.plan)}${p.planExpiresAt == null ? '' : ' · válida até ${fmtDate(p.planExpiresAt!)}'}',
     Plan.none => 'Gratuito durante os testes',
   };
+}
+
+/// Situação do progresso na nuvem, com o botão de sincronizar.
+class _SyncLine extends StatelessWidget {
+  const _SyncLine({required this.sync});
+  final CloudSync sync;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = sync.lastSync;
+    final at = t == null ? '' : ' às ${two(t.hour)}:${two(t.minute)}';
+    final (IconData icon, Color color, String text) = switch (sync.state) {
+      SyncState.synced => (Icons.cloud_done_outlined, AppColors.green, 'Progresso salvo na nuvem$at. Entre em outro computador com esta conta e continue de onde parou.'),
+      SyncState.pending || SyncState.syncing || SyncState.starting => (Icons.cloud_upload_outlined, AppColors.muted, 'Enviando seu progresso para a nuvem…'),
+      SyncState.offline => (Icons.cloud_off_outlined, AppColors.amber, 'Sem internet: o progresso está salvo neste computador e sobe para a nuvem quando a conexão voltar.'),
+      SyncState.conflict => (Icons.cloud_sync_outlined, AppColors.amber, 'O progresso deste computador e o da nuvem são diferentes. Escolha qual manter na faixa no topo da tela.'),
+      SyncState.unavailable => (Icons.cloud_off_outlined, AppColors.muted, 'O salvamento na nuvem ainda não foi ativado no servidor.'),
+      SyncState.error => (Icons.error_outline, AppColors.red, 'Não foi possível salvar na nuvem agora. Tentaremos de novo em alguns minutos.'),
+    };
+    return Row(children: [
+      Icon(icon, size: 20, color: color),
+      const SizedBox(width: 8),
+      Expanded(child: Text(text, style: AppText.small(color == AppColors.muted ? AppColors.text : color))),
+      if (sync.state != SyncState.unavailable && sync.state != SyncState.conflict)
+        TextButton.icon(
+          onPressed: sync.state == SyncState.syncing ? null : sync.syncNow,
+          icon: const Icon(Icons.sync, size: 17),
+          label: const Text('SINCRONIZAR AGORA'),
+        ),
+    ]);
+  }
 }

@@ -16,8 +16,9 @@ import '../core/stats.dart';
 import '../data/catalog_store.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
+import 'cloud_sync.dart';
 
-const kAppVersion = '0.9.2';
+const kAppVersion = '0.10.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
@@ -286,6 +287,7 @@ class AppController extends ChangeNotifier {
   @override
   void dispose() {
     _timer?.cancel();
+    sync?.dispose();
     super.dispose();
   }
 
@@ -385,6 +387,37 @@ class AppController extends ChangeNotifier {
   }
 
   void _changed() {
+    _recompute();
+    notifyListeners();
+    if (persist) {
+      storage.save(data);
+      sync?.markDirty();
+    }
+  }
+
+  /// Progresso na nuvem (null quando o app roda sem contas).
+  CloudSync? sync;
+
+  /// Liga a cópia na nuvem desta conta.
+  Future<void> attachSync(StudyRemote remote) async {
+    sync?.dispose();
+    final s = CloudSync(
+      remote: remote,
+      metaFile: storage.syncFile,
+      device: Storage.deviceName(),
+      readLocal: () => data.toJson(),
+      adoptRemote: _adoptRemote,
+      localIsEmpty: () => data.profile == null,
+    );
+    sync = s;
+    s.addListener(notifyListeners);
+    await s.start();
+  }
+
+  /// Outro aparelho estudou: troca os dados locais pela cópia da nuvem (sem reenviar).
+  void _adoptRemote(Map<String, dynamic> json) {
+    if (persist && data.profile != null) unawaited(storage.keepReplaced(data).then((_) {}, onError: (_) {}));
+    data = UserData.fromJson(json);
     _recompute();
     notifyListeners();
     if (persist) storage.save(data);
@@ -589,7 +622,10 @@ class AppController extends ChangeNotifier {
     final cur = data.readProgress[materialId] ?? -1;
     if (section > cur) {
       data.readProgress[materialId] = section;
-      if (persist) storage.save(data);
+      if (persist) {
+        storage.save(data);
+        sync?.markDirty();
+      }
     }
   }
 

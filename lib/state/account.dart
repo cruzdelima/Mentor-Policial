@@ -1,6 +1,7 @@
 /// Estado da conta: sessão, perfil e o [AppController] do aluno logado.
 library;
 
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/widgets.dart';
@@ -72,6 +73,7 @@ class AccountController extends ChangeNotifier {
     app!.reviewer = isOwner; // só o dono vê materiais em revisão
     status = AccountStatus.signedIn;
     notifyListeners();
+    unawaited(app!.attachSync(service)); // progresso na nuvem (não atrasa a entrada)
   }
 
   Future<void> signIn(String email, String password) async {
@@ -106,6 +108,11 @@ class AccountController extends ChangeNotifier {
   }
 
   Future<void> signOut() async {
+    // Envia o que ainda não subiu para a nuvem antes de sair.
+    try {
+      final sy = app?.sync;
+      if (sy != null && sy.dirty) await sy.push().timeout(const Duration(seconds: 8));
+    } catch (_) {}
     await service.signOut();
     await _leave();
   }

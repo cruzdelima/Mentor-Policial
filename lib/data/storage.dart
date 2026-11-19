@@ -83,6 +83,20 @@ class Storage {
   static String _join(String a, String b) => '$a${Platform.pathSeparator}$b';
   static String join(String a, String b) => _join(a, b);
 
+  /// Nome deste aparelho, mostrado ao aluno quando há dados de dois aparelhos.
+  static String deviceName() {
+    final os = Platform.isWindows ? 'Windows' : (Platform.isMacOS ? 'Mac' : 'Linux');
+    try {
+      final h = Platform.localHostname.trim();
+      return h.isEmpty ? os : '$h ($os)';
+    } catch (_) {
+      return os;
+    }
+  }
+
+  /// Controle da cópia na nuvem (versão recebida e mudanças pendentes).
+  File get syncFile => File(_join(dir.path, 'nuvem.json'));
+
   Future<UserData> load() async {
     await dir.create(recursive: true);
     for (final f in [_file, _tmp]) {
@@ -148,6 +162,16 @@ class Storage {
         old.deleteSync();
       } catch (_) {}
     }
+  }
+
+  /// Guarda uma cópia dos dados antes de serem substituídos pela versão da nuvem (pasta "substituidos").
+  Future<String> keepReplaced(UserData data) async {
+    final d = Directory(_join(dir.path, 'substituidos'));
+    await d.create(recursive: true);
+    final now = DateTime.now();
+    final f = File(_join(d.path, 'antes_da_nuvem_${isoDate(now)}_${two(now.hour)}${two(now.minute)}${two(now.second)}.json'));
+    await f.writeAsString(const JsonEncoder.withIndent(' ').convert(data.toJson()));
+    return f.path;
   }
 
   /// Exporta um backup para a pasta Documentos (ou para a pasta de dados) e devolve o caminho.
