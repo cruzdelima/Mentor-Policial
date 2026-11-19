@@ -1,0 +1,433 @@
+{
+ "id": "lp-classes1-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-03"
+ ],
+ "kind": "resumo",
+ "title": "Substantivo, adjetivo, artigo e numeral",
+ "subtitle": "Língua Portuguesa · Morfologia",
+ "minutes": 40,
+ "pdf": "portugues_classes1.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A **classe da palavra no contexto** (substantivação, adjetivo × advérbio, um artigo × um numeral) e o efeito de **trocar, tirar ou deslocar** um termo: artigo, adjetivo anteposto, flexão de compostos."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Substantivo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concreto**: ser com existência própria, real ou imaginária (casa, ar, fada). **Abstrato**: ação, estado, qualidade, sentimento (prisão, beleza, saudade).",
+      "**Substantivação**: qualquer palavra com determinante vira substantivo — *o olhar, um não, o porquê*.",
+      "**Comum de dois**: o/a agente, o/a policial. **Sobrecomum**: a testemunha, a vítima, o cônjuge, a criança.",
+      "**Gênero que muda o sentido**: o capital/a capital; o cabeça/a cabeça; o moral/a moral; o grama/a grama.",
+      "**Atenção ao gênero**: o dó, o champanha, o eclipse × a alface, a cal, a dinamite, a omoplata."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Plural",
+      "Regra",
+      "Exemplos"
+     ],
+     "widths": [
+      0.2,
+      0.36,
+      0.44
+     ],
+     "rows": [
+      [
+       "-ão",
+       "-ões, -ães ou -ãos",
+       "eleições; pães, capitães, escrivães; cidadãos, órgãos, irmãos"
+      ],
+      [
+       "-il",
+       "Oxítona: -is. Paroxítona: -eis",
+       "fuzis × fósseis, répteis"
+      ],
+      [
+       "-zinho",
+       "Plural da base, sem o S, + zinhos",
+       "pãezinhos, florezinhas, papeizinhos"
+      ],
+      [
+       "Compostos",
+       "Variam os que são substantivo, adjetivo ou numeral",
+       "couves-flores, guardas-civis, segundas-feiras"
+      ],
+      [
+       "Compostos",
+       "Verbo e palavra invariável não variam",
+       "guarda-chuvas, vice-presidentes, abaixo-assinados"
+      ],
+      [
+       "Compostos",
+       "Com preposição: só o primeiro",
+       "pés de moleque, pores do sol"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Adjetivo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Locução adjetiva**: de chuva = pluvial; de rio = fluvial; de aluno = discente; de professor = docente; de prisão = carcerário.",
+      "**Compostos**: só o último varia (político-sociais). **Cor + substantivo**: invariável (verde-garrafa, amarelo-ouro); também azul-marinho e azul-celeste.",
+      "**Mais bom, mais grande**: corretos ao comparar duas qualidades do mesmo ser.",
+      "**Superlativos eruditos**: paupérrimo, celebérrimo, amicíssimo, fidelíssimo, dificílimo, macérrimo, nobilíssimo.",
+      "**Posição**: homem pobre (sem recursos) × pobre homem (coitado); grande homem × homem grande.",
+      "**Adjetivo × advérbio**: *falaram alto* (advérbio, invariável) × *são altas* (adjetivo)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Artigo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Todo o** = inteiro; **todo** = qualquer.",
+      "Antes de **possessivo**: facultativo (por isso a crase também é).",
+      "Depois de **cujo**: proibido. Depois de **ambos**: obrigatório.",
+      "**Uns** + numeral = aproximação (*uns vinte homens*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Numeral"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Reis, papas, séculos**: ordinal até décimo; cardinal de onze em diante (século V = quinto; século XXI = vinte e um).",
+      "**Artigos de lei**: ordinal até nove; cardinal de dez em diante (art. 9º = nono; art. 10 = dez).",
+      "**Milhão e milhar** são masculinos: *os milhares de pessoas*.",
+      "**Meio**: numeral varia (*meia garrafa*); advérbio não (*meio cansada*).",
+      "**Um**: numeral se indica quantidade; artigo se indica imprecisão."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: a mesma palavra, classes diferentes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Palavra",
+      "Como…",
+      "Exemplo",
+      "Como…",
+      "Exemplo"
+     ],
+     "widths": [
+      0.12,
+      0.14,
+      0.3,
+      0.14,
+      0.3
+     ],
+     "rows": [
+      [
+       "jantar",
+       "substantivo",
+       "O jantar atrasou.",
+       "verbo",
+       "Vamos jantar."
+      ],
+      [
+       "alto",
+       "adjetivo",
+       "Muro alto.",
+       "advérbio",
+       "Falou alto."
+      ],
+      [
+       "um",
+       "artigo",
+       "Um homem ligou.",
+       "numeral",
+       "Só um homem ligou."
+      ],
+      [
+       "meio",
+       "numeral",
+       "Meia hora.",
+       "advérbio",
+       "Meio tensa."
+      ],
+      [
+       "certo",
+       "adjetivo",
+       "Resposta certa.",
+       "pronome",
+       "Certa resposta."
+      ],
+      [
+       "não",
+       "advérbio",
+       "Não veio.",
+       "substantivo",
+       "Ouviu um não."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A classe depende da **função na frase**.",
+      "Determinante antes = **substantivo** (o olhar, um não).",
+      "Invariável ligado ao verbo = **advérbio**.",
+      "**Guarda** verbo não varia (guarda-chuvas); **guarda** substantivo varia (guardas-civis).",
+      "Cor + substantivo: **invariável**.",
+      "Adjetivo anteposto pode **mudar o sentido**.",
+      "**Todo o** ≠ **todo**.",
+      "**Cujo** nunca vem seguido de artigo.",
+      "Art. 9º (nono), art. 10 (dez).",
+      "**Os** milhares; **meio** cansada."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CLASSES NOMINAIS",
+  "rootSub": "a classe depende da função na frase",
+  "left": [
+   {
+    "label": "Substantivo",
+    "items": [
+     "Nomeia seres, ações, qualidades",
+     "Abstrato: ação, estado, qualidade",
+     "Substantivação: o olhar, um não"
+    ]
+   },
+   {
+    "label": "Gênero",
+    "items": [
+     "Comum de dois: o/a agente",
+     "Sobrecomum: a testemunha",
+     "o capital ≠ a capital"
+    ]
+   },
+   {
+    "label": "Plural",
+    "items": [
+     "-ão: -ões, -ães, -ãos",
+     "fuzis × fósseis",
+     "pãezinhos, florezinhas"
+    ]
+   },
+   {
+    "label": "Plural dos compostos",
+    "items": [
+     "Variam os dois: guardas-civis",
+     "Só o 2º: guarda-chuvas",
+     "Só o 1º: pés de moleque"
+    ]
+   },
+   {
+    "label": "Banca",
+    "items": [
+     "Classe no contexto",
+     "Tirar o artigo muda o sentido?",
+     "Deslocar o adjetivo muda?"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Adjetivo",
+    "items": [
+     "Caracteriza o substantivo",
+     "Locução: de chuva = pluvial",
+     "Adjetivo varia; advérbio não"
+    ]
+   },
+   {
+    "label": "Adjetivo composto",
+    "items": [
+     "Só o último varia",
+     "Cor + substantivo: invariável",
+     "azul-marinho: invariável"
+    ]
+   },
+   {
+    "label": "Grau e posição",
+    "items": [
+     "mais bom do que esperto",
+     "paupérrimo, celebérrimo",
+     "pobre homem ≠ homem pobre"
+    ]
+   },
+   {
+    "label": "Artigo",
+    "items": [
+     "todo o = inteiro · todo = qualquer",
+     "Facultativo antes de possessivo",
+     "Nunca depois de cujo"
+    ]
+   },
+   {
+    "label": "Numeral",
+    "items": [
+     "Século V: quinto · XXI: vinte e um",
+     "Art. 9º: nono · art. 10: dez",
+     "os milhares · meio cansada"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O porquê da decisão não foi divulgado”, o vocábulo porquê é substantivo.",
+    "comment": "**Certo.** Está determinado por artigo e equivale a motivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O plural de guarda-chuva é guardas-chuvas, pois os dois elementos são substantivos.",
+    "comment": "**Errado.** Guarda, aqui, é verbo e não varia: guarda-chuvas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O substantivo vítima é sobrecomum.",
+    "comment": "**Certo.** Tem uma só forma e um só gênero para os dois sexos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Os carros azul-marinhos pertencem à corporação”, o adjetivo está corretamente flexionado.",
+    "comment": "**Errado.** Azul-marinho é invariável: carros azul-marinho.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A locução adjetiva em “corpo de alunos” equivale ao adjetivo discente.",
+    "comment": "**Certo.** De aluno = discente; de professor = docente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "E",
+    "text": "Em “O olhar do perito revelou a fraude”, “olhar” é",
+    "options": [
+     "verbo no infinitivo.",
+     "adjetivo.",
+     "advérbio.",
+     "preposição.",
+     "substantivo."
+    ],
+    "comment": "**Gabarito: E.** Precedido de artigo, o verbo se substantiva.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "B",
+    "text": "O plural correto de “cidadão” e “capitão” é",
+    "options": [
+     "cidadões e capitões",
+     "cidadãos e capitães",
+     "cidadães e capitãos",
+     "cidadãos e capitões",
+     "cidadões e capitães"
+    ],
+    "comment": "**Gabarito: B.** Cidadãos, capitães.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "Em “a vigésima operação”, o numeral é",
+    "options": [
+     "ordinal",
+     "cardinal",
+     "multiplicativo",
+     "fracionário",
+     "coletivo"
+    ],
+    "comment": "**Gabarito: A.** Indica ordem.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "D",
+    "text": "O superlativo erudito de “fácil” é",
+    "options": [
+     "facilíssimo",
+     "muito fácil",
+     "facilzíssimo",
+     "facílimo",
+     "facilérrimo"
+    ],
+    "comment": "**Gabarito: D.** Facílimo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "É masculino o substantivo",
+    "options": [
+     "alface",
+     "cal",
+     "eclipse",
+     "omelete",
+     "libido"
+    ],
+    "comment": "**Gabarito: C.** O eclipse. Alface, cal, omelete e libido são femininos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

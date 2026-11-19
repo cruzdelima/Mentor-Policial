@@ -62,7 +62,7 @@ void main() {
     expect(q.questions[1].letters, ['A', 'B', 'C', 'D', 'E']);
     final a = QuizAttempt(date: DateTime(2026), answers: const {}, correct: 1, wrong: 1, blank: 0, penalized: 0);
     expect(a.net, 1);
-    final old = QuizAttempt.fromJson({'date': '2026-01-01', 'answers': {}, 'correct': 3, 'wrong': 1, 'blank': 0});
+    final old = QuizAttempt.fromJson(<String, dynamic>{'date': '2026-01-01', 'answers': <String, dynamic>{}, 'correct': 3, 'wrong': 1, 'blank': 0});
     expect(old.net, 2);
   });
 }

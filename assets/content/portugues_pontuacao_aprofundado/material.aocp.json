@@ -1,0 +1,473 @@
+{
+ "id": "lp-pontuacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-14"
+ ],
+ "kind": "aprofundado",
+ "title": "Pontuação",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 150,
+ "pdf": "portugues_pontuacao_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Pontuação é o item mais frequente nas provas, quase sempre em forma de reescrita: “a inserção de vírgula após X prejudicaria a correção”, “a supressão das vírgulas alteraria o sentido”, “os travessões poderiam ser substituídos por vírgulas”. A vírgula depende da **sintaxe**: revise *Termos da oração* se tiver dúvida sobre sujeito e complementos."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Vírgula proibida"
+    },
+    {
+     "t": "p",
+     "text": "A ordem direta da oração é **sujeito + verbo + complementos + adjuntos**. Entre esses termos, na ordem direta, **não se usa vírgula**:"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Entre **sujeito e verbo** — mesmo que o sujeito seja longo: *Os documentos apreendidos na operação de ontem **foram** periciados.*",
+      "Entre **verbo e complemento**: *O delegado determinou **a abertura** do inquérito.*",
+      "Entre **nome e complemento nominal** ou **adjunto adnominal**: *A investigação **da fraude** demorou.*",
+      "Entre a **oração principal e a substantiva**: *É necessário **que** todos compareçam.*"
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Vírgula entre sujeito e verbo",
+     "text": "*O delegado, determinou a abertura do inquérito* e *Os servidores que faltaram, serão advertidos* estão errados. O segundo caso engana porque o sujeito termina numa oração adjetiva restritiva: a vírgula não pode separá-lo do verbo."
+    },
+    {
+     "t": "h2",
+     "text": "2. Vírgula obrigatória: termos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Uso",
+      "Exemplo"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "Separar termos de enumeração",
+       "Convocaram peritos, escrivães e agentes."
+      ],
+      [
+       "Isolar **aposto explicativo**",
+       "Recife, capital de Pernambuco, sediou o evento."
+      ],
+      [
+       "Isolar **vocativo**",
+       "Senhores, a sessão está aberta."
+      ],
+      [
+       "Isolar expressões explicativas e retificativas",
+       "As provas, isto é, os documentos e as imagens, foram anexadas."
+      ],
+      [
+       "Isolar conjunções deslocadas",
+       "O laudo, porém, não foi concluído."
+      ],
+      [
+       "Separar o local nas datas",
+       "Recife, 17 de novembro de 2026."
+      ],
+      [
+       "Marcar **elipse** do verbo (zeugma)",
+       "Ele cuidou das provas, e ela, dos depoimentos."
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Adjunto adverbial deslocado"
+    },
+    {
+     "t": "p",
+     "text": "No início ou no meio da oração, o adjunto adverbial **pode** ser isolado por vírgulas. Se for **curto**, a vírgula é **facultativa**; se for **longo**, recomenda-se: *Ontem (,) a equipe cumpriu o mandado. Durante as primeiras horas da madrugada, a equipe cumpriu o mandado.*"
+    },
+    {
+     "t": "h2",
+     "text": "3. Vírgula entre orações"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Oração",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.34,
+      0.42
+     ],
+     "rows": [
+      [
+       "Adjetiva **explicativa**",
+       "Entre vírgulas",
+       "O réu, que confessou, foi condenado."
+      ],
+      [
+       "Adjetiva **restritiva**",
+       "**Sem** vírgulas",
+       "O réu que confessou foi condenado."
+      ],
+      [
+       "Adverbial **anteposta** ou intercalada",
+       "Vírgula recomendada",
+       "Quando a viatura chegou, o suspeito fugiu."
+      ],
+      [
+       "Adverbial **posposta**",
+       "Vírgula facultativa",
+       "O suspeito fugiu quando a viatura chegou."
+      ],
+      [
+       "Coordenadas assindéticas",
+       "Vírgula",
+       "Chegou, viu, prendeu."
+      ],
+      [
+       "Adversativas, conclusivas, explicativas",
+       "Vírgula antes da conjunção",
+       "Confessou, mas negou a autoria."
+      ],
+      [
+       "Aditivas com *e*",
+       "Sem vírgula; com vírgula se os sujeitos forem diferentes ou houver polissíndeto",
+       "A equipe chegou, e o suspeito fugiu."
+      ],
+      [
+       "Reduzidas de gerúndio e particípio antepostas",
+       "Vírgula",
+       "Terminada a audiência, os autos foram conclusos."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "A vírgula que muda o sentido",
+     "text": "Retirar ou inserir as vírgulas de uma **oração adjetiva** muda o sentido: com vírgulas, a informação vale para **todos**; sem vírgulas, **restringe** o grupo. A banca pergunta isso em quase toda prova."
+    },
+    {
+     "t": "h2",
+     "text": "4. Outros sinais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sinal",
+      "Usos principais",
+      "Exemplo"
+     ],
+     "widths": [
+      0.16,
+      0.42,
+      0.42
+     ],
+     "rows": [
+      [
+       "Ponto e vírgula",
+       "Separar orações coordenadas longas ou que já têm vírgulas; separar itens de enumeração; anteceder conjunção deslocada",
+       "A PM cuidou do cerco; a PC, da investigação."
+      ],
+      [
+       "Dois-pontos",
+       "Anunciar enumeração, citação, explicação, síntese ou consequência",
+       "Apreenderam três itens: armas, drogas e dinheiro."
+      ],
+      [
+       "Travessão",
+       "Diálogo; isolar termo ou oração intercalada, com destaque (equivale a vírgulas ou parênteses)",
+       "A testemunha — que estava nervosa — mudou a versão."
+      ],
+      [
+       "Parênteses",
+       "Informações acessórias, explicações, datas, siglas",
+       "A Lei Maria da Penha (Lei 11.340/2006) foi aplicada."
+      ],
+      [
+       "Aspas",
+       "Citação literal, ironia, estrangeirismo, neologismo, títulos",
+       "Chamou o plano de “infalível”, mas tudo deu errado."
+      ],
+      [
+       "Reticências",
+       "Interrupção, hesitação, suspensão do pensamento",
+       "Ele estava ali… depois sumiu."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Na troca de sinais, observe a **equivalência de função**: vírgulas, travessões duplos e parênteses podem isolar a mesma intercalação; o ponto e vírgula não equivale aos dois-pontos (estes anunciam explicação ou consequência)."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A inserção de vírgula após X prejudicaria a correção” — verifique se separaria sujeito e verbo ou verbo e complemento.",
+      "“A supressão das vírgulas alteraria o sentido” — oração adjetiva explicativa.",
+      "“A vírgula após X é facultativa” — adjunto adverbial curto anteposto.",
+      "“Os travessões poderiam ser substituídos por vírgulas” — intercalação.",
+      "“O ponto e vírgula poderia ser substituído por ponto” — orações independentes, com ajuste de maiúscula."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Os documentos apreendidos na operação foram periciados”, a inserção de vírgula logo após operação prejudicaria a correção gramatical.",
+    "comment": "**Certo.** A vírgula separaria o sujeito do verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O delegado, determinou a abertura do inquérito”, a vírgula está empregada de acordo com a norma-padrão.",
+    "comment": "**Errado.** Não se separa o sujeito do verbo por vírgula.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Senhores, a sessão está aberta”, a vírgula isola o vocativo.",
+    "comment": "**Certo.** Senhores chama os interlocutores: é vocativo, isolado por vírgula.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O período “Recife capital de Pernambuco sediou o encontro” está corretamente pontuado.",
+    "comment": "**Errado.** O aposto explicativo capital de Pernambuco deve vir entre vírgulas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ontem à noite, a equipe cumpriu o mandado”, a vírgula após noite é facultativa, por ser curto o adjunto adverbial anteposto.",
+    "comment": "**Certo.** Adjunto adverbial curto deslocado admite ou dispensa a vírgula.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "No período “Ele cuidou das provas, e ela, dos depoimentos”, a vírgula após ela poderia ser suprimida sem prejuízo da correção.",
+    "comment": "**Errado.** Essa vírgula marca a elipse do verbo cuidou e é necessária.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "No trecho “A Lei Maria da Penha (Lei 11.340/2006) foi aplicada”, os parênteses poderiam ser substituídos por vírgulas sem prejuízo da correção.",
+    "comment": "**Certo.** Ambos isolam a informação acessória intercalada.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O ponto e vírgula não pode ser empregado para separar orações coordenadas.",
+    "comment": "**Errado.** O ponto e vírgula separa orações coordenadas, sobretudo longas ou já marcadas por vírgulas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “A equipe apreendeu três itens: armas, munições e drogas”, os dois-pontos introduzem uma enumeração.",
+    "comment": "**Certo.** Os dois-pontos anunciam os itens que especificam três itens.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "No período “O réu, que confessou o crime, foi condenado”, a retirada das vírgulas manteria o sentido original.",
+    "comment": "**Errado.** Sem vírgulas, a oração passa a restritiva, sugerindo que havia outros réus.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "D",
+    "text": "Assinale a alternativa em que a pontuação está de acordo com a norma-padrão.",
+    "options": [
+     "Os agentes da operação, chegaram cedo.",
+     "O delegado responsável pelo caso, ouviu as testemunhas.",
+     "Chegaram, os reforços da capital.",
+     "Os agentes da operação chegaram cedo.",
+     "A testemunha, viu tudo."
+    ],
+    "comment": "**Gabarito: D.** Não se separa por vírgula o sujeito do verbo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Em “Durante a madrugada, a equipe cumpriu o mandado”, a vírgula",
+    "options": [
+     "separa o adjunto adverbial deslocado para o início da oração.",
+     "separa o sujeito do predicado.",
+     "isola um vocativo.",
+     "é obrigatória por isolar um aposto.",
+     "separa orações coordenadas."
+    ],
+    "comment": "**Gabarito: A.** Adjunto adverbial anteposto pode ser isolado por vírgula; se for curto, a vírgula é facultativa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Assinale a alternativa em que o vocativo está corretamente pontuado.",
+    "options": [
+     "Soldado apresente-se ao comandante.",
+     "Apresente-se soldado, ao comandante.",
+     "Soldado, apresente-se ao comandante.",
+     "Apresente-se, ao comandante soldado.",
+     "Soldado apresente-se, ao comandante."
+    ],
+    "comment": "**Gabarito: C.** O vocativo é sempre isolado por vírgula.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Em “Os policiais que estavam de plantão foram ouvidos”, a inserção de vírgulas depois de “policiais” e de “plantão”",
+    "options": [
+     "seria obrigatória.",
+     "manteria o sentido original.",
+     "tornaria a frase incorreta.",
+     "transformaria a oração em substantiva.",
+     "alteraria o sentido: todos os policiais estariam de plantão."
+    ],
+    "comment": "**Gabarito: E.** Sem vírgulas, a oração adjetiva restringe; com vírgulas, passa a explicar e generalizar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "B",
+    "text": "O ponto e vírgula está corretamente empregado em:",
+    "options": [
+     "O agente chegou; cedo.",
+     "Uns preferem a investigação; outros, o policiamento ostensivo.",
+     "Ele disse; que voltaria.",
+     "Compramos; pão e leite.",
+     "O delegado; ouviu a testemunha."
+    ],
+    "comment": "**Gabarito: B.** Ponto e vírgula separa orações coordenadas que já têm vírgula interna ou que contrapõem ideias.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "D",
+    "text": "Em “Eu prefiro o plantão diurno; ela, o noturno”, a vírgula depois de “ela” indica",
+    "options": [
+     "um vocativo.",
+     "um aposto.",
+     "uma enumeração.",
+     "a omissão do verbo “prefere”.",
+     "um adjunto adverbial."
+    ],
+    "comment": "**Gabarito: D.** É a vírgula da elipse (zeugma) do verbo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "A",
+    "text": "Os dois-pontos estão corretamente empregados em:",
+    "options": [
+     "A perícia encontrou três itens: uma faca, um celular e uma carteira.",
+     "A perícia: encontrou três itens.",
+     "O delegado: ouviu o suspeito.",
+     "Ele: chegou cedo.",
+     "Os agentes estavam: cansados."
+    ],
+    "comment": "**Gabarito: A.** Dois-pontos introduzem enumeração, explicação ou citação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "C",
+    "text": "Assinale a alternativa em que a vírgula antes de “e” está corretamente empregada.",
+    "options": [
+     "Comprou as algemas, e o colete.",
+     "O agente, e o escrivão saíram.",
+     "O delegado assinou o despacho, e a escrivã juntou os documentos.",
+     "Ele chegou, e saiu.",
+     "Os peritos e, os agentes chegaram."
+    ],
+    "comment": "**Gabarito: C.** Vírgula antes de “e” é adequada quando as orações têm sujeitos diferentes.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Em “Recife, a capital de Pernambuco, recebeu o congresso”, a retirada das vírgulas",
+    "options": [
+     "manteria a correção e o sentido.",
+     "tornaria “a capital de Pernambuco” vocativo.",
+     "transformaria o aposto em sujeito.",
+     "seria obrigatória.",
+     "prejudicaria a correção, pois o aposto explicativo deve vir isolado."
+    ],
+    "comment": "**Gabarito: E.** Aposto explicativo vem entre vírgulas (ou travessões, ou parênteses).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "B",
+    "text": "Assinale a alternativa em que a vírgula foi empregada de forma INCORRETA.",
+    "options": [
+     "Quando o alarme tocou, todos saíram.",
+     "O inquérito, foi concluído ontem.",
+     "Pernambuco, Paraíba e Alagoas enviaram agentes.",
+     "O réu, porém, negou tudo.",
+     "Agentes, mantenham a calma."
+    ],
+    "comment": "**Gabarito: B.** Em B, a vírgula separa o sujeito (o inquérito) do verbo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

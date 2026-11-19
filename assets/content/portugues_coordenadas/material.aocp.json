@@ -1,0 +1,406 @@
+{
+ "id": "lp-coordenadas-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-09"
+ ],
+ "kind": "resumo",
+ "title": "Orações coordenadas",
+ "subtitle": "Língua Portuguesa · Sintaxe do período",
+ "minutes": 40,
+ "pdf": "portugues_coordenadas.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Sentido** da oração coordenada, **troca de conjunções** e **pontuação** (vírgula antes de *e* e de *mas*; conjunção deslocada)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Coordenação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Orações **sintaticamente independentes**: nenhuma é termo da outra; não há oração principal.",
+      "**Assindética**: sem conjunção (*Chegou, viu, prendeu*). **Sindética**: com conjunção."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Os cinco tipos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.42,
+      0.4
+     ],
+     "rows": [
+      [
+       "Aditiva",
+       "e, nem, não só… mas também",
+       "Prendeu e algemou."
+      ],
+      [
+       "Adversativa",
+       "mas, porém, contudo, todavia, entretanto, no entanto",
+       "Confessou, mas recorreu."
+      ],
+      [
+       "Alternativa",
+       "ou, ou… ou, ora… ora, quer… quer",
+       "Ou fala, ou cala."
+      ],
+      [
+       "Conclusiva",
+       "logo, portanto, por isso, pois (posposto)",
+       "Confessou; logo, é culpado."
+      ],
+      [
+       "Explicativa",
+       "porque, que, pois (anteposto)",
+       "Saia, pois vai chover."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Valores especiais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**E adversativo**: *Estudou e não passou* (= mas).",
+      "**Pois** antes do verbo = explicação; depois do verbo, entre vírgulas = conclusão.",
+      "**Explicativa** justifica a afirmação (*Choveu, porque a rua está molhada*); **causal** dá a causa do fato (*A rua está molhada porque choveu*).",
+      "**Mas** só no início; **porém, contudo, todavia, entretanto, portanto** podem ir para o meio, entre vírgulas."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Pontuação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Vírgula antes de **mas, porém, portanto, pois**.",
+      "**E** com mesmo sujeito: sem vírgula. Com sujeitos diferentes: vírgula admitida.",
+      "Conjunção deslocada: **entre vírgulas**, e antes dela ponto e vírgula (*Confessou; o advogado, porém, recorreu*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: substituições"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Troca",
+      "Resultado",
+      "Motivo"
+     ],
+     "widths": [
+      0.38,
+      0.18,
+      0.44
+     ],
+     "rows": [
+      [
+       "mas › porém / todavia",
+       "Mantém",
+       "Adversativas"
+      ],
+      [
+       "portanto › logo / por conseguinte",
+       "Mantém",
+       "Conclusivas"
+      ],
+      [
+       "pois (explicativo) › porque",
+       "Mantém",
+       "Explicativas"
+      ],
+      [
+       "portanto › porquanto",
+       "Altera",
+       "Conclusão vira explicação"
+      ],
+      [
+       "deve, pois, ser punido › porque",
+       "Altera",
+       "Pois posposto é conclusivo"
+      ],
+      [
+       "ou… ou › nem… nem",
+       "Altera",
+       "Alternância vira adição negativa"
+      ],
+      [
+       "…, mas o réu… › o réu, mas, …",
+       "Erro",
+       "Mas não se desloca"
+      ],
+      [
+       "…, porém… › …; o réu, porém, …",
+       "Mantém",
+       "Porém se desloca"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Coordenadas **não têm** oração principal.",
+      "Assindética = sem conjunção; inclusive a primeira oração da sequência.",
+      "**Nem** = e não.",
+      "**Não só… mas também** = adição.",
+      "**Pois** posposto = conclusão.",
+      "Depois de **imperativo**: explicativa.",
+      "*E* pode ter valor **adversativo**.",
+      "Vírgula antes de *e* com **sujeitos diferentes**.",
+      "Conjunção deslocada: **entre vírgulas**.",
+      "**Porquanto** ≠ portanto."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "COORDENADAS",
+  "rootSub": "orações independentes",
+  "left": [
+   {
+    "label": "Coordenação",
+    "items": [
+     "sem oração principal",
+     "independência sintática",
+     "relação só de sentido"
+    ]
+   },
+   {
+    "label": "Assindética",
+    "items": [
+     "sem conjunção",
+     "chegou, viu, prendeu",
+     "separada por vírgula"
+    ]
+   },
+   {
+    "label": "Aditiva",
+    "items": [
+     "e, nem (= e não)",
+     "não só… mas também",
+     "e com valor adversativo"
+    ]
+   },
+   {
+    "label": "Adversativa",
+    "items": [
+     "mas: só no início",
+     "porém, contudo, todavia",
+     "deslocável entre vírgulas"
+    ]
+   },
+   {
+    "label": "Alternativa",
+    "items": [
+     "ou… ou",
+     "ora… ora",
+     "quer… quer"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Conclusiva",
+    "items": [
+     "logo, portanto, por isso",
+     "pois depois do verbo",
+     "por conseguinte"
+    ]
+   },
+   {
+    "label": "Explicativa",
+    "items": [
+     "porque, que, porquanto",
+     "pois antes do verbo",
+     "após imperativo"
+    ]
+   },
+   {
+    "label": "Explicativa × causal",
+    "items": [
+     "explicativa: justifica a fala",
+     "causal: causa do fato",
+     "choveu, porque…"
+    ]
+   },
+   {
+    "label": "Vírgula",
+    "items": [
+     "antes de mas e portanto",
+     "e + sujeitos diferentes",
+     "polissíndeto: e…, e…"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "porquanto ≠ portanto",
+     "nem… nem: adição",
+     "mas não se desloca"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "As orações coordenadas são sintaticamente independentes entre si.",
+    "comment": "**Certo.** Nenhuma exerce função sintática na outra; relacionam-se apenas pelo sentido.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Não fale alto, que o bebê está dormindo”, a oração introduzida por que é coordenada conclusiva.",
+    "comment": "**Errado.** Que, após imperativo, introduz justificativa: a oração é explicativa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Ele trabalha muito, mas não recebe horas extras”, a segunda oração é coordenada sindética adversativa.",
+    "comment": "**Certo.** Mas introduz oposição em relação à primeira oração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Assim como porém, a conjunção mas pode ser deslocada para depois do sujeito da oração que introduz.",
+    "comment": "**Errado.** Mas ocupa sempre o início da oração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ou confessa, ou será condenado”, as orações são coordenadas alternativas.",
+    "comment": "**Certo.** Ou… ou expressa alternância/exclusão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Em “Treinou muito, mas perdeu”, a oração destacada pela conjunção é",
+    "options": [
+     "aditiva",
+     "adversativa",
+     "conclusiva",
+     "explicativa",
+     "alternativa"
+    ],
+    "comment": "**Gabarito: B.** Mas = oposição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "É conclusiva a conjunção em",
+    "options": [
+     "Saiu e voltou.",
+     "Ou fica, ou sai.",
+     "Chorou, pois sentia dor.",
+     "Fale, mas fale baixo.",
+     "Penso, logo existo."
+    ],
+    "comment": "**Gabarito: E.** Logo = portanto.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "Em “Venha logo, que o carro já vai sair”, a oração com “que” é",
+    "options": [
+     "explicativa",
+     "conclusiva",
+     "adversativa",
+     "aditiva",
+     "alternativa"
+    ],
+    "comment": "**Gabarito: A.** Que = pois (explicação).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "C",
+    "text": "As orações coordenadas sem conjunção são chamadas",
+    "options": [
+     "sindéticas",
+     "subordinadas",
+     "assindéticas",
+     "reduzidas",
+     "intercaladas"
+    ],
+    "comment": "**Gabarito: C.** Assindéticas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Em “Estudou e não passou”, o “e” tem valor",
+    "options": [
+     "aditivo",
+     "conclusivo",
+     "explicativo",
+     "adversativo",
+     "alternativo"
+    ],
+    "comment": "**Gabarito: D.** Valor de oposição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

@@ -1,0 +1,674 @@
+{
+ "id": "lp-conectivos-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-07"
+ ],
+ "kind": "aprofundado",
+ "title": "Advérbio, preposição e conjunção",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 150,
+ "pdf": "portugues_conectivos_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Nessas três classes, a banca quase nunca pede nomenclatura pura. Ele pergunta pelo **sentido**: “a substituição de *porém* por *portanto* manteria o sentido?”, “o vocábulo *como* introduz ideia de causa?”. Por isso, o mais importante é o **quadro de conjunções** da seção 3. Decore os grupos, faça as 20 questões e revise pelo **PDF de resumo**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Advérbio"
+    },
+    {
+     "t": "p",
+     "text": "**Advérbio** é a palavra **invariável** que modifica um **verbo**, um **adjetivo**, outro **advérbio** ou a **oração inteira**, acrescentando uma circunstância."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Modifica verbo: *O agente agiu **rapidamente**.*",
+      "Modifica adjetivo: *O laudo é **muito** detalhado.*",
+      "Modifica advérbio: *Chegou **bem** cedo.*",
+      "Modifica a oração: ***Infelizmente**, o suspeito fugiu.*"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Circunstância",
+      "Exemplos"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Tempo",
+       "hoje, ontem, já, ainda, sempre, nunca, cedo, tarde, logo, depois"
+      ],
+      [
+       "Lugar",
+       "aqui, ali, lá, perto, longe, dentro, fora, acima, abaixo"
+      ],
+      [
+       "Modo",
+       "bem, mal, assim, depressa e a maioria dos terminados em -mente"
+      ],
+      [
+       "Intensidade",
+       "muito, pouco, bastante, tão, meio, demais, quase"
+      ],
+      [
+       "Afirmação, negação, dúvida",
+       "sim, certamente · não, nunca, jamais · talvez, possivelmente"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Locução adverbial**: duas ou mais palavras com valor de advérbio — *às pressas, de repente, à noite, sem dúvida, de propósito*.",
+      "Em sequência de advérbios em *-mente*, o sufixo pode ficar só no último: *agiu **rápida e eficientemente***.",
+      "**Palavras denotativas** (*só, até, inclusive, exceto, eis, apenas* com valor de exclusão ou inclusão) não são advérbios pela NGB, mas mudam o sentido conforme a posição."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Advérbio × adjetivo: invariável × variável"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Palavra",
+      "Advérbio (não varia)",
+      "Adjetivo ou pronome (varia)"
+     ],
+     "widths": [
+      0.16,
+      0.42,
+      0.42
+     ],
+     "rows": [
+      [
+       "meio",
+       "*A testemunha estava **meio** nervosa* (= um pouco)",
+       "*Esperou **meia** hora* (= metade)"
+      ],
+      [
+       "bastante",
+       "*Os agentes estão **bastante** cansados* (= muito)",
+       "*Havia **bastantes** provas* (= muitas)"
+      ],
+      [
+       "alto, baixo, caro",
+       "*Eles falaram **alto**. As provas custam **caro**.*",
+       "*vozes **altas**, preços **caros***"
+      ],
+      [
+       "só",
+       "*Eles **só** saíram à noite* (= somente)",
+       "*Eles ficaram **sós*** (= sozinhos)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Mal × mau",
+     "text": "**Mal** é advérbio (oposto de *bem*): *O policial agiu **mal**.* **Mau** é adjetivo (oposto de *bom*): *Foi um **mau** procedimento.* Teste: troque por *bem/bom*."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Posição muda o sentido",
+     "text": "***Só** o delegado pode autorizar* (ninguém mais) × *O delegado **só** pode autorizar* (não pode fazer outra coisa). ***Ainda** não chegou* × *Não chegou **ainda***: aqui o sentido se mantém. A banca pede para avaliar caso a caso."
+    },
+    {
+     "t": "h2",
+     "text": "2. Preposição"
+    },
+    {
+     "t": "p",
+     "text": "**Preposição** é a palavra invariável que **liga dois termos**, subordinando o segundo ao primeiro: *casa **de** madeira; obedecer **a** normas*."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Essenciais** (só funcionam como preposição): *a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás*.",
+      "**Acidentais** (palavras de outras classes usadas como preposição): *conforme, segundo, consoante, durante, mediante, exceto, salvo, como, visto*.",
+      "**Locuções prepositivas**: *a fim de, apesar de, em vez de, ao invés de, por causa de, junto a, de acordo com, em frente a*."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Fenômeno",
+      "O que é",
+      "Exemplos"
+     ],
+     "widths": [
+      0.2,
+      0.38,
+      0.42
+     ],
+     "rows": [
+      [
+       "Combinação",
+       "Preposição + outra palavra **sem perda** de som",
+       "a + o = **ao**; a + onde = **aonde**"
+      ],
+      [
+       "Contração",
+       "Preposição + outra palavra **com perda** de som",
+       "de + o = **do**; em + a = **na**; por + o = **pelo**; a + a = **à**"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Valores semânticos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Relação",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Lugar",
+       "Mora **em** Recife. Veio **de** Olinda."
+      ],
+      [
+       "Tempo",
+       "Chegou **às** dez. Trabalha **desde** 2020."
+      ],
+      [
+       "Causa",
+       "Morreu **de** fome. Foi preso **por** tráfico."
+      ],
+      [
+       "Finalidade",
+       "Saiu **para** investigar."
+      ],
+      [
+       "Instrumento / meio",
+       "Abriu **com** a chave. Viajou **de** avião."
+      ],
+      [
+       "Matéria / posse",
+       "Mesa **de** madeira. Viatura **do** batalhão."
+      ],
+      [
+       "Assunto",
+       "Falou **sobre** o caso."
+      ],
+      [
+       "Companhia",
+       "Saiu **com** a equipe."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Sob × sobre · a × há",
+     "text": "**Sob** = debaixo de, sujeito a (*sob sigilo, sob custódia*); **sobre** = em cima de, a respeito de (*sobre a mesa, sobre o caso*). **Há** = tempo **passado** (*A operação ocorreu **há** três meses*); **a** = tempo **futuro** ou distância (*Daqui **a** dois dias; a cem metros*)."
+    },
+    {
+     "t": "note",
+     "text": "**Sujeito de infinitivo não se contrai com a preposição** na prescrição tradicional: *Está na hora **de o** delegado chegar* (e não *do delegado chegar*). O motivo: *o delegado* é sujeito de *chegar*, não complemento da preposição. O uso contraído é comum e aceito por parte dos gramáticos modernos, mas em prova siga a regra tradicional."
+    },
+    {
+     "t": "h2",
+     "text": "3. Conjunção"
+    },
+    {
+     "t": "p",
+     "text": "**Conjunção** liga **orações** (ou termos de mesma função), estabelecendo entre elas uma relação de sentido. É o conteúdo mais cobrado deste tópico: memorize o quadro."
+    },
+    {
+     "t": "h3",
+     "text": "Coordenativas (ligam orações independentes)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Sentido",
+      "Conjunções"
+     ],
+     "widths": [
+      0.18,
+      0.24,
+      0.58
+     ],
+     "rows": [
+      [
+       "Aditivas",
+       "Soma",
+       "e, nem (= e não), não só… mas também, tanto… quanto"
+      ],
+      [
+       "Adversativas",
+       "Oposição",
+       "mas, porém, contudo, todavia, entretanto, no entanto, não obstante"
+      ],
+      [
+       "Alternativas",
+       "Alternância ou exclusão",
+       "ou, ou… ou, ora… ora, quer… quer, seja… seja"
+      ],
+      [
+       "Conclusivas",
+       "Conclusão",
+       "logo, portanto, por isso, por conseguinte, assim, pois (**posposto** ao verbo)"
+      ],
+      [
+       "Explicativas",
+       "Justificativa",
+       "porque, que, porquanto, pois (**anteposto** ao verbo)"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Subordinativas adverbiais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções e locuções",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Causal",
+       "porque, como (anteposto), já que, visto que, uma vez que, porquanto",
+       "**Como** não compareceu, foi conduzido."
+      ],
+      [
+       "Concessiva",
+       "embora, conquanto, ainda que, mesmo que, se bem que, posto que (+ subjuntivo)",
+       "**Embora** houvesse provas, arquivou-se."
+      ],
+      [
+       "Condicional",
+       "se, caso, desde que, contanto que, a menos que (+ subjuntivo)",
+       "**Desde que** colabore, terá o benefício."
+      ],
+      [
+       "Conformativa",
+       "conforme, segundo, consoante, como",
+       "Agiu **conforme** determina a lei."
+      ],
+      [
+       "Comparativa",
+       "como, (tal) qual, mais… (do) que, menos… (do) que, tanto quanto",
+       "Correu **como** um atleta."
+      ],
+      [
+       "Consecutiva",
+       "tão… que, tanto… que, tal… que, de modo que, de sorte que",
+       "Correu **tanto que** se cansou."
+      ],
+      [
+       "Final",
+       "para que, a fim de que, que",
+       "Leia **para que** não erre."
+      ],
+      [
+       "Proporcional",
+       "à medida que, à proporção que, ao passo que, quanto mais… mais",
+       "**À medida que** avançava, surgiam provas."
+      ],
+      [
+       "Temporal",
+       "quando, enquanto, assim que, logo que, desde que (+ indicativo), mal",
+       "**Assim que** chegou, isolou a área."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Integrantes**: *que* e *se* introduzem orações substantivas — *Sei **que** ele mentiu. Não sei **se** ele mentiu.*"
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "As conjunções de dois sentidos",
+     "text": "**Desde que** + subjuntivo = **condição**; + indicativo = **tempo**. **Como** anteposto = **causa**; *conforme* = **conformidade**; *igual a* = **comparação**. **Pois** antes do verbo = **explicação**; depois do verbo, entre vírgulas = **conclusão** (*Deve, **pois**, ser punido*). **À medida que** = **proporção**; **na medida em que** = **causa**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Concessão pede subjuntivo",
+     "text": "*Embora **houvesse** provas* (e não *embora havia*). *Ainda que **chova***. Já **apesar de** é preposição: pede infinitivo ou substantivo — *Apesar de **haver** provas; apesar **das** provas*."
+    },
+    {
+     "t": "h2",
+     "text": "4. Substituições que as bancas testam"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Original",
+      "Troca possível",
+      "Resultado"
+     ],
+     "widths": [
+      0.24,
+      0.42,
+      0.34
+     ],
+     "rows": [
+      [
+       "mas",
+       "porém, contudo, todavia, entretanto, no entanto",
+       "Mantém (ajustando a pontuação)"
+      ],
+      [
+       "portanto",
+       "logo, por isso, por conseguinte, assim",
+       "Mantém"
+      ],
+      [
+       "porque (causal)",
+       "já que, visto que, uma vez que",
+       "Mantém"
+      ],
+      [
+       "embora",
+       "ainda que, mesmo que, conquanto",
+       "Mantém (com subjuntivo)"
+      ],
+      [
+       "porém",
+       "portanto, porquanto",
+       "**Altera** (oposição vira conclusão ou causa)"
+      ],
+      [
+       "à medida que",
+       "na medida em que",
+       "**Altera** (proporção vira causa)"
+      ],
+      [
+       "embora",
+       "apesar de (sem trocar o verbo)",
+       "**Prejudica** a correção"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Relação de sentido**: “o conector X introduz ideia de causa / concessão / conclusão”.",
+      "**Substituição**: a troca mantém o sentido e a correção? Confira o grupo da conjunção e o modo verbal exigido.",
+      "**Variação**: *meio, bastante, só* como advérbio não variam.",
+      "**a × há**, **sob × sobre**, **mal × mau**.",
+      "**Deslocamento**: advérbios e palavras denotativas mudam o sentido conforme a posição."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Os agentes trabalharam bastante”, o vocábulo bastante é advérbio de intensidade e, por isso, não varia.",
+    "comment": "**Certo.** Bastante modifica o verbo trabalhar; como advérbio, é invariável.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “A testemunha estava meia nervosa”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Meio, no sentido de um pouco, é advérbio e não varia: meio nervosa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Daqui a dois dias o prazo termina”, o emprego de a está correto, pois indica tempo futuro.",
+    "comment": "**Certo.** Para tempo futuro, usa-se a preposição a; há indica tempo passado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “A operação ocorreu a três meses”, o emprego de a está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Tempo decorrido se indica com o verbo haver: ocorreu há três meses.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O processo tramita sob sigilo”, a preposição sob não poderia ser substituída por sobre sem alteração de sentido.",
+    "comment": "**Certo.** Sob indica sujeição (sob sigilo); sobre indica posição superior ou assunto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Segundo a prescrição gramatical tradicional, está correta a contração em “Está na hora do delegado chegar”.",
+    "comment": "**Errado.** O delegado é sujeito do infinitivo; a tradição gramatical não admite a contração: de o delegado chegar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O réu confessou, porém negou a autoria do disparo”, a conjunção porém poderia ser substituída por contudo, sem prejuízo do sentido e da correção.",
+    "comment": "**Certo.** Porém e contudo são conjunções adversativas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Estudou muito; portanto, foi aprovado”, a conjunção portanto expressa explicação.",
+    "comment": "**Errado.** Portanto é conclusiva: introduz a consequência lógica do que foi dito.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Embora houvesse provas, o inquérito foi arquivado”, a conjunção embora introduz ideia de concessão.",
+    "comment": "**Certo.** Embora apresenta um fato contrário que não impede o da oração principal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A frase “Embora havia provas, o inquérito foi arquivado” está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Conjunções concessivas como embora exigem subjuntivo: embora houvesse.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "D",
+    "text": "Em “Embora estivesse cansado, o agente concluiu o relatório”, a conjunção “embora” pode ser substituída, sem alteração de sentido e com os ajustes necessários, por",
+    "options": [
+     "Porque estivesse cansado",
+     "Portanto estava cansado",
+     "Visto que estava cansado",
+     "Apesar de estar cansado",
+     "Quando estava cansado"
+    ],
+    "comment": "**Gabarito: D.** “Embora” é concessiva; “apesar de” mantém o valor de concessão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Na frase “O plantão foi tranquilo, porquanto não houve ocorrências graves”, a conjunção “porquanto” expressa",
+    "options": [
+     "causa (explicação).",
+     "concessão.",
+     "finalidade.",
+     "condição.",
+     "proporção."
+    ],
+    "comment": "**Gabarito: A.** Porquanto = porque, visto que.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Nas expressões “copo de vidro” e “morreu de frio”, a preposição “de” indica, respectivamente,",
+    "options": [
+     "posse e lugar.",
+     "origem e tempo.",
+     "matéria e causa.",
+     "causa e matéria.",
+     "assunto e modo."
+    ],
+    "comment": "**Gabarito: C.** Copo feito de vidro (matéria); morreu por causa do frio (causa).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Considere: I. “Só ele chegou à delegacia.” II. “Ele só chegou à delegacia.” A mudança de posição de “só”",
+    "options": [
+     "não altera o sentido.",
+     "torna a frase I incorreta.",
+     "transforma o advérbio em adjetivo em II.",
+     "indica, nas duas frases, que apenas uma pessoa chegou.",
+     "altera o sentido: em I, ninguém mais chegou; em II, ele apenas chegou (não fez outra coisa)."
+    ],
+    "comment": "**Gabarito: E.** A posição do advérbio muda o termo que ele modifica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "B",
+    "text": "Em “Conforme determina o edital, a prova durará quatro horas”, a conjunção destacada expressa",
+    "options": [
+     "causa.",
+     "conformidade.",
+     "comparação.",
+     "concessão.",
+     "finalidade."
+    ],
+    "comment": "**Gabarito: B.** Conforme = de acordo com.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Na frase “O suspeito negou, mas as câmeras o desmentiram”, o conectivo “mas” pode ser substituído, sem prejuízo de sentido, por",
+    "options": [
+     "contudo",
+     "portanto",
+     "pois",
+     "porque",
+     "logo"
+    ],
+    "comment": "**Gabarito: A.** “Mas” e “contudo” são adversativos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "Assinale a alternativa em que o conectivo destacado expressa conclusão.",
+    "options": [
+     "Saiu cedo, **pois** tinha audiência.",
+     "Ficou, **embora** quisesse sair.",
+     "**Se** houver provas, haverá denúncia.",
+     "Ele confessou; **logo**, o caso foi encerrado.",
+     "Estudou **para** passar."
+    ],
+    "comment": "**Gabarito: D.** “Logo” é conclusivo. “Pois” anteposto ao verbo é explicativo; “embora”, concessivo; “se”, condicional; “para”, final.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "C",
+    "text": "Em “À medida que a investigação avançava, surgiam novos suspeitos”, a locução destacada expressa",
+    "options": [
+     "causa.",
+     "condição.",
+     "proporção.",
+     "finalidade.",
+     "concessão."
+    ],
+    "comment": "**Gabarito: C.** À medida que = à proporção que. Não confundir com “na medida em que” (causa).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a expressão destacada está corretamente empregada.",
+    "options": [
+     "Estudou muito **afim** de passar.",
+     "Ele tem gostos **a fim** aos meus.",
+     "Os dois casos são **a fim**.",
+     "Saiu cedo **afim** de evitar o trânsito.",
+     "Chegou cedo **a fim** de organizar a escala."
+    ],
+    "comment": "**Gabarito: E.** **A fim de** indica finalidade; **afim** é adjetivo (semelhante, parente por afinidade).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "B",
+    "text": "Na frase “O agente agiu rapidamente e com cautela”, os termos destacados “rapidamente” e “com cautela” expressam circunstância de",
+    "options": [
+     "tempo.",
+     "modo.",
+     "intensidade.",
+     "lugar.",
+     "causa."
+    ],
+    "comment": "**Gabarito: B.** Indicam a maneira como o agente agiu.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

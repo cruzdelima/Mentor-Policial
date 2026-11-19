@@ -1,0 +1,479 @@
+{
+ "id": "lp-reescrita-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-17"
+ ],
+ "kind": "aprofundado",
+ "title": "Reescrita de frases e parágrafos",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 240,
+ "pdf": "portugues_reescrita_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A reescrita é o formato preferido das bancas: “a reescrita a seguir mantém a correção gramatical e o sentido original do texto”. Ela junta **toda** a gramática (concordância, regência, crase, pontuação, colocação) com **interpretação**. Este material dá o método e as transformações mais frequentes; os outros tópicos de gramática dão o conteúdo."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. O método: duas perguntas, nesta ordem"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "O que conferir"
+     ],
+     "widths": [
+      0.3,
+      0.7
+     ],
+     "rows": [
+      [
+       "1. A reescrita está **correta**?",
+       "Concordância (verbal e nominal), regência, crase, pontuação, colocação pronominal, tempos e modos verbais, grafia"
+      ],
+      [
+       "2. O **sentido** foi mantido?",
+       "Conectivos (mesma relação lógica?), tempos verbais, voz, palavras de foco (*só, até, ainda*), vírgulas de orações adjetivas, determinantes, ordem dos termos"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Basta **um** problema em qualquer das duas para o item ser **errado**. Quando a banca pergunta só por uma delas (“mantém a correção”), julgue só aquela."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Leia o original e a reescrita lado a lado",
+     "text": "Marque cada diferença entre as duas versões e teste uma por uma. A maioria dos erros está numa única palavra trocada: um tempo verbal, uma vírgula, uma preposição."
+    },
+    {
+     "t": "h2",
+     "text": "2. Transformações que mais caem"
+    },
+    {
+     "t": "h3",
+     "text": "Voz ativa › voz passiva"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O objeto direto vira sujeito; o sujeito vira agente da passiva; o verbo *ser* fica **no tempo da ativa**; o particípio concorda.",
+      "*Os peritos **analisarão** as provas* › *As provas **serão analisadas** pelos peritos.* (e não *foram analisadas*)",
+      "Passiva sintética › analítica: *Investigou-se a denúncia* › *A denúncia **foi investigada**.*",
+      "Só verbos transitivos diretos vão para a passiva: *Precisa-se de agentes* **não** vira “agentes são precisados”."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Discurso direto › indireto"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Discurso direto",
+      "Discurso indireto"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Presente: *“Estou cansado”*",
+       "Imperfeito: disse que **estava** cansado"
+      ],
+      [
+       "Pretérito perfeito: *“Vi o réu”*",
+       "Mais-que-perfeito: disse que **tinha visto** o réu"
+      ],
+      [
+       "Futuro do presente: *“Abrirei o inquérito”*",
+       "Futuro do pretérito: disse que **abriria** o inquérito"
+      ],
+      [
+       "Imperativo: *“Saia!”*",
+       "Subjuntivo: mandou que **saísse**"
+      ],
+      [
+       "1ª pessoa: *eu, meu*",
+       "3ª pessoa: *ele, seu/dele*"
+      ],
+      [
+       "*aqui, este, hoje, ontem, amanhã*",
+       "*ali/lá, aquele, naquele dia, no dia anterior, no dia seguinte*"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "*O delegado disse: — Vou abrir o inquérito* › *O delegado disse que **ia** abrir o inquérito.*"
+    },
+    {
+     "t": "h3",
+     "text": "Nominalização"
+    },
+    {
+     "t": "p",
+     "text": "Transformar um verbo em substantivo mantém o sentido: *O delegado **decidiu** arquivar* › *A **decisão** do delegado foi arquivar.* *Quando terminou a audiência* › *Com o **término** da audiência*."
+    },
+    {
+     "t": "h3",
+     "text": "Desenvolvimento e redução de orações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Ao chegar* = *quando chegou* · *Terminada a audiência* = *assim que terminou a audiência* · *Sendo primário* = *como é primário*.",
+      "*O laudo, **que foi elaborado** ontem,* = *O laudo, **elaborado** ontem,*",
+      "*É necessário **revisar** os procedimentos* = *É necessário **que se revisem** os procedimentos* (atenção à concordância do *se*)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Substituição de conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Mesmo grupo: mantém (*mas › porém*; *portanto › por isso*; *embora › ainda que*).",
+      "Grupo diferente: altera (*porém › portanto*; *à medida que › na medida em que*).",
+      "Mudança de construção que preserva a relação lógica: *Como chovia, a operação foi adiada* › *Chovia; **por isso**, a operação foi adiada* (causa e consequência mantidas).",
+      "Concessivas pedem subjuntivo: *Embora **estivesse** ferido* › *Apesar de **estar** ferido* (preposição + infinitivo)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Deslocamento de termos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Adjunto adverbial pode mudar de lugar, com vírgulas: *A equipe cumpriu o mandado ontem* › *Ontem, a equipe cumpriu o mandado.*",
+      "Conjunções como *porém, contudo, portanto* podem ir para o meio da oração, entre vírgulas, com ponto e vírgula antes.",
+      "Colocação pronominal: confira a palavra atrativa depois do deslocamento (*Disse-me* › *Não me disse*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Armadilhas: parece igual, mas muda"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Original",
+      "Reescrita",
+      "Problema"
+     ],
+     "widths": [
+      0.33,
+      0.33,
+      0.34
+     ],
+     "rows": [
+      [
+       "Os agentes, que estavam armados, entraram.",
+       "Os agentes que estavam armados entraram.",
+       "Explicativa vira restritiva: muda o sentido"
+      ],
+      [
+       "**Só** o juiz pode decretar.",
+       "O juiz pode **só** decretar.",
+       "Foco muda: sentido alterado"
+      ],
+      [
+       "Os peritos **analisarão** as provas.",
+       "As provas **foram** analisadas.",
+       "Tempo verbal alterado"
+      ],
+      [
+       "O suspeito **teria** fugido.",
+       "O suspeito fugiu.",
+       "Hipótese vira fato"
+      ],
+      [
+       "O agente chegou **antes do** perito.",
+       "O perito chegou **antes do** agente.",
+       "Inversão de papéis"
+      ],
+      [
+       "Disse-me que viria.",
+       "Me disse que viria.",
+       "Início com pronome átono: erro"
+      ],
+      [
+       "Se o réu **colaborar**…",
+       "Caso o réu **colabora**…",
+       "*Caso* exige subjuntivo"
+      ],
+      [
+       "É necessário que se **apurem** os fatos.",
+       "É necessário que se **apure** os fatos.",
+       "Passiva sintética: concordância"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A reescrita mantém a correção gramatical e o sentido original” — faça as duas perguntas.",
+      "“A seguinte proposta de reescrita prejudicaria a coerência do texto.”",
+      "“O trecho poderia ser reescrito da seguinte forma, sem alteração de sentido.”",
+      "Paráfrases com troca de conectivo, voz verbal, discurso ou nominalização."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A reescrita de “A polícia prendeu o suspeito” como “O suspeito foi preso pela polícia” mantém a correção gramatical e o sentido original.",
+    "comment": "**Certo.** Transposição correta para a voz passiva, com o verbo ser no pretérito perfeito.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A reescrita de “Os peritos analisarão as provas” como “As provas foram analisadas pelos peritos” mantém o sentido original.",
+    "comment": "**Errado.** O tempo mudou: o correto seria serão analisadas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A reescrita de “O delegado disse: — Vou abrir o inquérito” em discurso indireto pode ser “O delegado disse que ia abrir o inquérito”.",
+    "comment": "**Certo.** O presente (vou) passa ao imperfeito (ia), e a 1ª pessoa passa à 3ª.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A transposição de “A testemunha afirmou: — Vi o réu aqui ontem” para “A testemunha afirmou que viu o réu aqui ontem” respeita as adaptações do discurso indireto.",
+    "comment": "**Errado.** No indireto: que tinha visto o réu ali no dia anterior.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A reescrita de “Embora estivesse ferido, o agente continuou” como “Apesar de estar ferido, o agente continuou” mantém a correção e o sentido.",
+    "comment": "**Certo.** Embora + subjuntivo equivale a apesar de + infinitivo: ambos concessivos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A reescrita de “Como chovia, a operação foi adiada” como “Chovia; por isso, a operação foi adiada” altera a relação lógica entre as orações.",
+    "comment": "**Errado.** A relação de causa e consequência é mantida; muda apenas a construção.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A reescrita de “O delegado decidiu arquivar o caso” como “A decisão do delegado foi arquivar o caso” mantém o sentido original.",
+    "comment": "**Certo.** A nominalização preserva o conteúdo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A reescrita de “Os agentes, que estavam armados, entraram” como “Os agentes que estavam armados entraram” mantém o sentido original.",
+    "comment": "**Errado.** Sem vírgulas, a oração passa a restritiva: apenas parte dos agentes estaria armada.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A substituição de Só por Apenas em “Só o juiz pode decretar a prisão” mantém o sentido original.",
+    "comment": "**Certo.** As duas palavras têm o mesmo valor de exclusão na mesma posição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A reescrita de “Só o juiz pode decretar a prisão” como “O juiz pode só decretar a prisão” mantém o sentido original.",
+    "comment": "**Errado.** O foco muda: na reescrita, o juiz não pode fazer outra coisa além de decretar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "Assinale a alternativa que reescreve corretamente, na voz passiva, a frase “A polícia prendeu os suspeitos”.",
+    "options": [
+     "Os suspeitos prenderam a polícia.",
+     "Os suspeitos foram presos pela polícia.",
+     "Os suspeitos eram presos pela polícia.",
+     "Prendeu-se os suspeitos pela polícia.",
+     "A polícia foi presa pelos suspeitos."
+    ],
+    "comment": "**Gabarito: B.** Mantém-se o tempo verbal (pretérito perfeito) e a relação de quem pratica a ação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "E",
+    "text": "A frase “Embora estivesse ferido, o agente continuou a perseguição” é reescrita, mantendo o sentido e a correção, em:",
+    "options": [
+     "Como estava ferido, o agente continuou a perseguição.",
+     "Porque estava ferido, o agente continuou a perseguição.",
+     "Se estivesse ferido, o agente continuaria a perseguição.",
+     "O agente estava ferido; portanto, continuou a perseguição.",
+     "Apesar de estar ferido, o agente continuou a perseguição."
+    ],
+    "comment": "**Gabarito: E.** “Apesar de” mantém a ideia de concessão. As demais mudam para causa, condição ou conclusão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "Assinale a reescrita que ALTERA o sentido de “Os agentes, que estavam exaustos, foram dispensados”.",
+    "options": [
+     "Os agentes que estavam exaustos foram dispensados.",
+     "Os agentes foram dispensados, pois estavam exaustos.",
+     "Os agentes — que estavam exaustos — foram dispensados.",
+     "Exaustos, os agentes foram dispensados.",
+     "Os agentes (que estavam exaustos) foram dispensados."
+    ],
+    "comment": "**Gabarito: A.** Sem vírgulas, a oração passa a ser restritiva: só os exaustos foram dispensados.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "C",
+    "text": "A frase “O delegado afirmou: ‘Vou encerrar o caso amanhã’” é transposta corretamente para o discurso indireto em:",
+    "options": [
+     "O delegado afirmou que vou encerrar o caso amanhã.",
+     "O delegado afirmou que ia encerrar o caso amanhã, ontem.",
+     "O delegado afirmou que iria encerrar o caso no dia seguinte.",
+     "O delegado afirmou: que encerraria o caso amanhã.",
+     "O delegado afirmou que vai encerrar o caso no dia seguinte."
+    ],
+    "comment": "**Gabarito: C.** No discurso indireto, ajustam-se pessoa (eu › ele), tempo verbal (vou › iria/ia) e advérbio (amanhã › no dia seguinte).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Assinale a reescrita que mantém o sentido e a correção de “Os peritos analisaram o local”.",
+    "options": [
+     "A análise do local pelos peritos.",
+     "Analisou-se o local os peritos.",
+     "O local analisou os peritos.",
+     "O local foi analisado pelos peritos.",
+     "Os peritos foi analisado no local."
+    ],
+    "comment": "**Gabarito: D.** Voz passiva analítica, com o mesmo tempo e o mesmo sentido. A alternativa A não é oração completa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "Em “Ele não compareceu porque estava doente”, a conjunção “porque” pode ser substituída, sem alteração de sentido, por",
+    "options": [
+     "embora",
+     "visto que",
+     "portanto",
+     "contudo",
+     "a fim de que"
+    ],
+    "comment": "**Gabarito: B.** Visto que = porque (causa).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a substituição de “onde” mantém a correção na frase “A cidade onde ocorreu o crime fica no interior”.",
+    "options": [
+     "A cidade aonde ocorreu o crime fica no interior.",
+     "A cidade que ocorreu o crime fica no interior.",
+     "A cidade cuja ocorreu o crime fica no interior.",
+     "A cidade a qual ocorreu o crime fica no interior.",
+     "A cidade em que ocorreu o crime fica no interior."
+    ],
+    "comment": "**Gabarito: E.** “Onde” (lugar) equivale a “em que” ou “na qual”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Assinale a reescrita que ALTERA o sentido de “Somente os agentes da área foram convocados”.",
+    "options": [
+     "Os agentes da área foram somente convocados.",
+     "Apenas os agentes da área foram convocados.",
+     "Só os agentes da área foram convocados.",
+     "Foram convocados somente os agentes da área.",
+     "Os únicos convocados foram os agentes da área."
+    ],
+    "comment": "**Gabarito: A.** Deslocado para junto do verbo, “somente” passa a dizer que os agentes foram apenas convocados (e nada mais).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "A frase “Existem muitas falhas no sistema” é reescrita corretamente em:",
+    "options": [
+     "Hão muitas falhas no sistema.",
+     "Haviam muitas falhas no sistema.",
+     "Há muitas falhas no sistema.",
+     "Houveram muitas falhas no sistema.",
+     "Devem haverem muitas falhas no sistema."
+    ],
+    "comment": "**Gabarito: C.** Haver (existir) é impessoal e fica no singular; existir concorda com o sujeito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Assinale a alternativa que reescreve corretamente “Quando terminou a audiência, os advogados saíram”.",
+    "options": [
+     "Terminando a audiência, os advogados terão saído.",
+     "Para terminar a audiência, os advogados saíram.",
+     "Terminada a audiência, os advogados sairiam.",
+     "Terminada a audiência, os advogados saíram.",
+     "Embora terminasse a audiência, os advogados saíram."
+    ],
+    "comment": "**Gabarito: D.** Oração reduzida de particípio com o mesmo valor temporal e o mesmo tempo verbal na principal.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

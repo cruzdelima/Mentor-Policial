@@ -38,6 +38,7 @@ RULES = [
     (r'20 itens certo/errado \+ gabarito comentado', '20 itens + gabarito comentado', '10 itens certo/errado + 10 de múltipla escolha AOCP'),
     # títulos de seção
     (r'Como o Cebraspe cobra', 'Como as bancas cobram', 'Como o Instituto AOCP cobra'),
+    (r'Como as bancas cobram', 'Como as bancas cobram', 'Como o Instituto AOCP cobra'),
     (r'Como o Cebraspe formula os itens', 'Como as bancas formulam as questões', 'Como as bancas formulam as questões'),
     (r'Substituições que o Cebraspe testa', 'Substituições que as bancas testam', 'Substituições que as bancas testam'),
     (r'Método de resolução \(Cebraspe\)', 'Método de resolução', 'Método de resolução'),
@@ -68,7 +69,7 @@ OVERRIDES = [
 
 
 def _sub_text(s, prof):
-    if not isinstance(s, str) or 'Cebraspe' not in s and 'certo/errado' not in s:
+    if not isinstance(s, str) or ('Cebraspe' not in s and 'certo/errado' not in s and 'Como as bancas cobram' not in s):
         return s
     for old, neu, aocp in OVERRIDES:
         s = s.replace(old, (neu if prof == 'neutro' else aocp).replace('Cebraspe', '\x00'))

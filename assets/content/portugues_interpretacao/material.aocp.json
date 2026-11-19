@@ -1,0 +1,431 @@
+{
+ "id": "lp-interpretacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-05"
+ ],
+ "kind": "resumo",
+ "title": "Compreensão e interpretação de textos",
+ "subtitle": "Língua Portuguesa · Leitura",
+ "minutes": 40,
+ "pdf": "portugues_interpretacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Itens que **ampliam**, **restringem** ou **invertem** o que o texto diz, que atribuem ao autor a ideia de outra pessoa e que trocam o grau de certeza (*pode* › *é*). Julgue sempre **voltando ao trecho**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Compreender × interpretar"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Comando do item",
+      "O que pede",
+      "Onde está a resposta"
+     ],
+     "widths": [
+      0.36,
+      0.3,
+      0.34
+     ],
+     "rows": [
+      [
+       "Segundo o texto, de acordo com o autor",
+       "Compreensão",
+       "Explícita no texto"
+      ],
+      [
+       "Infere-se, depreende-se, conclui-se",
+       "Interpretação",
+       "Conclusão **necessária** a partir do texto"
+      ],
+      [
+       "O texto sugere, deixa implícito",
+       "Pressuposto ou subentendido",
+       "Marcas linguísticas e contexto"
+      ],
+      [
+       "O autor defende, a argumentação…",
+       "Ponto de vista",
+       "Tese e argumentos"
+      ],
+      [
+       "Manteria o sentido e a correção",
+       "Reescrita",
+       "Os dois critérios ao mesmo tempo"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Os três erros"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Erro",
+      "O item…",
+      "Alerta"
+     ],
+     "widths": [
+      0.2,
+      0.44,
+      0.36
+     ],
+     "rows": [
+      [
+       "Extrapolação",
+       "vai além do texto (generaliza, acrescenta)",
+       "todos, sempre, nunca, elimina, garante"
+      ],
+      [
+       "Redução",
+       "toma uma parte pelo todo",
+       "apenas, só, o único, exclusivamente"
+      ],
+      [
+       "Contradição",
+       "diz o contrário do texto",
+       "negação trocada, antônimo, conectivo invertido"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Palavra absoluta não torna o item errado sozinha: se o texto também for categórico, o item pode estar certo."
+    },
+    {
+     "t": "h2",
+     "text": "3. Implícitos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Pressuposto**: vem de marca no enunciado e resiste à negação — *voltou a, deixou de, ainda, já, até, ex-, reconheceu que*.",
+      "**Subentendido**: insinuação que depende do contexto; quem fala pode negar.",
+      "**Inferência válida** é **necessária**, não apenas possível ou provável."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Ponto de vista"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Tese** costuma vir na introdução ou na conclusão (*portanto, assim, em suma*).",
+      "Cuidado com o **contra-argumento**: “há quem diga”, “acreditou-se” — não é a opinião do autor.",
+      "**Modalizadores**: *talvez, pode, parece, ao que tudo indica* (dúvida) × *evidentemente, comprova* (certeza) × *deve, é preciso* (obrigação). Trocar um pelo outro **muda o sentido**.",
+      "**Aspas**: citação, ironia, termo técnico ou distanciamento."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Conectivos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Mas, porém, contudo**: a ideia forte vem **depois**.",
+      "**Embora, ainda que, apesar de**: a ideia forte está na **outra** oração.",
+      "**Se, caso**: condição — não afirma que o fato ocorreu.",
+      "**Portanto, logo, por isso**: conclusão, muitas vezes a tese."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Método em 7 passos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Passo",
+      "Ação"
+     ],
+     "widths": [
+      0.1,
+      0.9
+     ],
+     "rows": [
+      [
+       "1",
+       "Ler o texto inteiro uma vez: tema e intenção (informar ou defender?)."
+      ],
+      [
+       "2",
+       "Resumir cada parágrafo em uma frase."
+      ],
+      [
+       "3",
+       "Identificar o comando do item."
+      ],
+      [
+       "4",
+       "Voltar ao trecho citado — nunca julgar de memória."
+      ],
+      [
+       "5",
+       "Perguntar: ampliou, restringiu ou inverteu?"
+      ],
+      [
+       "6",
+       "Conferir quem fala: o autor ou alguém que ele cita."
+      ],
+      [
+       "7",
+       "Na dúvida real, deixar em branco."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Interpretar **não é opinar**.",
+      "Precisou de informação de fora do texto? Provável **extrapolação**.",
+      "“Infere-se” exige conclusão **necessária**.",
+      "**Voltou a** mentir › já tinha mentido.",
+      "**Mas**: a ideia forte vem depois; **embora**: está na outra oração.",
+      "**Pode** ≠ **é**: modalizador trocado muda o sentido.",
+      "Ideia refutada pelo autor **não** é a tese dele.",
+      "**Isso/isto** podem retomar uma oração inteira.",
+      "Reescrita: **correção e sentido**, os dois.",
+      "Cada erro anula um acerto: **branco** é estratégia."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "INTERPRETAÇÃO",
+  "rootSub": "o que o texto diz e permite concluir",
+  "left": [
+   {
+    "label": "Compreender",
+    "items": [
+     "O que está escrito",
+     "Segundo o texto…",
+     "De acordo com o autor…"
+    ]
+   },
+   {
+    "label": "Interpretar",
+    "items": [
+     "O que o texto autoriza",
+     "Infere-se, depreende-se",
+     "Conclusão necessária"
+    ]
+   },
+   {
+    "label": "Extrapolação",
+    "items": [
+     "Vai além do texto",
+     "todos, sempre, elimina",
+     "Conhecimento de fora"
+    ]
+   },
+   {
+    "label": "Redução",
+    "items": [
+     "Parte tomada pelo todo",
+     "apenas, só, o único"
+    ]
+   },
+   {
+    "label": "Contradição",
+    "items": [
+     "Diz o oposto do texto",
+     "Negação ou conectivo trocado"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Pressuposto",
+    "items": [
+     "Marca no enunciado",
+     "voltou a, deixou de, até",
+     "Resiste à negação"
+    ]
+   },
+   {
+    "label": "Subentendido",
+    "items": [
+     "Depende do contexto",
+     "Insinuação; pode ser negado"
+    ]
+   },
+   {
+    "label": "Ponto de vista",
+    "items": [
+     "Tese: início ou fim",
+     "Contra-argumento ≠ opinião",
+     "Quem está falando?"
+    ]
+   },
+   {
+    "label": "Modalização",
+    "items": [
+     "talvez, pode: dúvida",
+     "evidentemente: certeza",
+     "Trocar muda o sentido"
+    ]
+   },
+   {
+    "label": "Método",
+    "items": [
+     "Ler tudo e resumir",
+     "Voltar ao trecho",
+     "Na dúvida, em branco"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Depreende-se do texto que a preservação do local de crime antecede a investigação propriamente dita.",
+    "comment": "**Certo.** “A primeira tarefa de quem chega não é investigar, mas preservar.”",
+    "context": "**Texto.** A pressa é inimiga da perícia. Um local de crime alterado por curiosos, por agentes desatentos ou mesmo pela chuva perde informações que nenhum laboratório recupera. Por isso, a primeira tarefa de quem chega não é investigar, mas preservar: isolar a área, impedir o trânsito de pessoas e registrar o estado em que tudo foi encontrado. Parece pouco. É, muitas vezes, o que separa um caso resolvido de um arquivado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Segundo o texto, os laboratórios conseguem recuperar as informações perdidas em locais de crime alterados, ainda que com dificuldade.",
+    "comment": "**Errado.** Contradição: o texto diz que nenhum laboratório recupera essas informações.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O texto atribui a perda de informações não apenas à ação humana, mas também a fatores naturais.",
+    "comment": "**Certo.** Além de curiosos e agentes desatentos, o texto cita a chuva.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O trecho “Parece pouco” revela que, para o autor, a preservação do local é tarefa de pouca importância.",
+    "comment": "**Errado.** O período seguinte desfaz a aparência: a preservação pode separar um caso resolvido de um arquivado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A expressão “muitas vezes”, no último período, evita que a afirmação seja apresentada como regra absoluta.",
+    "comment": "**Certo.** É modalizador: atenua a generalização.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Segundo o texto, a maior parte das ocorrências de trânsito com vítimas decorre de",
+    "options": [
+     "falhas mecânicas.",
+     "decisões humanas.",
+     "más condições das vias.",
+     "falta de campanhas educativas.",
+     "excesso de fiscalização."
+    ],
+    "comment": "**Gabarito: B.** O texto opõe falhas mecânicas a decisões humanas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)",
+    "context": "A maior parte das ocorrências de trânsito com vítimas não decorre de falhas mecânicas, mas de decisões humanas: velocidade excessiva, uso do celular, álcool. Por esse motivo, especialistas defendem que campanhas educativas só funcionam quando acompanhadas de fiscalização constante. Sem ela, a mensagem se perde."
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "No último período, o pronome “ela” retoma",
+    "options": [
+     "“a mensagem”.",
+     "“a campanha”.",
+     "“a velocidade”.",
+     "“a decisão”.",
+     "“a fiscalização constante”."
+    ],
+    "comment": "**Gabarito: E.** Sem a fiscalização, a mensagem se perde.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "A expressão “Por esse motivo” introduz",
+    "options": [
+     "uma conclusão.",
+     "uma oposição.",
+     "uma condição.",
+     "uma concessão.",
+     "uma comparação."
+    ],
+    "comment": "**Gabarito: A.** Os especialistas defendem fiscalização em consequência do que foi dito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "D",
+    "text": "Infere-se do texto que campanhas educativas",
+    "options": [
+     "são inúteis em qualquer caso.",
+     "dispensam a fiscalização.",
+     "causam acidentes.",
+     "precisam da fiscalização para surtir efeito.",
+     "substituem a fiscalização."
+    ],
+    "comment": "**Gabarito: D.** Elas “só funcionam quando acompanhadas de fiscalização constante”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "A palavra “constante” pode ser substituída, sem prejuízo de sentido, por",
+    "options": [
+     "eventual",
+     "rara",
+     "permanente",
+     "rigorosa apenas",
+     "anual"
+    ],
+    "comment": "**Gabarito: C.** Constante = permanente, contínua.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "KOCH, I. V.; ELIAS, V. M. Ler e compreender. FIORIN, J. L.; SAVIOLI, F. P. Para entender o texto.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

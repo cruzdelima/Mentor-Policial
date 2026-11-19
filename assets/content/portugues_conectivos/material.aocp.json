@@ -1,0 +1,454 @@
+{
+ "id": "lp-conectivos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-07"
+ ],
+ "kind": "resumo",
+ "title": "Advérbio, preposição e conjunção",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 40,
+ "pdf": "portugues_conectivos.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Sentido** do conector e **substituições** que mantêm ou alteram esse sentido. Em segundo plano: *meio, bastante, a × há, sob × sobre, mal × mau*."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Advérbio"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Invariável; modifica verbo, adjetivo, advérbio ou a oração inteira.",
+      "**meio** (= um pouco) e **bastante** (= muito) junto de adjetivo **não variam**: *meio nervosa; bastante cansados*.",
+      "**Mal** (× bem) é advérbio; **mau** (× bom) é adjetivo.",
+      "A **posição** de *só, somente, apenas, até* muda o sentido."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Preposição"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Liga termos. Essenciais: *a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás*.",
+      "**há** = passado (*há três meses*); **a** = futuro ou distância (*daqui a dois dias*).",
+      "**sob** = sujeição (*sob sigilo*); **sobre** = em cima, a respeito.",
+      "Sujeito de infinitivo não se contrai (tradição): *antes **de o** juiz decidir*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Conjunções coordenativas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções"
+     ],
+     "widths": [
+      0.22,
+      0.78
+     ],
+     "rows": [
+      [
+       "Aditivas",
+       "e, nem, não só… mas também"
+      ],
+      [
+       "Adversativas",
+       "mas, porém, contudo, todavia, entretanto, no entanto"
+      ],
+      [
+       "Alternativas",
+       "ou, ora… ora, quer… quer"
+      ],
+      [
+       "Conclusivas",
+       "logo, portanto, por isso, por conseguinte, pois (posposto)"
+      ],
+      [
+       "Explicativas",
+       "porque, que, porquanto, pois (anteposto)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Conjunções subordinativas adverbiais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções"
+     ],
+     "widths": [
+      0.22,
+      0.78
+     ],
+     "rows": [
+      [
+       "Causal",
+       "porque, como (anteposto), já que, visto que, uma vez que"
+      ],
+      [
+       "Concessiva",
+       "embora, ainda que, mesmo que, conquanto (+ subjuntivo)"
+      ],
+      [
+       "Condicional",
+       "se, caso, desde que + subjuntivo, contanto que"
+      ],
+      [
+       "Conformativa",
+       "conforme, segundo, consoante, como"
+      ],
+      [
+       "Consecutiva",
+       "tão/tanto/tal… que, de modo que"
+      ],
+      [
+       "Final",
+       "para que, a fim de que"
+      ],
+      [
+       "Proporcional",
+       "à medida que, à proporção que"
+      ],
+      [
+       "Temporal",
+       "quando, assim que, logo que, desde que + indicativo"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Duplo sentido",
+     "text": "*desde que* (condição × tempo) · *como* (causa × conformidade × comparação) · *pois* (explicação × conclusão) · *à medida que* (proporção) × *na medida em que* (causa)."
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: troca mantém ou altera?"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Troca",
+      "Resultado",
+      "Motivo"
+     ],
+     "widths": [
+      0.36,
+      0.2,
+      0.44
+     ],
+     "rows": [
+      [
+       "mas › porém / contudo",
+       "Mantém",
+       "Todas adversativas"
+      ],
+      [
+       "portanto › logo / por isso",
+       "Mantém",
+       "Todas conclusivas"
+      ],
+      [
+       "porque › visto que",
+       "Mantém",
+       "Ambas causais"
+      ],
+      [
+       "embora › ainda que",
+       "Mantém",
+       "Ambas concessivas, com subjuntivo"
+      ],
+      [
+       "porém › portanto",
+       "Altera",
+       "Oposição vira conclusão"
+      ],
+      [
+       "à medida que › na medida em que",
+       "Altera",
+       "Proporção vira causa"
+      ],
+      [
+       "embora haja › apesar de haja",
+       "Erro",
+       "Apesar de pede infinitivo: apesar de haver"
+      ],
+      [
+       "há três anos › a três anos",
+       "Erro",
+       "Passado pede há"
+      ],
+      [
+       "meio nervosa › meia nervosa",
+       "Erro",
+       "Advérbio não varia"
+      ],
+      [
+       "agiu mal › agiu mau",
+       "Erro",
+       "Mau é adjetivo"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Identifique o **sentido** antes de olhar a conjunção.",
+      "Adversativas são intercambiáveis entre si; conclusivas também.",
+      "Concessiva e condicional pedem **subjuntivo**.",
+      "**Desde que** + subjuntivo = condição; + indicativo = tempo.",
+      "**Pois** depois do verbo = conclusão.",
+      "**Como** no início do período = causa.",
+      "**Tão… que** = consequência, não finalidade.",
+      "*Mas* não se desloca; *porém, contudo, todavia* podem ir para o meio da oração.",
+      "**Há** para o passado; **a** para o futuro.",
+      "Advérbio junto de adjetivo **não concorda**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CONECTIVOS",
+  "rootSub": "advérbio · preposição · conjunção",
+  "left": [
+   {
+    "label": "Advérbio",
+    "items": [
+     "invariável",
+     "meio nervosa · bastante cansados",
+     "mal (bem) × mau (bom)"
+    ]
+   },
+   {
+    "label": "Posição",
+    "items": [
+     "só o delegado ≠ só pode",
+     "somente, apenas, até",
+     "muda o foco da frase"
+    ]
+   },
+   {
+    "label": "Preposição",
+    "items": [
+     "há: passado · a: futuro",
+     "sob sigilo · sobre o caso",
+     "de o juiz decidir"
+    ]
+   },
+   {
+    "label": "Aditivas e alternativas",
+    "items": [
+     "e, nem, não só… mas também",
+     "ou, ora… ora",
+     "quer… quer"
+    ]
+   },
+   {
+    "label": "Adversativas",
+    "items": [
+     "mas, porém, contudo",
+     "todavia, entretanto",
+     "no entanto"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Conclusivas e explicativas",
+    "items": [
+     "logo, portanto, por isso",
+     "pois posposto: conclusão",
+     "pois anteposto: explicação"
+    ]
+   },
+   {
+    "label": "Causa e concessão",
+    "items": [
+     "como, já que, visto que",
+     "embora + subjuntivo",
+     "apesar de + infinitivo"
+    ]
+   },
+   {
+    "label": "Condição e tempo",
+    "items": [
+     "se, caso",
+     "desde que + subjuntivo: condição",
+     "desde que + indicativo: tempo"
+    ]
+   },
+   {
+    "label": "Proporção e consequência",
+    "items": [
+     "à medida que: proporção",
+     "na medida em que: causa",
+     "tão… que: consequência"
+    ]
+   },
+   {
+    "label": "Fim e conformidade",
+    "items": [
+     "para que, a fim de que",
+     "conforme, segundo",
+     "consoante, como"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “As provas eram bastante consistentes”, o vocábulo bastante é advérbio de intensidade.",
+    "comment": "**Certo.** Modifica o adjetivo consistentes e equivale a muito; por isso não varia.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “A vítima ficou meia confusa após o depoimento”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Meio, no sentido de um pouco, é advérbio: meio confusa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Há cinco anos ocorreu o crime”, a forma há indica tempo decorrido.",
+    "comment": "**Certo.** O verbo haver indica tempo passado; para tempo futuro usa-se a preposição a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O prazo terminou, contudo o recurso foi aceito”, a conjunção contudo tem valor conclusivo.",
+    "comment": "**Errado.** Contudo é adversativa: introduz oposição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ainda que haja provas, o juiz pode absolver o réu”, a locução ainda que poderia ser substituída por embora, sem prejuízo da correção e do sentido.",
+    "comment": "**Certo.** Ambas são concessivas e pedem subjuntivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "A conjunção “embora” expressa",
+    "options": [
+     "causa",
+     "condição",
+     "concessão",
+     "conclusão",
+     "finalidade"
+    ],
+    "comment": "**Gabarito: C.** Embora = apesar de que.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Substitui “porém” sem alterar o sentido:",
+    "options": [
+     "todavia",
+     "portanto",
+     "porque",
+     "logo",
+     "pois (anteposto ao verbo)"
+    ],
+    "comment": "**Gabarito: A.** Ambos são adversativos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Em “Estudou para ser aprovado”, a preposição indica",
+    "options": [
+     "causa",
+     "tempo",
+     "lugar",
+     "modo",
+     "finalidade"
+    ],
+    "comment": "**Gabarito: E.** Para = a fim de.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "D",
+    "text": "“À medida que” expressa",
+    "options": [
+     "causa",
+     "concessão",
+     "condição",
+     "proporção",
+     "conformidade"
+    ],
+    "comment": "**Gabarito: D.** Proporção.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "B",
+    "text": "O conectivo de conclusão está em",
+    "options": [
+     "Faltou, pois estava doente.",
+     "Choveu; portanto, a operação foi adiada.",
+     "Embora chovesse, saímos.",
+     "Se chover, ficamos.",
+     "Saímos para trabalhar."
+    ],
+    "comment": "**Gabarito: B.** Portanto = conclusão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

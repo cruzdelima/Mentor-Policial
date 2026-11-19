@@ -1,0 +1,395 @@
+{
+ "id": "lp-semantica-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-19"
+ ],
+ "kind": "aprofundado",
+ "title": "Semântica e significação das palavras",
+ "subtitle": "Língua Portuguesa · Semântica",
+ "minutes": 90,
+ "pdf": "portugues_semantica_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca cobra semântica principalmente como **substituição**: “a substituição de X por Y manteria o sentido do texto”. A sinonímia é sempre **contextual**: duas palavras podem ser sinônimas numa frase e não em outra. Os parônimos da seção 2 caem com frequência em provas da área policial (*mandado × mandato*, *flagrante × fragrante*, *infringir × infligir*)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Relações de sentido"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sinonímia**: sentidos semelhantes no contexto — *O suspeito **fugiu** / **evadiu-se***.",
+      "**Antonímia**: sentidos opostos — *legal × ilegal; absolver × condenar*.",
+      "**Hiperonímia e hiponímia**: termo geral × termo específico — *arma* (hiperônimo) › *pistola, fuzil* (hipônimos). O hiperônimo é muito usado para retomar o hipônimo sem repeti-lo."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Homônimos e parônimos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Homônimos**: mesma pronúncia e/ou mesma grafia, sentidos diferentes. **Homófonos** (mesmo som, grafia diferente): *cela × sela, sessão × seção × cessão, censo × senso, concerto × conserto*. **Homógrafos** (mesma grafia, som diferente): *colher* (verbo) × *colher* (talher). **Perfeitos** (mesmo som e grafia): *são* (sadio) × *são* (verbo) × *são* (santo).",
+      "**Parônimos**: palavras **parecidas** na grafia e na pronúncia, com sentidos diferentes."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Par",
+      "Sentidos"
+     ],
+     "widths": [
+      0.32,
+      0.68
+     ],
+     "rows": [
+      [
+       "mandado × mandato",
+       "**mandado**: ordem judicial (*mandado de prisão*) · **mandato**: período de representação (*mandato de deputado*)"
+      ],
+      [
+       "flagrante × fragrante",
+       "**flagrante**: evidente, no ato (*prisão em flagrante*) · **fragrante**: perfumado"
+      ],
+      [
+       "infringir × infligir",
+       "**infringir**: violar (*infringiu a lei*) · **infligir**: aplicar pena (*infligiu castigo*)"
+      ],
+      [
+       "ratificar × retificar",
+       "**ratificar**: confirmar · **retificar**: corrigir"
+      ],
+      [
+       "deferir × diferir",
+       "**deferir**: atender (*pedido deferido*) · **diferir**: adiar; ser diferente"
+      ],
+      [
+       "eminente × iminente",
+       "**eminente**: importante, elevado · **iminente**: prestes a acontecer"
+      ],
+      [
+       "descrição × discrição",
+       "**descrição**: ato de descrever · **discrição**: reserva, prudência"
+      ],
+      [
+       "emergir × imergir",
+       "**emergir**: vir à tona · **imergir**: mergulhar"
+      ],
+      [
+       "tráfego × tráfico",
+       "**tráfego**: trânsito · **tráfico**: comércio ilegal"
+      ],
+      [
+       "vultoso × vultuoso",
+       "**vultoso**: de grande valor (*quantia vultosa*) · **vultuoso**: inchado (rosto)"
+      ],
+      [
+       "despensa × dispensa",
+       "**despensa**: lugar de guardar alimentos · **dispensa**: licença, isenção"
+      ],
+      [
+       "cessão × sessão × seção",
+       "**cessão**: ato de ceder · **sessão**: reunião · **seção**: divisão, setor"
+      ],
+      [
+       "censo × senso",
+       "**censo**: recenseamento · **senso**: juízo (*bom senso*)"
+      ],
+      [
+       "acender × ascender",
+       "**acender**: pôr fogo · **ascender**: subir"
+      ],
+      [
+       "comprimento × cumprimento",
+       "**comprimento**: extensão · **cumprimento**: saudação; execução (*cumprimento do mandado*)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Polissemia"
+    },
+    {
+     "t": "p",
+     "text": "Uma palavra com **vários sentidos relacionados**, que o contexto define: *banco* (assento, instituição financeira, banco de dados); *operação* (policial, cirúrgica, matemática, financeira). Diferente da homonímia, os sentidos da palavra polissêmica têm origem comum."
+    },
+    {
+     "t": "h2",
+     "text": "4. Denotação, conotação e ambiguidade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Denotação**: sentido literal, de dicionário — *A pedra caiu*.",
+      "**Conotação**: sentido figurado, expressivo — *Ele tem um coração de **pedra***.",
+      "**Ambiguidade**: duplo sentido não intencional. *O policial viu o assaltante **correndo*** (quem corria?). *O delegado disse ao escrivão que **seu** relatório estava errado* (de quem?). Desfaz-se reescrevendo a frase."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A substituição de X por Y manteria o sentido do texto” — sinonímia **no contexto**.",
+      "“O vocábulo X foi empregado em sentido conotativo.”",
+      "“O trecho apresenta ambiguidade” — procure o termo com dois referentes.",
+      "Parônimos trocados em frases da área jurídica e policial."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O juiz expediu o mandado de prisão”, a substituição de mandado por mandato prejudicaria o sentido da frase.",
+    "comment": "**Certo.** Mandado é ordem judicial; mandato é período de representação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O perigo era eminente, e a equipe recuou”, o vocábulo eminente está adequadamente empregado.",
+    "comment": "**Errado.** O sentido é de algo prestes a acontecer: iminente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O motorista infringiu as normas de trânsito”, infringir significa violar.",
+    "comment": "**Certo.** Infringir = desrespeitar; infligir = aplicar pena.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O juiz retificou a sentença, confirmando-a integralmente”, o verbo retificar está adequadamente empregado.",
+    "comment": "**Errado.** Confirmar é ratificar; retificar é corrigir.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O tráfego na avenida foi interrompido”, o vocábulo tráfego refere-se ao trânsito de veículos.",
+    "comment": "**Certo.** Tráfico seria comércio ilegal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “O agente agiu com descrição durante a investigação”, o vocábulo descrição está empregado no sentido de reserva, prudência.",
+    "comment": "**Errado.** Reserva e prudência correspondem a discrição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O pedido de liberdade provisória foi deferido”, o vocábulo deferido significa atendido.",
+    "comment": "**Certo.** Deferir = conceder; diferir = adiar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Foi apreendida uma quantia vultuosa”, o adjetivo está adequadamente empregado para indicar grande valor.",
+    "comment": "**Errado.** Grande valor é vultosa; vultuoso significa inchado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A palavra operação é polissêmica, podendo designar, entre outros sentidos, ação policial e procedimento cirúrgico.",
+    "comment": "**Certo.** Os sentidos são relacionados e definidos pelo contexto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “A cessão do júri começou às 9h”, o vocábulo cessão está adequadamente empregado.",
+    "comment": "**Errado.** Reunião é sessão; cessão é ato de ceder.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "Em “O investigador agiu com perspicácia”, a palavra “perspicácia” pode ser substituída, sem alteração de sentido, por",
+    "options": [
+     "lentidão",
+     "sagacidade",
+     "imprudência",
+     "agressividade",
+     "ingenuidade"
+    ],
+    "comment": "**Gabarito: B.** Perspicácia = agudeza de espírito, sagacidade.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "E",
+    "text": "Assinale a alternativa em que as palavras destacadas estão empregadas corretamente.",
+    "options": [
+     "O **iminente** jurista proferiu a palestra diante de um perigo **eminente**.",
+     "O **eminente** perigo de desabamento assustou o **iminente** professor.",
+     "Havia risco **eminente** de rebelião no presídio.",
+     "O juiz **eminente** a decisão.",
+     "Diante do risco **iminente** de rebelião, o **eminente** juiz suspendeu a visita."
+    ],
+    "comment": "**Gabarito: E.** **Iminente** = prestes a acontecer; **eminente** = ilustre, notável.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "Assinale a alternativa em que o par de palavras é formado por antônimos.",
+    "options": [
+     "efêmero / duradouro",
+     "célere / rápido",
+     "lícito / legal",
+     "astuto / sagaz",
+     "probo / honesto"
+    ],
+    "comment": "**Gabarito: A.** Efêmero (passageiro) opõe-se a duradouro. Os demais pares são sinônimos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "C",
+    "text": "Assinale a alternativa correta quanto ao emprego das palavras homônimas.",
+    "options": [
+     "O preso foi levado para a sela.",
+     "O mecânico fez o concerto da viatura.",
+     "O IBGE realizou o censo da população.",
+     "Ele age com muito censo de justiça.",
+     "A orquestra fez o conserto de abertura."
+    ],
+    "comment": "**Gabarito: C.** **Censo** = recenseamento; **senso** = juízo. Cela (prisão) × sela (arreio); conserto (reparo) × concerto (apresentação musical).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Nas frases “O agente pegou o ônibus”, “O agente pegou o suspeito” e “O agente pegou gripe”, o verbo “pegar” exemplifica",
+    "options": [
+     "sinonímia.",
+     "antonímia.",
+     "homonímia perfeita.",
+     "polissemia.",
+     "paronímia."
+    ],
+    "comment": "**Gabarito: D.** Uma mesma palavra com vários sentidos relacionados, conforme o contexto.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "Assinale a alternativa em que a palavra destacada está empregada em sentido conotativo (figurado).",
+    "options": [
+     "O **muro** da delegacia foi pintado.",
+     "Aquele sargento é uma **muralha** na defesa.",
+     "A **porta** do presídio foi trocada.",
+     "O **carro** estava na garagem.",
+     "A **arma** foi apreendida."
+    ],
+    "comment": "**Gabarito: B.** Chamar alguém de “muralha” é sentido figurado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "Assinale a alternativa em que os verbos “infringir” e “infligir” estão corretamente empregados.",
+    "options": [
+     "Quem infligiu a lei foi multado.",
+     "O juiz infringiu pena severa ao réu.",
+     "O réu infligiu as normas e foi infringido.",
+     "Infringiram-lhe castigos.",
+     "Quem infringiu a lei sofreu a pena que o juiz lhe infligiu."
+    ],
+    "comment": "**Gabarito: E.** **Infringir** = transgredir (a lei); **infligir** = aplicar (pena, castigo).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Em “O juiz deferiu o pedido da defesa”, o verbo “deferir” significa",
+    "options": [
+     "atender, conceder.",
+     "adiar.",
+     "negar.",
+     "diferenciar.",
+     "discutir."
+    ],
+    "comment": "**Gabarito: A.** Deferir = conceder; diferir = adiar ou divergir; indeferir = negar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "D",
+    "text": "Assinale a alternativa em que a palavra está empregada corretamente.",
+    "options": [
+     "A lei discriminou o uso da maconha, deixando de considerá-lo crime.",
+     "O delegado descriminou os objetos apreendidos na lista.",
+     "O crime foi descriminado por discriminação racial.",
+     "A nova lei descriminou a conduta, que deixou de ser crime.",
+     "Ele foi descriminado por ser estrangeiro."
+    ],
+    "comment": "**Gabarito: D.** **Descriminar** = deixar de considerar crime; **discriminar** = separar, distinguir ou tratar com preconceito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "C",
+    "text": "Em “Os agentes surpreenderam o suspeito em flagrante”, a palavra “flagrante” NÃO pode ser confundida com",
+    "options": [
+     "“evidente”, seu sinônimo em alguns contextos.",
+     "“no ato”, seu sentido jurídico.",
+     "“fragrante”, que significa perfumado.",
+     "“manifesto”.",
+     "“patente”."
+    ],
+    "comment": "**Gabarito: C.** Flagrante (evidente, no ato) e fragrante (aromático) são parônimos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Academia Brasileira de Letras, Vocabulário Ortográfico da Língua Portuguesa.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

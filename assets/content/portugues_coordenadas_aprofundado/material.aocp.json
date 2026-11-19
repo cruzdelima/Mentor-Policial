@@ -1,0 +1,502 @@
+{
+ "id": "lp-coordenadas-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-09"
+ ],
+ "kind": "aprofundado",
+ "title": "Orações coordenadas",
+ "subtitle": "Língua Portuguesa · Sintaxe do período",
+ "minutes": 150,
+ "pdf": "portugues_coordenadas_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Orações coordenadas aparecem nas provas como **relação de sentido** (“a oração introduzida por *pois* expressa conclusão?”), **substituição de conjunção** e **pontuação** (vírgula antes de *e*, conjunção deslocada entre vírgulas). Este material complementa o de *Advérbio, preposição e conjunção*: aqui o foco é a oração inteira."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Período composto por coordenação"
+    },
+    {
+     "t": "p",
+     "text": "No **período composto**, há duas ou mais orações. Elas podem se relacionar de dois modos:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Processo",
+      "Relação",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.4,
+      0.4
+     ],
+     "rows": [
+      [
+       "Coordenação",
+       "Orações **sintaticamente independentes**: nenhuma é termo da outra",
+       "*O agente revistou o carro **e** encontrou a droga.*"
+      ],
+      [
+       "Subordinação",
+       "Uma oração exerce **função sintática** na outra (principal)",
+       "*O agente disse **que encontrou a droga**.*"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Independência sintática **não** significa independência de sentido: as coordenadas se relacionam pelo sentido (soma, oposição, conclusão…). No período composto só por coordenação **não existe oração principal**."
+    },
+    {
+     "t": "h3",
+     "text": "Sindéticas e assindéticas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Assindética**: ligada sem conjunção, só por pontuação — *Chegou, viu, prendeu.*",
+      "**Sindética**: introduzida por conjunção coordenativa — *Chegou **e** prendeu.*",
+      "Num período como *O delegado ouviu as testemunhas, analisou as imagens **e** expediu o mandado*, as duas primeiras orações são **assindéticas** e a última é **sindética aditiva**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Os cinco tipos de coordenada sindética"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Sentido",
+      "Conjunções",
+      "Exemplo"
+     ],
+     "widths": [
+      0.15,
+      0.17,
+      0.33,
+      0.35
+     ],
+     "rows": [
+      [
+       "Aditiva",
+       "Soma de fatos",
+       "e, nem, não só… mas também, tanto… quanto",
+       "Prendeu o autor **e** recuperou a carga."
+      ],
+      [
+       "Adversativa",
+       "Oposição, contraste",
+       "mas, porém, contudo, todavia, entretanto, no entanto",
+       "Confessou, **mas** não indicou os comparsas."
+      ],
+      [
+       "Alternativa",
+       "Alternância ou exclusão",
+       "ou, ou… ou, ora… ora, quer… quer, seja… seja",
+       "**Ou** colabora, **ou** será indiciado."
+      ],
+      [
+       "Conclusiva",
+       "Conclusão lógica",
+       "logo, portanto, por isso, assim, por conseguinte, pois (posposto)",
+       "O laudo é conclusivo; **logo**, a autoria está provada."
+      ],
+      [
+       "Explicativa",
+       "Justificativa do que se disse",
+       "porque, que, pois (anteposto), porquanto",
+       "Feche a porta, **pois** está ventando."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Nem** = *e não*: *Não estudou **nem** trabalhou.* (adição de negações). Evite *e nem*, salvo com valor enfático (*nem sequer*).",
+      "**Não só… mas também** e **tanto… quanto** são **correlações aditivas**, não adversativas."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Valores especiais"
+    },
+    {
+     "t": "h3",
+     "text": "“E” com valor adversativo"
+    },
+    {
+     "t": "p",
+     "text": "A conjunção *e* pode ligar fatos que se opõem: *Estudou muito **e** não foi aprovado* (= *mas* não foi aprovado). A classificação formal continua aditiva, mas a banca pergunta pelo **sentido**: a relação é de **oposição**."
+    },
+    {
+     "t": "h3",
+     "text": "Pois: explicativo × conclusivo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Posição",
+      "Valor",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.2,
+      0.5
+     ],
+     "rows": [
+      [
+       "Antes do verbo, no início da oração",
+       "Explicativo",
+       "Saia logo, **pois** a reunião vai começar."
+      ],
+      [
+       "Depois do verbo, entre vírgulas",
+       "Conclusivo",
+       "O réu confessou; deve, **pois**, ser punido."
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Explicativa × causal"
+    },
+    {
+     "t": "p",
+     "text": "A **causal** (subordinada) indica a **causa real** do fato: *A rua está molhada **porque choveu***. A **explicativa** (coordenada) justifica **por que se afirma** algo: *Choveu, **porque a rua está molhada***. A rua molhada não causa a chuva; é a evidência que justifica a afirmação. Após **imperativo**, a oração com *porque/pois/que* é explicativa: *Venha logo, **que** a reunião vai começar.*"
+    },
+    {
+     "t": "h3",
+     "text": "Mas × porém"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Mas** fica sempre no **início** da oração que introduz.",
+      "**Porém, contudo, todavia, entretanto, no entanto** podem **deslocar-se** para o meio ou o fim da oração, entre vírgulas: *O suspeito, **porém**, negou tudo.* O sentido adversativo se mantém.",
+      "**Conclusivas** também se deslocam: *O laudo, **portanto**, é confiável.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Pontuação na coordenação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.3,
+      0.4
+     ],
+     "rows": [
+      [
+       "Assindéticas",
+       "Separadas por vírgula (ou ponto e vírgula)",
+       "Chegou, viu, prendeu."
+      ],
+      [
+       "Adversativas, conclusivas, explicativas",
+       "Vírgula antes da conjunção",
+       "Confessou, mas negou o crime."
+      ],
+      [
+       "Aditiva com **e**, mesmo sujeito",
+       "Sem vírgula",
+       "Revistou o carro e encontrou a droga."
+      ],
+      [
+       "Aditiva com **e**, sujeitos diferentes",
+       "Vírgula admitida (recomendada para clareza)",
+       "A equipe chegou cedo, e o suspeito já havia fugido."
+      ],
+      [
+       "**E** repetido (polissíndeto)",
+       "Vírgula antes de cada e",
+       "E correu, e gritou, e caiu."
+      ],
+      [
+       "Conjunção deslocada",
+       "Isolada por vírgulas; antes, ponto e vírgula ou ponto",
+       "Analisaram as provas; o laudo, portanto, é confiável."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Vírgula e ponto e vírgula",
+     "text": "Quando a conjunção adversativa ou conclusiva **inicia** a oração, basta a vírgula antes dela (*…, mas…*; *…, portanto…*). Quando ela é **deslocada** para o meio da oração, a fronteira entre as orações precisa de **ponto e vírgula** ou **ponto**: *O réu confessou; o advogado, **porém**, recorreu.*"
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sentido**: “a oração introduzida por X expressa conclusão / explicação / oposição”.",
+      "**Substituição**: *mas* por *porém* (mantém); *portanto* por *porquanto* (altera: porquanto é explicativo/causal).",
+      "**Deslocamento**: *porém* entre vírgulas no meio da oração mantém a correção e o sentido.",
+      "**Pontuação**: vírgula antes de *e* com sujeitos diferentes; vírgula antes de *mas*.",
+      "**Classificação**: assindética × sindética; explicativa × conclusiva pelo *pois*."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O período “O agente revistou o carro e encontrou a droga” é composto por coordenação, e a segunda oração é coordenada sindética aditiva.",
+    "comment": "**Certo.** As orações são independentes e a segunda é introduzida pela conjunção aditiva e.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Chegou, viu, prendeu”, as orações são coordenadas sindéticas.",
+    "comment": "**Errado.** Não há conjunção ligando as orações: são assindéticas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O réu confessou, mas não indicou os comparsas”, a segunda oração é coordenada sindética adversativa.",
+    "comment": "**Certo.** Mas introduz oposição em relação à primeira oração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Ou você colabora, ou será indiciado”, as orações são coordenadas conclusivas.",
+    "comment": "**Errado.** Ou… ou indica alternância: as orações são alternativas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O laudo é conclusivo; logo, a autoria está provada”, a conjunção logo introduz oração coordenada conclusiva.",
+    "comment": "**Certo.** Logo apresenta a conclusão do que foi afirmado antes.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Feche a porta, pois está ventando”, a oração introduzida por pois é coordenada conclusiva.",
+    "comment": "**Errado.** Pois anteposto ao verbo, após imperativo, é explicativo: justifica a ordem.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "No período “Estudou muito e não foi aprovado”, a conjunção e estabelece relação de sentido adversativa entre as orações.",
+    "comment": "**Certo.** O resultado contraria a expectativa criada pela primeira oração: e equivale a mas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No período “O suspeito, porém, negou tudo”, o deslocamento da conjunção para o início da oração (“Porém o suspeito negou tudo”) eliminaria a ideia de oposição.",
+    "comment": "**Errado.** Porém mantém o valor adversativo em qualquer posição da oração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A conjunção mas não pode ser deslocada para o interior da oração que introduz, ao contrário de porém e contudo.",
+    "comment": "**Certo.** Mas ocupa sempre o início da oração; porém, contudo, todavia e entretanto podem se deslocar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Nem o delegado nem o escrivão compareceram”, as conjunções expressam alternância.",
+    "comment": "**Errado.** Nem… nem soma negações: a relação é de adição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "Em “O policial correu, mas não alcançou o suspeito”, a segunda oração é coordenada sindética",
+    "options": [
+     "aditiva.",
+     "explicativa.",
+     "adversativa.",
+     "conclusiva.",
+     "alternativa."
+    ],
+    "comment": "**Gabarito: C.** “Mas” estabelece oposição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Em “Estude todos os dias, pois a prova está próxima”, a oração introduzida por “pois” é",
+    "options": [
+     "explicativa.",
+     "conclusiva.",
+     "adversativa.",
+     "aditiva.",
+     "alternativa."
+    ],
+    "comment": "**Gabarito: A.** “Pois” anteposto ao verbo e após verbo no imperativo introduz explicação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Assinale a alternativa em que há oração coordenada sindética conclusiva.",
+    "options": [
+     "Saiu cedo e voltou tarde.",
+     "Ou você fala, ou se cala.",
+     "Ele estudou, mas não passou.",
+     "Fique, que ainda há trabalho.",
+     "Ele estudou muito; foi, portanto, aprovado."
+    ],
+    "comment": "**Gabarito: E.** “Portanto” é conclusivo, mesmo deslocado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Em “Ou o réu confessa, ou as provas o condenarão”, as orações são coordenadas",
+    "options": [
+     "aditivas.",
+     "alternativas.",
+     "explicativas.",
+     "adversativas.",
+     "conclusivas."
+    ],
+    "comment": "**Gabarito: B.** Ou… ou: alternância.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Em “O agente não só prendeu o suspeito, mas também apreendeu a arma”, a relação entre as orações é de",
+    "options": [
+     "oposição.",
+     "explicação.",
+     "conclusão.",
+     "adição.",
+     "alternância."
+    ],
+    "comment": "**Gabarito: D.** Não só… mas também: correlação aditiva.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "C",
+    "text": "O período “Cheguei, vi, venci” é composto por orações coordenadas",
+    "options": [
+     "sindéticas aditivas.",
+     "subordinadas adverbiais.",
+     "assindéticas.",
+     "sindéticas conclusivas.",
+     "subordinadas substantivas."
+    ],
+    "comment": "**Gabarito: C.** Não há conjunção entre as orações: são assindéticas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "A",
+    "text": "Em “Estudou o ano inteiro e não foi aprovado”, a conjunção “e” assume valor",
+    "options": [
+     "adversativo.",
+     "aditivo, apenas.",
+     "conclusivo.",
+     "explicativo.",
+     "alternativo."
+    ],
+    "comment": "**Gabarito: A.** O contexto é de oposição (= mas não foi aprovado).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a vírgula antes de “e” está corretamente empregada.",
+    "options": [
+     "Comprou pão, e leite.",
+     "Ele, e eu fomos ao fórum.",
+     "Os agentes, e os peritos chegaram.",
+     "Estudou, e estudou.",
+     "O delegado ouviu a testemunha, e o escrivão registrou o depoimento."
+    ],
+    "comment": "**Gabarito: E.** Usa-se vírgula antes de “e” quando as orações têm sujeitos diferentes.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Em “Ele, porém, não compareceu à audiência”, a conjunção deslocada",
+    "options": [
+     "deve ficar sem vírgulas.",
+     "deve vir isolada por vírgulas.",
+     "só pode vir no início da oração.",
+     "torna a frase incorreta.",
+     "muda para valor conclusivo."
+    ],
+    "comment": "**Gabarito: B.** Conjunção adversativa deslocada fica entre vírgulas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Em “Está tarde; devemos, pois, encerrar a reunião”, a conjunção “pois” tem valor",
+    "options": [
+     "explicativo.",
+     "adversativo.",
+     "causal.",
+     "conclusivo.",
+     "aditivo."
+    ],
+    "comment": "**Gabarito: D.** Posposta ao verbo e entre vírgulas, “pois” equivale a “portanto”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

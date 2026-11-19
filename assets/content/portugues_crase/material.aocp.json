@@ -1,0 +1,384 @@
+{
+ "id": "lp-crase-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-13"
+ ],
+ "kind": "resumo",
+ "title": "Crase",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 30,
+ "pdf": "portugues_crase.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Se o acento grave é **obrigatório, facultativo ou proibido**, e o **teste do masculino**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Regra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Crase = **preposição a** (regência) + **artigo a** (substantivo feminino) ou *a* de **aquele/aquela/aquilo**.",
+      "**Teste do masculino**: se vira **ao**, há crase.",
+      "**Teste da cidade**: *volto da* › crase; *volto de* › sem crase."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Obrigatória"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Regência + feminino com artigo: *à delegada, à audiência*.",
+      "Locuções femininas: *às pressas, à noite, à vista, à medida que, à espera de*.",
+      "Horas: *às 14h, à uma hora*. *À moda de*: *bife à milanesa*.",
+      "*àquele, àquela, àquilo*; *à qual, às quais*.",
+      "Casa e terra **determinadas**: *à casa dos pais*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Proibida"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Masculino (*a prazo*), verbo (*a partir*), pronomes (*a ela, a Vossa Excelência*), *uma* (*a uma conclusão*).",
+      "Palavras repetidas (*frente a frente*); *a* singular + plural (*a normas*).",
+      "Cidade sem artigo (*a Recife*); *de… a* sem artigo (*de segunda a sexta*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Facultativa"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Possessivo feminino singular (*a/à sua chefe*), nome de mulher (*a/à Mariana*), depois de *até* (*até a/à delegacia*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Crase?",
+      "Exemplo"
+     ],
+     "widths": [
+      0.4,
+      0.16,
+      0.44
+     ],
+     "rows": [
+      [
+       "Verbo pede *a* + feminino",
+       "Sim",
+       "Refiro-me à lei."
+      ],
+      [
+       "Antes de masculino",
+       "Não",
+       "Comprou a prazo."
+      ],
+      [
+       "Antes de verbo",
+       "Não",
+       "Começou a chover."
+      ],
+      [
+       "Horas determinadas",
+       "Sim",
+       "Às 10h."
+      ],
+      [
+       "Pronome pessoal / tratamento",
+       "Não",
+       "Disse a ela."
+      ],
+      [
+       "Aquele / aquilo com preposição",
+       "Sim",
+       "Refiro-me àquilo."
+      ],
+      [
+       "Palavras repetidas",
+       "Não",
+       "Dia a dia."
+      ],
+      [
+       "A + plural",
+       "Não",
+       "Falou a pessoas."
+      ],
+      [
+       "Possessivo feminino singular",
+       "Facultativa",
+       "A/à sua chefe."
+      ],
+      [
+       "Cidade sem artigo",
+       "Não",
+       "Vou a Roma."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Precisa de **preposição** e **artigo** ao mesmo tempo.",
+      "Teste do masculino: **ao** = crase.",
+      "Volto **da** = crase; volto **de** = não.",
+      "Nunca antes de **verbo** nem de **masculino**.",
+      "Nunca antes de **ela, Vossa Excelência, uma**.",
+      "Locução feminina: **às pressas, à noite**.",
+      "Horas: **às** 10h; **à** uma hora.",
+      "De… **a** (sem artigo) × **das… às** (com artigo).",
+      "**Aquele** + preposição = **àquele**.",
+      "Possessivo singular: **facultativa**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CRASE",
+  "rootSub": "a + a",
+  "left": [
+   {
+    "label": "Conceito",
+    "items": [
+     "preposição + artigo",
+     "ou + aquele/aquilo",
+     "acento grave"
+    ]
+   },
+   {
+    "label": "Testes",
+    "items": [
+     "masculino: ao",
+     "cidade: volto da",
+     "regência do verbo"
+    ]
+   },
+   {
+    "label": "Locuções",
+    "items": [
+     "às pressas, à noite",
+     "à medida que",
+     "à espera de"
+    ]
+   },
+   {
+    "label": "Horas e moda",
+    "items": [
+     "às 14h",
+     "à uma hora",
+     "à milanesa"
+    ]
+   },
+   {
+    "label": "Demonstrativos",
+    "items": [
+     "àquele setor",
+     "àquilo",
+     "à qual"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Proibida",
+    "items": [
+     "masculino: a prazo",
+     "verbo: a partir",
+     "a uma conclusão"
+    ]
+   },
+   {
+    "label": "Pronomes",
+    "items": [
+     "a ela",
+     "a Vossa Excelência",
+     "a toda a equipe"
+    ]
+   },
+   {
+    "label": "Repetição e plural",
+    "items": [
+     "frente a frente",
+     "a normas",
+     "de segunda a sexta"
+    ]
+   },
+   {
+    "label": "Casa e terra",
+    "items": [
+     "voltou a casa",
+     "à casa dos pais",
+     "desceu a terra"
+    ]
+   },
+   {
+    "label": "Facultativa",
+    "items": [
+     "à sua chefe",
+     "à Mariana",
+     "até à delegacia"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Nas férias, a equipe foi à praia”, o acento grave está corretamente empregado.",
+    "comment": "**Certo.** Ir a + a praia: preposição e artigo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O equipamento foi comprado à prazo”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Prazo é masculino: não há crase.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Às vezes, a perícia demora meses”, o acento grave marca locução adverbial feminina.",
+    "comment": "**Certo.** Às vezes é locução adverbial feminina.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O delegado disse tudo à ela”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Não há crase antes de pronome pessoal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ninguém deu importância àquilo”, o acento grave está corretamente empregado.",
+    "comment": "**Certo.** Dar importância a + aquilo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Há crase obrigatória em",
+    "options": [
+     "Foi a pé.",
+     "Chegou às 9h.",
+     "Começou a chover.",
+     "Falou a ele.",
+     "Vendeu a prazo."
+    ],
+    "comment": "**Gabarito: B.** Horas determinadas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "D",
+    "text": "Não há crase antes de",
+    "options": [
+     "palavra feminina com artigo",
+     "horas",
+     "locuções femininas",
+     "verbo",
+     "aquele"
+    ],
+    "comment": "**Gabarito: D.** Verbo não admite artigo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "A crase é facultativa antes de",
+    "options": [
+     "pronome possessivo feminino singular",
+     "horas",
+     "palavra masculina",
+     "verbo",
+     "pronome pessoal"
+    ],
+    "comment": "**Gabarito: A.** À sua chefe / a sua chefe.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "E",
+    "text": "Está correta a frase",
+    "options": [
+     "Vou à pé.",
+     "Falei à ele.",
+     "Cheguei à uma conclusão.",
+     "Fiquei a espera.",
+     "Refiro-me àquele fato."
+    ],
+    "comment": "**Gabarito: E.** A + aquele = àquele.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Está correta a frase",
+    "options": [
+     "Fui à Brasília.",
+     "Voltei à casa (para meu lar).",
+     "Voltei à casa dos meus pais.",
+     "Andou à cavalo.",
+     "Escreveu à lápis."
+    ],
+    "comment": "**Gabarito: C.** Casa especificada leva artigo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

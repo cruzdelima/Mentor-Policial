@@ -1,0 +1,419 @@
+{
+ "id": "lp-regencia-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-12"
+ ],
+ "kind": "resumo",
+ "title": "Regência nominal e verbal",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 35,
+ "pdf": "portugues_regencia.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Verbos cujo **sentido muda com a regência**, **preposição antes do relativo** e a regência que gera **crase**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Verbos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Regência"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "assistir",
+       "**a** = ver · OD = ajudar · **a** alguém = caber direito"
+      ],
+      [
+       "aspirar",
+       "OD = inspirar · **a** = desejar"
+      ],
+      [
+       "visar",
+       "OD = mirar, pôr visto · **a** = pretender"
+      ],
+      [
+       "obedecer",
+       "**a**"
+      ],
+      [
+       "preferir",
+       "algo **a** algo (sem *mais*, sem *do que*)"
+      ],
+      [
+       "chegar, ir",
+       "**a** (não *em*)"
+      ],
+      [
+       "implicar",
+       "OD = acarretar (sem *em*)"
+      ],
+      [
+       "proceder",
+       "**a** = realizar"
+      ],
+      [
+       "pagar, perdoar",
+       "coisa OD; pessoa **a**"
+      ],
+      [
+       "informar, avisar",
+       "alguém **de** algo / algo **a** alguém"
+      ],
+      [
+       "esquecer, lembrar",
+       "OD; ou *esquecer-se de, lembrar-se de*"
+      ],
+      [
+       "namorar",
+       "OD (sem *com*)"
+      ],
+      [
+       "simpatizar",
+       "**com** (não pronominal)"
+      ],
+      [
+       "residir, morar",
+       "**em**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Nominal"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**a**: favorável, contrário, acessível, obediente, preferível, relativo.",
+      "**com**: compatível, solidário. **em**: residente, situado. **de**: suspeito, capaz, digno."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Relativos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A preposição do verbo vai para **antes do relativo**: *o cargo **a que** aspiro; os documentos **de que** preciso; a pessoa **em quem** confio*.",
+      "Verbos com regências diferentes não dividem o mesmo complemento: *Entrou **na** sala e saiu **dela**.*"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: certo × errado"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Evite",
+      "Prefira"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Assisti o jogo.",
+       "Assisti ao jogo."
+      ],
+      [
+       "Aspiro o cargo.",
+       "Aspiro ao cargo."
+      ],
+      [
+       "Prefiro mais isto do que aquilo.",
+       "Prefiro isto àquilo."
+      ],
+      [
+       "Cheguei em casa / no local.",
+       "Cheguei a casa / ao local."
+      ],
+      [
+       "Isso implica em custos.",
+       "Isso implica custos."
+      ],
+      [
+       "Esqueci do prazo.",
+       "Esqueci o prazo / Esqueci-me do prazo."
+      ],
+      [
+       "Paguei o advogado.",
+       "Paguei ao advogado."
+      ],
+      [
+       "O livro que gosto.",
+       "O livro de que gosto."
+      ],
+      [
+       "Namora com a colega.",
+       "Namora a colega."
+      ],
+      [
+       "Reside à Rua X.",
+       "Reside na Rua X."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Assistir **a** = ver; assistir alguém = ajudar.",
+      "Aspirar **a** = desejar.",
+      "Preferir X **a** Y.",
+      "Implicar (acarretar) é direto.",
+      "Verbo de movimento: **a**.",
+      "Pagar e perdoar: **a** pessoa.",
+      "Esquecer sem *me*, sem *de*.",
+      "Preposição sobe para antes do **que** relativo.",
+      "Sem preposição exigida, **não há crase**.",
+      "Dois verbos, duas regências: repita o complemento."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "REGÊNCIA",
+  "rootSub": "verbal e nominal",
+  "left": [
+   {
+    "label": "Assistir",
+    "items": [
+     "ao jogo: ver",
+     "o ferido: ajudar",
+     "ao réu o direito"
+    ]
+   },
+   {
+    "label": "Aspirar e visar",
+    "items": [
+     "aspirar o ar",
+     "aspirar ao cargo",
+     "visar ao bem comum"
+    ]
+   },
+   {
+    "label": "Preferir",
+    "items": [
+     "X a Y",
+     "sem mais",
+     "sem do que"
+    ]
+   },
+   {
+    "label": "Movimento",
+    "items": [
+     "chegar a",
+     "ir a",
+     "voltar a"
+    ]
+   },
+   {
+    "label": "Implicar e proceder",
+    "items": [
+     "implica custos",
+     "procedeu à oitiva",
+     "a denúncia procede"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Pessoa com a",
+    "items": [
+     "pagar ao credor",
+     "perdoar ao réu",
+     "obedecer ao chefe"
+    ]
+   },
+   {
+    "label": "Pronominais",
+    "items": [
+     "esquecer-se de",
+     "lembrar-se de",
+     "simpatizar com (não se)"
+    ]
+   },
+   {
+    "label": "Nominal",
+    "items": [
+     "favorável a",
+     "compatível com",
+     "residente em"
+    ]
+   },
+   {
+    "label": "Relativos",
+    "items": [
+     "a que aspiro",
+     "de que preciso",
+     "em quem confio"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "entrou na sala e saiu dela",
+     "namorar sem com",
+     "reside na rua"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Milhares de pessoas assistiram ao jogo”, a regência verbal está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Assistir no sentido de ver exige a preposição a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Ele visa o cargo de perito há anos”, no sentido de almejar, a regência recomendada pela norma-padrão foi observada.",
+    "comment": "**Errado.** No sentido de pretender, recomenda-se a preposição a: visa ao cargo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Todos devem obedecer ao regulamento”, a regência verbal está correta.",
+    "comment": "**Certo.** Obedecer é transitivo indireto e rege a preposição a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A frase “Vou no banco depois do expediente” segue a regência prescrita pela norma-padrão.",
+    "comment": "**Errado.** Ir rege a preposição a: vou ao banco.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Prefiro a verdade à mentira”, a regência de preferir está correta.",
+    "comment": "**Certo.** Preferir algo a algo; a preposição se funde com o artigo a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Está correta a frase",
+    "options": [
+     "Assisti o jogo.",
+     "Obedeça o regulamento.",
+     "Assisti ao jogo.",
+     "Prefiro mais isso do que aquilo.",
+     "Chegamos na delegacia."
+    ],
+    "comment": "**Gabarito: C.** Assistir a (ver).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Visar, no sentido de pretender, pede a preposição",
+    "options": [
+     "a",
+     "em",
+     "com",
+     "de",
+     "por"
+    ],
+    "comment": "**Gabarito: A.** Visar ao cargo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Está correta a frase",
+    "options": [
+     "Prefiro trabalhar do que estudar.",
+     "Prefiro mais trabalhar que estudar.",
+     "Prefiro antes trabalhar a estudar.",
+     "Prefiro trabalhar que estudar.",
+     "Prefiro trabalhar a estudar."
+    ],
+    "comment": "**Gabarito: E.** Preferir algo a algo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "D",
+    "text": "Em “A lei ___ me refiro”, a lacuna é preenchida por",
+    "options": [
+     "que",
+     "de que",
+     "em que",
+     "a que",
+     "cuja"
+    ],
+    "comment": "**Gabarito: D.** Referir-se a.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "B",
+    "text": "Está correta a frase",
+    "options": [
+     "Implicou em demissão.",
+     "Implicou demissão.",
+     "Chegou em casa cedo, chegou no fórum.",
+     "Esqueci do nome.",
+     "Obedeci o sargento."
+    ],
+    "comment": "**Gabarito: B.** Implicar (acarretar) é transitivo direto.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

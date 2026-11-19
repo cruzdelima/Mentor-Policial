@@ -1,0 +1,374 @@
+{
+ "id": "lp-tipologia-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-15"
+ ],
+ "kind": "resumo",
+ "title": "Tipologia e gêneros textuais",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 25,
+ "pdf": "portugues_tipologia.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Qual o **tipo predominante** e qual o **gênero** do texto. Decida pela **finalidade** e pelas **marcas linguísticas**, não pelo assunto."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Tipo × gênero"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Tipo**: poucas sequências (narrar, descrever, expor, argumentar, instruir).",
+      "**Gênero**: textos concretos e ilimitados (notícia, BO, edital, ofício, crônica).",
+      "Um gênero tem tipo **predominante**, mas mistura outros (heterogeneidade)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Os tipos e suas marcas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Finalidade",
+      "Marcas"
+     ],
+     "widths": [
+      0.2,
+      0.28,
+      0.52
+     ],
+     "rows": [
+      [
+       "Narrativo",
+       "Contar",
+       "Pretérito perfeito, sequência temporal, personagens"
+      ],
+      [
+       "Descritivo",
+       "Caracterizar",
+       "Adjetivos, verbos de estado, imperfeito"
+      ],
+      [
+       "Expositivo",
+       "Informar",
+       "Presente, 3ª pessoa, definições e dados"
+      ],
+      [
+       "Argumentativo",
+       "Convencer",
+       "Tese, argumentos, conclusão, conectores"
+      ],
+      [
+       "Injuntivo",
+       "Orientar",
+       "Imperativo ou infinitivo, passos"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Gêneros"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Argumentativos**: editorial (do veículo), artigo de opinião (assinado).",
+      "**Narrativos**: notícia (com exposição), crônica, boletim de ocorrência.",
+      "**Expositivos**: reportagem, relatório, verbete. **Injuntivos**: edital, manual, receita.",
+      "**Laudo**: descritivo e expositivo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: como reconhecer"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pista no texto",
+      "Tipo"
+     ],
+     "widths": [
+      0.62,
+      0.38
+     ],
+     "rows": [
+      [
+       "Ações em sequência, marcadores de tempo",
+       "Narrativo"
+      ],
+      [
+       "Características, sem avanço temporal",
+       "Descritivo"
+      ],
+      [
+       "Explica sem tomar partido",
+       "Expositivo"
+      ],
+      [
+       "Defende uma ideia",
+       "Argumentativo"
+      ],
+      [
+       "Diz o que fazer",
+       "Injuntivo"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Finalidade decide o tipo; o **assunto** não.",
+      "Gênero tem tipo **predominante**.",
+      "Pretérito **perfeito** = narração; **imperfeito** = descrição.",
+      "**Imperativo** = injunção.",
+      "**Portanto, logo** = conclusão de argumento.",
+      "Editorial = opinião do jornal; artigo = opinião assinada.",
+      "Notícia = fato recente, impessoal.",
+      "BO = narrativo com descrições.",
+      "Edital = regras (injuntivo).",
+      "Crônica = cotidiano + reflexão."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "TIPOS E GÊNEROS",
+  "rootSub": "finalidade e marcas",
+  "left": [
+   {
+    "label": "Tipo × gênero",
+    "items": [
+     "tipo: poucas sequências",
+     "gênero: textos concretos",
+     "heterogeneidade"
+    ]
+   },
+   {
+    "label": "Narrativo",
+    "items": [
+     "contar fatos",
+     "pretérito perfeito",
+     "tempo e personagens"
+    ]
+   },
+   {
+    "label": "Descritivo",
+    "items": [
+     "caracterizar",
+     "adjetivos",
+     "pretérito imperfeito"
+    ]
+   },
+   {
+    "label": "Expositivo",
+    "items": [
+     "informar",
+     "presente, 3ª pessoa",
+     "definições e dados"
+    ]
+   },
+   {
+    "label": "Argumentativo",
+    "items": [
+     "tese",
+     "argumentos",
+     "conclusão"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Injuntivo",
+    "items": [
+     "orientar",
+     "imperativo",
+     "passos"
+    ]
+   },
+   {
+    "label": "Jornalísticos",
+    "items": [
+     "notícia: fato",
+     "editorial: opinião",
+     "reportagem: aprofunda"
+    ]
+   },
+   {
+    "label": "Policiais",
+    "items": [
+     "BO: narrativo",
+     "laudo: descritivo",
+     "relatório: expositivo"
+    ]
+   },
+   {
+    "label": "Oficiais",
+    "items": [
+     "edital: regras",
+     "ofício: comunicação",
+     "manual: instruções"
+    ]
+   },
+   {
+    "label": "Atenção",
+    "items": [
+     "assunto não define tipo",
+     "veja a finalidade",
+     "veja os verbos"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O trecho é predominantemente narrativo.",
+    "comment": "**Certo.** Relata ações em sequência temporal (conduziram, lavrou).",
+    "context": "Após a abordagem, os agentes conduziram o suspeito à delegacia, onde o delegado lavrou o auto de prisão em flagrante.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "No trecho, predomina a sequência argumentativa, pois há defesa de uma tese.",
+    "comment": "**Errado.** Não há tese nem argumentos; há relato de fatos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O artigo de opinião é gênero predominantemente argumentativo.",
+    "comment": "**Certo.** Defende o ponto de vista do autor.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O manual de instruções é gênero predominantemente narrativo.",
+    "comment": "**Errado.** Orienta o leitor por passos: é injuntivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "No texto descritivo, é comum o emprego do pretérito imperfeito e de adjetivos.",
+    "comment": "**Certo.** São marcas da caracterização.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Texto com verbos no imperativo e instruções é",
+    "options": [
+     "narrativo",
+     "injuntivo",
+     "descritivo",
+     "argumentativo",
+     "lírico"
+    ],
+    "comment": "**Gabarito: B.** Injuntivo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "D",
+    "text": "Texto que defende ponto de vista com argumentos é",
+    "options": [
+     "narrativo",
+     "descritivo",
+     "injuntivo",
+     "dissertativo-argumentativo",
+     "dialogal"
+    ],
+    "comment": "**Gabarito: D.** Dissertativo-argumentativo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "O relato de fatos em sequência, com personagens, caracteriza o texto",
+    "options": [
+     "narrativo",
+     "descritivo",
+     "injuntivo",
+     "expositivo",
+     "argumentativo"
+    ],
+    "comment": "**Gabarito: A.** Narração.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "C",
+    "text": "Caracterizar uma pessoa ou um lugar é próprio do texto",
+    "options": [
+     "narrativo",
+     "argumentativo",
+     "descritivo",
+     "injuntivo",
+     "dialogal"
+    ],
+    "comment": "**Gabarito: C.** Descrição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "E",
+    "text": "O manual de procedimentos policiais é exemplo de gênero predominantemente",
+    "options": [
+     "narrativo",
+     "lírico",
+     "descritivo",
+     "argumentativo",
+     "injuntivo"
+    ],
+    "comment": "**Gabarito: E.** Instruções.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

@@ -1,0 +1,482 @@
+{
+ "id": "lp-tipologia-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-15"
+ ],
+ "kind": "aprofundado",
+ "title": "Tipologia e gêneros textuais",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 90,
+ "pdf": "portugues_tipologia_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca pergunta “o texto é predominantemente narrativo / argumentativo?” e “o texto pertence ao gênero X”. Para acertar, olhe a **finalidade** do texto (contar, descrever, informar, convencer, orientar) e as **marcas linguísticas** (tempos verbais, pessoa, conectores). O assunto do texto não define o tipo."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Tipo textual × gênero textual"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Tipo textual",
+      "Gênero textual"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "O que é",
+       "Sequência linguística definida pela estrutura e pela finalidade",
+       "Texto concreto, reconhecido socialmente, com função e formato próprios"
+      ],
+      [
+       "Quantidade",
+       "Poucos (cinco ou seis)",
+       "Ilimitados (surgem e desaparecem)"
+      ],
+      [
+       "Exemplos",
+       "narrativo, descritivo, expositivo, argumentativo, injuntivo",
+       "notícia, editorial, boletim de ocorrência, ofício, edital, receita, crônica"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Um **gênero** costuma ter um tipo **predominante**, mas mistura sequências de outros tipos (**heterogeneidade tipológica**). Um boletim de ocorrência, por exemplo, é predominantemente narrativo, mas descreve o suspeito e os objetos."
+    },
+    {
+     "t": "h2",
+     "text": "2. Os tipos textuais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Finalidade",
+      "Marcas linguísticas"
+     ],
+     "widths": [
+      0.17,
+      0.3,
+      0.53
+     ],
+     "rows": [
+      [
+       "Narrativo",
+       "Contar fatos em sequência temporal",
+       "Personagens, narrador, tempo e espaço; verbos de ação no **pretérito perfeito**; marcadores de tempo (*depois, em seguida, às 22h*)"
+      ],
+      [
+       "Descritivo",
+       "Caracterizar seres, objetos, lugares",
+       "Adjetivos e locuções adjetivas; verbos de estado e de ligação; **pretérito imperfeito** ou presente; enumeração de traços"
+      ],
+      [
+       "Expositivo",
+       "Informar, explicar um conceito ou fenômeno",
+       "3ª pessoa, **presente** atemporal, definições, exemplos, dados; tom neutro"
+      ],
+      [
+       "Argumentativo (dissertativo-argumentativo)",
+       "Convencer: defender uma tese",
+       "Tese, argumentos e conclusão; **operadores argumentativos** (*portanto, além disso, no entanto*); modalizadores (*é necessário, certamente*)"
+      ],
+      [
+       "Injuntivo (instrucional)",
+       "Orientar, instruir, ordenar",
+       "**Imperativo** ou **infinitivo**; sequência de passos; enumeração"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Alguns autores incluem o tipo **dialogal** (conversação, entrevista). A banca trata o argumentativo e o expositivo como dissertativos; a diferença é que o expositivo **informa** e o argumentativo **defende um ponto de vista**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Como reconhecer o tipo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Se a resposta for sim…"
+     ],
+     "widths": [
+      0.55,
+      0.45
+     ],
+     "rows": [
+      [
+       "Há fatos que avançam no tempo, com personagens?",
+       "Narrativo"
+      ],
+      [
+       "O texto pinta um retrato, sem progressão temporal?",
+       "Descritivo"
+      ],
+      [
+       "Explica um assunto sem tomar partido?",
+       "Expositivo"
+      ],
+      [
+       "Defende uma ideia e tenta convencer o leitor?",
+       "Argumentativo"
+      ],
+      [
+       "Diz ao leitor o que fazer?",
+       "Injuntivo"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "O assunto não define o tipo",
+     "text": "Um texto sobre um crime pode ser **narrativo** (como aconteceu), **descritivo** (como era o local), **expositivo** (o que diz a lei) ou **argumentativo** (por que a pena deveria ser maior). Olhe a finalidade, não o tema."
+    },
+    {
+     "t": "h2",
+     "text": "4. Gêneros mais cobrados"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Gênero",
+      "Tipo predominante",
+      "Características"
+     ],
+     "widths": [
+      0.22,
+      0.24,
+      0.54
+     ],
+     "rows": [
+      [
+       "Notícia",
+       "Narrativo / expositivo",
+       "Relata fato recente, linguagem impessoal; lide responde o quê, quem, quando, onde, como, por quê"
+      ],
+      [
+       "Reportagem",
+       "Expositivo",
+       "Aprofunda o tema, com dados, entrevistas e contexto"
+      ],
+      [
+       "Editorial",
+       "Argumentativo",
+       "Opinião do veículo de imprensa, sem assinatura"
+      ],
+      [
+       "Artigo de opinião",
+       "Argumentativo",
+       "Opinião assinada por um autor"
+      ],
+      [
+       "Crônica",
+       "Narrativo (com reflexão)",
+       "Fato do cotidiano, tom leve, pode ter humor, lirismo ou crítica"
+      ],
+      [
+       "Boletim de ocorrência",
+       "Narrativo",
+       "Relato do fato, com descrição de envolvidos e objetos"
+      ],
+      [
+       "Laudo pericial",
+       "Descritivo / expositivo",
+       "Descreve vestígios e expõe conclusões técnicas"
+      ],
+      [
+       "Relatório",
+       "Expositivo / narrativo",
+       "Relata atividades e resultados, com conclusões"
+      ],
+      [
+       "Edital",
+       "Injuntivo / expositivo",
+       "Torna público e estabelece regras e prazos"
+      ],
+      [
+       "Ofício",
+       "Expositivo / injuntivo",
+       "Comunicação oficial entre órgãos (padrão ofício)"
+      ],
+      [
+       "Manual, receita",
+       "Injuntivo",
+       "Instruções em passos"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O texto é predominantemente narrativo / descritivo / argumentativo.”",
+      "“Trata-se de texto do gênero X” — confira a finalidade e o suporte (jornal, documento oficial).",
+      "“O texto apresenta trechos descritivos, embora seja predominantemente narrativo” — heterogeneidade tipológica.",
+      "Marcas linguísticas: “predominam verbos no pretérito perfeito, típicos da narração”."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O texto narrativo organiza fatos em sequência temporal e apresenta personagens, tempo e espaço.",
+    "comment": "**Certo.** São os elementos característicos da narração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O texto descritivo caracteriza-se pela defesa de uma tese por meio de argumentos.",
+    "comment": "**Errado.** Defender tese é próprio do texto argumentativo; o descritivo caracteriza seres e lugares.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Textos injuntivos empregam formas verbais no imperativo ou no infinitivo para orientar o leitor.",
+    "comment": "**Certo.** É o caso de manuais, receitas e instruções de editais.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Tipo textual e gênero textual são expressões sinônimas.",
+    "comment": "**Errado.** Tipos são poucas sequências estruturais; gêneros são textos concretos e ilimitados.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O editorial é gênero predominantemente argumentativo.",
+    "comment": "**Certo.** Expressa a opinião do veículo de imprensa sobre um tema.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A notícia tem como característica principal a defesa da opinião do jornalista.",
+    "comment": "**Errado.** A notícia relata fatos com linguagem impessoal; a opinião é própria do artigo e do editorial.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Um mesmo gênero pode apresentar sequências de tipos textuais diferentes.",
+    "comment": "**Certo.** É a heterogeneidade tipológica: um boletim de ocorrência narra e também descreve.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No texto expositivo, predominam a primeira pessoa e a expressão de opiniões pessoais.",
+    "comment": "**Errado.** O expositivo informa com linguagem impessoal, em 3ª pessoa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "O boletim de ocorrência é gênero em que predomina a sequência narrativa.",
+    "comment": "**Certo.** Relata um fato em ordem temporal, com envolvidos e circunstâncias.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Receitas culinárias são exemplos típicos de texto descritivo.",
+    "comment": "**Errado.** Receitas orientam o leitor passo a passo: são injuntivas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "Leia o trecho: “Na noite de sábado, a guarnição foi acionada para atender a uma ocorrência no centro. Ao chegar, encontrou a porta da loja arrombada e um homem escondido nos fundos.” Predomina no trecho a tipologia",
+    "options": [
+     "narrativa.",
+     "descritiva.",
+     "dissertativo-argumentativa.",
+     "injuntiva.",
+     "expositiva."
+    ],
+    "comment": "**Gabarito: A.** Há fatos em sequência temporal, com personagens e lugar: narração.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "Leia o trecho: “Antes de abordar o veículo, posicione a viatura atrás dele, mantenha distância segura e informe a placa à central.” O trecho é predominantemente",
+    "options": [
+     "narrativo.",
+     "descritivo.",
+     "argumentativo.",
+     "injuntivo.",
+     "expositivo."
+    ],
+    "comment": "**Gabarito: D.** Verbos no imperativo e instruções: tipologia injuntiva (instrucional).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Leia o trecho: “O suspeito tinha cerca de 1,80 m, cabelos curtos e grisalhos, uma cicatriz no queixo e vestia jaqueta preta.” Predomina no trecho a tipologia",
+    "options": [
+     "narrativa.",
+     "argumentativa.",
+     "descritiva.",
+     "injuntiva.",
+     "dialogal."
+    ],
+    "comment": "**Gabarito: C.** Caracteriza um ser, sem sequência de ações: descrição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "O gênero “artigo de opinião” caracteriza-se, predominantemente, pela tipologia",
+    "options": [
+     "narrativa.",
+     "dissertativo-argumentativa.",
+     "injuntiva.",
+     "descritiva.",
+     "dialogal."
+    ],
+    "comment": "**Gabarito: B.** Defende um ponto de vista com argumentos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "E",
+    "text": "Leia o trecho: “A Polícia Federal é órgão permanente, organizado e mantido pela União, e exerce, entre outras funções, a de polícia judiciária da União.” O trecho é predominantemente",
+    "options": [
+     "narrativo.",
+     "injuntivo.",
+     "argumentativo.",
+     "descritivo de personagem.",
+     "expositivo."
+    ],
+    "comment": "**Gabarito: E.** Apresenta informações de modo objetivo, sem defender tese: exposição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Os gêneros “manual de instruções”, “receita culinária” e “edital de concurso” têm em comum o predomínio de sequências",
+    "options": [
+     "injuntivas.",
+     "narrativas.",
+     "argumentativas.",
+     "descritivas.",
+     "líricas."
+    ],
+    "comment": "**Gabarito: A.** Todos orientam o leitor a agir de determinada forma.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "O boletim de ocorrência, em que o agente relata os fatos atendidos, apresenta predominantemente sequências",
+    "options": [
+     "argumentativas.",
+     "injuntivas.",
+     "narrativas.",
+     "líricas.",
+     "dialogais."
+    ],
+    "comment": "**Gabarito: C.** Relata fatos em ordem cronológica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "D",
+    "text": "Assinale a alternativa que apresenta característica do texto dissertativo-argumentativo.",
+    "options": [
+     "Predomínio de verbos no imperativo.",
+     "Presença de narrador e clímax.",
+     "Enumeração de características físicas.",
+     "Defesa de uma tese com argumentos.",
+     "Diálogo entre personagens."
+    ],
+    "comment": "**Gabarito: D.** Tese + argumentos + conclusão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Leia: “Muitos acreditam que penas mais duras reduzem a criminalidade. Os dados, porém, mostram que a certeza da punição pesa mais do que o seu tamanho.” No trecho, o autor",
+    "options": [
+     "narra um fato policial.",
+     "contrapõe uma opinião corrente a dados para defender um ponto de vista.",
+     "dá instruções ao leitor.",
+     "descreve um lugar.",
+     "apenas expõe dados, sem tomar posição."
+    ],
+    "comment": "**Gabarito: B.** Há tese (a certeza da punição pesa mais) apoiada em dados: argumentação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "E",
+    "text": "A notícia de jornal sobre uma operação policial apresenta, em regra,",
+    "options": [
+     "predomínio de sequências injuntivas.",
+     "linguagem poética.",
+     "defesa explícita de tese pelo jornalista.",
+     "narrador personagem.",
+     "relato de fatos com informações objetivas (o quê, quem, quando, onde, como)."
+    ],
+    "comment": "**Gabarito: E.** A notícia relata fatos de forma objetiva.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Luiz Antônio Marcuschi, Produção textual, análise de gêneros e compreensão.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "id": "lp-formacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-18"
+ ],
+ "kind": "aprofundado",
+ "title": "Estrutura e formação de palavras",
+ "subtitle": "Língua Portuguesa · Morfologia",
+ "minutes": 90,
+ "pdf": "portugues_formacao_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Assunto curto e muito previsível. A banca pergunta o **processo de formação** de uma palavra do texto ou o **sentido de um afixo** (“o prefixo *des-* indica negação”). Decore o quadro da seção 2 e o teste da parassíntese."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Estrutura das palavras"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Elemento",
+      "Função",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.4,
+      0.36
+     ],
+     "rows": [
+      [
+       "Radical",
+       "Parte que carrega o significado básico",
+       "**polic**-ial, **polic**-iamento"
+      ],
+      [
+       "Prefixo",
+       "Afixo antes do radical",
+       "**in**-feliz, **re**-abrir, **des**-leal"
+      ],
+      [
+       "Sufixo",
+       "Afixo depois do radical",
+       "investiga-**ção**, agress-**or**, feliz-**mente**"
+      ],
+      [
+       "Vogal temática",
+       "Indica a conjugação ou o grupo do nome",
+       "cant-**a**-r, vend-**e**-r, part-**i**-r"
+      ],
+      [
+       "Desinências",
+       "Indicam flexões (gênero, número, pessoa, tempo)",
+       "agente-**s**, delegad-**a**, cantá-**va**-**mos**"
+      ],
+      [
+       "Vogal e consoante de ligação",
+       "Facilitam a pronúncia",
+       "gas-**ô**-metro, cafe-**t**-eira"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Derivação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Processo",
+      "Como se forma",
+      "Exemplos"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Prefixal",
+       "Prefixo + radical",
+       "reabrir, desleal, ilegal, subchefe"
+      ],
+      [
+       "Sufixal",
+       "Radical + sufixo",
+       "investigação, policial, rapidamente, agressor"
+      ],
+      [
+       "Prefixal e sufixal",
+       "Prefixo e sufixo, mas a palavra existe com **um só** deles",
+       "**in**feliz**mente** (infeliz / felizmente), **des**leal**dade** (desleal / lealdade)"
+      ],
+      [
+       "Parassintética",
+       "Prefixo e sufixo **ao mesmo tempo**: sem um deles, a palavra não existe",
+       "**en**tard**ecer**, **a**manh**ecer**, **en**riqu**ecer**, **es**clar**ecer**, **a**pedr**ejar**"
+      ],
+      [
+       "Regressiva",
+       "Redução da palavra; em geral, **substantivo a partir de verbo**",
+       "combate (combater), ataque, saque (sacar), pesca, debate"
+      ],
+      [
+       "Imprópria (conversão)",
+       "Mudança de classe, sem mudar a forma",
+       "**o** jantar, **o** sim, **um** não, **o** porquê"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Teste da parassíntese",
+     "text": "Retire o prefixo e, depois, o sufixo. Se **nenhuma** das duas formas existir, é parassíntese: *entardecer* › “tardecer”? não; “entarde”? não › **parassintética**. Se uma das formas existir, é prefixal e sufixal: *infelizmente* › *felizmente* existe › **prefixal e sufixal**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Composição"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Processo",
+      "O que acontece",
+      "Exemplos"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Justaposição",
+       "Os radicais se unem **sem perda** de som",
+       "girassol, passatempo, guarda-chuva, pontapé, pé de moleque"
+      ],
+      [
+       "Aglutinação",
+       "Os radicais se unem **com perda** de som",
+       "planalto (plano + alto), aguardente (água + ardente), embora (em boa hora), fidalgo (filho de algo)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Justaposição × aglutinação",
+     "text": "*Girassol* parece aglutinação, mas *gira + sol* não perde nenhum som: é **justaposição**. *Planalto* perde o *o* de *plano*: é **aglutinação**."
+    },
+    {
+     "t": "h2",
+     "text": "4. Outros processos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Hibridismo**: elementos de línguas diferentes — *automóvel* (grego + latim), *televisão* (grego *tele* + latim *visão*), *burocracia* (francês + grego), *sociologia* (latim + grego).",
+      "**Abreviação (redução)**: *moto* (motocicleta), *foto*, *cine*, *pneu*.",
+      "**Siglonimização**: *PF, PRF, ONU, INSS*. Quando a sigla vira palavra e gera derivados: *petista, celetista*.",
+      "**Onomatopeia**: imitação de sons — *tique-taque, zunzum, cochicho*.",
+      "**Estrangeirismos** e **neologismos**: *deletar, printar*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Sentido de prefixos e sufixos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Afixo",
+      "Sentido",
+      "Exemplos"
+     ],
+     "widths": [
+      0.18,
+      0.32,
+      0.5
+     ],
+     "rows": [
+      [
+       "a-, an-, des-, in-, i-",
+       "negação, privação",
+       "atípico, anormal, desleal, ilegal, inativo"
+      ],
+      [
+       "anti-, contra-",
+       "oposição",
+       "antidrogas, contraordem"
+      ],
+      [
+       "re-",
+       "repetição ou retrocesso",
+       "reabrir, refazer, regredir"
+      ],
+      [
+       "pre-, pré-",
+       "anterioridade",
+       "prever, pré-edital"
+      ],
+      [
+       "pós-",
+       "posterioridade",
+       "pós-edital, pós-graduação"
+      ],
+      [
+       "sub-",
+       "posição inferior",
+       "subchefe, subsolo"
+      ],
+      [
+       "super-, hiper-",
+       "excesso, posição superior",
+       "superlotado, hipertensão"
+      ],
+      [
+       "ex-",
+       "estado anterior ou movimento para fora",
+       "ex-delegado, exportar"
+      ],
+      [
+       "-dor, -or, -ista",
+       "agente",
+       "investigador, agressor, motorista"
+      ],
+      [
+       "-ção, -mento",
+       "ação ou resultado",
+       "investigação, policiamento"
+      ],
+      [
+       "-vel",
+       "possibilidade",
+       "punível, inafiançável"
+      ],
+      [
+       "-mente",
+       "modo (forma advérbios)",
+       "rapidamente"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A palavra X é formada por derivação parassintética / prefixal e sufixal.”",
+      "“O prefixo presente em X expressa negação.”",
+      "“X e Y são formadas pelo mesmo processo.”",
+      "“O vocábulo X resulta de derivação imprópria” (substantivação de verbo ou adjetivo)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A palavra entardecer é formada por derivação parassintética.",
+    "comment": "**Certo.** Não existem tardecer nem entarde: prefixo e sufixo entram juntos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A palavra infelizmente é formada por derivação parassintética.",
+    "comment": "**Errado.** Existem infeliz e felizmente: é derivação prefixal e sufixal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O substantivo combate, formado a partir do verbo combater, exemplifica a derivação regressiva.",
+    "comment": "**Certo.** Substantivo formado pela redução do verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A palavra girassol é formada por composição por aglutinação.",
+    "comment": "**Errado.** Gira e sol se unem sem perda de som: justaposição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A palavra planalto é formada por composição por aglutinação.",
+    "comment": "**Certo.** Plano + alto, com perda do o final de plano.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “O jantar foi servido”, a palavra jantar resulta de derivação sufixal.",
+    "comment": "**Errado.** O verbo passou a substantivo sem mudar de forma: derivação imprópria.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A palavra automóvel é um hibridismo, pois une elementos de origem grega e latina.",
+    "comment": "**Certo.** Auto (grego) + móvel (latim).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Na palavra desleal, o prefixo des- indica repetição.",
+    "comment": "**Errado.** Des- indica negação: que não é leal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Na palavra investigação, o sufixo -ção forma substantivo a partir de verbo e indica ação.",
+    "comment": "**Certo.** Investigar › investigação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A palavra aguardente é formada por composição por justaposição.",
+    "comment": "**Errado.** Água + ardente, com perda de som: aglutinação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "A palavra “entardecer” é formada por",
+    "options": [
+     "derivação prefixal.",
+     "derivação sufixal.",
+     "derivação parassintética.",
+     "composição por justaposição.",
+     "derivação regressiva."
+    ],
+    "comment": "**Gabarito: C.** Prefixo e sufixo entram ao mesmo tempo (não existe “entarde” nem “tardecer”).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "As palavras “ataque” (de atacar) e “busca” (de buscar) são formadas por derivação",
+    "options": [
+     "regressiva.",
+     "prefixal.",
+     "sufixal.",
+     "parassintética.",
+     "imprópria."
+    ],
+    "comment": "**Gabarito: A.** O substantivo nasce da redução do verbo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Assinale a alternativa em que todas as palavras são formadas por composição por aglutinação.",
+    "options": [
+     "girassol, passatempo, guarda-chuva",
+     "infeliz, desfazer, refazer",
+     "felizmente, policial, ataque",
+     "entardecer, esclarecer, emagrecer",
+     "planalto, embora, fidalgo"
+    ],
+    "comment": "**Gabarito: E.** Na aglutinação, há perda de elementos: plano + alto, em + boa + hora, filho + de + algo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Em “O jantar foi servido”, a palavra “jantar” passou de verbo a substantivo por meio de derivação",
+    "options": [
+     "regressiva.",
+     "imprópria.",
+     "prefixal.",
+     "parassintética.",
+     "sufixal."
+    ],
+    "comment": "**Gabarito: B.** Mudança de classe sem alteração de forma: derivação imprópria.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "A palavra “automóvel” é exemplo de",
+    "options": [
+     "sigla.",
+     "aglutinação.",
+     "derivação sufixal.",
+     "hibridismo.",
+     "onomatopeia."
+    ],
+    "comment": "**Gabarito: D.** Une elementos de línguas diferentes (auto, do grego; móvel, do latim).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Em “desfazer”, “reler” e “infeliz”, os prefixos expressam, respectivamente,",
+    "options": [
+     "ação contrária, repetição e negação.",
+     "repetição, negação e ação contrária.",
+     "negação, ação contrária e repetição.",
+     "intensidade, repetição e negação.",
+     "posição, tempo e negação."
+    ],
+    "comment": "**Gabarito: A.** Des- (ação contrária), re- (repetição), in- (negação).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "A palavra “passatempo” é formada por",
+    "options": [
+     "aglutinação.",
+     "derivação sufixal.",
+     "justaposição.",
+     "derivação parassintética.",
+     "hibridismo."
+    ],
+    "comment": "**Gabarito: C.** Passa + tempo, sem perda de elementos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Os sufixos de “carcereiro” e “apreensão” indicam, respectivamente,",
+    "options": [
+     "lugar e qualidade.",
+     "aumentativo e diminutivo.",
+     "ação e profissão.",
+     "origem e lugar.",
+     "profissão (agente) e ação ou resultado da ação."
+    ],
+    "comment": "**Gabarito: E.** -eiro forma nomes de profissão; -são/-ção, nomes de ação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "A palavra “PF” é um exemplo de",
+    "options": [
+     "abreviação vocabular.",
+     "sigla.",
+     "onomatopeia.",
+     "derivação regressiva.",
+     "hibridismo."
+    ],
+    "comment": "**Gabarito: B.** Formada pelas iniciais de Polícia Federal.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Assinale a alternativa em que a palavra é formada por derivação prefixal e sufixal (não simultânea).",
+    "options": [
+     "entristecer",
+     "esclarecer",
+     "amanhecer",
+     "deslealdade",
+     "emagrecer"
+    ],
+    "comment": "**Gabarito: D.** Existem “desleal” e “lealdade”: prefixo e sufixo podem entrar separadamente. Nas demais, há parassíntese.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

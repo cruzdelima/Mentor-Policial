@@ -1,0 +1,344 @@
+{
+ "id": "lp-relacoes-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-22"
+ ],
+ "kind": "resumo",
+ "title": "Relações semânticas entre orações, períodos e parágrafos",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 30,
+ "pdf": "portugues_relacoes.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A **relação lógica** entre partes do texto e se ela se mantém na troca do conector."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Relações e conectores"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Relação",
+      "Conectores"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Adição",
+       "e, nem, além disso, também"
+      ],
+      [
+       "Oposição",
+       "mas, porém, contudo, no entanto, em contrapartida"
+      ],
+      [
+       "Concessão",
+       "embora, ainda que, apesar de"
+      ],
+      [
+       "Causa",
+       "porque, como, já que, visto que"
+      ],
+      [
+       "Consequência",
+       "tão… que, de modo que"
+      ],
+      [
+       "Conclusão",
+       "logo, portanto, dessa forma"
+      ],
+      [
+       "Condição",
+       "se, caso, desde que + subjuntivo"
+      ],
+      [
+       "Finalidade",
+       "para que, a fim de que"
+      ],
+      [
+       "Tempo",
+       "quando, assim que, enquanto"
+      ],
+      [
+       "Proporção",
+       "à medida que, quanto mais… mais"
+      ],
+      [
+       "Conformidade",
+       "conforme, segundo"
+      ],
+      [
+       "Resumo",
+       "em síntese, em suma"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Pontos-chave"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Mas**: prevalece o argumento **depois** dele. **Embora**: a concessiva não impede a principal.",
+      "Períodos **justapostos** têm relação implícita (*Choveu. Adiaram* = causa e consequência).",
+      "Articuladores entre parágrafos: *em primeiro lugar, além disso, em contrapartida, dessa forma, em síntese*."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Identifique a relação **antes** de olhar o conector.",
+      "Troca no **mesmo grupo** mantém o sentido.",
+      "Mas: vale o que vem **depois**.",
+      "Embora: pede **subjuntivo**.",
+      "Sem conectivo também há relação lógica.",
+      "Além disso = **acrescenta**.",
+      "Em contrapartida = **opõe**.",
+      "Dessa forma, em suma = **conclui**.",
+      "À medida que = **proporção**; na medida em que = **causa**.",
+      "Segundo, conforme = **conformidade**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "RELAÇÕES",
+  "rootSub": "lógicas do texto",
+  "left": [
+   {
+    "label": "Adição",
+    "items": [
+     "e, nem",
+     "além disso",
+     "não só… mas também"
+    ]
+   },
+   {
+    "label": "Oposição",
+    "items": [
+     "mas, porém",
+     "em contrapartida",
+     "vale o que vem depois"
+    ]
+   },
+   {
+    "label": "Concessão",
+    "items": [
+     "embora + subjuntivo",
+     "ainda que",
+     "apesar de + infinitivo"
+    ]
+   },
+   {
+    "label": "Causa",
+    "items": [
+     "porque, como",
+     "já que, visto que",
+     "em razão de"
+    ]
+   },
+   {
+    "label": "Consequência e conclusão",
+    "items": [
+     "tão… que",
+     "portanto, logo",
+     "dessa forma"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Condição e fim",
+    "items": [
+     "se, caso",
+     "para que",
+     "a fim de que"
+    ]
+   },
+   {
+    "label": "Tempo e proporção",
+    "items": [
+     "quando, assim que",
+     "à medida que",
+     "quanto mais… mais"
+    ]
+   },
+   {
+    "label": "Conformidade",
+    "items": [
+     "conforme",
+     "segundo",
+     "consoante"
+    ]
+   },
+   {
+    "label": "Implícitas",
+    "items": [
+     "períodos justapostos",
+     "inferência do leitor",
+     "por isso subentendido"
+    ]
+   },
+   {
+    "label": "Parágrafos",
+    "items": [
+     "em primeiro lugar",
+     "além disso",
+     "em síntese"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O réu colaborou; por isso, teve a pena reduzida”, a expressão por isso introduz conclusão ou consequência.",
+    "comment": "**Certo.** A redução da pena decorre da colaboração.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Ainda que chova, a operação ocorrerá”, a locução ainda que expressa condição.",
+    "comment": "**Errado.** Ainda que expressa concessão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Conforme determina a lei, o preso foi apresentado ao juiz”, conforme expressa conformidade.",
+    "comment": "**Certo.** Equivale a de acordo com o que determina a lei.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Já que todos chegaram, a reunião começou”, a locução já que expressa tempo.",
+    "comment": "**Errado.** Já que expressa causa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Entre os períodos “O suspeito fugiu. A porta estava aberta.” pode-se inferir relação de explicação ou causa.",
+    "comment": "**Certo.** O segundo período explica como a fuga ocorreu.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "D",
+    "text": "“Tão… que” expressa",
+    "options": [
+     "causa",
+     "finalidade",
+     "concessão",
+     "consequência",
+     "proporção"
+    ],
+    "comment": "**Gabarito: D.** Consequência.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Em “Embora houvesse provas, o réu foi solto”, a relação é de",
+    "options": [
+     "concessão",
+     "causa",
+     "condição",
+     "conclusão",
+     "finalidade"
+    ],
+    "comment": "**Gabarito: A.** Concessão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "C",
+    "text": "“Diante disso”, no início do parágrafo, indica",
+    "options": [
+     "oposição",
+     "adição",
+     "conclusão",
+     "exemplo",
+     "tempo"
+    ],
+    "comment": "**Gabarito: C.** Conclusão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Em “Choveu; ficamos em casa”, a relação implícita é de",
+    "options": [
+     "oposição",
+     "causa e consequência",
+     "condição",
+     "finalidade",
+     "concessão"
+    ],
+    "comment": "**Gabarito: B.** Causa e efeito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "E",
+    "text": "“Quanto mais… mais” indica",
+    "options": [
+     "causa",
+     "tempo",
+     "condição",
+     "concessão",
+     "proporção"
+    ],
+    "comment": "**Gabarito: E.** Proporção.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

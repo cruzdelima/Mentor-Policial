@@ -1,0 +1,422 @@
+{
+ "id": "lp-crase-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-13"
+ ],
+ "kind": "aprofundado",
+ "title": "Crase",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 150,
+ "pdf": "portugues_crase_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Crase não é acento de palavra: é a **fusão** de duas vogais *a*, marcada pelo **acento grave**. Por isso, ela só existe quando há, ao mesmo tempo, uma **preposição a** (exigida por alguma palavra) e um **artigo a** (exigido por um substantivo feminino), ou um *a* inicial de *aquele, aquela, aquilo*. Use os testes da seção 1 em todas as questões."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conceito e testes"
+    },
+    {
+     "t": "p",
+     "text": "*Refiro-me **a** + **a** decisão* › *Refiro-me **à** decisão.* A preposição vem do verbo (*referir-se a*); o artigo vem do substantivo feminino (*a decisão*)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Teste do masculino",
+     "text": "Troque a palavra feminina por uma masculina. Se aparecer **ao**, há crase: *Refiro-me **ao** despacho* › *Refiro-me **à** decisão*. Se aparecer só *a* ou *o*, não há: *Conheço **o** delegado* › *Conheço **a** delegada* (sem crase)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Teste do lugar (cidades e países)",
+     "text": "Use o verbo *voltar*: se **volto da**, há crase; se **volto de**, não há. *Vou **à** Bahia (volto **da** Bahia). Vou **a** Recife (volto **de** Recife).* Com especificação, o artigo aparece: *Vou **à** Recife antiga.*"
+    },
+    {
+     "t": "h2",
+     "text": "2. Crase obrigatória"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Caso",
+      "Exemplo"
+     ],
+     "widths": [
+      0.42,
+      0.58
+     ],
+     "rows": [
+      [
+       "Preposição exigida + palavra feminina com artigo",
+       "Entregou o laudo **à** delegada. Assistiu **à** audiência."
+      ],
+      [
+       "Locuções adverbiais femininas",
+       "**às** pressas, **à** noite, **às** vezes, **à** vista, **à** força, **à** toa, **à** distância de 50 m"
+      ],
+      [
+       "Locuções prepositivas e conjuntivas femininas",
+       "**à** custa de, **à** frente de, **à** espera de, **à** medida que, **à** proporção que"
+      ],
+      [
+       "Horas determinadas",
+       "A audiência começa **às** 14h. Chegou **à** uma hora."
+      ],
+      [
+       "*À moda de* (mesmo implícita)",
+       "Bife **à** milanesa. Gol **à** Pelé."
+      ],
+      [
+       "Pronomes aquele(s), aquela(s), aquilo",
+       "Encaminhe o ofício **àquele** setor. Refiro-me **àquilo**."
+      ],
+      [
+       "Relativos *a qual / as quais* com preposição",
+       "A lei **à qual** me referi."
+      ],
+      [
+       "Palavra *casa* e *terra* determinadas",
+       "Voltou **à** casa dos pais. Retornou **à** terra natal."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Crase proibida"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Antes de",
+      "Exemplo"
+     ],
+     "widths": [
+      0.36,
+      0.64
+     ],
+     "rows": [
+      [
+       "Palavra masculina (salvo *à moda de*)",
+       "Comprou **a** prazo. Andou **a** cavalo."
+      ],
+      [
+       "Verbo",
+       "Começou **a** investigar. Estava disposto **a** colaborar."
+      ],
+      [
+       "Pronomes pessoais, de tratamento (exceto *senhora, senhorita, dona*), indefinidos e demonstrativos *esta, essa*",
+       "Disse **a** ela. Dirigiu-se **a** Vossa Excelência. Falou **a** toda a equipe."
+      ],
+      [
+       "*Uma* (artigo indefinido)",
+       "Chegou **a** uma conclusão."
+      ],
+      [
+       "Palavras repetidas",
+       "frente **a** frente, cara **a** cara, gota **a** gota"
+      ],
+      [
+       "*a* singular diante de palavra no plural",
+       "Obedeceu **a** normas internas. Comunicou **a** autoridades."
+      ],
+      [
+       "Cidades sem artigo",
+       "Vou **a** Brasília. (volto **de** Brasília)"
+      ],
+      [
+       "*Casa* (o próprio lar) e *terra* (oposta a bordo), sem determinante",
+       "Voltou **a** casa cedo. Os marinheiros desceram **a** terra."
+      ],
+      [
+       "Correlação *de… a* sem artigo",
+       "De segunda **a** sexta. De 8h **a** 12h. (com artigo: **das** 8h **às** 12h)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinhas frequentes",
+     "text": "*à partir de* (errado: verbo) · *à ele* (pronome) · *à prazo* (masculino) · *à uma conclusão* (artigo indefinido) · *de segunda à sexta* (correlação sem artigo) · *à Vossa Excelência* (pronome de tratamento)."
+    },
+    {
+     "t": "h2",
+     "text": "4. Crase facultativa"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Antes de **pronome possessivo feminino singular**: *Entregou o laudo **a/à** sua chefe.* (o artigo antes do possessivo é opcional)",
+      "Antes de **nome próprio feminino de pessoa**: *Enviou o ofício **a/à** Mariana.*",
+      "Depois de **até**: *Foi **até a/à** delegacia.* (*até* sozinho ou *até a*)"
+     ]
+    },
+    {
+     "t": "note",
+     "text": "No plural, o possessivo não é facultativo da mesma forma: *Entregou **às** suas chefes* (com artigo) ou *a suas chefes* (sem artigo, e então sem crase)."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O emprego do acento grave é obrigatório / facultativo / proibido em X.”",
+      "“A substituição de *diretora* por *diretor* exigiria a forma *ao*” — teste do masculino.",
+      "“A retirada do acento grave prejudicaria a correção” — confira se há preposição e artigo.",
+      "Crase e regência juntas: *assistir **à** audiência* (ver) × *assistir **a** vítima* (ajudar, OD: sem crase)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Refiro-me à decisão do juiz”, o acento grave está corretamente empregado.",
+    "comment": "**Certo.** Referir-se exige a preposição a, e decisão admite o artigo a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O agente começou à investigar o caso”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Não há crase antes de verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “A audiência começa às 14h”, o acento grave está corretamente empregado.",
+    "comment": "**Certo.** Indicação de hora determinada leva crase.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Entregou o relatório à ele”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Não há crase antes de pronome pessoal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Os agentes fizeram tudo às pressas”, o acento grave marca locução adverbial feminina.",
+    "comment": "**Certo.** Locuções adverbiais femininas, como às pressas, levam acento grave.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Os delegados foram à Brasília para a reunião”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Teste: volto de Brasília. Sem artigo, não há crase.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O documentário retrata a viagem à Brasília dos anos 1960”, o acento grave está correto.",
+    "comment": "**Certo.** A especificação faz o nome da cidade receber artigo: a Brasília dos anos 1960.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Os dois ficaram frente à frente durante o depoimento”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** Entre palavras repetidas não há crase: frente a frente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Encaminhe o ofício àquele setor”, o acento grave está corretamente empregado.",
+    "comment": "**Certo.** A preposição a (encaminhar a) se funde com o a inicial de aquele.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “O caso foi comunicado à autoridades estaduais”, o acento grave está corretamente empregado.",
+    "comment": "**Errado.** A no singular diante de palavra no plural é só preposição: a autoridades.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "Assinale a alternativa em que o acento grave indicativo de crase está corretamente empregado.",
+    "options": [
+     "O agente foi à pé até a viatura.",
+     "Começou à chover durante a operação.",
+     "A viatura chegou à delegacia às 14h.",
+     "Fui à Brasília participar do curso.",
+     "Entregou o relatório à ele."
+    ],
+    "comment": "**Gabarito: C.** Ir **a** + **a** delegacia (feminino com artigo) = à; e às 14h (horas). Não há crase antes de palavra masculina (pé), verbo (chover), pronome pessoal (ele) e nome de cidade sem artigo (Brasília).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Assinale a alternativa em que o acento grave é OBRIGATÓRIO.",
+    "options": [
+     "O expediente vai das 8h às 18h.",
+     "Entregou o documento a sua chefe.",
+     "Foi até a porta da sala.",
+     "Referiu-se a Maria durante o depoimento.",
+     "Ficou frente a frente com o suspeito."
+    ],
+    "comment": "**Gabarito: A.** Horas com artigo (das 8h às 18h): crase obrigatória. Antes de possessivo feminino, de nome de mulher e depois de “até”, é facultativa; em expressões com palavras repetidas (frente a frente), não há crase.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Assinale a alternativa em que o “a” destacado NÃO deve receber acento grave.",
+    "options": [
+     "Saiu **a** francesa, sem se despedir.",
+     "Fez tudo **a** pressa e errou.",
+     "Chegou **a** uma hora da manhã.",
+     "Assistiu **a** audiência inteira.",
+     "Ficou **a** distância, observando a cena."
+    ],
+    "comment": "**Gabarito: E.** Na locução “a distância” sem especificação, não há crase; com especificação (à distância de 50 metros), há. Nas demais: à francesa, às pressas, à uma hora, assistiu à audiência.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Em “Refiro-me ___ caso de ontem e ___ testemunhas que o presenciaram”, as lacunas são preenchidas por",
+    "options": [
+     "aquele / as",
+     "àquele / às",
+     "àquele / as",
+     "aquele / às",
+     "a aquele / às"
+    ],
+    "comment": "**Gabarito: B.** Referir-se **a** + aquele = àquele; **a** + as testemunhas (determinadas) = às.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Assinale a alternativa em que a crase está empregada corretamente.",
+    "options": [
+     "Voltou à casa cedo, cansado do plantão.",
+     "Fez referência à pessoas desconhecidas.",
+     "O suspeito confessou à polícia, à qual mentia, à um agente.",
+     "Voltou à casa dos pais depois do plantão.",
+     "Dirigiu-se à uma testemunha."
+    ],
+    "comment": "**Gabarito: D.** “Casa” sem especificação (o próprio lar) não leva artigo: voltou **a** casa. Especificada, leva: **à** casa dos pais. Antes de plural sem artigo (a pessoas) e de artigo indefinido (a uma), não há crase.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "C",
+    "text": "Assinale a alternativa em que a crase é FACULTATIVA.",
+    "options": [
+     "Chegou às 10h.",
+     "Foi à Bahia.",
+     "Entregou o relatório à sua chefe.",
+     "Saiu às pressas.",
+     "Referiu-se àquela lei."
+    ],
+    "comment": "**Gabarito: C.** Antes de pronome possessivo feminino no singular, o artigo é facultativo, e portanto a crase também.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "A",
+    "text": "Assinale a alternativa em que a ausência do acento grave está correta.",
+    "options": [
+     "Os documentos foram entregues a partir de segunda-feira.",
+     "Ficou a espera do resultado.",
+     "Fez o retrato a moda antiga.",
+     "Saiu a noite para a ronda.",
+     "Chegou a meia-noite em ponto."
+    ],
+    "comment": "**Gabarito: A.** Antes de verbo (partir) não há crase. Nas demais, há: à espera, à moda, à noite, à meia-noite.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Considerando a regra prática de substituir a palavra feminina por uma masculina, há crase em",
+    "options": [
+     "Foi a pé.",
+     "Começou a correr.",
+     "Vendeu a prazo.",
+     "Escreveu a lápis.",
+     "Foi à delegacia (= foi ao fórum)."
+    ],
+    "comment": "**Gabarito: E.** Se no masculino aparece “ao”, no feminino há crase.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Assinale a alternativa INCORRETA quanto ao uso do acento grave.",
+    "options": [
+     "Fez um bife à milanesa.",
+     "O policial se dirigiu à ele com respeito.",
+     "À medida que avançava, encontrava pistas.",
+     "Dirigiu-se àquela sala.",
+     "Foi à Roma dos Césares."
+    ],
+    "comment": "**Gabarito: B.** Não há crase antes de pronome pessoal (a ele). Em E, o nome de cidade especificado (a Roma dos Césares) admite artigo, logo crase.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Em “O fórum fica ___ duas quadras da delegacia, e a audiência está marcada para ___ duas horas”, as lacunas são preenchidas por",
+    "options": [
+     "à / às",
+     "às / as",
+     "a / a",
+     "a / as",
+     "à / as"
+    ],
+    "comment": "**Gabarito: D.** Distância sem especificação de lugar: **a** duas quadras. “Para as duas horas”: há preposição “para”, então não há crase.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

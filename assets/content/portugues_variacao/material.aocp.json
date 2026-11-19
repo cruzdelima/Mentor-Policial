@@ -1,0 +1,324 @@
+{
+ "id": "lp-variacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-24"
+ ],
+ "kind": "resumo",
+ "title": "Variação linguística",
+ "subtitle": "Língua Portuguesa · Linguagem",
+ "minutes": 20,
+ "pdf": "portugues_variacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "O **tipo** de variação, a **adequação** ao contexto e o **preconceito linguístico**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Tipos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Depende de",
+      "Exemplo"
+     ],
+     "widths": [
+      0.28,
+      0.28,
+      0.44
+     ],
+     "rows": [
+      [
+       "Diatópica",
+       "Região",
+       "mandioca / aipim / macaxeira"
+      ],
+      [
+       "Diastrática",
+       "Grupo social",
+       "gírias, jargão profissional"
+      ],
+      [
+       "Diafásica",
+       "Situação",
+       "Prezado senhor × E aí?"
+      ],
+      [
+       "Diacrônica",
+       "Tempo",
+       "vossa mercê › você"
+      ],
+      [
+       "Diamésica",
+       "Fala × escrita",
+       "tá × está"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Normas e adequação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Norma-padrão**: modelo das gramáticas, referência dos textos oficiais e das provas.",
+      "**Norma culta**: uso real de falantes escolarizados. **Variedades populares**: têm regras próprias.",
+      "**Adequação**: a variedade deve combinar com a situação.",
+      "**Preconceito linguístico**: discriminar pelo modo de falar. Nenhuma variedade é inferior."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Região = **diatópica**.",
+      "Grupo social = **diastrática**.",
+      "Situação = **diafásica**.",
+      "Tempo = **diacrônica**.",
+      "Jargão = profissão; gíria = grupo; regionalismo = região.",
+      "Variação **não** é erro.",
+      "Documento oficial = **norma-padrão**.",
+      "Adequação depende do **contexto**.",
+      "Formal demais também pode ser inadequado.",
+      "Preconceito linguístico: as bancas o condenam."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "VARIAÇÃO",
+  "rootSub": "linguística",
+  "left": [
+   {
+    "label": "Regional",
+    "items": [
+     "diatópica",
+     "sotaques",
+     "mandioca / aipim"
+    ]
+   },
+   {
+    "label": "Social",
+    "items": [
+     "diastrática",
+     "gírias",
+     "jargão profissional"
+    ]
+   },
+   {
+    "label": "Situacional",
+    "items": [
+     "diafásica",
+     "formal × informal",
+     "registro"
+    ]
+   },
+   {
+    "label": "Histórica",
+    "items": [
+     "diacrônica",
+     "vossa mercê › você",
+     "pharmacia › farmácia"
+    ]
+   },
+   {
+    "label": "Fala e escrita",
+    "items": [
+     "diamésica",
+     "tá × está",
+     "pra × para"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Norma-padrão",
+    "items": [
+     "gramáticas",
+     "textos oficiais",
+     "provas"
+    ]
+   },
+   {
+    "label": "Norma culta",
+    "items": [
+     "uso real",
+     "falantes escolarizados",
+     "mais flexível"
+    ]
+   },
+   {
+    "label": "Populares",
+    "items": [
+     "regras próprias",
+     "nós vai",
+     "os menino"
+    ]
+   },
+   {
+    "label": "Adequação",
+    "items": [
+     "contexto decide",
+     "ofício: padrão",
+     "bilhete: informal"
+    ]
+   },
+   {
+    "label": "Preconceito",
+    "items": [
+     "discriminar pela fala",
+     "nenhuma é inferior",
+     "bancas condenam"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O uso de palavras diferentes para o mesmo objeto em regiões distintas do país é exemplo de variação diatópica.",
+    "comment": "**Certo.** Diatópica = regional.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A variação diastrática está ligada às mudanças da língua ao longo do tempo.",
+    "comment": "**Errado.** Diastrática é social; a temporal é diacrônica.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A linguagem informal é adequada em uma conversa entre amigos.",
+    "comment": "**Certo.** Adequação depende da situação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em um relatório oficial, o emprego de gírias é adequado se o destinatário as conhecer.",
+    "comment": "**Errado.** Documentos oficiais exigem a norma-padrão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Jargão é o vocabulário técnico de um grupo profissional.",
+    "comment": "**Certo.** Ex.: oitiva, flagrante, auto de prisão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Variação conforme a região é",
+    "options": [
+     "diacrônica",
+     "diatópica",
+     "diastrática",
+     "diafásica",
+     "histórica"
+    ],
+    "comment": "**Gabarito: B.** Diatópica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "Variação conforme a época é",
+    "options": [
+     "diatópica",
+     "diastrática",
+     "diafásica",
+     "regional",
+     "diacrônica"
+    ],
+    "comment": "**Gabarito: E.** Diacrônica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "Variação conforme a situação de uso é",
+    "options": [
+     "diafásica",
+     "diatópica",
+     "diacrônica",
+     "diastrática",
+     "geográfica"
+    ],
+    "comment": "**Gabarito: A.** Diafásica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "D",
+    "text": "Discriminar alguém pelo modo de falar é",
+    "options": [
+     "adequação linguística",
+     "variação diafásica",
+     "norma culta",
+     "preconceito linguístico",
+     "estrangeirismo"
+    ],
+    "comment": "**Gabarito: D.** Preconceito linguístico.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Em situação formal, usa-se",
+    "options": [
+     "gíria",
+     "regionalismo",
+     "a norma-padrão",
+     "linguagem coloquial",
+     "jargão"
+    ],
+    "comment": "**Gabarito: C.** Norma-padrão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

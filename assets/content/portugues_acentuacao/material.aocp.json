@@ -1,0 +1,431 @@
+{
+ "id": "lp-acentuacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-02"
+ ],
+ "kind": "resumo",
+ "title": "Acentuação gráfica",
+ "subtitle": "Língua Portuguesa · Fonologia e ortografia",
+ "minutes": 35,
+ "pdf": "portugues_acentuacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**“X e Y são acentuadas pela mesma regra”** e **“a retirada do acento manteria a correção”**. Método: separe as sílabas, ache a tônica, classifique e só então compare."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Regras gerais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Acentuam-se",
+      "Exemplos"
+     ],
+     "widths": [
+      0.24,
+      0.4,
+      0.36
+     ],
+     "rows": [
+      [
+       "Proparoxítonas",
+       "Todas",
+       "público, médico, álibi"
+      ],
+      [
+       "Oxítonas",
+       "a(s), e(s), o(s), em, ens",
+       "sofá, café, cipó, também, parabéns"
+      ],
+      [
+       "Monossílabos tônicos",
+       "a(s), e(s), o(s)",
+       "pá, pé, pó, mês, três"
+      ],
+      [
+       "Paroxítonas",
+       "L, N, R, X, PS, I(S), US, UM/UNS, Ã(S), ÃO(S), ON(S), ditongo",
+       "fácil, hífen, caráter, tórax, bíceps, júri, vírus, álbum, órgão, história"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha",
+     "text": "**Hífen** tem acento; **hifens, itens, jovens** não. **Café** (oxítona) e **pé** (monossílabo) são **regras diferentes**."
+    },
+    {
+     "t": "h2",
+     "text": "2. Ditongos abertos éi, éu, ói"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Com acento** em oxítonas e monossílabos: herói, papéis, chapéu, céu, dói.",
+      "**Sem acento** em paroxítonas: ideia, assembleia, heroico, jiboia."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Hiato: i e u tônicos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Com acento** quando sozinhos na sílaba ou com S: saída, saúde, país, baú, juízes.",
+      "**Sem acento** antes de L, M, N, R, Z na mesma sílaba e antes de NH: juiz, raiz, ruim, cair, rainha.",
+      "**Sem acento** em paroxítona depois de ditongo: feiura, baiuca. Em oxítona, com acento: Piauí.",
+      "**oo** e **ee** sem acento: voo, enjoo, leem, veem, creem, deem."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Verbos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Singular",
+      "Plural",
+      "Verbos"
+     ],
+     "widths": [
+      0.3,
+      0.3,
+      0.4
+     ],
+     "rows": [
+      [
+       "tem, vem",
+       "têm, vêm",
+       "ter e vir"
+      ],
+      [
+       "mantém, contém, intervém",
+       "mantêm, contêm, intervêm",
+       "derivados de ter e vir"
+      ],
+      [
+       "crê, dê, lê, vê",
+       "creem, deem, leem, veem",
+       "crer, dar, ler, ver"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Vêm = verbo vir. Veem = verbo ver. Com pronome: amá-lo, vendê-la, compô-lo; parti-lo (sem acento); distribuí-lo (hiato)."
+    },
+    {
+     "t": "h2",
+     "text": "5. Acento diferencial"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Obrigatório**: pôr × por; pôde × pode; têm/vêm × tem/vem.",
+      "**Facultativo**: fôrma/forma; dêmos/demos.",
+      "**Abolido**: para (verbo), pelo, pela, polo, pera."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: o que o Acordo mudou"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Caiu",
+      "Agora se escreve",
+      "Continua com acento"
+     ],
+     "widths": [
+      0.36,
+      0.3,
+      0.34
+     ],
+     "rows": [
+      [
+       "Ditongo aberto em paroxítona",
+       "ideia, heroico, jiboia",
+       "herói, papéis, chapéu"
+      ],
+      [
+       "I/U após ditongo em paroxítona",
+       "feiura, baiuca",
+       "saída, saúde, Piauí"
+      ],
+      [
+       "Hiatos oo e ee",
+       "voo, leem, veem",
+       "têm, vêm"
+      ],
+      [
+       "Diferenciais",
+       "para, pelo, polo",
+       "pôr, pôde"
+      ],
+      [
+       "U tônico de gue/gui/que/qui",
+       "argui, averigue",
+       "—"
+      ],
+      [
+       "Trema",
+       "frequente, linguiça",
+       "Müller (nomes estrangeiros)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Proparoxítona**: todas.",
+      "Oxítona e paroxítona têm regras **opostas**: café × mesa; fácil × papel.",
+      "**-em/-ens**: acento só nas oxítonas (também, parabéns); nunca em item, itens, jovem.",
+      "**História, série, água**: paroxítonas terminadas em ditongo.",
+      "**Juiz** sem acento; **juízes** com acento.",
+      "**Herói** com acento; **heroico** sem.",
+      "**Têm/vêm** com circunflexo; **leem/veem/creem/deem** sem.",
+      "**Mantém** (ele) × **mantêm** (eles).",
+      "**Pôr** e **pôde** continuam com acento.",
+      "Tirar o acento quase sempre cria outra palavra: secretária/secretaria, está/esta, país/pais."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "ACENTUAÇÃO GRÁFICA",
+  "rootSub": "sílabas › tônica › classe › regra",
+  "left": [
+   {
+    "label": "Proparoxítonas",
+    "items": [
+     "Todas levam acento",
+     "público, médico, álibi"
+    ]
+   },
+   {
+    "label": "Oxítonas",
+    "items": [
+     "a(s), e(s), o(s), em, ens",
+     "café, cipó, também, parabéns"
+    ]
+   },
+   {
+    "label": "Monossílabos tônicos",
+    "items": [
+     "a(s), e(s), o(s)",
+     "pá, pé, pó, três",
+     "Regra diferente da oxítona"
+    ]
+   },
+   {
+    "label": "Paroxítonas",
+    "items": [
+     "L, N, R, X, PS, I, US, UM, Ã, ÃO",
+     "Ditongo: história, série",
+     "Sem acento: itens, hifens, jovem"
+    ]
+   },
+   {
+    "label": "Ditongos abertos",
+    "items": [
+     "Oxítona: herói, papéis, céu",
+     "Paroxítona: ideia, heroico"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Hiato com I e U",
+    "items": [
+     "saída, saúde, país, juízes",
+     "Não: juiz, raiz, ruim, rainha",
+     "Não: feiura, baiuca"
+    ]
+   },
+   {
+    "label": "Hiatos OO e EE",
+    "items": [
+     "voo, enjoo, perdoo",
+     "creem, deem, leem, veem"
+    ]
+   },
+   {
+    "label": "Verbos",
+    "items": [
+     "tem/têm · vem/vêm",
+     "mantém/mantêm",
+     "vêm (vir) ≠ veem (ver)"
+    ]
+   },
+   {
+    "label": "Diferencial",
+    "items": [
+     "Fica: pôr, pôde, têm, vêm",
+     "Opcional: fôrma, dêmos",
+     "Caiu: para, pelo, polo"
+    ]
+   },
+   {
+    "label": "Banca",
+    "items": [
+     "“Mesma regra?” Classifique antes",
+     "Sem acento muda o sentido",
+     "secretária ≠ secretaria"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "As palavras médico e lâmpada são acentuadas por serem proparoxítonas.",
+    "comment": "**Certo.** Todas as proparoxítonas são acentuadas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O vocábulo jovens deve receber acento gráfico, à semelhança de parabéns.",
+    "comment": "**Errado.** Parabéns é oxítona em ens (com acento); jovens é paroxítona em ens (sem acento).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "Com o Acordo Ortográfico, as palavras herói e chapéu perderam o acento gráfico.",
+    "comment": "**Errado.** O acento caiu apenas nos ditongos abertos das paroxítonas (ideia, heroico). Em oxítonas e monossílabos, permanece.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Em raízes, o acento gráfico justifica-se pela presença de i tônico em hiato, sozinho na sílaba.",
+    "comment": "**Certo.** Ra-í-zes. Em ra-iz, o i forma sílaba com z e não é acentuado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Na frase “As testemunhas vêm à delegacia amanhã”, o acento circunflexo indica que o verbo vir está na terceira pessoa do plural.",
+    "comment": "**Certo.** Vem (singular) × vêm (plural).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Está corretamente acentuada a palavra",
+    "options": [
+     "idéia",
+     "herói",
+     "vôo",
+     "heróico",
+     "assembléia"
+    ],
+    "comment": "**Gabarito: B.** Oxítona com ditongo aberto mantém o acento: herói. As outras perderam o acento.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "Recebem acento todas as palavras proparoxítonas, como",
+    "options": [
+     "caju",
+     "juiz",
+     "rubrica",
+     "item",
+     "lâmpada"
+    ],
+    "comment": "**Gabarito: E.** Lâmpada é proparoxítona.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "Em “Eles ___ ao plantão e ___ o relatório pronto”, as lacunas são preenchidas por",
+    "options": [
+     "vêm / têm",
+     "vem / tem",
+     "vêem / têem",
+     "vem / têm",
+     "vêm / tem"
+    ],
+    "comment": "**Gabarito: A.** No plural, **vêm** e **têm** levam circunflexo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "C",
+    "text": "Não se acentua",
+    "options": [
+     "saúde",
+     "baú",
+     "feiura",
+     "país",
+     "saída"
+    ],
+    "comment": "**Gabarito: C.** Feiura: u tônico depois de ditongo, em paroxítona, perdeu o acento.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "O verbo “pôr” mantém o acento para se diferenciar",
+    "options": [
+     "do substantivo pôr do sol.",
+     "do verbo poder.",
+     "do pronome por.",
+     "da preposição por.",
+     "do advérbio por."
+    ],
+    "comment": "**Gabarito: D.** Acento diferencial: pôr (verbo) × por (preposição).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Acordo Ortográfico da Língua Portuguesa (1990), promulgado pelo Decreto nº 6.583/2008; VOLP.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

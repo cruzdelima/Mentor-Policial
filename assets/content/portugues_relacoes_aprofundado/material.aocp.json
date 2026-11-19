@@ -1,0 +1,447 @@
+{
+ "id": "lp-relacoes-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-22"
+ ],
+ "kind": "aprofundado",
+ "title": "Relações semânticas entre orações, períodos e parágrafos",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 150,
+ "pdf": "portugues_relacoes_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Este tópico une **conjunções** (veja o material *Advérbio, preposição e conjunção*) e **coesão sequencial**. A pergunta da banca é sempre a mesma: **qual a relação lógica** entre as partes do texto, e ela se mantém se o conector for trocado? Aqui o foco é o texto: relações implícitas e articuladores entre parágrafos."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. As relações lógicas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Relação",
+      "Conectores típicos",
+      "Exemplo"
+     ],
+     "widths": [
+      0.16,
+      0.42,
+      0.42
+     ],
+     "rows": [
+      [
+       "Adição",
+       "e, nem, além disso, também, não só… mas também",
+       "Prendeu o autor; **além disso**, recuperou a carga."
+      ],
+      [
+       "Oposição (adversidade)",
+       "mas, porém, contudo, todavia, no entanto, em contrapartida",
+       "Confessou, **mas** não indicou os comparsas."
+      ],
+      [
+       "Concessão",
+       "embora, ainda que, mesmo que, apesar de, não obstante",
+       "**Embora** houvesse provas, arquivou-se o caso."
+      ],
+      [
+       "Causa",
+       "porque, pois, como, já que, visto que, uma vez que, em razão de",
+       "**Como** não compareceu, foi conduzido."
+      ],
+      [
+       "Consequência",
+       "tão… que, de modo que, de forma que",
+       "Chovia **tanto que** a operação foi adiada."
+      ],
+      [
+       "Conclusão",
+       "logo, portanto, por isso, assim, dessa forma, consequentemente",
+       "Há provas; **portanto**, haverá denúncia."
+      ],
+      [
+       "Explicação",
+       "pois, porque, que (após afirmação ou ordem)",
+       "Saia, **pois** a reunião vai começar."
+      ],
+      [
+       "Condição",
+       "se, caso, desde que, contanto que",
+       "**Se** houver flagrante, haverá prisão."
+      ],
+      [
+       "Finalidade",
+       "para que, a fim de que, com o objetivo de",
+       "Isolou a área **para que** não houvesse contaminação."
+      ],
+      [
+       "Tempo",
+       "quando, enquanto, assim que, depois que, antes que",
+       "**Assim que** chegou, isolou a área."
+      ],
+      [
+       "Proporção",
+       "à medida que, à proporção que, quanto mais… mais",
+       "**À medida que** a perícia avançava, surgiam provas."
+      ],
+      [
+       "Comparação",
+       "como, tal qual, mais/menos… que",
+       "Agiu **como** um profissional."
+      ],
+      [
+       "Conformidade",
+       "conforme, segundo, consoante",
+       "**Segundo** o laudo, houve fraude."
+      ],
+      [
+       "Alternância",
+       "ou… ou, ora… ora, quer… quer",
+       "**Ora** confirmava, **ora** negava."
+      ],
+      [
+       "Exemplificação, retificação, resumo",
+       "por exemplo, isto é, ou melhor, em síntese, em suma",
+       "**Em síntese**, a operação foi bem-sucedida."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Oposição × concessão"
+    },
+    {
+     "t": "p",
+     "text": "As duas expressam contraste, mas com **foco** diferente:"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Oposição (mas)**: o argumento **depois** do conector prevalece — *O réu é primário, **mas** o crime é grave* (destaque: a gravidade).",
+      "**Concessão (embora)**: o argumento **da oração concessiva** é reconhecido, mas **não impede** o da principal — ***Embora** o réu seja primário, o crime é grave* (mesmo destaque, construção diferente).",
+      "Por isso, *mas* e *embora* podem reescrever a mesma ideia, **trocando a posição** dos argumentos: *Confessou, mas negou a autoria* ≈ *Embora tenha confessado, negou a autoria*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Relações sem conectivo"
+    },
+    {
+     "t": "p",
+     "text": "Orações e períodos **justapostos** (separados só por pontuação) mantêm relações lógicas que o leitor infere:"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*Choveu muito. A operação foi adiada.* › **causa e consequência** (= *por isso*).",
+      "*O réu negou tudo. As imagens o desmentiram.* › **oposição** (= *porém*).",
+      "*Feche a porta: está ventando.* › **explicação** (= *pois*).",
+      "A banca pergunta: “a inserção de *portanto* entre os períodos explicitaria a relação já existente”."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Entre parágrafos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Função",
+      "Articuladores"
+     ],
+     "widths": [
+      0.3,
+      0.7
+     ],
+     "rows": [
+      [
+       "Introduzir / ordenar",
+       "Em primeiro lugar, inicialmente, primeiramente, a princípio"
+      ],
+      [
+       "Acrescentar argumento",
+       "Além disso, ademais, também, outrossim, não bastasse isso"
+      ],
+      [
+       "Opor",
+       "Em contrapartida, por outro lado, no entanto, entretanto"
+      ],
+      [
+       "Concluir",
+       "Dessa forma, assim, portanto, em suma, em síntese, por fim"
+      ],
+      [
+       "Exemplificar",
+       "Por exemplo, a exemplo de, como se vê em"
+      ],
+      [
+       "Retomar",
+       "Nesse sentido, diante disso, nesse contexto"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O conector X introduz ideia de Y” (causa, concessão, conclusão…).",
+      "“A substituição de X por Y manteria a relação de sentido” — mesmo grupo lógico.",
+      "“Entre os períodos há relação implícita de causa e consequência.”",
+      "“O parágrafo X introduz argumento contrário ao do parágrafo anterior.”"
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Prendeu o autor; além disso, recuperou a carga”, a expressão além disso estabelece relação de adição.",
+    "comment": "**Certo.** Acrescenta uma informação à anterior.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Embora houvesse provas, o caso foi arquivado”, a conjunção embora introduz ideia de causa.",
+    "comment": "**Errado.** Embora introduz concessão: as provas não impediram o arquivamento.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Há provas suficientes; portanto, haverá denúncia”, portanto introduz uma conclusão.",
+    "comment": "**Certo.** A denúncia é conclusão lógica da existência de provas.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Isolou a área para que não houvesse contaminação”, a locução para que expressa causa.",
+    "comment": "**Errado.** Para que expressa finalidade.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Segundo o laudo, houve fraude”, segundo expressa conformidade.",
+    "comment": "**Certo.** Equivale a conforme o laudo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “À medida que a perícia avançava, surgiam provas”, a locução à medida que expressa causa.",
+    "comment": "**Errado.** À medida que expressa proporção.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Chovia tanto que a operação foi adiada”, a estrutura tanto… que expressa consequência.",
+    "comment": "**Certo.** O adiamento é consequência da chuva intensa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Ora confirmava a versão, ora a negava”, há relação de adição.",
+    "comment": "**Errado.** Ora… ora expressa alternância.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Se houver flagrante, haverá prisão”, a conjunção se introduz condição.",
+    "comment": "**Certo.** A prisão depende do flagrante.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Em síntese, a operação foi bem-sucedida”, a expressão em síntese introduz exemplificação.",
+    "comment": "**Errado.** Em síntese introduz resumo ou conclusão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "No período “O suspeito fugiu porque a porta estava aberta”, a oração destacada expressa, em relação à principal,",
+    "options": [
+     "causa.",
+     "consequência.",
+     "concessão.",
+     "condição.",
+     "finalidade."
+    ],
+    "comment": "**Gabarito: A.** A porta aberta é a causa da fuga.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "Em “Estava tão escuro que os agentes não viram a placa”, a relação entre as orações é de",
+    "options": [
+     "causa e efeito invertidos.",
+     "concessão.",
+     "condição.",
+     "consequência.",
+     "finalidade."
+    ],
+    "comment": "**Gabarito: D.** Tão… que: a segunda oração é a consequência.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "B",
+    "text": "Em “Choveu muito; a operação foi adiada”, a relação entre as orações, mesmo sem conectivo, é de",
+    "options": [
+     "oposição.",
+     "causa e consequência.",
+     "concessão.",
+     "finalidade.",
+     "comparação."
+    ],
+    "comment": "**Gabarito: B.** A chuva causou o adiamento: relação lógica implícita.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a relação estabelecida é de concessão.",
+    "options": [
+     "Saiu porque estava atrasado.",
+     "Se chover, ficaremos.",
+     "Estudou para passar.",
+     "Quanto mais estuda, mais aprende.",
+     "Mesmo com as provas, o juiz absolveu o réu."
+    ],
+    "comment": "**Gabarito: E.** “Mesmo com” introduz um fato contrário que não impede o outro.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "C",
+    "text": "Na frase “Os indícios eram fortes, mas faltavam provas”, a relação entre as orações é de",
+    "options": [
+     "causa.",
+     "conclusão.",
+     "oposição.",
+     "condição.",
+     "proporção."
+    ],
+    "comment": "**Gabarito: C.** “Mas” estabelece contraste.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Assinale a alternativa em que o conectivo introduz uma condição.",
+    "options": [
+     "Desde que haja vagas, o curso será ofertado.",
+     "Já que haverá vagas, o curso será ofertado.",
+     "Embora haja vagas, o curso não será ofertado.",
+     "Como há vagas, o curso será ofertado.",
+     "Visto que há vagas, o curso será ofertado."
+    ],
+    "comment": "**Gabarito: A.** Com verbo no subjuntivo, “desde que” é condicional. “Já que”, “como” e “visto que” são causais; “embora”, concessivo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "No início de um parágrafo, a expressão “Diante disso” estabelece, com o parágrafo anterior, relação de",
+    "options": [
+     "oposição.",
+     "adição.",
+     "comparação.",
+     "conclusão.",
+     "concessão."
+    ],
+    "comment": "**Gabarito: D.** Introduz uma consequência do que foi exposto.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "B",
+    "text": "A expressão “Por outro lado”, no início de um parágrafo, indica",
+    "options": [
+     "conclusão.",
+     "contraponto a uma ideia anterior.",
+     "exemplificação.",
+     "causa.",
+     "resumo."
+    ],
+    "comment": "**Gabarito: B.** Apresenta um aspecto oposto ou complementar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Em “Quanto mais cedo a perícia chega, mais vestígios encontra”, a relação é de",
+    "options": [
+     "causa.",
+     "condição.",
+     "finalidade.",
+     "concessão.",
+     "proporção."
+    ],
+    "comment": "**Gabarito: E.** Quanto mais… mais: proporção.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "C",
+    "text": "Assinale a alternativa em que a relação entre as orações é de finalidade.",
+    "options": [
+     "Saiu porque precisava.",
+     "Saiu, embora não quisesse.",
+     "Saiu a fim de buscar ajuda.",
+     "Saiu quando anoiteceu.",
+     "Saiu, logo não está."
+    ],
+    "comment": "**Gabarito: C.** A fim de = finalidade.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Ingedore Villaça Koch, A coesão textual.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "id": "lp-variacao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-24"
+ ],
+ "kind": "aprofundado",
+ "title": "Variação linguística",
+ "subtitle": "Língua Portuguesa · Linguagem",
+ "minutes": 90,
+ "pdf": "portugues_variacao_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Tópico curto e conceitual. As bancas cobram o **tipo** de variação presente num trecho (regional, social, situacional, histórica), a ideia de **adequação** ao contexto e a postura contra o **preconceito linguístico**. A gramática normativa continua sendo a referência para a escrita formal e para a prova."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. A língua varia"
+    },
+    {
+     "t": "p",
+     "text": "Toda língua muda no tempo e varia entre regiões, grupos sociais e situações de uso. Essas diferenças são **variedades linguísticas**, todas com regras próprias e capazes de comunicar. A variação é natural e não é sinônimo de erro."
+    },
+    {
+     "t": "h2",
+     "text": "2. Tipos de variação"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Depende de",
+      "Exemplos"
+     ],
+     "widths": [
+      0.26,
+      0.3,
+      0.44
+     ],
+     "rows": [
+      [
+       "Diatópica (regional, geográfica)",
+       "Região",
+       "*mandioca / aipim / macaxeira*; *tu vais* no Sul; sotaques"
+      ],
+      [
+       "Diastrática (social)",
+       "Grupo social: escolaridade, idade, profissão, classe",
+       "gírias de jovens; jargão policial (*meliante, guarnição, QTH*); *nós vai* em variedades populares"
+      ],
+      [
+       "Diafásica (situacional, estilística)",
+       "Situação de comunicação: formal ou informal",
+       "*Prezado senhor* × *E aí, beleza?*"
+      ],
+      [
+       "Diacrônica (histórica)",
+       "Época",
+       "*vossa mercê* › *vosmecê* › *você* › *cê*; *pharmacia* › *farmácia*"
+      ],
+      [
+       "Diamésica",
+       "Meio: fala ou escrita",
+       "*Tá* na fala × *está* na escrita formal"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Gíria**: vocabulário de um grupo social, muitas vezes passageiro.",
+      "**Jargão**: vocabulário técnico de uma profissão (*flagrante, oitiva, auto de prisão*).",
+      "**Regionalismo**: palavra ou construção típica de uma região."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Norma-padrão, norma culta e variedades populares"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Norma-padrão**: modelo idealizado, descrito nas gramáticas normativas; é a referência para documentos oficiais, provas e textos formais.",
+      "**Norma culta**: variedade efetivamente usada por falantes escolarizados em situações formais (é mais flexível que a norma-padrão).",
+      "**Variedades populares**: usadas por grande parte da população no dia a dia, com regras próprias (*os menino*, *nós vai*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Adequação × correção"
+    },
+    {
+     "t": "p",
+     "text": "A noção de **adequação** substitui a ideia simples de *certo e errado* quando se fala de **uso**: a variedade deve combinar com a situação. Um ofício exige a norma-padrão; uma conversa entre amigos admite a linguagem informal. Usar linguagem formal demais numa conversa também é inadequação."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "E na prova?",
+     "text": "As questões de gramática continuam julgando a **norma-padrão**. As de variação perguntam se a linguagem é **adequada** ao contexto e qual o **tipo** de variação. As duas visões convivem."
+    },
+    {
+     "t": "h2",
+     "text": "5. Preconceito linguístico"
+    },
+    {
+     "t": "p",
+     "text": "É a discriminação de pessoas pelo modo como falam (sotaque, variedade popular, regionalismo). As bancas costumam adotar a visão da sociolinguística: **não existe variedade inferior**; existe variedade **adequada ou inadequada** a cada situação."
+    },
+    {
+     "t": "h2",
+     "text": "6. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“No trecho, há marcas de variação regional / social / informal.”",
+      "“O emprego de *tá* e *pra* indica registro informal, típico da oralidade.”",
+      "“A linguagem empregada é adequada ao gênero e à situação.”",
+      "“Variedades populares devem ser consideradas erradas” — afirmação que as bancas tratam como preconceituosa."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "As diferenças entre mandioca, aipim e macaxeira exemplificam variação regional (diatópica).",
+    "comment": "**Certo.** A mesma raiz recebe nomes diferentes conforme a região.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A variação diacrônica está relacionada às diferenças entre grupos sociais.",
+    "comment": "**Errado.** Diacrônica é a variação ao longo do tempo; a social é diastrática.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O uso de termos técnicos próprios da atividade policial, como oitiva e flagrante, é exemplo de jargão profissional.",
+    "comment": "**Certo.** Jargão é o vocabulário técnico de um grupo profissional.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A variação linguística deve ser entendida como sinônimo de erro gramatical.",
+    "comment": "**Errado.** Variação é fenômeno natural de toda língua.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A escolha entre “Prezado senhor” e “E aí, beleza?” exemplifica variação situacional (diafásica).",
+    "comment": "**Certo.** Depende do grau de formalidade da situação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A evolução de vossa mercê para você exemplifica variação regional.",
+    "comment": "**Errado.** É mudança ao longo do tempo: variação histórica (diacrônica).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A norma-padrão é a referência para a redação de documentos oficiais.",
+    "comment": "**Certo.** Textos formais e oficiais seguem a norma-padrão.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Norma culta e norma-padrão são exatamente a mesma coisa.",
+    "comment": "**Errado.** A norma-padrão é um modelo idealizado; a culta é o uso real de falantes escolarizados.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Gírias são marcas de variação social, associadas a grupos específicos.",
+    "comment": "**Certo.** Identificam grupos, como jovens ou profissões.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Empregar linguagem formal em qualquer situação de comunicação é sempre o mais adequado.",
+    "comment": "**Errado.** Adequação depende do contexto; formalidade excessiva numa conversa informal também é inadequada.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "As diferenças de vocabulário entre falantes do Nordeste e do Sul do Brasil (como “jerimum” e “abóbora”) exemplificam a variação",
+    "options": [
+     "diatópica (regional).",
+     "diacrônica (histórica).",
+     "diastrática (social).",
+     "diafásica (situacional).",
+     "fonológica apenas."
+    ],
+    "comment": "**Gabarito: A.** Variação conforme o lugar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "C",
+    "text": "A mudança de “vossa mercê” para “você” ao longo dos séculos é exemplo de variação",
+    "options": [
+     "diatópica.",
+     "diastrática.",
+     "diacrônica (histórica).",
+     "diafásica.",
+     "regional."
+    ],
+    "comment": "**Gabarito: C.** Variação no tempo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "O fato de um policial usar linguagem formal no relatório e informal com os amigos exemplifica a variação",
+    "options": [
+     "diatópica.",
+     "diacrônica.",
+     "diastrática.",
+     "histórica.",
+     "diafásica (situacional ou estilística)."
+    ],
+    "comment": "**Gabarito: E.** A mesma pessoa adapta a linguagem à situação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Diferenças de linguagem ligadas à faixa etária, à escolaridade ou ao grupo social do falante caracterizam a variação",
+    "options": [
+     "diatópica.",
+     "diastrática (social).",
+     "diacrônica.",
+     "diafásica.",
+     "geográfica."
+    ],
+    "comment": "**Gabarito: B.** Variação conforme o grupo social.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Segundo a visão adotada pela linguística, a expressão “nós vai” em uma conversa informal deve ser avaliada como",
+    "options": [
+     "erro absoluto, inaceitável em qualquer contexto.",
+     "forma correta segundo a norma-padrão.",
+     "forma restrita à escrita formal.",
+     "variedade popular, que não segue a norma-padrão e pode ser inadequada em situações formais.",
+     "regionalismo exclusivo do Nordeste."
+    ],
+    "comment": "**Gabarito: D.** Fala-se em adequação ao contexto, e não apenas em certo e errado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "O conceito de preconceito linguístico refere-se",
+    "options": [
+     "à discriminação de pessoas pelo modo como falam.",
+     "ao uso de estrangeirismos.",
+     "ao ensino da norma-padrão nas escolas.",
+     "ao uso de gírias em textos oficiais.",
+     "à preferência pela linguagem formal."
+    ],
+    "comment": "**Gabarito: A.** Julgar alguém inferior por sua variedade linguística.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "Em um ofício enviado por um delegado ao Ministério Público, deve-se empregar",
+    "options": [
+     "linguagem informal, para aproximar os interlocutores.",
+     "gírias da corporação.",
+     "a norma-padrão.",
+     "regionalismos.",
+     "a variedade da comunidade do delegado."
+    ],
+    "comment": "**Gabarito: C.** Situação formal pede a norma-padrão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Assinale a alternativa INCORRETA a respeito da variação linguística.",
+    "options": [
+     "Toda língua varia no tempo e no espaço.",
+     "A variação ocorre em todos os níveis: sons, palavras e construções.",
+     "A norma-padrão é uma das variedades da língua, de prestígio social.",
+     "A adequação depende da situação de comunicação.",
+     "As variedades populares não têm regras gramaticais."
+    ],
+    "comment": "**Gabarito: E.** Todas as variedades têm regras internas; elas apenas não coincidem com as da norma-padrão.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "A palavra “mouse”, usada no Brasil para o dispositivo do computador, é exemplo de",
+    "options": [
+     "arcaísmo.",
+     "estrangeirismo.",
+     "regionalismo.",
+     "neologismo semântico.",
+     "gíria."
+    ],
+    "comment": "**Gabarito: B.** Palavra de outra língua incorporada ao uso.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "A gíria profissional usada por policiais entre si (como “QAP” e “viatura baixada”) é exemplo de",
+    "options": [
+     "norma-padrão.",
+     "variação diacrônica.",
+     "variação diatópica.",
+     "jargão, ligado à variação diastrática.",
+     "arcaísmo."
+    ],
+    "comment": "**Gabarito: D.** Linguagem de um grupo profissional.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Marcos Bagno, Preconceito linguístico.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

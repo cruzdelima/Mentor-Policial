@@ -1,0 +1,469 @@
+{
+ "id": "lp-figuras-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-21"
+ ],
+ "kind": "aprofundado",
+ "title": "Figuras de linguagem",
+ "subtitle": "Língua Portuguesa · Semântica e estilística",
+ "minutes": 90,
+ "pdf": "portugues_figuras_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O Instituto AOCP cobra a **identificação da figura** num trecho do texto (“no trecho, há…”); outras bancas também cobram o **efeito** (“o emprego da hipérbole enfatiza…”). O segredo é separar figuras **parecidas**: metáfora × comparação, antítese × paradoxo, eufemismo × ironia, polissíndeto × assíndeto."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Figuras de palavra"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Metáfora",
+       "Comparação **implícita**, sem conectivo",
+       "Ele é **uma fera** no tiro."
+      ],
+      [
+       "Comparação (símile)",
+       "Comparação **explícita**, com conectivo (*como, tal qual, parece*)",
+       "Ele é forte **como um touro**."
+      ],
+      [
+       "Metonímia",
+       "Troca de um termo por outro com o qual mantém relação real (autor pela obra, continente pelo conteúdo, parte pelo todo, marca pelo produto)",
+       "Li **Machado de Assis**. Bebi **um copo** de água. Há poucos **braços** na lavoura."
+      ],
+      [
+       "Catacrese",
+       "Metáfora já incorporada à língua, por falta de termo próprio",
+       "**pé** da mesa, **braço** da cadeira, **embarcar** no ônibus"
+      ],
+      [
+       "Sinestesia",
+       "Mistura de sensações (visão, audição, tato, paladar, olfato)",
+       "Um grito **áspero**. Uma cor **quente**."
+      ],
+      [
+       "Antonomásia",
+       "Substituição de um nome por qualidade ou apelido conhecido",
+       "**O Poeta dos Escravos** (Castro Alves)."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Metáfora × comparação",
+     "text": "Se há **conectivo comparativo** (*como, tal qual, feito*), é **comparação**. Sem conectivo, é **metáfora**: *O delegado é **uma rocha*** × *O delegado é firme **como** uma rocha*."
+    },
+    {
+     "t": "h2",
+     "text": "2. Figuras de pensamento"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Antítese",
+       "Aproximação de ideias **opostas**",
+       "**Riso** e **choro** se misturavam no velório."
+      ],
+      [
+       "Paradoxo (oxímoro)",
+       "Ideias opostas atribuídas **ao mesmo ser**, criando contradição aparente",
+       "É dor que desatina sem doer. (Camões)"
+      ],
+      [
+       "Hipérbole",
+       "**Exagero** intencional",
+       "**Morri de rir**. Já te disse **um milhão de vezes**."
+      ],
+      [
+       "Eufemismo",
+       "**Suaviza** uma ideia desagradável",
+       "Ele **faltou com a verdade**. **Partiu desta para melhor**."
+      ],
+      [
+       "Ironia",
+       "Diz o **contrário** do que se pensa, com tom crítico",
+       "Que **bela** atuação: perdeu todos os prazos!"
+      ],
+      [
+       "Personificação (prosopopeia)",
+       "Atribui características humanas a seres não humanos",
+       "A cidade **dormia**. O vento **gemia**."
+      ],
+      [
+       "Gradação",
+       "Sequência crescente ou decrescente de ideias",
+       "Andei, corri, **voei**."
+      ],
+      [
+       "Apóstrofe",
+       "Invocação, chamamento enfático",
+       "**Deus**, ó Deus, onde estás?"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Antítese × paradoxo",
+     "text": "Na **antítese**, os opostos aparecem lado a lado, sem contradição lógica (*riso e choro*). No **paradoxo**, os opostos se fundem num mesmo ser, gerando contradição aparente (*dor que não dói*; *silêncio ensurdecedor*)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Figuras de construção (sintaxe)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Figura",
+      "Definição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.43,
+      0.4
+     ],
+     "rows": [
+      [
+       "Elipse",
+       "Omissão de termo facilmente identificável",
+       "Na sala, apenas silêncio. (havia)"
+      ],
+      [
+       "Zeugma",
+       "Omissão de termo **já citado**",
+       "Eu prefiro café; ele, chá. (prefere)"
+      ],
+      [
+       "Pleonasmo",
+       "Repetição de ideia: **literário** (para ênfase) ou **vicioso** (erro)",
+       "Vi **com meus próprios olhos** (literário). **Subir para cima** (vicioso)."
+      ],
+      [
+       "Polissíndeto",
+       "Repetição de conectivos",
+       "**E** chora, **e** grita, **e** corre."
+      ],
+      [
+       "Assíndeto",
+       "Ausência de conectivos",
+       "Chegou, viu, venceu."
+      ],
+      [
+       "Anáfora",
+       "Repetição de palavra no início de versos ou frases",
+       "**Tudo** passa, **tudo** muda, **tudo** acaba."
+      ],
+      [
+       "Hipérbato (inversão)",
+       "Inversão da ordem direta",
+       "Das armas o barulho ouvia-se ao longe."
+      ],
+      [
+       "Silepse",
+       "Concordância com a **ideia**, não com a forma",
+       "**A gente** fomos (pessoa) · **Vossa Excelência** está **cansado** (gênero)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Figuras de som"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Aliteração**: repetição de **consoantes** — *O **r**ato **r**oeu a **r**oupa do **r**ei de **R**oma*.",
+      "**Assonância**: repetição de **vogais** — *Sou um **a**rm**a**zém de m**á**goas*.",
+      "**Onomatopeia**: imitação de sons — *tique-taque, zum-zum, bum*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Identificação: “no trecho X, há metonímia / hipérbole / eufemismo”.",
+      "Efeito: “a hipérbole enfatiza a gravidade da situação”.",
+      "Distinções: metáfora × comparação; antítese × paradoxo; polissíndeto × assíndeto; elipse × zeugma.",
+      "Pleonasmo vicioso como erro em reescritas (*elo de ligação, surpresa inesperada, há anos atrás*)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Aquele agente é uma fera no tiro”, há metáfora.",
+    "comment": "**Certo.** Comparação implícita, sem conectivo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Ele é forte como um touro”, há metáfora.",
+    "comment": "**Errado.** O conectivo como torna a comparação explícita: é comparação (símile).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Li Machado de Assis nas férias”, há metonímia.",
+    "comment": "**Certo.** O autor está no lugar da obra.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O pé da mesa quebrou”, há sinestesia.",
+    "comment": "**Errado.** É catacrese: metáfora incorporada à língua por falta de termo próprio.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ouviu-se um grito áspero na madrugada”, há sinestesia.",
+    "comment": "**Certo.** Mistura audição (grito) e tato (áspero).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Morri de rir com a piada”, há eufemismo.",
+    "comment": "**Errado.** É hipérbole: exagero intencional.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O depoente faltou com a verdade”, há eufemismo.",
+    "comment": "**Certo.** Suaviza a ideia de que ele mentiu.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Que bela atuação: perdeu todos os prazos!”, há paradoxo.",
+    "comment": "**Errado.** Diz-se o contrário do que se pensa, com tom crítico: ironia.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "No verso camoniano “É dor que desatina sem doer”, há paradoxo.",
+    "comment": "**Certo.** Atribui-se ao mesmo ser (a dor) uma característica contraditória (não doer).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “A cidade dormia quando o alarme soou”, há hipérbole.",
+    "comment": "**Errado.** Atribui-se ação humana à cidade: personificação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "Em “Aquele delegado é uma rocha”, há",
+    "options": [
+     "comparação.",
+     "metonímia.",
+     "metáfora.",
+     "hipérbole.",
+     "eufemismo."
+    ],
+    "comment": "**Gabarito: C.** Há comparação implícita, sem conectivo: metáfora.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "Em “O soldado era forte como um touro”, a figura de linguagem é",
+    "options": [
+     "comparação (símile).",
+     "metáfora.",
+     "antítese.",
+     "ironia.",
+     "catacrese."
+    ],
+    "comment": "**Gabarito: A.** Comparação explícita, com conectivo (como).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Em “Ele leu Machado de Assis durante o plantão”, há",
+    "options": [
+     "metáfora.",
+     "hipérbole.",
+     "paradoxo.",
+     "prosopopeia.",
+     "metonímia (autor pela obra)."
+    ],
+    "comment": "**Gabarito: E.** Usa-se o autor no lugar da obra.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Em “Já disse isso um milhão de vezes”, a figura é",
+    "options": [
+     "eufemismo.",
+     "hipérbole.",
+     "antítese.",
+     "ironia.",
+     "pleonasmo."
+    ],
+    "comment": "**Gabarito: B.** Exagero intencional.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Em “Ele nos deixou ontem”, no sentido de “morreu”, há",
+    "options": [
+     "hipérbole.",
+     "ironia.",
+     "metáfora.",
+     "eufemismo.",
+     "antítese."
+    ],
+    "comment": "**Gabarito: D.** Suavização de uma ideia desagradável.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Em “Que belo trabalho! Perdeu todas as provas do processo”, a figura é",
+    "options": [
+     "ironia.",
+     "eufemismo.",
+     "metonímia.",
+     "comparação.",
+     "prosopopeia."
+    ],
+    "comment": "**Gabarito: A.** Diz-se o contrário do que se pensa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "Em “Era um silêncio ensurdecedor na sala de audiência”, há",
+    "options": [
+     "antítese.",
+     "hipérbole.",
+     "paradoxo.",
+     "eufemismo.",
+     "pleonasmo."
+    ],
+    "comment": "**Gabarito: C.** Ideias contraditórias reunidas na mesma expressão (silêncio que ensurdece).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Em “A cidade dormia quando a viatura passou”, a figura é",
+    "options": [
+     "metonímia.",
+     "hipérbole.",
+     "ironia.",
+     "antítese.",
+     "prosopopeia (personificação)."
+    ],
+    "comment": "**Gabarito: E.** Atribui-se ação humana (dormir) a um ser inanimado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Em “E chegaram, e cercaram, e prenderam, e levaram”, há",
+    "options": [
+     "assíndeto.",
+     "polissíndeto.",
+     "anáfora.",
+     "gradação.",
+     "elipse."
+    ],
+    "comment": "**Gabarito: B.** Repetição da conjunção “e”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Em “Subir para cima” e “entrar para dentro”, há",
+    "options": [
+     "metáfora.",
+     "antítese.",
+     "eufemismo.",
+     "pleonasmo vicioso.",
+     "metonímia."
+    ],
+    "comment": "**Gabarito: D.** Repetição desnecessária de ideia.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

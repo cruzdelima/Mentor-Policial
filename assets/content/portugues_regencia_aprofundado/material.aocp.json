@@ -1,0 +1,539 @@
+{
+ "id": "lp-regencia-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-12"
+ ],
+ "kind": "aprofundado",
+ "title": "Regência nominal e verbal",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 150,
+ "pdf": "portugues_regencia_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Regência aparece nas provas de três formas: **verbo com sentido que muda conforme a regência** (*assistir, aspirar, visar*), **preposição antes do pronome relativo** (*o cargo a que aspiro*) e **crase**, que depende da regência. Decore o quadro da seção 2: são poucos verbos, e eles se repetem em todas as provas."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conceito"
+    },
+    {
+     "t": "p",
+     "text": "**Regência** é a relação entre um termo que exige complemento (**regente**) e o complemento (**regido**). Quando o regente é um **verbo**, é regência verbal; quando é um **nome** (substantivo, adjetivo, advérbio), é regência nominal."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Transitivo direto (VTD)**: complemento sem preposição — *Prendeu o suspeito.*",
+      "**Transitivo indireto (VTI)**: complemento com preposição — *Obedeceu às ordens.*",
+      "**Transitivo direto e indireto (VTDI)**: os dois — *Entregou o laudo ao juiz.*",
+      "**Intransitivo (VI)**: sem complemento — *O suspeito fugiu.*",
+      "Alguns verbos **mudam de sentido** conforme a regência. É exatamente isso que a banca cobra."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Verbos que mais caem"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Regência e sentido",
+      "Exemplo"
+     ],
+     "widths": [
+      0.15,
+      0.45,
+      0.4
+     ],
+     "rows": [
+      [
+       "assistir",
+       "**a** algo = ver, presenciar (VTI) · alguém = ajudar (VTD) · **a** alguém = caber direito (VTI) · **em** = morar",
+       "Assistimos **ao** julgamento. O médico assistiu **o** ferido. Assiste **ao** réu o direito de calar."
+      ],
+      [
+       "aspirar",
+       "algo = inspirar, sorver (VTD) · **a** algo = desejar (VTI)",
+       "Aspirou **o** gás. Aspira **ao** cargo de delegado."
+      ],
+      [
+       "visar",
+       "algo = mirar, pôr visto (VTD) · **a** algo = pretender (VTI; a preposição é recomendada)",
+       "Visou **o** alvo. Visou **o** cheque. Visa **ao** bem comum."
+      ],
+      [
+       "obedecer / desobedecer",
+       "**a** algo ou alguém (VTI)",
+       "Obedeça **às** normas. Desobedeceu **ao** comandante."
+      ],
+      [
+       "preferir",
+       "algo **a** algo (sem *mais* e sem *do que*)",
+       "Prefiro trabalhar **a** ficar parado."
+      ],
+      [
+       "chegar / ir / voltar",
+       "**a** um lugar (e não *em*)",
+       "Chegamos **ao** local. Foi **ao** banco."
+      ],
+      [
+       "implicar",
+       "algo = acarretar (VTD, sem *em*) · **com** alguém = antipatizar · **em** algo = envolver-se",
+       "A decisão implica **novos custos**. Implicou-se **em** fraude."
+      ],
+      [
+       "proceder",
+       "**a** algo = realizar (VTI) · sem complemento = ter fundamento",
+       "Procedeu-se **à** oitiva. A denúncia não procede."
+      ],
+      [
+       "pagar / perdoar",
+       "coisa = OD; pessoa = OI (**a**)",
+       "Pagou **a dívida ao** credor. Perdoou **ao** réu."
+      ],
+      [
+       "informar / avisar / certificar / notificar",
+       "alguém **de** algo **ou** algo **a** alguém",
+       "Informei **o delegado do** fato. Informei **ao delegado o** fato."
+      ],
+      [
+       "esquecer / lembrar",
+       "algo (VTD) · **esquecer-se de / lembrar-se de** (pronominal)",
+       "Esqueci **o** prazo. Esqueci-**me do** prazo."
+      ],
+      [
+       "agradecer",
+       "algo **a** alguém",
+       "Agradeceu **ao** colega **a** ajuda."
+      ],
+      [
+       "responder",
+       "**a** algo ou alguém",
+       "Respondeu **ao** ofício."
+      ],
+      [
+       "custar",
+       "= ser difícil: sujeito é a coisa difícil; pessoa é OI",
+       "Custou-**me** entender. (e não *eu custei a entender*, na norma estrita)"
+      ],
+      [
+       "namorar",
+       "alguém (VTD, sem *com*)",
+       "Ele namora **a** colega."
+      ],
+      [
+       "simpatizar / antipatizar",
+       "**com** (não pronominal)",
+       "Simpatizou **com** o colega. (e não *simpatizou-se*)"
+      ],
+      [
+       "morar / residir / situar",
+       "**em**",
+       "Reside **na** Rua da Aurora. Situado **na** Avenida X."
+      ],
+      [
+       "querer",
+       "algo = desejar (VTD) · **a** alguém = estimar (VTI)",
+       "Quero **a** promoção. Quero **aos** meus pais."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "As quatro mais cobradas",
+     "text": "*Assistir **ao*** jogo (ver) · *aspirar **ao*** cargo (desejar) · *preferir X **a** Y* (nunca “mais do que”) · *implicar* sem *em* (acarretar)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Regência nominal"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Nome",
+      "Preposição",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.2,
+      0.5
+     ],
+     "rows": [
+      [
+       "acessível, favorável, contrário, obediente, preferível, relativo, vinculado",
+       "a",
+       "medida **favorável aos** servidores"
+      ],
+      [
+       "apto, propenso, necessário",
+       "a, para",
+       "**apto ao** serviço / **para** o serviço"
+      ],
+      [
+       "ávido, ansioso",
+       "de, por, para",
+       "**ávido de/por** justiça"
+      ],
+      [
+       "compatível, solidário",
+       "com",
+       "**compatível com** o cargo"
+      ],
+      [
+       "residente, situado, domiciliado",
+       "em",
+       "**residente em** Recife"
+      ],
+      [
+       "suspeito, capaz, digno",
+       "de",
+       "**suspeito de** furto"
+      ],
+      [
+       "imune",
+       "a, de",
+       "**imune a/de** críticas"
+      ],
+      [
+       "respeito",
+       "a, com, para com, por",
+       "**respeito às** leis"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Regência e pronome relativo"
+    },
+    {
+     "t": "p",
+     "text": "Quando o verbo da oração adjetiva exige preposição, ela vem **antes do pronome relativo**:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Construção correta",
+      "Erro comum"
+     ],
+     "widths": [
+      0.2,
+      0.42,
+      0.38
+     ],
+     "rows": [
+      [
+       "aspirar a",
+       "o cargo **a que** aspiro",
+       "o cargo que aspiro"
+      ],
+      [
+       "precisar de",
+       "os documentos **de que** precisamos",
+       "os documentos que precisamos"
+      ],
+      [
+       "referir-se a",
+       "a lei **a que** me referi",
+       "a lei que me referi"
+      ],
+      [
+       "gostar de",
+       "o livro **de que** gosto",
+       "o livro que gosto"
+      ],
+      [
+       "confiar em",
+       "a pessoa **em quem** confio",
+       "a pessoa que confio"
+      ],
+      [
+       "assistir a (ver)",
+       "o filme **a que** assisti",
+       "o filme que assisti"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Truque",
+     "text": "Transforme a oração: *aspiro **ao** cargo* › *o cargo **a que** aspiro*. A preposição que aparece na frase “desmontada” sobe para antes do relativo."
+    },
+    {
+     "t": "h3",
+     "text": "Verbos com regências diferentes e o mesmo complemento"
+    },
+    {
+     "t": "p",
+     "text": "*Entrou e saiu **da** sala* está errado, porque *entrar* pede *em*. O correto é: *Entrou **na** sala e saiu **dela**.* O mesmo vale para *Assistiu e gostou **do** filme* (correto: *Assistiu **ao** filme e gostou **dele***)."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A supressão da preposição X prejudicaria a correção” — confira a regência do verbo.",
+      "“A forma *assistiu ao* poderia ser substituída por *assistiu o*” — só se o sentido for ajudar.",
+      "Pronome relativo sem a preposição exigida pelo verbo.",
+      "*Preferir mais… do que*, *implicar em*, *chegar em*: erros clássicos.",
+      "Crase: só existe se houver preposição exigida pela regência."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Os agentes assistiram ao vídeo da câmera de segurança”, a regência verbal está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Assistir no sentido de ver é transitivo indireto e exige a preposição a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Segundo a norma-padrão, está correta a frase “Todos assistiram o julgamento pela televisão”.",
+    "comment": "**Errado.** No sentido de ver, assistir pede a preposição a: assistiram ao julgamento.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O socorrista assistiu o ferido até a chegada da ambulância”, o verbo assistir é transitivo direto e significa prestar assistência.",
+    "comment": "**Certo.** No sentido de ajudar, assistir é transitivo direto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O escrivão aspira o cargo de delegado”, a regência verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** No sentido de desejar, aspirar exige a preposição a: aspira ao cargo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O delegado visou o documento antes de enviá-lo”, o verbo visar, no sentido de pôr visto, é transitivo direto.",
+    "comment": "**Certo.** Visar é transitivo direto nos sentidos de pôr visto e de mirar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A frase “Prefiro trabalhar do que ficar parado” está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Preferir pede a preposição a, sem do que: prefiro trabalhar a ficar parado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Chegamos ao local da ocorrência às 8h”, a regência do verbo chegar está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Verbos de movimento como chegar e ir regem a preposição a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Segundo a gramática normativa, está correta a frase “A nova regra implica em mais custos”.",
+    "comment": "**Errado.** No sentido de acarretar, implicar é transitivo direto: implica mais custos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Obedeça às normas de segurança”, a regência verbal e o acento grave estão corretos.",
+    "comment": "**Certo.** Obedecer pede a preposição a, que se funde com o artigo as.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A frase “Esqueci do prazo do recurso” está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Esquecer é transitivo direto (esqueci o prazo); com preposição, só na forma pronominal (esqueci-me do prazo).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "Assinale a alternativa em que a regência do verbo “assistir” está de acordo com a norma-padrão.",
+    "options": [
+     "Os agentes assistiram ao depoimento pela câmera.",
+     "Os agentes assistiram o depoimento pela câmera.",
+     "Os moradores assistiram o incêndio da janela.",
+     "O público assistiu o julgamento.",
+     "Todos assistiram o vídeo da abordagem."
+    ],
+    "comment": "**Gabarito: A.** No sentido de ver, presenciar, **assistir** é transitivo indireto (assistir a).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "Assinale a alternativa correta quanto à regência do verbo “visar”.",
+    "options": [
+     "O candidato visa o cargo de delegado.",
+     "O gerente visou ao cheque.",
+     "O atirador visou ao alvo.",
+     "O candidato visa ao cargo de delegado.",
+     "Visamos o bem-estar de todos e a ele."
+    ],
+    "comment": "**Gabarito: D.** No sentido de pretender, almejar: visar **a**. No sentido de mirar ou dar visto: transitivo direto (visou o alvo, visou o cheque).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Assinale a alternativa em que a regência verbal está correta.",
+    "options": [
+     "O soldado obedeceu o comandante.",
+     "Prefiro mais trabalhar do que ficar parado.",
+     "O soldado obedeceu às ordens do comandante.",
+     "Prefiro trabalhar do que ficar parado.",
+     "Ele aspira o cargo de chefe."
+    ],
+    "comment": "**Gabarito: C.** **Obedecer a**; **preferir uma coisa a outra** (sem “mais” e sem “do que”); **aspirar a** (pretender).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Assinale a alternativa que completa corretamente a frase: “A viatura chegou ___ local; o agente procedeu ___ leitura dos direitos.”",
+    "options": [
+     "no / a",
+     "ao / a",
+     "no / à",
+     "em o / à",
+     "ao / à"
+    ],
+    "comment": "**Gabarito: E.** **Chegar a** (movimento) e **proceder a** (realizar, dar início): ao local, à leitura.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "B",
+    "text": "Na frase “A falta de provas implica a absolvição”, o verbo “implicar”",
+    "options": [
+     "está errado, pois deveria ser “implica na absolvição”.",
+     "está correto, pois, no sentido de acarretar, é transitivo direto.",
+     "está errado, pois é transitivo indireto.",
+     "está correto apenas na linguagem coloquial.",
+     "exige a preposição “com”."
+    ],
+    "comment": "**Gabarito: B.** Implicar (acarretar) é transitivo direto: implica a absolvição.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Assinale a alternativa em que a regência nominal está correta.",
+    "options": [
+     "O agente demonstrou obediência às normas.",
+     "O laudo foi favorável com o réu.",
+     "Ele está apto com o serviço.",
+     "Tenho aversão com mentiras.",
+     "O documento é relativo com o caso."
+    ],
+    "comment": "**Gabarito: A.** Obediência **a**; favorável **a**; apto **a** ou **para**; aversão **a**.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "Assinale a alternativa em que o pronome relativo está precedido da preposição exigida.",
+    "options": [
+     "A lei que me referi foi revogada.",
+     "O cargo que aspiro exige concurso.",
+     "O filme que assisti era antigo.",
+     "A lei a que me referi foi revogada.",
+     "A audiência que compareci foi adiada."
+    ],
+    "comment": "**Gabarito: D.** Referir-se **a**: a lei **a que** me referi. Nas demais, faltou a preposição (a que aspiro, a que assisti, a que compareci).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Assinale a alternativa em que o verbo “esquecer” está empregado de acordo com a norma-padrão.",
+    "options": [
+     "Esqueci do horário da audiência.",
+     "Me esqueci o horário da audiência.",
+     "Esqueci-me o horário da audiência.",
+     "Esqueceram do relatório na viatura.",
+     "Esqueci o horário da audiência."
+    ],
+    "comment": "**Gabarito: E.** Esquecer (sem pronome) é transitivo direto: esqueci o horário. Com pronome, pede “de”: esqueci-me do horário.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "Em “O comandante informou os soldados sobre a operação”, o verbo “informar”",
+    "options": [
+     "está errado, pois exige objeto indireto de pessoa obrigatoriamente.",
+     "está errado, pois não admite a preposição “sobre”.",
+     "está correto: informa-se alguém de (ou sobre) algo, ou algo a alguém.",
+     "só admite a construção “informou aos soldados a operação”.",
+     "é intransitivo."
+    ],
+    "comment": "**Gabarito: C.** Informar admite as duas construções: informar alguém de/sobre algo; informar algo a alguém.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "B",
+    "text": "Assinale a alternativa INCORRETA quanto à regência.",
+    "options": [
+     "O delegado simpatizou com a proposta.",
+     "O delegado se simpatizou com a proposta.",
+     "Ele namora a colega de turma.",
+     "O réu pagou ao advogado.",
+     "Os agentes perdoaram ao colega."
+    ],
+    "comment": "**Gabarito: B.** **Simpatizar** não é pronominal: simpatizou com. Namorar é transitivo direto; pagar e perdoar pedem “a” para pessoa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Celso Pedro Luft, Dicionário prático de regência verbal.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

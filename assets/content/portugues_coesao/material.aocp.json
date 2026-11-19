@@ -1,0 +1,358 @@
+{
+ "id": "lp-coesao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-16"
+ ],
+ "kind": "resumo",
+ "title": "Coesão e coerência textual",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 30,
+ "pdf": "portugues_coesao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Referência** (“o termo X retoma Y”), **conectivos** e a diferença entre coesão e coerência. Substitua o termo pelo referente e teste."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conceitos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Coesão**: ligação linguística (pronomes, conectivos, sinônimos).",
+      "**Coerência**: unidade de sentido, sem contradição. Conectivo não garante coerência."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Coesão referencial"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Anáfora** retoma; **catáfora** antecipa.",
+      "Mecanismos: pronomes, sinônimos, **hiperônimos** (*fuzil › a arma*), expressões nominais (*a fuga*), **elipse**, advérbios (*lá, aí*), numerais (*o último*).",
+      "**Esse** retoma; **este** anuncia ou indica o mais próximo; **aquele**, o mais distante."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Coesão sequencial"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Conectivos e articuladores: *além disso, porém, portanto, em síntese*.",
+      "Marcadores temporais ordenam os fatos."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Coerência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Não contradição, continuidade do tema, progressão e compatibilidade com o mundo.",
+      "O conectivo deve combinar com o conteúdo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: mecanismos de coesão"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mecanismo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.36,
+      0.64
+     ],
+     "rows": [
+      [
+       "Pronome",
+       "O réu negou. **Ele** mentiu."
+      ],
+      [
+       "Sinônimo",
+       "O **carro**… o **veículo**…"
+      ],
+      [
+       "Hiperônimo",
+       "O **fuzil**… a **arma**…"
+      ],
+      [
+       "Expressão nominal",
+       "Fugiu pela janela. **A fuga**…"
+      ],
+      [
+       "Elipse",
+       "Chegaram e **(eles)** isolaram a área."
+      ],
+      [
+       "Advérbio",
+       "Fomos a Recife. **Lá**…"
+      ],
+      [
+       "Conectivo",
+       "Confessou; **porém**, recorreu."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Substitua o termo pelo referente proposto.",
+      "Confira **concordância** e **sentido** do referente.",
+      "Pronome nem sempre retoma o termo **mais próximo**.",
+      "**Esse** = anáfora; **este** = catáfora.",
+      "Hiperônimo retoma hipônimo (*fuzil › arma*).",
+      "Elipse: termo omitido e identificável.",
+      "Relativo retoma o antecedente.",
+      "Coesão ≠ coerência.",
+      "Contradição = incoerência.",
+      "Progressão = informação nova."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "COESÃO E COERÊNCIA",
+  "rootSub": "ligação e sentido",
+  "left": [
+   {
+    "label": "Coesão",
+    "items": [
+     "ligação linguística",
+     "superfície do texto",
+     "pronomes e conectivos"
+    ]
+   },
+   {
+    "label": "Anáfora e catáfora",
+    "items": [
+     "anáfora: retoma",
+     "catáfora: antecipa",
+     "esse × este"
+    ]
+   },
+   {
+    "label": "Retomada",
+    "items": [
+     "sinônimos",
+     "hiperônimos",
+     "expressões nominais"
+    ]
+   },
+   {
+    "label": "Elipse",
+    "items": [
+     "termo omitido",
+     "identificável",
+     "sujeito oculto"
+    ]
+   },
+   {
+    "label": "Outros",
+    "items": [
+     "lá, aí",
+     "o primeiro, o último",
+     "relativos"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Sequencial",
+    "items": [
+     "conectivos",
+     "articuladores",
+     "tempos verbais"
+    ]
+   },
+   {
+    "label": "Coerência",
+    "items": [
+     "sentido",
+     "sem contradição",
+     "relação com o mundo"
+    ]
+   },
+   {
+    "label": "Progressão",
+    "items": [
+     "mantém o tema",
+     "acrescenta dados",
+     "não repete à toa"
+    ]
+   },
+   {
+    "label": "Teste",
+    "items": [
+     "substitua o termo",
+     "confira concordância",
+     "confira o sentido"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "referente não é o mais próximo",
+     "conectivo incoerente",
+     "repetição excessiva"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A expressão o homem retoma o motorista.",
+    "comment": "**Certo.** É uma expressão nominal que retoma o referente já mencionado.",
+    "context": "O agente abordou o motorista e pediu os documentos dele. Como o homem estava nervoso, o policial redobrou a atenção.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O pronome dele refere-se ao agente.",
+    "comment": "**Errado.** Os documentos são do motorista.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A expressão o policial retoma O agente.",
+    "comment": "**Certo.** Policial é sinônimo contextual de agente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O conector Como introduz ideia de comparação.",
+    "comment": "**Errado.** Anteposto à principal, como tem valor causal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Hiperônimos podem retomar hipônimos, como em “o revólver… a arma”.",
+    "comment": "**Certo.** O termo geral retoma o específico.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Em “O agente chegou cedo. Ele trazia o relatório”, o pronome “ele” é um recurso de coesão",
+    "options": [
+     "catafórica",
+     "sequencial",
+     "anafórica",
+     "lexical por antônimo",
+     "por elipse"
+    ],
+    "comment": "**Gabarito: C.** Retoma termo anterior.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Em “Disse apenas isto: não volto”, o pronome “isto” é",
+    "options": [
+     "catafórico",
+     "anafórico",
+     "elíptico",
+     "reflexivo",
+     "relativo"
+    ],
+    "comment": "**Gabarito: A.** Antecipa a informação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "D",
+    "text": "Em “Pedro e Ana chegaram; esta estava cansada”, “esta” refere-se a",
+    "options": [
+     "Pedro",
+     "aos dois",
+     "ninguém",
+     "Ana",
+     "ao cansaço"
+    ],
+    "comment": "**Gabarito: D.** Termo mais próximo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "E",
+    "text": "“Além disso” estabelece relação de",
+    "options": [
+     "oposição",
+     "conclusão",
+     "causa",
+     "tempo",
+     "adição"
+    ],
+    "comment": "**Gabarito: E.** Acrescenta argumento.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "B",
+    "text": "Em “Os peritos chegaram e examinaram o local”, há",
+    "options": [
+     "catáfora",
+     "elipse do sujeito na segunda oração",
+     "repetição",
+     "ambiguidade",
+     "vocativo"
+    ],
+    "comment": "**Gabarito: B.** Sujeito omitido.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "id": "lp-coesao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-16"
+ ],
+ "kind": "aprofundado",
+ "title": "Coesão e coerência textual",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 150,
+ "pdf": "portugues_coesao_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "É o tópico mais presente nas provas de interpretação: “o termo X retoma Y”, “o pronome Z refere-se a W”, “a substituição de X por Y prejudicaria a coesão”. Para acertar, **substitua** o termo pelo referente que a banca propõe e veja se a frase continua fazendo sentido e concordando."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Coesão × coerência"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Coesão",
+      "Coerência"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "O que é",
+       "Ligação **linguística** entre as partes do texto",
+       "Unidade de **sentido** do texto"
+      ],
+      [
+       "Onde está",
+       "Na superfície: pronomes, conectivos, sinônimos",
+       "Na lógica: ideias compatíveis, sem contradição"
+      ],
+      [
+       "Exemplo de falha",
+       "*O delegado chegou. O delegado ouviu. O delegado saiu.* (repetição)",
+       "*Choveu muito; portanto, as ruas ficaram secas.*"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Um texto pode ter muitos conectivos e ainda assim ser **incoerente**; e pode ser **coerente** com poucos elementos coesivos explícitos."
+    },
+    {
+     "t": "h2",
+     "text": "2. Coesão referencial"
+    },
+    {
+     "t": "p",
+     "text": "Retoma ou antecipa elementos do texto, evitando repetições."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Anáfora**: retoma o que já foi dito — *A PF deflagrou a operação. **Ela** cumpriu vinte mandados.*",
+      "**Catáfora**: antecipa o que será dito — *Só **isto** importa: **a vida da vítima**.*"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mecanismo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "Pronomes pessoais, demonstrativos, possessivos, relativos",
+       "O réu negou o crime. **Essa** versão, contudo, foi desmentida."
+      ],
+      [
+       "Sinônimos e expressões equivalentes",
+       "O **fuzil** foi apreendido. **O armamento** estava municiado."
+      ],
+      [
+       "Hiperônimos (termo geral)",
+       "O **fuzil** foi apreendido. **A arma** estava municiada."
+      ],
+      [
+       "Expressões nominais definidas (rótulos)",
+       "O suspeito fugiu pela janela. **A fuga** foi filmada."
+      ],
+      [
+       "Elipse (omissão de termo identificável)",
+       "Os peritos chegaram cedo e **(eles)** isolaram a área."
+      ],
+      [
+       "Advérbios de lugar e tempo",
+       "Fomos a Recife. **Lá**, encontramos o suspeito."
+      ],
+      [
+       "Numerais e expressões como *o primeiro, o último*",
+       "Ouviram o delegado e o escrivão; **o último** confirmou a versão."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Este, esse, aquele na referência",
+     "text": "**Esse** retoma (anáfora); **este** anuncia (catáfora) ou indica o mais próximo numa retomada de dois termos; **aquele** indica o mais distante: *Ouvi o perito e a escrivã: **esta** confirmou; **aquele**, não.*"
+    },
+    {
+     "t": "h2",
+     "text": "3. Coesão sequencial"
+    },
+    {
+     "t": "p",
+     "text": "Faz o texto **progredir**, encadeando as ideias com relações lógicas."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Conectivos** (conjunções, advérbios, locuções): *além disso, porém, portanto, porque, embora, em seguida*.",
+      "**Articuladores entre parágrafos**: *Em primeiro lugar… Além disso… Em contrapartida… Dessa forma… Em síntese…*",
+      "**Tempos verbais** e marcadores temporais que ordenam os fatos: *Às 22h… Minutos depois… No dia seguinte…*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Coesão lexical"
+    },
+    {
+     "t": "p",
+     "text": "Repetição intencional, sinonímia, hiperonímia e campo semântico (*crime, delegacia, inquérito, perícia*) também ligam o texto. Repetir é um recurso coesivo legítimo, mas o excesso empobrece o texto."
+    },
+    {
+     "t": "h2",
+     "text": "4. Coerência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Não contradição**: uma informação não pode negar outra (*o réu, que estava preso, foi visto na festa*).",
+      "**Continuidade**: o texto mantém o tema (fio condutor).",
+      "**Progressão**: acrescenta informações novas a cada parte.",
+      "**Relação com o mundo**: as informações são compatíveis com o conhecimento compartilhado.",
+      "**Coerência das relações lógicas**: o conectivo precisa combinar com o conteúdo (*choveu; portanto, as ruas ficaram **molhadas***)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O termo X retoma Y” — substitua X por Y e confira sentido e concordância.",
+      "“O pronome Z refere-se a W” — atenção ao referente mais próximo e ao sentido global.",
+      "“A substituição de *esse* por *este* prejudicaria a coesão” — anáfora × catáfora.",
+      "“Há elipse do sujeito em X” — o termo omitido é identificável.",
+      "“O conector X estabelece relação de oposição entre os parágrafos” — coesão sequencial."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A expressão A ação retoma Operação Maré Alta.",
+    "comment": "**Certo.** A ação é expressão nominal que retoma a operação citada no período anterior.",
+    "context": "A Polícia Federal deflagrou ontem a Operação Maré Alta. A ação, que contou com cem agentes, cumpriu vinte mandados em três estados. Segundo a corporação, o grupo investigado movimentou R$ 50 milhões. Seus líderes, entretanto, ainda não foram localizados. Isso preocupa os investigadores, pois eles podem deixar o país.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O pronome que, em “que contou com cem agentes”, retoma cem agentes.",
+    "comment": "**Errado.** O relativo retoma a ação: foi a ação que contou com cem agentes.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A expressão a corporação retoma Polícia Federal.",
+    "comment": "**Certo.** Corporação refere-se à instituição mencionada no início do texto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O possessivo Seus refere-se aos investigadores.",
+    "comment": "**Errado.** Seus líderes são os líderes do grupo investigado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O pronome Isso retoma a informação de que os líderes ainda não foram localizados.",
+    "comment": "**Certo.** Isso é anafórico e resume o conteúdo da frase anterior.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "O pronome eles, no último período, refere-se aos investigadores.",
+    "comment": "**Errado.** Pelo sentido, quem pode deixar o país são os líderes do grupo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O vocábulo entretanto estabelece relação de oposição entre o êxito da operação e a não localização dos líderes.",
+    "comment": "**Certo.** Entretanto é adversativo: contrapõe o resultado positivo à pendência.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A substituição de A ação por Ela prejudicaria a correção gramatical do texto.",
+    "comment": "**Errado.** Ela retomaria a operação de forma gramaticalmente correta.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “O fuzil foi apreendido. A arma estava municiada”, a expressão a arma é hiperônimo de fuzil e garante a coesão.",
+    "comment": "**Certo.** O termo mais geral (arma) retoma o mais específico (fuzil).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “O delegado chegou. O delegado ouviu as testemunhas. O delegado expediu o mandado”, a repetição torna o texto mais elegante.",
+    "comment": "**Errado.** A repetição liga as frases, mas o excesso empobrece o texto; pronomes e elipse seriam preferíveis.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "B",
+    "text": "No texto, o pronome “o”, em “Os policiais que o encontraram”, retoma",
+    "options": [
+     "“os policiais”.",
+     "“o carro”.",
+     "“o motor”.",
+     "“o motorista”.",
+     "“o fato”."
+    ],
+    "comment": "**Gabarito: B.** O pronome oblíquo retoma o carro, encontrado pelos policiais.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)",
+    "context": "O carro foi abandonado na margem da rodovia. Os policiais que o encontraram estranharam o fato de o veículo estar com o motor quente e a chave na ignição. Isso indicava que o motorista havia saído às pressas. Os agentes isolaram a área e chamaram a perícia; esta chegou meia hora depois. Ainda assim, nenhum vestígio do condutor foi encontrado."
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "A expressão “o veículo” estabelece coesão com “O carro” por meio de",
+    "options": [
+     "repetição.",
+     "elipse.",
+     "antonímia.",
+     "hiperonímia (termo mais geral).",
+     "catáfora."
+    ],
+    "comment": "**Gabarito: D.** “Veículo” é termo mais genérico que retoma “carro”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "A",
+    "text": "O pronome “Isso”, no terceiro período, refere-se",
+    "options": [
+     "ao fato de o veículo estar com o motor quente e a chave na ignição.",
+     "à margem da rodovia.",
+     "à perícia.",
+     "ao motorista.",
+     "ao abandono da rodovia pelos policiais."
+    ],
+    "comment": "**Gabarito: A.** Retoma toda a informação do período anterior.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "No trecho “chamaram a perícia; esta chegou meia hora depois”, o pronome “esta” retoma",
+    "options": [
+     "“a área”.",
+     "“meia hora”.",
+     "“a rodovia”.",
+     "“a chave”.",
+     "“a perícia”."
+    ],
+    "comment": "**Gabarito: E.** “Esta” retoma o termo mais próximo já mencionado: a perícia.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "C",
+    "text": "A expressão “Ainda assim”, no último período, estabelece relação de",
+    "options": [
+     "causa.",
+     "conclusão.",
+     "concessão (oposição ao que se esperava).",
+     "finalidade.",
+     "tempo."
+    ],
+    "comment": "**Gabarito: C.** Apesar das providências, nenhum vestígio foi encontrado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "B",
+    "text": "Em “Os agentes isolaram a área e chamaram a perícia”, o sujeito do verbo “chamaram” é",
+    "options": [
+     "inexistente.",
+     "“Os agentes”, elíptico na segunda oração.",
+     "“a área”.",
+     "indeterminado.",
+     "“a perícia”."
+    ],
+    "comment": "**Gabarito: B.** O sujeito é o mesmo da primeira oração, omitido (elipse).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "Assinale a alternativa em que o termo destacado tem função catafórica (antecipa uma informação).",
+    "options": [
+     "O delegado chegou; **ele** ouviu todos.",
+     "A viatura quebrou; **ela** estava velha.",
+     "Os réus saíram; **eles** estavam calmos.",
+     "O agente disse apenas **isto**: voltaria no dia seguinte.",
+     "A testemunha mentiu; **isso** ficou claro."
+    ],
+    "comment": "**Gabarito: D.** “Isto” anuncia o que vem depois dos dois-pontos. Nas demais, os pronomes retomam termos anteriores (anáfora).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Em “O soldado e o sargento chegaram juntos; este trazia o mandado”, o pronome “este” refere-se ao",
+    "options": [
+     "sargento, último termo mencionado.",
+     "soldado, primeiro termo mencionado.",
+     "mandado.",
+     "comandante.",
+     "conjunto dos dois."
+    ],
+    "comment": "**Gabarito: A.** Na referência a dois termos, “este” retoma o mais próximo; “aquele”, o mais distante.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "C",
+    "text": "Assinale a alternativa em que o conectivo estabelece adequadamente a progressão do texto, acrescentando um argumento.",
+    "options": [
+     "O réu confessou. Portanto, negou tudo.",
+     "O laudo saiu. Entretanto, confirmou a suspeita, como se esperava.",
+     "A prova é robusta. Além disso, há testemunhas.",
+     "Choveu. Por isso, o sol brilhou.",
+     "Ele faltou. Logo, estava presente."
+    ],
+    "comment": "**Gabarito: C.** “Além disso” acrescenta argumento na mesma direção.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "E",
+    "text": "A repetição excessiva de uma palavra no texto pode ser evitada por meio de",
+    "options": [
+     "vírgulas.",
+     "aspas.",
+     "inversão do sujeito.",
+     "uso de maiúsculas.",
+     "pronomes, sinônimos e expressões equivalentes."
+    ],
+    "comment": "**Gabarito: E.** A substituição lexical e pronominal garante a coesão referencial.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Ingedore Villaça Koch, A coesão textual.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

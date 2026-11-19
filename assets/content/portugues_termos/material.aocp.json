@@ -1,0 +1,430 @@
+{
+ "id": "lp-termos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-08"
+ ],
+ "kind": "resumo",
+ "title": "Análise sintática: termos da oração",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 40,
+ "pdf": "portugues_termos.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Função sintática** de termos, **sujeito posposto** e impessoalidade (concordância) e **vírgula** entre sujeito e verbo."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Sujeito"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Simples, composto, oculto** (identificado pela desinência ou pelo contexto).",
+      "**Indeterminado**: 3ª pessoa do plural **sem referente** (*Roubaram a viatura*) ou **VTI/VI/VL + se** (*Precisa-se de peritos*).",
+      "**Sem sujeito**: *haver* (existir, tempo), *fazer/estar/ser* (tempo, clima), fenômenos da natureza.",
+      "*Existir* tem sujeito: *Existiam provas*. Sujeito **posposto** também comanda o verbo: *Faltam dois documentos*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Predicado"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Verbal**: núcleo é verbo de ação (*prendeu o suspeito*).",
+      "**Nominal**: verbo de ligação + predicativo (*ficou preocupado*).",
+      "**Verbo-nominal**: verbo de ação + predicativo (*chegaram cansados*; *considerou o réu culpado*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Complementos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Termo",
+      "Completa",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.32,
+      0.42
+     ],
+     "rows": [
+      [
+       "Objeto direto",
+       "VTD, sem preposição",
+       "prendeu **o suspeito**"
+      ],
+      [
+       "Objeto indireto",
+       "VTI, com preposição",
+       "obedeceu **às ordens**"
+      ],
+      [
+       "Complemento nominal",
+       "Nome (substantivo, adjetivo, advérbio)",
+       "obediência **às leis**; favorável **ao réu**"
+      ],
+      [
+       "Agente da passiva",
+       "Verbo na voz passiva",
+       "instaurado **pelo delegado**"
+      ],
+      [
+       "Predicativo do objeto",
+       "Característica do objeto",
+       "julgou o réu **culpado**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Acessórios, aposto e vocativo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Adjunto adnominal**: caracteriza o substantivo (*os dois agentes **experientes da equipe***).",
+      "**Adjunto adverbial**: circunstância (*ontem, no bairro, com cautela*).",
+      "**Aposto**: explica, enumera, resume ou especifica (*Carlos, **o escrivão**, …*).",
+      "**Vocativo**: chama o interlocutor, sempre entre vírgulas (***Soldado**, apresente-se*)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "CN × adjunto adnominal",
+     "text": "Termo com *de* ligado a substantivo abstrato: se é **alvo** da ação, é **complemento nominal** (*investigação **da fraude***); se **pratica** a ação ou indica posse/matéria, é **adjunto adnominal** (*chegada **dos agentes**; mesa **de madeira***). Ligado a **adjetivo ou advérbio**: sempre CN."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Vírgula proibida",
+     "text": "Nunca separe **sujeito e verbo** nem **verbo e complemento** por vírgula, por mais longo que seja o sujeito."
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro de reconhecimento"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Termo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.36,
+      0.26,
+      0.38
+     ],
+     "rows": [
+      [
+       "Quem pratica / de quem se fala?",
+       "Sujeito",
+       "**Os agentes** chegaram."
+      ],
+      [
+       "O verbo pede algo sem preposição?",
+       "Objeto direto",
+       "Prendeu **o suspeito**."
+      ],
+      [
+       "O verbo pede algo com preposição?",
+       "Objeto indireto",
+       "Obedeceu **ao chefe**."
+      ],
+      [
+       "Um nome pede complemento?",
+       "Complemento nominal",
+       "Medo **de represálias**."
+      ],
+      [
+       "Quem age na passiva?",
+       "Agente da passiva",
+       "Preso **pela PM**."
+      ],
+      [
+       "Característica do sujeito?",
+       "Predicativo do sujeito",
+       "Ficou **calmo**."
+      ],
+      [
+       "Característica do objeto?",
+       "Predicativo do objeto",
+       "Julgou-o **culpado**."
+      ],
+      [
+       "Qualifica o substantivo?",
+       "Adjunto adnominal",
+       "Mesa **de madeira**."
+      ],
+      [
+       "Circunstância?",
+       "Adjunto adverbial",
+       "Saiu **à noite**."
+      ],
+      [
+       "Chama alguém?",
+       "Vocativo",
+       "**Senhor**, sente-se."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Comece pelo **verbo**: ele define sujeito e complementos.",
+      "Sujeito posposto continua sendo sujeito (concordância!).",
+      "*Haver* = existir: **sem sujeito**, verbo no singular.",
+      "3ª do plural **com** referente = oculto; **sem** referente = indeterminado.",
+      "VTD + se = passiva (sujeito); VTI + se = indeterminado.",
+      "Predicado verbo-nominal = verbo de ação + predicativo.",
+      "CN = alvo; adjunto adnominal = agente, posse, matéria.",
+      "Complemento de adjetivo = sempre CN.",
+      "Aposto explicativo e vocativo: entre vírgulas.",
+      "Sujeito e verbo: **nunca** separados por vírgula."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "TERMOS",
+  "rootSub": "da oração",
+  "left": [
+   {
+    "label": "Sujeito",
+    "items": [
+     "simples · composto · oculto",
+     "posposto: chegaram os laudos",
+     "existir tem sujeito"
+    ]
+   },
+   {
+    "label": "Indeterminado",
+    "items": [
+     "3ª pl. sem referente",
+     "VTI/VI + se",
+     "precisa-se de peritos"
+    ]
+   },
+   {
+    "label": "Sem sujeito",
+    "items": [
+     "haver = existir",
+     "faz dois anos",
+     "choveu, anoiteceu"
+    ]
+   },
+   {
+    "label": "Predicado",
+    "items": [
+     "verbal: ação",
+     "nominal: VL + predicativo",
+     "verbo-nominal: os dois"
+    ]
+   },
+   {
+    "label": "Predicativo",
+    "items": [
+     "do sujeito: ficou calmo",
+     "do objeto: julgou-o culpado",
+     "teste do pronome"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Objetos",
+    "items": [
+     "OD: sem preposição",
+     "OI: com preposição",
+     "OD preposicionado: amar a Deus"
+    ]
+   },
+   {
+    "label": "Complemento nominal",
+    "items": [
+     "completa nome",
+     "alvo da ação",
+     "favorável ao réu"
+    ]
+   },
+   {
+    "label": "Adjuntos",
+    "items": [
+     "adnominal: caracteriza",
+     "adverbial: circunstância",
+     "agente, posse, matéria"
+    ]
+   },
+   {
+    "label": "Aposto e vocativo",
+    "items": [
+     "aposto explica o termo",
+     "vocativo chama",
+     "ambos entre vírgulas"
+    ]
+   },
+   {
+    "label": "Vírgula",
+    "items": [
+     "nunca sujeito | verbo",
+     "nunca verbo | complemento",
+     "adjunto deslocado: pode"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Existiam provas suficientes no processo”, o termo provas suficientes exerce a função de sujeito.",
+    "comment": "**Certo.** Existir é verbo pessoal: provas suficientes é o sujeito, e o verbo concorda com ele.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Havia provas suficientes no processo”, o termo provas suficientes exerce a função de sujeito.",
+    "comment": "**Errado.** Haver no sentido de existir é impessoal; provas suficientes é objeto direto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Necessita-se de reforços”, o sujeito é indeterminado.",
+    "comment": "**Certo.** Necessitar de é transitivo indireto; com o se, o sujeito fica indeterminado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O suspeito parecia nervoso”, o termo nervoso exerce a função de adjunto adnominal.",
+    "comment": "**Errado.** Parecer é verbo de ligação: nervoso é predicativo do sujeito.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Ele tem medo de represálias”, o termo de represálias exerce a função de complemento nominal.",
+    "comment": "**Certo.** Completa o sentido do substantivo abstrato medo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "D",
+    "text": "Não tem sujeito a oração",
+    "options": [
+     "O policial chegou.",
+     "Precisa-se de ajuda.",
+     "Alguém ligou.",
+     "Ventou forte à noite.",
+     "Saíram os presos."
+    ],
+    "comment": "**Gabarito: D.** Fenômeno da natureza: oração sem sujeito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Em “O perito parecia cansado”, “cansado” é",
+    "options": [
+     "predicativo do sujeito",
+     "objeto direto",
+     "adjunto adnominal",
+     "aposto",
+     "vocativo"
+    ],
+    "comment": "**Gabarito: A.** Verbo de ligação + característica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Em “Agentes, atenção!”, “Agentes” é",
+    "options": [
+     "sujeito",
+     "aposto",
+     "objeto",
+     "predicativo",
+     "vocativo"
+    ],
+    "comment": "**Gabarito: E.** Chamamento.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Em “O réu foi julgado pelo júri”, “pelo júri” é",
+    "options": [
+     "objeto indireto",
+     "agente da passiva",
+     "complemento nominal",
+     "sujeito",
+     "adjunto adnominal"
+    ],
+    "comment": "**Gabarito: B.** Voz passiva analítica.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Em “Precisa-se de vigilantes”, o sujeito é",
+    "options": [
+     "simples",
+     "oculto",
+     "indeterminado",
+     "inexistente",
+     "composto"
+    ],
+    "comment": "**Gabarito: C.** VTI + se: sujeito indeterminado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

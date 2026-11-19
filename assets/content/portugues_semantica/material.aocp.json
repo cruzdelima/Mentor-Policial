@@ -1,0 +1,347 @@
+{
+ "id": "lp-semantica-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-19"
+ ],
+ "kind": "resumo",
+ "title": "Semântica e significação das palavras",
+ "subtitle": "Língua Portuguesa · Semântica",
+ "minutes": 25,
+ "pdf": "portugues_semantica.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Substituição** de palavras (sinonímia no contexto), **parônimos** e **sentido figurado**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Relações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sinônimos** (no contexto), **antônimos**, **hiperônimo** (geral: *arma*) × **hipônimo** (específico: *fuzil*).",
+      "**Homófonos**: mesmo som (*cela/sela, sessão/seção/cessão*). **Homógrafos**: mesma grafia. **Parônimos**: parecidos.",
+      "**Polissemia**: vários sentidos relacionados (*operação, banco*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Parônimos da área policial"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Par",
+      "Diferença"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "mandado / mandato",
+       "ordem judicial / período de representação"
+      ],
+      [
+       "flagrante / fragrante",
+       "evidente / perfumado"
+      ],
+      [
+       "infringir / infligir",
+       "violar / aplicar pena"
+      ],
+      [
+       "ratificar / retificar",
+       "confirmar / corrigir"
+      ],
+      [
+       "deferir / diferir",
+       "atender / adiar"
+      ],
+      [
+       "eminente / iminente",
+       "importante / prestes a ocorrer"
+      ],
+      [
+       "descrição / discrição",
+       "descrever / reserva"
+      ],
+      [
+       "tráfego / tráfico",
+       "trânsito / comércio ilegal"
+      ],
+      [
+       "vultoso / vultuoso",
+       "grande valor / inchado"
+      ],
+      [
+       "emergir / imergir",
+       "vir à tona / mergulhar"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Sentido"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Denotação**: literal. **Conotação**: figurado (*coração de pedra*).",
+      "**Ambiguidade**: duplo sentido (*viu o assaltante correndo*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sinonímia é **contextual**.",
+      "Mandado = ordem; mandato = representação.",
+      "Infringir a lei; infligir pena.",
+      "Ratificar confirma; retificar corrige.",
+      "Deferir atende; diferir adia.",
+      "Iminente = vai acontecer.",
+      "Discrição = reserva.",
+      "Quantia vultosa (sem u).",
+      "Hiperônimo retoma hipônimo.",
+      "Ambiguidade: termo com dois referentes."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "SEMÂNTICA",
+  "rootSub": "significação das palavras",
+  "left": [
+   {
+    "label": "Sinonímia",
+    "items": [
+     "sentido semelhante",
+     "depende do contexto",
+     "fugiu = evadiu-se"
+    ]
+   },
+   {
+    "label": "Hiperonímia",
+    "items": [
+     "arma: geral",
+     "fuzil: específico",
+     "retomada coesiva"
+    ]
+   },
+   {
+    "label": "Homônimos",
+    "items": [
+     "cela / sela",
+     "sessão / seção / cessão",
+     "censo / senso"
+    ]
+   },
+   {
+    "label": "Polissemia",
+    "items": [
+     "operação",
+     "banco",
+     "sentidos relacionados"
+    ]
+   },
+   {
+    "label": "Sentido",
+    "items": [
+     "denotação: literal",
+     "conotação: figurado",
+     "ambiguidade"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Mandado",
+    "items": [
+     "mandado: ordem judicial",
+     "mandato: representação",
+     "cumprimento do mandado"
+    ]
+   },
+   {
+    "label": "Infringir",
+    "items": [
+     "infringir: violar",
+     "infligir: aplicar pena",
+     "flagrante ≠ fragrante"
+    ]
+   },
+   {
+    "label": "Ratificar",
+    "items": [
+     "ratificar: confirmar",
+     "retificar: corrigir",
+     "deferir ≠ diferir"
+    ]
+   },
+   {
+    "label": "Iminente",
+    "items": [
+     "iminente: vai ocorrer",
+     "eminente: importante",
+     "emergir ≠ imergir"
+    ]
+   },
+   {
+    "label": "Outros",
+    "items": [
+     "tráfego ≠ tráfico",
+     "discrição: reserva",
+     "vultoso: grande valor"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O deputado cumpre o segundo mandato”, o vocábulo mandato refere-se a período de representação.",
+    "comment": "**Certo.** Mandado seria ordem judicial.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O juiz infligiu as regras do processo”, o verbo infligir foi empregado no sentido de violar.",
+    "comment": "**Errado.** Violar é infringir; infligir é aplicar pena.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O tribunal ratificou a decisão de primeira instância”, ratificar significa confirmar.",
+    "comment": "**Certo.** Retificar seria corrigir.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O ataque era eminente, e a população foi evacuada”, o adjetivo eminente está adequadamente empregado.",
+    "comment": "**Errado.** Prestes a ocorrer é iminente.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “A perícia exige discrição dos servidores”, discrição significa reserva.",
+    "comment": "**Certo.** Descrição é o ato de descrever.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "“Perigo ___” e “jurista ___” completam-se com",
+    "options": [
+     "eminente / iminente",
+     "iminente / iminente",
+     "iminente / eminente",
+     "eminente / eminente",
+     "imanente / eminente"
+    ],
+    "comment": "**Gabarito: C.** Iminente = prestes; eminente = ilustre.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "É sinônimo de “célere”:",
+    "options": [
+     "rápido",
+     "lento",
+     "célebre",
+     "cauteloso",
+     "célico"
+    ],
+    "comment": "**Gabarito: A.** Célere = veloz.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Está correta a frase",
+    "options": [
+     "O preso voltou à sela.",
+     "Fez o concerto do carro.",
+     "Agiu com bom censo.",
+     "Infligiu a lei.",
+     "Infringiu o regulamento."
+    ],
+    "comment": "**Gabarito: E.** Infringir = violar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "A palavra com vários sentidos conforme o contexto é",
+    "options": [
+     "sinônima",
+     "polissêmica",
+     "antônima",
+     "parônima",
+     "homógrafa"
+    ],
+    "comment": "**Gabarito: B.** Polissemia.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "O juiz ___ o pedido (atendeu). Completa a frase:",
+    "options": [
+     "diferiu",
+     "infringiu",
+     "discriminou",
+     "deferiu",
+     "difundiu"
+    ],
+    "comment": "**Gabarito: D.** Deferir = atender.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

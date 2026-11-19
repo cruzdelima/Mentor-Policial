@@ -1,0 +1,564 @@
+{
+ "id": "lp-concordancia-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-11"
+ ],
+ "kind": "aprofundado",
+ "title": "Concordância nominal e verbal",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 240,
+ "pdf": "portugues_concordancia_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Concordância é o tópico de gramática mais cobrado pelas bancas. O segredo é sempre **achar o sujeito** antes de julgar o verbo — principalmente quando ele vem **depois** do verbo, quando é longo ou quando o verbo é impessoal. Faça a seção 1 com calma: a maior parte das questões cai ali."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Concordância verbal: regra geral"
+    },
+    {
+     "t": "p",
+     "text": "O verbo concorda com o **núcleo do sujeito** em **número** e **pessoa**: *O **agente** chegou. Os **agentes** chegaram.*"
+    },
+    {
+     "t": "h3",
+     "text": "Sujeito posposto"
+    },
+    {
+     "t": "p",
+     "text": "O sujeito depois do verbo continua comandando a concordância: ***Faltam** dois documentos. **Chegaram** os laudos. **Ocorreram** várias prisões.* Pergunte ao verbo: *o que falta? o que chegou?*"
+    },
+    {
+     "t": "h3",
+     "text": "Sujeito longo ou distante do verbo"
+    },
+    {
+     "t": "p",
+     "text": "*A **análise** dos documentos apreendidos pelos agentes nas três operações **revelou** fraudes* (o núcleo é *análise*, não *operações*)."
+    },
+    {
+     "t": "h3",
+     "text": "Sujeito composto"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Concordância",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.32,
+      0.38
+     ],
+     "rows": [
+      [
+       "Anteposto ao verbo",
+       "**Plural**",
+       "O delegado e o escrivão **chegaram**."
+      ],
+      [
+       "Posposto ao verbo",
+       "Plural **ou** com o núcleo mais próximo",
+       "**Chegaram** / **Chegou** o delegado e os escrivães."
+      ],
+      [
+       "Pessoas diferentes",
+       "Prevalece a 1ª; depois a 2ª",
+       "Eu e tu **iremos**. Tu e ele **ireis** (ou **irão**)."
+      ],
+      [
+       "Núcleos sinônimos ou em gradação",
+       "Singular ou plural",
+       "O medo e o pavor **dominou/dominaram** a vila."
+      ],
+      [
+       "Ligados por *ou* com exclusão",
+       "**Singular**",
+       "O delegado ou o escrivão **assinará** o termo."
+      ],
+      [
+       "Ligados por *ou* sem exclusão",
+       "**Plural**",
+       "Furto ou roubo **são** crimes contra o patrimônio."
+      ],
+      [
+       "Ligados por *nem… nem*",
+       "Em regra, **plural**",
+       "Nem o réu nem o advogado **compareceram**."
+      ],
+      [
+       "Resumidos por *tudo, nada, ninguém*",
+       "**Singular**",
+       "Armas, drogas, dinheiro, **tudo** **foi** apreendido."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Casos especiais da concordância verbal"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Caso",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.24,
+      0.36,
+      0.4
+     ],
+     "rows": [
+      [
+       "Coletivo",
+       "Singular",
+       "A **tropa** **avançou**."
+      ],
+      [
+       "Coletivo + especificador no plural",
+       "Singular ou plural",
+       "A maioria dos agentes **aprovou/aprovaram**."
+      ],
+      [
+       "Mais de um",
+       "Singular (plural se houver reciprocidade)",
+       "**Mais de um** agente **foi** ferido."
+      ],
+      [
+       "Mais de / cerca de + número",
+       "Concorda com o **numeral**",
+       "**Mais de dez** candidatos **foram** eliminados. **Cerca de trinta** policiais **participaram**."
+      ],
+      [
+       "Porcentagem",
+       "Com o numeral ou com o especificador",
+       "**1%** dos eleitores **votou**. **30%** da tropa **está/estão** de folga."
+      ],
+      [
+       "Um dos que",
+       "Plural (preferível)",
+       "Ele é **um dos que** mais **trabalham**."
+      ],
+      [
+       "Que (relativo)",
+       "Concorda com o **antecedente**",
+       "Fui **eu que** **redigi**. Fomos **nós que** **redigimos**."
+      ],
+      [
+       "Quem",
+       "3ª do singular ou com o antecedente",
+       "Fui eu **quem redigiu** / **quem redigi**."
+      ],
+      [
+       "Qual de nós / quais de nós",
+       "Singular com *qual*; com *quais*, concorda com *nós* ou 3ª pessoa",
+       "**Qual** de nós **irá**? **Quais** de nós **iremos/irão**?"
+      ],
+      [
+       "Nome próprio plural com artigo",
+       "Plural",
+       "**Os Estados Unidos são**…"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Verbos impessoais e o pronome se"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Haver** (existir, acontecer, tempo) e **fazer** (tempo, clima): **singular**, inclusive o auxiliar — *Havia provas. Deve haver provas. Faz dois anos.*",
+      "**Existir, ocorrer, acontecer** têm sujeito e vão ao plural: *Existiam provas. Ocorreram falhas.*",
+      "**VTD + se** (voz passiva sintética): concorda com o sujeito — *Revisaram-se os inquéritos. Vendem-se viaturas.*",
+      "**VTI, VI ou VL + se** (sujeito indeterminado): **singular** — *Precisa-se de agentes. Trata-se de casos graves.*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Verbo ser"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Concorda, em regra, com o **predicativo** quando o sujeito é *tudo, isto, isso, aquilo* ou nome de coisa no singular: *Tudo **são** flores. Isso **são** detalhes.*",
+      "**Pessoa** prevalece: *O responsável **sou** eu.*",
+      "**Horas, datas e distâncias**: concorda com o numeral — ***São** duas horas. **É** meio-dia. **É** uma hora. Hoje **são** 10 de maio* (ou *Hoje **é** dia 10*).",
+      "**Quantidade, preço, peso** com *é muito, é pouco, é suficiente*: singular — *Dez metros **é** pouco.*"
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "As pegadinhas campeãs",
+     "text": "*Deve existir provas* (errado: **devem existir**) · *Haviam provas* (errado: **havia**) · *Precisam-se de* (errado: **precisa-se**) · *Vende-se casas* (errado: **vendem-se**) · *Faltou três agentes* (errado: **faltaram**)."
+    },
+    {
+     "t": "h2",
+     "text": "3. Concordância nominal"
+    },
+    {
+     "t": "p",
+     "text": "Artigo, adjetivo, pronome e numeral concordam em **gênero** e **número** com o substantivo a que se referem."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Concordância",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.34,
+      0.36
+     ],
+     "rows": [
+      [
+       "Adjetivo **depois** de vários substantivos",
+       "Plural (masculino prevalece) **ou** com o mais próximo",
+       "Laudo e perícia **completos** / **completa**."
+      ],
+      [
+       "Adjetivo **antes** de vários substantivos",
+       "Com o **mais próximo**",
+       "**Completa** perícia e laudo."
+      ],
+      [
+       "Adjetivo predicativo de sujeito composto",
+       "Plural",
+       "O laudo e a perícia estão **completos**."
+      ],
+      [
+       "Um substantivo e vários adjetivos",
+       "*as polícias civil e militar* ou *a polícia civil e a militar*",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Palavras-armadilha"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Palavra",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.38,
+      0.42
+     ],
+     "rows": [
+      [
+       "anexo, incluso, obrigado, mesmo, próprio, quite",
+       "**Variam**: concordam com o substantivo",
+       "Seguem **anexos** os documentos. **Obrigada**, disse a delegada. Ela **mesma** assinou."
+      ],
+      [
+       "em anexo",
+       "**Invariável**",
+       "Seguem **em anexo** as fotos."
+      ],
+      [
+       "menos, alerta (advérbio)",
+       "**Invariáveis**",
+       "Havia **menos** provas. (nunca *menas*)"
+      ],
+      [
+       "meio, bastante",
+       "Advérbio (junto de adjetivo) não varia; adjetivo/pronome varia",
+       "**meio** nervosa · **meia** hora · **bastante** cansados · **bastantes** provas"
+      ],
+      [
+       "só",
+       "*sozinho* varia; *somente* não",
+       "Ficaram **sós**. **Só** eles ficaram."
+      ],
+      [
+       "é proibido, é necessário, é bom",
+       "Sem determinante: invariável; com artigo: concorda",
+       "**É proibido** entrada. **É proibida a** entrada."
+      ],
+      [
+       "meio-dia e meia",
+       "*meia* = metade da hora",
+       "Chegou ao **meio-dia e meia**."
+      ],
+      [
+       "possível (o mais… possível)",
+       "Concorda com o artigo",
+       "**o mais** rápido **possível** · **os mais** rápidos **possíveis**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Cada questão tem **5 alternativas** e só uma resposta. Desconfie de alternativas com palavras absolutas (“sempre”, “nunca”, “apenas”).",
+      "Nas questões de **reescrita**, teste as cinco: a correta mantém **sentido e correção**; as erradas mudam o sentido ou criam erro gramatical.",
+      "No comando “assinale a alternativa **incorreta**”, marque cada alternativa com C ou E na margem: a resposta é a única E.",
+      "Com assertivas I, II e III, julgue uma por uma e só então procure a alternativa que corresponde ao resultado."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A forma verbal X está no plural para concordar com Y” — confira se Y é mesmo o núcleo do sujeito.",
+      "“A substituição de *existir* por *haver* exigiria a forma *havia*” — verbo impessoal no singular.",
+      "“O verbo poderia ser empregado no singular” — sujeito composto posposto, coletivo com especificador.",
+      "Reescritas que trocam o sujeito de número sem ajustar o verbo ou o particípio."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Faltam dois documentos no processo”, o verbo está no plural para concordar com o sujeito dois documentos.",
+    "comment": "**Certo.** O sujeito vem posposto ao verbo, mas continua comandando a concordância.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Deve existir provas suficientes no inquérito”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Existir é pessoal: o sujeito é provas suficientes, e a locução vai ao plural (devem existir).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “A maioria dos agentes aprovou a medida”, o verbo poderia ser empregado no plural (aprovaram), sem prejuízo da correção.",
+    "comment": "**Certo.** Com coletivo partitivo seguido de especificador no plural, admitem-se singular e plural.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Mais de um agente foram feridos na operação”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Com mais de um, o verbo fica no singular: mais de um agente foi ferido.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Fui eu que redigi o relatório”, a forma verbal redigi concorda com o antecedente do pronome relativo.",
+    "comment": "**Certo.** O relativo que leva o verbo a concordar com o antecedente eu.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Seguem anexo os documentos solicitados”, a concordância nominal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Anexo é adjetivo e concorda com o substantivo: seguem anexos os documentos (ou em anexo).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Ela mesma assinou o termo de depoimento”, o vocábulo mesma concorda com o pronome a que se refere.",
+    "comment": "**Certo.** Mesmo, com valor de próprio, é variável.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Está de acordo com a norma-padrão a frase “É proibida entrada de pessoas estranhas”.",
+    "comment": "**Errado.** Sem artigo, a expressão fica invariável (é proibido entrada); com artigo, concorda (é proibida a entrada).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “São duas horas da madrugada”, o verbo ser concorda com o numeral.",
+    "comment": "**Certo.** Na indicação de horas, o verbo ser concorda com a expressão numérica.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Os Estados Unidos é um parceiro estratégico”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Nome próprio plural precedido de artigo leva o verbo ao plural: os Estados Unidos são.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "D",
+    "text": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "options": [
+     "Fazem dois anos que o caso foi arquivado.",
+     "Haviam muitos documentos sobre a mesa.",
+     "Vende-se apartamentos apreendidos.",
+     "Faz dois anos que o caso foi arquivado.",
+     "Devem fazer três meses que ele saiu."
+    ],
+    "comment": "**Gabarito: D.** **Fazer** indicando tempo é impessoal: fica no singular, inclusive o auxiliar (deve fazer).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "B",
+    "text": "Assinale a alternativa correta.",
+    "options": [
+     "Mais de um policial ficaram feridos.",
+     "Mais de um policial ficou ferido.",
+     "Mais de dois policiais ficou ferido.",
+     "Menos de dois policiais ficou ferido.",
+     "Mais de um policial ficaram ferido."
+    ],
+    "comment": "**Gabarito: B.** Com “mais de um”, o verbo fica no singular; com “mais de dois”, no plural.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a concordância nominal está correta.",
+    "options": [
+     "Seguem anexo as fotografias.",
+     "É proibido a entrada de pessoas estranhas.",
+     "Elas mesmo assinaram o termo.",
+     "Seguem em anexas as cópias.",
+     "Seguem anexas as fotografias do local."
+    ],
+    "comment": "**Gabarito: E.** **Anexo** é adjetivo e concorda com o substantivo (anexas as fotografias). “É proibido entrada” ou “É proibida a entrada”; “elas mesmas”; “em anexo” é invariável.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "A",
+    "text": "Assinale a alternativa que completa corretamente a frase: “Já ___ meio-dia e ___, e as provas ___ para a condenação.”",
+    "options": [
+     "era / meia / são bastantes",
+     "eram / meio / é bastante",
+     "era / meio / são bastante",
+     "eram / meia / são bastantes",
+     "era / meio / é bastantes"
+    ],
+    "comment": "**Gabarito: A.** Meio-dia e **meia** (hora); **era** concorda com “meio-dia”; **bastantes** é adjetivo (= suficientes) e concorda com “provas”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "C",
+    "text": "Assinale a alternativa em que o verbo “ser” está corretamente flexionado.",
+    "options": [
+     "Já é três horas da tarde.",
+     "Era duas horas quando a viatura chegou.",
+     "São duas horas.",
+     "Daqui à delegacia é dois quilômetros.",
+     "Tudo são flores, disse ele, e tudo é problemas."
+    ],
+    "comment": "**Gabarito: C.** Na indicação de horas, o verbo ser concorda com o numeral (são duas horas). “Hoje são quinze de março” ou “Hoje é dia quinze”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "D",
+    "text": "Na frase “Chegaram à delegacia o advogado e a família do preso”, o verbo está no plural porque",
+    "options": [
+     "o sujeito é indeterminado.",
+     "concorda com “delegacia”.",
+     "concorda apenas com “advogado”.",
+     "o sujeito é composto e posposto, podendo o verbo ir para o plural.",
+     "a oração não tem sujeito."
+    ],
+    "comment": "**Gabarito: D.** Sujeito composto posposto: o verbo vai para o plural ou concorda com o núcleo mais próximo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "E",
+    "text": "Assinale a alternativa INCORRETA quanto à concordância.",
+    "options": [
+     "Alugam-se salas comerciais.",
+     "Precisa-se de vigilantes.",
+     "Trata-se de casos graves.",
+     "Necessita-se de novas viaturas.",
+     "Consertam-se viaturas e precisam-se de mecânicos."
+    ],
+    "comment": "**Gabarito: E.** Com verbo transitivo indireto (precisar de), o “se” indetermina o sujeito e o verbo fica no singular: precisa-se de mecânicos.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "A",
+    "text": "Em “A maioria dos detentos aceitou o acordo”, a concordância",
+    "options": [
+     "está correta, assim como estaria “aceitaram”.",
+     "está errada, pois o verbo deveria ir obrigatoriamente para o plural.",
+     "está errada, pois “maioria” exige verbo no plural.",
+     "só estaria correta com “aceitaram”.",
+     "está correta, e “aceitaram” seria erro."
+    ],
+    "comment": "**Gabarito: A.** Com expressão partitiva seguida de plural, o verbo pode concordar com o núcleo (singular) ou com o especificador (plural).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "Assinale a alternativa em que a concordância do adjetivo está correta.",
+    "options": [
+     "Os agentes e as escrivãs estavam atentas.",
+     "Encontrou a sala e o arquivo destruída.",
+     "Usava camisa e calça pretos.",
+     "Os policiais saíram meios cansados.",
+     "Saíram cansados o delegado e a escrivã."
+    ],
+    "comment": "**Gabarito: E.** Adjetivo depois de substantivos de gêneros diferentes vai para o masculino plural (cansados). “Meio” advérbio (= um pouco) é invariável.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "C",
+    "text": "Assinale a alternativa em que o verbo concorda corretamente com o sujeito.",
+    "options": [
+     "Os Estados Unidos enviou agentes.",
+     "Fui eu que fez o relatório.",
+     "Fui eu que fiz o relatório.",
+     "Fomos nós quem fizemos o relatório, ele disse que fez.",
+     "Nem um nem outro agente vieram."
+    ],
+    "comment": "**Gabarito: C.** Com “que”, o verbo concorda com o antecedente “eu” (fiz). “Os Estados Unidos enviaram”; “nem um nem outro veio”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -1,0 +1,432 @@
+{
+ "id": "lp-verbos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-06"
+ ],
+ "kind": "resumo",
+ "title": "Verbos: flexão, tempos, modos e vozes",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 40,
+ "pdf": "portugues_verbos.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Troca de tempos** (mantém ou altera o sentido?), **forma correta** dos irregulares (futuro do subjuntivo, *têm/detêm*) e **vozes** (passiva sintética e concordância com o *se*)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Valor dos tempos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Perfeito** = fato concluído (*chegaram*). **Imperfeito** = hábito ou ação em curso (*chegavam*). Trocar um pelo outro **altera** o sentido.",
+      "**Mais-que-perfeito**: passado anterior a outro passado. *fugira = tinha fugido = havia fugido* (troca **mantém** o sentido).",
+      "**Futuro do pretérito**: hipótese, condição, polidez. *O suspeito **teria fugido*** = informação não confirmada.",
+      "**Futuro do subjuntivo**: com *se, quando, assim que* — *quando ele **vier**, se ele **puder***."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Formação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Presente do subjuntivo vem da **1ª pessoa do presente**: *faço › faça; trago › traga*.",
+      "Imperfeito e futuro do subjuntivo vêm do **pretérito perfeito**: *fizeram › fizesse, fizer; vieram › viesse, vier*.",
+      "**Imperativo afirmativo**: tu e vós do presente do indicativo **sem -s** (*faze, fazei*); o resto, do presente do subjuntivo (*faça, façamos, façam*).",
+      "**Imperativo negativo**: tudo do presente do subjuntivo (*não faças, não faça*)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Futuro do subjuntivo",
+     "text": "*se eu **vir*** (ver) · *se eu **vier*** (vir) · *se ele **mantiver*** · *se ele **propuser*** · *se ele **intervier*** · *se ele **couber***. Errado: “quando eu ver”, “se ele manter”, “se ele propor”."
+    },
+    {
+     "t": "h2",
+     "text": "3. Irregulares e impessoais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**ele detém / eles detêm** · **ele intervém / eles intervêm** · ele **interveio** (não “interviu”).",
+      "**Haver** (existir, tempo) e **fazer** (tempo): sempre no singular, inclusive o auxiliar — *Deve haver provas. Faz dois anos.*",
+      "**-iar** é regular, exceto **MARIO**: *medeio, anseio, remedeio, incendeio, odeio*. **-ear**: *passeio, nomeio*.",
+      "**Reaver**: só formas com *v* — *ele **reouve***. **Requerer**: *eu requeiro, ele requereu*."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Particípio e infinitivo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**ter/haver + regular** (*tinha aceitado*); **ser/estar + irregular** (*foi aceito*). *Pago, ganho, gasto* servem para os dois.",
+      "Infinitivo **não flexiona** em locução (*devem apresentar*) e com pronome oblíquo (*mandou-os sair*).",
+      "Infinitivo **flexiona** com sujeito próprio: *É preciso **sairmos** cedo.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Vozes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Voz",
+      "Exemplo",
+      "Observação"
+     ],
+     "widths": [
+      0.22,
+      0.4,
+      0.38
+     ],
+     "rows": [
+      [
+       "Ativa",
+       "A polícia prendeu os suspeitos.",
+       "Sujeito agente"
+      ],
+      [
+       "Passiva analítica",
+       "Os suspeitos foram presos pela polícia.",
+       "*ser* no tempo da ativa; particípio concorda"
+      ],
+      [
+       "Passiva sintética",
+       "Prenderam-se os suspeitos.",
+       "VTD + se; verbo concorda com o sujeito"
+      ],
+      [
+       "Indeterminação",
+       "Precisa-se de agentes.",
+       "VTI/VI + se; verbo no singular"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: certo × errado"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Evite",
+      "Prefira",
+      "Por quê"
+     ],
+     "widths": [
+      0.32,
+      0.32,
+      0.36
+     ],
+     "rows": [
+      [
+       "Quando eu ver o laudo…",
+       "Quando eu vir o laudo…",
+       "Futuro do subjuntivo de ver"
+      ],
+      [
+       "Se ele manter a versão…",
+       "Se ele mantiver a versão…",
+       "Deriva de mantiveram"
+      ],
+      [
+       "Ele interviu na briga.",
+       "Ele interveio na briga.",
+       "Intervir segue vir"
+      ],
+      [
+       "Haviam muitas provas.",
+       "Havia muitas provas.",
+       "Haver = existir: impessoal"
+      ],
+      [
+       "Fazem dois anos.",
+       "Faz dois anos.",
+       "Fazer (tempo): impessoal"
+      ],
+      [
+       "Vende-se viaturas.",
+       "Vendem-se viaturas.",
+       "Passiva sintética: sujeito plural"
+      ],
+      [
+       "Tratam-se de casos.",
+       "Trata-se de casos.",
+       "VTI + se: singular"
+      ],
+      [
+       "O recurso foi aceitado.",
+       "O recurso foi aceito.",
+       "ser + particípio irregular"
+      ],
+      [
+       "Eles detém a posse.",
+       "Eles detêm a posse.",
+       "Plural com circunflexo"
+      ],
+      [
+       "Eu medio o conflito.",
+       "Eu medeio o conflito.",
+       "Mediar: exceção MARIO"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Perfeito × imperfeito: a troca **altera** o sentido.",
+      "Mais-que-perfeito simples × composto: a troca **mantém** o sentido.",
+      "Futuro do pretérito = **hipótese**; trocar por perfeito transforma em fato.",
+      "Futuro do subjuntivo vem do **pretérito perfeito** (viram › vir).",
+      "*Se + -sse* pede *-ria*; *se + -r* pede *-rá*.",
+      "**Haver** e **fazer** impessoais: singular, inclusive o auxiliar.",
+      "VTD + se: verbo concorda; VTI + se: singular.",
+      "Na passiva, *ser* fica no **tempo da ativa**.",
+      "Imperativo de *você* = presente do subjuntivo (*faça*).",
+      "Uniformidade de tratamento: não misture *tu* e *você*."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "VERBOS",
+  "rootSub": "tempos, modos e vozes",
+  "left": [
+   {
+    "label": "Indicativo",
+    "items": [
+     "perfeito: fato concluído",
+     "imperfeito: hábito",
+     "fugira = tinha fugido"
+    ]
+   },
+   {
+    "label": "Futuro do pretérito",
+    "items": [
+     "hipótese: teria fugido",
+     "condição: seria reduzida",
+     "polidez: gostaria"
+    ]
+   },
+   {
+    "label": "Subjuntivo",
+    "items": [
+     "que eu faça (de faço)",
+     "se eu fizesse (de fizeram)",
+     "quando eu fizer"
+    ]
+   },
+   {
+    "label": "Imperativo",
+    "items": [
+     "tu/vós: indicativo sem -s",
+     "você: faça",
+     "negativo: todo subjuntivo"
+    ]
+   },
+   {
+    "label": "Correlação",
+    "items": [
+     "se -sse + -ria",
+     "se -r + -rá",
+     "queria que viesse"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Irregulares",
+    "items": [
+     "se eu vir · se eu vier",
+     "mantiver · propuser",
+     "interveio · detêm"
+    ]
+   },
+   {
+    "label": "Impessoais",
+    "items": [
+     "havia provas",
+     "faz dois anos",
+     "deve haver"
+    ]
+   },
+   {
+    "label": "Particípio",
+    "items": [
+     "ter + aceitado",
+     "ser + aceito",
+     "pago · ganho · gasto"
+    ]
+   },
+   {
+    "label": "Vozes",
+    "items": [
+     "ativa · passiva analítica",
+     "passiva sintética: VTD + se",
+     "ser no tempo da ativa"
+    ]
+   },
+   {
+    "label": "O se",
+    "items": [
+     "vendem-se casas (plural)",
+     "precisa-se de (singular)",
+     "trata-se de"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "E",
+    "text": "Em “Se você ver o documento, avise-me”, a forma verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O futuro do subjuntivo de ver é vir: se você vir o documento.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "C",
+    "text": "Em “Se ele mantiver a versão, será indiciado”, a forma mantiver corresponde ao futuro do subjuntivo de manter.",
+    "comment": "**Certo.** Manter segue ter: mantiveram › se ele mantiver.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Prenderam-se os suspeitos”, há voz passiva sintética, e o verbo concorda com o sujeito os suspeitos.",
+    "comment": "**Certo.** Prender é transitivo direto; com o se apassivador, os suspeitos é o sujeito.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Tratam-se de casos graves”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Tratar de é transitivo indireto; o se indetermina o sujeito e o verbo fica no singular: trata-se.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O laudo foi entregue ontem”, o emprego do particípio irregular com o auxiliar ser está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Com ser e estar, usa-se o particípio irregular: entregue.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "D",
+    "text": "Está correta a frase",
+    "options": [
+     "Se eu ver o carro, aviso.",
+     "Quando ele propor, discutiremos.",
+     "Se ele manter a palavra, confiaremos.",
+     "Se eu vir o carro, aviso.",
+     "Quando eles reverem o caso, decidirão."
+    ],
+    "comment": "**Gabarito: D.** Futuro do subjuntivo de ver: vir.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Está de acordo com a norma-padrão",
+    "options": [
+     "Houve muitas prisões.",
+     "Houveram muitas prisões.",
+     "Haviam muitas prisões.",
+     "Devem haver muitas prisões.",
+     "Haverão muitas prisões."
+    ],
+    "comment": "**Gabarito: A.** Haver = existir: impessoal.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "A voz passiva analítica de “A polícia apreendeu as drogas” é",
+    "options": [
+     "As drogas apreenderam-se.",
+     "Apreendeu-se as drogas.",
+     "As drogas eram apreendidas.",
+     "As drogas apreendiam a polícia.",
+     "As drogas foram apreendidas pela polícia."
+    ],
+    "comment": "**Gabarito: E.** Pretérito perfeito: foram apreendidas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "“Se ele estudasse, ___ aprovado.” Completa a frase:",
+    "options": [
+     "será",
+     "seria",
+     "é",
+     "foi",
+     "fosse"
+    ],
+    "comment": "**Gabarito: B.** Correlação: estudasse / seria.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Com o verbo ser, usa-se o particípio",
+    "options": [
+     "aceitado",
+     "entregado",
+     "aceito",
+     "prendido",
+     "acendido"
+    ],
+    "comment": "**Gabarito: C.** Ser e estar pedem o particípio irregular: foi aceito.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

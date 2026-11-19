@@ -1,0 +1,364 @@
+{
+ "id": "lp-pontuacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-14"
+ ],
+ "kind": "resumo",
+ "title": "Pontuação",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 35,
+ "pdf": "portugues_pontuacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Inserção ou supressão** de vírgula (correção e sentido) e **troca de sinais** (vírgula, travessão, parênteses, ponto e vírgula)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Português, quase tudo parte de um **texto-base**: “de acordo com o texto”, “o termo destacado refere-se a”, “assinale a alternativa em que a reescrita mantém o sentido e a correção”. São comuns os enunciados “assinale a alternativa **incorreta**” e os de assertivas (“analise as assertivas I, II e III e assinale a alternativa correta”). Leia o comando duas vezes antes de olhar as alternativas."
+    },
+    {
+     "t": "h2",
+     "text": "1. Vírgula proibida"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sujeito | verbo · verbo | complemento · nome | complemento — na ordem direta, **nunca**.",
+      "Principal | oração substantiva: *É necessário que…* (sem vírgula)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Vírgula obrigatória"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Enumeração, **aposto explicativo**, **vocativo**, expressões explicativas (*isto é, ou seja*).",
+      "Conjunção **deslocada** (*O laudo, porém, …*). Local em datas. **Elipse** do verbo (*ela, dos depoimentos*).",
+      "Adjetiva **explicativa** entre vírgulas; **restritiva** sem vírgulas."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Vírgula facultativa ou recomendada"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Adjunto adverbial **curto** deslocado: facultativa. **Longo**: recomendada.",
+      "Adverbial **anteposta**: recomendada; **posposta**: facultativa.",
+      "Antes de **e** com sujeitos diferentes: admitida."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Outros sinais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Ponto e vírgula**: orações coordenadas longas, itens de lista, antes de conjunção deslocada.",
+      "**Dois-pontos**: enumeração, citação, explicação, consequência.",
+      "**Travessões duplos** e **parênteses**: isolam intercalações (como vírgulas).",
+      "**Aspas**: citação, ironia, estrangeirismo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: troca de sinais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Troca",
+      "Resultado"
+     ],
+     "widths": [
+      0.6,
+      0.4
+     ],
+     "rows": [
+      [
+       "Vírgulas › travessões duplos (intercalação)",
+       "Mantém"
+      ],
+      [
+       "Vírgulas › parênteses (informação acessória)",
+       "Mantém"
+      ],
+      [
+       "Ponto e vírgula › ponto (orações independentes)",
+       "Mantém (com maiúscula)"
+      ],
+      [
+       "Ponto e vírgula › dois-pontos",
+       "Altera"
+      ],
+      [
+       "Retirar vírgulas da adjetiva explicativa",
+       "Altera o sentido"
+      ],
+      [
+       "Inserir vírgula entre sujeito e verbo",
+       "Erro"
+      ],
+      [
+       "Retirar vírgula do vocativo",
+       "Erro"
+      ],
+      [
+       "Retirar vírgula do adjunto curto anteposto",
+       "Mantém"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sujeito e verbo: **nunca** vírgula.",
+      "Sujeito terminado em oração restritiva também **não** leva vírgula antes do verbo.",
+      "Explicativa: vírgulas; restritiva: sem.",
+      "Retirar vírgulas da explicativa: **muda o sentido**.",
+      "Vocativo e aposto explicativo: **sempre** isolados.",
+      "Conjunção deslocada: **entre vírgulas**.",
+      "Vírgula de elipse: **obrigatória**.",
+      "Adjunto curto anteposto: **facultativa**.",
+      "Travessões = vírgulas = parênteses (intercalação).",
+      "Dois-pontos anunciam; ponto e vírgula separa."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PONTUAÇÃO",
+  "rootSub": "vírgula e outros sinais",
+  "left": [
+   {
+    "label": "Proibida",
+    "items": [
+     "sujeito | verbo",
+     "verbo | complemento",
+     "principal | substantiva"
+    ]
+   },
+   {
+    "label": "Obrigatória",
+    "items": [
+     "vocativo",
+     "aposto explicativo",
+     "enumeração"
+    ]
+   },
+   {
+    "label": "Intercalações",
+    "items": [
+     "isto é, ou seja",
+     "conjunção deslocada",
+     "elipse do verbo"
+    ]
+   },
+   {
+    "label": "Adjetivas",
+    "items": [
+     "explicativa: com vírgulas",
+     "restritiva: sem vírgulas",
+     "muda o sentido"
+    ]
+   },
+   {
+    "label": "Adverbiais",
+    "items": [
+     "anteposta: vírgula",
+     "posposta: facultativa",
+     "adjunto curto: facultativa"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Coordenadas",
+    "items": [
+     "assindéticas: vírgula",
+     "antes de mas",
+     "e + sujeitos diferentes"
+    ]
+   },
+   {
+    "label": "Ponto e vírgula",
+    "items": [
+     "orações longas",
+     "itens de lista",
+     "antes de porém deslocado"
+    ]
+   },
+   {
+    "label": "Dois-pontos",
+    "items": [
+     "enumeração",
+     "citação",
+     "explicação"
+    ]
+   },
+   {
+    "label": "Travessão e parênteses",
+    "items": [
+     "equivalem a vírgulas",
+     "destaque",
+     "informação acessória"
+    ]
+   },
+   {
+    "label": "Aspas",
+    "items": [
+     "citação",
+     "ironia",
+     "estrangeirismo"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A vírgula não deve separar o sujeito do verbo, mesmo quando o sujeito é extenso.",
+    "comment": "**Certo.** Na ordem direta, sujeito e verbo não se separam por vírgula.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O período “O policial, prendeu o suspeito em flagrante” está corretamente pontuado.",
+    "comment": "**Errado.** A vírgula separa indevidamente o sujeito do verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Soldado, apresente-se”, a vírgula isola o vocativo.",
+    "comment": "**Certo.** Soldado chama o interlocutor.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O período “Os documentos que estavam no cofre, desapareceram” está corretamente pontuado.",
+    "comment": "**Errado.** A vírgula separa o sujeito, que termina na oração restritiva, do verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O aposto explicativo deve ser isolado por vírgulas, travessões ou parênteses.",
+    "comment": "**Certo.** São sinais equivalentes para isolar o termo intercalado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Está corretamente pontuada a frase",
+    "options": [
+     "O delegado, ouviu a testemunha.",
+     "Agentes mantenham a calma.",
+     "Agentes, mantenham a calma.",
+     "A testemunha que, viu tudo saiu.",
+     "Recife a capital, recebeu o evento."
+    ],
+    "comment": "**Gabarito: C.** Vocativo isolado por vírgula.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Não se usa vírgula entre",
+    "options": [
+     "o sujeito e o verbo",
+     "o vocativo e a oração",
+     "os itens de uma enumeração",
+     "o aposto e o termo explicado",
+     "orações com sujeitos diferentes"
+    ],
+    "comment": "**Gabarito: A.** Sujeito e verbo não se separam.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "A vírgula em “Ele foi ao fórum; eu, à delegacia” indica",
+    "options": [
+     "vocativo",
+     "aposto",
+     "enumeração",
+     "adjunto deslocado",
+     "omissão do verbo"
+    ],
+    "comment": "**Gabarito: E.** Elipse do verbo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Com vírgulas, a oração adjetiva torna-se",
+    "options": [
+     "restritiva",
+     "explicativa",
+     "substantiva",
+     "adverbial",
+     "reduzida"
+    ],
+    "comment": "**Gabarito: B.** Explicativa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Os dois-pontos introduzem corretamente",
+    "options": [
+     "o verbo da oração",
+     "o sujeito",
+     "um adjunto",
+     "uma enumeração",
+     "um artigo"
+    ],
+    "comment": "**Gabarito: D.** Enumeração, explicação ou citação.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}
