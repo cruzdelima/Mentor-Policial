@@ -1,0 +1,334 @@
+{
+ "id": "lp-coesao-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-16"
+ ],
+ "kind": "aprofundado",
+ "title": "Coesão e coerência textual",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 150,
+ "pdf": "portugues_coesao_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "É o tópico mais presente nas provas de interpretação: “o termo X retoma Y”, “o pronome Z refere-se a W”, “a substituição de X por Y prejudicaria a coesão”. Para acertar, **substitua** o termo pelo referente que a banca propõe e veja se a frase continua fazendo sentido e concordando."
+    },
+    {
+     "t": "h2",
+     "text": "1. Coesão × coerência"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Coesão",
+      "Coerência"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "O que é",
+       "Ligação **linguística** entre as partes do texto",
+       "Unidade de **sentido** do texto"
+      ],
+      [
+       "Onde está",
+       "Na superfície: pronomes, conectivos, sinônimos",
+       "Na lógica: ideias compatíveis, sem contradição"
+      ],
+      [
+       "Exemplo de falha",
+       "*O delegado chegou. O delegado ouviu. O delegado saiu.* (repetição)",
+       "*Choveu muito; portanto, as ruas ficaram secas.*"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Um texto pode ter muitos conectivos e ainda assim ser **incoerente**; e pode ser **coerente** com poucos elementos coesivos explícitos."
+    },
+    {
+     "t": "h2",
+     "text": "2. Coesão referencial"
+    },
+    {
+     "t": "p",
+     "text": "Retoma ou antecipa elementos do texto, evitando repetições."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Anáfora**: retoma o que já foi dito — *A PF deflagrou a operação. **Ela** cumpriu vinte mandados.*",
+      "**Catáfora**: antecipa o que será dito — *Só **isto** importa: **a vida da vítima**.*"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mecanismo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "Pronomes pessoais, demonstrativos, possessivos, relativos",
+       "O réu negou o crime. **Essa** versão, contudo, foi desmentida."
+      ],
+      [
+       "Sinônimos e expressões equivalentes",
+       "O **fuzil** foi apreendido. **O armamento** estava municiado."
+      ],
+      [
+       "Hiperônimos (termo geral)",
+       "O **fuzil** foi apreendido. **A arma** estava municiada."
+      ],
+      [
+       "Expressões nominais definidas (rótulos)",
+       "O suspeito fugiu pela janela. **A fuga** foi filmada."
+      ],
+      [
+       "Elipse (omissão de termo identificável)",
+       "Os peritos chegaram cedo e **(eles)** isolaram a área."
+      ],
+      [
+       "Advérbios de lugar e tempo",
+       "Fomos a Recife. **Lá**, encontramos o suspeito."
+      ],
+      [
+       "Numerais e expressões como *o primeiro, o último*",
+       "Ouviram o delegado e o escrivão; **o último** confirmou a versão."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Este, esse, aquele na referência",
+     "text": "**Esse** retoma (anáfora); **este** anuncia (catáfora) ou indica o mais próximo numa retomada de dois termos; **aquele** indica o mais distante: *Ouvi o perito e a escrivã: **esta** confirmou; **aquele**, não.*"
+    },
+    {
+     "t": "h2",
+     "text": "3. Coesão sequencial"
+    },
+    {
+     "t": "p",
+     "text": "Faz o texto **progredir**, encadeando as ideias com relações lógicas."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Conectivos** (conjunções, advérbios, locuções): *além disso, porém, portanto, porque, embora, em seguida*.",
+      "**Articuladores entre parágrafos**: *Em primeiro lugar… Além disso… Em contrapartida… Dessa forma… Em síntese…*",
+      "**Tempos verbais** e marcadores temporais que ordenam os fatos: *Às 22h… Minutos depois… No dia seguinte…*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Coesão lexical"
+    },
+    {
+     "t": "p",
+     "text": "Repetição intencional, sinonímia, hiperonímia e campo semântico (*crime, delegacia, inquérito, perícia*) também ligam o texto. Repetir é um recurso coesivo legítimo, mas o excesso empobrece o texto."
+    },
+    {
+     "t": "h2",
+     "text": "4. Coerência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Não contradição**: uma informação não pode negar outra (*o réu, que estava preso, foi visto na festa*).",
+      "**Continuidade**: o texto mantém o tema (fio condutor).",
+      "**Progressão**: acrescenta informações novas a cada parte.",
+      "**Relação com o mundo**: as informações são compatíveis com o conhecimento compartilhado.",
+      "**Coerência das relações lógicas**: o conectivo precisa combinar com o conteúdo (*choveu; portanto, as ruas ficaram **molhadas***)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“O termo X retoma Y” — substitua X por Y e confira sentido e concordância.",
+      "“O pronome Z refere-se a W” — atenção ao referente mais próximo e ao sentido global.",
+      "“A substituição de *esse* por *este* prejudicaria a coesão” — anáfora × catáfora.",
+      "“Há elipse do sujeito em X” — o termo omitido é identificável.",
+      "“O conector X estabelece relação de oposição entre os parágrafos” — coesão sequencial."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A expressão A ação retoma Operação Maré Alta.",
+    "comment": "**Certo.** A ação é expressão nominal que retoma a operação citada no período anterior.",
+    "context": "A Polícia Federal deflagrou ontem a Operação Maré Alta. A ação, que contou com cem agentes, cumpriu vinte mandados em três estados. Segundo a corporação, o grupo investigado movimentou R$ 50 milhões. Seus líderes, entretanto, ainda não foram localizados. Isso preocupa os investigadores, pois eles podem deixar o país.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O pronome que, em “que contou com cem agentes”, retoma cem agentes.",
+    "comment": "**Errado.** O relativo retoma a ação: foi a ação que contou com cem agentes.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A expressão a corporação retoma Polícia Federal.",
+    "comment": "**Certo.** Corporação refere-se à instituição mencionada no início do texto.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O possessivo Seus refere-se aos investigadores.",
+    "comment": "**Errado.** Seus líderes são os líderes do grupo investigado.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O pronome Isso retoma a informação de que os líderes ainda não foram localizados.",
+    "comment": "**Certo.** Isso é anafórico e resume o conteúdo da frase anterior.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "O pronome eles, no último período, refere-se aos investigadores.",
+    "comment": "**Errado.** Pelo sentido, quem pode deixar o país são os líderes do grupo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O vocábulo entretanto estabelece relação de oposição entre o êxito da operação e a não localização dos líderes.",
+    "comment": "**Certo.** Entretanto é adversativo: contrapõe o resultado positivo à pendência.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A substituição de A ação por Ela prejudicaria a correção gramatical do texto.",
+    "comment": "**Errado.** Ela retomaria a operação de forma gramaticalmente correta.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “O fuzil foi apreendido. A arma estava municiada”, a expressão a arma é hiperônimo de fuzil e garante a coesão.",
+    "comment": "**Certo.** O termo mais geral (arma) retoma o mais específico (fuzil).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “O delegado chegou. O delegado ouviu as testemunhas. O delegado expediu o mandado”, a repetição torna o texto mais elegante.",
+    "comment": "**Errado.** A repetição liga as frases, mas o excesso empobrece o texto; pronomes e elipse seriam preferíveis.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em “Só uma medida resolveria o caso: a prisão preventiva”, a expressão uma medida antecipa o que será dito, em relação catafórica.",
+    "comment": "**Certo.** O termo aponta para a informação que vem depois dos dois-pontos.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “Este é o problema: falta de efetivo”, o emprego de esse no lugar de este manteria a coesão, pois ambos são anafóricos.",
+    "comment": "**Errado.** Este anuncia o que vem a seguir (catáfora); esse retoma o que já foi dito.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Em “Os peritos chegaram cedo e isolaram a área”, a omissão do sujeito na segunda oração é recurso de coesão por elipse.",
+    "comment": "**Certo.** O sujeito os peritos é facilmente identificado.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Coesão e coerência são conceitos equivalentes: todo texto que emprega conectivos é coerente.",
+    "comment": "**Errado.** Um texto pode ter conectivos e ser incoerente.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Um texto pode ser coerente mesmo com poucos elementos coesivos explícitos.",
+    "comment": "**Certo.** A coerência depende da unidade de sentido, que pode ser construída pelo contexto.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "O período “Choveu muito durante a noite; portanto, as ruas amanheceram secas” é coerente.",
+    "comment": "**Errado.** A conclusão contradiz a premissa: não há coerência lógica.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “O réu negou o crime. Essa versão, contudo, foi desmentida pelas imagens”, a expressão Essa versão retoma a negativa do réu.",
+    "comment": "**Certo.** É uma expressão nominal que resume a informação anterior.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Os advérbios lá e aí não podem exercer função coesiva referencial.",
+    "comment": "**Errado.** Podem retomar lugares já mencionados: Fomos a Recife. Lá, encontramos o suspeito.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Os pronomes relativos são elementos de coesão referencial, pois retomam um antecedente.",
+    "comment": "**Certo.** Que, o qual, cujo e onde retomam termos anteriores.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "A progressão temática exige que o texto repita sempre a mesma informação, sem acrescentar dados novos.",
+    "comment": "**Errado.** Progressão é justamente acrescentar informações novas mantendo o tema.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Ingedore Villaça Koch, A coesão textual.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

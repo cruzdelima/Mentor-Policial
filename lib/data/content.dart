@@ -55,7 +55,15 @@ class MindMapSpec {
 }
 
 class QuizQuestion {
-  QuizQuestion({required this.id, required this.text, required this.answer, required this.comment, this.group = '', this.context = ''});
+  QuizQuestion({
+    required this.id,
+    required this.text,
+    required this.answer,
+    required this.comment,
+    this.group = '',
+    this.context = '',
+    this.options = const [],
+  });
   factory QuizQuestion.fromJson(Map<String, dynamic> j) => QuizQuestion(
         id: j['id'] as String,
         text: j['text'] as String,
@@ -63,7 +71,15 @@ class QuizQuestion {
         comment: j['comment'] as String? ?? '',
         group: j['group'] as String? ?? '',
         context: j['context'] as String? ?? '',
+        options: [for (final o in j['options'] as List? ?? const []) o as String],
       );
+
+  /// Alternativas (A a E) da questão de múltipla escolha. Vazio = item certo/errado.
+  final List<String> options;
+  bool get isChoice => options.isNotEmpty;
+
+  /// Letras das alternativas.
+  List<String> get letters => [for (var i = 0; i < options.length; i++) String.fromCharCode(65 + i)];
 
   /// Texto de apoio exibido antes do item (interpretação de texto).
   final String context;
@@ -73,19 +89,23 @@ class QuizQuestion {
   final String id;
   final String text;
 
-  /// 'C' ou 'E' (estilo Cebraspe). Futuro: 'A'..'E' para múltipla escolha.
+  /// 'C' ou 'E' (certo/errado) ou a letra da alternativa correta (múltipla escolha).
   final String answer;
   final String comment;
 }
 
 class Quiz {
-  Quiz({required this.style, required this.banca, required this.instructions, required this.questions});
+  Quiz({required this.style, required this.banca, required this.instructions, required this.questions, this.penalty = true});
   factory Quiz.fromJson(Map<String, dynamic> j) => Quiz(
         style: j['style'] as String? ?? 'CE',
         banca: j['banca'] as String? ?? '',
         instructions: j['instructions'] as String? ?? '',
         questions: [for (final q in j['questions'] as List) QuizQuestion.fromJson(q as Map<String, dynamic>)],
+        penalty: j['penalty'] as bool? ?? true,
       );
+
+  /// Se um item certo/errado errado anula um certo (padrão Cebraspe). Múltipla escolha nunca desconta.
+  final bool penalty;
   final String style;
   final String banca;
   final String instructions;
@@ -107,6 +127,7 @@ class MaterialInfo {
     required this.version,
     required this.status,
     required this.source,
+    this.variants = const [],
   });
 
   factory MaterialInfo.fromJson(Map<String, dynamic> j, String source) => MaterialInfo(
@@ -122,7 +143,11 @@ class MaterialInfo {
         version: j['version'] as String? ?? '',
         status: j['status'] as String? ?? '',
         source: source,
+        variants: [for (final v in j['variants'] as List? ?? const []) v as String],
       );
+
+  /// Versões por banca disponíveis ('cebraspe' é a base, em material.json; as outras ficam em material.<versão>.json).
+  final List<String> variants;
 
   final String id;
   final String folder;
@@ -163,10 +188,12 @@ class StudyMaterial {
     required this.pdf,
     required this.sources,
     required this.videos,
+    this.variant = 'cebraspe',
   });
 
-  factory StudyMaterial.fromJson(MaterialInfo info, Map<String, dynamic> j) => StudyMaterial(
+  factory StudyMaterial.fromJson(MaterialInfo info, Map<String, dynamic> j, {String variant = 'cebraspe'}) => StudyMaterial(
         info: info,
+        variant: variant,
         sections: [for (final s in j['sections'] as List? ?? const []) ContentSection.fromJson(s as Map<String, dynamic>)],
         mindmap: j['mindmap'] == null ? null : MindMapSpec.fromJson(j['mindmap'] as Map<String, dynamic>),
         quiz: j['quiz'] == null ? null : Quiz.fromJson(j['quiz'] as Map<String, dynamic>),
@@ -179,6 +206,9 @@ class StudyMaterial {
       );
 
   final MaterialInfo info;
+
+  /// Versão por banca que foi aberta.
+  final String variant;
   final List<ContentSection> sections;
   final MindMapSpec? mindmap;
   final Quiz? quiz;

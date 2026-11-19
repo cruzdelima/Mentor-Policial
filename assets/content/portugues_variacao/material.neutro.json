@@ -1,0 +1,273 @@
+{
+ "id": "lp-variacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-24"
+ ],
+ "kind": "resumo",
+ "title": "Variação linguística",
+ "subtitle": "Língua Portuguesa · Linguagem",
+ "minutes": 20,
+ "pdf": "portugues_variacao.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "O **tipo** de variação, a **adequação** ao contexto e o **preconceito linguístico**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Tipos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Depende de",
+      "Exemplo"
+     ],
+     "widths": [
+      0.28,
+      0.28,
+      0.44
+     ],
+     "rows": [
+      [
+       "Diatópica",
+       "Região",
+       "mandioca / aipim / macaxeira"
+      ],
+      [
+       "Diastrática",
+       "Grupo social",
+       "gírias, jargão profissional"
+      ],
+      [
+       "Diafásica",
+       "Situação",
+       "Prezado senhor × E aí?"
+      ],
+      [
+       "Diacrônica",
+       "Tempo",
+       "vossa mercê › você"
+      ],
+      [
+       "Diamésica",
+       "Fala × escrita",
+       "tá × está"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Normas e adequação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Norma-padrão**: modelo das gramáticas, referência dos textos oficiais e das provas.",
+      "**Norma culta**: uso real de falantes escolarizados. **Variedades populares**: têm regras próprias.",
+      "**Adequação**: a variedade deve combinar com a situação.",
+      "**Preconceito linguístico**: discriminar pelo modo de falar. Nenhuma variedade é inferior."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Região = **diatópica**.",
+      "Grupo social = **diastrática**.",
+      "Situação = **diafásica**.",
+      "Tempo = **diacrônica**.",
+      "Jargão = profissão; gíria = grupo; regionalismo = região.",
+      "Variação **não** é erro.",
+      "Documento oficial = **norma-padrão**.",
+      "Adequação depende do **contexto**.",
+      "Formal demais também pode ser inadequado.",
+      "Preconceito linguístico: as bancas o condenam."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "VARIAÇÃO",
+  "rootSub": "linguística",
+  "left": [
+   {
+    "label": "Regional",
+    "items": [
+     "diatópica",
+     "sotaques",
+     "mandioca / aipim"
+    ]
+   },
+   {
+    "label": "Social",
+    "items": [
+     "diastrática",
+     "gírias",
+     "jargão profissional"
+    ]
+   },
+   {
+    "label": "Situacional",
+    "items": [
+     "diafásica",
+     "formal × informal",
+     "registro"
+    ]
+   },
+   {
+    "label": "Histórica",
+    "items": [
+     "diacrônica",
+     "vossa mercê › você",
+     "pharmacia › farmácia"
+    ]
+   },
+   {
+    "label": "Fala e escrita",
+    "items": [
+     "diamésica",
+     "tá × está",
+     "pra × para"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Norma-padrão",
+    "items": [
+     "gramáticas",
+     "textos oficiais",
+     "provas"
+    ]
+   },
+   {
+    "label": "Norma culta",
+    "items": [
+     "uso real",
+     "falantes escolarizados",
+     "mais flexível"
+    ]
+   },
+   {
+    "label": "Populares",
+    "items": [
+     "regras próprias",
+     "nós vai",
+     "os menino"
+    ]
+   },
+   {
+    "label": "Adequação",
+    "items": [
+     "contexto decide",
+     "ofício: padrão",
+     "bilhete: informal"
+    ]
+   },
+   {
+    "label": "Preconceito",
+    "items": [
+     "discriminar pela fala",
+     "nenhuma é inferior",
+     "bancas condenam"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O uso de palavras diferentes para o mesmo objeto em regiões distintas do país é exemplo de variação diatópica.",
+    "comment": "**Certo.** Diatópica = regional."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A variação diastrática está ligada às mudanças da língua ao longo do tempo.",
+    "comment": "**Errado.** Diastrática é social; a temporal é diacrônica."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A linguagem informal é adequada em uma conversa entre amigos.",
+    "comment": "**Certo.** Adequação depende da situação."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em um relatório oficial, o emprego de gírias é adequado se o destinatário as conhecer.",
+    "comment": "**Errado.** Documentos oficiais exigem a norma-padrão."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Jargão é o vocabulário técnico de um grupo profissional.",
+    "comment": "**Certo.** Ex.: oitiva, flagrante, auto de prisão."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "As variedades populares da língua não possuem regras.",
+    "comment": "**Errado.** Todas as variedades têm regras próprias."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O preconceito linguístico é a discriminação de pessoas pelo modo como falam.",
+    "comment": "**Certo.** Atinge sotaques e variedades populares."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A passagem de vossa mercê a você é exemplo de variação situacional.",
+    "comment": "**Errado.** É variação histórica (diacrônica)."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A norma-padrão é a referência para os textos oficiais.",
+    "comment": "**Certo.** Ofícios, relatórios e documentos seguem a norma-padrão."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Variação linguística e erro gramatical são conceitos equivalentes.",
+    "comment": "**Errado.** A variação é natural; o erro é avaliado em relação à norma-padrão em contextos formais."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "id": "dc-seguranca-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-13"
+ ],
+ "kind": "resumo",
+ "title": "Segurança Pública (art. 144)",
+ "subtitle": "Direito Constitucional · Defesa do Estado",
+ "minutes": 35,
+ "pdf": "constitucional_seguranca.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A **letra do art. 144**: missão de cada órgão, **subordinação**, guardas municipais e os julgados do STF."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Caput"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Segurança pública: **dever do Estado**, **direito e responsabilidade de todos**; preserva a **ordem pública** e a **incolumidade** das pessoas e do patrimônio.",
+      "Órgãos: **PF, PRF, PFF, polícias civis, PMs e bombeiros, polícias penais** (EC 104/2019). Rol **taxativo** (STF).",
+      "Polícias do DF: **mantidas pela União**, **subordinadas ao Governador do DF**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. União"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**PF**: crimes contra **ordem política e social** e contra **bens, serviços e interesses da União, autarquias e empresas públicas** (não SEM); crimes de **repercussão interestadual ou internacional** (Lei 10.446/2002); **tráfico, contrabando e descaminho** (sem exclusividade); polícia **marítima, aeroportuária e de fronteiras**; **polícia judiciária da União com exclusividade**.",
+      "**PRF**: patrulhamento ostensivo das **rodovias** federais. **PFF**: das **ferrovias** federais."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Estados"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Polícia civil**: dirigida por **delegado de carreira**; polícia judiciária e apuração de infrações, **exceto militares**, ressalvada a União.",
+      "**PM**: **polícia ostensiva** e **preservação da ordem pública**. **Bombeiros**: **defesa civil**.",
+      "**Polícia penal**: **segurança dos estabelecimentos penais**.",
+      "PM e bombeiros: **forças auxiliares e reserva do Exército**, mas subordinados ao **Governador**, como as polícias civis e penais."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Municípios e jurisprudência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Municípios **podem** criar **guardas** para proteger **bens, serviços e instalações** (Lei 13.022/2014).",
+      "STF: guardas **integram** a segurança pública (ADPF 995) e podem fazer **policiamento ostensivo e comunitário**, sem **investigar** (Tema 656).",
+      "Remuneração dos policiais: **subsídio**. Segurança viária: **educação, engenharia e fiscalização** de trânsito.",
+      "Greve: **vedada** aos policiais civis (STF).",
+      "**PEC 18/2025** aprovada pelo Congresso em novembro de 2026, **aguardando promulgação**: Susp na Constituição, mais atribuições para PF e PRF, polícia municipal. Até promulgar, vale o texto atual."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Órgão",
+      "Missão"
+     ],
+     "widths": [
+      0.32,
+      0.68
+     ],
+     "rows": [
+      [
+       "PF",
+       "Polícia judiciária da União (exclusiva); tráfico, contrabando"
+      ],
+      [
+       "PF",
+       "Polícia marítima, aeroportuária e de fronteiras"
+      ],
+      [
+       "PRF",
+       "Patrulhamento ostensivo das rodovias federais"
+      ],
+      [
+       "PFF",
+       "Patrulhamento ostensivo das ferrovias federais"
+      ],
+      [
+       "Polícia civil",
+       "Polícia judiciária, exceto crimes militares"
+      ],
+      [
+       "Polícia militar",
+       "Polícia ostensiva e ordem pública"
+      ],
+      [
+       "Bombeiros",
+       "Defesa civil"
+      ],
+      [
+       "Polícia penal",
+       "Segurança dos estabelecimentos penais"
+      ],
+      [
+       "Guarda municipal",
+       "Bens, serviços e instalações do Município"
+      ],
+      [
+       "Agentes de trânsito",
+       "Segurança viária"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Segurança: **dever** do Estado, **responsabilidade** de todos.",
+      "Exclusividade da PF: só **polícia judiciária da União**.",
+      "SEM federal **não** atrai a PF.",
+      "Ferrovia: **PFF**, não PRF.",
+      "Polícia civil **não** apura crime militar.",
+      "Bombeiro: **defesa civil**.",
+      "PM obedece ao **Governador**.",
+      "Polícias do DF: **União mantém**, Governador comanda.",
+      "Guarda: **faculdade** do Município.",
+      "Guarda **não** investiga."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "SEGURANÇA PÚBLICA",
+  "rootSub": "art. 144",
+  "left": [
+   {
+    "label": "Caput",
+    "items": [
+     "dever do Estado",
+     "responsabilidade de todos",
+     "ordem e incolumidade"
+    ]
+   },
+   {
+    "label": "Polícia Federal",
+    "items": [
+     "bens da União",
+     "tráfico, contrabando",
+     "judiciária da União"
+    ]
+   },
+   {
+    "label": "PF: fronteiras",
+    "items": [
+     "marítima",
+     "aeroportuária",
+     "de fronteiras"
+    ]
+   },
+   {
+    "label": "PRF e PFF",
+    "items": [
+     "rodovias federais",
+     "ferrovias federais",
+     "patrulha ostensiva"
+    ]
+   },
+   {
+    "label": "Polícia civil",
+    "items": [
+     "delegado de carreira",
+     "polícia judiciária",
+     "exceto militares"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "PM e bombeiros",
+    "items": [
+     "ostensiva, ordem",
+     "defesa civil",
+     "reserva do Exército"
+    ]
+   },
+   {
+    "label": "Polícia penal",
+    "items": [
+     "EC 104/2019",
+     "estabelecimentos penais",
+     "sistema penal"
+    ]
+   },
+   {
+    "label": "Subordinação",
+    "items": [
+     "Governadores",
+     "DF: União mantém",
+     "SV 39"
+    ]
+   },
+   {
+    "label": "Municípios",
+    "items": [
+     "guardas: faculdade",
+     "ostensivo comunitário",
+     "sem investigação"
+    ]
+   },
+   {
+    "label": "Outros pontos",
+    "items": [
+     "subsídio",
+     "segurança viária",
+     "PEC 18/2025"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A segurança pública é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio.",
+    "comment": "**Certo.** Caput do art. 144.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A Polícia Federal exerce, com exclusividade, as funções de polícia judiciária dos estados.",
+    "comment": "**Errado.** A PF exerce com exclusividade a polícia judiciária da União.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Cabe à Polícia Federal prevenir e reprimir o contrabando e o descaminho, sem prejuízo da ação fazendária.",
+    "comment": "**Certo.** Art. 144, § 1º, II.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A Polícia Ferroviária Federal integra a estrutura da Polícia Rodoviária Federal.",
+    "comment": "**Errado.** São órgãos distintos, com incisos próprios no caput do art. 144.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "As polícias civis não têm atribuição para apurar infrações penais militares.",
+    "comment": "**Certo.** Art. 144, § 4º, parte final.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "Os corpos de bombeiros militares, além das atribuições definidas em lei, executam",
+    "options": [
+     "a polícia ostensiva.",
+     "a polícia judiciária.",
+     "atividades de defesa civil.",
+     "a segurança dos presídios.",
+     "o patrulhamento das rodovias."
+    ],
+    "comment": "**Gabarito: C.** Art. 144, § 5º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "A remuneração dos servidores policiais integrantes dos órgãos do art. 144 será fixada",
+    "options": [
+     "na forma de subsídio.",
+     "por vencimento e gratificações.",
+     "por decreto do Governador.",
+     "por tabela nacional única.",
+     "por resolução do CNJ."
+    ],
+    "comment": "**Gabarito: A.** Art. 144, § 9º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "As polícias do Distrito Federal são",
+    "options": [
+     "mantidas pelo Distrito Federal e subordinadas à União.",
+     "mantidas e subordinadas à União.",
+     "subordinadas ao Ministro da Justiça.",
+     "mantidas pelos Municípios.",
+     "organizadas e mantidas pela União e subordinadas ao Governador do Distrito Federal."
+    ],
+    "comment": "**Gabarito: E.** Arts. 21, XIV, e 144, § 6º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "Exerce as funções de polícia marítima, aeroportuária e de fronteiras",
+    "options": [
+     "a Marinha.",
+     "a Polícia Federal.",
+     "a Polícia Rodoviária Federal.",
+     "a Receita Federal.",
+     "a polícia militar do Estado."
+    ],
+    "comment": "**Gabarito: B.** Art. 144, § 1º, III.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Segundo o STF (Tema 656), as guardas municipais podem",
+    "options": [
+     "instaurar inquéritos.",
+     "exercer polícia judiciária.",
+     "substituir a polícia militar.",
+     "realizar policiamento ostensivo e comunitário, respeitadas as atribuições dos demais órgãos.",
+     "investigar crimes de menor potencial ofensivo."
+    ],
+    "comment": "**Gabarito: D.** RE 608.588: vedada qualquer atividade de polícia judiciária; atuação sujeita ao controle externo do Ministério Público.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, art. 144.",
+  "Supremo Tribunal Federal: ADPF 995; RE 608.588 (Tema 656); ARE 654.432.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

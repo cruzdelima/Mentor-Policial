@@ -1,0 +1,310 @@
+{
+ "id": "lp-semantica-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-19"
+ ],
+ "kind": "aprofundado",
+ "title": "Semântica e significação das palavras",
+ "subtitle": "Língua Portuguesa · Semântica",
+ "minutes": 90,
+ "pdf": "portugues_semantica_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca cobra semântica principalmente como **substituição**: “a substituição de X por Y manteria o sentido do texto”. A sinonímia é sempre **contextual**: duas palavras podem ser sinônimas numa frase e não em outra. Os parônimos da seção 2 caem com frequência em provas da área policial (*mandado × mandato*, *flagrante × fragrante*, *infringir × infligir*)."
+    },
+    {
+     "t": "h2",
+     "text": "1. Relações de sentido"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sinonímia**: sentidos semelhantes no contexto — *O suspeito **fugiu** / **evadiu-se***.",
+      "**Antonímia**: sentidos opostos — *legal × ilegal; absolver × condenar*.",
+      "**Hiperonímia e hiponímia**: termo geral × termo específico — *arma* (hiperônimo) › *pistola, fuzil* (hipônimos). O hiperônimo é muito usado para retomar o hipônimo sem repeti-lo."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Homônimos e parônimos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Homônimos**: mesma pronúncia e/ou mesma grafia, sentidos diferentes. **Homófonos** (mesmo som, grafia diferente): *cela × sela, sessão × seção × cessão, censo × senso, concerto × conserto*. **Homógrafos** (mesma grafia, som diferente): *colher* (verbo) × *colher* (talher). **Perfeitos** (mesmo som e grafia): *são* (sadio) × *são* (verbo) × *são* (santo).",
+      "**Parônimos**: palavras **parecidas** na grafia e na pronúncia, com sentidos diferentes."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Par",
+      "Sentidos"
+     ],
+     "widths": [
+      0.32,
+      0.68
+     ],
+     "rows": [
+      [
+       "mandado × mandato",
+       "**mandado**: ordem judicial (*mandado de prisão*) · **mandato**: período de representação (*mandato de deputado*)"
+      ],
+      [
+       "flagrante × fragrante",
+       "**flagrante**: evidente, no ato (*prisão em flagrante*) · **fragrante**: perfumado"
+      ],
+      [
+       "infringir × infligir",
+       "**infringir**: violar (*infringiu a lei*) · **infligir**: aplicar pena (*infligiu castigo*)"
+      ],
+      [
+       "ratificar × retificar",
+       "**ratificar**: confirmar · **retificar**: corrigir"
+      ],
+      [
+       "deferir × diferir",
+       "**deferir**: atender (*pedido deferido*) · **diferir**: adiar; ser diferente"
+      ],
+      [
+       "eminente × iminente",
+       "**eminente**: importante, elevado · **iminente**: prestes a acontecer"
+      ],
+      [
+       "descrição × discrição",
+       "**descrição**: ato de descrever · **discrição**: reserva, prudência"
+      ],
+      [
+       "emergir × imergir",
+       "**emergir**: vir à tona · **imergir**: mergulhar"
+      ],
+      [
+       "tráfego × tráfico",
+       "**tráfego**: trânsito · **tráfico**: comércio ilegal"
+      ],
+      [
+       "vultoso × vultuoso",
+       "**vultoso**: de grande valor (*quantia vultosa*) · **vultuoso**: inchado (rosto)"
+      ],
+      [
+       "despensa × dispensa",
+       "**despensa**: lugar de guardar alimentos · **dispensa**: licença, isenção"
+      ],
+      [
+       "cessão × sessão × seção",
+       "**cessão**: ato de ceder · **sessão**: reunião · **seção**: divisão, setor"
+      ],
+      [
+       "censo × senso",
+       "**censo**: recenseamento · **senso**: juízo (*bom senso*)"
+      ],
+      [
+       "acender × ascender",
+       "**acender**: pôr fogo · **ascender**: subir"
+      ],
+      [
+       "comprimento × cumprimento",
+       "**comprimento**: extensão · **cumprimento**: saudação; execução (*cumprimento do mandado*)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Polissemia"
+    },
+    {
+     "t": "p",
+     "text": "Uma palavra com **vários sentidos relacionados**, que o contexto define: *banco* (assento, instituição financeira, banco de dados); *operação* (policial, cirúrgica, matemática, financeira). Diferente da homonímia, os sentidos da palavra polissêmica têm origem comum."
+    },
+    {
+     "t": "h2",
+     "text": "4. Denotação, conotação e ambiguidade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Denotação**: sentido literal, de dicionário — *A pedra caiu*.",
+      "**Conotação**: sentido figurado, expressivo — *Ele tem um coração de **pedra***.",
+      "**Ambiguidade**: duplo sentido não intencional. *O policial viu o assaltante **correndo*** (quem corria?). *O delegado disse ao escrivão que **seu** relatório estava errado* (de quem?). Desfaz-se reescrevendo a frase."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "“A substituição de X por Y manteria o sentido do texto” — sinonímia **no contexto**.",
+      "“O vocábulo X foi empregado em sentido conotativo.”",
+      "“O trecho apresenta ambiguidade” — procure o termo com dois referentes.",
+      "Parônimos trocados em frases da área jurídica e policial."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O juiz expediu o mandado de prisão”, a substituição de mandado por mandato prejudicaria o sentido da frase.",
+    "comment": "**Certo.** Mandado é ordem judicial; mandato é período de representação.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O perigo era eminente, e a equipe recuou”, o vocábulo eminente está adequadamente empregado.",
+    "comment": "**Errado.** O sentido é de algo prestes a acontecer: iminente.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O motorista infringiu as normas de trânsito”, infringir significa violar.",
+    "comment": "**Certo.** Infringir = desrespeitar; infligir = aplicar pena.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O juiz retificou a sentença, confirmando-a integralmente”, o verbo retificar está adequadamente empregado.",
+    "comment": "**Errado.** Confirmar é ratificar; retificar é corrigir.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “O tráfego na avenida foi interrompido”, o vocábulo tráfego refere-se ao trânsito de veículos.",
+    "comment": "**Certo.** Tráfico seria comércio ilegal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “O agente agiu com descrição durante a investigação”, o vocábulo descrição está empregado no sentido de reserva, prudência.",
+    "comment": "**Errado.** Reserva e prudência correspondem a discrição.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O pedido de liberdade provisória foi deferido”, o vocábulo deferido significa atendido.",
+    "comment": "**Certo.** Deferir = conceder; diferir = adiar.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Foi apreendida uma quantia vultuosa”, o adjetivo está adequadamente empregado para indicar grande valor.",
+    "comment": "**Errado.** Grande valor é vultosa; vultuoso significa inchado.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A palavra operação é polissêmica, podendo designar, entre outros sentidos, ação policial e procedimento cirúrgico.",
+    "comment": "**Certo.** Os sentidos são relacionados e definidos pelo contexto.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “A cessão do júri começou às 9h”, o vocábulo cessão está adequadamente empregado.",
+    "comment": "**Errado.** Reunião é sessão; cessão é ato de ceder.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em “O réu foi preso em flagrante delito”, flagrante não poderia ser substituído por fragrante.",
+    "comment": "**Certo.** Fragrante significa perfumado.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “Ele tem um coração de pedra”, a palavra pedra foi empregada em sentido denotativo.",
+    "comment": "**Errado.** O sentido é figurado (conotativo): insensível.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "Em “O policial viu o assaltante correndo”, há ambiguidade quanto a quem estava correndo.",
+    "comment": "**Certo.** Correndo pode referir-se ao policial ou ao assaltante.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "O vocábulo arma é hipônimo de pistola.",
+    "comment": "**Errado.** Arma é o termo geral (hiperônimo); pistola é hipônimo.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Os vocábulos cela e sela são homófonos.",
+    "comment": "**Certo.** Têm a mesma pronúncia e grafias e sentidos diferentes.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Os vocábulos sessão e seção são homônimos perfeitos.",
+    "comment": "**Errado.** Têm grafias diferentes: são homófonos.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “O censo indicou aumento da população carcerária”, censo significa recenseamento.",
+    "comment": "**Certo.** Senso, com s, significa juízo.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Os verbos deferir e diferir são sinônimos.",
+    "comment": "**Errado.** Deferir é atender; diferir é adiar ou ser diferente.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em “O cumprimento do mandado ocorreu sem incidentes”, cumprimento significa execução.",
+    "comment": "**Certo.** Comprimento, com o, refere-se a extensão.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Em “Após horas, o corpo imergiu à superfície do lago”, o verbo imergir está adequadamente empregado.",
+    "comment": "**Errado.** Vir à tona é emergir; imergir é mergulhar.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Academia Brasileira de Letras, Vocabulário Ortográfico da Língua Portuguesa.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

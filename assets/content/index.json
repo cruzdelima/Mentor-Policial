@@ -14,7 +14,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-ortografia-01",
@@ -29,7 +32,10 @@
    "minutes": 45,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-acentuacao-02",
@@ -44,7 +50,10 @@
    "minutes": 120,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-acentuacao-01",
@@ -59,7 +68,10 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-classes1-02",
@@ -74,7 +86,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-classes1-01",
@@ -89,7 +104,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-pronomes-02",
@@ -104,7 +122,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-pronomes-01",
@@ -119,7 +140,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-interpretacao-02",
@@ -134,7 +158,10 @@
    "minutes": 180,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-interpretacao-01",
@@ -149,7 +176,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-verbos-02",
@@ -164,7 +194,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-verbos-01",
@@ -179,7 +212,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-conectivos-02",
@@ -194,7 +230,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-conectivos-01",
@@ -209,7 +248,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-termos-02",
@@ -224,7 +266,10 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-termos-01",
@@ -239,7 +284,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-coordenadas-02",
@@ -254,7 +302,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-coordenadas-01",
@@ -269,7 +320,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-subordinadas-02",
@@ -284,7 +338,10 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-subordinadas-01",
@@ -299,7 +356,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-concordancia-02",
@@ -314,7 +374,10 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-concordancia-01",
@@ -329,7 +392,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-regencia-02",
@@ -344,7 +410,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-regencia-01",
@@ -359,7 +428,10 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-crase-02",
@@ -374,7 +446,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-crase-01",
@@ -389,7 +464,10 @@
    "minutes": 30,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-pontuacao-02",
@@ -404,7 +482,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-pontuacao-01",
@@ -419,7 +500,10 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-tipologia-02",
@@ -434,7 +518,10 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-tipologia-01",
@@ -449,7 +536,10 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-coesao-02",
@@ -464,7 +554,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-coesao-01",
@@ -479,7 +572,10 @@
    "minutes": 30,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-reescrita-02",
@@ -494,7 +590,10 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-reescrita-01",
@@ -509,7 +608,10 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-formacao-02",
@@ -524,7 +626,10 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-formacao-01",
@@ -539,7 +644,10 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-semantica-02",
@@ -554,7 +662,10 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-semantica-01",
@@ -569,7 +680,10 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-redacao-oficial-02",
@@ -584,7 +698,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-redacao-oficial-01",
@@ -599,7 +716,10 @@
    "minutes": 30,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-figuras-02",
@@ -614,7 +734,10 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-figuras-01",
@@ -629,7 +752,10 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-relacoes-02",
@@ -644,7 +770,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-relacoes-01",
@@ -659,7 +788,10 @@
    "minutes": 30,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-que-se-02",
@@ -674,7 +806,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-que-se-01",
@@ -689,7 +824,10 @@
    "minutes": 30,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-variacao-02",
@@ -704,7 +842,10 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "lp-variacao-01",
@@ -719,7 +860,10 @@
    "minutes": 20,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "info-malware-02",
@@ -734,7 +878,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "info-malware-01",
@@ -749,7 +896,10 @@
    "minutes": 50,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Aprovado pelo autor"
+   "status": "Aprovado pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "cont-conceitos-02",
@@ -764,7 +914,10 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "cont-conceitos-01",
@@ -779,7 +932,10 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro"
+   ]
   },
   {
    "id": "dc-principios-02",
@@ -794,7 +950,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-principios-01",
@@ -809,7 +969,11 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-direitos-02",
@@ -824,7 +988,11 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-direitos-01",
@@ -839,7 +1007,11 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-remedios-02",
@@ -854,7 +1026,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-remedios-01",
@@ -869,7 +1045,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-sociais-02",
@@ -884,7 +1064,11 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-sociais-01",
@@ -899,7 +1083,11 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-nacionalidade-02",
@@ -914,7 +1102,11 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-nacionalidade-01",
@@ -929,7 +1121,11 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-politicos-02",
@@ -944,7 +1140,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-politicos-01",
@@ -959,7 +1159,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-organizacao-02",
@@ -974,7 +1178,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-organizacao-01",
@@ -989,7 +1197,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-administracao-02",
@@ -1004,7 +1216,11 @@
    "minutes": 240,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-administracao-01",
@@ -1019,7 +1235,11 @@
    "minutes": 40,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-legislativo-02",
@@ -1034,7 +1254,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-legislativo-01",
@@ -1049,7 +1273,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-executivo-02",
@@ -1064,7 +1292,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-executivo-01",
@@ -1079,7 +1311,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-judiciario-02",
@@ -1094,7 +1330,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-judiciario-01",
@@ -1109,7 +1349,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-defesa-02",
@@ -1124,7 +1368,11 @@
    "minutes": 90,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-defesa-01",
@@ -1139,7 +1387,11 @@
    "minutes": 25,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-seguranca-02",
@@ -1154,7 +1406,11 @@
    "minutes": 150,
    "questions": 20,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   },
   {
    "id": "dc-seguranca-01",
@@ -1169,7 +1425,11 @@
    "minutes": 35,
    "questions": 10,
    "version": "0.1.0",
-   "status": "Em revisão pelo autor"
+   "status": "Em revisão pelo autor",
+   "variants": [
+    "neutro",
+    "aocp"
+   ]
   }
  ]
 }

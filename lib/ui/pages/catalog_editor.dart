@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../core/bancas.dart';
 import '../../core/catalog.dart';
 import '../../core/dates.dart';
 import '../../core/extras.dart';
@@ -399,7 +400,13 @@ class _CatalogEditorState extends State<CatalogEditor> {
                 const SizedBox(height: 14),
                 TextField(controller: esc, decoration: const InputDecoration(labelText: 'Escolaridade')),
                 const SizedBox(height: 12),
-                TextField(controller: banca, decoration: const InputDecoration(labelText: 'Banca (mais comum)')),
+                StatefulBuilder(
+                  builder: (context, set) => TextField(
+                    controller: banca,
+                    onChanged: (_) => set(() {}),
+                    decoration: InputDecoration(labelText: 'Banca do último concurso', helperText: _bancaHint(banca.text), helperMaxLines: 2),
+                  ),
+                ),
                 const SizedBox(height: 12),
                 TextField(controller: obs, maxLines: 2, decoration: const InputDecoration(labelText: 'Observação (aparece na escolha da área)')),
                 const SizedBox(height: 12),
@@ -827,7 +834,14 @@ class _ContestDialogState extends State<_ContestDialog> {
             const SizedBox(width: 12),
             SizedBox(width: 70, child: TextField(controller: uf, maxLength: 2, decoration: const InputDecoration(labelText: 'UF', counterText: ''))),
             const SizedBox(width: 12),
-            Expanded(flex: 2, child: TextField(controller: banca, decoration: const InputDecoration(labelText: 'Banca'))),
+            Expanded(
+              flex: 2,
+              child: TextField(
+                controller: banca,
+                onChanged: (_) => setState(() {}),
+                decoration: InputDecoration(labelText: 'Banca', helperText: _bancaHint(banca.text), helperMaxLines: 2),
+              ),
+            ),
             const SizedBox(width: 12),
             SizedBox(width: 90, child: TextField(controller: vagas, decoration: const InputDecoration(labelText: 'Vagas'))),
           ]),
@@ -958,4 +972,14 @@ class _ContestDialogState extends State<_ContestDialog> {
       ]),
     );
   }
+}
+
+/// Mostra ao dono qual versão dos materiais os alunos vão receber com essa banca.
+String _bancaHint(String banca) {
+  final v = bancaProfileOf(banca);
+  return switch (v) {
+    'cebraspe' => 'Materiais na versão Cebraspe (certo/errado).',
+    'aocp' => 'Materiais na versão Instituto AOCP (Bloco B em múltipla escolha).',
+    _ => 'Materiais na versão neutra. Para ter a versão desta banca, peça a nova versão dos materiais.',
+  };
 }

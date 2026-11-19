@@ -1,0 +1,325 @@
+{
+ "id": "dc-judiciario-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-11"
+ ],
+ "kind": "resumo",
+ "title": "Poder Judiciário e funções essenciais à Justiça",
+ "subtitle": "Direito Constitucional · Organização dos Poderes",
+ "minutes": 35,
+ "pdf": "constitucional_judiciario.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Garantias dos juízes, composição do **STF** e do **STJ**, **quem julga quem**, **Justiça Federal**, **Justiça Militar estadual** e o **MP**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Magistratura"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Garantias: **vitaliciedade** (2 anos no 1º grau), **inamovibilidade** (salvo interesse público, maioria absoluta), **irredutibilidade**.",
+      "Vedações: outro cargo **salvo um de magistério**; custas; política partidária; **quarentena de 3 anos** para advogar.",
+      "Ingresso: concurso com OAB e **3 anos** de atividade jurídica. **Quinto**: MP e advogados com **10 anos**; sêxtupla › tríplice › Executivo.",
+      "Reserva de plenário: inconstitucionalidade só por **maioria absoluta** do tribunal (SV 10)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Tribunais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**STF**: **11** Ministros **natos**, 35 a 70 anos; Presidente nomeia após **maioria absoluta** do Senado.",
+      "STF julga, em crime comum, **Presidente, Vice, congressistas, PGR**; e Ministros de Estado, comandantes militares, tribunais superiores e TCU.",
+      "**Súmula vinculante**: **2/3** do STF; vincula Judiciário e administração; **não** vincula o legislador nem o STF; cabe **reclamação**.",
+      "**CNJ**: 15 membros, presidido pelo Presidente do STF; só administrativo; **não** controla o STF.",
+      "**STJ**: mínimo **33** Ministros (não precisam ser natos); julga **Governadores** em crime comum; homologa **sentença estrangeira**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Justiça Federal e Militar"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "JF: União, autarquias e **empresas públicas** federais (não SEM); crimes contra **bens, serviços e interesses da União** (sem **contravenções**); crimes de **tratado** transnacionais; sistema financeiro; navios e aeronaves; estrangeiro irregular; indígenas.",
+      "**IDC**: PGR suscita no **STJ**, em grave violação de direitos humanos.",
+      "Justiça Militar estadual julga **só militares**; homicídio doloso de **civil** por PM vai ao **júri**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Funções essenciais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**MP**: unidade, indivisibilidade, independência funcional; ação penal pública **privativa**; **controle externo da atividade policial**; requisita diligências e inquérito; pode investigar.",
+      "**PGR**: da carreira, 35 anos, Senado por **maioria absoluta**, **2 anos** com recondução.",
+      "**AGU**: livre nomeação. **Advogado**: indispensável e inviolável nos limites da lei. **Defensoria**: necessitados, integral e gratuita."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quem",
+      "É julgado por"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Presidente (crime comum)",
+       "STF"
+      ],
+      [
+       "Deputados e senadores",
+       "STF"
+      ],
+      [
+       "Ministros de Estado",
+       "STF"
+      ],
+      [
+       "Governadores (crime comum)",
+       "STJ"
+      ],
+      [
+       "Desembargadores",
+       "STJ"
+      ],
+      [
+       "Tráfico internacional de drogas",
+       "Justiça Federal"
+      ],
+      [
+       "Contravenção contra bem da União",
+       "Justiça Estadual"
+      ],
+      [
+       "Crime contra empresa pública federal",
+       "Justiça Federal"
+      ],
+      [
+       "PM que mata civil dolosamente",
+       "Tribunal do Júri"
+      ],
+      [
+       "Civil em crime militar estadual",
+       "Justiça comum"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Juiz pode dar **aula**.",
+      "Vitaliciedade no 1º grau: **2 anos**.",
+      "STF: **11 natos**; STJ: **33**, não precisa ser nato.",
+      "Senado aprova por **maioria absoluta**.",
+      "SV não vincula o **legislador**.",
+      "CNJ **não** controla o STF.",
+      "Sentença estrangeira: **STJ**.",
+      "Contravenção: **nunca** na Justiça Federal.",
+      "JM estadual **não** julga civil.",
+      "MP faz o **controle externo** da polícia."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "JUDICIÁRIO",
+  "rootSub": "arts. 92 a 135",
+  "left": [
+   {
+    "label": "Garantias",
+    "items": [
+     "vitaliciedade: 2 anos",
+     "inamovibilidade",
+     "irredutibilidade"
+    ]
+   },
+   {
+    "label": "Vedações",
+    "items": [
+     "salvo magistério",
+     "sem política",
+     "quarentena: 3 anos"
+    ]
+   },
+   {
+    "label": "STF",
+    "items": [
+     "11 natos",
+     "35 a 70 anos",
+     "Senado: absoluta"
+    ]
+   },
+   {
+    "label": "Súmula vinculante",
+    "items": [
+     "2/3 do STF",
+     "vincula Judiciário",
+     "não o legislador"
+    ]
+   },
+   {
+    "label": "STJ e CNJ",
+    "items": [
+     "STJ: governadores",
+     "sentença estrangeira",
+     "CNJ: administrativo"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Justiça Federal",
+    "items": [
+     "União e EP federal",
+     "tratado transnacional",
+     "sem contravenção"
+    ]
+   },
+   {
+    "label": "Justiça Militar",
+    "items": [
+     "União: julga civil",
+     "estadual: só militar",
+     "civil morto: júri"
+    ]
+   },
+   {
+    "label": "Ministério Público",
+    "items": [
+     "ação penal privativa",
+     "controle externo",
+     "requisita inquérito"
+    ]
+   },
+   {
+    "label": "PGR",
+    "items": [
+     "da carreira",
+     "2 anos",
+     "recondução"
+    ]
+   },
+   {
+    "label": "Outras funções",
+    "items": [
+     "AGU: livre nomeação",
+     "advogado inviolável",
+     "Defensoria: necessitados"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "É vedado aos juízes dedicar-se a atividade político-partidária.",
+    "comment": "**Certo.** Art. 95, parágrafo único, III."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O juiz que se aposentar pode advogar imediatamente no tribunal do qual se afastou.",
+    "comment": "**Errado.** Há quarentena de três anos (art. 95, parágrafo único, V)."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Um quinto dos lugares dos tribunais regionais federais e dos tribunais de justiça é composto de membros do Ministério Público e de advogados com mais de dez anos de carreira ou atividade.",
+    "comment": "**Certo.** Art. 94."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Os Ministros do Superior Tribunal de Justiça devem ser brasileiros natos.",
+    "comment": "**Errado.** A Constituição não exige nacionalidade originária para o STJ."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A súmula vinculante pode ser aprovada pelo STF mediante decisão de dois terços dos seus membros.",
+    "comment": "**Certo.** Art. 103-A."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "O Conselho Nacional de Justiça exerce função jurisdicional e pode rever decisões judiciais.",
+    "comment": "**Errado.** O CNJ tem competência apenas administrativa, financeira e disciplinar."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Compete aos juízes federais processar e julgar os crimes cometidos a bordo de navios ou aeronaves, ressalvada a competência da Justiça Militar.",
+    "comment": "**Certo.** Art. 109, IX."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A Justiça Militar estadual é competente para julgar o crime doloso contra a vida de civil praticado por policial militar em serviço.",
+    "comment": "**Errado.** A competência é do Tribunal do Júri (art. 125, § 4º)."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A ação penal pública é promovida privativamente pelo Ministério Público.",
+    "comment": "**Certo.** Art. 129, I."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O advogado é inviolável por seus atos e manifestações no exercício da profissão, de forma absoluta e sem limites.",
+    "comment": "**Errado.** A inviolabilidade é nos limites da lei (art. 133)."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 92 a 135.",
+  "Superior Tribunal de Justiça: Súmula 38.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

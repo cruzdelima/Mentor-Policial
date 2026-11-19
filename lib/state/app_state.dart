@@ -6,6 +6,7 @@ import 'dart:math' as math;
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
+import '../core/bancas.dart';
 import '../core/catalog.dart';
 import '../core/dates.dart';
 import '../core/extras.dart';
@@ -16,7 +17,7 @@ import '../data/catalog_store.dart';
 import '../data/content.dart';
 import '../data/storage.dart';
 
-const kAppVersion = '0.8.0';
+const kAppVersion = '0.9.0';
 const kAppChannel = 'Beta de testes';
 
 /// Última versão publicada (GitHub Releases). O app compara a tag (ex.: v0.3.0) com [kAppVersion].
@@ -68,6 +69,21 @@ class ContentLibrary {
 
   bool isApproved(MaterialInfo m) => review[m.id] ?? m.builtinApproved;
 
+  /// Perfil de banca do aluno ('cebraspe', 'aocp' ou 'neutro'): define a versão dos materiais que abre.
+  String banca = 'cebraspe';
+
+  /// Versão escolhida pelo dono para conferir (null = a do perfil).
+  String? preview;
+
+  /// Versão do material que abre para esta pessoa: a da banca, ou a neutra, ou a base.
+  String variantFor(MaterialInfo m) {
+    final want = preview ?? banca;
+    if (want == 'cebraspe') return 'cebraspe';
+    if (m.variants.contains(want)) return want;
+    if (m.variants.contains('neutro')) return 'neutro';
+    return 'cebraspe';
+  }
+
   /// Materiais que esta pessoa pode ver: alunos só veem os revisados.
   List<MaterialInfo> get items => showAll ? all : all.where(isApproved).toList();
 
@@ -118,16 +134,19 @@ class ContentLibrary {
   }
 
   Future<StudyMaterial> open(MaterialInfo info, AssetBundle bundle) async {
-    final cached = _cache[info.id];
+    final v = variantFor(info);
+    final key = '${info.id}@$v';
+    final cached = _cache[key];
     if (cached != null) return cached;
+    final file = v == 'cebraspe' ? 'material.json' : 'material.$v.json';
     String text;
     if (info.source == 'asset') {
-      text = await bundle.loadString('assets/content/${info.folder}/material.json');
+      text = await bundle.loadString('assets/content/${info.folder}/$file');
     } else {
-      text = await File(Storage.join(Storage.join(info.source, info.folder), 'material.json')).readAsString();
+      text = await File(Storage.join(Storage.join(info.source, info.folder), file)).readAsString();
     }
-    final m = StudyMaterial.fromJson(info, jsonDecode(text) as Map<String, dynamic>);
-    _cache[info.id] = m;
+    final m = StudyMaterial.fromJson(info, jsonDecode(text) as Map<String, dynamic>, variant: v);
+    _cache[key] = m;
     return m;
   }
 
@@ -138,7 +157,8 @@ class ContentLibrary {
     if (m.info.source != 'asset') return Storage.join(Storage.join(m.info.source, m.info.folder), pdf);
     final data = await bundle.load('assets/content/${m.info.folder}/$pdf');
     await storage.materialsDir.create(recursive: true);
-    final name = 'Taticum_${m.info.folder}_v${m.info.version}.pdf';
+    final suffix = m.variant == 'cebraspe' ? '' : '_${m.variant}';
+    final name = 'Taticum_${m.info.folder}${suffix}_v${m.info.version}.pdf';
     final f = File(Storage.join(storage.materialsDir.path, name));
     if (!await f.exists() || await f.length() != data.lengthInBytes) {
       await f.writeAsBytes(data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), flush: true);
@@ -341,8 +361,17 @@ class AppController extends ChangeNotifier {
     updateProfile(p);
   }
 
+  /// Nome da banca que orienta os materiais: a do concurso pós-edital ou, no ciclo básico, a do último concurso da carreira.
+  String get bancaName {
+    if (data.profile == null) return '';
+    final ct = catalog.cargoOrNull(profile.optionId)?.contest;
+    if (ct != null && ct.banca.trim().isNotEmpty) return ct.banca;
+    return catalog.careerOfOption(profile.optionId)?.banca ?? '';
+  }
+
   void _recompute() {
     final p = data.profile;
+    content.banca = bancaProfileOf(bancaName);
     if (p == null) {
       trail = null;
       schedule = null;
@@ -521,7 +550,7 @@ class AppController extends ChangeNotifier {
 
   QuizAttempt submitQuiz(StudyMaterial m, Map<String, String?> answers, {int minutes = 0}) {
     final quiz = m.quiz!;
-    var c = 0, w = 0, b = 0;
+    var c = 0, w = 0, b = 0, pen = 0;
     for (final q in quiz.questions) {
       final a = answers[q.id];
       if (a == null) {
@@ -530,9 +559,10 @@ class AppController extends ChangeNotifier {
         c++;
       } else {
         w++;
+        if (quiz.penalty && !q.isChoice) pen++;
       }
     }
-    final attempt = QuizAttempt(date: today, answers: Map.of(answers), correct: c, wrong: w, blank: b);
+    final attempt = QuizAttempt(date: today, answers: Map.of(answers), correct: c, wrong: w, blank: b, penalized: pen);
     (data.quizzes[m.info.id] ??= []).add(attempt);
     if (c + w > 0) {
       data.diary.add(DiaryEntry(
@@ -545,7 +575,7 @@ class AppController extends ChangeNotifier {
         correct: c,
         minutes: minutes > 0 ? minutes : ((c + w) * 3),
         source: 'Material do app',
-        notes: '${m.info.title} · líquida ${c - w}${b > 0 ? ' · $b em branco' : ''}',
+        notes: '${m.info.title} · ${quiz.penalty ? 'líquida ${c - pen}' : '$c acertos'}${b > 0 ? ' · $b em branco' : ''}',
         origin: 'quiz:${m.info.id}',
       ));
     }

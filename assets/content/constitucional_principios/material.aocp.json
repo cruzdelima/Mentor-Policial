@@ -1,0 +1,442 @@
+{
+ "id": "dc-principios-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-01"
+ ],
+ "kind": "resumo",
+ "title": "Princípios fundamentais (arts. 1º a 4º)",
+ "subtitle": "Direito Constitucional · Título I da Constituição",
+ "minutes": 40,
+ "pdf": "constitucional_principios.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A **mistura das três listas** (fundamentos, objetivos e princípios internacionais) e os **conceitos**: república × federação, soberania × autonomia, democracia semidireta, funções típicas × atípicas e cláusulas pétreas."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Art. 1º: o que o Brasil é"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pergunta",
+      "Resposta"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "Forma de governo",
+       "**República** (eletividade, temporariedade, responsabilidade)"
+      ],
+      [
+       "Forma de Estado",
+       "**Federação** (união indissolúvel de Estados, Municípios e DF)"
+      ],
+      [
+       "Regime político",
+       "**Democracia** semidireta ou participativa"
+      ],
+      [
+       "Sistema de governo",
+       "**Presidencialismo** (não está no art. 1º)"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Municípios** são entes federativos; **Territórios** não (integram a União).",
+      "**Soberania** é da República Federativa do Brasil; os entes têm **autonomia**.",
+      "**Indissolúvel**: não há direito de secessão.",
+      "**Cláusulas pétreas** (art. 60, § 4º): forma federativa; voto direto, secreto, universal e periódico; separação dos Poderes; direitos e garantias individuais. **República não está na lista.**",
+      "O **preâmbulo** não tem força normativa (STF)."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Fundamentos: SO-CI-DI-VA-PLU",
+     "text": "**SO**berania; **CI**dadania; **DI**gnidade da pessoa humana; **VA**lores sociais do trabalho e da livre iniciativa; **PLU**ralismo político."
+    },
+    {
+     "t": "p",
+     "text": "**Parágrafo único**: todo o poder emana do **povo**, que o exerce por meio de **representantes eleitos ou diretamente**. Instrumentos diretos: **plebiscito** (antes do ato), **referendo** (depois) e **iniciativa popular**."
+    },
+    {
+     "t": "note",
+     "text": "Dignidade da pessoa humana na prática policial: Súmula Vinculante 11 — algemas só em caso de resistência, fundado receio de fuga ou perigo à integridade física, com justificativa por escrito."
+    },
+    {
+     "t": "h2",
+     "text": "2. Art. 2º: separação dos Poderes"
+    },
+    {
+     "t": "p",
+     "text": "São Poderes da União, **independentes e harmônicos entre si**, o Legislativo, o Executivo e o Judiciário."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Poder",
+      "Função típica",
+      "Função atípica (exemplo)"
+     ],
+     "widths": [
+      0.2,
+      0.3,
+      0.5
+     ],
+     "rows": [
+      [
+       "Legislativo",
+       "Legislar e fiscalizar",
+       "Julgar o Presidente por crime de responsabilidade (Senado)"
+      ],
+      [
+       "Executivo",
+       "Administrar",
+       "Editar medida provisória"
+      ],
+      [
+       "Judiciário",
+       "Julgar",
+       "Elaborar regimento interno; administrar seus serviços"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A separação é **relativa**: há **freios e contrapesos** (veto, derrubada de veto, controle de constitucionalidade, impeachment).",
+      "É **cláusula pétrea**.",
+      "Ministério Público, Defensoria e Tribunais de Contas **não são Poderes**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Art. 3º: objetivos fundamentais"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Objetivos: CON-GA-ER-PRO (verbos no infinitivo)",
+     "text": "**CON**struir uma sociedade livre, justa e solidária; **GA**rantir o desenvolvimento nacional; **ER**radicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; **PRO**mover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha",
+     "text": "**Erradicar** a pobreza e a marginalização; **reduzir** as desigualdades. Desenvolvimento **nacional**, não regional."
+    },
+    {
+     "t": "h2",
+     "text": "4. Art. 4º: relações internacionais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Independência nacional; prevalência dos direitos humanos; autodeterminação dos povos; não-intervenção; igualdade entre os Estados.",
+      "Defesa da paz; solução pacífica dos conflitos.",
+      "Repúdio ao terrorismo e ao racismo; cooperação entre os povos para o progresso da humanidade; concessão de asilo político.",
+      "**Parágrafo único**: integração econômica, política, social e cultural dos povos da **América Latina**, visando a uma comunidade **latino-americana** de nações."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro das três listas"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Art. 1º — Fundamentos (o que é)",
+      "Art. 3º — Objetivos (o que busca)",
+      "Art. 4º — Relações internacionais"
+     ],
+     "widths": [
+      0.3,
+      0.36,
+      0.34
+     ],
+     "rows": [
+      [
+       "Soberania",
+       "Construir uma sociedade livre, justa e solidária",
+       "Independência nacional"
+      ],
+      [
+       "Cidadania",
+       "Garantir o desenvolvimento nacional",
+       "Prevalência dos direitos humanos"
+      ],
+      [
+       "Dignidade da pessoa humana",
+       "Erradicar a pobreza e a marginalização e reduzir as desigualdades",
+       "Autodeterminação; não-intervenção; igualdade entre os Estados"
+      ],
+      [
+       "Valores sociais do trabalho e da livre iniciativa",
+       "Promover o bem de todos, sem discriminação",
+       "Defesa da paz; solução pacífica dos conflitos"
+      ],
+      [
+       "Pluralismo político",
+       "—",
+       "Repúdio ao terrorismo e ao racismo; cooperação; asilo político"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Substantivo** = fundamento (art. 1º). **Verbo** = objetivo (art. 3º). **Postura externa** = art. 4º.",
+      "República = forma de **governo**. Federação = forma de **Estado**.",
+      "Só a **forma federativa** é cláusula pétrea; a república, não.",
+      "**Soberania** é do Estado brasileiro; os entes têm **autonomia**.",
+      "Poder do **povo**, exercido por representantes **ou diretamente**.",
+      "Poderes **independentes e harmônicos**; separação **relativa**.",
+      "**Erradicar** a pobreza; **reduzir** as desigualdades.",
+      "Integração da **América Latina**.",
+      "**Pluralismo político** é mais que pluripartidarismo.",
+      "Preâmbulo: **sem força normativa**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "PRINCÍPIOS FUNDAMENTAIS",
+  "rootSub": "CF/88 · arts. 1º a 4º",
+  "left": [
+   {
+    "label": "Art. 1º · O Estado",
+    "items": [
+     "República: forma de governo",
+     "Federação: forma de Estado",
+     "Estado Democrático de Direito"
+    ]
+   },
+   {
+    "label": "Fundamentos",
+    "items": [
+     "Soberania · cidadania",
+     "Dignidade da pessoa humana",
+     "Trabalho e livre iniciativa · pluralismo"
+    ]
+   },
+   {
+    "label": "Poder do povo",
+    "items": [
+     "Representantes ou diretamente",
+     "Plebiscito · referendo",
+     "Iniciativa popular"
+    ]
+   },
+   {
+    "label": "Federação",
+    "items": [
+     "Estados, Municípios e DF",
+     "Territórios não são entes",
+     "Sem secessão · cláusula pétrea"
+    ]
+   },
+   {
+    "label": "Art. 2º · Poderes",
+    "items": [
+     "Independentes e harmônicos",
+     "Funções típicas e atípicas",
+     "Freios e contrapesos"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Art. 3º · Objetivos",
+    "items": [
+     "Construir sociedade livre e justa",
+     "Garantir o desenvolvimento nacional",
+     "Erradicar a pobreza · promover o bem"
+    ]
+   },
+   {
+    "label": "Art. 4º · Soberania",
+    "items": [
+     "Independência nacional",
+     "Autodeterminação · não-intervenção",
+     "Igualdade entre os Estados"
+    ]
+   },
+   {
+    "label": "Art. 4º · Paz e valores",
+    "items": [
+     "Defesa da paz · solução pacífica",
+     "Direitos humanos · asilo político",
+     "Repúdio ao terrorismo e ao racismo"
+    ]
+   },
+   {
+    "label": "Integração",
+    "items": [
+     "América Latina",
+     "Econômica, política, social, cultural"
+    ]
+   },
+   {
+    "label": "Jurisprudência",
+    "items": [
+     "Preâmbulo sem força normativa",
+     "SV 11: uso de algemas",
+     "República não é cláusula pétrea"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "São fundamentos da República Federativa do Brasil a soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa e o pluralismo político.",
+    "comment": "**Certo.** É o rol do art. 1º, incisos I a V.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Construir uma sociedade livre, justa e solidária é fundamento da República Federativa do Brasil.",
+    "comment": "**Errado.** É objetivo fundamental (art. 3º, I). Os objetivos começam por verbo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "E",
+    "text": "A federação é a forma de governo adotada pela Constituição de 1988, e a república, a forma de Estado.",
+    "comment": "**Errado.** Invertido: república é forma de governo; federação é forma de Estado.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "C",
+    "text": "Os municípios integram a federação brasileira na condição de entes dotados de autonomia.",
+    "comment": "**Certo.** A República é formada pela união indissolúvel dos Estados, dos Municípios e do Distrito Federal, todos autônomos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "E",
+    "text": "Compete ao Poder Legislativo, como função típica, julgar o presidente da República nos crimes de responsabilidade.",
+    "comment": "**Errado.** O julgamento pelo Senado é função atípica. As funções típicas do Legislativo são legislar e fiscalizar.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "A",
+    "text": "São fundamentos da República Federativa do Brasil, entre outros,",
+    "options": [
+     "a soberania e a cidadania.",
+     "a independência nacional e a cidadania.",
+     "a soberania e a não intervenção.",
+     "a defesa da paz e o pluralismo político.",
+     "a cidadania e a garantia do desenvolvimento nacional."
+    ],
+    "comment": "**Gabarito: A.** Soberania e cidadania são fundamentos (art. 1º). Independência nacional, não intervenção e defesa da paz são do art. 4º; garantir o desenvolvimento nacional é objetivo (art. 3º).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "C",
+    "text": "Assinale a alternativa que contém apenas objetivos fundamentais da República (art. 3º).",
+    "options": [
+     "Soberania e garantia do desenvolvimento nacional.",
+     "Construir uma sociedade livre, justa e solidária e prevalência dos direitos humanos.",
+     "Garantir o desenvolvimento nacional e promover o bem de todos, sem preconceitos.",
+     "Dignidade da pessoa humana e erradicação da pobreza.",
+     "Pluralismo político e redução das desigualdades sociais."
+    ],
+    "comment": "**Gabarito: C.** Só a C traz dois objetivos (art. 3º, II e IV). As demais misturam fundamentos (soberania, dignidade, pluralismo) ou princípios das relações internacionais (prevalência dos direitos humanos).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "E",
+    "text": "Os Poderes da União, segundo o art. 2º da Constituição, são",
+    "options": [
+     "soberanos e independentes.",
+     "autônomos e hierarquizados.",
+     "independentes e subordinados.",
+     "harmônicos e interdependentes.",
+     "independentes e harmônicos entre si."
+    ],
+    "comment": "**Gabarito: E.** Texto literal do art. 2º: “independentes e harmônicos entre si”.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "O princípio da concessão de asilo político, previsto na Constituição, rege",
+    "options": [
+     "os objetivos fundamentais da República.",
+     "as relações internacionais da República Federativa do Brasil.",
+     "a organização político-administrativa do Estado.",
+     "os direitos políticos.",
+     "a nacionalidade."
+    ],
+    "comment": "**Gabarito: B.** A concessão de asilo político está no art. 4º, X, entre os princípios das relações internacionais.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Todo o poder emana do povo, que o exerce, nos termos da Constituição,",
+    "options": [
+     "somente por meio de plebiscito.",
+     "exclusivamente pelos Poderes da União.",
+     "por meio dos partidos políticos.",
+     "por meio de representantes eleitos ou diretamente.",
+     "apenas por meio de representantes eleitos."
+    ],
+    "comment": "**Gabarito: D.** Art. 1º, parágrafo único: por meio de representantes eleitos ou diretamente.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 1º a 4º, 14, 18 e 60; STF, Súmula Vinculante 11 e ADI 2.076.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

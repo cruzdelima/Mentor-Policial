@@ -1,0 +1,501 @@
+{
+ "id": "lp-subordinadas-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-10"
+ ],
+ "kind": "aprofundado",
+ "title": "Orações subordinadas",
+ "subtitle": "Língua Portuguesa · Sintaxe do período",
+ "minutes": 240,
+ "pdf": "portugues_subordinadas_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Este é um dos tópicos mais cobrados pelas bancas, quase sempre de forma indireta: “a retirada das vírgulas alteraria o sentido” (adjetiva explicativa × restritiva), “o vocábulo *que* é pronome relativo”, “a oração expressa uma concessão”. Estude na ordem: **substantivas** (o teste do ISSO), **adjetivas** (a vírgula) e **adverbiais** (o sentido)."
+    },
+    {
+     "t": "h2",
+     "text": "1. Subordinação"
+    },
+    {
+     "t": "p",
+     "text": "Na subordinação, uma oração (**subordinada**) exerce uma **função sintática** em outra (**principal**): sujeito, objeto, adjunto… Por isso as subordinadas se dividem conforme a classe de palavra a que equivalem:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Subordinada",
+      "Equivale a",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.26,
+      0.54
+     ],
+     "rows": [
+      [
+       "Substantiva",
+       "um **substantivo**",
+       "Espero **que ele confesse**. (= espero **a confissão**)"
+      ],
+      [
+       "Adjetiva",
+       "um **adjetivo**",
+       "O réu **que confessou** foi solto. (= o réu **confesso**)"
+      ],
+      [
+       "Adverbial",
+       "um **advérbio**",
+       "**Quando a viatura chegou**, ele fugiu. (= **ontem**, ele fugiu)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Orações subordinadas substantivas"
+    },
+    {
+     "t": "p",
+     "text": "Introduzidas pelas **conjunções integrantes** *que* e *se* (ou por pronomes e advérbios interrogativos). **Teste**: a oração inteira pode ser substituída por **ISSO**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Função",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.32,
+      0.48
+     ],
+     "rows": [
+      [
+       "Subjetiva",
+       "**Sujeito** do verbo da principal",
+       "É fundamental **que as provas sejam preservadas**. (Isso é fundamental)"
+      ],
+      [
+       "Objetiva direta",
+       "**Objeto direto**",
+       "O delegado afirmou **que o caso estava encerrado**. (afirmou isso)"
+      ],
+      [
+       "Objetiva indireta",
+       "**Objeto indireto** (com preposição)",
+       "Lembrou-se **de que havia esquecido o celular**. (lembrou-se disso)"
+      ],
+      [
+       "Completiva nominal",
+       "**Complemento nominal** (com preposição)",
+       "Tenho certeza **de que ele mentiu**. (certeza disso)"
+      ],
+      [
+       "Predicativa",
+       "**Predicativo** do sujeito, após verbo de ligação",
+       "A verdade é **que ninguém viu o crime**. (a verdade é isso)"
+      ],
+      [
+       "Apositiva",
+       "**Aposto**, em geral após dois-pontos",
+       "Só uma coisa importava: **que a vítima fosse localizada**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Como reconhecer a subjetiva",
+     "text": "Estruturas típicas: **verbo de ligação + adjetivo/substantivo** (*É necessário que…, É verdade que…*), **verbos como** *convir, importar, parecer, constar, acontecer* (*Convém que…, Parece que…*) e **voz passiva** (*Sabe-se que…, Foi decidido que…*). O verbo da principal fica sempre na **3ª pessoa do singular**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Objetiva indireta × completiva nominal**: as duas têm preposição. Olhe o termo que a oração completa: **verbo** › objetiva indireta; **nome** › completiva nominal. *Necessito **de que me ajudem*** (verbo) × *Tenho necessidade **de que me ajudem*** (nome).",
+      "**Se** integrante: *Ninguém sabe **se** o suspeito voltará* (= ninguém sabe isso).",
+      "Não se separa por **vírgula** a oração substantiva da principal (salvo a apositiva, com dois-pontos ou vírgula)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Orações subordinadas adjetivas"
+    },
+    {
+     "t": "p",
+     "text": "Introduzidas por **pronome relativo** (*que, quem, o qual, cujo, onde, quanto*), que retoma um termo anterior (antecedente). **Teste**: o *que* relativo pode ser trocado por **o qual / a qual / os quais / as quais**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Pontuação",
+      "Sentido",
+      "Exemplo"
+     ],
+     "widths": [
+      0.15,
+      0.17,
+      0.33,
+      0.35
+     ],
+     "rows": [
+      [
+       "Restritiva",
+       "**Sem** vírgulas",
+       "**Restringe**: só uma parte do grupo",
+       "Os presos **que trabalham** têm direito à remição."
+      ],
+      [
+       "Explicativa",
+       "**Entre** vírgulas",
+       "**Explica**: vale para todo o grupo",
+       "Os agentes, **que estavam de plantão**, atenderam a ocorrência."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "A vírgula que muda o sentido",
+     "text": "*Os policiais **que estavam de folga** foram convocados* — só os que estavam de folga. *Os policiais, **que estavam de folga**, foram convocados* — todos estavam de folga. Por isso, **inserir ou retirar as vírgulas** de uma oração adjetiva **altera o sentido** — e é item garantido nas provas."
+    },
+    {
+     "t": "h3",
+     "text": "Que relativo × que integrante"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Relativo",
+      "Integrante"
+     ],
+     "widths": [
+      0.2,
+      0.4,
+      0.4
+     ],
+     "rows": [
+      [
+       "Teste",
+       "Troca por **o qual**",
+       "Troca da oração por **isso**"
+      ],
+      [
+       "Função",
+       "Exerce função sintática na oração (sujeito, objeto…)",
+       "Não exerce função; só liga"
+      ],
+      [
+       "Exemplo",
+       "*O documento **que** o réu apresentou é falso.* (o qual)",
+       "*Espero **que** o laudo saia hoje.* (espero isso)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Orações subordinadas adverbiais"
+    },
+    {
+     "t": "p",
+     "text": "Exercem função de **adjunto adverbial** da principal e expressam uma circunstância. O sentido vem da conjunção:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Conjunções",
+      "Exemplo"
+     ],
+     "widths": [
+      0.17,
+      0.4,
+      0.43
+     ],
+     "rows": [
+      [
+       "Causal",
+       "porque, como (anteposto), já que, visto que, uma vez que",
+       "**Como o réu não compareceu**, foi conduzido."
+      ],
+      [
+       "Concessiva",
+       "embora, ainda que, mesmo que, conquanto, se bem que",
+       "**Embora estivesse cansado**, concluiu o laudo."
+      ],
+      [
+       "Condicional",
+       "se, caso, desde que, contanto que, a menos que",
+       "**Se houver flagrante**, a prisão será imediata."
+      ],
+      [
+       "Conformativa",
+       "conforme, segundo, consoante, como",
+       "Agiu **conforme o advogado orientara**."
+      ],
+      [
+       "Comparativa",
+       "como, (tal) qual, mais/menos… (do) que",
+       "Correu **como um atleta (corre)**."
+      ],
+      [
+       "Consecutiva",
+       "tão/tanto/tal… que, de modo que, de sorte que",
+       "Estudou **tanto que passou em primeiro**."
+      ],
+      [
+       "Final",
+       "para que, a fim de que",
+       "Isolou a área **para que não houvesse contaminação**."
+      ],
+      [
+       "Proporcional",
+       "à medida que, à proporção que, quanto mais… mais",
+       "**À medida que a perícia avançava**, surgiam provas."
+      ],
+      [
+       "Temporal",
+       "quando, enquanto, assim que, logo que, desde que, mal",
+       "**Quando a viatura chegou**, o suspeito fugiu."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concessiva e condicional** pedem **subjuntivo**: *embora **estivesse**; caso **confesse***.",
+      "**Desde que** + subjuntivo = condição; + indicativo = tempo.",
+      "**Pontuação**: a adverbial **anteposta** ou **intercalada** à principal costuma vir separada por vírgula; posposta, a vírgula é facultativa (e não se usa antes das consecutivas *tão… que*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Orações reduzidas"
+    },
+    {
+     "t": "p",
+     "text": "Não têm conectivo e apresentam o verbo numa **forma nominal**. Para classificá-las, **desenvolva**: transforme-as em oração com conjunção."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Forma",
+      "Exemplo",
+      "Desenvolvida",
+      "Valor"
+     ],
+     "widths": [
+      0.16,
+      0.3,
+      0.34,
+      0.2
+     ],
+     "rows": [
+      [
+       "Infinitivo",
+       "**Ao chegar** à delegacia, o advogado pediu vista.",
+       "**Quando chegou** à delegacia…",
+       "Temporal"
+      ],
+      [
+       "Infinitivo",
+       "É necessário **revisar os procedimentos**.",
+       "É necessário **que se revisem**…",
+       "Subjetiva"
+      ],
+      [
+       "Gerúndio",
+       "**Sendo réu primário**, terá direito ao benefício.",
+       "**Como é réu primário**…",
+       "Causal"
+      ],
+      [
+       "Particípio",
+       "**Terminada a audiência**, os autos foram conclusos.",
+       "**Assim que terminou** a audiência…",
+       "Temporal"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Vírgulas da adjetiva**: retirar ou inserir altera o sentido (restritiva × explicativa).",
+      "**Natureza do que**: relativo (troca por *o qual*) × integrante (troca por *isso*).",
+      "**Classificação pelo sentido**: “a oração expressa concessão / causa / condição / finalidade”.",
+      "**Substituição de conectivo**: *embora* por *ainda que* (mantém); *como* causal por *visto que* (mantém); *à medida que* por *na medida em que* (altera).",
+      "**Vírgula indevida** entre a principal e a substantiva (*É necessário, que…* é erro)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "No período “É fundamental que as provas sejam preservadas”, a oração “que as provas sejam preservadas” é subordinada substantiva subjetiva.",
+    "comment": "**Certo.** A oração é o sujeito de é fundamental (isso é fundamental).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "No período “O delegado afirmou que o caso estava encerrado”, a oração introduzida por que é subordinada adjetiva.",
+    "comment": "**Errado.** A oração é objeto direto de afirmou (afirmou isso): substantiva objetiva direta.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Ninguém sabe se o suspeito voltará”, o vocábulo se é conjunção integrante.",
+    "comment": "**Certo.** Se introduz oração substantiva objetiva direta (ninguém sabe isso).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "No período “Tenho certeza de que ele mentiu”, a oração “de que ele mentiu” é subordinada substantiva objetiva indireta.",
+    "comment": "**Errado.** A oração completa o substantivo certeza: é completiva nominal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "No período “Lembrou-se de que havia esquecido o celular”, a oração introduzida por de que é subordinada substantiva objetiva indireta.",
+    "comment": "**Certo.** Completa o verbo lembrar-se, que exige a preposição de.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "No período “Os agentes, que estavam de plantão, atenderam a ocorrência”, a oração entre vírgulas restringe o sentido do termo agentes.",
+    "comment": "**Errado.** Entre vírgulas, a oração adjetiva é explicativa: refere-se a todos os agentes.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "No período “Os presos que trabalham têm direito à remição”, a oração adjetiva restritiva indica que apenas parte dos presos tem esse direito.",
+    "comment": "**Certo.** Sem vírgulas, a oração restringe: só os presos que trabalham.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "No período “Embora estivesse cansado, o perito concluiu o laudo”, a oração subordinada expressa causa.",
+    "comment": "**Errado.** Embora introduz concessão: o cansaço não impediu a conclusão do laudo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "No período “Se houver flagrante, a prisão será imediata”, a oração subordinada é adverbial condicional.",
+    "comment": "**Certo.** Se introduz a condição para o fato da principal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "No período “Ao chegar à delegacia, o advogado pediu vista dos autos”, a oração reduzida expressa finalidade.",
+    "comment": "**Errado.** Desenvolvida, a oração é quando chegou à delegacia: valor temporal.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "No período “O laudo, que foi elaborado por dois peritos, confirmou a fraude”, a supressão das vírgulas alteraria o sentido do período.",
+    "comment": "**Certo.** Sem vírgulas, a oração passaria a restritiva, sugerindo a existência de outros laudos.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “O documento que o réu apresentou é falso”, o vocábulo que é conjunção integrante.",
+    "comment": "**Errado.** Que retoma documento e pode ser trocado por o qual: é pronome relativo.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "No período “A verdade é que ninguém viu o crime”, a oração “que ninguém viu o crime” é subordinada substantiva predicativa.",
+    "comment": "**Certo.** A oração é predicativo do sujeito a verdade, após o verbo de ligação ser.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "No período “Só uma coisa importava: que a vítima fosse localizada”, a oração após os dois-pontos é subordinada adjetiva explicativa.",
+    "comment": "**Errado.** A oração explica o termo uma coisa e funciona como aposto: substantiva apositiva.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "No período “À medida que a perícia avançava, novas provas surgiam”, a oração subordinada expressa proporção.",
+    "comment": "**Certo.** À medida que relaciona proporcionalmente os dois fatos.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "No período “Estudou tanto que passou em primeiro lugar”, a oração “que passou em primeiro lugar” é subordinada adverbial final.",
+    "comment": "**Errado.** Tanto… que indica consequência: a oração é consecutiva.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "No período “O réu agiu conforme o advogado orientara”, a oração “conforme o advogado orientara” é subordinada adverbial conformativa.",
+    "comment": "**Certo.** Conforme indica conformidade: o réu agiu de acordo com a orientação.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "No período “Terminada a audiência, os autos foram conclusos”, a oração reduzida de particípio tem valor de concessão.",
+    "comment": "**Errado.** Desenvolvida, é assim que terminou a audiência: valor temporal.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "No período “Quando a viatura chegou, o suspeito fugiu”, a vírgula após chegou separa a oração adverbial anteposta à principal.",
+    "comment": "**Certo.** Oração adverbial anteposta costuma ser separada da principal por vírgula.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Em “É necessário que todos colaborem”, a inserção de vírgula logo após necessário estaria de acordo com a norma-padrão.",
+    "comment": "**Errado.** A vírgula separaria a principal da oração subjetiva, que é seu sujeito.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

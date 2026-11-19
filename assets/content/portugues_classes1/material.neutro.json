@@ -1,0 +1,382 @@
+{
+ "id": "lp-classes1-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-03"
+ ],
+ "kind": "resumo",
+ "title": "Substantivo, adjetivo, artigo e numeral",
+ "subtitle": "Língua Portuguesa · Morfologia",
+ "minutes": 40,
+ "pdf": "portugues_classes1.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A **classe da palavra no contexto** (substantivação, adjetivo × advérbio, um artigo × um numeral) e o efeito de **trocar, tirar ou deslocar** um termo: artigo, adjetivo anteposto, flexão de compostos."
+    },
+    {
+     "t": "h2",
+     "text": "1. Substantivo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Concreto**: ser com existência própria, real ou imaginária (casa, ar, fada). **Abstrato**: ação, estado, qualidade, sentimento (prisão, beleza, saudade).",
+      "**Substantivação**: qualquer palavra com determinante vira substantivo — *o olhar, um não, o porquê*.",
+      "**Comum de dois**: o/a agente, o/a policial. **Sobrecomum**: a testemunha, a vítima, o cônjuge, a criança.",
+      "**Gênero que muda o sentido**: o capital/a capital; o cabeça/a cabeça; o moral/a moral; o grama/a grama.",
+      "**Atenção ao gênero**: o dó, o champanha, o eclipse × a alface, a cal, a dinamite, a omoplata."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Plural",
+      "Regra",
+      "Exemplos"
+     ],
+     "widths": [
+      0.2,
+      0.36,
+      0.44
+     ],
+     "rows": [
+      [
+       "-ão",
+       "-ões, -ães ou -ãos",
+       "eleições; pães, capitães, escrivães; cidadãos, órgãos, irmãos"
+      ],
+      [
+       "-il",
+       "Oxítona: -is. Paroxítona: -eis",
+       "fuzis × fósseis, répteis"
+      ],
+      [
+       "-zinho",
+       "Plural da base, sem o S, + zinhos",
+       "pãezinhos, florezinhas, papeizinhos"
+      ],
+      [
+       "Compostos",
+       "Variam os que são substantivo, adjetivo ou numeral",
+       "couves-flores, guardas-civis, segundas-feiras"
+      ],
+      [
+       "Compostos",
+       "Verbo e palavra invariável não variam",
+       "guarda-chuvas, vice-presidentes, abaixo-assinados"
+      ],
+      [
+       "Compostos",
+       "Com preposição: só o primeiro",
+       "pés de moleque, pores do sol"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Adjetivo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Locução adjetiva**: de chuva = pluvial; de rio = fluvial; de aluno = discente; de professor = docente; de prisão = carcerário.",
+      "**Compostos**: só o último varia (político-sociais). **Cor + substantivo**: invariável (verde-garrafa, amarelo-ouro); também azul-marinho e azul-celeste.",
+      "**Mais bom, mais grande**: corretos ao comparar duas qualidades do mesmo ser.",
+      "**Superlativos eruditos**: paupérrimo, celebérrimo, amicíssimo, fidelíssimo, dificílimo, macérrimo, nobilíssimo.",
+      "**Posição**: homem pobre (sem recursos) × pobre homem (coitado); grande homem × homem grande.",
+      "**Adjetivo × advérbio**: *falaram alto* (advérbio, invariável) × *são altas* (adjetivo)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Artigo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Todo o** = inteiro; **todo** = qualquer.",
+      "Antes de **possessivo**: facultativo (por isso a crase também é).",
+      "Depois de **cujo**: proibido. Depois de **ambos**: obrigatório.",
+      "**Uns** + numeral = aproximação (*uns vinte homens*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Numeral"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Reis, papas, séculos**: ordinal até décimo; cardinal de onze em diante (século V = quinto; século XXI = vinte e um).",
+      "**Artigos de lei**: ordinal até nove; cardinal de dez em diante (art. 9º = nono; art. 10 = dez).",
+      "**Milhão e milhar** são masculinos: *os milhares de pessoas*.",
+      "**Meio**: numeral varia (*meia garrafa*); advérbio não (*meio cansada*).",
+      "**Um**: numeral se indica quantidade; artigo se indica imprecisão."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: a mesma palavra, classes diferentes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Palavra",
+      "Como…",
+      "Exemplo",
+      "Como…",
+      "Exemplo"
+     ],
+     "widths": [
+      0.12,
+      0.14,
+      0.3,
+      0.14,
+      0.3
+     ],
+     "rows": [
+      [
+       "jantar",
+       "substantivo",
+       "O jantar atrasou.",
+       "verbo",
+       "Vamos jantar."
+      ],
+      [
+       "alto",
+       "adjetivo",
+       "Muro alto.",
+       "advérbio",
+       "Falou alto."
+      ],
+      [
+       "um",
+       "artigo",
+       "Um homem ligou.",
+       "numeral",
+       "Só um homem ligou."
+      ],
+      [
+       "meio",
+       "numeral",
+       "Meia hora.",
+       "advérbio",
+       "Meio tensa."
+      ],
+      [
+       "certo",
+       "adjetivo",
+       "Resposta certa.",
+       "pronome",
+       "Certa resposta."
+      ],
+      [
+       "não",
+       "advérbio",
+       "Não veio.",
+       "substantivo",
+       "Ouviu um não."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A classe depende da **função na frase**.",
+      "Determinante antes = **substantivo** (o olhar, um não).",
+      "Invariável ligado ao verbo = **advérbio**.",
+      "**Guarda** verbo não varia (guarda-chuvas); **guarda** substantivo varia (guardas-civis).",
+      "Cor + substantivo: **invariável**.",
+      "Adjetivo anteposto pode **mudar o sentido**.",
+      "**Todo o** ≠ **todo**.",
+      "**Cujo** nunca vem seguido de artigo.",
+      "Art. 9º (nono), art. 10 (dez).",
+      "**Os** milhares; **meio** cansada."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CLASSES NOMINAIS",
+  "rootSub": "a classe depende da função na frase",
+  "left": [
+   {
+    "label": "Substantivo",
+    "items": [
+     "Nomeia seres, ações, qualidades",
+     "Abstrato: ação, estado, qualidade",
+     "Substantivação: o olhar, um não"
+    ]
+   },
+   {
+    "label": "Gênero",
+    "items": [
+     "Comum de dois: o/a agente",
+     "Sobrecomum: a testemunha",
+     "o capital ≠ a capital"
+    ]
+   },
+   {
+    "label": "Plural",
+    "items": [
+     "-ão: -ões, -ães, -ãos",
+     "fuzis × fósseis",
+     "pãezinhos, florezinhas"
+    ]
+   },
+   {
+    "label": "Plural dos compostos",
+    "items": [
+     "Variam os dois: guardas-civis",
+     "Só o 2º: guarda-chuvas",
+     "Só o 1º: pés de moleque"
+    ]
+   },
+   {
+    "label": "Banca",
+    "items": [
+     "Classe no contexto",
+     "Tirar o artigo muda o sentido?",
+     "Deslocar o adjetivo muda?"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Adjetivo",
+    "items": [
+     "Caracteriza o substantivo",
+     "Locução: de chuva = pluvial",
+     "Adjetivo varia; advérbio não"
+    ]
+   },
+   {
+    "label": "Adjetivo composto",
+    "items": [
+     "Só o último varia",
+     "Cor + substantivo: invariável",
+     "azul-marinho: invariável"
+    ]
+   },
+   {
+    "label": "Grau e posição",
+    "items": [
+     "mais bom do que esperto",
+     "paupérrimo, celebérrimo",
+     "pobre homem ≠ homem pobre"
+    ]
+   },
+   {
+    "label": "Artigo",
+    "items": [
+     "todo o = inteiro · todo = qualquer",
+     "Facultativo antes de possessivo",
+     "Nunca depois de cujo"
+    ]
+   },
+   {
+    "label": "Numeral",
+    "items": [
+     "Século V: quinto · XXI: vinte e um",
+     "Art. 9º: nono · art. 10: dez",
+     "os milhares · meio cansada"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O porquê da decisão não foi divulgado”, o vocábulo porquê é substantivo.",
+    "comment": "**Certo.** Está determinado por artigo e equivale a motivo."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O plural de guarda-chuva é guardas-chuvas, pois os dois elementos são substantivos.",
+    "comment": "**Errado.** Guarda, aqui, é verbo e não varia: guarda-chuvas."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O substantivo vítima é sobrecomum.",
+    "comment": "**Certo.** Tem uma só forma e um só gênero para os dois sexos."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Os carros azul-marinhos pertencem à corporação”, o adjetivo está corretamente flexionado.",
+    "comment": "**Errado.** Azul-marinho é invariável: carros azul-marinho."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A locução adjetiva em “corpo de alunos” equivale ao adjetivo discente.",
+    "comment": "**Certo.** De aluno = discente; de professor = docente."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "As expressões “todo o batalhão” e “todo batalhão” têm o mesmo sentido.",
+    "comment": "**Errado.** Com artigo, o batalhão inteiro; sem artigo, qualquer batalhão."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Os presos falaram baixo”, a palavra baixo é advérbio.",
+    "comment": "**Certo.** Modifica o verbo e não varia."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A leitura correta de “século XXI” é “século vigésimo primeiro”.",
+    "comment": "**Errado.** A partir de onze, usa-se o cardinal: século vinte e um."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Ela chegou meio atrasada”, o vocábulo meio está corretamente empregado, por ser advérbio.",
+    "comment": "**Certo.** Com o sentido de um pouco, não varia."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O superlativo absoluto sintético erudito de pobre é pobríssimo, sendo incorreta a forma paupérrimo.",
+    "comment": "**Errado.** Paupérrimo é a forma erudita, plenamente correta; pobríssimo é a forma popular, também registrada."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

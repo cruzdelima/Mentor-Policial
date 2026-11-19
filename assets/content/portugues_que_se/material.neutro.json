@@ -1,0 +1,274 @@
+{
+ "id": "lp-que-se-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-23"
+ ],
+ "kind": "resumo",
+ "title": "Funções do “que” e do “se”",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 30,
+ "pdf": "portugues_que_se.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Classificar o *que* e o *se* e as consequências: **concordância** e **pontuação**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Que"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Relativo** (troca por *o qual*): *o laudo que chegou*.",
+      "**Integrante** (oração = *isso*): *soube que chegou*.",
+      "**Conjunção**: consecutiva (*tanto que*), comparativa (*mais que*), explicativa (*venha, que…*).",
+      "**Interrogativo**: *Que houve?* **Advérbio**: *Que difícil!* **Preposição**: *tenho que sair*.",
+      "**Expletivo**: *quase que caí; eu é que decidi*. **Substantivo**: *um quê*. **Interjeição**: *Quê!*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Se"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Reflexivo**: *ele se feriu*. **Recíproco**: *se acusaram*.",
+      "**Apassivador** (VTD + se; verbo concorda): *vendem-se casas*.",
+      "**Indeterminador** (VTI/VI/VL + se; singular): *precisa-se de agentes*.",
+      "**Parte do verbo**: *queixar-se, arrepender-se*. **Expletivo**: *foi-se embora*.",
+      "**Conjunção condicional** (= caso) e **integrante** (*não sei se…*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro de testes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Teste",
+      "Resultado"
+     ],
+     "widths": [
+      0.56,
+      0.44
+     ],
+     "rows": [
+      [
+       "Que troca por o qual",
+       "Pronome relativo"
+      ],
+      [
+       "Oração com que vira isso",
+       "Conjunção integrante"
+      ],
+      [
+       "Que pode ser retirado",
+       "Partícula expletiva"
+      ],
+      [
+       "Ter que = ter de",
+       "Preposição"
+      ],
+      [
+       "VTD + se › ser + particípio",
+       "Partícula apassivadora"
+      ],
+      [
+       "VTI/VI + se",
+       "Índice de indeterminação"
+      ],
+      [
+       "Se = caso",
+       "Conjunção condicional"
+      ],
+      [
+       "Oração com se vira isso",
+       "Conjunção integrante"
+      ]
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "QUE E SE",
+  "rootSub": "classes e funções",
+  "left": [
+   {
+    "label": "Que relativo",
+    "items": [
+     "troca por o qual",
+     "retoma antecedente",
+     "tem função sintática"
+    ]
+   },
+   {
+    "label": "Que integrante",
+    "items": [
+     "oração = isso",
+     "só liga",
+     "espero que…"
+    ]
+   },
+   {
+    "label": "Que conjunção",
+    "items": [
+     "tanto que: consequência",
+     "mais que: comparação",
+     "venha, que: explicação"
+    ]
+   },
+   {
+    "label": "Que: outros",
+    "items": [
+     "que difícil: advérbio",
+     "tenho que: preposição",
+     "um quê: substantivo"
+    ]
+   },
+   {
+    "label": "Que expletivo",
+    "items": [
+     "quase que caí",
+     "eu é que decidi",
+     "pode sair"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Se pronome",
+    "items": [
+     "reflexivo: se feriu",
+     "recíproco: se acusaram",
+     "parte do verbo: queixar-se"
+    ]
+   },
+   {
+    "label": "Apassivador",
+    "items": [
+     "VTD + se",
+     "verbo concorda",
+     "vendem-se casas"
+    ]
+   },
+   {
+    "label": "Indeterminador",
+    "items": [
+     "VTI/VI + se",
+     "singular",
+     "precisa-se de"
+    ]
+   },
+   {
+    "label": "Se conjunção",
+    "items": [
+     "condicional: caso",
+     "integrante: não sei se",
+     "causal: já que"
+    ]
+   },
+   {
+    "label": "Se expletivo",
+    "items": [
+     "foi-se embora",
+     "passaram-se os dias",
+     "pode sair"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “A testemunha que depôs ontem foi ameaçada”, o que é pronome relativo.",
+    "comment": "**Certo.** Retoma testemunha: a qual depôs ontem."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Afirmou que não estava no local”, o que é pronome relativo.",
+    "comment": "**Errado.** A oração equivale a isso: conjunção integrante."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Tenho que comparecer à audiência”, o que equivale à preposição de.",
+    "comment": "**Certo.** Ter que = ter de."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Que operação bem planejada!”, o que é conjunção integrante.",
+    "comment": "**Errado.** Acompanha o substantivo em exclamação: pronome indefinido (adjetivo)."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Investigaram-se as denúncias”, o se é partícula apassivadora.",
+    "comment": "**Certo.** As denúncias foram investigadas."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Vive-se bem nesta cidade”, o se é partícula apassivadora.",
+    "comment": "**Errado.** Viver é intransitivo: o se indetermina o sujeito."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O réu queixou-se do tratamento”, o se é parte integrante do verbo.",
+    "comment": "**Certo.** Queixar-se é verbo pronominal."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Se chover, a operação será adiada”, o se é conjunção integrante.",
+    "comment": "**Errado.** Introduz condição: conjunção condicional."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Os dois agentes se cumprimentaram”, o se tem valor recíproco.",
+    "comment": "**Certo.** A ação é mútua."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Aluga-se salas comerciais”, a concordância está correta, pois o se indetermina o sujeito.",
+    "comment": "**Errado.** Alugar é transitivo direto: alugam-se salas comerciais (passiva sintética)."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "id": "lp-regencia-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-12"
+ ],
+ "kind": "resumo",
+ "title": "Regência nominal e verbal",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 35,
+ "pdf": "portugues_regencia.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Verbos cujo **sentido muda com a regência**, **preposição antes do relativo** e a regência que gera **crase**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Verbos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Regência"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "assistir",
+       "**a** = ver · OD = ajudar · **a** alguém = caber direito"
+      ],
+      [
+       "aspirar",
+       "OD = inspirar · **a** = desejar"
+      ],
+      [
+       "visar",
+       "OD = mirar, pôr visto · **a** = pretender"
+      ],
+      [
+       "obedecer",
+       "**a**"
+      ],
+      [
+       "preferir",
+       "algo **a** algo (sem *mais*, sem *do que*)"
+      ],
+      [
+       "chegar, ir",
+       "**a** (não *em*)"
+      ],
+      [
+       "implicar",
+       "OD = acarretar (sem *em*)"
+      ],
+      [
+       "proceder",
+       "**a** = realizar"
+      ],
+      [
+       "pagar, perdoar",
+       "coisa OD; pessoa **a**"
+      ],
+      [
+       "informar, avisar",
+       "alguém **de** algo / algo **a** alguém"
+      ],
+      [
+       "esquecer, lembrar",
+       "OD; ou *esquecer-se de, lembrar-se de*"
+      ],
+      [
+       "namorar",
+       "OD (sem *com*)"
+      ],
+      [
+       "simpatizar",
+       "**com** (não pronominal)"
+      ],
+      [
+       "residir, morar",
+       "**em**"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Nominal"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**a**: favorável, contrário, acessível, obediente, preferível, relativo.",
+      "**com**: compatível, solidário. **em**: residente, situado. **de**: suspeito, capaz, digno."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Relativos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A preposição do verbo vai para **antes do relativo**: *o cargo **a que** aspiro; os documentos **de que** preciso; a pessoa **em quem** confio*.",
+      "Verbos com regências diferentes não dividem o mesmo complemento: *Entrou **na** sala e saiu **dela**.*"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: certo × errado"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Evite",
+      "Prefira"
+     ],
+     "widths": [
+      0.5,
+      0.5
+     ],
+     "rows": [
+      [
+       "Assisti o jogo.",
+       "Assisti ao jogo."
+      ],
+      [
+       "Aspiro o cargo.",
+       "Aspiro ao cargo."
+      ],
+      [
+       "Prefiro mais isto do que aquilo.",
+       "Prefiro isto àquilo."
+      ],
+      [
+       "Cheguei em casa / no local.",
+       "Cheguei a casa / ao local."
+      ],
+      [
+       "Isso implica em custos.",
+       "Isso implica custos."
+      ],
+      [
+       "Esqueci do prazo.",
+       "Esqueci o prazo / Esqueci-me do prazo."
+      ],
+      [
+       "Paguei o advogado.",
+       "Paguei ao advogado."
+      ],
+      [
+       "O livro que gosto.",
+       "O livro de que gosto."
+      ],
+      [
+       "Namora com a colega.",
+       "Namora a colega."
+      ],
+      [
+       "Reside à Rua X.",
+       "Reside na Rua X."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Assistir **a** = ver; assistir alguém = ajudar.",
+      "Aspirar **a** = desejar.",
+      "Preferir X **a** Y.",
+      "Implicar (acarretar) é direto.",
+      "Verbo de movimento: **a**.",
+      "Pagar e perdoar: **a** pessoa.",
+      "Esquecer sem *me*, sem *de*.",
+      "Preposição sobe para antes do **que** relativo.",
+      "Sem preposição exigida, **não há crase**.",
+      "Dois verbos, duas regências: repita o complemento."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "REGÊNCIA",
+  "rootSub": "verbal e nominal",
+  "left": [
+   {
+    "label": "Assistir",
+    "items": [
+     "ao jogo: ver",
+     "o ferido: ajudar",
+     "ao réu o direito"
+    ]
+   },
+   {
+    "label": "Aspirar e visar",
+    "items": [
+     "aspirar o ar",
+     "aspirar ao cargo",
+     "visar ao bem comum"
+    ]
+   },
+   {
+    "label": "Preferir",
+    "items": [
+     "X a Y",
+     "sem mais",
+     "sem do que"
+    ]
+   },
+   {
+    "label": "Movimento",
+    "items": [
+     "chegar a",
+     "ir a",
+     "voltar a"
+    ]
+   },
+   {
+    "label": "Implicar e proceder",
+    "items": [
+     "implica custos",
+     "procedeu à oitiva",
+     "a denúncia procede"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Pessoa com a",
+    "items": [
+     "pagar ao credor",
+     "perdoar ao réu",
+     "obedecer ao chefe"
+    ]
+   },
+   {
+    "label": "Pronominais",
+    "items": [
+     "esquecer-se de",
+     "lembrar-se de",
+     "simpatizar com (não se)"
+    ]
+   },
+   {
+    "label": "Nominal",
+    "items": [
+     "favorável a",
+     "compatível com",
+     "residente em"
+    ]
+   },
+   {
+    "label": "Relativos",
+    "items": [
+     "a que aspiro",
+     "de que preciso",
+     "em quem confio"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "entrou na sala e saiu dela",
+     "namorar sem com",
+     "reside na rua"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Milhares de pessoas assistiram ao jogo”, a regência verbal está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Assistir no sentido de ver exige a preposição a."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Ele visa o cargo de perito há anos”, no sentido de almejar, a regência recomendada pela norma-padrão foi observada.",
+    "comment": "**Errado.** No sentido de pretender, recomenda-se a preposição a: visa ao cargo."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Todos devem obedecer ao regulamento”, a regência verbal está correta.",
+    "comment": "**Certo.** Obedecer é transitivo indireto e rege a preposição a."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A frase “Vou no banco depois do expediente” segue a regência prescrita pela norma-padrão.",
+    "comment": "**Errado.** Ir rege a preposição a: vou ao banco."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Prefiro a verdade à mentira”, a regência de preferir está correta.",
+    "comment": "**Certo.** Preferir algo a algo; a preposição se funde com o artigo a."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A frase “Lembrei do compromisso na última hora” segue a norma-padrão estrita.",
+    "comment": "**Errado.** Lembrar é transitivo direto (lembrei o compromisso) ou pronominal (lembrei-me do compromisso)."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Agradeci ao colega a ajuda na operação”, a regência de agradecer está correta.",
+    "comment": "**Certo.** Agradecer algo a alguém."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A frase “Ele namora com a colega de turma” segue a norma-padrão.",
+    "comment": "**Errado.** Namorar é transitivo direto: ele namora a colega."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Este é o cargo a que aspiro”, a preposição antes do relativo é exigida pela regência de aspirar.",
+    "comment": "**Certo.** Aspirar a no sentido de desejar."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Esta é a lei que me referi na reunião”, a regência está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Referir-se a: a lei a que me referi."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "id": "dc-executivo-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-10"
+ ],
+ "kind": "aprofundado",
+ "title": "Poder Executivo",
+ "subtitle": "Direito Constitucional · Organização dos Poderes",
+ "minutes": 150,
+ "pdf": "constitucional_executivo_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O Executivo é cobrado em quatro frentes: **eleição e posse** (com a nova data de posse da EC 111/2021), **dupla vacância** (eleição direta ou indireta), **atribuições delegáveis** do art. 84 e o **processo** contra o Presidente (quem autoriza, quem julga, quando ele é afastado)."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Presidencialismo"
+    },
+    {
+     "t": "p",
+     "text": "O Poder Executivo é exercido pelo **Presidente da República**, auxiliado pelos **Ministros de Estado** (art. 76). No presidencialismo, o Presidente acumula as funções de **Chefe de Estado** (representa o país nas relações internacionais) e **Chefe de Governo** (dirige a administração federal). O Executivo é **monocrático**."
+    },
+    {
+     "t": "h2",
+     "text": "2. Eleição, posse e mandato"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Ponto",
+      "Regra"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "Data",
+       "**1º turno**: primeiro domingo de **outubro**; **2º turno**: último domingo de **outubro** do ano anterior ao fim do mandato."
+      ],
+      [
+       "Quem vence",
+       "Quem obtiver a **maioria absoluta** dos votos, **não computados os brancos e os nulos** (votos válidos)."
+      ],
+      [
+       "2º turno",
+       "Se ninguém alcançar a maioria absoluta, nova eleição entre os **dois mais votados**; vence a maioria dos votos válidos."
+      ],
+      [
+       "Desistência",
+       "Se, antes do 2º turno, ocorrer **morte, desistência ou impedimento** de candidato, convoca-se o de **maior votação** entre os remanescentes."
+      ],
+      [
+       "Vice",
+       "É eleito **junto** com o Presidente registrado (chapa única)."
+      ],
+      [
+       "Posse",
+       "Em sessão do **Congresso Nacional**, com compromisso de manter, defender e cumprir a Constituição."
+      ],
+      [
+       "Prazo para assumir",
+       "Se em **10 dias** da data fixada o Presidente ou o Vice, salvo força maior, não tiver assumido, o cargo é declarado **vago**."
+      ],
+      [
+       "Mandato",
+       "**4 anos**, com início em **5 de janeiro** do ano seguinte ao da eleição; permitida **uma reeleição**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Atenção: nova data de posse (EC 111/2021)",
+     "text": "A posse do Presidente passou de 1º de janeiro para **5 de janeiro**, e a dos **Governadores**, para **6 de janeiro**. A regra vale a partir dos eleitos em **2026**, que tomam posse em **2027**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Substituição, sucessão e vacância"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O **Vice-Presidente** **substitui** o Presidente nos **impedimentos** (temporários) e o **sucede** na **vaga** (definitiva).",
+      "Impedidos ambos, ou vagos os cargos, são chamados **sucessivamente** ao exercício da Presidência: o **Presidente da Câmara**, o **Presidente do Senado** e o **Presidente do STF**. Eles apenas **substituem** temporariamente: não sucedem.",
+      "O Presidente e o Vice não podem ausentar-se do País por **mais de 15 dias** sem **licença do Congresso**, sob pena de **perda do cargo**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Dupla vacância (art. 81)",
+      "Eleição",
+      "Prazo"
+     ],
+     "widths": [
+      0.36,
+      0.34,
+      0.3
+     ],
+     "rows": [
+      [
+       "Nos **dois primeiros anos** do mandato",
+       "**Direta** (pelo povo)",
+       "**90 dias** depois de aberta a última vaga"
+      ],
+      [
+       "Nos **dois últimos anos** do mandato",
+       "**Indireta**, pelo **Congresso Nacional**, na forma da lei",
+       "**30 dias** depois da última vaga"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Em ambos os casos, os eleitos apenas **completam o período** dos antecessores (**mandato-tampão**)."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: quem sucede",
+     "text": "Só o **Vice** sucede. Os Presidentes da Câmara, do Senado e do STF **substituem** temporariamente, até a nova eleição. E a ordem é **Câmara, Senado, STF**: a banca costuma inverter Câmara e Senado."
+    },
+    {
+     "t": "h2",
+     "text": "4. Atribuições do Presidente (art. 84)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grupo",
+      "Atribuições (seleção)"
+     ],
+     "widths": [
+      0.22,
+      0.78
+     ],
+     "rows": [
+      [
+       "Chefe de Estado",
+       "Manter relações com Estados estrangeiros; **celebrar tratados**, sujeitos a referendo do Congresso; **declarar guerra** (autorizado ou referendado pelo Congresso) e celebrar a paz; exercer o **comando supremo das Forças Armadas**."
+      ],
+      [
+       "Chefe de Governo",
+       "Nomear e exonerar **Ministros de Estado**; exercer a direção superior da administração federal; iniciar o processo legislativo; **sancionar, promulgar e publicar** as leis e expedir **decretos e regulamentos** para sua fiel execução; **vetar** projetos; editar **medidas provisórias**."
+      ],
+      [
+       "Segurança do Estado",
+       "Decretar o **estado de defesa** e o **estado de sítio**; decretar e executar a **intervenção federal**."
+      ],
+      [
+       "Nomeações",
+       "Nomear, após aprovação do Senado, os Ministros do **STF** e dos Tribunais Superiores, o **PGR**, o presidente e os diretores do Banco Central; nomear **1/3** dos Ministros do TCU; nomear o **AGU** (sem aprovação do Senado)."
+      ],
+      [
+       "Clemência",
+       "Conceder **indulto** e **comutar penas**, com audiência, se necessário, dos órgãos instituídos em lei."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Atribuições delegáveis (parágrafo único)",
+     "text": "O Presidente pode delegar aos **Ministros de Estado**, ao **Procurador-Geral da República** ou ao **Advogado-Geral da União** apenas: **VI** – dispor, por **decreto**, sobre a **organização e o funcionamento** da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos, e sobre a **extinção de funções ou cargos públicos, quando vagos**; **XII** – conceder **indulto** e **comutar penas**; **XXV**, primeira parte – **prover** os cargos públicos federais. Mnemônico: **D-I-P** (Decreto autônomo, Indulto, Provimento)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O decreto do inciso VI é o **decreto autônomo**: inova na ordem jurídica sem depender de lei, nas hipóteses estritas da Constituição.",
+      "Para o STF, quem recebe a delegação para **prover** cargos também pode **desprover** (demitir), por simetria."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Responsabilidade do Presidente"
+    },
+    {
+     "t": "p",
+     "text": "**Crimes de responsabilidade** (art. 85) são infrações **político-administrativas**: atos do Presidente que atentem contra a Constituição e, especialmente, contra a existência da União; o livre exercício do Legislativo, do Judiciário, do Ministério Público e dos Poderes dos entes federados; os direitos políticos, individuais e sociais; a segurança interna; a **probidade na administração**; a **lei orçamentária**; e o cumprimento das leis e das decisões judiciais. São definidos em **lei especial** (Lei 1.079/1950), de competência da **União** (SV 46)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Crime comum",
+      "Crime de responsabilidade"
+     ],
+     "widths": [
+      0.24,
+      0.38,
+      0.38
+     ],
+     "rows": [
+      [
+       "Autorização",
+       "**Câmara**, por **2/3**",
+       "**Câmara**, por **2/3**"
+      ],
+      [
+       "Julgamento",
+       "**STF**",
+       "**Senado**, presidido pelo Presidente do STF"
+      ],
+      [
+       "Afastamento das funções",
+       "Quando o **STF recebe** a denúncia ou queixa",
+       "Quando o **Senado instaura** o processo"
+      ],
+      [
+       "Pena",
+       "A do crime",
+       "**Perda do cargo** + **inabilitação por 8 anos**"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Se, decorrido o prazo de **180 dias**, o julgamento não estiver concluído, **cessa o afastamento**, sem prejuízo do prosseguimento do processo.",
+      "Nas infrações comuns, enquanto não sobrevier **sentença condenatória**, o Presidente **não está sujeito a prisão**.",
+      "**Imunidade temporária** (§ 4º): na vigência do mandato, o Presidente **não pode ser responsabilizado** por **atos estranhos** ao exercício de suas funções. A persecução fica para depois do mandato.",
+      "Essas prerrogativas são **exclusivas do Presidente**: as Constituições estaduais **não podem** estendê-las aos **Governadores** (STF). Governadores são julgados pelo **STJ** nos crimes comuns, sem necessidade de autorização da Assembleia (ADI 5.540)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Ministros de Estado e Conselhos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Ministros de Estado** (arts. 87 e 88): escolhidos entre **brasileiros maiores de 21 anos** no exercício dos direitos políticos; **referendam** os atos e decretos do Presidente; são julgados pelo **STF** nos crimes comuns e de responsabilidade, salvo nos crimes de responsabilidade **conexos** com os do Presidente (Senado). O **Ministro da Defesa** deve ser **brasileiro nato**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Conselho da República (arts. 89 e 90)",
+      "Conselho de Defesa Nacional (art. 91)"
+     ],
+     "widths": [
+      0.18,
+      0.41,
+      0.41
+     ],
+     "rows": [
+      [
+       "Natureza",
+       "Órgão **superior de consulta** do Presidente",
+       "Órgão de **consulta** nos assuntos de **soberania nacional e defesa** do Estado democrático"
+      ],
+      [
+       "Composição",
+       "Vice-Presidente; Presidentes da Câmara e do Senado; **líderes da maioria e da minoria** de cada Casa; **Ministro da Justiça**; **6 cidadãos brasileiros natos** com mais de **35 anos** (2 nomeados pelo Presidente, 2 eleitos pelo Senado, 2 pela Câmara), mandato de **3 anos**, vedada a recondução",
+       "Vice-Presidente; Presidentes da Câmara e do Senado; Ministros da **Justiça**, da **Defesa**, das **Relações Exteriores** e do **Planejamento**; **Comandantes da Marinha, do Exército e da Aeronáutica**"
+      ],
+      [
+       "Opina sobre",
+       "**Intervenção federal**, **estado de defesa** e **estado de sítio**; questões relevantes para a estabilidade das instituições",
+       "**Declaração de guerra** e celebração da paz; estado de defesa, sítio e intervenção; uso de áreas indispensáveis à segurança do território, como a **faixa de fronteira**"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "As manifestações dos Conselhos são **opinativas**: não vinculam o Presidente. O Conselho da República tem **cidadãos** e **líderes partidários**; o de Defesa Nacional tem **militares** e Ministros ligados à defesa."
+    },
+    {
+     "t": "h2",
+     "text": "Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As alternativas copiam o texto da Constituição com **uma palavra trocada**: prazo (dia × noite, 2 × 3 anos), quórum (maioria absoluta × 2/3), competência (Câmara × Senado) ou expressão de exceção (“salvo” × “inclusive”).",
+      "No comando “assinale a alternativa **incorreta**”, marque C ou E em cada alternativa: a resposta é a única errada.",
+      "Quando duas alternativas parecem certas, uma delas extrapola o texto (“sempre”, “em qualquer hipótese”). Fique com a mais fiel à letra da lei.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Será considerado eleito Presidente da República o candidato que obtiver a maioria absoluta de votos, não computados os brancos e os nulos.",
+    "comment": "**Certo.** Art. 77, § 2º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O mandato do Presidente da República eleito em 2026 terá início em 1º de janeiro de 2027.",
+    "comment": "**Errado.** Desde a EC 111/2021, o mandato presidencial começa em 5 de janeiro do ano seguinte ao da eleição.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Se, decorridos dez dias da data fixada para a posse, o Presidente ou o Vice-Presidente, salvo motivo de força maior, não tiver assumido o cargo, este será declarado vago.",
+    "comment": "**Certo.** Art. 78, parágrafo único.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em caso de impedimento do Presidente e do Vice-Presidente, será chamado ao exercício da Presidência, em primeiro lugar, o presidente do Senado Federal.",
+    "comment": "**Errado.** A ordem é: presidente da Câmara, presidente do Senado e presidente do STF.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Vagando os cargos de Presidente e Vice-Presidente nos dois primeiros anos do mandato, far-se-á eleição direta noventa dias depois de aberta a última vaga.",
+    "comment": "**Certo.** Art. 81, caput.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "O Presidente da República pode ausentar-se do país por até trinta dias sem licença do Congresso Nacional.",
+    "comment": "**Errado.** O limite é de quinze dias; acima disso, exige-se licença, sob pena de perda do cargo.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Compete privativamente ao Presidente da República exercer o comando supremo das Forças Armadas.",
+    "comment": "**Certo.** Art. 84, XIII.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O Presidente da República pode delegar aos Ministros de Estado a competência para editar medidas provisórias.",
+    "comment": "**Errado.** Só são delegáveis as atribuições dos incisos VI, XII e XXV (primeira parte) do art. 84.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Os Ministros de Estado são escolhidos entre brasileiros maiores de vinte e um anos e no exercício dos direitos políticos.",
+    "comment": "**Certo.** Art. 87.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O Conselho da República é composto, entre outros, pelos comandantes da Marinha, do Exército e da Aeronáutica.",
+    "comment": "**Errado.** Os comandantes militares integram o Conselho de Defesa Nacional.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "Será considerado eleito Presidente da República o candidato que, registrado por partido político, obtiver",
+    "options": [
+     "a maioria simples dos votos, computados os em branco.",
+     "dois terços dos votos válidos.",
+     "a maioria absoluta de votos, não computados os em branco e os nulos.",
+     "a maioria absoluta dos votos, computados os nulos.",
+     "a maioria dos votos dos eleitores inscritos."
+    ],
+    "comment": "**Gabarito: C.** Art. 77, § 2º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "O mandato do Presidente da República é de quatro anos e, desde a Emenda Constitucional nº 111/2021, terá início em",
+    "options": [
+     "5 de janeiro do ano seguinte ao de sua eleição.",
+     "1º de janeiro do ano seguinte ao de sua eleição.",
+     "6 de janeiro do ano seguinte ao de sua eleição.",
+     "15 de março do ano seguinte ao de sua eleição.",
+     "1º de fevereiro do ano seguinte ao de sua eleição."
+    ],
+    "comment": "**Gabarito: A.** A nova data vale a partir dos eleitos em 2026. Os governadores tomam posse em 6 de janeiro.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "Em caso de impedimento do Presidente e do Vice-Presidente, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Presidência",
+    "options": [
+     "o Presidente do Senado, o Presidente da Câmara e o Presidente do STF.",
+     "o Presidente do STF, o Presidente do Senado e o Presidente da Câmara.",
+     "o Ministro da Justiça e o Presidente da Câmara.",
+     "o Presidente da Câmara e o Procurador-Geral da República.",
+     "o Presidente da Câmara dos Deputados, o do Senado Federal e o do Supremo Tribunal Federal."
+    ],
+    "comment": "**Gabarito: E.** Art. 80.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Vagando os cargos de Presidente e Vice-Presidente da República nos últimos dois anos do período presidencial,",
+    "options": [
+     "far-se-á eleição direta noventa dias depois de aberta a última vaga.",
+     "a eleição para ambos os cargos será feita trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.",
+     "assumirá o Presidente da Câmara até o fim do mandato.",
+     "far-se-á eleição direta trinta dias depois da última vaga.",
+     "assumirá o Presidente do STF até o fim do mandato."
+    ],
+    "comment": "**Gabarito: B.** Art. 81, § 1º. Os eleitos apenas completam o período.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "O Presidente da República poderá delegar aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União a atribuição de",
+    "options": [
+     "editar medidas provisórias.",
+     "vetar projetos de lei.",
+     "decretar o estado de defesa.",
+     "conceder indulto e comutar penas.",
+     "nomear Ministros do STF."
+    ],
+    "comment": "**Gabarito: D.** Art. 84, parágrafo único: são delegáveis os incisos VI (decreto autônomo), XII (indulto) e XXV, primeira parte (prover cargos).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Admitida a acusação contra o Presidente da República por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante",
+    "options": [
+     "o STF, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+     "o Senado, em qualquer caso.",
+     "o STF, em qualquer caso.",
+     "o STJ, nas infrações comuns, e o Senado, nos crimes de responsabilidade.",
+     "o Congresso Nacional, em sessão conjunta."
+    ],
+    "comment": "**Gabarito: A.** Art. 86, caput.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "O Presidente da República ficará suspenso de suas funções nas infrações penais comuns",
+    "options": [
+     "desde a autorização da Câmara dos Deputados.",
+     "desde o oferecimento da denúncia pelo PGR.",
+     "se recebida a denúncia ou queixa-crime pelo Supremo Tribunal Federal.",
+     "apenas após a condenação.",
+     "após a instauração do processo pelo Senado."
+    ],
+    "comment": "**Gabarito: C.** Art. 86, § 1º, I. Nos crimes de responsabilidade, a suspensão ocorre após a instauração do processo pelo Senado.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Integram o Conselho de Defesa Nacional, entre outros,",
+    "options": [
+     "os líderes da maioria e da minoria na Câmara.",
+     "seis cidadãos brasileiros natos.",
+     "o Procurador-Geral da República.",
+     "o Presidente do STF.",
+     "os Comandantes da Marinha, do Exército e da Aeronáutica."
+    ],
+    "comment": "**Gabarito: E.** Art. 91. Líderes partidários e seis cidadãos natos integram o Conselho da República.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Os Ministros de Estado serão escolhidos entre brasileiros",
+    "options": [
+     "natos, maiores de trinta e cinco anos.",
+     "maiores de vinte e um anos e no exercício dos direitos políticos.",
+     "maiores de dezoito anos.",
+     "natos ou naturalizados há mais de dez anos.",
+     "com notável saber jurídico."
+    ],
+    "comment": "**Gabarito: B.** Art. 87. Apenas o Ministro da Defesa deve ser brasileiro nato.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "Na vigência de seu mandato, o Presidente da República",
+    "options": [
+     "pode ser preso preventivamente.",
+     "responde a qualquer ação penal, inclusive por atos anteriores ao mandato.",
+     "não pode ser processado por crime de responsabilidade.",
+     "não pode ser responsabilizado por atos estranhos ao exercício de suas funções.",
+     "só pode ser preso após condenação em primeira instância."
+    ],
+    "comment": "**Gabarito: D.** Art. 86, § 4º. Também não está sujeito a prisão enquanto não sobrevier sentença condenatória nas infrações comuns.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 76 a 91; EC 111/2021.",
+  "Lei 1.079/1950 (crimes de responsabilidade).",
+  "Supremo Tribunal Federal: Súmula Vinculante 46; ADI 5.540.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "id": "dc-politicos-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-06"
+ ],
+ "kind": "resumo",
+ "title": "Direitos políticos e partidos (arts. 14 a 17)",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 35,
+ "pdf": "constitucional_politicos.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Idades**, quem vota de forma **obrigatória ou facultativa**, **inelegibilidade reflexa**, militar candidato e o **art. 15**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Voto"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sufrágio **universal**; voto **direto, secreto**, igual e periódico (cláusula pétrea; a obrigatoriedade **não** é).",
+      "Obrigatório: **18 a 70** anos. Facultativo: **analfabetos**, **maiores de 70**, **16 e 17 anos**.",
+      "Inalistáveis: **estrangeiros** e **conscritos** (no serviço obrigatório).",
+      "Plebiscito **antes**; referendo **depois**; iniciativa popular: **1%** do eleitorado, **5 Estados**, **0,3%** em cada."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Elegibilidade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Condições: nacionalidade, pleno gozo dos direitos políticos, alistamento, domicílio, **filiação partidária**, idade.",
+      "Idades: **35** (Presidente, Vice, Senador) · **30** (Governador) · **21** (Deputados, Prefeito, juiz de paz) · **18** (Vereador)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Inelegibilidades"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Absolutas: **inalistáveis** e **analfabetos**.",
+      "Chefes do Executivo: **uma reeleição** subsequente; para **outro cargo**, renúncia **6 meses** antes.",
+      "**Reflexa**: cônjuge e parentes até **2º grau**, **no território** do titular, salvo **reeleição**; divórcio no mandato não afasta (SV 18).",
+      "Militar: **menos de 10 anos** afasta-se; **mais de 10** é agregado e vai para a inatividade na **diplomação**.",
+      "Outros casos: **lei complementar** (LC 64/1990, Ficha Limpa).",
+      "AIME: **15 dias** da diplomação; abuso econômico, corrupção ou fraude; **segredo de justiça**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Art. 15, art. 16 e partidos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Cassação vedada**. Perda ou suspensão: naturalização cancelada, incapacidade absoluta, **condenação criminal transitada** (enquanto durarem os efeitos), recusa de obrigação a todos imposta, **improbidade**.",
+      "Lei eleitoral: vigora na **publicação**, mas não se aplica a eleição em até **1 ano**.",
+      "Partidos: **caráter nacional**, sem dinheiro **estrangeiro**, prestam contas à Justiça Eleitoral, sem organização **paramilitar**.",
+      "Sem coligação **proporcional**; **cláusula de desempenho**; infidelidade tira o mandato **só de deputados e vereadores**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Item",
+      "Regra"
+     ],
+     "widths": [
+      0.42,
+      0.58
+     ],
+     "rows": [
+      [
+       "Presidente, Vice, Senador",
+       "35 anos"
+      ],
+      [
+       "Governador e Vice",
+       "30 anos"
+      ],
+      [
+       "Deputados, Prefeito, juiz de paz",
+       "21 anos"
+      ],
+      [
+       "Vereador",
+       "18 anos"
+      ],
+      [
+       "Desincompatibilização",
+       "6 meses antes, para outro cargo"
+      ],
+      [
+       "Inelegibilidade reflexa",
+       "Até 2º grau, no território"
+      ],
+      [
+       "Militar com menos de 10 anos",
+       "Afasta-se da atividade"
+      ],
+      [
+       "Militar com mais de 10 anos",
+       "Agregado; inatividade na diplomação"
+      ],
+      [
+       "AIME",
+       "15 dias da diplomação"
+      ],
+      [
+       "Anterioridade eleitoral",
+       "1 ano"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Analfabeto **vota**, mas **não é votado**.",
+      "Conscrito é **inalistável**.",
+      "Senador: **35 anos**.",
+      "Reeleição **sem** renúncia.",
+      "Parente: só **no território** do titular.",
+      "Divórcio no mandato **não** salva (SV 18).",
+      "Prefeito itinerante: **vedado**.",
+      "Cassação de direitos políticos: **vedada**.",
+      "Lei eleitoral: **vigora já**, aplica após **1 ano**.",
+      "Infidelidade: **só proporcionais**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "DIREITOS POLÍTICOS",
+  "rootSub": "arts. 14 a 17",
+  "left": [
+   {
+    "label": "Voto",
+    "items": [
+     "direto e secreto",
+     "universal, periódico",
+     "obrigatório 18 a 70"
+    ]
+   },
+   {
+    "label": "Facultativo",
+    "items": [
+     "analfabetos",
+     "maiores de 70",
+     "16 e 17 anos"
+    ]
+   },
+   {
+    "label": "Inalistáveis",
+    "items": [
+     "estrangeiros",
+     "conscritos",
+     "logo, inelegíveis"
+    ]
+   },
+   {
+    "label": "Idades",
+    "items": [
+     "35: Presidente, Senador",
+     "30: Governador",
+     "21: Deputado, Prefeito"
+    ]
+   },
+   {
+    "label": "Democracia direta",
+    "items": [
+     "plebiscito: antes",
+     "referendo: depois",
+     "iniciativa: 1%"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Executivo",
+    "items": [
+     "uma reeleição",
+     "outro cargo: 6 meses",
+     "sem prefeito itinerante"
+    ]
+   },
+   {
+    "label": "Reflexa",
+    "items": [
+     "cônjuge e 2º grau",
+     "no território",
+     "salvo reeleição"
+    ]
+   },
+   {
+    "label": "Militar",
+    "items": [
+     "< 10 anos: afasta",
+     "> 10 anos: agregado",
+     "inativo na diplomação"
+    ]
+   },
+   {
+    "label": "Art. 15",
+    "items": [
+     "cassação vedada",
+     "condenação criminal",
+     "improbidade"
+    ]
+   },
+   {
+    "label": "Partidos",
+    "items": [
+     "caráter nacional",
+     "sem coligação proporcional",
+     "fidelidade"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Os estrangeiros não podem alistar-se como eleitores.",
+    "comment": "**Certo.** Art. 14, § 2º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O voto é facultativo para os maiores de sessenta e cinco anos.",
+    "comment": "**Errado.** É facultativo para os maiores de setenta anos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A filiação partidária é condição de elegibilidade.",
+    "comment": "**Certo.** Art. 14, § 3º, V. Não há candidatura avulsa.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A idade mínima para o cargo de vereador é de vinte e um anos.",
+    "comment": "**Errado.** Para vereador, exige-se dezoito anos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O cônjuge do governador é inelegível, no território do estado, salvo se já titular de mandato eletivo e candidato à reeleição.",
+    "comment": "**Certo.** Art. 14, § 7º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "D",
+    "text": "São inalistáveis como eleitores",
+    "options": [
+     "os analfabetos e os maiores de setenta anos.",
+     "os menores de dezoito anos.",
+     "os militares de carreira.",
+     "os estrangeiros e, durante o serviço militar obrigatório, os conscritos.",
+     "os presos provisórios."
+    ],
+    "comment": "**Gabarito: D.** Art. 14, § 2º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "A idade mínima para concorrer ao cargo de Governador é de",
+    "options": [
+     "trinta anos.",
+     "trinta e cinco anos.",
+     "vinte e um anos.",
+     "dezoito anos.",
+     "vinte e cinco anos."
+    ],
+    "comment": "**Gabarito: A.** Art. 14, § 3º, VI, b.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "C",
+    "text": "A perda ou suspensão de direitos políticos NÃO ocorre em caso de",
+    "options": [
+     "condenação criminal transitada em julgado.",
+     "improbidade administrativa.",
+     "cassação por ato do Poder Executivo.",
+     "incapacidade civil absoluta.",
+     "cancelamento da naturalização por sentença transitada em julgado."
+    ],
+    "comment": "**Gabarito: C.** A cassação de direitos políticos é vedada (art. 15).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "E",
+    "text": "A dissolução do vínculo conjugal no curso do mandato, segundo a Súmula Vinculante 18,",
+    "options": [
+     "afasta a inelegibilidade reflexa.",
+     "afasta a inelegibilidade apenas para cargos proporcionais.",
+     "torna o ex-cônjuge inelegível em todo o país.",
+     "depende de decisão do TSE.",
+     "não afasta a inelegibilidade prevista no § 7º do art. 14."
+    ],
+    "comment": "**Gabarito: E.** SV 18.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "B",
+    "text": "O voto, nos termos do art. 14 da Constituição, é",
+    "options": [
+     "indireto e secreto.",
+     "direto e secreto, com valor igual para todos.",
+     "facultativo para todos.",
+     "aberto e universal.",
+     "direto, com peso maior para os eleitores alfabetizados."
+    ],
+    "comment": "**Gabarito: B.** Art. 14, caput.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 14 a 17.",
+  "Supremo Tribunal Federal: Súmula Vinculante 18; RE 637.485; ADI 5.081.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

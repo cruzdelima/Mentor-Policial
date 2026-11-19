@@ -1,0 +1,693 @@
+{
+ "id": "lp-pronomes-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-04"
+ ],
+ "kind": "aprofundado",
+ "title": "Pronomes: emprego e colocação",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 150,
+ "pdf": "portugues_pronomes_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Pronome é um dos assuntos mais rentáveis de Português nas provas, porque aparece em três tipos de item: **referência** (“o pronome X retoma Y”), **emprego** (*o* × *lhe*, *este* × *esse*, *cujo*, *onde*) e **colocação** (“a posposição do pronome manteria a correção”). Estude nessa ordem, faça as 20 questões e revise pelo **PDF de resumo**."
+    },
+    {
+     "t": "h2",
+     "text": "1. O que é pronome"
+    },
+    {
+     "t": "p",
+     "text": "**Pronome** é a palavra que **substitui** ou **acompanha** o substantivo, relacionando-o a uma das pessoas do discurso: quem fala (1ª), com quem se fala (2ª) e de quem ou de que se fala (3ª)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Pronome substantivo**: ocupa o lugar do nome — ***Ele** chegou. **Isso** é grave. **Alguém** ligou.*",
+      "**Pronome adjetivo**: acompanha o nome — ***Meu** colega chegou. **Este** caso é grave. **Algum** vizinho ligou.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Pronomes pessoais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pessoa",
+      "Retos (sujeito)",
+      "Oblíquos átonos (sem preposição)",
+      "Oblíquos tônicos (com preposição)"
+     ],
+     "widths": [
+      0.16,
+      0.22,
+      0.32,
+      0.3
+     ],
+     "rows": [
+      [
+       "1ª singular",
+       "eu",
+       "me",
+       "mim, comigo"
+      ],
+      [
+       "2ª singular",
+       "tu",
+       "te",
+       "ti, contigo"
+      ],
+      [
+       "3ª singular",
+       "ele, ela",
+       "o, a, lhe, se",
+       "ele, ela, si, consigo"
+      ],
+      [
+       "1ª plural",
+       "nós",
+       "nos",
+       "nós, conosco"
+      ],
+      [
+       "2ª plural",
+       "vós",
+       "vos",
+       "vós, convosco"
+      ],
+      [
+       "3ª plural",
+       "eles, elas",
+       "os, as, lhes, se",
+       "eles, elas, si, consigo"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Reto × oblíquo"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Os **retos** funcionam como **sujeito** (ou predicativo); os **oblíquos**, como **complemento**.",
+      "**Para eu fazer** × **para mim**: usa-se *eu* quando o pronome é **sujeito de um verbo no infinitivo** — *Trouxeram o relatório para **eu** assinar.* Sem verbo, usa-se *mim* — *Trouxeram o relatório para **mim**.*",
+      "**Entre mim e ti / entre mim e ele**: depois de preposição, usam-se as formas oblíquas tônicas — *Não há segredos entre **mim** e **ti**.* (e não “entre eu e tu”).",
+      "**Com nós × conosco**: usa-se *com nós* quando vem seguido de palavra de reforço (*mesmos, próprios, todos, dois, que*) — *Falou **com nós dois**. Falou **conosco**.*",
+      "**Si e consigo** são **reflexivos**: referem-se ao próprio sujeito — *Ele só pensa em **si**. Levou os documentos **consigo**.* Não se usam para o interlocutor (“quero falar consigo” é desvio no padrão brasileiro)."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "O, a, os, as × lhe, lhes"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pronome",
+      "Função",
+      "Exemplo"
+     ],
+     "widths": [
+      0.22,
+      0.38,
+      0.4
+     ],
+     "rows": [
+      [
+       "o, a, os, as",
+       "**Objeto direto** (verbo sem preposição)",
+       "Prendi o suspeito › Prendi-**o**."
+      ],
+      [
+       "lhe, lhes",
+       "**Objeto indireto** (verbo com preposição *a* ou *para*), em regra referente a pessoa",
+       "Obedeço ao chefe › Obedeço-**lhe**. Entreguei o laudo ao juiz › Entreguei-**lhe** o laudo."
+      ],
+      [
+       "me, te, se, nos, vos",
+       "Objeto direto **ou** indireto",
+       "Viu-**me** (OD). Obedeceu-**me** (OI)."
+      ],
+      [
+       "lhe com valor possessivo",
+       "Equivale a *seu, dele*",
+       "Roubaram-**lhe** a carteira (= a carteira dele)."
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo termina em",
+      "O pronome o(s), a(s) vira",
+      "Exemplos"
+     ],
+     "widths": [
+      0.26,
+      0.3,
+      0.44
+     ],
+     "rows": [
+      [
+       "R, S ou Z",
+       "**lo, la, los, las** (a consoante cai)",
+       "prender + o = prendê-**lo**; fiz + a = fi-**la**; conduzimos + os = conduzimo-**los**"
+      ],
+      [
+       "Som nasal (M, ÃO, ÕE)",
+       "**no, na, nos, nas**",
+       "prenderam + o = prenderam-**no**; dão + as = dão-**nas**; põe + o = põe-**no**"
+      ],
+      [
+       "Outras terminações",
+       "o, a, os, as",
+       "prendi-**o**, encontrei-**a**"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: “vi ele”, “lhe vi”",
+     "text": "No padrão formal, **ele/ela não funcionam como objeto direto**: *Vi-**o*** (e não “vi ele”). E **lhe não substitui objeto direto**: *Eu **o** vi* (e não “eu lhe vi”); *Eu **a** convidei* (e não “lhe convidei”). Teste: se o verbo não pede preposição, use *o/a*."
+    },
+    {
+     "t": "h3",
+     "text": "Pronomes de tratamento"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Referem-se à **2ª pessoa** (com quem se fala), mas levam verbo e pronomes para a **3ª pessoa**: *Vossa Excelência **deve** apresentar **seu** relatório* (e não “vosso”).",
+      "**Vossa** para falar **com** a autoridade; **Sua** para falar **da** autoridade: *Vossa Excelência decidiu?* × *Sua Excelência, o Ministro, decidiu.*",
+      "A concordância de gênero se faz com o **sexo da pessoa**: *Vossa Excelência está **atarefado*** (homem) / ***atarefada*** (mulher).",
+      "**Vossa Excelência**: altas autoridades dos três Poderes. **Vossa Senhoria**: demais autoridades e particulares. **Você** é pronome de tratamento e também pede verbo na 3ª pessoa.",
+      "O Manual de Redação da Presidência (3ª ed.) **aboliu** os vocativos e fechos rebuscados: não se usam *digníssimo* nem *ilustríssimo*; *doutor* não é forma de tratamento, e sim título acadêmico."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Pronomes possessivos"
+    },
+    {
+     "t": "p",
+     "text": "Indicam posse em relação às pessoas do discurso: **meu, teu, seu, nosso, vosso** e flexões."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Ambiguidade de “seu”**: *O delegado disse ao escrivão que **seu** relatório estava incompleto* (de quem?). Desfaz-se com **dele, dela** ou reescrevendo a frase. A banca cobra tanto a identificação da ambiguidade quanto a solução.",
+      "Antes de possessivo, o **artigo é facultativo**: *(a) minha casa*.",
+      "Com partes do corpo, peças de roupa e faculdades do espírito, dispensa-se o possessivo: *Machucou **a** mão* (e não “a sua mão”).",
+      "O possessivo pode indicar aproximação (*tem seus quarenta anos*) ou afeto (*meu caro amigo*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Pronomes demonstrativos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pronome",
+      "Espaço",
+      "Tempo",
+      "Texto"
+     ],
+     "widths": [
+      0.22,
+      0.26,
+      0.24,
+      0.28
+     ],
+     "rows": [
+      [
+       "**este, esta, isto**",
+       "Perto de quem fala",
+       "Presente",
+       "O que **ainda vai ser dito** (catáfora)"
+      ],
+      [
+       "**esse, essa, isso**",
+       "Perto de com quem se fala",
+       "Passado ou futuro próximos",
+       "O que **já foi dito** (anáfora)"
+      ],
+      [
+       "**aquele, aquela, aquilo**",
+       "Longe dos dois",
+       "Passado distante",
+       "Termo mais distante, em oposição a *este*"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "*A ordem é **esta**: ninguém sai.* (anuncia) × *Ninguém sai: **essa** é a ordem.* (retoma)",
+      "Na retomada de **dois termos**, **este** refere-se ao **mais próximo** (o último citado) e **aquele**, ao **mais distante** (o primeiro): *Agentes e escrivães foram convocados; **estes** [escrivães] para os cartórios, **aqueles** [agentes] para as ruas.*",
+      "**O, a, os, as** são demonstrativos quando equivalem a *aquele(s), aquela(s), aquilo, isso*: ***O** que ele disse é falso* (= aquilo que); *Não **o** disse* (= isso); *Das provas, só aceitou **as** que eram lícitas* (= aquelas).",
+      "Também funcionam como demonstrativos **mesmo, próprio, tal, semelhante**: *Não diga **tal** coisa.* Evite *o mesmo* como substituto de *ele*: “o réu chegou e o mesmo foi ouvido” é construção condenada."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Pronomes relativos"
+    },
+    {
+     "t": "p",
+     "text": "Retomam um termo anterior (o **antecedente**) e introduzem **oração subordinada adjetiva**: **que, quem, o qual, cujo, onde, quanto, como**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Relativo",
+      "Emprego",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.44,
+      0.38
+     ],
+     "rows": [
+      [
+       "que",
+       "Universal: pessoa ou coisa",
+       "O agente **que** fez a prisão."
+      ],
+      [
+       "quem",
+       "Só pessoa; sempre precedido de preposição quando tem antecedente",
+       "A testemunha **a quem** me referi."
+      ],
+      [
+       "o qual (e flexões)",
+       "Pessoa ou coisa; evita ambiguidade; obrigatório depois de preposições de duas ou mais sílabas e locuções",
+       "A lei **segundo a qual**…; o prazo **durante o qual**…"
+      ],
+      [
+       "cujo (e flexões)",
+       "Indica **posse**; fica entre possuidor e possuído; concorda com o **possuído**; **não admite artigo** depois",
+       "O réu **cuja** defesa foi rejeitada."
+      ],
+      [
+       "onde",
+       "Só para **lugar físico** (= em que, no qual)",
+       "A cidade **onde** nasci."
+      ],
+      [
+       "quanto",
+       "Depois de *tudo, todos, tanto*",
+       "Tudo **quanto** disse foi anotado."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "A preposição vem antes do relativo",
+     "text": "Se o verbo (ou o nome) da oração adjetiva pede preposição, ela aparece **antes do pronome relativo**: *o filme **a que** assisti* (assistir a); *a pessoa **de quem** gosto* (gostar de); *o cargo **a que** aspiro* (aspirar a); *a lei **a que** obedeço* (obedecer a); *o livro **de cujo** autor falei* (falar de); *o colega **em cuja** casa estive* (estar em)."
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: onde e cujo",
+     "text": "**Onde** só retoma lugar: “a situação onde”, “o momento onde”, “o processo onde” são desvios (use **em que** ou **no qual**). **Aonde** só com verbo de movimento que pede *a*: *o lugar aonde vou*. **Cujo** não pode ser trocado por “que o” nem seguido de artigo: “o réu que o advogado dele” e “cujo o advogado” estão errados."
+    },
+    {
+     "t": "h2",
+     "text": "6. Pronomes indefinidos e interrogativos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Indefinidos** referem-se à 3ª pessoa de modo vago: *algum, nenhum, todo, muito, pouco, certo, vários, qualquer, outro, tanto, alguém, ninguém, tudo, nada, cada, algo, outrem*.",
+      "**Algum** depois do substantivo tem valor **negativo**: *Não recebeu ajuda **alguma*** (= nenhuma).",
+      "**Certo** antes do substantivo é pronome indefinido (***certo** dia*); depois, é adjetivo (*o dia **certo***).",
+      "**Todo o** (inteiro) × **todo** (qualquer). **Nenhum** (pronome) × **nem um** (nem um sequer, numeral).",
+      "**Cada** não se usa sozinho no padrão formal: *Custam dez reais **cada um*** (e não “dez reais cada”).",
+      "**Qualquer** tem plural **quaisquer**. **Bastante** é pronome quando acompanha substantivo e varia: ***bastantes** provas* (= muitas).",
+      "**Interrogativos**: *que, quem, qual, quanto*, em perguntas diretas ou indiretas — ***Quem** assinou? Não sei **quem** assinou.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "7. O pronome como elemento de coesão"
+    },
+    {
+     "t": "p",
+     "text": "Grande parte dos itens de prova pergunta **a que termo o pronome se refere**. O pronome pode retomar algo já dito (**anáfora**) ou anunciar algo que virá (**catáfora**)."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Método**: troque o pronome pelo termo que a banca indicou e releia a frase. Se o sentido se mantiver, é o referente.",
+      "Confira a **concordância**: *o(s), a(s), ele(s), ela(s)* concordam em gênero e número com o referente; isso elimina candidatos.",
+      "Pronomes como **isso, isto, o** (= isso) podem retomar **uma oração ou uma ideia inteira**, não só uma palavra: *O suspeito negou o crime, mas ninguém acreditou **nisso**.*",
+      "O **relativo** retoma o termo imediatamente anterior — cuidado quando há dois candidatos: *o filho do delegado **que** chegou* (ambíguo); *o filho do delegado, **o qual** chegou* (o filho); *a filha do delegado, **o qual** chegou* (o delegado)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "8. Colocação pronominal"
+    },
+    {
+     "t": "p",
+     "text": "Trata da posição dos **pronomes oblíquos átonos** (*me, te, se, o, a, lhe, nos, vos, os, as, lhes*) em relação ao verbo."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Posição",
+      "Nome",
+      "Exemplo"
+     ],
+     "widths": [
+      0.3,
+      0.2,
+      0.5
+     ],
+     "rows": [
+      [
+       "Antes do verbo",
+       "**Próclise**",
+       "Não **me** disseram a verdade."
+      ],
+      [
+       "No meio do verbo",
+       "**Mesóclise**",
+       "Dir-**me**-ão a verdade."
+      ],
+      [
+       "Depois do verbo",
+       "**Ênclise**",
+       "Disseram-**me** a verdade."
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Próclise: quando há palavra atrativa"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Atrai o pronome",
+      "Exemplos"
+     ],
+     "widths": [
+      0.42,
+      0.58
+     ],
+     "rows": [
+      [
+       "Palavra **negativa** (não, nunca, jamais, ninguém, nada, nem)",
+       "**Não se** esqueça. **Ninguém me** avisou."
+      ],
+      [
+       "**Advérbio** (sem vírgula depois)",
+       "**Hoje se** sabe a verdade. **Sempre me** ajudou. **Aqui se** trabalha."
+      ],
+      [
+       "Pronome **relativo**",
+       "O agente **que me** atendeu. O local **onde se** escondeu."
+      ],
+      [
+       "Pronome **indefinido** e **demonstrativo** neutro",
+       "**Tudo se** resolve. **Alguém me** chamou. **Isso me** preocupa."
+      ],
+      [
+       "**Conjunção subordinativa**",
+       "**Quando me** viu, fugiu. **Embora se** esforce… Disse **que se** atrasaria."
+      ],
+      [
+       "Pronome ou advérbio **interrogativo**",
+       "**Quem te** contou? **Por que se** calou?"
+      ],
+      [
+       "Frases **exclamativas** e **optativas**",
+       "**Deus te** proteja! **Como se** enganou!"
+      ],
+      [
+       "**Em + gerúndio**",
+       "**Em se** tratando de provas…"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Mesóclise"
+    },
+    {
+     "t": "p",
+     "text": "Só ocorre com verbo no **futuro do presente** ou no **futuro do pretérito**, quando **não há palavra atrativa**: *Realizar-**se**-á a audiência. Dir-**lhe**-ia a verdade.* Havendo atração, a próclise é obrigatória: *Não **se** realizará a audiência.*"
+    },
+    {
+     "t": "h3",
+     "text": "Ênclise"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "No **início da frase** ou depois de pausa: *Entregaram-**me** o laudo.* No padrão formal, **não se inicia frase com pronome oblíquo átono**.",
+      "Com **imperativo afirmativo**: *Sente-**se**. Diga-**me** a verdade.*",
+      "Com **gerúndio** (sem *em*): *Saiu, deixando-**nos** preocupados.*",
+      "Com **infinitivo impessoal**: *Era preciso avisá-**lo**.*"
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Duas proibições absolutas",
+     "text": "**Nunca** se usa ênclise com verbo no **futuro** (“farei-o”, “diria-me” estão errados: *fá-lo-ei* ou *eu o farei*; *dir-me-ia* ou *ele me diria*). **Nunca** se usa ênclise com **particípio** (“tinha dado-me” está errado: *tinha-me dado* ou *me tinha dado*)."
+    },
+    {
+     "t": "h3",
+     "text": "Casos facultativos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sujeito expresso** antes do verbo, sem palavra atrativa: próclise ou ênclise — *O delegado **me** chamou* / *O delegado chamou-**me**.*",
+      "**Conjunção coordenativa**: *Chegou e **se** sentou* / *Chegou e sentou-**se**.*",
+      "**Infinitivo** precedido de preposição ou de palavra atrativa: *Para não **o** incomodar* / *Para não incomodá-**lo**.*"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Locuções verbais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Estrutura",
+      "Sem palavra atrativa",
+      "Com palavra atrativa"
+     ],
+     "widths": [
+      0.28,
+      0.36,
+      0.36
+     ],
+     "rows": [
+      [
+       "Auxiliar + **infinitivo** ou **gerúndio**",
+       "Devo-**lhe** dizer. / Devo dizer-**lhe**. Estava-**me** esperando. / Estava esperando-**me**.",
+       "Não **lhe** devo dizer. / Não devo dizer-**lhe**."
+      ],
+      [
+       "Auxiliar + **particípio**",
+       "Tinha-**me** avisado. (pronome junto ao **auxiliar**)",
+       "Não **me** tinha avisado."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "No português do Brasil, é comum o pronome solto entre os dois verbos, sem hífen (*devo lhe dizer*). Gramáticos modernos aceitam a construção; em prova, prefira as formas do quadro, e nunca ligue o pronome ao particípio."
+    },
+    {
+     "t": "h2",
+     "text": "9. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Referência**: “o pronome X (l. 12) retoma Y”. Substitua e confira concordância e sentido.",
+      "**Substituição de complemento por pronome**: “o termo destacado poderia ser substituído por *lhe*” — veja se o verbo pede preposição.",
+      "**Colocação**: “o pronome poderia ser deslocado para depois do verbo” — procure a palavra atrativa. Se houver, o item está errado.",
+      "**Relativos**: troca de *onde* por *em que* (correta para lugar), de *que* por *o qual* (correta se a concordância for mantida), e supressão da preposição antes do relativo (incorreta).",
+      "**Demonstrativos**: troca de *esse* por *este* em retomadas — a banca costuma considerar que a troca **prejudica a coesão** quando o termo já foi citado.",
+      "**Tratamento**: concordância na 3ª pessoa e uso de *Vossa* × *Sua*."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O relatório foi entregue para eu revisar”, o emprego do pronome eu está correto, pois ele funciona como sujeito do verbo revisar.",
+    "comment": "**Certo.** Antes de infinitivo, como sujeito, usa-se o pronome reto. Sem o verbo, seria para mim.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Está de acordo com a norma-padrão a frase “Não há divergências entre eu e o diretor”.",
+    "comment": "**Errado.** Depois de preposição, usa-se a forma oblíqua tônica: entre mim e o diretor.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O agente encontrou o foragido e conduziu-o à delegacia”, o pronome o exerce a função de objeto direto.",
+    "comment": "**Certo.** Conduzir alguém: verbo transitivo direto; o pronome retoma o foragido.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Na frase “Eu lhe vi ontem no fórum”, o pronome lhe está empregado de acordo com a norma-padrão.",
+    "comment": "**Errado.** Ver é transitivo direto: Eu o vi (ou a vi). Lhe substitui objeto indireto.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A junção da forma verbal prenderam com o pronome o resulta em prenderam-no.",
+    "comment": "**Certo.** Depois de som nasal, o pronome assume as formas no, na, nos, nas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Vossa Excelência deveis apresentar vosso parecer”, a concordância com o pronome de tratamento está correta.",
+    "comment": "**Errado.** Pronomes de tratamento levam verbo e possessivo para a 3ª pessoa: Vossa Excelência deve apresentar seu parecer.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “O servidor cuja ficha foi analisada será promovido”, o pronome cuja estabelece relação de posse e concorda com o substantivo ficha.",
+    "comment": "**Certo.** Cujo concorda com o termo possuído e fica entre possuidor (servidor) e possuído (ficha).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Vivemos um momento onde a prudência é necessária”, o pronome onde está empregado de acordo com a norma-padrão.",
+    "comment": "**Errado.** Onde só retoma lugar físico. O adequado é em que ou no qual.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “Não me informaram o horário”, a próclise é obrigatória em razão da presença de palavra negativa.",
+    "comment": "**Certo.** O advérbio não atrai o pronome para antes do verbo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A frase “Farei-o assim que possível” apresenta colocação pronominal correta.",
+    "comment": "**Errado.** Não se usa ênclise com futuro: Fá-lo-ei ou Eu o farei.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em “O delegado disse ao escrivão que seu relatório estava incompleto”, o emprego do pronome seu gera ambiguidade.",
+    "comment": "**Certo.** Não se sabe se o relatório é do delegado ou do escrivão.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “Quando se constatou a fraude, a auditoria foi ampliada”, o pronome se poderia ser deslocado para depois da forma verbal, sem prejuízo para a correção gramatical.",
+    "comment": "**Errado.** A conjunção subordinativa quando atrai o pronome: a próclise é obrigatória.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "No trecho “Peritos e escrivães participaram da operação: estes cuidaram dos registros, e aqueles, dos vestígios”, o pronome estes retoma escrivães.",
+    "comment": "**Certo.** Na retomada de dois termos, este refere-se ao mais próximo, e aquele, ao mais distante (peritos).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "No período “Este é o documento que me referi na reunião”, a regência do verbo está respeitada.",
+    "comment": "**Errado.** Referir-se a: a preposição deve anteceder o relativo — o documento a que me referi.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "Em “O que ele declarou foi registrado”, o vocábulo o é pronome demonstrativo e equivale a aquilo.",
+    "comment": "**Certo.** Antes do relativo que, o pode ser demonstrativo: aquilo que ele declarou.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Em “Tinha informado-me do prazo”, o pronome está corretamente colocado, visto que não há palavra atrativa.",
+    "comment": "**Errado.** Não se usa ênclise com particípio. O pronome liga-se ao auxiliar: Tinha-me informado.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “Devo dizer-lhe a verdade”, o pronome poderia ser colocado depois do verbo auxiliar (“Devo-lhe dizer a verdade”), mantendo-se a correção gramatical.",
+    "comment": "**Certo.** Em locução com infinitivo, sem palavra atrativa, o pronome pode vir depois do auxiliar ou depois do verbo principal.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Em “Não recebeu apoio algum da chefia”, o pronome algum tem sentido afirmativo e equivale a certo apoio.",
+    "comment": "**Errado.** Posposto ao substantivo, algum tem valor negativo: equivale a nenhum.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "No período “O suspeito negou participação no crime, mas ninguém acreditou nisso”, o pronome contido em nisso retoma a ideia expressa na oração anterior.",
+    "comment": "**Certo.** Isso retoma todo o conteúdo: o fato de o suspeito ter negado participação.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "Em “Me disseram que o prazo foi prorrogado”, a colocação do pronome no início do período está de acordo com a norma-padrão da língua escrita.",
+    "comment": "**Errado.** No padrão formal, não se inicia período com pronome oblíquo átono: Disseram-me.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Manual de Redação da Presidência da República, 3ª edição (pronomes de tratamento).",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

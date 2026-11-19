@@ -1,0 +1,337 @@
+{
+ "id": "lp-concordancia-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-11"
+ ],
+ "kind": "resumo",
+ "title": "Concordância nominal e verbal",
+ "subtitle": "Língua Portuguesa · Sintaxe",
+ "minutes": 40,
+ "pdf": "portugues_concordancia.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Sujeito posposto**, **verbos impessoais**, **pronome se** e **palavras variáveis** (anexo, mesmo, obrigado). Ache o sujeito antes de julgar o verbo."
+    },
+    {
+     "t": "h2",
+     "text": "1. Verbal"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Verbo concorda com o **núcleo** do sujeito, mesmo posposto: *Faltam dois documentos*.",
+      "Sujeito composto **anteposto**: plural. **Posposto**: plural ou com o mais próximo.",
+      "*Ou* excludente: singular. *Nem… nem*: plural. Resumido por *tudo*: singular.",
+      "Coletivo: singular; coletivo + especificador plural: singular ou plural (*a maioria dos agentes aprovou/aprovaram*).",
+      "**Mais de um**: singular. **Mais de / cerca de + número**: concorda com o número.",
+      "**Que** relativo: com o antecedente (*fui eu que fiz*). **Quem**: 3ª pessoa ou antecedente.",
+      "**Um dos que**: plural."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Impessoais e o se"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Haver** (existir, tempo) e **fazer** (tempo): singular, inclusive o auxiliar.",
+      "**Existir, ocorrer**: concordam com o sujeito.",
+      "**VTD + se**: concorda (*vendem-se casas*). **VTI + se**: singular (*precisa-se de*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Ser"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Com *tudo, isso* + predicativo plural: *Tudo são flores*.",
+      "Horas e datas: com o numeral — *São duas horas. É meio-dia. É uma hora.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Nominal"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Adjetivo **posposto** a vários substantivos: plural ou com o mais próximo. **Anteposto**: com o mais próximo.",
+      "**Variam**: anexo, incluso, obrigado, mesmo, próprio, quite. **Não variam**: menos, em anexo, alerta.",
+      "**Meio, bastante** junto de adjetivo: invariáveis. **Só** = sozinho varia.",
+      "**É proibido / é necessário**: sem artigo, invariável; com artigo, concorda."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: certo × errado"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Evite",
+      "Prefira",
+      "Por quê"
+     ],
+     "widths": [
+      0.32,
+      0.32,
+      0.36
+     ],
+     "rows": [
+      [
+       "Deve existir provas.",
+       "Devem existir provas.",
+       "Existir tem sujeito"
+      ],
+      [
+       "Haviam provas.",
+       "Havia provas.",
+       "Haver = existir"
+      ],
+      [
+       "Vende-se casas.",
+       "Vendem-se casas.",
+       "Passiva sintética"
+      ],
+      [
+       "Precisam-se de agentes.",
+       "Precisa-se de agentes.",
+       "VTI + se"
+      ],
+      [
+       "Faltou três agentes.",
+       "Faltaram três agentes.",
+       "Sujeito posposto"
+      ],
+      [
+       "Mais de um foram presos.",
+       "Mais de um foi preso.",
+       "Mais de um: singular"
+      ],
+      [
+       "Segue anexo as fotos.",
+       "Seguem anexas as fotos.",
+       "Anexo varia"
+      ],
+      [
+       "Muito obrigado (mulher).",
+       "Muito obrigada.",
+       "Concorda com quem fala"
+      ],
+      [
+       "Menas provas.",
+       "Menos provas.",
+       "Menos não varia"
+      ],
+      [
+       "Meia nervosa.",
+       "Meio nervosa.",
+       "Advérbio não varia"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Pergunte ao verbo: **quem / o que** faz?",
+      "Sujeito posposto continua sendo sujeito.",
+      "Núcleo do sujeito longo: ignore os adjuntos.",
+      "Haver e fazer impessoais: **singular**.",
+      "VTD + se: **plural** se o sujeito for plural.",
+      "Mais de + número: com o **número**.",
+      "Que relativo: com o **antecedente**.",
+      "Adjetivo depois de vários nomes: plural ou o mais próximo.",
+      "Anexo, mesmo, obrigado: **variam**.",
+      "Menos e em anexo: **nunca** variam."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "CONCORDÂNCIA",
+  "rootSub": "verbal e nominal",
+  "left": [
+   {
+    "label": "Regra geral",
+    "items": [
+     "verbo com o núcleo",
+     "sujeito posposto conta",
+     "ache o sujeito primeiro"
+    ]
+   },
+   {
+    "label": "Sujeito composto",
+    "items": [
+     "antes: plural",
+     "depois: plural ou próximo",
+     "ou excludente: singular"
+    ]
+   },
+   {
+    "label": "Expressões",
+    "items": [
+     "mais de um: singular",
+     "mais de dez: plural",
+     "um dos que: plural"
+    ]
+   },
+   {
+    "label": "Relativos",
+    "items": [
+     "fui eu que fiz",
+     "fui eu quem fez/fiz",
+     "coletivo + de: livre"
+    ]
+   },
+   {
+    "label": "Ser",
+    "items": [
+     "tudo são flores",
+     "são duas horas",
+     "é meio-dia"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Impessoais",
+    "items": [
+     "havia provas",
+     "faz dois anos",
+     "deve haver"
+    ]
+   },
+   {
+    "label": "Pronome se",
+    "items": [
+     "vendem-se casas",
+     "precisa-se de",
+     "trata-se de"
+    ]
+   },
+   {
+    "label": "Nominal",
+    "items": [
+     "depois: plural ou próximo",
+     "antes: o mais próximo",
+     "masculino prevalece"
+    ]
+   },
+   {
+    "label": "Variam",
+    "items": [
+     "anexo, incluso",
+     "obrigado, mesmo",
+     "próprio, quite"
+    ]
+   },
+   {
+    "label": "Não variam",
+    "items": [
+     "menos, em anexo",
+     "meio nervosa",
+     "é proibido entrada"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Existem falhas graves no sistema”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Existir é pessoal e concorda com o sujeito falhas graves."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “Existe falhas graves no sistema”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O sujeito plural exige o verbo no plural: existem."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “Apreenderam-se várias armas”, o verbo no plural concorda com o sujeito várias armas.",
+    "comment": "**Certo.** Apreender é transitivo direto; há passiva sintética."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Havia bastante candidatos inscritos”, a concordância nominal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Junto de substantivo, bastante é pronome e varia: bastantes candidatos."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “Elas mesmas redigiram o relatório”, o emprego de mesmas está de acordo com a norma-padrão.",
+    "comment": "**Certo.** Mesmo, com valor de próprio, concorda com o termo a que se refere."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Segue anexa as fotografias do local”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O sujeito é as fotografias: seguem anexas as fotografias."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “É proibida a entrada de pessoas armadas”, a concordância nominal está correta.",
+    "comment": "**Certo.** Com o artigo a, a expressão concorda com o substantivo entrada."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “Faltou três agentes ao plantão”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O sujeito posposto três agentes exige o plural: faltaram."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “A audiência começou ao meio-dia e meia”, a concordância de meia está correta.",
+    "comment": "**Certo.** Meia refere-se a meia hora: meio-dia e meia."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Em “Um ou outro agente faltaram ao treinamento”, a concordância está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Com um ou outro, o verbo fica no singular: faltou."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

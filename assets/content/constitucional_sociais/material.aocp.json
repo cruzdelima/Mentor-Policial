@@ -1,0 +1,368 @@
+{
+ "id": "dc-sociais-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-04"
+ ],
+ "kind": "resumo",
+ "title": "Direitos sociais (arts. 6º a 11)",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 25,
+ "pdf": "constitucional_sociais.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "O **rol do art. 6º**, os **números do art. 7º** e a **greve** na segurança pública."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Art. 6º"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência, proteção à maternidade e à infância, assistência aos desamparados.",
+      "Fora do rol: **cultura, esporte, meio ambiente, propriedade**.",
+      "Renda básica familiar para quem está em **vulnerabilidade** (EC 114/2021).",
+      "**Mínimo existencial** prevalece sobre a alegação genérica de **reserva do possível**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Art. 7º"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Jornada **8h/44h**; turno ininterrupto **6h**; hora extra **+50%**; férias **+1/3**.",
+      "Gestante **120 dias**; paternidade pela Lei 15.371/2026 (**10, 15 e 20 dias** em 2027, 2028 e 2029).",
+      "Aviso prévio proporcional, **mínimo 30 dias**; creche **até 5 anos**.",
+      "Prescrição: **5 anos**, até **2 anos** após o fim do contrato.",
+      "Menores: noturno/perigoso/insalubre só após **18**; trabalho a partir de **16**; aprendiz a partir de **14**.",
+      "Salário mínimo nacional e **sem vinculação**; irredutível **salvo acordo ou convenção**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Sindicato e greve"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sindicato sem **autorização** do Estado (só registro); **unicidade** na base territorial **mínima de um Município**.",
+      "Ninguém é obrigado a se filiar; contribuição confederativa só de **filiados** (SV 40).",
+      "Dirigente: estabilidade do **registro da candidatura** até **1 ano após o mandato**.",
+      "Greve: trabalhadores decidem **oportunidade e interesses**; servidor civil por **lei específica**.",
+      "**Militares**: sem greve e sem sindicato (texto da CF). **Policiais civis**: sem greve (STF), mas podem se sindicalizar.",
+      "Art. 11: empresa com **mais de 200** empregados elege um representante."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Item",
+      "Número"
+     ],
+     "widths": [
+      0.55,
+      0.45
+     ],
+     "rows": [
+      [
+       "Jornada diária / semanal",
+       "8 h / 44 h"
+      ],
+      [
+       "Turno ininterrupto",
+       "6 h"
+      ],
+      [
+       "Hora extra",
+       "mínimo +50%"
+      ],
+      [
+       "Férias",
+       "+1/3"
+      ],
+      [
+       "Licença-gestante",
+       "120 dias"
+      ],
+      [
+       "Aviso prévio",
+       "mínimo 30 dias"
+      ],
+      [
+       "Creche",
+       "até 5 anos"
+      ],
+      [
+       "Prescrição",
+       "5 anos / 2 anos"
+      ],
+      [
+       "Dirigente sindical",
+       "até 1 ano após o mandato"
+      ],
+      [
+       "Representante na empresa",
+       "mais de 200 empregados"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Art. 6º não tem **cultura** nem **meio ambiente**.",
+      "Salário mínimo: **sem vinculação**.",
+      "Semana de **44 horas**.",
+      "Hora extra **+50%**, férias **+1/3**.",
+      "Aprendiz **14**, trabalho **16**, noturno **18**.",
+      "Sindicato: **registro**, não autorização.",
+      "Unicidade: base **≥ um Município**.",
+      "Militar: **sem greve e sem sindicato**.",
+      "Policial civil: **sem greve** (STF).",
+      "Servidor civil: greve por **lei específica**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "DIREITOS SOCIAIS",
+  "rootSub": "arts. 6º a 11",
+  "left": [
+   {
+    "label": "Art. 6º",
+    "items": [
+     "educação, saúde, moradia",
+     "transporte, alimentação",
+     "lazer, segurança"
+    ]
+   },
+   {
+    "label": "Fora do rol",
+    "items": [
+     "cultura",
+     "esporte",
+     "meio ambiente"
+    ]
+   },
+   {
+    "label": "Conceitos",
+    "items": [
+     "reserva do possível",
+     "mínimo existencial",
+     "vedação do retrocesso"
+    ]
+   },
+   {
+    "label": "Jornada",
+    "items": [
+     "8 h e 44 h",
+     "turno: 6 h",
+     "extra: +50%"
+    ]
+   },
+   {
+    "label": "Licenças",
+    "items": [
+     "gestante: 120 dias",
+     "paternidade: lei 2026",
+     "férias: +1/3"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Menores",
+    "items": [
+     "aprendiz: 14",
+     "trabalho: 16",
+     "noturno: 18"
+    ]
+   },
+   {
+    "label": "Sindicato",
+    "items": [
+     "sem autorização",
+     "unicidade",
+     "filiação livre"
+    ]
+   },
+   {
+    "label": "Dirigente",
+    "items": [
+     "desde a candidatura",
+     "até 1 ano após",
+     "salvo falta grave"
+    ]
+   },
+   {
+    "label": "Greve",
+    "items": [
+     "privado: art. 9º",
+     "servidor: lei específica",
+     "essenciais: lei"
+    ]
+   },
+   {
+    "label": "Segurança pública",
+    "items": [
+     "militar: CF proíbe",
+     "policial civil: STF",
+     "mediação obrigatória"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A alimentação e a moradia são direitos sociais expressamente previstos no art. 6º da Constituição Federal.",
+    "comment": "**Certo.** Foram incluídas pelas EC 64/2010 e 26/2000.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O esporte integra o rol de direitos sociais do art. 6º da Constituição.",
+    "comment": "**Errado.** O esporte é tratado no art. 217, não no art. 6º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O salário do trabalhador é irredutível, salvo o disposto em convenção ou acordo coletivo.",
+    "comment": "**Certo.** Art. 7º, VI.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "As férias anuais devem ser remuneradas com, pelo menos, metade a mais do que o salário normal.",
+    "comment": "**Errado.** O acréscimo mínimo é de um terço.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A licença à gestante tem duração de cento e vinte dias, sem prejuízo do emprego e do salário.",
+    "comment": "**Certo.** Art. 7º, XVIII.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "NÃO está entre os direitos sociais do art. 6º da Constituição:",
+    "options": [
+     "o transporte.",
+     "a moradia.",
+     "o meio ambiente.",
+     "a alimentação.",
+     "o lazer."
+    ],
+    "comment": "**Gabarito: C.** O meio ambiente é tratado no art. 225, não no art. 6º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "A jornada normal de trabalho prevista na Constituição é de até",
+    "options": [
+     "8 horas diárias e 44 semanais.",
+     "6 horas diárias e 30 semanais.",
+     "8 horas diárias e 40 semanais.",
+     "9 horas diárias e 44 semanais.",
+     "8 horas diárias e 48 semanais."
+    ],
+    "comment": "**Gabarito: A.** Art. 7º, XIII.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "D",
+    "text": "A contribuição confederativa, segundo a Súmula Vinculante 40,",
+    "options": [
+     "é devida por todos os trabalhadores da categoria.",
+     "é tributo de competência da União.",
+     "é exigível dos aposentados.",
+     "só é exigível dos filiados ao sindicato respectivo.",
+     "foi extinta pela Constituição."
+    ],
+    "comment": "**Gabarito: D.** SV 40.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "O direito de greve dos servidores públicos civis será exercido",
+    "options": [
+     "livremente, sem limites.",
+     "nos termos e nos limites definidos em lei específica.",
+     "nos termos de lei complementar.",
+     "somente com autorização do chefe do Executivo.",
+     "apenas nos serviços não essenciais, por decreto."
+    ],
+    "comment": "**Gabarito: B.** Art. 37, VII. Enquanto a lei não vem, aplica-se a lei de greve do setor privado (MI 670, 708 e 712).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "E",
+    "text": "A remuneração das férias anuais deve ser acrescida de, pelo menos,",
+    "options": [
+     "metade do salário normal.",
+     "dois terços do salário normal.",
+     "dez por cento.",
+     "cinquenta por cento.",
+     "um terço do salário normal."
+    ],
+    "comment": "**Gabarito: E.** Art. 7º, XVII.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 6º a 11, 42 e 142.",
+  "Lei 15.371/2026; STF: ARE 654.432 (Tema 541); Súmula Vinculante 40.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

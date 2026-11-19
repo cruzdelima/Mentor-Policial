@@ -8,6 +8,7 @@ Cada assunto tem dois materiais:
 uso: python3 build_content.py [pasta do projeto flutter] [pasta extra para cópia dos PDFs]
 """
 import importlib
+import bancas
 import json
 import os
 import re
@@ -277,15 +278,23 @@ class MindMap(Flowable):
 
 
 class QuestionBox(Flowable):
-    def __init__(self, n, text, width):
+    def __init__(self, n, text, width, options=None):
         super().__init__()
         self.n, self.text, self.w = n, text, width
-        self.p = Paragraph(md(text), S['q'])
+        self.options = options or []
+        self.p = Paragraph(md(text).replace('\n', '<br/>'), S['q'])
+        self.ops = [Paragraph(f'<b>{chr(65 + i)})</b>&nbsp; ' + md(o), S['q']) for i, o in enumerate(self.options)]
 
     def wrap(self, aw, ah):
-        _, ph = self.p.wrap(self.w - 112, ah)
+        tw = self.w - (46 if self.options else 112)
+        _, ph = self.p.wrap(tw, ah)
         self.ph = ph
-        self.height = max(ph, 26) + 14
+        self.oh = []
+        for op in self.ops:
+            _, h = op.wrap(self.w - 60, ah)
+            self.oh.append(h)
+        extra = sum(self.oh) + 4 * len(self.oh) + (6 if self.ops else 0)
+        self.height = max(ph, 26) + 14 + extra
         return self.w, self.height
 
     def draw(self):
@@ -297,6 +306,16 @@ class QuestionBox(Flowable):
         c.setFont('BC-B', 13)
         c.drawCentredString(13, h - 23, f'{self.n:02d}')
         self.p.drawOn(c, 36, h - 6 - self.ph)
+        if self.ops:
+            y = h - 6 - max(self.ph, 26) - 6
+            for op, oh in zip(self.ops, self.oh):
+                y -= oh
+                op.drawOn(c, 48, y)
+                y -= 4
+            c.setStrokeColor(LINE)
+            c.setLineWidth(0.5)
+            c.line(0, 2, self.w, 2)
+            return
         x0 = self.w - 66
         for i, lab in enumerate(['C', 'E']):
             x = x0 + i * 34
@@ -485,14 +504,14 @@ def build_pdf(C, path):
             last = g
         if q.get('context'):
             story.append(callout('key', 'Texto para os próximos itens', q['context'], fw))
-        story.append(QuestionBox(i, q['text'], fw))
+        story.append(QuestionBox(i, q['text'], fw, q.get('options')))
         story.append(Spacer(1, 6))
     story.append(PageBreak())
     story.append(SectionTitle('Gabarito comentado', fw))
     story.append(Paragraph('Gabarito rápido: ' + '  '.join(f'<b>{i:02d}</b> {q["answer"]}' for i, q in enumerate(qs, start=1)), S['note']))
     gab = [[Paragraph('ITEM', S['head']), Paragraph('GAB.', S['head']), Paragraph('COMENTÁRIO', S['head'])]]
     for i, q in enumerate(qs, start=1):
-        col = '#0F766E' if q['answer'] == 'C' else '#C2410C'
+        col = '#0F766E' if q['answer'] == 'C' else ('#C2410C' if q['answer'] == 'E' else '#14213D')
         gab.append([Paragraph(f'<b>{i:02d}</b>', S['cellb']),
                     Paragraph(f'<font color="{col}"><b>{q["answer"]}</b></font>', ParagraphStyle('g', parent=S['cellb'], fontSize=12, alignment=TA_CENTER)),
                     Paragraph(md(q['comment']), S['qc'])])
@@ -545,6 +564,11 @@ def check(C):
     ids = [q['id'] for q in qs]
     assert len(ids) == len(set(ids)), f'{C.__name__}: ids repetidos'
     for q in qs:
+        if q.get('options'):
+            assert q['answer'] in 'ABCDE' and len(q['options']) == 5, f"{C.__name__} {q['id']}: múltipla escolha inválida"
+            assert q['comment'].startswith(f"**Gabarito: {q['answer']}.**"), f"{C.__name__} {q['id']}: comentário não bate com o gabarito"
+            assert len(set(q['options'])) == 5, f"{C.__name__} {q['id']}: alternativas repetidas"
+            continue
         assert q['answer'] in ('C', 'E'), q['id']
         assert q['comment'].startswith('**Certo.**' if q['answer'] == 'C' else '**Errado.**'), f"{C.__name__} {q['id']}: comentário não bate com o gabarito"
     n = len(qs)
@@ -564,13 +588,29 @@ if __name__ == '__main__':
         pdf = os.path.join(out_dir, m['pdf'])
         build_pdf(C, pdf)
         build_json(C, os.path.join(out_dir, 'material.json'))
+        variants = []
+        for prof in ('neutro', 'aocp'):
+            V = bancas.variant(C, prof)
+            vjson = os.path.join(out_dir, f'material.{prof}.json')
+            if V is None:
+                for old in (vjson, os.path.join(out_dir, f"{m['folder']}.{prof}.pdf")):
+                    if os.path.exists(old):
+                        os.remove(old)
+                continue
+            check(V)
+            build_pdf(V, os.path.join(out_dir, V.MATERIAL['pdf']))
+            build_json(V, vjson)
+            variants.append(prof)
+            if EXTRA:
+                shutil.copy(os.path.join(out_dir, V.MATERIAL['pdf']), os.path.join(EXTRA, V.MATERIAL['outName']))
         index['materials'].append({
             'id': m['id'], 'folder': m['folder'], 'title': m['title'], 'subtitle': m['subtitle'], 'subjectId': m['subjectId'],
             'topicIds': m['topicIds'], 'kind': m['kind'], 'minutes': m['minutes'], 'questions': n, 'version': m['version'], 'status': m['status'],
+            'variants': variants,
         })
         if EXTRA:
             os.makedirs(EXTRA, exist_ok=True)
             shutil.copy(pdf, os.path.join(EXTRA, m['outName']))
-        print(f"ok {name}: {n} questões ({c} C / {n - c} E) -> {m['pdf']}")
+        print(f"ok {name}: {n} questões ({c} C / {n - c} E) -> {m['pdf']} + {', '.join(variants) or 'sem versões'}")
     with open(os.path.join(PROJ, 'assets', 'content', 'index.json'), 'w', encoding='utf-8') as f:
         json.dump(index, f, ensure_ascii=False, indent=1)

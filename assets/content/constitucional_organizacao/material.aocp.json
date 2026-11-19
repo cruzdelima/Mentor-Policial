@@ -1,0 +1,365 @@
+{
+ "id": "dc-organizacao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-07"
+ ],
+ "kind": "resumo",
+ "title": "Organização político-administrativa do Estado (arts. 18 a 33)",
+ "subtitle": "Direito Constitucional · Organização do Estado",
+ "minutes": 35,
+ "pdf": "constitucional_organizacao.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Arts. 21 a 24** (quem faz e quem legisla), as **polícias** na repartição de competências e a criação de Estados e Municípios."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Federação"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "União, Estados, DF e Municípios: todos **autônomos**. Territórios **integram a União**.",
+      "Vedado aos entes: aliança com **igrejas**, **recusar fé** a documentos públicos, **distinguir brasileiros**.",
+      "Estados: **plebiscito** + **lei complementar** federal. Municípios: **lei estadual** + LC federal (período) + estudos + plebiscito.",
+      "Faixa de fronteira: até **150 km**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Competências"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Art. 21 exclusiva** (fazer, União, indelegável): guerra, sítio, defesa, intervenção, moeda, **polícias do DF**, polícia marítima, aeroportuária e de fronteiras.",
+      "**Art. 22 privativa** (legislar, União, **delegável por LC** aos Estados): **CAPACETE DE PM**, trânsito, normas gerais das **PMs e bombeiros**, competência da **PF, PRF e PFF**, dados pessoais.",
+      "**Art. 23 comum** (fazer, todos): saúde, meio ambiente, patrimônio histórico, pobreza, educação para o trânsito.",
+      "**Art. 24 concorrente** (legislar, União + Estados + DF): **PUFETO**, procedimentos processuais, **polícias civis**.",
+      "No art. 24: União faz **normas gerais**; Estados **suplementam**; sem lei federal, Estado tem competência **plena**; lei federal posterior **suspende** a estadual contrária."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Entes em espécie"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Estados**: competência **residual**; gás canalizado; regiões metropolitanas por **LC estadual**; deputados estaduais = **triplo** dos federais, e acima de 36 soma-se o que passar de 12.",
+      "**Municípios**: lei orgânica (**2 turnos, 10 dias, 2/3**); interesse **local**; horário do comércio (**SV 38**); vedados novos tribunais de contas municipais.",
+      "**DF**: **não** se divide em Municípios; competências de Estado + Município; polícias, Judiciário e MP **mantidos pela União**; vencimentos das polícias do DF por **lei federal** (SV 39).",
+      "**Territórios**: governador nomeado pelo Presidente com aprovação do Senado; **4 deputados**, **nenhum senador**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Matéria",
+      "Competência"
+     ],
+     "widths": [
+      0.6,
+      0.4
+     ],
+     "rows": [
+      [
+       "Direito penal e processual penal",
+       "Privativa da União (22)"
+      ],
+      [
+       "Direito penitenciário",
+       "Concorrente (24)"
+      ],
+      [
+       "Normas gerais das PMs e bombeiros",
+       "Privativa da União (22)"
+      ],
+      [
+       "Organização das polícias civis",
+       "Concorrente (24)"
+      ],
+      [
+       "Competência da PF e da PRF",
+       "Privativa da União (22)"
+      ],
+      [
+       "Organizar e manter as polícias do DF",
+       "Exclusiva da União (21)"
+      ],
+      [
+       "Vencimentos das polícias do DF",
+       "União (SV 39)"
+      ],
+      [
+       "Polícia marítima, aeroportuária, fronteiras",
+       "Exclusiva da União (21)"
+      ],
+      [
+       "Horário do comércio local",
+       "Município (SV 38)"
+      ],
+      [
+       "Proteger o meio ambiente",
+       "Comum (23)"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Art. 21 **não** se delega; art. 22 se delega por **LC**.",
+      "Município **não** está no art. 24.",
+      "Lei federal nova **suspende**, não revoga.",
+      "Penal: **22**. Penitenciário: **24**.",
+      "Polícia civil (organização): **24**.",
+      "PM (normas gerais): **22**.",
+      "Polícias do DF: **União** organiza e mantém.",
+      "DF **não** tem Municípios.",
+      "Território: **4 deputados**, **0 senador**.",
+      "Município cria **por lei estadual**."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "ORGANIZAÇÃO",
+  "rootSub": "arts. 18 a 33",
+  "left": [
+   {
+    "label": "Entes",
+    "items": [
+     "União, Estados",
+     "DF, Municípios",
+     "Territórios: da União"
+    ]
+   },
+   {
+    "label": "Criação",
+    "items": [
+     "Estado: plebiscito + LC",
+     "Município: lei estadual",
+     "Território: LC"
+    ]
+   },
+   {
+    "label": "Art. 21",
+    "items": [
+     "exclusiva, fazer",
+     "indelegável",
+     "polícias do DF"
+    ]
+   },
+   {
+    "label": "Art. 22",
+    "items": [
+     "privativa, legislar",
+     "delegável por LC",
+     "CAPACETE DE PM"
+    ]
+   },
+   {
+    "label": "Art. 23",
+    "items": [
+     "comum, fazer",
+     "todos os entes",
+     "saúde, meio ambiente"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Art. 24",
+    "items": [
+     "concorrente",
+     "PUFETO",
+     "polícias civis"
+    ]
+   },
+   {
+    "label": "Regras do 24",
+    "items": [
+     "União: normas gerais",
+     "Estado: suplementar",
+     "lei nova suspende"
+    ]
+   },
+   {
+    "label": "Estados",
+    "items": [
+     "residual",
+     "gás canalizado",
+     "deputados: triplo"
+    ]
+   },
+   {
+    "label": "Municípios",
+    "items": [
+     "interesse local",
+     "lei orgânica 2/3",
+     "SV 38 e 49"
+    ]
+   },
+   {
+    "label": "DF",
+    "items": [
+     "sem Municípios",
+     "União mantém polícias",
+     "SV 39"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A competência legislativa privativa da União pode ser delegada aos estados, por lei complementar, para questões específicas.",
+    "comment": "**Certo.** Art. 22, parágrafo único.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Os municípios integram o rol de entes com competência legislativa concorrente previsto no art. 24 da Constituição.",
+    "comment": "**Errado.** O art. 24 menciona apenas União, estados e Distrito Federal.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Compete à União legislar privativamente sobre a competência da Polícia Federal e da Polícia Rodoviária Federal.",
+    "comment": "**Certo.** Art. 22, XXII.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A proteção do meio ambiente é competência administrativa exclusiva da União.",
+    "comment": "**Errado.** É competência comum de todos os entes (art. 23, VI).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Compete à União executar os serviços de polícia marítima, aeroportuária e de fronteiras.",
+    "comment": "**Certo.** Art. 21, XXII.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "Legislar sobre direito penitenciário é competência",
+    "options": [
+     "privativa da União.",
+     "concorrente da União, dos Estados e do Distrito Federal.",
+     "exclusiva dos Estados.",
+     "dos Municípios.",
+     "comum de todos os entes."
+    ],
+    "comment": "**Gabarito: B.** Art. 24, I.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "A",
+    "text": "Compete à União executar os serviços de",
+    "options": [
+     "polícia marítima, aeroportuária e de fronteiras.",
+     "polícia ostensiva nos Estados.",
+     "polícia judiciária dos Estados.",
+     "guarda municipal.",
+     "defesa civil municipal."
+    ],
+    "comment": "**Gabarito: A.** Art. 21, XXII.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "D",
+    "text": "Os Territórios Federais",
+    "options": [
+     "são entes federativos autônomos.",
+     "elegem três senadores.",
+     "não podem ser divididos em Municípios.",
+     "integram a União.",
+     "são criados por lei ordinária."
+    ],
+    "comment": "**Gabarito: D.** Art. 18, § 2º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "E",
+    "text": "Os Municípios regem-se por lei orgânica votada em dois turnos, com interstício mínimo de dez dias, e aprovada por",
+    "options": [
+     "maioria simples da Câmara Municipal.",
+     "maioria absoluta da Câmara Municipal.",
+     "três quintos da Assembleia Legislativa.",
+     "plebiscito da população.",
+     "dois terços dos membros da Câmara Municipal."
+    ],
+    "comment": "**Gabarito: E.** Art. 29, caput.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "C",
+    "text": "Compete privativamente à União legislar sobre a competência da",
+    "options": [
+     "polícia civil.",
+     "guarda municipal.",
+     "polícia federal e das polícias rodoviária e ferroviária federais.",
+     "polícia penal estadual.",
+     "polícia militar, sem exceção."
+    ],
+    "comment": "**Gabarito: C.** Art. 22, XXII.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 18 a 33.",
+  "Supremo Tribunal Federal: Súmulas Vinculantes 38, 39 e 49.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

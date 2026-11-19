@@ -1,0 +1,700 @@
+{
+ "id": "lp-verbos-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-06"
+ ],
+ "kind": "aprofundado",
+ "title": "Verbos: flexão, tempos, modos e vozes",
+ "subtitle": "Língua Portuguesa · Morfossintaxe",
+ "minutes": 150,
+ "pdf": "portugues_verbos_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "A banca cobra verbos de três jeitos: **valor do tempo** (“a substituição de *chegavam* por *chegaram* manteria o sentido?”), **forma correta** (futuro do subjuntivo, verbos derivados de *ter*, *vir*, *ver* e *pôr*) e **voz verbal** (passiva sintética, concordância com o *se*). Leia a teoria na ordem, faça as 20 questões e revise pelo **PDF de resumo**."
+    },
+    {
+     "t": "h2",
+     "text": "1. O que é verbo"
+    },
+    {
+     "t": "p",
+     "text": "**Verbo** é a palavra que exprime **ação**, **estado**, **mudança de estado** ou **fenômeno da natureza**, situando o fato no tempo. É a classe com mais flexões da língua."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Flexão",
+      "O que indica",
+      "Exemplos"
+     ],
+     "widths": [
+      0.18,
+      0.42,
+      0.4
+     ],
+     "rows": [
+      [
+       "Pessoa",
+       "Quem fala (1ª), com quem se fala (2ª), de quem se fala (3ª)",
+       "prendo · prendes · prende"
+      ],
+      [
+       "Número",
+       "Singular ou plural",
+       "prende · prendem"
+      ],
+      [
+       "Tempo",
+       "Presente, pretérito ou futuro",
+       "prende · prendeu · prenderá"
+      ],
+      [
+       "Modo",
+       "Atitude de quem fala: certeza, hipótese, ordem",
+       "prende · que prenda · prenda!"
+      ],
+      [
+       "Voz",
+       "Relação entre o sujeito e a ação",
+       "prendeu · foi preso · prendeu-se"
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Estrutura e conjugações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Radical**: parte que carrega o sentido — *prend*-er, *cant*-ar.",
+      "**Vogal temática**: indica a conjugação — **1ª** em *-ar* (cantar), **2ª** em *-er* (vender), **3ª** em *-ir* (partir).",
+      "**Pôr** e seus derivados (*compor, depor, propor, repor, supor*) pertencem à **2ª conjugação**: a forma antiga era *poer*.",
+      "**Desinências**: indicam modo e tempo (*canta-**va***) e número e pessoa (*cantava-**mos***)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Modos e tempos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Modo",
+      "Tempo",
+      "Exemplo",
+      "Valor principal"
+     ],
+     "widths": [
+      0.14,
+      0.27,
+      0.2,
+      0.39
+     ],
+     "rows": [
+      [
+       "Indicativo",
+       "Presente",
+       "ele investiga",
+       "Fato atual, habitual ou verdade geral; também passado (presente histórico)"
+      ],
+      [
+       "Indicativo",
+       "Pretérito perfeito",
+       "ele investigou",
+       "Fato **concluído** no passado"
+      ],
+      [
+       "Indicativo",
+       "Pretérito imperfeito",
+       "ele investigava",
+       "Fato **habitual** ou **em curso** no passado"
+      ],
+      [
+       "Indicativo",
+       "Pretérito mais-que-perfeito",
+       "ele investigara · tinha investigado",
+       "Passado **anterior a outro** passado"
+      ],
+      [
+       "Indicativo",
+       "Futuro do presente",
+       "ele investigará",
+       "Fato posterior ao momento da fala"
+      ],
+      [
+       "Indicativo",
+       "Futuro do pretérito",
+       "ele investigaria",
+       "Fato condicionado, **hipótese**, incerteza ou polidez"
+      ],
+      [
+       "Subjuntivo",
+       "Presente",
+       "que ele investigue",
+       "Desejo, dúvida, possibilidade no presente ou futuro"
+      ],
+      [
+       "Subjuntivo",
+       "Pretérito imperfeito",
+       "se ele investigasse",
+       "Hipótese, condição irreal"
+      ],
+      [
+       "Subjuntivo",
+       "Futuro",
+       "quando ele investigar",
+       "Possibilidade futura, em orações com *se*, *quando*, *assim que*"
+      ],
+      [
+       "Imperativo",
+       "Afirmativo e negativo",
+       "investigue! · não investigue!",
+       "Ordem, pedido, conselho"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Futuro do pretérito no texto jornalístico",
+     "text": "*O suspeito **teria fugido** para outro estado.* O futuro do pretérito apresenta a informação como **não confirmada**. Trocar por *fugiu* transforma a hipótese em fato: a banca considera que isso **altera o sentido**."
+    },
+    {
+     "t": "h3",
+     "text": "Imperfeito × perfeito"
+    },
+    {
+     "t": "p",
+     "text": "*Os agentes **chegavam** cedo* (todos os dias: hábito) × *Os agentes **chegaram** cedo* (naquele dia: fato concluído). A troca entre esses tempos quase sempre **altera o sentido** — é item clássico de prova."
+    },
+    {
+     "t": "h3",
+     "text": "Mais-que-perfeito simples e composto"
+    },
+    {
+     "t": "p",
+     "text": "*Quando a equipe chegou, o suspeito já **fugira*** = *já **tinha fugido*** = *já **havia fugido***. As três formas são equivalentes: a troca mantém sentido e correção."
+    },
+    {
+     "t": "h2",
+     "text": "3. Formação dos tempos"
+    },
+    {
+     "t": "p",
+     "text": "Quase todos os tempos derivam de três **tempos primitivos**. Dominar as derivações resolve as formas “difíceis” dos irregulares."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tempo primitivo",
+      "Deriva",
+      "Exemplo (fazer)"
+     ],
+     "widths": [
+      0.3,
+      0.36,
+      0.34
+     ],
+     "rows": [
+      [
+       "Presente do indicativo (1ª pessoa do singular, sem o -o)",
+       "Presente do subjuntivo",
+       "faç-o › que eu **faça**"
+      ],
+      [
+       "Pretérito perfeito (3ª pessoa do plural, sem o -ram)",
+       "Mais-que-perfeito, imperfeito do subjuntivo e futuro do subjuntivo",
+       "fize-ram › **fizera**, **fizesse**, quando eu **fizer**"
+      ],
+      [
+       "Infinitivo impessoal",
+       "Imperfeito do indicativo, futuros do indicativo, gerúndio, particípio",
+       "fazer › fazia, **farei**, **faria**, fazendo, feito"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "A armadilha do futuro do subjuntivo",
+     "text": "Ele vem do **pretérito perfeito**, e não do infinitivo. Por isso: *se eu **vir*** (ver: viram), *se eu **vier*** (vir: vieram), *se ele **mantiver*** (manter: mantiveram), *se ele **propuser*** (propor: propuseram), *se ele **fizer***, *se ele **couber***, *se ele **intervier***. Está errado *“quando eu **ver**”*, *“se ele **manter**”*, *“se ele **propor**”*."
+    },
+    {
+     "t": "h3",
+     "text": "Imperativo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Pessoa",
+      "Afirmativo",
+      "Negativo"
+     ],
+     "widths": [
+      0.2,
+      0.4,
+      0.4
+     ],
+     "rows": [
+      [
+       "tu",
+       "**faze** (presente do indicativo sem -s)",
+       "não **faças** (presente do subjuntivo)"
+      ],
+      [
+       "você",
+       "**faça** (presente do subjuntivo)",
+       "não **faça**"
+      ],
+      [
+       "nós",
+       "**façamos**",
+       "não **façamos**"
+      ],
+      [
+       "vós",
+       "**fazei** (presente do indicativo sem -s)",
+       "não **façais**"
+      ],
+      [
+       "vocês",
+       "**façam**",
+       "não **façam**"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O imperativo não tem 1ª pessoa do singular. Na redação formal, mantenha a **uniformidade de tratamento**: *Venha **você** e traga **seu** documento* (3ª pessoa) ou *Vem **tu** e traz **teu** documento* (2ª pessoa) — sem misturar."
+    },
+    {
+     "t": "h2",
+     "text": "4. Verbos irregulares que mais caem"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Formas que a banca explora"
+     ],
+     "widths": [
+      0.2,
+      0.8
+     ],
+     "rows": [
+      [
+       "ter e derivados (deter, manter, obter, conter, reter)",
+       "ele **detém** · eles **detêm** · ele **deteve** · se ele **detiver** · se ele **detivesse**"
+      ],
+      [
+       "vir e derivados (intervir, provir, convir)",
+       "ele **intervém** · eles **intervêm** · ele **interveio** · se ele **intervier** · se ele **interviesse**"
+      ],
+      [
+       "ver e derivados (prever, rever)",
+       "eu **vi** · se eu **vir** · se ele **previr** · ele **previu** (prever segue *ver*)"
+      ],
+      [
+       "pôr e derivados (propor, depor, compor, supor)",
+       "ele **propôs** · eles **propuseram** · se ele **propuser** · se ele **propusesse**"
+      ],
+      [
+       "haver",
+       "impessoal no sentido de **existir** ou de **tempo decorrido**: *Havia provas. Há dois anos.* — sempre no singular"
+      ],
+      [
+       "fazer (tempo)",
+       "impessoal: ***Faz** dois anos que o crime ocorreu* — sempre no singular"
+      ],
+      [
+       "requerer",
+       "eu **requeiro** · ele **requereu** (no pretérito é regular, não segue *querer*)"
+      ],
+      [
+       "reaver",
+       "só tem as formas em que *haver* tem a letra **v**: *nós reavemos, ele **reouve***; não existe “reavejo” nem “reaveu”"
+      ],
+      [
+       "verbos em -ear",
+       "ditongo *-ei* nas formas rizotônicas: *passear › passeio, passeia; nomear › nomeio*"
+      ],
+      [
+       "verbos em -iar",
+       "regulares (*premiar › premio*), exceto **M**ediar, **A**nsiar, **R**emediar, **I**ncendiar, **O**diar: *medeio, anseio, remedeio, incendeio, odeio*"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Haver + auxiliar",
+     "text": "Quando *haver* (existir) ou *fazer* (tempo) formam locução, o **auxiliar também fica no singular**: ***Deve haver** provas no inquérito. **Vai fazer** dez anos.*"
+    },
+    {
+     "t": "h2",
+     "text": "5. Formas nominais"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Infinitivo**: *prender*. Pode ser **pessoal** (flexionado: *prendermos*) ou **impessoal**.",
+      "**Gerúndio**: *prendendo*. Indica ação em curso. Evite o **gerundismo** (*vou estar enviando*): prefira *enviarei*.",
+      "**Particípio**: *preso, prendido*. Forma os tempos compostos e a voz passiva."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Particípios duplos (verbos abundantes)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Auxiliar",
+      "Particípio",
+      "Exemplo"
+     ],
+     "widths": [
+      0.26,
+      0.24,
+      0.5
+     ],
+     "rows": [
+      [
+       "ter / haver",
+       "**regular** (-ado, -ido)",
+       "O juiz **tinha aceitado** o recurso. A polícia **havia prendido** o suspeito."
+      ],
+      [
+       "ser / estar",
+       "**irregular** (curto)",
+       "O recurso **foi aceito**. O suspeito **está preso**."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "*Pagar, ganhar* e *gastar* hoje usam o particípio curto também com *ter*: *tinha **pago**, tinha **ganho**, tinha **gasto***. *Chegar* só tem *chegado* (“tinha chego” é desvio)."
+    },
+    {
+     "t": "h3",
+     "text": "Infinitivo flexionado: regras práticas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Não se flexiona** em **locução verbal**: *Os servidores **devem apresentar** os documentos.*",
+      "**Flexiona-se** quando tem **sujeito próprio**, diferente do da oração principal: *É necessário **revisarmos** os procedimentos.*",
+      "Com verbos causativos e sensitivos (*mandar, deixar, fazer, ver, ouvir*) seguidos de **pronome oblíquo**, não se flexiona: *Mandou-**os sair**.* Com substantivo, ambas as formas são aceitas: *Mandou os presos **sair** / **saírem**.*"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Vozes verbais"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Voz",
+      "Estrutura",
+      "Exemplo"
+     ],
+     "widths": [
+      0.22,
+      0.38,
+      0.4
+     ],
+     "rows": [
+      [
+       "Ativa",
+       "Sujeito **pratica** a ação",
+       "A polícia **prendeu** os suspeitos."
+      ],
+      [
+       "Passiva analítica",
+       "**ser** + particípio (+ agente da passiva)",
+       "Os suspeitos **foram presos** pela polícia."
+      ],
+      [
+       "Passiva sintética",
+       "verbo **transitivo direto** + **se** (partícula apassivadora)",
+       "**Prenderam-se** os suspeitos."
+      ],
+      [
+       "Reflexiva",
+       "Sujeito pratica e sofre a ação",
+       "O agente **feriu-se** na operação."
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Transposição ativa › passiva"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O **objeto direto** da ativa vira **sujeito** da passiva; o sujeito da ativa vira **agente da passiva**.",
+      "O verbo *ser* fica **no mesmo tempo e modo** do verbo da ativa: *prendeu › **foi** preso; prenderá › **será** preso; prendia › **era** preso; tinha prendido › **tinha sido** preso*.",
+      "O **particípio concorda** com o novo sujeito: *As provas foram **analisadas**.*",
+      "Só verbos **transitivos diretos** (ou diretos e indiretos) admitem passiva."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "“Se”: apassivador × indeterminador"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Verbo",
+      "Papel do se",
+      "Concordância",
+      "Exemplo"
+     ],
+     "widths": [
+      0.2,
+      0.26,
+      0.22,
+      0.32
+     ],
+     "rows": [
+      [
+       "Transitivo direto",
+       "Partícula **apassivadora**",
+       "Verbo concorda com o **sujeito**",
+       "**Vendem-se** viaturas. **Investigou-se** a denúncia."
+      ],
+      [
+       "Transitivo indireto, intransitivo ou de ligação",
+       "Índice de **indeterminação** do sujeito",
+       "Verbo **sempre no singular**",
+       "**Precisa-se** de agentes. **Trata-se** de casos graves."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha da passiva sintética",
+     "text": "Em *Vendem-se viaturas*, **viaturas é o sujeito** (= viaturas são vendidas). Por isso o verbo vai ao plural, e *vende-se viaturas* é desvio. Já em *Trata-se de casos graves*, não há sujeito determinado: *“tratam-se de”* está errado."
+    },
+    {
+     "t": "h2",
+     "text": "7. Correlação dos tempos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Oração com",
+      "Pede na outra oração",
+      "Exemplo"
+     ],
+     "widths": [
+      0.32,
+      0.3,
+      0.38
+     ],
+     "rows": [
+      [
+       "Imperfeito do subjuntivo (se + -sse)",
+       "Futuro do pretérito",
+       "Se o réu **colaborasse**, a pena **seria** reduzida."
+      ],
+      [
+       "Futuro do subjuntivo (se/quando + -r)",
+       "Futuro do presente",
+       "Se o réu **colaborar**, a pena **será** reduzida."
+      ],
+      [
+       "Presente do indicativo (verbo de vontade)",
+       "Presente do subjuntivo",
+       "**Quero** que ele **venha**."
+      ],
+      [
+       "Pretérito do indicativo (verbo de vontade)",
+       "Imperfeito do subjuntivo",
+       "**Queria** que ele **viesse**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "8. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Substituição de tempo**: perfeito × imperfeito (altera), mais-que-perfeito simples × composto (mantém), futuro do pretérito × perfeito (altera: hipótese vira fato).",
+      "**Correção de forma**: futuro do subjuntivo de *ver, vir, ter, pôr* e derivados; acento de *têm/vêm* e *detêm/intervêm*.",
+      "**Voz**: reescrita na passiva com o tempo do verbo *ser* errado, ou com o particípio sem concordância.",
+      "**Concordância com se**: *vendem-se* (plural) × *precisa-se de* (singular).",
+      "**Verbos impessoais**: *haver* e *fazer* no plural são sempre erro quando indicam existência ou tempo."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “Se o perito vir o laudo, confirmará a fraude”, a forma vir corresponde ao futuro do subjuntivo do verbo ver.",
+    "comment": "**Certo.** O futuro do subjuntivo deriva do pretérito perfeito (viram): se eu vir, se ele vir.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A frase “Quando o delegado ver o relatório, tomará providências” está de acordo com a norma-padrão.",
+    "comment": "**Errado.** O correto é quando o delegado vir; ver não se usa como futuro do subjuntivo.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O agente interveio na discussão”, a forma verbal está correta.",
+    "comment": "**Certo.** Intervir conjuga-se como vir: ele veio, ele interveio (e não interviu).",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “Haviam muitos policiais no local”, a concordância verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Haver no sentido de existir é impessoal e fica no singular: havia muitos policiais.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A transposição de “A comissão analisará os recursos” para a voz passiva analítica resulta em “Os recursos serão analisados pela comissão”.",
+    "comment": "**Certo.** O verbo ser assume o tempo do verbo da ativa (futuro do presente) e o particípio concorda com o novo sujeito.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Em “Vendem-se viaturas apreendidas”, a forma verbal poderia ser substituída por vende-se, sem prejuízo da correção gramatical.",
+    "comment": "**Errado.** Há voz passiva sintética, e viaturas apreendidas é o sujeito: o verbo deve ficar no plural.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Em “Precisa-se de investigadores”, o vocábulo se é índice de indeterminação do sujeito.",
+    "comment": "**Certo.** Precisar de é transitivo indireto; com ele, o se indetermina o sujeito, e o verbo fica no singular.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Está correta a frase “O recurso foi aceitado pelo juiz”, pois o particípio regular deve acompanhar o auxiliar ser.",
+    "comment": "**Errado.** Com ser e estar usa-se o particípio irregular: o recurso foi aceito. O regular acompanha ter e haver.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “É necessário revisarmos os procedimentos”, o infinitivo está flexionado porque possui sujeito próprio.",
+    "comment": "**Certo.** O sujeito do infinitivo é nós, indicado pela desinência -mos.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "No imperativo afirmativo, a forma do verbo fazer correspondente a você é faz.",
+    "comment": "**Errado.** Para você, o imperativo afirmativo vem do presente do subjuntivo: faça.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "No trecho “O suspeito teria fugido para outro estado”, o emprego do futuro do pretérito indica que a informação é apresentada como hipótese, e não como fato confirmado.",
+    "comment": "**Certo.** Esse uso do futuro do pretérito, comum na imprensa, marca a informação como não confirmada.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em “Os agentes chegavam cedo todos os dias”, a substituição de chegavam por chegaram manteria o sentido de ação habitual no passado.",
+    "comment": "**Errado.** O imperfeito indica hábito; o perfeito indica fato concluído. A troca altera o sentido.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "No período “Quando a equipe chegou, o suspeito já fugira”, a forma fugira poderia ser substituída por tinha fugido, sem prejuízo do sentido e da correção gramatical.",
+    "comment": "**Certo.** O mais-que-perfeito simples (fugira) equivale ao composto (tinha fugido).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "Na oração “Investigou-se a denúncia com cuidado”, o termo a denúncia exerce a função de objeto direto.",
+    "comment": "**Errado.** Na passiva sintética, a denúncia é sujeito: a denúncia foi investigada.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "A correlação entre os tempos verbais está de acordo com a norma-padrão em “Se o réu colaborasse, a pena seria reduzida”.",
+    "comment": "**Certo.** Imperfeito do subjuntivo na condição pede futuro do pretérito na principal.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "A correlação entre os tempos verbais está de acordo com a norma-padrão em “Se o réu colaborar, a pena seria reduzida”.",
+    "comment": "**Errado.** Futuro do subjuntivo na condição pede futuro do presente: a pena será reduzida.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em “Deve haver provas suficientes no inquérito”, o verbo dever permanece no singular por formar locução com o verbo haver, impessoal.",
+    "comment": "**Certo.** O auxiliar de verbo impessoal também fica no singular.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "Em “Eles detém a posse do imóvel”, a forma verbal está de acordo com a norma-padrão.",
+    "comment": "**Errado.** No plural, os derivados de ter recebem acento circunflexo: eles detêm.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Em “Os servidores devem apresentar os documentos”, o infinitivo não se flexiona por fazer parte de locução verbal.",
+    "comment": "**Certo.** Em locução verbal, flexiona-se apenas o auxiliar (devem).",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "A forma eu medio, do verbo mediar, está de acordo com a norma-padrão.",
+    "comment": "**Errado.** Mediar é exceção entre os verbos em -iar (MARIO): eu medeio, ele medeia.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

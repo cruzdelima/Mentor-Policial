@@ -1,0 +1,296 @@
+{
+ "id": "lp-semantica-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-19"
+ ],
+ "kind": "resumo",
+ "title": "Semântica e significação das palavras",
+ "subtitle": "Língua Portuguesa · Semântica",
+ "minutes": 25,
+ "pdf": "portugues_semantica.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Substituição** de palavras (sinonímia no contexto), **parônimos** e **sentido figurado**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Relações"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Sinônimos** (no contexto), **antônimos**, **hiperônimo** (geral: *arma*) × **hipônimo** (específico: *fuzil*).",
+      "**Homófonos**: mesmo som (*cela/sela, sessão/seção/cessão*). **Homógrafos**: mesma grafia. **Parônimos**: parecidos.",
+      "**Polissemia**: vários sentidos relacionados (*operação, banco*)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Parônimos da área policial"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Par",
+      "Diferença"
+     ],
+     "widths": [
+      0.34,
+      0.66
+     ],
+     "rows": [
+      [
+       "mandado / mandato",
+       "ordem judicial / período de representação"
+      ],
+      [
+       "flagrante / fragrante",
+       "evidente / perfumado"
+      ],
+      [
+       "infringir / infligir",
+       "violar / aplicar pena"
+      ],
+      [
+       "ratificar / retificar",
+       "confirmar / corrigir"
+      ],
+      [
+       "deferir / diferir",
+       "atender / adiar"
+      ],
+      [
+       "eminente / iminente",
+       "importante / prestes a ocorrer"
+      ],
+      [
+       "descrição / discrição",
+       "descrever / reserva"
+      ],
+      [
+       "tráfego / tráfico",
+       "trânsito / comércio ilegal"
+      ],
+      [
+       "vultoso / vultuoso",
+       "grande valor / inchado"
+      ],
+      [
+       "emergir / imergir",
+       "vir à tona / mergulhar"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Sentido"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Denotação**: literal. **Conotação**: figurado (*coração de pedra*).",
+      "**Ambiguidade**: duplo sentido (*viu o assaltante correndo*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Sinonímia é **contextual**.",
+      "Mandado = ordem; mandato = representação.",
+      "Infringir a lei; infligir pena.",
+      "Ratificar confirma; retificar corrige.",
+      "Deferir atende; diferir adia.",
+      "Iminente = vai acontecer.",
+      "Discrição = reserva.",
+      "Quantia vultosa (sem u).",
+      "Hiperônimo retoma hipônimo.",
+      "Ambiguidade: termo com dois referentes."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "SEMÂNTICA",
+  "rootSub": "significação das palavras",
+  "left": [
+   {
+    "label": "Sinonímia",
+    "items": [
+     "sentido semelhante",
+     "depende do contexto",
+     "fugiu = evadiu-se"
+    ]
+   },
+   {
+    "label": "Hiperonímia",
+    "items": [
+     "arma: geral",
+     "fuzil: específico",
+     "retomada coesiva"
+    ]
+   },
+   {
+    "label": "Homônimos",
+    "items": [
+     "cela / sela",
+     "sessão / seção / cessão",
+     "censo / senso"
+    ]
+   },
+   {
+    "label": "Polissemia",
+    "items": [
+     "operação",
+     "banco",
+     "sentidos relacionados"
+    ]
+   },
+   {
+    "label": "Sentido",
+    "items": [
+     "denotação: literal",
+     "conotação: figurado",
+     "ambiguidade"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Mandado",
+    "items": [
+     "mandado: ordem judicial",
+     "mandato: representação",
+     "cumprimento do mandado"
+    ]
+   },
+   {
+    "label": "Infringir",
+    "items": [
+     "infringir: violar",
+     "infligir: aplicar pena",
+     "flagrante ≠ fragrante"
+    ]
+   },
+   {
+    "label": "Ratificar",
+    "items": [
+     "ratificar: confirmar",
+     "retificar: corrigir",
+     "deferir ≠ diferir"
+    ]
+   },
+   {
+    "label": "Iminente",
+    "items": [
+     "iminente: vai ocorrer",
+     "eminente: importante",
+     "emergir ≠ imergir"
+    ]
+   },
+   {
+    "label": "Outros",
+    "items": [
+     "tráfego ≠ tráfico",
+     "discrição: reserva",
+     "vultoso: grande valor"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Em “O deputado cumpre o segundo mandato”, o vocábulo mandato refere-se a período de representação.",
+    "comment": "**Certo.** Mandado seria ordem judicial."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Em “O juiz infligiu as regras do processo”, o verbo infligir foi empregado no sentido de violar.",
+    "comment": "**Errado.** Violar é infringir; infligir é aplicar pena."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Em “O tribunal ratificou a decisão de primeira instância”, ratificar significa confirmar.",
+    "comment": "**Certo.** Retificar seria corrigir."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Em “O ataque era eminente, e a população foi evacuada”, o adjetivo eminente está adequadamente empregado.",
+    "comment": "**Errado.** Prestes a ocorrer é iminente."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Em “A perícia exige discrição dos servidores”, discrição significa reserva.",
+    "comment": "**Certo.** Descrição é o ato de descrever."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Os vocábulos tráfego e tráfico são sinônimos.",
+    "comment": "**Errado.** Tráfego é trânsito; tráfico é comércio ilegal."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O vocábulo veículo é hiperônimo de viatura.",
+    "comment": "**Certo.** Veículo é o termo geral; viatura é um tipo de veículo."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Em “O réu tem nervos de aço”, a expressão foi empregada em sentido denotativo.",
+    "comment": "**Errado.** O sentido é figurado: o réu é calmo, resistente."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “O agente encontrou o colega na sua sala”, há ambiguidade.",
+    "comment": "**Certo.** Não se sabe se a sala é do agente ou do colega."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Os vocábulos cela e sela são parônimos.",
+    "comment": "**Errado.** Têm a mesma pronúncia: são homófonos."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "id": "dc-politicos-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-06"
+ ],
+ "kind": "aprofundado",
+ "title": "Direitos políticos e partidos (arts. 14 a 17)",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 150,
+ "pdf": "constitucional_politicos_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "O art. 14 é cheio de **idades e prazos**: 16, 18, 21, 30, 35 e 70 anos; 6 meses, 15 dias, 1 ano, 10 anos de serviço militar. A banca troca esses números e cobra as **inelegibilidades** por casos concretos (o filho do prefeito, o militar candidato). Faça uma tabela própria com os números e revise com o PDF de resumo."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Soberania popular"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 14. A soberania popular será exercida pelo **sufrágio universal** e pelo **voto direto e secreto**, com **valor igual para todos**, e, nos termos da lei, mediante: I – **plebiscito**; II – **referendo**; III – **iniciativa popular**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Termo",
+      "Significado"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Sufrágio",
+       "O **direito** de votar e ser votado. É **universal**: não depende de renda ou instrução."
+      ],
+      [
+       "Voto",
+       "O **exercício** do sufrágio. É direto, secreto, igual, periódico, livre e personalíssimo."
+      ],
+      [
+       "Escrutínio",
+       "O **modo** de votar e apurar (urna eletrônica)."
+      ],
+      [
+       "Plebiscito",
+       "Consulta **prévia** ao ato: o povo decide antes."
+      ],
+      [
+       "Referendo",
+       "Consulta **posterior**: o povo ratifica ou rejeita um ato já editado."
+      ],
+      [
+       "Iniciativa popular",
+       "Projeto de lei federal subscrito por **1% do eleitorado nacional**, distribuído por **5 Estados**, com não menos de **0,3%** dos eleitores de cada um (art. 61, § 2º)."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O **voto direto, secreto, universal e periódico** é cláusula pétrea (art. 60, § 4º, II). A **obrigatoriedade** do voto **não** é: uma emenda pode tornar o voto facultativo."
+    },
+    {
+     "t": "h2",
+     "text": "2. Alistamento e voto"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Alistamento e voto"
+     ],
+     "widths": [
+      0.56,
+      0.44
+     ],
+     "rows": [
+      [
+       "Maiores de **18** anos",
+       "**Obrigatórios**"
+      ],
+      [
+       "**Analfabetos**",
+       "Facultativos"
+      ],
+      [
+       "Maiores de **70** anos",
+       "Facultativos"
+      ],
+      [
+       "Maiores de **16** e menores de **18**",
+       "Facultativos"
+      ],
+      [
+       "**Estrangeiros**",
+       "**Inalistáveis**"
+      ],
+      [
+       "**Conscritos**, durante o serviço militar obrigatório",
+       "**Inalistáveis**"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: analfabeto",
+     "text": "O analfabeto **pode votar** (voto facultativo), mas é **inelegível** (§ 4º). Ele tem capacidade eleitoral **ativa**, mas não **passiva**."
+    },
+    {
+     "t": "h2",
+     "text": "3. Condições de elegibilidade (§ 3º)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Nacionalidade brasileira; **pleno exercício** dos direitos políticos; **alistamento** eleitoral; **domicílio eleitoral** na circunscrição; **filiação partidária** (não há candidatura avulsa); **idade mínima**."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Idade mínima",
+      "Cargos"
+     ],
+     "widths": [
+      0.2,
+      0.8
+     ],
+     "rows": [
+      [
+       "**35 anos**",
+       "Presidente e Vice-Presidente da República; **Senador**"
+      ],
+      [
+       "**30 anos**",
+       "Governador e Vice-Governador de Estado e do DF"
+      ],
+      [
+       "**21 anos**",
+       "Deputado federal, estadual ou distrital; **Prefeito** e Vice-Prefeito; juiz de paz"
+      ],
+      [
+       "**18 anos**",
+       "**Vereador**"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "A idade mínima é verificada, em regra, na data da **posse**; para vereador (18 anos), na data-limite do pedido de registro (Lei 9.504/1997, art. 11, § 2º)."
+    },
+    {
+     "t": "h2",
+     "text": "4. Inelegibilidades"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tipo",
+      "Quem",
+      "Regra"
+     ],
+     "widths": [
+      0.18,
+      0.34,
+      0.48
+     ],
+     "rows": [
+      [
+       "Absoluta",
+       "**Inalistáveis** e **analfabetos**",
+       "Não podem concorrer a nenhum cargo."
+      ],
+      [
+       "Reeleição (§ 5º)",
+       "Presidente, Governadores, Prefeitos e quem os **sucedeu** ou **substituiu** no curso do mandato",
+       "Podem ser reeleitos para **um único período subsequente**."
+      ],
+      [
+       "Desincompatibilização (§ 6º)",
+       "Os mesmos chefes do Executivo",
+       "Para concorrer a **outros cargos**, devem **renunciar** até **6 meses** antes do pleito."
+      ],
+      [
+       "Reflexa (§ 7º)",
+       "**Cônjuge** e parentes até o **2º grau** (consanguíneos, afins ou por adoção) dos chefes do Executivo ou de quem os substituiu nos 6 meses anteriores",
+       "Inelegíveis **no território de jurisdição** do titular, **salvo** se já titulares de mandato eletivo e candidatos à **reeleição**."
+      ],
+      [
+       "Legal (§ 9º)",
+       "Outros casos",
+       "Fixados por **lei complementar** (LC 64/1990, alterada pela Lei da Ficha Limpa, LC 135/2010)."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Para concorrer à **reeleição**, o chefe do Executivo **não** precisa renunciar.",
+      "**Súmula Vinculante 18**: a dissolução da sociedade ou do vínculo conjugal **no curso do mandato** não afasta a inelegibilidade reflexa.",
+      "O STF veda o **prefeito itinerante**: quem exerceu dois mandatos consecutivos de prefeito não pode se candidatar a prefeito em **outro Município** no período seguinte (RE 637.485).",
+      "Exemplo de inelegibilidade reflexa: o **filho do governador** não pode ser candidato a deputado **pelo mesmo Estado**, mas pode concorrer por outro Estado ou, se já for deputado, à reeleição."
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "O militar candidato (§ 8º)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tempo de serviço",
+      "Consequência"
+     ],
+     "widths": [
+      0.3,
+      0.7
+     ],
+     "rows": [
+      [
+       "**Menos de 10 anos**",
+       "Deve **afastar-se da atividade**."
+      ],
+      [
+       "**Mais de 10 anos**",
+       "Será **agregado** pela autoridade superior e, se eleito, passará automaticamente, no ato da **diplomação**, para a **inatividade**."
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O militar alistável é elegível. Como não pode estar filiado a partido enquanto em serviço ativo (art. 142, § 3º, V), o TSE dispensa a filiação prévia: basta o registro da candidatura apresentado pelo partido."
+    },
+    {
+     "t": "h3",
+     "text": "Ação de impugnação de mandato eletivo (§§ 10 e 11)"
+    },
+    {
+     "t": "p",
+     "text": "O mandato eletivo pode ser impugnado perante a **Justiça Eleitoral** no prazo de **15 dias contados da diplomação**, com provas de **abuso do poder econômico, corrupção ou fraude**. A ação tramita em **segredo de justiça**, e o autor responde se agir de forma temerária ou de má-fé."
+    },
+    {
+     "t": "h2",
+     "text": "5. Perda e suspensão dos direitos políticos (art. 15)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 15. É **vedada a cassação** de direitos políticos, cuja perda ou suspensão só se dará nos casos de: I – cancelamento da naturalização por sentença transitada em julgado; II – incapacidade civil absoluta; III – condenação criminal transitada em julgado, enquanto durarem seus efeitos; IV – recusa de cumprir obrigação a todos imposta ou prestação alternativa (art. 5º, VIII); V – improbidade administrativa (art. 37, § 4º)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Hipótese",
+      "Classificação usual"
+     ],
+     "widths": [
+      0.6,
+      0.4
+     ],
+     "rows": [
+      [
+       "Cancelamento da naturalização",
+       "**Perda**"
+      ],
+      [
+       "Incapacidade civil absoluta",
+       "Suspensão"
+      ],
+      [
+       "**Condenação criminal transitada em julgado**",
+       "Suspensão, **enquanto durarem os efeitos** da pena"
+      ],
+      [
+       "Recusa de obrigação a todos imposta (escusa sem prestação alternativa)",
+       "Perda para parte da doutrina; suspensão para a lei (Lei 8.239/1991)"
+      ],
+      [
+       "Improbidade administrativa",
+       "Suspensão"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A suspensão por condenação criminal é **automática**: vale para qualquer crime e para qualquer pena, inclusive **multa** ou **pena restritiva de direitos** (STF, RE 601.182).",
+      "A **cassação** (retirada arbitrária, por ato político) é **proibida**. Não confunda com a **cassação do mandato** de parlamentar, que é outra coisa (art. 55)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Anterioridade eleitoral (art. 16)"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 16. A lei que alterar o processo eleitoral entrará em **vigor na data de sua publicação**, **não se aplicando** à eleição que ocorra até **1 ano** da data de sua vigência."
+    },
+    {
+     "t": "p",
+     "text": "A lei vale desde a publicação, mas só se **aplica** às eleições que ocorrerem **mais de 1 ano** depois. O STF aplicou a regra à Lei da Ficha Limpa, que por isso não valeu para as eleições de 2010 (RE 633.703)."
+    },
+    {
+     "t": "h2",
+     "text": "7. Partidos políticos (art. 17)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "É **livre** a criação, fusão, incorporação e extinção de partidos, resguardados a soberania nacional, o regime democrático, o **pluripartidarismo** e os direitos fundamentais da pessoa humana.",
+      "Preceitos: **caráter nacional**; **proibição de receber recursos** de entidade ou governo **estrangeiros**; **prestação de contas** à Justiça Eleitoral; funcionamento parlamentar de acordo com a lei.",
+      "O partido adquire **personalidade jurídica** na forma da **lei civil** (cartório) e depois registra seu estatuto no **TSE**.",
+      "É **vedada** a utilização de **organização paramilitar** pelos partidos.",
+      "Têm **autonomia** para definir estrutura interna e regras de escolha e coligação; é vedada a **obrigatoriedade de vinculação** entre candidaturas nacionais, estaduais e municipais (fim da verticalização).",
+      "São **vedadas coligações nas eleições proporcionais** (EC 97/2017). Nas majoritárias, continuam permitidas.",
+      "**Cláusula de desempenho** (EC 97/2017): só têm acesso ao fundo partidário e à propaganda gratuita no rádio e na TV os partidos que atingirem votação mínima ou elegerem número mínimo de deputados federais, com exigências crescentes até 2030.",
+      "**Fidelidade partidária** (§ 6º, EC 111/2021): deputados e vereadores que se desligarem do partido **perdem o mandato**, salvo **anuência do partido** ou justa causa prevista em lei. A regra **não** alcança os cargos **majoritários** (senador, prefeito, governador, presidente), conforme o STF (ADI 5.081).",
+      "Os partidos devem aplicar no mínimo **30%** dos recursos do fundo partidário e do fundo eleitoral, e do tempo de propaganda, em **candidaturas femininas** (§ 8º, EC 117/2022)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As alternativas copiam o texto da Constituição com **uma palavra trocada**: prazo (dia × noite, 2 × 3 anos), quórum (maioria absoluta × 2/3), competência (Câmara × Senado) ou expressão de exceção (“salvo” × “inclusive”).",
+      "No comando “assinale a alternativa **incorreta**”, marque C ou E em cada alternativa: a resposta é a única errada.",
+      "Quando duas alternativas parecem certas, uma delas extrapola o texto (“sempre”, “em qualquer hipótese”). Fique com a mais fiel à letra da lei.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O alistamento eleitoral e o voto são facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito anos.",
+    "comment": "**Certo.** Art. 14, § 1º, II.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Os conscritos, durante o período do serviço militar obrigatório, têm voto facultativo.",
+    "comment": "**Errado.** Os conscritos, nesse período, são inalistáveis.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O analfabeto pode votar, mas é inelegível.",
+    "comment": "**Certo.** Tem capacidade eleitoral ativa, mas não passiva (art. 14, § 4º).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A idade mínima para concorrer ao cargo de senador é de trinta anos.",
+    "comment": "**Errado.** Para senador, exige-se 35 anos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A idade mínima de vinte e um anos é condição de elegibilidade para prefeito e para deputado federal.",
+    "comment": "**Certo.** Art. 14, § 3º, VI, c.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Para concorrer à reeleição, o governador deve renunciar ao mandato até seis meses antes do pleito.",
+    "comment": "**Errado.** A renúncia (desincompatibilização) só é exigida para concorrer a outros cargos.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "É vedada a cassação de direitos políticos.",
+    "comment": "**Certo.** Art. 15, caput. Admitem-se apenas perda e suspensão nas hipóteses constitucionais.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "A lei que alterar o processo eleitoral só entra em vigor um ano após a data de sua publicação.",
+    "comment": "**Errado.** Entra em vigor na publicação; apenas não se aplica à eleição que ocorra até um ano da data de sua vigência.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Os partidos políticos são proibidos de receber recursos financeiros de entidade ou governo estrangeiros.",
+    "comment": "**Certo.** Art. 17, II.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A Constituição permite coligações partidárias nas eleições proporcionais, desde que formalizadas até a data das convenções.",
+    "comment": "**Errado.** Desde a EC 97/2017, são vedadas coligações nas eleições proporcionais.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "O alistamento eleitoral e o voto são facultativos para",
+    "options": [
+     "os analfabetos, os maiores de setenta anos e os maiores de dezesseis e menores de dezoito anos.",
+     "os maiores de sessenta e cinco anos e os conscritos.",
+     "os estrangeiros residentes e os analfabetos.",
+     "os maiores de dezoito anos que residam no exterior.",
+     "os militares em serviço ativo."
+    ],
+    "comment": "**Gabarito: A.** Art. 14, § 1º, II. Estrangeiros e conscritos (no serviço militar obrigatório) são inalistáveis.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "A idade mínima de trinta e cinco anos é condição de elegibilidade para",
+    "options": [
+     "Governador e Vice-Governador.",
+     "Deputado Federal.",
+     "Prefeito e Vice-Prefeito.",
+     "Presidente, Vice-Presidente da República e Senador.",
+     "Vereador."
+    ],
+    "comment": "**Gabarito: D.** Art. 14, § 3º, VI, a. Governador: 30; deputado e prefeito: 21; vereador: 18.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consanguíneos ou afins, até o segundo grau ou por adoção,",
+    "options": [
+     "de qualquer servidor público.",
+     "dos Senadores e Deputados Federais.",
+     "do Presidente da República, de Governador, de Prefeito ou de quem os haja substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição.",
+     "dos Ministros de Estado e Secretários.",
+     "dos magistrados e membros do Ministério Público."
+    ],
+    "comment": "**Gabarito: C.** É a inelegibilidade reflexa do art. 14, § 7º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "E",
+    "text": "Para concorrerem a outros cargos, o Presidente da República, os Governadores e os Prefeitos devem renunciar aos respectivos mandatos até",
+    "options": [
+     "um ano antes do pleito.",
+     "três meses antes do pleito.",
+     "quatro meses antes do pleito.",
+     "noventa dias antes do pleito.",
+     "seis meses antes do pleito."
+    ],
+    "comment": "**Gabarito: E.** Art. 14, § 6º. Para a reeleição, não precisam renunciar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "B",
+    "text": "O militar alistável é elegível. Se contar mais de dez anos de serviço,",
+    "options": [
+     "deverá afastar-se da atividade.",
+     "será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.",
+     "será reformado no ato do registro da candidatura.",
+     "não poderá concorrer a cargos majoritários.",
+     "deverá filiar-se a partido um ano antes do pleito."
+    ],
+    "comment": "**Gabarito: B.** Art. 14, § 8º, II. Com menos de dez anos, deve afastar-se da atividade.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "É vedada a cassação de direitos políticos, cuja perda ou suspensão só se dará, entre outros casos, de",
+    "options": [
+     "condenação criminal transitada em julgado, enquanto durarem seus efeitos.",
+     "condenação criminal em primeira instância.",
+     "instauração de inquérito policial.",
+     "desfiliação partidária.",
+     "ausência injustificada às eleições."
+    ],
+    "comment": "**Gabarito: A.** Art. 15, III.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "A lei que alterar o processo eleitoral",
+    "options": [
+     "entrará em vigor um ano após sua publicação.",
+     "só se aplica às eleições municipais.",
+     "depende de referendo popular.",
+     "entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência.",
+     "aplica-se imediatamente a todas as eleições."
+    ],
+    "comment": "**Gabarito: D.** Art. 16 (anterioridade eleitoral).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "C",
+    "text": "Quanto aos partidos políticos, assinale a alternativa correta.",
+    "options": [
+     "Podem receber recursos de governos estrangeiros, desde que declarados.",
+     "Adquirem personalidade jurídica com o registro no TSE.",
+     "É vedada a celebração de coligações nas eleições proporcionais.",
+     "Podem utilizar organização paramilitar para segurança.",
+     "Devem ter caráter regional."
+    ],
+    "comment": "**Gabarito: C.** Art. 17, § 1º (EC 97/2017). Partidos têm caráter nacional, não recebem recursos estrangeiros, adquirem personalidade na forma da lei civil e não podem usar organização paramilitar.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "O mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de",
+    "options": [
+     "trinta dias contados da eleição.",
+     "quinze dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude.",
+     "quinze dias contados da posse.",
+     "dez dias contados da proclamação do resultado.",
+     "um ano contado da diplomação."
+    ],
+    "comment": "**Gabarito: B.** Art. 14, § 10. A ação tramita em segredo de justiça.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "E",
+    "text": "Assinale a alternativa INCORRETA.",
+    "options": [
+     "O analfabeto pode votar.",
+     "O conscrito, durante o serviço militar obrigatório, não pode alistar-se.",
+     "A filiação partidária é condição de elegibilidade.",
+     "O plebiscito é convocado antes do ato legislativo ou administrativo.",
+     "A idade mínima para vereador é de vinte e um anos."
+    ],
+    "comment": "**Gabarito: E.** A idade mínima para vereador é de dezoito anos (art. 14, § 3º, VI, d).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 14 a 17, 60, § 4º, e 142, § 3º; EC 97/2017, 111/2021 e 117/2022.",
+  "LC 64/1990 e LC 135/2010 (Ficha Limpa); Lei 9.504/1997.",
+  "Supremo Tribunal Federal: Súmula Vinculante 18; RE 637.485; RE 601.182; RE 633.703; ADI 5.081.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

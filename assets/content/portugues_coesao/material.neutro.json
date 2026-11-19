@@ -1,0 +1,307 @@
+{
+ "id": "lp-coesao-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-16"
+ ],
+ "kind": "resumo",
+ "title": "Coesão e coerência textual",
+ "subtitle": "Língua Portuguesa · Texto",
+ "minutes": 30,
+ "pdf": "portugues_coesao.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Referência** (“o termo X retoma Y”), **conectivos** e a diferença entre coesão e coerência. Substitua o termo pelo referente e teste."
+    },
+    {
+     "t": "h2",
+     "text": "1. Conceitos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Coesão**: ligação linguística (pronomes, conectivos, sinônimos).",
+      "**Coerência**: unidade de sentido, sem contradição. Conectivo não garante coerência."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Coesão referencial"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Anáfora** retoma; **catáfora** antecipa.",
+      "Mecanismos: pronomes, sinônimos, **hiperônimos** (*fuzil › a arma*), expressões nominais (*a fuga*), **elipse**, advérbios (*lá, aí*), numerais (*o último*).",
+      "**Esse** retoma; **este** anuncia ou indica o mais próximo; **aquele**, o mais distante."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Coesão sequencial"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Conectivos e articuladores: *além disso, porém, portanto, em síntese*.",
+      "Marcadores temporais ordenam os fatos."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Coerência"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Não contradição, continuidade do tema, progressão e compatibilidade com o mundo.",
+      "O conectivo deve combinar com o conteúdo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro: mecanismos de coesão"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Mecanismo",
+      "Exemplo"
+     ],
+     "widths": [
+      0.36,
+      0.64
+     ],
+     "rows": [
+      [
+       "Pronome",
+       "O réu negou. **Ele** mentiu."
+      ],
+      [
+       "Sinônimo",
+       "O **carro**… o **veículo**…"
+      ],
+      [
+       "Hiperônimo",
+       "O **fuzil**… a **arma**…"
+      ],
+      [
+       "Expressão nominal",
+       "Fugiu pela janela. **A fuga**…"
+      ],
+      [
+       "Elipse",
+       "Chegaram e **(eles)** isolaram a área."
+      ],
+      [
+       "Advérbio",
+       "Fomos a Recife. **Lá**…"
+      ],
+      [
+       "Conectivo",
+       "Confessou; **porém**, recorreu."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Substitua o termo pelo referente proposto.",
+      "Confira **concordância** e **sentido** do referente.",
+      "Pronome nem sempre retoma o termo **mais próximo**.",
+      "**Esse** = anáfora; **este** = catáfora.",
+      "Hiperônimo retoma hipônimo (*fuzil › arma*).",
+      "Elipse: termo omitido e identificável.",
+      "Relativo retoma o antecedente.",
+      "Coesão ≠ coerência.",
+      "Contradição = incoerência.",
+      "Progressão = informação nova."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "COESÃO E COERÊNCIA",
+  "rootSub": "ligação e sentido",
+  "left": [
+   {
+    "label": "Coesão",
+    "items": [
+     "ligação linguística",
+     "superfície do texto",
+     "pronomes e conectivos"
+    ]
+   },
+   {
+    "label": "Anáfora e catáfora",
+    "items": [
+     "anáfora: retoma",
+     "catáfora: antecipa",
+     "esse × este"
+    ]
+   },
+   {
+    "label": "Retomada",
+    "items": [
+     "sinônimos",
+     "hiperônimos",
+     "expressões nominais"
+    ]
+   },
+   {
+    "label": "Elipse",
+    "items": [
+     "termo omitido",
+     "identificável",
+     "sujeito oculto"
+    ]
+   },
+   {
+    "label": "Outros",
+    "items": [
+     "lá, aí",
+     "o primeiro, o último",
+     "relativos"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Sequencial",
+    "items": [
+     "conectivos",
+     "articuladores",
+     "tempos verbais"
+    ]
+   },
+   {
+    "label": "Coerência",
+    "items": [
+     "sentido",
+     "sem contradição",
+     "relação com o mundo"
+    ]
+   },
+   {
+    "label": "Progressão",
+    "items": [
+     "mantém o tema",
+     "acrescenta dados",
+     "não repete à toa"
+    ]
+   },
+   {
+    "label": "Teste",
+    "items": [
+     "substitua o termo",
+     "confira concordância",
+     "confira o sentido"
+    ]
+   },
+   {
+    "label": "Pegadinhas",
+    "items": [
+     "referente não é o mais próximo",
+     "conectivo incoerente",
+     "repetição excessiva"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A expressão o homem retoma o motorista.",
+    "comment": "**Certo.** É uma expressão nominal que retoma o referente já mencionado.",
+    "context": "O agente abordou o motorista e pediu os documentos dele. Como o homem estava nervoso, o policial redobrou a atenção."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O pronome dele refere-se ao agente.",
+    "comment": "**Errado.** Os documentos são do motorista."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A expressão o policial retoma O agente.",
+    "comment": "**Certo.** Policial é sinônimo contextual de agente."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O conector Como introduz ideia de comparação.",
+    "comment": "**Errado.** Anteposto à principal, como tem valor causal."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Hiperônimos podem retomar hipônimos, como em “o revólver… a arma”.",
+    "comment": "**Certo.** O termo geral retoma o específico."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A catáfora consiste na retomada de um termo já mencionado.",
+    "comment": "**Errado.** Retomar é anáfora; catáfora antecipa o que virá."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "A elipse é um mecanismo de coesão em que um termo identificável pelo contexto é omitido.",
+    "comment": "**Certo.** Ex.: Chegaram cedo e (eles) isolaram a área."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Todo texto coeso é necessariamente coerente.",
+    "comment": "**Errado.** Um texto pode ter elementos coesivos e ser contraditório."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Em “O suspeito fugiu. A fuga foi filmada”, a fuga é expressão nominal que retoma o fato narrado antes.",
+    "comment": "**Certo.** O substantivo resume a ação anterior."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Os pronomes relativos não exercem função coesiva, pois apenas ligam orações.",
+    "comment": "**Errado.** Retomam um antecedente: são coesivos."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Gramáticas de referência: Bechara, Moderna gramática portuguesa; Cunha e Cintra, Nova gramática do português contemporâneo.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

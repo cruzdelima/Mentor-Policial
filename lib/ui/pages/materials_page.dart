@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../core/bancas.dart';
 import '../../core/catalog.dart';
 import '../../core/dates.dart';
 import '../../core/models.dart';
@@ -474,12 +475,28 @@ class _MaterialReaderState extends State<MaterialReader> {
   @override
   void initState() {
     super.initState();
+    _load();
+  }
+
+  void _load() {
     final app = AppScope.read(context);
     app.content.open(widget.info, app.bundle).then((m) {
       if (mounted) setState(() => material = m);
     }, onError: (Object e) {
       if (mounted) setState(() => error = e);
     });
+  }
+
+  /// Dono: troca a versão por banca para conferir (Cebraspe, AOCP, neutra).
+  void _preview(String v) {
+    final app = AppScope.read(context);
+    app.content.preview = v == app.content.banca ? null : v;
+    setState(() {
+      material = null;
+      error = null;
+      tab = 0;
+    });
+    _load();
   }
 
   @override
@@ -527,6 +544,23 @@ class _MaterialReaderState extends State<MaterialReader> {
             if (app.reviewer) ...[_ReviewButton(info: info), const SizedBox(width: 10)],
             OutlinedButton.icon(onPressed: m?.pdf == null ? null : _openPdf, icon: const Icon(Icons.picture_as_pdf_outlined, size: 18), label: const Text('ABRIR PDF')),
           ]),
+          if (app.reviewer && info.variants.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            Row(children: [
+              const SizedBox(width: 50),
+              Text('VERSÃO POR BANCA', style: AppText.label()),
+              const SizedBox(width: 10),
+              for (final v in ['cebraspe', ...info.variants.where((x) => x != 'cebraspe')])
+                Padding(
+                  padding: const EdgeInsets.only(right: 6),
+                  child: ChoiceChip(
+                    label: Text(bancaVariantLabel(v) + (v == app.content.banca ? ' · do aluno' : '')),
+                    selected: (m?.variant ?? app.content.variantFor(info)) == v,
+                    onSelected: (_) => _preview(v),
+                  ),
+                ),
+            ]),
+          ],
           const SizedBox(height: 10),
           Row(children: [
             const SizedBox(width: 50),
@@ -811,10 +845,10 @@ class _QuizViewState extends State<QuizView> {
           ]),
         ),
         if (attempts.isNotEmpty)
-          Pill('${attempts.length} tentativa(s) · melhor líquida ${attempts.map((a) => a.net).reduce((a, b) => a > b ? a : b)}', color: AppColors.muted),
+          Pill('${attempts.length} tentativa(s) · melhor ${quiz.penalty ? 'líquida' : 'nota'} ${attempts.map((a) => a.net).reduce((a, b) => a > b ? a : b)}', color: AppColors.muted),
       ]),
       const SizedBox(height: 18),
-      if (r != null) _ResultBanner(result: r, total: quiz.questions.length, onRetry: () => setState(() {
+      if (r != null) _ResultBanner(result: r, total: quiz.questions.length, penalty: quiz.penalty, onRetry: () => setState(() {
             result = null;
             answers.clear();
           })),
@@ -842,6 +876,7 @@ class _QuizViewState extends State<QuizView> {
         _QuestionCard(
         index: i + 1,
         q: quiz.questions[i],
+        penalty: quiz.penalty,
         answer: (r?.answers ?? answers)[quiz.questions[i].id],
         reveal: r != null,
         onAnswer: r != null ? null : (v) => setState(() => answers[quiz.questions[i].id] = answers[quiz.questions[i].id] == v ? null : v),
@@ -868,9 +903,10 @@ class _QuizViewState extends State<QuizView> {
 }
 
 class _ResultBanner extends StatelessWidget {
-  const _ResultBanner({required this.result, required this.total, required this.onRetry});
+  const _ResultBanner({required this.result, required this.total, required this.onRetry, required this.penalty});
   final QuizAttempt result;
   final int total;
+  final bool penalty;
   final VoidCallback onRetry;
 
   @override
@@ -884,7 +920,7 @@ class _ResultBanner extends StatelessWidget {
       decoration: BoxDecoration(color: AppColors.panel2, borderRadius: BorderRadius.circular(12), border: Border.all(color: color)),
       child: Row(children: [
         Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('NOTA LÍQUIDA', style: AppText.label()),
+          Text(penalty ? 'NOTA LÍQUIDA' : 'ACERTOS', style: AppText.label()),
           Text('${r.net}', style: AppText.kpi(color).copyWith(fontSize: 44)),
         ]),
         const SizedBox(width: 28),
@@ -909,9 +945,10 @@ class _ResultBanner extends StatelessWidget {
 }
 
 class _QuestionCard extends StatelessWidget {
-  const _QuestionCard({required this.index, required this.q, required this.answer, required this.reveal, required this.onAnswer});
+  const _QuestionCard({required this.index, required this.q, required this.answer, required this.reveal, required this.onAnswer, required this.penalty});
   final int index;
   final QuizQuestion q;
+  final bool penalty;
   final String? answer;
   final bool reveal;
   final ValueChanged<String>? onAnswer;
@@ -935,19 +972,35 @@ class _QuestionCard extends StatelessWidget {
             child: Text(index.toString().padLeft(2, '0'), style: AppText.h3(AppColors.gold2)),
           ),
           const SizedBox(width: 14),
-          Expanded(child: Text(q.text, style: AppText.body().copyWith(fontSize: 15.5, height: 1.55))),
-          const SizedBox(width: 14),
-          for (final opt in const ['C', 'E'])
-            Padding(
-              padding: const EdgeInsets.only(left: 6),
-              child: _OptButton(
-                label: opt,
-                selected: answer == opt,
-                correct: reveal && q.answer == opt,
-                onTap: onAnswer == null ? null : () => onAnswer!(opt),
+          Expanded(child: RichMd(q.text, style: AppText.body().copyWith(fontSize: 15.5, height: 1.55))),
+          if (!q.isChoice) ...[
+            const SizedBox(width: 14),
+            for (final opt in const ['C', 'E'])
+              Padding(
+                padding: const EdgeInsets.only(left: 6),
+                child: _OptButton(
+                  label: opt,
+                  selected: answer == opt,
+                  correct: reveal && q.answer == opt,
+                  onTap: onAnswer == null ? null : () => onAnswer!(opt),
+                ),
               ),
-            ),
+          ],
         ]),
+        if (q.isChoice)
+          Padding(
+            padding: const EdgeInsets.only(left: 48, top: 10),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+              for (var k = 0; k < q.options.length; k++)
+                _ChoiceRow(
+                  letter: q.letters[k],
+                  text: q.options[k],
+                  selected: answer == q.letters[k],
+                  correct: reveal && q.answer == q.letters[k],
+                  onTap: onAnswer == null ? null : () => onAnswer!(q.letters[k]),
+                ),
+            ]),
+          ),
         if (reveal) ...[
           const SizedBox(height: 12),
           Container(
@@ -960,7 +1013,8 @@ class _QuestionCard extends StatelessWidget {
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text(
-                    'GABARITO: ${q.answer == 'C' ? 'CERTO' : 'ERRADO'}${answer == null ? ' · em branco' : (right ? ' · você acertou' : ' · você errou (anula um acerto)')}',
+                    'GABARITO: ${q.isChoice ? 'LETRA ${q.answer}' : (q.answer == 'C' ? 'CERTO' : 'ERRADO')}'
+                    '${answer == null ? ' · em branco' : (right ? ' · você acertou' : (penalty && !q.isChoice ? ' · você errou (anula um acerto)' : ' · você errou'))}',
                     style: AppText.label(right ? AppColors.green : (wrong ? AppColors.red : AppColors.muted)),
                   ),
                   const SizedBox(height: 4),
@@ -971,6 +1025,50 @@ class _QuestionCard extends StatelessWidget {
           ),
         ],
       ]),
+    );
+  }
+}
+
+class _ChoiceRow extends StatelessWidget {
+  const _ChoiceRow({required this.letter, required this.text, required this.selected, required this.correct, required this.onTap});
+  final String letter;
+  final String text;
+  final bool selected;
+  final bool correct;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color border = correct ? AppColors.green : (selected ? AppColors.gold : AppColors.lineSoft);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Material(
+        color: selected ? AppColors.gold.withValues(alpha: 0.12) : AppColors.field,
+        borderRadius: BorderRadius.circular(8),
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(8),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), border: Border.all(color: border, width: correct ? 1.6 : 1)),
+            child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Container(
+                width: 26,
+                height: 26,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: selected ? AppColors.gold : AppColors.bg,
+                  borderRadius: BorderRadius.circular(13),
+                  border: Border.all(color: correct ? AppColors.green : AppColors.line),
+                ),
+                child: Text(letter, style: AppText.label(selected ? AppColors.bg : AppColors.text)),
+              ),
+              const SizedBox(width: 10),
+              Expanded(child: RichMd(text, style: AppText.body().copyWith(fontSize: 15, height: 1.5))),
+            ]),
+          ),
+        ),
+      ),
     );
   }
 }

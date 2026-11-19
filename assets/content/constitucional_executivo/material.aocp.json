@@ -1,0 +1,376 @@
+{
+ "id": "dc-executivo-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-10"
+ ],
+ "kind": "resumo",
+ "title": "Poder Executivo",
+ "subtitle": "Direito Constitucional · Organização dos Poderes",
+ "minutes": 35,
+ "pdf": "constitucional_executivo.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "**Posse** (5 de janeiro), **dupla vacância**, atribuições **delegáveis** e o **processo** contra o Presidente."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Eleição e mandato"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Presidente = **Chefe de Estado** + **Chefe de Governo**, auxiliado pelos Ministros.",
+      "Eleito por **maioria absoluta** dos votos **válidos**; senão, **2º turno** entre os dois mais votados.",
+      "Mandato de **4 anos**, posse em **5 de janeiro** (EC 111/2021, a partir dos eleitos em 2026); uma reeleição.",
+      "Não assumiu em **10 dias**: cargo **vago** (salvo força maior)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Sucessão"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Vice** substitui (impedimento) e **sucede** (vaga).",
+      "Depois: Presidente da **Câmara**, do **Senado** e do **STF**, só **substituindo**.",
+      "Dupla vacância: **2 primeiros anos** › eleição **direta** em **90 dias**; **2 últimos anos** › **indireta** pelo Congresso em **30 dias**; mandato-tampão.",
+      "Sair do País por **mais de 15 dias** exige licença do Congresso."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Atribuições"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Relações exteriores, tratados (referendo do Congresso), comando das **Forças Armadas**, estado de defesa e de sítio, intervenção.",
+      "Sanciona, veta, edita **MP**, expede decretos; nomeia Ministros, e, com o Senado, Ministros do STF e o PGR.",
+      "Delegáveis a **Ministros, PGR e AGU**: **decreto autônomo** (VI), **indulto** e comutação (XII), **prover cargos** (XXV)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Responsabilidade"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Câmara autoriza por **2/3** › **STF** (crime comum) ou **Senado** (crime de responsabilidade).",
+      "Afastamento: crime comum com **recebimento da denúncia** pelo STF; responsabilidade com a **instauração** no Senado; cessa após **180 dias**.",
+      "Sem prisão antes de **sentença condenatória**; não responde por **atos estranhos** às funções durante o mandato.",
+      "Prerrogativas **não se estendem** a governadores (julgados pelo **STJ**, sem autorização da Assembleia).",
+      "Conselho da **República**: líderes e **6 natos**; Conselho de **Defesa Nacional**: Ministros e **comandantes militares**; ambos opinativos."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Item",
+      "Regra"
+     ],
+     "widths": [
+      0.46,
+      0.54
+     ],
+     "rows": [
+      [
+       "Posse do Presidente",
+       "5 de janeiro (a partir de 2027)"
+      ],
+      [
+       "Prazo para assumir",
+       "10 dias, senão o cargo vaga"
+      ],
+      [
+       "Linha de substituição",
+       "Câmara › Senado › STF"
+      ],
+      [
+       "Vacância nos 2 primeiros anos",
+       "Direta, em 90 dias"
+      ],
+      [
+       "Vacância nos 2 últimos anos",
+       "Indireta, em 30 dias"
+      ],
+      [
+       "Saída do País sem licença",
+       "Até 15 dias"
+      ],
+      [
+       "Atribuições delegáveis",
+       "Decreto autônomo, indulto, provimento"
+      ],
+      [
+       "Crime comum",
+       "Câmara 2/3 › STF"
+      ],
+      [
+       "Crime de responsabilidade",
+       "Câmara 2/3 › Senado"
+      ],
+      [
+       "Afastamento máximo",
+       "180 dias"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Maioria absoluta dos votos **válidos**.",
+      "Posse em **5 de janeiro**.",
+      "Só o **Vice sucede**.",
+      "Ordem: **Câmara, Senado, STF**.",
+      "Últimos dois anos: eleição **indireta**.",
+      "Delegação: **DIP** a Ministros, PGR e AGU.",
+      "MP **não** se delega.",
+      "Crime comum: afasta com o **recebimento** da denúncia.",
+      "Atos **estranhos** às funções: só após o mandato.",
+      "Governador **não** tem essas prerrogativas."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "EXECUTIVO",
+  "rootSub": "arts. 76 a 91",
+  "left": [
+   {
+    "label": "Eleição",
+    "items": [
+     "maioria absoluta",
+     "votos válidos",
+     "2º turno"
+    ]
+   },
+   {
+    "label": "Mandato",
+    "items": [
+     "4 anos",
+     "posse em 5/1",
+     "uma reeleição"
+    ]
+   },
+   {
+    "label": "Substituição",
+    "items": [
+     "Vice sucede",
+     "Câmara, Senado, STF",
+     "só substituem"
+    ]
+   },
+   {
+    "label": "Dupla vacância",
+    "items": [
+     "início: direta, 90 dias",
+     "fim: indireta, 30 dias",
+     "mandato-tampão"
+    ]
+   },
+   {
+    "label": "Atribuições",
+    "items": [
+     "chefe de Estado",
+     "chefe de Governo",
+     "comando das FA"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Delegáveis",
+    "items": [
+     "decreto autônomo",
+     "indulto",
+     "prover cargos"
+    ]
+   },
+   {
+    "label": "Crime comum",
+    "items": [
+     "Câmara: 2/3",
+     "STF julga",
+     "afasta no recebimento"
+    ]
+   },
+   {
+    "label": "Responsabilidade",
+    "items": [
+     "Senado julga",
+     "perda do cargo",
+     "inabilitação 8 anos"
+    ]
+   },
+   {
+    "label": "Imunidades",
+    "items": [
+     "sem prisão antes",
+     "atos estranhos",
+     "só o Presidente"
+    ]
+   },
+   {
+    "label": "Conselhos",
+    "items": [
+     "República: 6 natos",
+     "Defesa: comandantes",
+     "opinativos"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O Vice-Presidente substitui o Presidente no caso de impedimento e sucede-lhe no de vaga.",
+    "comment": "**Certo.** Art. 79.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O presidente do Supremo Tribunal Federal é o primeiro na linha de substituição do Presidente da República após o Vice-Presidente.",
+    "comment": "**Errado.** O primeiro é o presidente da Câmara dos Deputados.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Ocorrendo a vacância dos cargos de Presidente e Vice-Presidente nos últimos dois anos do período presidencial, a eleição será feita pelo Congresso Nacional.",
+    "comment": "**Certo.** Art. 81, § 1º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Os eleitos após a dupla vacância exercerão mandato integral de quatro anos.",
+    "comment": "**Errado.** Apenas completam o período dos antecessores.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O Presidente da República pode delegar ao Advogado-Geral da União a atribuição de prover cargos públicos federais.",
+    "comment": "**Certo.** Art. 84, parágrafo único.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "B",
+    "text": "O Presidente da República e o Vice-Presidente não poderão, sem licença do Congresso Nacional, ausentar-se do País por período superior a",
+    "options": [
+     "dez dias.",
+     "quinze dias.",
+     "trinta dias.",
+     "sete dias.",
+     "sessenta dias."
+    ],
+    "comment": "**Gabarito: B.** Art. 83, sob pena de perda do cargo.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "Substitui o Presidente, no caso de impedimento, e sucede-lhe, no de vaga,",
+    "options": [
+     "o Presidente da Câmara.",
+     "o Presidente do Senado.",
+     "o Presidente do STF.",
+     "o Ministro da Justiça.",
+     "o Vice-Presidente."
+    ],
+    "comment": "**Gabarito: E.** Art. 79.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "Nos crimes de responsabilidade, o Presidente da República é julgado",
+    "options": [
+     "pelo Senado Federal.",
+     "pelo STF.",
+     "pela Câmara dos Deputados.",
+     "pelo STJ.",
+     "pelo Congresso Nacional."
+    ],
+    "comment": "**Gabarito: A.** Art. 86, caput.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "C",
+    "text": "Se, decorrido o prazo de cento e oitenta dias, o julgamento do Presidente não estiver concluído,",
+    "options": [
+     "o processo será arquivado.",
+     "o Presidente será condenado.",
+     "cessará o afastamento, sem prejuízo do regular prosseguimento do processo.",
+     "o Vice assumirá definitivamente.",
+     "o processo passará ao STF."
+    ],
+    "comment": "**Gabarito: C.** Art. 86, § 2º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "É atribuição delegável do Presidente da República:",
+    "options": [
+     "editar medidas provisórias.",
+     "decretar o estado de sítio.",
+     "sancionar leis.",
+     "prover os cargos públicos federais.",
+     "nomear Ministros do STF."
+    ],
+    "comment": "**Gabarito: D.** Art. 84, XXV, primeira parte, e parágrafo único.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 76 a 91; EC 111/2021.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

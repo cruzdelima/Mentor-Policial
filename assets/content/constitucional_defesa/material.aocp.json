@@ -1,0 +1,380 @@
+{
+ "id": "dc-defesa-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-12"
+ ],
+ "kind": "resumo",
+ "title": "Defesa do Estado: estados de defesa e de sítio, Forças Armadas",
+ "subtitle": "Direito Constitucional · Defesa do Estado",
+ "minutes": 25,
+ "pdf": "constitucional_defesa.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "A diferença entre **estado de defesa** e **estado de sítio** e a missão e o regime das **Forças Armadas**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Estado de defesa"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Ordem pública ou paz social em **locais restritos**: **instabilidade institucional** grave e iminente ou **calamidade** natural.",
+      "Presidente decreta, ouvidos os **Conselhos** (opinativos); Congresso recebe em **24 h** e decide por **maioria absoluta** em **10 dias**.",
+      "**30 dias** + **uma** prorrogação de 30.",
+      "Medidas: restringir **reunião**, sigilo de **correspondência** e de **comunicações**; ocupar bens públicos na calamidade.",
+      "Prisão: comunicada ao juiz, **até 10 dias** sem autorização judicial, **sem incomunicabilidade**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Estado de sítio"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Comoção grave nacional** ou **ineficácia** do estado de defesa; **guerra** ou **agressão armada** estrangeira.",
+      "Presidente **pede autorização prévia** ao Congresso (**maioria absoluta**).",
+      "Comoção: **30 dias**, prorrogável **cada vez** por 30. Guerra: **enquanto durar**.",
+      "Medidas (comoção): permanência em local, detenção fora de presídio comum, restrições a sigilo e **imprensa**, suspensão de **reunião**, **busca domiciliar**, intervenção em serviços públicos, requisição de bens.",
+      "Fiscalização: comissão de **5** congressistas; executores respondem por **ilícitos**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Forças Armadas"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Marinha, Exército e Aeronáutica; **permanentes e regulares**; **hierarquia e disciplina**; autoridade suprema do **Presidente**.",
+      "Missão: **defesa da Pátria**, **garantia dos poderes constitucionais** e, por iniciativa de qualquer deles, da **lei e da ordem** (GLO, LC 97/1999).",
+      "Não são **poder moderador** (ADI 6.457).",
+      "Militar: sem **sindicato** e sem **greve**; sem **filiação partidária** na ativa; cargo civil permanente › **reserva**.",
+      "Oficial perde posto só por **tribunal militar** (indignidade); condenado a mais de **2 anos** é submetido a esse julgamento.",
+      "Serviço militar **obrigatório**; serviço **alternativo** por imperativo de consciência; **mulheres e eclesiásticos** isentos em tempo de paz."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Defesa",
+      "Sítio"
+     ],
+     "widths": [
+      0.26,
+      0.37,
+      0.37
+     ],
+     "rows": [
+      [
+       "Área",
+       "Locais restritos",
+       "Pode ser nacional"
+      ],
+      [
+       "Congresso",
+       "Depois (24 h)",
+       "Antes (autoriza)"
+      ],
+      [
+       "Quórum",
+       "Maioria absoluta",
+       "Maioria absoluta"
+      ],
+      [
+       "Prazo",
+       "30 + 30 (uma vez)",
+       "30 + 30 (cada vez)"
+      ],
+      [
+       "Guerra",
+       "Não",
+       "Enquanto durar"
+      ],
+      [
+       "Reunião",
+       "Restringe",
+       "Suspende"
+      ],
+      [
+       "Busca domiciliar",
+       "Não",
+       "Sim"
+      ],
+      [
+       "Imprensa",
+       "Não",
+       "Restringe"
+      ],
+      [
+       "Prisão",
+       "Até 10 dias sem juiz",
+       "Detenção em local especial"
+      ],
+      [
+       "Conselhos",
+       "Ouvidos",
+       "Ouvidos"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Defesa: Congresso **aprova depois**.",
+      "Sítio: Congresso **autoriza antes**.",
+      "Os dois: **maioria absoluta**.",
+      "Defesa prorroga **uma vez**.",
+      "Guerra = **sítio**.",
+      "Busca em casa: **só no sítio**.",
+      "Preso: **até 10 dias**, nunca incomunicável.",
+      "FA: autoridade do **Presidente**.",
+      "GLO: decide o **Presidente**.",
+      "Militar: sem greve, sem sindicato, sem partido."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "DEFESA DO ESTADO",
+  "rootSub": "arts. 136 a 143",
+  "left": [
+   {
+    "label": "Defesa: hipóteses",
+    "items": [
+     "locais restritos",
+     "instabilidade",
+     "calamidade natural"
+    ]
+   },
+   {
+    "label": "Defesa: controle",
+    "items": [
+     "Congresso em 24 h",
+     "maioria absoluta",
+     "rejeitado: cessa"
+    ]
+   },
+   {
+    "label": "Defesa: medidas",
+    "items": [
+     "reunião",
+     "correspondência",
+     "comunicações"
+    ]
+   },
+   {
+    "label": "Defesa: prisão",
+    "items": [
+     "comunica ao juiz",
+     "até 10 dias",
+     "sem incomunicabilidade"
+    ]
+   },
+   {
+    "label": "Sítio: hipóteses",
+    "items": [
+     "comoção nacional",
+     "defesa ineficaz",
+     "guerra, agressão"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Sítio: controle",
+    "items": [
+     "autorização prévia",
+     "maioria absoluta",
+     "comissão de 5"
+    ]
+   },
+   {
+    "label": "Sítio: medidas",
+    "items": [
+     "busca domiciliar",
+     "imprensa",
+     "requisição de bens"
+    ]
+   },
+   {
+    "label": "Forças Armadas",
+    "items": [
+     "Marinha, Exército",
+     "Aeronáutica",
+     "hierarquia e disciplina"
+    ]
+   },
+   {
+    "label": "Missão",
+    "items": [
+     "defesa da Pátria",
+     "poderes constitucionais",
+     "lei e ordem (GLO)"
+    ]
+   },
+   {
+    "label": "Militares",
+    "items": [
+     "sem greve",
+     "sem partido na ativa",
+     "serviço obrigatório"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Compete ao Presidente da República decretar o estado de defesa, ouvidos o Conselho da República e o Conselho de Defesa Nacional.",
+    "comment": "**Certo.** Art. 136, caput.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O estado de defesa pode ser prorrogado sucessivas vezes, por períodos de trinta dias, enquanto persistirem as razões que o justificaram.",
+    "comment": "**Errado.** Admite-se uma única prorrogação.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "No estado de defesa, podem ser impostas restrições ao sigilo de correspondência e de comunicação telefônica.",
+    "comment": "**Certo.** Art. 136, § 1º, I, b e c.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O estado de sítio é decretado pelo Congresso Nacional, mediante solicitação do Presidente da República.",
+    "comment": "**Errado.** Quem decreta é o Presidente, após autorização do Congresso.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "A resposta a agressão armada estrangeira autoriza a decretação do estado de sítio.",
+    "comment": "**Certo.** Art. 137, II.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m6",
+    "answer": "C",
+    "text": "O estado de defesa, decretado em locais restritos e determinados, terá duração de até",
+    "options": [
+     "sessenta dias.",
+     "noventa dias.",
+     "trinta dias, prorrogável uma vez por igual período.",
+     "quinze dias, improrrogável.",
+     "enquanto durar a crise."
+    ],
+    "comment": "**Gabarito: C.** Art. 136, § 2º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m7",
+    "answer": "E",
+    "text": "O estado de sítio exige",
+    "options": [
+     "apenas a oitiva do Conselho da República.",
+     "decisão do STF.",
+     "referendo popular.",
+     "aprovação posterior do Senado.",
+     "autorização prévia do Congresso Nacional, por maioria absoluta."
+    ],
+    "comment": "**Gabarito: E.** Art. 137, parágrafo único.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m8",
+    "answer": "A",
+    "text": "A busca e apreensão em domicílio está prevista como medida",
+    "options": [
+     "do estado de sítio decretado por comoção grave.",
+     "do estado de defesa.",
+     "de ambos.",
+     "da intervenção federal.",
+     "de nenhum deles."
+    ],
+    "comment": "**Gabarito: A.** Art. 139, V.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m9",
+    "answer": "B",
+    "text": "As Forças Armadas destinam-se",
+    "options": [
+     "à segurança pública ordinária dos Estados.",
+     "à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem.",
+     "à moderação dos conflitos entre os Poderes.",
+     "à fiscalização de fronteiras, exclusivamente.",
+     "ao policiamento ostensivo das rodovias."
+    ],
+    "comment": "**Gabarito: B.** Art. 142, caput. O STF afastou a tese de poder moderador (ADI 6.457).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m10",
+    "answer": "D",
+    "text": "Durante o estado de defesa, a prisão por crime contra o Estado não poderá ser superior a",
+    "options": [
+     "trinta dias.",
+     "cinco dias.",
+     "quinze dias.",
+     "dez dias, salvo quando autorizada pelo Poder Judiciário.",
+     "noventa dias."
+    ],
+    "comment": "**Gabarito: D.** Art. 136, § 3º, III.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 136 a 143.",
+  "Lei Complementar 97/1999; STF, ADI 6.457.",
+  "Texto e questões elaborados para o Taticum (itens inéditos; o Bloco B segue o padrão do Instituto AOCP)."
+ ]
+}

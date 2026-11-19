@@ -1,0 +1,390 @@
+{
+ "id": "lp-redacao-oficial-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "LP",
+ "topicIds": [
+  "LP-20"
+ ],
+ "kind": "aprofundado",
+ "title": "Redação oficial",
+ "subtitle": "Língua Portuguesa · Redação oficial",
+ "minutes": 150,
+ "pdf": "portugues_redacao_oficial_aprofundado.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "As questões de redação oficial são quase sempre sobre **pronomes de tratamento**, **vocativos**, **fechos** e **atributos** do texto oficial. Tudo vem do *Manual de Redação da Presidência da República* (3ª edição, 2018), que unificou os antigos aviso, memorando e ofício no **padrão ofício**. Este material resume o que cai; consulte o manual para os detalhes de formatação."
+    },
+    {
+     "t": "h2",
+     "text": "1. Atributos da redação oficial"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Atributo",
+      "O que significa"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "Clareza",
+       "O texto é entendido de imediato pelo leitor"
+      ],
+      [
+       "Precisão",
+       "Palavras exatas, sem ambiguidade; termo técnico só quando necessário e, se preciso, explicado"
+      ],
+      [
+       "Objetividade",
+       "Ir direto ao assunto, com as ideias essenciais"
+      ],
+      [
+       "Concisão",
+       "Transmitir o máximo de informação com o mínimo de palavras, **sem eliminar o essencial**"
+      ],
+      [
+       "Coesão e coerência",
+       "Ideias bem ligadas e logicamente compatíveis"
+      ],
+      [
+       "Impessoalidade",
+       "O texto é do órgão, não da pessoa: sem impressões pessoais"
+      ],
+      [
+       "Formalidade e padronização",
+       "Civilidade no tratamento e uniformidade dos documentos"
+      ],
+      [
+       "Uso da norma-padrão",
+       "Sem gírias, regionalismos ou linguagem coloquial"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Concisão não é cortar o essencial",
+     "text": "Concisão é eliminar o que sobra (repetições, adjetivos inúteis, rodeios), nunca a informação necessária. E impessoalidade não proíbe a 1ª pessoa do plural institucional: proíbe a opinião pessoal do redator."
+    },
+    {
+     "t": "h2",
+     "text": "2. Pronomes de tratamento"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Levam o verbo e os possessivos para a **3ª pessoa**: *Vossa Excelência **deve** apresentar **seu** parecer* (e não *deveis, vosso*).",
+      "**Vossa** para falar **com** a autoridade; **Sua** para falar **sobre** ela: *Vossa Excelência decidiu?* × *Sua Excelência, o Ministro, decidiu.*",
+      "A concordância de gênero dos adjetivos se faz com o **sexo da pessoa**: *Vossa Excelência está **atarefado/atarefada***."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Forma",
+      "Para quem (exemplos)"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Vossa Excelência",
+       "Presidente e Vice-Presidente da República, Ministros, Governadores, Prefeitos, parlamentares, Oficiais-Generais, magistrados (juízes, desembargadores, ministros de tribunais), membros do Ministério Público, Defensores"
+      ],
+      [
+       "Vossa Senhoria",
+       "Demais autoridades e particulares"
+      ],
+      [
+       "Vossa Magnificência",
+       "Reitores de universidade"
+      ],
+      [
+       "Vossa Santidade",
+       "Papa"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O manual aboliu *digníssimo* (DD) e *ilustríssimo* (Ilmo.). *Doutor* não é forma de tratamento, e sim título acadêmico: use-o apenas para quem concluiu doutorado."
+    },
+    {
+     "t": "h2",
+     "text": "3. Vocativos e fechos"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Elemento",
+      "Regra",
+      "Exemplo"
+     ],
+     "widths": [
+      0.18,
+      0.42,
+      0.4
+     ],
+     "rows": [
+      [
+       "Vocativo",
+       "**Excelentíssimo Senhor** + cargo: só para **chefes de Poder**",
+       "Excelentíssimo Senhor Presidente da República, · Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,"
+      ],
+      [
+       "Vocativo",
+       "**Senhor** + cargo: demais autoridades",
+       "Senhor Ministro, · Senhora Delegada, · Senhor Juiz,"
+      ],
+      [
+       "Fecho",
+       "**Respeitosamente**: autoridades de hierarquia **superior**",
+       "Ofício a ministro, enviado por diretor"
+      ],
+      [
+       "Fecho",
+       "**Atenciosamente**: autoridades de **mesma** hierarquia ou **inferior**",
+       "Ofício entre diretores"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Padrão ofício"
+    },
+    {
+     "t": "p",
+     "text": "Na 3ª edição, os antigos **aviso** e **memorando** passaram a ser chamados de **ofício**: um só nome para a comunicação oficial entre órgãos e autoridades. Partes principais:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Parte",
+      "Como é"
+     ],
+     "widths": [
+      0.24,
+      0.76
+     ],
+     "rows": [
+      [
+       "Identificação",
+       "Tipo e número do documento, com a sigla do órgão: *OFÍCIO Nº 123/2026/DPF/SR/PE*"
+      ],
+      [
+       "Local e data",
+       "Por extenso, à direita: *Recife, 17 de novembro de 2026.*"
+      ],
+      [
+       "Endereçamento",
+       "Tratamento, nome, cargo e endereço do destinatário: *A Sua Senhoria o Senhor / [Nome] / [Cargo] / [Endereço]*"
+      ],
+      [
+       "Assunto",
+       "Resumo do tema, em destaque: *Assunto: Solicitação de cópia de laudo.*"
+      ],
+      [
+       "Vocativo",
+       "*Senhor Superintendente,*"
+      ],
+      [
+       "Texto",
+       "Introdução (o assunto), desenvolvimento (detalhamento) e conclusão (o que se pede ou se informa)"
+      ],
+      [
+       "Fecho",
+       "*Respeitosamente,* ou *Atenciosamente,*"
+      ],
+      [
+       "Assinatura",
+       "Nome e cargo do signatário"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O manual também padroniza fonte, margens, numeração de páginas e uso de anexos. Em prova, os itens mais cobrados são os desta página: tratamento, vocativo, fecho, data por extenso e partes do documento."
+    },
+    {
+     "t": "h2",
+     "text": "5. Como as bancas cobram"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Correção de pronome de tratamento e concordância na 3ª pessoa.",
+      "Vocativo adequado ao destinatário (Excelentíssimo só para chefes de Poder).",
+      "Fecho adequado à hierarquia.",
+      "Atributos: “o trecho fere a impessoalidade / a concisão”.",
+      "Trechos de ofício com linguagem coloquial, opinião pessoal ou expressões abolidas."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. São 20 itens: o Bloco A treina o conteúdo; o Bloco B segue o estilo de prova. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "Clareza, precisão, objetividade, concisão, impessoalidade, formalidade e uso da norma-padrão são atributos da redação oficial.",
+    "comment": "**Certo.** São os atributos listados no Manual de Redação da Presidência da República.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "A impessoalidade permite que o redator de um ofício expresse suas impressões pessoais sobre o assunto.",
+    "comment": "**Errado.** O texto oficial é do órgão: impressões pessoais ferem a impessoalidade.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "Segundo a 3ª edição do Manual de Redação da Presidência da República, aviso e memorando passaram a ser denominados ofício.",
+    "comment": "**Certo.** Houve a unificação no padrão ofício.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "A forma Vossa Excelência deve ser empregada quando se fala sobre a autoridade, e não com ela.",
+    "comment": "**Errado.** Para falar sobre a autoridade usa-se Sua Excelência; Vossa é para falar com ela.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Os pronomes de tratamento exigem verbo e possessivos na terceira pessoa.",
+    "comment": "**Certo.** Vossa Excelência deve apresentar seu parecer.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "O fecho Respeitosamente é empregado em comunicações para autoridades de mesma hierarquia ou de hierarquia inferior.",
+    "comment": "**Errado.** Respeitosamente é para hierarquia superior; Atenciosamente, para mesma ou inferior.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O vocativo Excelentíssimo Senhor é reservado aos chefes de Poder.",
+    "comment": "**Certo.** Ex.: Excelentíssimo Senhor Presidente da República.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "As formas Digníssimo e Ilustríssimo devem ser empregadas no endereçamento de ofícios a altas autoridades.",
+    "comment": "**Errado.** O manual aboliu essas formas.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Doutor não é forma de tratamento, e sim título acadêmico.",
+    "comment": "**Certo.** O manual recomenda usá-lo apenas para quem tem doutorado.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "A concisão autoriza suprimir informações essenciais para que o texto fique mais curto.",
+    "comment": "**Errado.** Concisão elimina excessos, não o essencial.",
+    "group": "Bloco A · inéditas"
+   },
+   {
+    "id": "q11",
+    "answer": "C",
+    "text": "Em ofício dirigido a um Ministro de Estado, o vocativo adequado é Senhor Ministro.",
+    "comment": "**Certo.** Excelentíssimo fica restrito aos chefes de Poder.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q12",
+    "answer": "E",
+    "text": "Em ofício dirigido ao Presidente da República, o vocativo adequado é Senhor Presidente.",
+    "comment": "**Errado.** Para chefe de Poder: Excelentíssimo Senhor Presidente da República.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q13",
+    "answer": "C",
+    "text": "O emprego de termos técnicos deve ser evitado na redação oficial ou, quando indispensável, acompanhado de explicação.",
+    "comment": "**Certo.** Atende aos atributos de clareza e precisão.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q14",
+    "answer": "E",
+    "text": "A redação oficial admite linguagem coloquial e gírias quando o destinatário é colega de trabalho.",
+    "comment": "**Errado.** A redação oficial exige a norma-padrão em qualquer caso.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q15",
+    "answer": "C",
+    "text": "A precisão refere-se à escolha de palavras exatas, que evitem ambiguidade.",
+    "comment": "**Certo.** É um dos atributos do texto oficial.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q16",
+    "answer": "E",
+    "text": "Com o pronome Vossa Senhoria, o verbo deve ser empregado na segunda pessoa do plural.",
+    "comment": "**Errado.** Pronomes de tratamento pedem verbo na 3ª pessoa: Vossa Senhoria deve…",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q17",
+    "answer": "C",
+    "text": "Em correspondência dirigida a um juiz de direito, a forma de tratamento adequada é Vossa Excelência.",
+    "comment": "**Certo.** Magistrados recebem Vossa Excelência.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q18",
+    "answer": "E",
+    "text": "O fecho Atenciosamente é o adequado para comunicações dirigidas a autoridades de hierarquia superior.",
+    "comment": "**Errado.** Para hierarquia superior, usa-se Respeitosamente.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q19",
+    "answer": "C",
+    "text": "Formalidade e padronização relacionam-se à civilidade no tratamento e à uniformidade dos documentos oficiais.",
+    "comment": "**Certo.** Os documentos seguem padrões comuns de forma e linguagem.",
+    "group": "Bloco B · estilo de prova"
+   },
+   {
+    "id": "q20",
+    "answer": "E",
+    "text": "No padrão ofício, a data deve ser escrita de forma abreviada, apenas com algarismos.",
+    "comment": "**Errado.** Local e data vêm por extenso: Recife, 17 de novembro de 2026.",
+    "group": "Bloco B · estilo de prova"
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Presidência da República, Manual de Redação da Presidência da República, 3ª edição (2018).",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

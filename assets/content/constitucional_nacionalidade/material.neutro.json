@@ -1,0 +1,331 @@
+{
+ "id": "dc-nacionalidade-01",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-05"
+ ],
+ "kind": "resumo",
+ "title": "Nacionalidade (arts. 12 e 13)",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 25,
+ "pdf": "constitucional_nacionalidade.neutro.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "O que a banca cobra",
+     "text": "Hipóteses de **nato** e **naturalizado**, os **cargos privativos** e a **perda** após a **EC 131/2023**."
+    },
+    {
+     "t": "h2",
+     "text": "1. Natos"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**a)** Nascido **no Brasil**, salvo se os pais estrangeiros estiverem **a serviço do seu país**.",
+      "**b)** Nascido no exterior, pai **ou** mãe brasileiros **a serviço do Brasil** (qualquer ente, direta ou indireta).",
+      "**c)** Nascido no exterior, pai ou mãe brasileiros, **registrado em repartição brasileira** ou que venha **residir no Brasil** e **opte**, após a **maioridade**, em qualquer tempo (Justiça Federal, ato personalíssimo)."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "2. Naturalizados"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Ordinária**: na forma da lei; países de **língua portuguesa**: **1 ano** de residência + **idoneidade moral**. Ato discricionário.",
+      "**Extraordinária**: **mais de 15 anos** de residência ininterrupta + **sem condenação penal** + requerimento. Direito subjetivo.",
+      "**Português** residente, com **reciprocidade**: direitos de brasileiro, sem se naturalizar; nunca ocupa cargo de nato."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Diferenças"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Só a **Constituição** distingue nato e naturalizado.",
+      "Cargos de nato: **MP3.COM** (Ministro do STF, Presidente e Vice, Presidentes da Câmara e do Senado, Carreira diplomática, Oficial das FA, Ministro da Defesa).",
+      "Extradição: nato **nunca**; Conselho da República: **6 natos**; empresa jornalística: naturalizado **há mais de 10 anos**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Perda (EC 131/2023)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Cancelamento da naturalização** por **sentença judicial**: **fraude** no processo ou **atentado** contra a ordem constitucional e o Estado Democrático.",
+      "**Pedido expresso** à autoridade brasileira, **salvo se gerar apatridia**; quem renunciou pode **readquirir** a nacionalidade originária.",
+      "Adquirir **outra nacionalidade** não faz mais perder a brasileira."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Art. 13"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Idioma oficial: **língua portuguesa**. Símbolos: **bandeira, hino, armas e selo**. Estados, DF e Municípios **podem** ter símbolos próprios."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "title": "Resumo + mapa mental",
+   "blocks": [
+    {
+     "t": "h2",
+     "text": "Quadro rápido"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Situação",
+      "Resultado"
+     ],
+     "widths": [
+      0.56,
+      0.44
+     ],
+     "rows": [
+      [
+       "Nasceu no Brasil, pais estrangeiros turistas",
+       "Nato"
+      ],
+      [
+       "Nasceu no Brasil, pais diplomatas a serviço do seu país",
+       "Não é nato"
+      ],
+      [
+       "Nasceu no exterior, mãe a serviço do Brasil",
+       "Nato"
+      ],
+      [
+       "Nasceu no exterior, registrado no consulado",
+       "Nato"
+      ],
+      [
+       "Estrangeiro de língua portuguesa, 1 ano no Brasil",
+       "Pode naturalizar-se"
+      ],
+      [
+       "Qualquer estrangeiro, mais de 15 anos, sem condenação",
+       "Direito à naturalização"
+      ],
+      [
+       "Naturalizado quer ser senador",
+       "Pode"
+      ],
+      [
+       "Naturalizado quer ser ministro do STF",
+       "Não pode"
+      ],
+      [
+       "Brasileiro adquiriu outra nacionalidade",
+       "Não perde (EC 131)"
+      ],
+      [
+       "Fraude na naturalização",
+       "Perde, por sentença judicial"
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "Leve para a prova"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Regra: **ius soli**.",
+      "Exceção: pais **a serviço do seu país**.",
+      "Basta **um** dos pais a serviço do Brasil.",
+      "Opção: **após a maioridade**, na **Justiça Federal**.",
+      "Língua portuguesa: **1 ano**.",
+      "Extraordinária: **mais de 15 anos**.",
+      "Cargos de nato: **MP3.COM**.",
+      "Só a **Constituição** diferencia.",
+      "Perda: **sentença** ou **pedido expresso**.",
+      "Outra nacionalidade **não** gera perda."
+     ]
+    },
+    {
+     "t": "mindmap"
+    }
+   ]
+  }
+ ],
+ "mindmap": {
+  "root": "NACIONALIDADE",
+  "rootSub": "arts. 12 e 13",
+  "left": [
+   {
+    "label": "Nato: solo",
+    "items": [
+     "nasceu no Brasil",
+     "pais não a serviço",
+     "do seu país"
+    ]
+   },
+   {
+    "label": "Nato: serviço",
+    "items": [
+     "nasceu no exterior",
+     "pai ou mãe brasileiros",
+     "a serviço do Brasil"
+    ]
+   },
+   {
+    "label": "Nato: registro",
+    "items": [
+     "repartição brasileira",
+     "ou residência + opção",
+     "após a maioridade"
+    ]
+   },
+   {
+    "label": "Naturalização",
+    "items": [
+     "língua portuguesa: 1 ano",
+     "extraordinária: 15 anos",
+     "sem condenação"
+    ]
+   },
+   {
+    "label": "Portugueses",
+    "items": [
+     "residência permanente",
+     "reciprocidade",
+     "não vira nato"
+    ]
+   }
+  ],
+  "right": [
+   {
+    "label": "Cargos de nato",
+    "items": [
+     "MP3.COM",
+     "linha sucessória",
+     "Ministro da Defesa"
+    ]
+   },
+   {
+    "label": "Outras diferenças",
+    "items": [
+     "extradição",
+     "Conselho da República",
+     "empresa jornalística"
+    ]
+   },
+   {
+    "label": "Perda I",
+    "items": [
+     "só naturalizado",
+     "sentença judicial",
+     "fraude ou atentado"
+    ]
+   },
+   {
+    "label": "Perda II",
+    "items": [
+     "pedido expresso",
+     "sem apatridia",
+     "pode readquirir"
+    ]
+   },
+   {
+    "label": "Art. 13",
+    "items": [
+     "língua portuguesa",
+     "bandeira, hino",
+     "armas e selo"
+    ]
+   }
+  ]
+ },
+ "quiz": {
+  "style": "CE",
+  "banca": "questões comentadas",
+  "instructions": "Julgue os itens a seguir como certos ou errados. Se a sua banca for o Cebraspe, lembre que lá cada erro anula um acerto.",
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O filho de estrangeiros que estejam a serviço de seu país, nascido no Brasil, não é brasileiro nato.",
+    "comment": "**Certo.** É a exceção do art. 12, I, a."
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "Para ser brasileiro nato, o filho de brasileiros nascido no exterior deve, obrigatoriamente, vir residir no Brasil.",
+    "comment": "**Errado.** O registro em repartição brasileira competente também basta."
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "A naturalização extraordinária exige residência ininterrupta no Brasil há mais de quinze anos, ausência de condenação penal e requerimento.",
+    "comment": "**Certo.** Art. 12, II, b."
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O cargo de governador de estado é privativo de brasileiro nato.",
+    "comment": "**Errado.** Não consta do rol do art. 12, § 3º."
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "O cargo de oficial das Forças Armadas é privativo de brasileiro nato.",
+    "comment": "**Certo.** Art. 12, § 3º, VI."
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "Lei ordinária pode criar novas distinções entre brasileiros natos e naturalizados, desde que razoáveis.",
+    "comment": "**Errado.** Somente a Constituição pode distinguir (art. 12, § 2º)."
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Após a EC 131/2023, a mera aquisição de outra nacionalidade não acarreta a perda da nacionalidade brasileira.",
+    "comment": "**Certo.** A hipótese foi suprimida do § 4º."
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O pedido expresso de perda da nacionalidade brasileira será sempre deferido, ainda que o requerente se torne apátrida.",
+    "comment": "**Errado.** A Constituição ressalva as situações que acarretem apatridia."
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "A bandeira, o hino, as armas e o selo nacionais são símbolos da República Federativa do Brasil.",
+    "comment": "**Certo.** Art. 13, § 1º."
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "O português com residência permanente no Brasil, havendo reciprocidade, pode ser eleito Presidente da República.",
+    "comment": "**Errado.** Recebe direitos de brasileiro, mas nunca pode ocupar cargo privativo de nato."
+   }
+  ],
+  "penalty": false
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 12 e 13; EC 131/2023.",
+  "Texto e questões elaborados para o Taticum (itens inéditos)."
+ ]
+}

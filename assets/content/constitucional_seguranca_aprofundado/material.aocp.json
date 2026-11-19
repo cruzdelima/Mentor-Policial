@@ -1,0 +1,543 @@
+{
+ "id": "dc-seguranca-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-13"
+ ],
+ "kind": "aprofundado",
+ "title": "Segurança Pública (art. 144)",
+ "subtitle": "Direito Constitucional · Defesa do Estado",
+ "minutes": 150,
+ "pdf": "constitucional_seguranca_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "É o artigo da **sua futura profissão**: a banca o cobra em praticamente toda prova policial, quase sempre pela **letra da Constituição**. Decore o **caput**, a **missão de cada órgão** e a quem cada um se **subordina**. Atenção à **PEC 18/2025** (PEC da Segurança Pública), aprovada pelo Congresso e aguardando promulgação: veja o quadro da seção 6."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. O caput do art. 144"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "Art. 144. A segurança pública, **dever do Estado**, **direito e responsabilidade de todos**, é exercida para a **preservação da ordem pública** e da **incolumidade das pessoas e do patrimônio**, através dos seguintes órgãos: I – **polícia federal**; II – **polícia rodoviária federal**; III – **polícia ferroviária federal**; IV – **polícias civis**; V – **polícias militares** e **corpos de bombeiros militares**; VI – **polícias penais** federal, estaduais e distrital."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A segurança pública é **dever do Estado**, mas também **direito e responsabilidade de todos**.",
+      "As **polícias penais** foram incluídas pela **EC 104/2019**.",
+      "Para o STF, o rol de órgãos do art. 144 é **taxativo**: os Estados **não podem criar** outros órgãos policiais fora desse modelo.",
+      "As **guardas municipais** não estão nos incisos do caput: aparecem no § 8º. Mesmo assim, o STF reconhece que **integram o Sistema de Segurança Pública** (ADPF 995)."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Órgão",
+      "Mantido por",
+      "Subordinado a"
+     ],
+     "widths": [
+      0.36,
+      0.3,
+      0.34
+     ],
+     "rows": [
+      [
+       "PF, PRF e Polícia Ferroviária Federal",
+       "**União**",
+       "Poder Executivo federal"
+      ],
+      [
+       "Polícia penal federal",
+       "**União**",
+       "Poder Executivo federal"
+      ],
+      [
+       "Polícias civis, militares, bombeiros e polícias penais dos **Estados**",
+       "**Estados**",
+       "**Governador** do Estado"
+      ],
+      [
+       "Polícias civil, militar, penal e bombeiros do **DF**",
+       "**União** (art. 21, XIV)",
+       "**Governador do DF** (§ 6º)"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha do Distrito Federal",
+     "text": "As polícias do DF são **organizadas e mantidas pela União**, mas **subordinam-se ao Governador do DF**. Os vencimentos delas são fixados por **lei federal** (SV 39), e a lei federal dispõe sobre sua utilização pelo Governo do DF (art. 32, § 4º)."
+    },
+    {
+     "t": "h2",
+     "text": "2. Polícias da União"
+    },
+    {
+     "t": "h3",
+     "text": "Polícia Federal (§ 1º)"
+    },
+    {
+     "t": "p",
+     "text": "Instituída por lei como órgão **permanente**, organizado e mantido pela **União** e estruturado em **carreira**, destina-se a:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Inciso",
+      "Atribuição"
+     ],
+     "widths": [
+      0.1,
+      0.9
+     ],
+     "rows": [
+      [
+       "I",
+       "Apurar infrações penais contra a **ordem política e social** ou em detrimento de **bens, serviços e interesses da União** ou de suas **autarquias** e **empresas públicas**, assim como outras infrações cuja prática tenha **repercussão interestadual ou internacional** e exija **repressão uniforme**, segundo se dispuser em lei."
+      ],
+      [
+       "II",
+       "**Prevenir e reprimir** o **tráfico ilícito de entorpecentes** e drogas afins, o **contrabando** e o **descaminho**, sem prejuízo da ação fazendária e de outros órgãos públicos nas respectivas áreas de competência."
+      ],
+      [
+       "III",
+       "Exercer as funções de **polícia marítima, aeroportuária e de fronteiras**."
+      ],
+      [
+       "IV",
+       "Exercer, **com exclusividade**, as funções de **polícia judiciária da União**."
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "A lei que define as infrações de **repercussão interestadual ou internacional** é a **Lei 10.446/2002**. Nessas hipóteses, a PF investiga **sem prejuízo** das polícias estaduais, e o processo pode correr na **Justiça Estadual**: atribuição da PF não se confunde com competência da Justiça Federal.",
+      "A PF atua contra o tráfico **sem exclusividade**: as polícias estaduais também reprimem o tráfico. A exclusividade é só da **polícia judiciária da União** (inciso IV).",
+      "**Sociedades de economia mista** federais (como o Banco do Brasil e a Petrobras) **não** aparecem no inciso I: crimes contra elas, em regra, são investigados pela polícia civil."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinhas da PF",
+     "text": "“A PF exerce **com exclusividade** a repressão ao tráfico” › errado (a exclusividade é da polícia judiciária da União). “A PF apura crimes contra **sociedades de economia mista** federais” › errado. “A PF exerce as funções de polícia **marítima, aeroportuária e de fronteiras**” › certo."
+    },
+    {
+     "t": "h3",
+     "text": "Polícia Rodoviária Federal e Polícia Ferroviária Federal (§§ 2º e 3º)"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Ambas são órgãos **permanentes**, organizados e mantidos pela **União** e estruturados em **carreira**.",
+      "**PRF**: destina-se, na forma da lei, ao **patrulhamento ostensivo das rodovias federais**.",
+      "**Polícia Ferroviária Federal**: destina-se, na forma da lei, ao **patrulhamento ostensivo das ferrovias federais**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "3. Polícias dos Estados e do DF"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Órgão",
+      "Atribuição constitucional"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "**Polícias civis** (§ 4º)",
+       "Dirigidas por **delegados de polícia de carreira**, incumbem-lhes, **ressalvada a competência da União**, as funções de **polícia judiciária** e a **apuração de infrações penais**, **exceto as militares**."
+      ],
+      [
+       "**Polícias militares** (§ 5º)",
+       "**Polícia ostensiva** e **preservação da ordem pública**."
+      ],
+      [
+       "**Corpos de bombeiros militares** (§ 5º)",
+       "Além das atribuições definidas em lei, a execução de atividades de **defesa civil**."
+      ],
+      [
+       "**Polícias penais** (§ 5º-A)",
+       "Vinculadas ao órgão administrador do sistema penal da unidade federativa, cabe-lhes a **segurança dos estabelecimentos penais**."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Subordinação (§ 6º)",
+     "text": "As **polícias militares** e os **corpos de bombeiros militares**, **forças auxiliares e reserva do Exército**, subordinam-se, juntamente com as **polícias civis** e as **polícias penais estaduais e distrital**, aos **Governadores** dos Estados, do DF e dos Territórios."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As PMs e os bombeiros são **forças auxiliares e reserva do Exército**, mas a subordinação é ao **Governador**, não ao Comandante do Exército.",
+      "Os **militares dos Estados** seguem regras do art. 42 e, no que couber, do art. 142 (proibição de greve e sindicalização, por exemplo).",
+      "A **apuração de crimes militares** cabe à própria corporação militar (inquérito policial militar), e não à polícia civil.",
+      "O STF entende que a lavratura do **termo circunstanciado de ocorrência** não é ato exclusivo da polícia judiciária e pode ser feita por outros órgãos de segurança pública, como a PM e a PRF."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Municípios, remuneração e segurança viária"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Guardas municipais** (§ 8º): os Municípios **poderão** constituí-las (é faculdade), destinadas à **proteção de seus bens, serviços e instalações**, conforme dispuser a lei. O Estatuto Geral das Guardas Municipais é a **Lei 13.022/2014**.",
+      "**§ 7º**: a lei disciplinará a organização e o funcionamento dos órgãos de segurança pública. Essa lei é a **Lei 13.675/2018**, que criou o **Sistema Único de Segurança Pública (Susp)**.",
+      "**§ 9º**: a remuneração dos servidores policiais é fixada por **subsídio** (parcela única).",
+      "**§ 10** (EC 82/2014): a **segurança viária** compreende **educação, engenharia e fiscalização de trânsito** e compete, no âmbito dos Estados, do DF e dos Municípios, aos respectivos órgãos executivos e seus **agentes de trânsito**, estruturados em carreira."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Guardas municipais no STF",
+      "Entendimento"
+     ],
+     "widths": [
+      0.28,
+      0.72
+     ],
+     "rows": [
+      [
+       "ADPF 995 (2023)",
+       "As guardas municipais **integram o Sistema de Segurança Pública**."
+      ],
+      [
+       "RE 608.588, Tema 656 (2025)",
+       "É constitucional lei municipal que atribua às guardas **ações de segurança urbana**, inclusive **policiamento ostensivo e comunitário**, respeitadas as atribuições dos demais órgãos do art. 144 e **vedada** qualquer atividade de **polícia judiciária** (investigação). A atuação fica sujeita ao **controle externo do Ministério Público**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "5. Jurisprudência útil ao policial"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tema",
+      "Entendimento do STF"
+     ],
+     "widths": [
+      0.26,
+      0.74
+     ],
+     "rows": [
+      [
+       "Greve",
+       "É **vedado** o exercício do direito de greve, sob qualquer forma, aos **policiais civis** e a todos os servidores que atuam **diretamente na segurança pública** (ARE 654.432)."
+      ],
+      [
+       "Entrada em domicílio",
+       "Sem mandado, só com **fundadas razões** de flagrante, justificadas depois (RE 603.616)."
+      ],
+      [
+       "Algemas",
+       "Só em caso de resistência, fundado receio de fuga ou perigo, com justificativa **por escrito** (SV 11)."
+      ],
+      [
+       "Responsabilidade",
+       "Dano causado por policial em serviço: o **Estado** responde **objetivamente** (art. 37, § 6º)."
+      ],
+      [
+       "Investigação pelo MP",
+       "O MP pode investigar diretamente; a PF tem **exclusividade** apenas da **polícia judiciária da União**."
+      ]
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. PEC 18/2025: a PEC da Segurança Pública"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Situação em novembro de 2026",
+     "text": "A PEC foi aprovada pela Câmara (março de 2026) e pelo Senado, em segundo turno, em **3 de novembro de 2026**, e **aguarda promulgação** pelo Congresso. **Até a promulgação, vale o texto atual do art. 144**, que é o estudado neste material. Quando a emenda for promulgada, este PDF será atualizado no app."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Leva para a Constituição o **Sistema Único de Segurança Pública (Susp)**, hoje previsto na Lei 13.675/2018, com cooperação federativa entre os órgãos.",
+      "Cria o **Sistema de Políticas Penais**.",
+      "Amplia a atuação da **Polícia Federal** contra o **crime organizado** de atuação interestadual ou internacional.",
+      "Estende o patrulhamento da **PRF** a **ferrovias e hidrovias federais**.",
+      "Abre caminho para os Municípios terem **polícia municipal** de caráter ostensivo e comunitário.",
+      "Endurece o tratamento de **líderes de facções e milícias** (presídios de segurança máxima, regras de progressão de regime, perda de bens) e protege recursos dos fundos de segurança pública e penitenciário."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Banca e edital: provas com edital publicado **antes** da promulgação costumam cobrar o texto anterior; depois dela, o texto novo. Confira sempre a data do edital."
+    },
+    {
+     "t": "h2",
+     "text": "Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As alternativas copiam o texto da Constituição com **uma palavra trocada**: prazo (dia × noite, 2 × 3 anos), quórum (maioria absoluta × 2/3), competência (Câmara × Senado) ou expressão de exceção (“salvo” × “inclusive”).",
+      "No comando “assinale a alternativa **incorreta**”, marque C ou E em cada alternativa: a resposta é a única errada.",
+      "Quando duas alternativas parecem certas, uma delas extrapola o texto (“sempre”, “em qualquer hipótese”). Fique com a mais fiel à letra da lei.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "A segurança pública é dever do Estado, direito e responsabilidade de todos.",
+    "comment": "**Certo.** É a letra do caput do art. 144.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "As guardas municipais estão expressamente arroladas entre os incisos do caput do art. 144 da Constituição como órgãos de segurança pública.",
+    "comment": "**Errado.** Os incisos listam PF, PRF, PFF, polícias civis, PMs e bombeiros e polícias penais; as guardas aparecem no § 8º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "As polícias penais federal, estaduais e distrital foram incluídas no rol de órgãos de segurança pública por emenda constitucional.",
+    "comment": "**Certo.** EC 104/2019.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "Compete à Polícia Federal exercer, com exclusividade, a prevenção e a repressão ao tráfico ilícito de entorpecentes.",
+    "comment": "**Errado.** A exclusividade refere-se apenas às funções de polícia judiciária da União.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Compete à Polícia Federal exercer as funções de polícia marítima, aeroportuária e de fronteiras.",
+    "comment": "**Certo.** Art. 144, § 1º, III.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "A Polícia Rodoviária Federal destina-se ao patrulhamento ostensivo das rodovias e ferrovias federais.",
+    "comment": "**Errado.** As ferrovias federais cabem à Polícia Ferroviária Federal (§ 3º).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+    "comment": "**Certo.** Art. 144, § 4º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "Cabe aos corpos de bombeiros militares a polícia ostensiva e a preservação da ordem pública.",
+    "comment": "**Errado.** Essa é a missão das polícias militares; aos bombeiros cabe, além do previsto em lei, a defesa civil.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "As polícias militares e os corpos de bombeiros militares são forças auxiliares e reserva do Exército.",
+    "comment": "**Certo.** Art. 144, § 6º.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Os municípios são obrigados a constituir guardas municipais, destinadas à proteção de seus bens, serviços e instalações.",
+    "comment": "**Errado.** A Constituição diz que os municípios poderão constituí-las: é faculdade.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "A",
+    "text": "A segurança pública, nos termos do art. 144 da Constituição, é",
+    "options": [
+     "dever do Estado, direito e responsabilidade de todos.",
+     "dever exclusivo da União.",
+     "direito do Estado e dever dos cidadãos.",
+     "responsabilidade exclusiva das polícias.",
+     "dever dos Estados e dos Municípios."
+    ],
+    "comment": "**Gabarito: A.** Art. 144, caput.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "D",
+    "text": "NÃO é órgão listado nos incisos do caput do art. 144 da Constituição:",
+    "options": [
+     "a polícia rodoviária federal.",
+     "a polícia ferroviária federal.",
+     "as polícias penais federal, estaduais e distrital.",
+     "a guarda municipal.",
+     "os corpos de bombeiros militares."
+    ],
+    "comment": "**Gabarito: D.** As guardas municipais aparecem no § 8º, como faculdade dos Municípios. Mesmo assim, o STF reconhece que integram o Sistema de Segurança Pública (ADPF 995).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "C",
+    "text": "Compete à Polícia Federal exercer, com exclusividade,",
+    "options": [
+     "a prevenção e repressão ao tráfico ilícito de entorpecentes.",
+     "a apuração de infrações penais contra sociedades de economia mista federais.",
+     "as funções de polícia judiciária da União.",
+     "o patrulhamento ostensivo das rodovias federais.",
+     "a segurança dos estabelecimentos penais federais."
+    ],
+    "comment": "**Gabarito: C.** Art. 144, § 1º, IV. A repressão ao tráfico é atribuição da PF, mas sem exclusividade.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União,",
+    "options": [
+     "a polícia ostensiva e a preservação da ordem pública.",
+     "as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+     "a segurança dos estabelecimentos penais.",
+     "as atividades de defesa civil.",
+     "o patrulhamento das ferrovias estaduais."
+    ],
+    "comment": "**Gabarito: B.** Art. 144, § 4º.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "E",
+    "text": "Às polícias militares cabem",
+    "options": [
+     "a polícia judiciária e a apuração de infrações militares.",
+     "as atividades de defesa civil.",
+     "a segurança dos presídios.",
+     "a proteção de bens, serviços e instalações dos Municípios.",
+     "a polícia ostensiva e a preservação da ordem pública."
+    ],
+    "comment": "**Gabarito: E.** Art. 144, § 5º. Defesa civil é dos bombeiros; presídios, das polícias penais; bens municipais, das guardas.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército, subordinam-se",
+    "options": [
+     "aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+     "ao Comandante do Exército.",
+     "ao Ministro de Estado da Defesa.",
+     "ao Ministro da Justiça e Segurança Pública.",
+     "ao Presidente da República, em tempo de paz."
+    ],
+    "comment": "**Gabarito: A.** Art. 144, § 6º. Também se subordinam aos Governadores as polícias civis e as polícias penais estaduais e distrital.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "D",
+    "text": "Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe",
+    "options": [
+     "a apuração das infrações penais cometidas nos presídios, com exclusividade.",
+     "a escolta de autoridades.",
+     "o policiamento ostensivo nas cidades.",
+     "a segurança dos estabelecimentos penais.",
+     "a polícia judiciária da execução penal."
+    ],
+    "comment": "**Gabarito: D.** Art. 144, § 5º-A (EC 104/2019).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "C",
+    "text": "Os Municípios poderão constituir guardas municipais destinadas",
+    "options": [
+     "à polícia judiciária municipal.",
+     "ao patrulhamento das rodovias municipais, com exclusividade.",
+     "à proteção de seus bens, serviços e instalações, conforme dispuser a lei.",
+     "à investigação de crimes de menor potencial ofensivo.",
+     "à defesa civil, em substituição aos bombeiros."
+    ],
+    "comment": "**Gabarito: C.** Art. 144, § 8º. O STF admite que façam policiamento ostensivo e comunitário, mas veda qualquer atividade de investigação (Tema 656).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "E",
+    "text": "A Polícia Rodoviária Federal destina-se, na forma da lei,",
+    "options": [
+     "à polícia judiciária nas rodovias federais.",
+     "ao patrulhamento ostensivo das rodovias e ferrovias federais.",
+     "à fiscalização das fronteiras.",
+     "ao policiamento das hidrovias estaduais.",
+     "ao patrulhamento ostensivo das rodovias federais."
+    ],
+    "comment": "**Gabarito: E.** Art. 144, § 2º. As ferrovias federais cabem à Polícia Ferroviária Federal (§ 3º).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "B",
+    "text": "Considere crime de furto de equipamentos de uma agência própria dos Correios, empresa pública federal. A apuração dessa infração cabe, em regra,",
+    "options": [
+     "à polícia civil do Estado.",
+     "à Polícia Federal.",
+     "à Polícia Rodoviária Federal.",
+     "à guarda municipal.",
+     "à polícia militar."
+    ],
+    "comment": "**Gabarito: B.** Infrações em detrimento de bens de empresa pública federal são atribuição da PF (art. 144, § 1º, I). Se fosse sociedade de economia mista, como o Banco do Brasil, a atribuição seria da polícia civil.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, arts. 21, XIV, 32, 37, § 6º, 42 e 144; EC 82/2014 e EC 104/2019.",
+  "Leis 10.446/2002, 13.022/2014 (Estatuto Geral das Guardas Municipais) e 13.675/2018 (Susp).",
+  "Supremo Tribunal Federal: ADPF 995; RE 608.588 (Tema 656); ARE 654.432 (Tema 541); RE 603.616; Súmulas Vinculantes 11 e 39.",
+  "PEC 18/2025 (PEC da Segurança Pública): aprovada pelo Senado em 3/11/2026, aguardando promulgação na data deste material.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

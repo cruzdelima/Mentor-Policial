@@ -1,0 +1,578 @@
+{
+ "id": "dc-remedios-02",
+ "version": "0.1.0",
+ "status": "Em revisão pelo autor",
+ "subjectId": "DC",
+ "topicIds": [
+  "DC-03"
+ ],
+ "kind": "aprofundado",
+ "title": "Remédios constitucionais",
+ "subtitle": "Direito Constitucional · Direitos fundamentais",
+ "minutes": 150,
+ "pdf": "constitucional_remedios_aprofundado.aocp.pdf",
+ "sections": [
+  {
+   "id": "teoria",
+   "title": "Teoria",
+   "blocks": [
+    {
+     "t": "callout",
+     "style": "exam",
+     "title": "Como estudar este material",
+     "text": "Remédios constitucionais são as **ações** que a Constituição criou para proteger direitos fundamentais. A banca cobra três coisas: **qual remédio cabe** em cada situação, **quem pode propor** e as **súmulas** do STF. Monte na cabeça a pergunta-chave de cada um: liberdade de ir e vir? **HC**. Informação sobre mim? **HD**. Falta lei? **MI**. Ato lesivo ao patrimônio público? **Ação popular**. Sobrou direito líquido e certo? **MS**."
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Sua banca: Instituto AOCP",
+     "text": "Questões de **múltipla escolha com 5 alternativas (A a E)**, sem desconto por erro: **nunca deixe em branco**. Em Direito Constitucional, o AOCP cobra sobretudo a **letra da Constituição**: as alternativas reproduzem artigos com **uma palavra trocada** (prazo, quórum, competência, “salvo”/“inclusive”). É frequente o comando “**de acordo com a Constituição Federal**, assinale a alternativa correta” e também “assinale a alternativa **incorreta**”. Jurisprudência aparece menos que no Cebraspe, mas súmulas vinculantes conhecidas caem."
+    },
+    {
+     "t": "h2",
+     "text": "1. Visão geral"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Remédio",
+      "Protege",
+      "Quem propõe",
+      "Custas"
+     ],
+     "widths": [
+      0.2,
+      0.36,
+      0.26,
+      0.18
+     ],
+     "rows": [
+      [
+       "Habeas corpus (LXVIII)",
+       "Liberdade de **locomoção**",
+       "**Qualquer pessoa**, sem advogado",
+       "**Gratuito**"
+      ],
+      [
+       "Mandado de segurança (LXIX e LXX)",
+       "Direito **líquido e certo** não amparado por HC ou HD",
+       "Titular do direito, com advogado; coletivo: legitimados do LXX",
+       "Há custas"
+      ],
+      [
+       "Mandado de injunção (LXXI)",
+       "Exercício de direitos inviabilizado por **falta de norma** regulamentadora",
+       "Titular do direito; coletivo: legitimados da lei",
+       "Há custas"
+      ],
+      [
+       "Habeas data (LXXII)",
+       "Acesso e retificação de **dados da própria pessoa**",
+       "O titular dos dados",
+       "**Gratuito**"
+      ],
+      [
+       "Ação popular (LXXIII)",
+       "**Patrimônio público**, moralidade administrativa, meio ambiente, patrimônio histórico e cultural",
+       "Qualquer **cidadão** (eleitor)",
+       "Isento, salvo **má-fé**"
+      ]
+     ]
+    },
+    {
+     "t": "note",
+     "text": "O art. 5º, LXXVII, torna **gratuitas** as ações de **habeas corpus** e **habeas data** e, na forma da lei, os atos necessários ao exercício da cidadania."
+    },
+    {
+     "t": "h2",
+     "text": "2. Habeas corpus"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "LXVIII – conceder-se-á habeas corpus sempre que alguém sofrer ou se achar **ameaçado** de sofrer violência ou coação em sua **liberdade de locomoção**, por **ilegalidade ou abuso de poder**."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Espécie",
+      "Situação",
+      "Resultado"
+     ],
+     "widths": [
+      0.22,
+      0.42,
+      0.36
+     ],
+     "rows": [
+      [
+       "**Preventivo**",
+       "Ameaça de prisão ilegal (“achar-se ameaçado”)",
+       "**Salvo-conduto**"
+      ],
+      [
+       "**Repressivo** (liberatório)",
+       "Prisão ou constrangimento já ocorrido",
+       "**Alvará de soltura**"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Impetrante** (quem pede) pode ser **qualquer pessoa**, física ou jurídica, nacional ou estrangeira, **sem advogado** e sem formalidade. O **Ministério Público** também pode impetrar. **Paciente** (quem sofre a coação) é sempre pessoa física.",
+      "O juiz ou tribunal pode conceder habeas corpus **de ofício** quando verificar a ilegalidade.",
+      "Cabe contra ato de autoridade e também de **particular** (ex.: hospital que retém paciente por falta de pagamento).",
+      "O STF admite **habeas corpus coletivo** (HC 143.641: prisão domiciliar de gestantes e mães de crianças).",
+      "**Punições disciplinares militares**: o art. 142, § 2º, diz que não cabe HC. O STF entende que cabe para examinar a **legalidade** (competência, cerimonial, pena prevista em lei), mas **não** o **mérito** da punição."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Súmula do STF",
+      "Não cabe habeas corpus…"
+     ],
+     "widths": [
+      0.18,
+      0.82
+     ],
+     "rows": [
+      [
+       "693",
+       "contra decisão condenatória a pena de **multa**, ou relativa a processo em curso por infração penal a que a pena pecuniária seja a única cominada."
+      ],
+      [
+       "694",
+       "contra a imposição da pena de **exclusão de militar** ou de **perda de patente** ou de função pública."
+      ],
+      [
+       "695",
+       "quando já **extinta** a pena privativa de liberdade."
+      ],
+      [
+       "691",
+       "contra decisão do relator que, em HC requerido a tribunal superior, indefere a liminar (há exceções em caso de flagrante ilegalidade)."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "Pegadinha: HC para direitos que não são de locomoção",
+     "text": "HC protege **só a liberdade de ir, vir e permanecer**. Para impedir a quebra de sigilo bancário ou a cobrança de tributo, o caminho é o **mandado de segurança**. A banca também diz que o HC exige advogado: errado."
+    },
+    {
+     "t": "h2",
+     "text": "3. Mandado de segurança"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "LXIX – conceder-se-á mandado de segurança para proteger **direito líquido e certo**, **não amparado por habeas corpus ou habeas data**, quando o responsável pela ilegalidade ou abuso de poder for **autoridade pública** ou **agente de pessoa jurídica no exercício de atribuições do Poder Público**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Direito líquido e certo** é o comprovado de plano, por **prova documental pré-constituída**. Não há fase de produção de provas (dilação probatória).",
+      "Tem caráter **residual**: só cabe se não couber HC nem HD.",
+      "**Prazo**: **120 dias** a contar da ciência do ato (Lei 12.016/2009). É prazo **decadencial**, e o STF o considera constitucional (Súmula 632).",
+      "Exige **advogado** (capacidade postulatória).",
+      "Cabe contra ato de dirigente de **concessionária** ou de **universidade particular** no exercício de função delegada."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Súmula do STF",
+      "Regra"
+     ],
+     "widths": [
+      0.18,
+      0.82
+     ],
+     "rows": [
+      [
+       "266",
+       "Não cabe mandado de segurança contra **lei em tese**."
+      ],
+      [
+       "267",
+       "Não cabe contra ato judicial passível de **recurso** ou correição."
+      ],
+      [
+       "268",
+       "Não cabe contra decisão judicial com **trânsito em julgado**."
+      ],
+      [
+       "269 e 271",
+       "MS **não é substitutivo de ação de cobrança**; não produz efeitos patrimoniais quanto a período pretérito."
+      ],
+      [
+       "510",
+       "Praticado o ato por autoridade no exercício de **competência delegada**, contra ela cabe o mandado de segurança."
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Mandado de segurança coletivo (LXX)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Legitimado",
+      "Requisito"
+     ],
+     "widths": [
+      0.46,
+      0.54
+     ],
+     "rows": [
+      [
+       "**Partido político**",
+       "Com **representação no Congresso Nacional** (basta um parlamentar)"
+      ],
+      [
+       "**Organização sindical**, **entidade de classe** ou **associação**",
+       "Legalmente constituída e em funcionamento **há pelo menos 1 ano**, em defesa dos interesses de seus **membros ou associados**"
+      ]
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "O requisito de **1 ano** de funcionamento, para o STF, alcança apenas as **associações**, não os sindicatos e as entidades de classe.",
+      "**Súmula 629**: a impetração por entidade de classe em favor dos associados **independe da autorização** destes (é substituição processual).",
+      "**Súmula 630**: a entidade pode impetrar ainda que a pretensão interesse a **apenas uma parte** da categoria.",
+      "O **Ministério Público** e a Defensoria **não** constam do rol constitucional do MS coletivo."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "4. Mandado de injunção"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "LXXI – conceder-se-á mandado de injunção sempre que a **falta de norma regulamentadora** torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à **nacionalidade**, à **soberania** e à **cidadania**."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Combate a **omissão** do poder público em regulamentar normas constitucionais de **eficácia limitada**.",
+      "Regulamentado pela **Lei 13.300/2016**. A decisão tem, em regra, eficácia **inter partes** (só entre as partes), mas pode ter eficácia **ultra partes** ou **erga omnes** quando isso for inerente ou indispensável ao exercício do direito.",
+      "O STF adota a posição **concretista**: além de declarar a omissão, viabiliza o exercício do direito. Foi assim com a **greve dos servidores públicos**, à qual se mandou aplicar, no que couber, a lei de greve do setor privado (MI 670, 708 e 712).",
+      "**MI coletivo** (Lei 13.300/2016): **Ministério Público**, **partido político** com representação no Congresso, **organização sindical**, **entidade de classe** ou **associação** (1 ano) e **Defensoria Pública**."
+     ]
+    },
+    {
+     "t": "callout",
+     "style": "trap",
+     "title": "MI × ADO",
+     "text": "Os dois combatem omissão. O **mandado de injunção** é ação de **qualquer titular** do direito, para o **caso concreto**. A **ação direta de inconstitucionalidade por omissão** (ADO) é controle **abstrato**, proposta só pelos legitimados do art. 103."
+    },
+    {
+     "t": "h2",
+     "text": "5. Habeas data"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "LXXII – conceder-se-á habeas data: a) para assegurar o **conhecimento de informações relativas à pessoa do impetrante**, constantes de registros ou bancos de dados de **entidades governamentais** ou de **caráter público**; b) para a **retificação de dados**, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Protege dados **da própria pessoa**. Para obter informações de **terceiros** ou de interesse geral, o caminho é o **mandado de segurança** ou o pedido com base na Lei de Acesso à Informação.",
+      "A Lei 9.507/1997 acrescenta uma hipótese: a **anotação**, nos assentamentos, de explicação ou contestação sobre dado verdadeiro, mas justificável e que esteja sob pendência judicial ou amigável.",
+      "Exige **prévia recusa** administrativa ou demora em responder: sem ela, falta interesse de agir (Súmula 2 do STJ).",
+      "Bancos de dados de **caráter público** incluem os privados cujos dados são transmitidos a terceiros (ex.: serviços de proteção ao crédito).",
+      "É **gratuito** e exige **advogado**."
+     ]
+    },
+    {
+     "t": "h2",
+     "text": "6. Ação popular"
+    },
+    {
+     "t": "callout",
+     "style": "key",
+     "title": "Texto da Constituição",
+     "text": "LXXIII – **qualquer cidadão** é parte legítima para propor ação popular que vise a **anular ato lesivo** ao **patrimônio público** ou de entidade de que o Estado participe, à **moralidade administrativa**, ao **meio ambiente** e ao **patrimônio histórico e cultural**, ficando o autor, **salvo comprovada má-fé**, isento de custas judiciais e do ônus da sucumbência."
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "**Cidadão** é o brasileiro no gozo dos direitos políticos: a prova é o **título de eleitor**. O eleitor de 16 anos pode propor.",
+      "**Pessoa jurídica** não pode propor ação popular (**Súmula 365** do STF). O **Ministério Público** também não propõe, mas acompanha a ação e pode assumi-la se o autor desistir.",
+      "Não é preciso provar prejuízo financeiro: basta a lesão à **moralidade administrativa**.",
+      "Regulamentada pela **Lei 4.717/1965**; o prazo para propor é de **5 anos**."
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Não confunda com a **ação civil pública** (art. 129, III), proposta pelo Ministério Público e outros legitimados para proteger o patrimônio público e social, o meio ambiente e outros interesses difusos e coletivos. Ela não está entre os remédios do art. 5º."
+    },
+    {
+     "t": "h2",
+     "text": "7. Direito de petição e de certidão"
+    },
+    {
+     "t": "p",
+     "text": "O art. 5º, XXXIV, assegura a todos, **independentemente do pagamento de taxas**: a) o **direito de petição** aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder; b) a **obtenção de certidões** em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal. Não é ação judicial: dispensa advogado. Se a certidão for negada, cabe **mandado de segurança** (e não habeas data)."
+    },
+    {
+     "t": "h2",
+     "text": "8. Como o Instituto AOCP cobra"
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "As alternativas copiam o texto da Constituição com **uma palavra trocada**: prazo (dia × noite, 2 × 3 anos), quórum (maioria absoluta × 2/3), competência (Câmara × Senado) ou expressão de exceção (“salvo” × “inclusive”).",
+      "No comando “assinale a alternativa **incorreta**”, marque C ou E em cada alternativa: a resposta é a única errada.",
+      "Quando duas alternativas parecem certas, uma delas extrapola o texto (“sempre”, “em qualquer hipótese”). Fique com a mais fiel à letra da lei.",
+      "Sem desconto por erro: elimine o que souber e marque a mais provável."
+     ]
+    },
+    {
+     "t": "bullets",
+     "items": [
+      "Caso concreto: “a ação adequada para… é o habeas data / mandado de segurança”.",
+      "Legitimidade: partido **com representação no Congresso**, associação **com 1 ano**, ação popular só por **cidadão**.",
+      "Gratuidade: só **HC e HD** são gratuitos; ação popular é isenta **salvo má-fé**.",
+      "Súmulas: 266 (lei em tese), 365 (PJ não propõe ação popular), 693 a 695 (HC), 629 e 630 (MS coletivo)."
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": {
+  "style": "MISTO",
+  "banca": "certo/errado + padrão Instituto AOCP",
+  "instructions": "O Bloco A treina o conteúdo com itens de certo ou errado. O Bloco B segue o padrão do Instituto AOCP: múltipla escolha com 5 alternativas e uma única resposta. Não há desconto por erro: não deixe questões em branco.",
+  "penalty": false,
+  "questions": [
+   {
+    "id": "q1",
+    "answer": "C",
+    "text": "O habeas corpus pode ser impetrado por qualquer pessoa, em seu favor ou de outrem, independentemente de advogado.",
+    "comment": "**Certo.** A ação é informal e dispensa capacidade postulatória.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q2",
+    "answer": "E",
+    "text": "O habeas corpus é a ação adequada para impugnar a quebra de sigilo bancário determinada em inquérito, por violar a privacidade do investigado.",
+    "comment": "**Errado.** O HC protege apenas a liberdade de locomoção; para o sigilo bancário cabe mandado de segurança.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q3",
+    "answer": "C",
+    "text": "O habeas corpus preventivo é cabível quando alguém se acha ameaçado de sofrer coação ilegal em sua liberdade de locomoção.",
+    "comment": "**Certo.** Nesse caso, expede-se salvo-conduto.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q4",
+    "answer": "E",
+    "text": "O mandado de segurança admite ampla produção de provas, inclusive testemunhal, para demonstrar a liquidez e a certeza do direito.",
+    "comment": "**Errado.** O direito líquido e certo deve ser provado de plano, por documentos; não há dilação probatória.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q5",
+    "answer": "C",
+    "text": "Partido político com representação no Congresso Nacional pode impetrar mandado de segurança coletivo.",
+    "comment": "**Certo.** É o art. 5º, LXX, a.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q6",
+    "answer": "E",
+    "text": "As ações de habeas corpus, habeas data e mandado de segurança são gratuitas, por expressa disposição constitucional.",
+    "comment": "**Errado.** São gratuitos o habeas corpus e o habeas data. O mandado de segurança não.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q7",
+    "answer": "C",
+    "text": "O mandado de injunção é cabível quando a falta de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais.",
+    "comment": "**Certo.** É a letra do art. 5º, LXXI.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q8",
+    "answer": "E",
+    "text": "O habeas data destina-se a obter informações de interesse coletivo ou geral mantidas por órgãos públicos.",
+    "comment": "**Errado.** O habeas data assegura informações relativas à pessoa do impetrante.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q9",
+    "answer": "C",
+    "text": "Na ação popular, o autor fica isento de custas judiciais e do ônus da sucumbência, salvo comprovada má-fé.",
+    "comment": "**Certo.** É a parte final do art. 5º, LXXIII.",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "q10",
+    "answer": "E",
+    "text": "Pessoa jurídica pode propor ação popular para anular ato lesivo ao patrimônio público.",
+    "comment": "**Errado.** Só o cidadão pode propor ação popular (Súmula 365 do STF).",
+    "group": "Bloco A · treino do conteúdo (certo ou errado)"
+   },
+   {
+    "id": "m11",
+    "answer": "C",
+    "text": "Conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação",
+    "options": [
+     "em qualquer direito líquido e certo, por ilegalidade ou abuso de poder.",
+     "em seu direito de obter informações de órgãos públicos.",
+     "em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+     "em sua liberdade de reunião e associação.",
+     "em direitos inerentes à nacionalidade e à cidadania."
+    ],
+    "comment": "**Gabarito: C.** Art. 5º, LXVIII: o habeas corpus protege apenas a liberdade de locomoção.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m12",
+    "answer": "A",
+    "text": "O mandado de segurança coletivo pode ser impetrado por",
+    "options": [
+     "partido político com representação no Congresso Nacional.",
+     "qualquer cidadão no gozo dos direitos políticos.",
+     "Ministério Público e Defensoria Pública, apenas.",
+     "associação constituída há pelo menos seis meses.",
+     "qualquer pessoa jurídica de direito privado."
+    ],
+    "comment": "**Gabarito: A.** Art. 5º, LXX: partido político com representação no Congresso; organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m13",
+    "answer": "E",
+    "text": "São gratuitas, por expressa disposição constitucional, as ações de",
+    "options": [
+     "mandado de segurança e habeas corpus.",
+     "ação popular e habeas data.",
+     "mandado de injunção e habeas corpus.",
+     "mandado de segurança e habeas data.",
+     "habeas corpus e habeas data."
+    ],
+    "comment": "**Gabarito: E.** Art. 5º, LXXVII: são gratuitas as ações de habeas corpus e habeas data. Na ação popular, o autor é isento de custas, salvo má-fé.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m14",
+    "answer": "B",
+    "text": "O mandado de injunção será concedido sempre que",
+    "options": [
+     "houver ilegalidade praticada por autoridade pública.",
+     "a falta de norma regulamentadora tornar inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+     "for necessário conhecer informações relativas à pessoa do impetrante.",
+     "houver ato lesivo ao patrimônio público.",
+     "a liberdade de locomoção estiver ameaçada."
+    ],
+    "comment": "**Gabarito: B.** É a letra do art. 5º, LXXI.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m15",
+    "answer": "D",
+    "text": "Para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, a Constituição prevê o",
+    "options": [
+     "mandado de segurança.",
+     "mandado de injunção.",
+     "direito de petição.",
+     "habeas data.",
+     "habeas corpus."
+    ],
+    "comment": "**Gabarito: D.** Art. 5º, LXXII, a.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m16",
+    "answer": "A",
+    "text": "Na ação popular, o autor",
+    "options": [
+     "fica, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.",
+     "deve recolher custas ao final, se vencido.",
+     "deve ser pessoa jurídica de direito público.",
+     "precisa ser representado pelo Ministério Público.",
+     "deve comprovar prejuízo financeiro ao erário."
+    ],
+    "comment": "**Gabarito: A.** Art. 5º, LXXIII. A ação é proposta por qualquer cidadão e não exige dano financeiro: basta a lesão à moralidade administrativa.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m17",
+    "answer": "C",
+    "text": "Segundo a jurisprudência do STF, NÃO cabe habeas corpus",
+    "options": [
+     "contra ato de particular.",
+     "para trancar ação penal sem justa causa.",
+     "quando já extinta a pena privativa de liberdade.",
+     "contra prisão preventiva ilegal.",
+     "na forma preventiva."
+    ],
+    "comment": "**Gabarito: C.** Súmula 695 do STF. O HC cabe contra particular e na forma preventiva (salvo-conduto).",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m18",
+    "answer": "E",
+    "text": "Não cabe mandado de segurança contra",
+    "options": [
+     "ato de dirigente de concessionária de serviço público.",
+     "ato de autoridade federal.",
+     "ato administrativo ilegal.",
+     "ato de autoridade praticado por delegação.",
+     "lei em tese."
+    ],
+    "comment": "**Gabarito: E.** Súmula 266 do STF. As demais situações admitem MS.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m19",
+    "answer": "B",
+    "text": "Assinale a alternativa correta sobre o habeas corpus.",
+    "options": [
+     "Depende de advogado.",
+     "Pode ser impetrado por qualquer pessoa, em seu favor ou de outrem.",
+     "Tem prazo decadencial de 120 dias.",
+     "Só pode ser impetrado por brasileiros.",
+     "Não pode ser concedido de ofício pelo juiz."
+    ],
+    "comment": "**Gabarito: B.** O HC é informal: qualquer pessoa impetra, inclusive estrangeiro, sem advogado, e o juiz pode concedê-lo de ofício. O prazo de 120 dias é do MS.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   },
+   {
+    "id": "m20",
+    "answer": "D",
+    "text": "O prazo para impetrar mandado de segurança é de",
+    "options": [
+     "30 dias da publicação do ato.",
+     "60 dias da ciência do ato.",
+     "90 dias da publicação do ato.",
+     "120 dias contados da ciência, pelo interessado, do ato impugnado.",
+     "5 anos, contados da prática do ato."
+    ],
+    "comment": "**Gabarito: D.** Lei 12.016/2009, art. 23. Cinco anos é o prazo da ação popular.",
+    "group": "Bloco B · padrão Instituto AOCP (múltipla escolha)"
+   }
+  ]
+ },
+ "sources": [
+  "Constituição da República Federativa do Brasil de 1988, art. 5º, XXXIV e LXVIII a LXXVII; art. 142, § 2º.",
+  "Leis 12.016/2009 (mandado de segurança), 13.300/2016 (mandado de injunção), 9.507/1997 (habeas data) e 4.717/1965 (ação popular).",
+  "Súmulas do STF 266, 267, 268, 269, 271, 365, 510, 629, 630, 632, 691, 693, 694 e 695; Súmula 2 do STJ; HC 143.641; MI 670, 708 e 712.",
+  "Os 20 itens foram escritos para o Taticum. O Bloco B segue o padrão de cobrança da banca, mas não reproduz questões de provas."
+ ]
+}

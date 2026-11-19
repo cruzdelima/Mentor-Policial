@@ -180,7 +180,8 @@ class Done {
 }
 
 class QuizAttempt {
-  QuizAttempt({required this.date, required this.answers, required this.correct, required this.wrong, required this.blank});
+  QuizAttempt({required this.date, required this.answers, required this.correct, required this.wrong, required this.blank, int? penalized})
+      : penalized = penalized ?? wrong;
 
   factory QuizAttempt.fromJson(Map<String, dynamic> j) => QuizAttempt(
         date: parseIso(j['date'] as String),
@@ -188,6 +189,7 @@ class QuizAttempt {
         correct: (j['correct'] as num).toInt(),
         wrong: (j['wrong'] as num).toInt(),
         blank: (j['blank'] as num).toInt(),
+        penalized: (j['penalized'] as num?)?.toInt(),
       );
 
   final DateTime date;
@@ -196,10 +198,13 @@ class QuizAttempt {
   final int wrong;
   final int blank;
 
-  int get net => correct - wrong;
+  /// Erros que descontam (itens certo/errado no padrão Cebraspe). Na múltipla escolha, o erro não desconta.
+  final int penalized;
+
+  int get net => correct - penalized;
 
   Map<String, dynamic> toJson() =>
-      {'date': isoDate(date), 'answers': answers, 'correct': correct, 'wrong': wrong, 'blank': blank};
+      {'date': isoDate(date), 'answers': answers, 'correct': correct, 'wrong': wrong, 'blank': blank, 'penalized': penalized};
 }
 
 /// Material adicionado pelo próprio aluno (link de videoaula, PDF no computador, site).
