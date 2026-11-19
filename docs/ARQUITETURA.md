@@ -87,6 +87,25 @@ bash supabase/tests/rodar.sh
 2. Faça o merge na `main`. O workflow testa, gera os instaladores e cria o Release `vX.Y.Z` sozinho.
 3. Os apps instalados mostram a faixa de atualização.
 
+## Materiais por banca
+
+Cada material tem até três versões, geradas por `tool/content/build_content.py`:
+
+| Versão | Arquivos | Quem recebe | Questões |
+|---|---|---|---|
+| Cebraspe (base) | `material.json`, `<pasta>.pdf` | Carreiras e concursos do Cebraspe (PF, PRF, PPF) | 20/10 itens certo/errado; o erro anula um acerto |
+| Neutra | `material.neutro.json`, `<pasta>.neutro.pdf` | Carreiras cuja banca varia por estado (PC, PM, BM, PP, GCM no ciclo básico) e bancas sem versão própria | Os mesmos itens, sem desconto por erro e sem citar banca |
+| Instituto AOCP | `material.aocp.json`, `<pasta>.aocp.pdf` | Concursos do AOCP (CFO CBMPE e CFO PMPE 2026) | Bloco A certo/errado + Bloco B de múltipla escolha (5 alternativas) |
+
+* O app escolhe a versão pela banca do concurso pós-edital ou, no ciclo básico, pela banca do último concurso da carreira
+  (`AppController.bancaName` → `bancaProfileOf`, em `lib/core/bancas.dart`). Sem a versão pedida, usa a neutra.
+* O texto dos módulos é escrito na versão Cebraspe. `tool/content/bancas.py` gera as outras com regras de texto e acrescenta o
+  quadro "Sua banca" e as dicas de cobrança da banca. As questões de múltipla escolha ficam em `me_aocp_<matéria>.py`.
+* **Material novo**: escreva o módulo como sempre e acrescente o Bloco B do AOCP (10 questões no aprofundado, 5 no resumo) em
+  `me_aocp_<matéria>.py`. **Banca nova** (FGV, Vunesp…): crie o perfil em `bancas.py` e em `lib/core/bancas.dart`, as regras de texto e o
+  arquivo `me_<perfil>_<matéria>.py`.
+* O dono confere as versões no leitor do material (VERSÃO POR BANCA); o editor de concursos mostra qual versão a banca digitada recebe.
+
 ## Decisões registradas
 
 | Decisão | Motivo |
